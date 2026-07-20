@@ -64,17 +64,65 @@ input[type="file"] {
   border-radius: 4px;
 }
 .status-todo {
-  color: #5c6570;
+  color: #a16207;
 }
 .status-doing {
-  color: #1a4f8b;
+  color: #a16207;
   font-weight: 600;
 }
 .status-done {
-  color: #1b6b3a;
+  color: #15803d;
+  font-weight: 600;
 }
 .status-blocked {
-  color: #9a3412;
+  color: #a16207;
+}
+.badge-done {
+  display: inline-block;
+  min-width: 3.2rem;
+  padding: 0.1rem 0.4rem;
+  margin-right: 0.4rem;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #14532d;
+  background: #bbf7d0;
+}
+.badge-pending {
+  display: inline-block;
+  min-width: 3.2rem;
+  padding: 0.1rem 0.4rem;
+  margin-right: 0.4rem;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #854d0e;
+  background: #fef08a;
+}
+.node-done .node-title {
+  color: #166534;
+}
+.node-pending .node-title {
+  color: #854d0e;
+}
+.node-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.15rem 0;
+}
+.legend {
+  display: flex;
+  gap: 1rem;
+  margin: 0.75rem 0 1rem;
+  font-size: 0.9rem;
+}
+.summary-bar {
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
 }
 .tree ul {
   list-style: none;
@@ -87,7 +135,7 @@ input[type="file"] {
   border-left: none;
 }
 .tree li {
-  margin: 0.35rem 0;
+  margin: 0.45rem 0;
   padding-left: 0.75rem;
 }
 .tree .node-title {

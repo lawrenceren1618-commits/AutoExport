@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "OFCE Admin · office-cp-ofce",
-  description: "Order Freight Customs Export — office deployment",
+  title: "AutoExport Admin",
+  description: "AutoExport — office admin (progress tree backend only)",
 };
 
 export default function RootLayout({

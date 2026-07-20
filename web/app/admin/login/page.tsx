@@ -37,7 +37,11 @@ export default function AdminLoginPage() {
     <main>
       <div className="card">
         <h1>后台登录</h1>
-        <p className="muted">仅办公室管理；开发环境未设口令时可直接进入。</p>
+        <p className="muted">
+          口令见 <code>web/.env.local</code> 中的{" "}
+          <code>OFCE_ADMIN_PASSWORD</code>
+          。未配置时仅开发模式可直接进入。
+        </p>
         <form onSubmit={onSubmit}>
           <p>
             <label htmlFor="password">口令</label>

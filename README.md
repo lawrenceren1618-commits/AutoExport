@@ -1,43 +1,38 @@
 ﻿# AutoExport
 
-办公室端：订单 / 出货 / 货代 / 报关 — 自动化导出与云端后台。
+办公室端项目总文件夹名：**AutoExport**。
 
-## 与家里项目隔离
+订单 / 出货 / 货代 / 报关 — 本地脚手架 + 云端后台。
 
-| 平台 | 名称 |
-|------|------|
-| GitHub | `AutoExport` |
-| Vercel | 同名项目，Root Directory = `web` |
-| Supabase | 独立项目 `AutoExport` |
+## 命名约定（请分清）
 
-Git 提交身份（本仓库 local）：**Office CP** / `lawrenceren1618@gmail.com`。
-
-**推送认证**：办公室用 SSH 别名 `github.com-autoexport`（与家里默认 `github.com` 密钥分离）。材料：[docs/ssh/](docs/ssh/)。
+| 项 | 值 | 说明 |
+|----|-----|------|
+| **总文件夹 / 仓库 / Vercel / Supabase 项目名** | `AutoExport` | 产品与云端项目名 |
+| **Git 提交人** | `Office CP`（office-cp） | **不改**；仅影响 commit 作者显示 |
+| **办公室 SSH 别名** | `github.com-office-cp` | 区分家里机推送，与提交人一致保留 office-cp |
 
 ## 快速开始
 
-### 1. GitHub remote（办公室 SSH）
-
-1. 公钥已在 GitHub（或见 `docs/ssh/*.pub`）
-2. 网页新建 Private 仓库 **`AutoExport`**
-3. 绑定 remote：
+### GitHub（SSH 仍用 office-cp 别名）
 
 ```powershell
-git remote add origin git@github.com-autoexport:lawrenceren1618-commits/AutoExport.git
+cd C:\Users\Administrator\.cursor\Cursor-projects\AutoExport
+ssh -T git@github.com-office-cp
+git remote add origin git@github.com-office-cp:lawrenceren1618-commits/AutoExport.git
 git branch -M main
 git add .
 git commit -m "Initial AutoExport scaffold"
 git push -u origin main
-ssh -T git@github.com-autoexport
 ```
 
-### 2–4. Supabase + Vercel
+### Supabase / Vercel
 
-见 [docs/CLOUD_LINK.md](docs/CLOUD_LINK.md)。
+项目名均建为 **`AutoExport`**（勿与家里项目同名）。详见 [docs/CLOUD_LINK_OFFICE.md](docs/CLOUD_LINK_OFFICE.md)。
 
-1. Supabase **新建**项目名 `AutoExport` → 跑 `supabase/migrations/…init.sql` → 复制密钥  
-2. `web/.env.local`：`AUTOEXPORT_ENV=office` + 办公室密钥  
-3. Vercel Import 仓库 `AutoExport`，**Root Directory = `web`**
+Vercel Root Directory = `web`。
+
+本地：
 
 ```powershell
 cd web
@@ -45,9 +40,6 @@ copy .env.local.example .env.local
 npm install
 npm run dev
 ```
-
-- `/admin/progress` 目标树（仅后台）  
-- `/admin/master-import` 总表 H01  
 
 ## 业务架构
 
