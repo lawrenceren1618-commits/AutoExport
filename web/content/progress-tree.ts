@@ -69,7 +69,7 @@ export const PROGRESS_TREE: ProgressNode[] = [
     title: "GitHub 仓库 AutoExport 创建 + 首次 push",
     status: "done",
     module: "P0",
-    nextAction: "已链接 origin/main（github.com-office-cp）",
+    nextAction: "已推送到 origin/main",
     sort: 12,
   },
   {
