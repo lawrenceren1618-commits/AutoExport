@@ -8,6 +8,7 @@
 web/.env
 web/.env.local
 web/.env.*.local
+web/.env-link-test-result.txt
 
 # Node / Next.js
 node_modules/

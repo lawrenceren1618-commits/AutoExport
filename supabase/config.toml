@@ -1,5 +1,5 @@
 # Optional: if using Supabase CLI locally
-project_id = "office-cp-ofce"
+project_id = "AutoExport"
 
 [api]
 enabled = true

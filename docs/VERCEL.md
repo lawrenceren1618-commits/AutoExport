@@ -1,30 +1,16 @@
-# Vercel — office-cp-ofce
+# Vercel — AutoExport
 
-## Bind GitHub repo
-
-1. Vercel Dashboard → Add New Project → Import `office-cp-ofce`
+1. Import GitHub 仓库 **`AutoExport`**
 2. **Root Directory** = `web`
-3. Framework Preset = Next.js
-4. Production Branch = `main` (or `master` until renamed)
+3. Framework = Next.js；Production Branch = `main`
+4. 环境变量（与 `web/.env.local` 一致，Production + Preview）：
 
-## Environment variables (Production + Preview)
-
-| Name | Value |
-|------|--------|
+| Name | 值从哪来 |
+|------|----------|
 | `OFCE_ENV` | `office` |
-| `NEXT_PUBLIC_SUPABASE_URL` | 办公室 Supabase project URL |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | anon key |
-| `SUPABASE_SERVICE_ROLE_KEY` | service role（仅服务端） |
-| `OFCE_ADMIN_PASSWORD` | 后台口令 |
+| `OFCE_ADMIN_PASSWORD` | 你的后台口令 |
+| `NEXT_PUBLIC_SUPABASE_URL` | Supabase API → Project URL |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | anon public |
+| `SUPABASE_SERVICE_ROLE_KEY` | service_role |
 
-Do **not** reuse home-PC Supabase keys. Project name on Supabase must be `office-cp-ofce`.
-
-## After first push
-
-```powershell
-cd web
-npm install
-npm run build
-```
-
-Then push to GitHub; Vercel auto-deploys when the repo is linked.
+勿使用家里项目的密钥。Supabase / Vercel 项目名均为 **AutoExport**。

@@ -1,0 +1,102 @@
+{
+  "version": "1.0",
+  "project": "AutoExport",
+  "doc": "Templates/Canonical_Data_Schema.md",
+  "tiers": {
+    "settled": [
+      "entity_code",
+      "company_name",
+      "brand",
+      "gram_weight",
+      "size",
+      "color",
+      "strips_per_pack",
+      "packs_per_carton",
+      "strips_per_carton",
+      "fnsku",
+      "pack_method",
+      "inner_pack_lwh_cm",
+      "carton_lwh_cm",
+      "hs_code",
+      "product_name_zh",
+      "product_name_en",
+      "tax_rebate",
+      "declare_unit_price_1039"
+    ],
+    "order": [
+      "order_code",
+      "order_date",
+      "master_upload_at",
+      "qty_strips",
+      "qty_cartons"
+    ],
+    "temporary_shipment": [
+      "fba_shipment_id",
+      "tracking_id",
+      "warehouse_code",
+      "warehouse_address",
+      "ship_strips",
+      "cartons",
+      "packs",
+      "carton_combo",
+      "split_shipment",
+      "split_batch_no",
+      "gross_kg_total",
+      "net_kg_total",
+      "declare_amount_total",
+      "export_date",
+      "export_code"
+    ],
+    "derived": ["sku_key", "product_key", "data_tier"]
+  },
+  "defaults": {
+    "hs_code_tablecloth": "6302539000",
+    "brand_by_entity": {
+      "C04": "WIGENIUS",
+      "C07": "Dressmaker"
+    },
+    "pack_method_enum": ["heat_shrink", "carton"]
+  },
+  "conflict_recency": {
+    "order_source": "order_date",
+    "master_source": "master_upload_at",
+    "on_conflict": "report_then_user_confirm"
+  },
+  "header_aliases": {
+    "entity_code": ["主体", "主体代码", "公司代码", "entity", "entity_code", "C04", "C07"],
+    "company_name": ["公司名", "公司名称", "company", "company_name"],
+    "brand": ["品牌", "商品品牌", "brand"],
+    "gram_weight": ["克重", "面料克重", "WEIGHT", "WEIGHT/规格", "gram_weight"],
+    "size": ["尺寸", "尺寸项", "规格尺寸", "size", "ITEM"],
+    "color": ["颜色", "COLOR", "color"],
+    "strips_per_pack": ["条数/包", "条数每包", "strips_per_pack"],
+    "packs_per_carton": ["包数/箱", "包数每箱", "包数/箱", "packs_per_carton"],
+    "strips_per_carton": ["条数/箱", "条数每箱", "strips_per_carton"],
+    "fnsku": ["FNSKU", "fnsku", "产品标签", "标签"],
+    "pack_method": ["包装方式", "包装", "pack_method"],
+    "inner_pack_lwh_cm": ["内包装尺寸", "内盒", "包装尺寸", "inner_pack_lwh_cm"],
+    "carton_lwh_cm": ["外箱尺寸", "外箱尺寸（长*宽*高）", "纸箱规格", "carton_lwh_cm", "carton_size_cm", "长宽高"],
+    "hs_code": ["HS", "HS CODE", "海关编码", "商品编号", "hs_code"],
+    "product_name_zh": ["中文品名", "品名", "product_name_zh"],
+    "product_name_en": ["英文品名", "英文名称", "product_name_en", "ITEM"],
+    "tax_rebate": ["是否退税", "退税", "tax_rebate"],
+    "declare_unit_price_1039": ["1039单价", "报关单价", "每箱报关单价", "declare_unit_price_1039"],
+    "order_code": ["订单编号", "订单号", "P.O#", "order_code", "Order"],
+    "order_date": ["下单日期", "订单日期", "order_date"],
+    "qty_strips": ["数量", "总条数", "QTY", "qty_strips"],
+    "qty_cartons": ["箱数", "总箱数", "件数", "CTNS", "qty_cartons"],
+    "fba_shipment_id": ["FBA", "FBA货件号", "海外订单号", "货件编号", "fba_shipment_id"],
+    "tracking_id": ["追踪编码", "追踪号", "tracking", "tracking_id"],
+    "warehouse_code": ["仓库代码", "仓库", "warehouse_code"],
+    "warehouse_address": ["仓库地址", "FBA地址", "warehouse_address"],
+    "ship_strips": ["发货条数", "本批条数", "ship_strips"],
+    "cartons": ["本批箱数", "货件箱数", "cartons"],
+    "packs": ["包数", "packs"],
+    "gross_kg": ["毛重", "G.W.", "gross_kg"],
+    "net_kg": ["净重", "N.W.", "net_kg"],
+    "volume_cbm": ["体积", "CBM", "volume_cbm"],
+    "export_date": ["出口日期", "export_date"],
+    "export_code": ["出口编码", "export_code"],
+    "confirmed_order_date": ["生效日期", "confirmed_order_date"]
+  }
+}

@@ -1,0 +1,44 @@
+﻿scanned_files=5
+lines=55
+conflicts=8
+report=C:\Users\Administrator\.cursor\Cursor-projects\AutoExport\2_Processed_AI\cross_check_reports\order_conflicts_20260720_145845.json
+---
+key=gram:C04|WIGENIUS|60X126inch|白
+suggest=EF-C26079-C04-36460 (订单按下单日期最新（建议，须确认）)
+  EF-C26040-C04-8490PCS @ 2026-04-15: gw=110G spp=None ppc=None spc=None fnsku=None pack=None
+  EF-C26079-C04-36460 @ 2026-07-10: gw=90G spp=2 ppc=18 spc=36 fnsku=X005398X17 pack=heat_shrink
+---
+key=gram:C04|WIGENIUS|60X126inch|米白
+suggest=EF-C26079-C04-36460 (订单按下单日期最新（建议，须确认）)
+  EF-C26040-C04-8490PCS @ 2026-04-15: gw=110G spp=None ppc=None spc=None fnsku=None pack=None
+  EF-C26079-C04-36460 @ 2026-07-10: gw=90G spp=6 ppc=6 spc=36 fnsku=X005398UJ7 pack=carton
+---
+key=gram:C04|WIGENIUS|70X120inch|白
+suggest=EF-C26079-C04-36460 (订单按下单日期最新（建议，须确认）)
+  EF-C26040-C04-8490PCS @ 2026-04-15: gw=110G spp=None ppc=None spc=None fnsku=None pack=None
+  EF-C26079-C04-36460 @ 2026-07-10: gw=90G spp=2 ppc=15 spc=30 fnsku=X004W0XSZT pack=heat_shrink
+---
+key=gram:C04|WIGENIUS|70X120inch|黑
+suggest=EF-C26079-C04-36460 (订单按下单日期最新（建议，须确认）)
+  EF-C26040-C04-8490PCS @ 2026-04-15: gw=110G spp=None ppc=None spc=None fnsku=None pack=None
+  EF-C26079-C04-36460 @ 2026-07-10: gw=90G spp=10 ppc=3 spc=30 fnsku=X005395YS7 pack=carton
+---
+key=gram:C04|WIGENIUS|70X120inch|米白
+suggest=EF-C26079-C04-36460 (订单按下单日期最新（建议，须确认）)
+  EF-C26040-C04-8490PCS @ 2026-04-15: gw=110G spp=None ppc=None spc=None fnsku=None pack=None
+  EF-C26079-C04-36460 @ 2026-07-10: gw=90G spp=2 ppc=15 spc=30 fnsku=X004W0WH4H pack=heat_shrink
+---
+key=gram:C04|WIGENIUS|90inchround|白
+suggest=EF-C26079-C04-36460 (订单按下单日期最新（建议，须确认）)
+  EF-C26040-C04-8490PCS @ 2026-04-15: gw=110G spp=None ppc=None spc=None fnsku=None pack=None
+  EF-C26079-C04-36460 @ 2026-07-10: gw=90G spp=2 ppc=20 spc=40 fnsku=X004W0XBDN pack=heat_shrink
+---
+key=gram:C04|WIGENIUS|90inchround|黑
+suggest=EF-C26079-C04-36460 (订单按下单日期最新（建议，须确认）)
+  EF-C26040-C04-8490PCS @ 2026-04-15: gw=110G spp=None ppc=None spc=None fnsku=None pack=None
+  EF-C26079-C04-36460 @ 2026-07-10: gw=90G spp=2 ppc=20 spc=40 fnsku=X004W0Y925 pack=heat_shrink
+---
+key=gram:C04|WIGENIUS|90inchround|米白
+suggest=EF-C26079-C04-36460 (订单按下单日期最新（建议，须确认）)
+  EF-C26040-C04-8490PCS @ 2026-04-15: gw=110G spp=None ppc=None spc=None fnsku=None pack=None
+  EF-C26079-C04-36460 @ 2026-07-10: gw=90G spp=6 ppc=7 spc=42 fnsku=X004W0V8OH pack=heat_shrink

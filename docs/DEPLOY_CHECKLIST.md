@@ -1,11 +1,14 @@
-# Deploy checklist — office-cp-ofce
+# Deploy checklist — AutoExport
 
-逐步说明：[CLOUD_LINK_OFFICE.md](CLOUD_LINK_OFFICE.md)
+逐步说明：[CLOUD_LINK_OFFICE.md](CLOUD_LINK_OFFICE.md) · [STABLE_DATA_LINK.md](STABLE_DATA_LINK.md)
 
-- [x] 办公室公钥已加到 GitHub（Title: `office-cp-ofce`）— 见 [ssh/](ssh/)
-- [ ] `ssh -T git@github.com-office-cp` 认证成功（首次需 known_hosts）
-- [ ] 创建私有仓库 `office-cp-ofce`；`git remote add origin git@github.com-office-cp:YOUR_USER/office-cp-ofce.git` 并 push
-- [ ] **Supabase**：新建项目 `office-cp-ofce`（勿用家里项目）→ 跑 migration → 复制 API 密钥
-- [ ] `web/.env.local`：`OFCE_ENV=office` + 办公室 URL/anon/service_role + 后台口令
-- [ ] **Vercel**：Import **本仓库** `office-cp-ofce`，Root Directory = **`web`**，环境变量与 `.env.local` 一致（Production+Preview）
-- [ ] 部署后打开 `/admin/progress`、`/admin/master-import`
+**总文件夹 / 仓库 / Vercel / Supabase 项目名一律：`AutoExport`**  
+提交人仍为 **Office CP**；SSH 别名仍为 **github.com-office-cp**。
+
+- [x] 办公室公钥已加到 GitHub — 见 [ssh/](ssh/)
+- [x] `ssh -T git@github.com-office-cp` 通过
+- [x] GitHub 仓库 `AutoExport`；`origin` → `git@github.com-office-cp:lawrenceren1618-commits/AutoExport.git`；分支 `main`
+- [x] **Supabase**：项目名 `AutoExport` → migration 已跑 → 本机试连通过
+- [x] **Vercel**：Import `AutoExport`，Root Directory = **`web`**，已部署
+- [ ] 线上冒烟：`/admin/login` → `/admin/progress`、`/admin/master-import`
+- [ ] 人工总表 H01 确认入库

@@ -1,0 +1,653 @@
+{
+  "scanned_at": "2026-07-20T06:57:40Z",
+  "files": [
+    {
+      "path": "EF-C26039-C07-10540PCS tablecloth改.xls",
+      "format": "en_order",
+      "meta": {
+        "order_code": "EF-C26039-C07-10540PCS",
+        "order_date": "2026-04-15",
+        "delivery_date": "2026-05-24",
+        "entity_code": "C07",
+        "header_company": "Xuchang E-fashion Electronic Business Co., Ltd."
+      },
+      "line_count": 10
+    },
+    {
+      "path": "EF-C26039-C07-10600PCS tablecloth.xls",
+      "format": "en_order",
+      "meta": {
+        "order_code": "EF-C26039-C07-10600PCS",
+        "order_date": "2026-04-15",
+        "delivery_date": "2026-05-24",
+        "entity_code": "C07",
+        "header_company": "Xuchang E-fashion Electronic Business Co., Ltd."
+      },
+      "line_count": 10
+    },
+    {
+      "path": "EF-C26040-C04-8490PCS tablecloth改.xls",
+      "format": "en_order",
+      "meta": {
+        "order_code": "EF-C26040-C04-8490PCS",
+        "order_date": "2026-04-15",
+        "delivery_date": "2026-05-10",
+        "entity_code": "C04",
+        "header_company": "Xuchang E-fashion Electronic Business Co., Ltd."
+      },
+      "line_count": 10
+    },
+    {
+      "path": "EF-C26079-C04-36460  桌布-2026.7.10.xls",
+      "format": "zh_packing",
+      "meta": {
+        "order_code": "EF-C26079-C04-36460",
+        "order_date": "2026-07-10",
+        "delivery_date": "2026-07-31",
+        "entity_code": "C04",
+        "header_company": "Xuchang E-fashion Electronic Business Co., Ltd."
+      },
+      "line_count": 23
+    },
+    {
+      "path": "备货订单EF-C26055A-C04-31000  桌布-2026.6.4 改(3).xls",
+      "format": "zh_packing",
+      "meta": {
+        "order_code": "EF-C26055A-C04-31000",
+        "order_date": "2026-05-13",
+        "delivery_date": "2026-06-06",
+        "entity_code": "C04",
+        "header_company": "Xuchang E-fashion Electronic Business Co., Ltd."
+      },
+      "line_count": 2
+    }
+  ],
+  "line_count": 55,
+  "conflict_count": 11,
+  "conflicts": [
+    {
+      "conflict_key": "C04|WIGENIUS|60X126inch|白",
+      "kind": "packing",
+      "suggested_default": "EF-C26079-C04-36460",
+      "suggestion_reason": "订单按下单日期最新（建议，须确认）",
+      "variants": [
+        {
+          "source": "order",
+          "order_code": "EF-C26040-C04-8490PCS",
+          "order_date": "2026-04-15",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "110G",
+            "strips_per_pack": null,
+            "packs_per_carton": null,
+            "strips_per_carton": null,
+            "pack_method": null,
+            "carton_lwh_cm": null,
+            "fnsku": null
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 2,
+            "packs_per_carton": 18,
+            "strips_per_carton": 36,
+            "pack_method": "heat_shrink",
+            "carton_lwh_cm": "纸箱57*40*33",
+            "fnsku": "X005398X17"
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 6,
+            "packs_per_carton": 6,
+            "strips_per_carton": 36,
+            "pack_method": "carton",
+            "carton_lwh_cm": "57*48*30",
+            "fnsku": "X003WN01DT"
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 10,
+            "packs_per_carton": 3,
+            "strips_per_carton": 30,
+            "pack_method": "carton",
+            "carton_lwh_cm": "41.5*25.5*62.5",
+            "fnsku": "X005395XVF"
+          }
+        }
+      ],
+      "confirmed": false
+    },
+    {
+      "conflict_key": "C04|WIGENIUS|60X126inch|米白",
+      "kind": "packing",
+      "suggested_default": "EF-C26079-C04-36460",
+      "suggestion_reason": "订单按下单日期最新（建议，须确认）",
+      "variants": [
+        {
+          "source": "order",
+          "order_code": "EF-C26040-C04-8490PCS",
+          "order_date": "2026-04-15",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "110G",
+            "strips_per_pack": null,
+            "packs_per_carton": null,
+            "strips_per_carton": null,
+            "pack_method": null,
+            "carton_lwh_cm": null,
+            "fnsku": null
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 6,
+            "packs_per_carton": 6,
+            "strips_per_carton": 36,
+            "pack_method": "carton",
+            "carton_lwh_cm": "57*48*30",
+            "fnsku": "X005398UJ7"
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 10,
+            "packs_per_carton": 3,
+            "strips_per_carton": 30,
+            "pack_method": "carton",
+            "carton_lwh_cm": "41.5*25.5*62.5",
+            "fnsku": "X0054KNSLF"
+          }
+        }
+      ],
+      "confirmed": false
+    },
+    {
+      "conflict_key": "C04|WIGENIUS|70X120inch|白",
+      "kind": "packing",
+      "suggested_default": "EF-C26079-C04-36460",
+      "suggestion_reason": "订单按下单日期最新（建议，须确认）",
+      "variants": [
+        {
+          "source": "order",
+          "order_code": "EF-C26040-C04-8490PCS",
+          "order_date": "2026-04-15",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "110G",
+            "strips_per_pack": null,
+            "packs_per_carton": null,
+            "strips_per_carton": null,
+            "pack_method": null,
+            "carton_lwh_cm": null,
+            "fnsku": null
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 2,
+            "packs_per_carton": 15,
+            "strips_per_carton": 30,
+            "pack_method": "heat_shrink",
+            "carton_lwh_cm": "57*40*33",
+            "fnsku": "X004W0XSZT"
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 6,
+            "packs_per_carton": 5,
+            "strips_per_carton": 30,
+            "pack_method": "heat_shrink",
+            "carton_lwh_cm": "纸箱57*40*33",
+            "fnsku": "X0050TQ82L"
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 10,
+            "packs_per_carton": 3,
+            "strips_per_carton": 30,
+            "pack_method": "carton",
+            "carton_lwh_cm": "41.5*25.5*62.5",
+            "fnsku": "X005395QNF"
+          }
+        }
+      ],
+      "confirmed": false
+    },
+    {
+      "conflict_key": "C04|WIGENIUS|70X120inch|黑",
+      "kind": "packing",
+      "suggested_default": "EF-C26079-C04-36460",
+      "suggestion_reason": "订单按下单日期最新（建议，须确认）",
+      "variants": [
+        {
+          "source": "order",
+          "order_code": "EF-C26040-C04-8490PCS",
+          "order_date": "2026-04-15",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "110G",
+            "strips_per_pack": null,
+            "packs_per_carton": null,
+            "strips_per_carton": null,
+            "pack_method": null,
+            "carton_lwh_cm": null,
+            "fnsku": null
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 10,
+            "packs_per_carton": 3,
+            "strips_per_carton": 30,
+            "pack_method": "carton",
+            "carton_lwh_cm": "41.5*25.5*62.5",
+            "fnsku": "X005395YS7"
+          }
+        }
+      ],
+      "confirmed": false
+    },
+    {
+      "conflict_key": "C04|WIGENIUS|70X120inch|米白",
+      "kind": "packing",
+      "suggested_default": "EF-C26079-C04-36460",
+      "suggestion_reason": "订单按下单日期最新（建议，须确认）",
+      "variants": [
+        {
+          "source": "order",
+          "order_code": "EF-C26040-C04-8490PCS",
+          "order_date": "2026-04-15",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "110G",
+            "strips_per_pack": null,
+            "packs_per_carton": null,
+            "strips_per_carton": null,
+            "pack_method": null,
+            "carton_lwh_cm": null,
+            "fnsku": null
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 2,
+            "packs_per_carton": 15,
+            "strips_per_carton": 30,
+            "pack_method": "heat_shrink",
+            "carton_lwh_cm": "57*40*33",
+            "fnsku": "X004W0WH4H"
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 6,
+            "packs_per_carton": 5,
+            "strips_per_carton": 30,
+            "pack_method": "heat_shrink",
+            "carton_lwh_cm": "纸箱57*40*34",
+            "fnsku": "X0050TSCX9"
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 10,
+            "packs_per_carton": 3,
+            "strips_per_carton": 30,
+            "pack_method": "carton",
+            "carton_lwh_cm": "41.5*25.5*62.5",
+            "fnsku": "X00539789F"
+          }
+        }
+      ],
+      "confirmed": false
+    },
+    {
+      "conflict_key": "C04|WIGENIUS|90inchound|白",
+      "kind": "packing",
+      "suggested_default": "EF-C26079-C04-36460",
+      "suggestion_reason": "订单按下单日期最新（建议，须确认）",
+      "variants": [
+        {
+          "source": "order",
+          "order_code": "EF-C26040-C04-8490PCS",
+          "order_date": "2026-04-15",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "110G",
+            "strips_per_pack": null,
+            "packs_per_carton": null,
+            "strips_per_carton": null,
+            "pack_method": null,
+            "carton_lwh_cm": null,
+            "fnsku": null
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 2,
+            "packs_per_carton": 20,
+            "strips_per_carton": 40,
+            "pack_method": "heat_shrink",
+            "carton_lwh_cm": "57*40*33",
+            "fnsku": "X004W0XBDN"
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 6,
+            "packs_per_carton": 7,
+            "strips_per_carton": 42,
+            "pack_method": "heat_shrink",
+            "carton_lwh_cm": "40*27*58",
+            "fnsku": "X004S99E9D"
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 10,
+            "packs_per_carton": 4,
+            "strips_per_carton": 40,
+            "pack_method": "carton",
+            "carton_lwh_cm": "40*27*58",
+            "fnsku": "X005395FVN"
+          }
+        }
+      ],
+      "confirmed": false
+    },
+    {
+      "conflict_key": "C04|WIGENIUS|90inchound|黑",
+      "kind": "packing",
+      "suggested_default": "EF-C26079-C04-36460",
+      "suggestion_reason": "订单按下单日期最新（建议，须确认）",
+      "variants": [
+        {
+          "source": "order",
+          "order_code": "EF-C26040-C04-8490PCS",
+          "order_date": "2026-04-15",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "110G",
+            "strips_per_pack": null,
+            "packs_per_carton": null,
+            "strips_per_carton": null,
+            "pack_method": null,
+            "carton_lwh_cm": null,
+            "fnsku": null
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 2,
+            "packs_per_carton": 20,
+            "strips_per_carton": 40,
+            "pack_method": "heat_shrink",
+            "carton_lwh_cm": "57*40*33",
+            "fnsku": "X004W0Y925"
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 10,
+            "packs_per_carton": 4,
+            "strips_per_carton": 40,
+            "pack_method": "carton",
+            "carton_lwh_cm": "40*27*58",
+            "fnsku": "X0053992NP"
+          }
+        }
+      ],
+      "confirmed": false
+    },
+    {
+      "conflict_key": "C04|WIGENIUS|90inchound|米白",
+      "kind": "packing",
+      "suggested_default": "EF-C26079-C04-36460",
+      "suggestion_reason": "订单按下单日期最新（建议，须确认）",
+      "variants": [
+        {
+          "source": "order",
+          "order_code": "EF-C26040-C04-8490PCS",
+          "order_date": "2026-04-15",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "110G",
+            "strips_per_pack": null,
+            "packs_per_carton": null,
+            "strips_per_carton": null,
+            "pack_method": null,
+            "carton_lwh_cm": null,
+            "fnsku": null
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 6,
+            "packs_per_carton": 7,
+            "strips_per_carton": 42,
+            "pack_method": "heat_shrink",
+            "carton_lwh_cm": "40*27*58",
+            "fnsku": "X004W0V8OH"
+          }
+        }
+      ],
+      "confirmed": false
+    },
+    {
+      "conflict_key": "C04|WIGENIUS|60X102inch|米白",
+      "kind": "packing",
+      "suggested_default": "EF-C26079-C04-36460",
+      "suggestion_reason": "订单按下单日期最新（建议，须确认）",
+      "variants": [
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 6,
+            "packs_per_carton": 9,
+            "strips_per_carton": 54,
+            "pack_method": "heat_shrink",
+            "carton_lwh_cm": "57*40*33",
+            "fnsku": "X004W20FM1"
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 10,
+            "packs_per_carton": 4,
+            "strips_per_carton": 40,
+            "pack_method": "carton",
+            "carton_lwh_cm": "40*27*58",
+            "fnsku": "X0050TQ9HP"
+          }
+        }
+      ],
+      "confirmed": false
+    },
+    {
+      "conflict_key": "C04|WIGENIUS|60X102inch|蓝",
+      "kind": "packing",
+      "suggested_default": "EF-C26079-C04-36460",
+      "suggestion_reason": "订单按下单日期最新（建议，须确认）",
+      "variants": [
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 6,
+            "packs_per_carton": 9,
+            "strips_per_carton": 54,
+            "pack_method": "heat_shrink",
+            "carton_lwh_cm": "57*40*33",
+            "fnsku": "X0050TS4O1"
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 10,
+            "packs_per_carton": 4,
+            "strips_per_carton": 40,
+            "pack_method": "carton",
+            "carton_lwh_cm": "40*27*58",
+            "fnsku": "X0052FXOH5"
+          }
+        }
+      ],
+      "confirmed": false
+    },
+    {
+      "conflict_key": "C04|WIGENIUS|60X102inch|白",
+      "kind": "packing",
+      "suggested_default": "EF-C26079-C04-36460",
+      "suggestion_reason": "订单按下单日期最新（建议，须确认）",
+      "variants": [
+        {
+          "source": "order",
+          "order_code": "EF-C26079-C04-36460",
+          "order_date": "2026-07-10",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 10,
+            "packs_per_carton": 4,
+            "strips_per_carton": 40,
+            "pack_method": "carton",
+            "carton_lwh_cm": "40*27*58",
+            "fnsku": "X003WN3V5J"
+          }
+        },
+        {
+          "source": "order",
+          "order_code": "EF-C26055A-C04-31000",
+          "order_date": "2026-05-13",
+          "master_upload_at": null,
+          "values": {
+            "gram_weight": "90G",
+            "strips_per_pack": 6,
+            "packs_per_carton": 9,
+            "strips_per_carton": 54,
+            "pack_method": "heat_shrink",
+            "carton_lwh_cm": "57*40*33",
+            "fnsku": "X003WMVF6H"
+          }
+        }
+      ],
+      "confirmed": false
+    }
+  ],
+  "rule": {
+    "order_recency": "order_date",
+    "master_recency": "master_upload_at",
+    "action": "report_then_user_confirm"
+  }
+}

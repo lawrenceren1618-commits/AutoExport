@@ -5,10 +5,11 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 
-INPUT_RAW = Path(r"C:\Users\Administrator\.cursor\Cursor-projects\Order_Freight_Customs_Export\1_Input_Raw")
-OUT_MD = Path(r"C:\Users\Administrator\.cursor\Cursor-projects\Order_Freight_Customs_Export\2_Processed_AI\Field_Mapping_Inventory.md")
-OUT_JSON = Path(r"C:\Users\Administrator\.cursor\Cursor-projects\Order_Freight_Customs_Export\Scripts\field_correspondence.json")
-PARSE_LOG = Path(r"C:\Users\Administrator\.cursor\Cursor-projects\Order_Freight_Customs_Export\2_Processed_AI\_parse_dump.json")
+_PROJECT = Path(__file__).resolve().parent.parent
+INPUT_RAW = _PROJECT / "1_Input_Raw"
+OUT_MD = _PROJECT / "2_Processed_AI" / "Field_Mapping_Inventory.md"
+OUT_JSON = _PROJECT / "Scripts" / "field_correspondence.json"
+PARSE_LOG = _PROJECT / "2_Processed_AI" / "_parse_dump.json"
 
 EXTRA_TEMPLATES = [
     Path(r"C:\Users\Administrator\Desktop\2026发货计划\5月发货计划\C26039-易尚  5.24发货 288箱\各仓点 C26039各5种产品下单模板.xlsx"),

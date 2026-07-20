@@ -1,46 +1,42 @@
 ﻿# AutoExport
 
-办公室端项目总文件夹名：**AutoExport**。
+**本机总文件夹名：`AutoExport`**（路径：`...\Cursor-projects\AutoExport`）
 
 订单 / 出货 / 货代 / 报关 — 本地脚手架 + 云端后台。
 
-## 命名约定（请分清）
+## 命名约定
 
-| 项 | 值 | 说明 |
-|----|-----|------|
-| **总文件夹 / 仓库 / Vercel / Supabase 项目名** | `AutoExport` | 产品与云端项目名 |
-| **Git 提交人** | `Office CP`（office-cp） | **不改**；仅影响 commit 作者显示 |
-| **办公室 SSH 别名** | `github.com-office-cp` | 区分家里机推送，与提交人一致保留 office-cp |
+| 项 | 值 |
+|----|-----|
+| 总文件夹 / GitHub / Vercel / Supabase | **AutoExport** |
+| Git 提交人 | **Office CP**（不改） |
+| 办公室 SSH | **github.com-office-cp** |
 
-## 快速开始
-
-### GitHub（SSH 仍用 office-cp 别名）
+## Git
 
 ```powershell
 cd C:\Users\Administrator\.cursor\Cursor-projects\AutoExport
-ssh -T git@github.com-office-cp
-git remote add origin git@github.com-office-cp:lawrenceren1618-commits/AutoExport.git
-git branch -M main
-git add .
-git commit -m "Initial AutoExport scaffold"
-git push -u origin main
+git remote -v
+# git@github.com-office-cp:lawrenceren1618-commits/AutoExport.git
 ```
 
-### Supabase / Vercel
+## Supabase / Vercel
 
-项目名均建为 **`AutoExport`**（勿与家里项目同名）。详见 [docs/CLOUD_LINK_OFFICE.md](docs/CLOUD_LINK_OFFICE.md)。
+见 [docs/CLOUD_LINK_OFFICE.md](docs/CLOUD_LINK_OFFICE.md)、[docs/STABLE_DATA_LINK.md](docs/STABLE_DATA_LINK.md)。
 
-Vercel Root Directory = `web`。
-
-本地：
+本地环境变量模板：`web/.env.local`（等号后粘贴 API 密钥，不要粘 SQL）。
 
 ```powershell
 cd web
-copy .env.local.example .env.local
 npm install
 npm run dev
 ```
 
+- `/admin/progress` 工作总结（仅后台）
+- `/admin/master-import` 总表 H01
+
 ## 业务架构
 
 [Templates/Architecture_Modules_Handshake.md](Templates/Architecture_Modules_Handshake.md)
+
+**新对话交接（复制提示词）：** [Templates/Next_Session_Handoff.md](Templates/Next_Session_Handoff.md)

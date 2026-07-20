@@ -5,8 +5,10 @@
 > 模板来源：优先你上传到 `1_Input_Raw/01_Order_Outbound/` 的表格。  
 > 若操作无法继续而全局搜索到候选：须你先归类确认为本类后，方可写入/调用/参考（见 `.cursorrules` §0.1）。
 
-状态：框架已建；**列级映射待你上传正式订单/出库模板后填满。**  
-终审：生成草稿后须与 `Scripts/settled_knowledge_db.json` 交叉对照通过，方可输出最终订单/出货表（见 `.cursorrules` §1.2）。
+状态：块 B 进行中。固定模板按 **中文备货订单 + 装箱单明细**（样例 `EF-C26079-C04-*`）建模。  
+生成入口：`Scripts/05_generate_order.py`（模块 `Scripts/m1/`）。  
+空白骨架：`Templates/order_blank_zh.xlsx`。  
+终审：草稿 → Gate 交叉对照 → `3_Output_Final/`（见 `.cursorrules` §1.2）。
 
 ---
 
@@ -56,16 +58,43 @@
 
 ---
 
-## 4. 待你上传模板后补全区
+## 4. 固定订单模板（块 B）
 
-- [ ] 订单表样板文件名：________________（放到 `01_Order_Outbound/`）
-- [ ] 出库单样板文件名：________________
-- [ ] 表头行号、必填列名清单：上传后解析写入本节
-- [ ] WIGENIUS / Dressmaker 的 FNSKU 对照表存放位置：________________
+| 项 | 值 |
+|----|-----|
+| 版式 | 中文备货明细 + 装箱单明细（样例：`EF-C26079-C04-*`） |
+| 空白骨架 | `Templates/order_blank_zh.xlsx` |
+| 生成脚本 | `Scripts/05_generate_order.py` |
+| 模块 | `Scripts/m1/`（parse / conflict / assemble / fill） |
+| 冲突 | 订单 `order_date` 最新建议；总表 `master_upload_at` 最新建议；均须确认 |
+| 草稿 | `2_Processed_AI/drafts/` |
+| 最终 | Gate 通过后 `3_Output_Final/{订单号}/` |
+
+### 装箱明细列 → canonical
+
+| 模板列 | key |
+|--------|-----|
+| 尺寸规格 | `size` |
+| 颜色 | `color` |
+| 条数/包 | `strips_per_pack` |
+| 产品标签 | `fnsku` |
+| 包数/箱 | `packs_per_carton` |
+| 总箱数 / 总条数 | `qty_cartons` / `qty_strips` |
+| 内包装尺寸 | `inner_pack_lwh_cm` / `pack_method` |
+| 外箱尺寸 | `carton_lwh_cm` |
 
 ---
 
-## 5. 编码提示（仅本类）
+## 5. 待你确认
+
+- [x] 订单表样板：`01_Order_Outbound/` 已有 5 份（含中文装箱版）
+- [ ] 人工总表放入 `00_Master_Reference/`（H01 确认入库）
+- [ ] 装箱/克重冲突报告确认后写入沉淀库
+- [ ] WIGENIUS / Dressmaker FNSKU 对照是否以 C26079 装箱行为准
+
+---
+
+## 6. 编码提示（仅本类）
 
 - 常见形态：`EF-C26xxx-C04-…` / `EF-C26xxx-C07-…` + PCS 或「桌布」
 - `C04` / `C07` 是主体与品牌开关，不是可忽略后缀

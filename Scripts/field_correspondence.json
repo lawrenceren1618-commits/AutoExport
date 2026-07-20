@@ -20,7 +20,10 @@
       "title": "订单表与出库单",
       "correspondence_md": "Templates/01_Order_Outbound_Correspondence.md",
       "input_dir": "1_Input_Raw/01_Order_Outbound",
-      "status": "awaiting_user_template_upload",
+      "status": "template_modeled_zh_packing_scan_conflicts",
+      "generator": "Scripts/05_generate_order.py",
+      "modules": "Scripts/m1/",
+      "blank_template": "Templates/order_blank_zh.xlsx",
       "deferred": false
     },
     "02_freight_forwarder": {

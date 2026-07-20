@@ -4,10 +4,11 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 
-INPUT_RAW = Path(r"C:\Users\Administrator\.cursor\Cursor-projects\Order_Freight_Customs_Export\1_Input_Raw")
-OUT_MD = Path(r"C:\Users\Administrator\.cursor\Cursor-projects\Order_Freight_Customs_Export\2_Processed_AI\Field_Mapping_Inventory.md")
-OUT_JSON = Path(r"C:\Users\Administrator\.cursor\Cursor-projects\Order_Freight_Customs_Export\Scripts\field_correspondence.json")
-PARSE_LOG = Path(r"C:\Users\Administrator\.cursor\Cursor-projects\Order_Freight_Customs_Export\2_Processed_AI\_parse_dump.json")
+_PROJECT = Path(__file__).resolve().parent.parent
+INPUT_RAW = _PROJECT / "1_Input_Raw"
+OUT_MD = _PROJECT / "2_Processed_AI" / "Field_Mapping_Inventory.md"
+OUT_JSON = _PROJECT / "Scripts" / "field_correspondence.json"
+PARSE_LOG = _PROJECT / "2_Processed_AI" / "_parse_dump.json"
 
 TEMPLATES = [
     ("customs", Path(r"C:\Users\Administrator\Desktop\2026发货计划\215箱报关资料.xlsx"), {"报关地": 45, "发票": 30, "装箱单": 30}),
