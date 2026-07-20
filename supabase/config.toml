@@ -1,0 +1,5 @@
+# Optional: if using Supabase CLI locally
+project_id = "office-cp-ofce"
+
+[api]
+enabled = true

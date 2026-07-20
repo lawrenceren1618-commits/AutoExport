@@ -1,0 +1,8 @@
+{
+  "_comment": "由 01_mask_logistics.py 自动生成/更新：存储脱敏前后的映射关系。02_restore_export.py 读取本文件还原真实数据。",
+  "version": "1.0",
+  "exchange_rate_cny": 6.8,
+  "suppliers": {},
+  "prices": {},
+  "records": {}
+}

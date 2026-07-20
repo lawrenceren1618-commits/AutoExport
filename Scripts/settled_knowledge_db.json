@@ -1,0 +1,49 @@
+{
+  "version": "1.1",
+  "description": "沉淀知识库：经使用者确认的主体、品牌、FNSKU、装箱规格等。来源可为单据提炼或人工总表。生成草稿可读取；最终输出前必须与之交叉对照。未确认数据不得写入本库。",
+  "updated_at": null,
+  "sources": {
+    "from_documents": {
+      "enabled": true,
+      "dirs": [
+        "1_Input_Raw/01_Order_Outbound",
+        "1_Input_Raw/02_Freight_Forwarder",
+        "1_Input_Raw/03_Customs"
+      ],
+      "note": "从订单/出货/货代/报关样例提炼，确认后入库"
+    },
+    "from_master_reference_table": {
+      "enabled": true,
+      "dir": "1_Input_Raw/00_Master_Reference",
+      "correspondence_md": "Templates/00_Master_Reference_Correspondence.md",
+      "note": "使用者人工统计的对应关系总表，确认后入库或当次作为权威参考"
+    }
+  },
+  "entities": {
+    "C04": {
+      "legal_name_zh": "畅选贸易有限公司",
+      "brand_tablecloth": "WIGENIUS",
+      "order_header_note": "页眉仅易尚/E-fashion，不显示畅选"
+    },
+    "C07": {
+      "legal_name_zh": "易尚电子商务有限公司",
+      "brand_tablecloth": "Dressmaker",
+      "order_header_note": "页眉易尚/E-fashion"
+    }
+  },
+  "products": [],
+  "packing_standards": [],
+  "fnsku_index": [],
+  "hs_defaults": {
+    "平纹单面磨毛桌布": "6302539090"
+  },
+  "master_table_imports": [],
+  "cross_check_log": [],
+  "_schema_notes": {
+    "products": "条目示例字段: sku_key, brand, entity_code, color, size, gram_weight, confirmed_order_date, source (document|master_table)",
+    "packing_standards": "条目示例字段: product_key, strips_per_carton, packs_per_carton, carton_size_cm, gross_kg, net_kg, volume_cbm, effective_order_date, confirmed_by_user, source",
+    "fnsku_index": "条目示例字段: fnsku, entity_code, brand, color, size, amazon_store_key, source",
+    "master_table_imports": "每次吸收人工总表的文件名、确认时间、行数摘要",
+    "cross_check_log": "每次最终导出前对照结果摘要，含 pass/fail 与差异列表"
+  }
+}

@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: #f4f5f7;
+  color: #1a1d23;
+  line-height: 1.5;
+}
+a {
+  color: #1a4f8b;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+.card {
+  background: #fff;
+  border: 1px solid #d8dde6;
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+}
+.muted {
+  color: #5c6570;
+  font-size: 0.9rem;
+}
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #1a4f8b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.btn-secondary {
+  background: #fff;
+  color: #1a4f8b;
+  border: 1px solid #1a4f8b;
+}
+input[type="password"],
+input[type="text"],
+input[type="file"] {
+  width: 100%;
+  max-width: 360px;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid #c5ccd6;
+  border-radius: 4px;
+}
+.status-todo {
+  color: #5c6570;
+}
+.status-doing {
+  color: #1a4f8b;
+  font-weight: 600;
+}
+.status-done {
+  color: #1b6b3a;
+}
+.status-blocked {
+  color: #9a3412;
+}
+.tree ul {
+  list-style: none;
+  margin: 0.25rem 0 0.25rem 1.1rem;
+  padding: 0;
+  border-left: 1px solid #d8dde6;
+}
+.tree > ul {
+  margin-left: 0;
+  border-left: none;
+}
+.tree li {
+  margin: 0.35rem 0;
+  padding-left: 0.75rem;
+}
+.tree .node-title {
+  font-weight: 500;
+}
+.tree .meta {
+  font-size: 0.8rem;
+  color: #5c6570;
+  margin-left: 0.35rem;
+}
+nav.admin-nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #d8dde6;
+}

@@ -1,0 +1,53 @@
+{
+  "version": "2.0",
+  "note": "全局索引已拆分。沉淀库可来自单据提炼或人工总表（00_Master_Reference）。全局搜索须经使用者归类确认后方可写入/调用/参考。",
+  "documents": {
+    "00_master_reference": {
+      "title": "人工对应关系总表",
+      "correspondence_md": "Templates/00_Master_Reference_Correspondence.md",
+      "input_dir": "1_Input_Raw/00_Master_Reference",
+      "status": "awaiting_user_master_table_upload",
+      "role": "settled_db_source",
+      "deferred": false,
+      "ingest": {
+        "web": "/admin/master-import",
+        "api": "POST /api/master-import",
+        "cli": "Scripts/04_ingest_master_table.py",
+        "handshake": "H01"
+      }
+    },
+    "01_order_outbound": {
+      "title": "订单表与出库单",
+      "correspondence_md": "Templates/01_Order_Outbound_Correspondence.md",
+      "input_dir": "1_Input_Raw/01_Order_Outbound",
+      "status": "awaiting_user_template_upload",
+      "deferred": false
+    },
+    "02_freight_forwarder": {
+      "title": "货代下单表",
+      "correspondence_md": "Templates/02_Freight_Forwarder_Correspondence.md",
+      "input_dir": "1_Input_Raw/02_Freight_Forwarder",
+      "status": "awaiting_user_template_upload",
+      "deferred": false,
+      "warehouse_header_deferred_until": "亚马逊入库货件创建并分配仓库后"
+    },
+    "03_customs": {
+      "title": "报关单据",
+      "correspondence_md": "Templates/03_Customs_Correspondence.md",
+      "input_dir": "1_Input_Raw/03_Customs",
+      "status": "awaiting_user_template_upload",
+      "deferred": true
+    }
+  },
+  "entity_brand_rules": "Scripts/entity_brand_rules.json",
+  "settled_knowledge_db": "Scripts/settled_knowledge_db.json",
+  "cross_validate_script": "Scripts/03_cross_validate.py",
+  "pre_output_gate": {
+    "require_cross_check_against_settled_db": true,
+    "settled_sources": ["document_extract", "master_reference_table", "entity_rules"],
+    "draft_dir": "2_Processed_AI/drafts",
+    "report_dir": "2_Processed_AI/cross_check_reports",
+    "block_final_export_on_fail": true
+  },
+  "supersedes": "field_correspondence.json v1.0（含桌面全局样例路径，已废弃）"
+}

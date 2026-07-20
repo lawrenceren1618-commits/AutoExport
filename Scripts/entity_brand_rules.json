@@ -1,0 +1,62 @@
+{
+  "version": "1.1",
+  "description": "C04/C07 主体、品牌、店铺与订单页眉规则（机器可读）",
+  "entities": {
+    "C04": {
+      "legal_name_zh": "畅选贸易有限公司",
+      "relation": "E-fashion 子公司",
+      "order_header_display": "易尚 / Xuchang E-fashion Electronic Business Co., Ltd.",
+      "show_changxuan_on_order_header": false,
+      "brand_tablecloth": "WIGENIUS",
+      "amazon_store_key": "C04",
+      "fnsku_pool": "C04_store_only",
+      "note": "畅选通常不在工厂订单页眉显示"
+    },
+    "C07": {
+      "legal_name_zh": "易尚电子商务有限公司",
+      "relation": "E-fashion 主体之一",
+      "order_header_display": "易尚 / Xuchang E-fashion Electronic Business Co., Ltd.",
+      "show_changxuan_on_order_header": false,
+      "brand_tablecloth": "Dressmaker",
+      "amazon_store_key": "C07",
+      "fnsku_pool": "C07_store_only",
+      "note": "与 C04 装箱信息可一致，FNSKU 不可共用"
+    }
+  },
+  "shared_rules": {
+    "packing_may_be_identical_across_entities": true,
+    "fnsku_must_not_cross_entities": true,
+    "brand_must_match_entity_code_in_order_no": true,
+    "detect_entity_from_order_code_regex": "C0[47]",
+    "packing_spec_variance": {
+      "same_product_brand_company_may_have_different_pack_counts": true,
+      "typical_cause": "面料克重等变化导致每箱最大条数、每箱包数变化",
+      "on_conflict": "report_to_user_immediately",
+      "report_fields": [
+        "gram_weight",
+        "strips_per_carton",
+        "packs_per_carton",
+        "order_code",
+        "order_date"
+      ],
+      "default_preference": "latest_order_date",
+      "require_user_confirm_before_write_or_use_as_standard": true
+    }
+  },
+  "document_split": {
+    "01_order_outbound": "Templates/01_Order_Outbound_Correspondence.md",
+    "02_freight_forwarder": "Templates/02_Freight_Forwarder_Correspondence.md",
+    "03_customs": "Templates/03_Customs_Correspondence.md",
+    "input_dirs": {
+      "01_order_outbound": "1_Input_Raw/01_Order_Outbound",
+      "02_freight_forwarder": "1_Input_Raw/02_Freight_Forwarder",
+      "03_customs": "1_Input_Raw/03_Customs"
+    },
+    "global_search_policy": {
+      "allowed_when_blocked": true,
+      "proactive_enrichment_search": false,
+      "require_user_classify_and_confirm_before_write_call_or_reference": true,
+      "classify_into": ["00_Master_Reference", "01_Order_Outbound", "02_Freight_Forwarder", "03_Customs", "discard"]
+    }
+  }
+}

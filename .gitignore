@@ -1,0 +1,50 @@
+﻿# Environment & secrets
+.env
+.env.local
+.env*.local
+.env.*
+!.env.example
+!.env.local.example
+web/.env
+web/.env.local
+web/.env.*.local
+
+# Node / Next.js
+node_modules/
+.next/
+web/node_modules/
+web/.next/
+web/out/
+.vercel/
+npm-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local parse dumps / temp (not 1_Input_Raw — input data stays tracked)
+2_Processed_AI/_*.json
+2_Processed_AI/_*.txt
+2_Processed_AI/_*.md
+
+# Optional: cost/price workbooks outside classified input dirs (never ignore 1_Input_Raw)
+# *底价*.xls*
+# *采购价*.xls*
+
+# Cursor-local secrets (if present)
+.cursor/**/*.local
+
+# SSH materials under docs/ssh/: track *.pub only; ignore private key accidents
+docs/ssh/id_*
+!docs/ssh/*.pub
+*.pem
