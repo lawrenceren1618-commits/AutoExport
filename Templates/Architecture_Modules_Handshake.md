@@ -1,6 +1,6 @@
-# OFCE 业务模块与握手规则（办公室端）
+# AutoExport 业务模块与握手规则（办公室端）
 
-> 与 [.cursorrules](../.cursorrules) 同步。云端部署名：`office-cp-ofce`。
+> 与 [.cursorrules](../.cursorrules) 同步。云端部署名：**AutoExport**。本机：`D:\.cursor\Cursor-projects\AutoExport`。
 
 ## 模块一览
 
@@ -45,6 +45,7 @@ flowchart TB
 | 能力 | 位置 |
 |------|------|
 | 进度树（仅后台） | `web/app/admin/progress` |
+| **FBA 仓头识别 + 追踪码** | `web/app/admin/fba-track` + `POST/GET /api/fba-track` + `PATCH /api/fba-track/update` |
 | H01 总表导入 | `web/app/admin/master-import` + `POST /api/master-import` |
-| Schema | `supabase/migrations/20260720000000_init_ofce.sql` |
+| Schema | `supabase/migrations/`（含 `fba_warehouse_headers`） |
 | Vercel | Root Directory = `web`；见 `docs/VERCEL.md` |

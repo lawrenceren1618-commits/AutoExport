@@ -1,0 +1,1736 @@
+[
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴.zip",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\_来源归档\\C26036  700箱 外箱贴+入库贴.zip",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036单市场采购数据.zip",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\_来源归档\\C26036单市场采购数据.zip",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\EF-C26036-C04-28590PCS tablecloth.xls",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\订单表\\EF-C26036-C04-28590PCS tablecloth.xls",
+    "cat": "订单表"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\模板 2026.4.5发货 100箱 市场采购数据.xlsx",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\_来源归档\\模板 2026.4.5发货 100箱 市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\模板亚马逊5仓产品发货模板.xlsx",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\_来源归档\\模板亚马逊5仓产品发货模板.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\模板货代入库贴数据2026.4.19桌布 POC2 300箱.xlsx",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\货代入库贴下单表\\模板货代入库贴数据2026.4.19桌布 POC2 300箱.xlsx",
+    "cat": "货代入库贴下单表"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\货代入库贴数据.zip",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\货代入库贴下单表\\货代入库贴数据.zip",
+    "cat": "货代入库贴下单表"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036单市场采购数据\\畅选+波丽丝 2026.5.10  122箱 AVP1市场采购数据.xlsx",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\_来源归档\\C26036单市场采购数据_畅选+波丽丝 2026.5.10  122箱 AVP1市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036单市场采购数据\\畅选+波丽丝 2026.5.10  135箱 MDW2市场采购数据.xlsx",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\_来源归档\\C26036单市场采购数据_畅选+波丽丝 2026.5.10  135箱 MDW2市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036单市场采购数据\\畅选+波丽丝 2026.5.10  141箱 GYR3市场采购数据.xlsx",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\_来源归档\\C26036单市场采购数据_畅选+波丽丝 2026.5.10  141箱 GYR3市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036单市场采购数据\\畅选+波丽丝 2026.5.10  149箱 RDU2市场采购数据.xlsx",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\_来源归档\\C26036单市场采购数据_畅选+波丽丝 2026.5.10  149箱 RDU2市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036单市场采购数据\\畅选+波丽丝 2026.5.10  153箱 LGB8市场采购数据.xlsx",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\_来源归档\\C26036单市场采购数据_畅选+波丽丝 2026.5.10  153箱 LGB8市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\货代入库贴数据\\2026.5.10 桌布 AVP1 122箱.xlsx",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\货代入库贴\\货代入库贴数据_2026.5.10 桌布 AVP1 122箱.xlsx",
+    "cat": "货代入库贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\货代入库贴数据\\2026.5.10 桌布 GYR3 141箱.xlsx",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\货代入库贴\\货代入库贴数据_2026.5.10 桌布 GYR3 141箱.xlsx",
+    "cat": "货代入库贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\货代入库贴数据\\2026.5.10 桌布 LGB8 153箱.xlsx",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\货代入库贴\\货代入库贴数据_2026.5.10 桌布 LGB8 153箱.xlsx",
+    "cat": "货代入库贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\货代入库贴数据\\2026.5.10 桌布 MDW2 135箱.xlsx",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\货代入库贴\\货代入库贴数据_2026.5.10 桌布 MDW2 135箱.xlsx",
+    "cat": "货代入库贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\货代入库贴数据\\2026.5.10 桌布 RDU2 149箱.xlsx",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\货代入库贴\\货代入库贴数据_2026.5.10 桌布 RDU2 149箱.xlsx",
+    "cat": "货代入库贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\入库贴.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_入库贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\入库贴.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_入库贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\入库贴.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_入库贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\135箱入库贴.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_135箱入库贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\入库贴.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_入库贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Black 60×102inches 6packs-14箱\\Black 60×102inches 6packs-14箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Black 60×102inches 6packs-14箱_Black 60×102inches 6packs-14箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Black 70X120inches 2pack-1箱\\Black 70X120inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Black 70X120inches 2pack-1箱_Black 70X120inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Black 70X120inches 6pack-3箱\\Black 70X120inches 6pack-3箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Black 70X120inches 6pack-3箱_Black 70X120inches 6pack-3箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Black 90inches Round 6pack-5箱\\Black 90inches Round 6pack-5箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Black 90inches Round 6pack-5箱_Black 90inches Round 6pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Blue 60X102inches 10pack-8箱\\Blue 60X102inches 10pack-8箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Blue 60X102inches 10pack-8箱_Blue 60X102inches 10pack-8箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Blue 60X102inches 2pack-2箱\\Blue 60X102inches 2pack-2箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Blue 60X102inches 2pack-2箱_Blue 60X102inches 2pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Blue 60X102inches 6pack-4箱\\Blue 60X102inches 6pack-4箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Blue 60X102inches 6pack-4箱_Blue 60X102inches 6pack-4箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Blue 70X120inches 2pack-1箱\\Blue 70X120inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Blue 70X120inches 2pack-1箱_Blue 70X120inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Blue 70X120inches 6pack-4箱\\Blue 70X120inches 6pack-4箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Blue 70X120inches 6pack-4箱_Blue 70X120inches 6pack-4箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Blue 90inches Round 6pack-6箱\\Blue 90inches Round 6pack-6箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Blue 90inches Round 6pack-6箱_Blue 90inches Round 6pack-6箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Ivory 60X102inches 10pack-8箱\\Ivory 60X102inches 10pack-8箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Ivory 60X102inches 10pack-8箱_Ivory 60X102inches 10pack-8箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Ivory 60X102inches 2pack-1箱\\Ivory 60X102inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Ivory 60X102inches 2pack-1箱_Ivory 60X102inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Ivory 60X102inches 6pack-12箱\\Ivory 60X102inches 6pack-12箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Ivory 60X102inches 6pack-12箱_Ivory 60X102inches 6pack-12箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Ivory 60X84inches 2pack-1箱\\Ivory 60X84inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Ivory 60X84inches 2pack-1箱_Ivory 60X84inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Ivory 70X120inches 6pack-6箱\\Ivory 70X120inches 6pack-6箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Ivory 70X120inches 6pack-6箱_Ivory 70X120inches 6pack-6箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Ivory 90inches Round 2pack-1箱\\Ivory 90inches Round 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Ivory 90inches Round 2pack-1箱_Ivory 90inches Round 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\Ivory 90inches Round 6pack-7箱\\Ivory 90inches Round 6pack-7箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_Ivory 90inches Round 6pack-7箱_Ivory 90inches Round 6pack-7箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\White 60X84inches 2pack-2箱\\White 60X84inches 2pack-2箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_White 60X84inches 2pack-2箱_White 60X84inches 2pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\White 60×102inches 10packs-7箱\\White 60×102inches 10packs-7箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_White 60×102inches 10packs-7箱_White 60×102inches 10packs-7箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\White 60×84inches 6pack-10箱\\White 60×84inches 6pack-10箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_White 60×84inches 6pack-10箱_White 60×84inches 6pack-10箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\White 70X120inches 2pack-1箱\\White 70X120inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_White 70X120inches 2pack-1箱_White 70X120inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\AVP1\\外箱贴\\White 90inches Round 6pack-18箱\\White 90inches Round 6pack-18箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_AVP1_外箱贴_White 90inches Round 6pack-18箱_White 90inches Round 6pack-18箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Black 60×102inches 6packs-23箱\\Black 60×102inches 6packs-23箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Black 60×102inches 6packs-23箱_Black 60×102inches 6packs-23箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Black 70X120inches 2pack-1箱\\Black 70X120inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Black 70X120inches 2pack-1箱_Black 70X120inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Black 70X120inches 6pack-3箱\\Black 70X120inches 6pack-3箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Black 70X120inches 6pack-3箱_Black 70X120inches 6pack-3箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Black 90inches Round 6pack-3箱\\Black 90inches Round 6pack-3箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Black 90inches Round 6pack-3箱_Black 90inches Round 6pack-3箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Blue 60X102inches 10pack-7箱\\Blue 60X102inches 10pack-7箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Blue 60X102inches 10pack-7箱_Blue 60X102inches 10pack-7箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Blue 60X102inches 2pack-2箱\\Blue 60X102inches 2pack-2箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Blue 60X102inches 2pack-2箱_Blue 60X102inches 2pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Blue 60X102inches 6pack-4箱\\Blue 60X102inches 6pack-4箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Blue 60X102inches 6pack-4箱_Blue 60X102inches 6pack-4箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Blue 70X120inches 2pack-1箱\\Blue 70X120inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Blue 70X120inches 2pack-1箱_Blue 70X120inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Blue 70X120inches 6pack-4箱\\Blue 70X120inches 6pack-4箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Blue 70X120inches 6pack-4箱_Blue 70X120inches 6pack-4箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Blue 90inches Round 6pack-6箱\\Blue 90inches Round 6pack-6箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Blue 90inches Round 6pack-6箱_Blue 90inches Round 6pack-6箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Ivory 60X102inches 10pack-7箱\\Ivory 60X102inches 10pack-7箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Ivory 60X102inches 10pack-7箱_Ivory 60X102inches 10pack-7箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Ivory 60X102inches 2pack-1箱\\Ivory 60X102inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Ivory 60X102inches 2pack-1箱_Ivory 60X102inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Ivory 60X102inches 6pack-22箱\\Ivory 60X102inches 6pack-22箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Ivory 60X102inches 6pack-22箱_Ivory 60X102inches 6pack-22箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Ivory 60X84inches 2pack-3箱\\Ivory 60X84inches 2pack-3箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Ivory 60X84inches 2pack-3箱_Ivory 60X84inches 2pack-3箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Ivory 70X120inches 6pack-6箱\\Ivory 70X120inches 6pack-6箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Ivory 70X120inches 6pack-6箱_Ivory 70X120inches 6pack-6箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Ivory 90inches Round 2pack-1箱\\Ivory 90inches Round 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Ivory 90inches Round 2pack-1箱_Ivory 90inches Round 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\Ivory 90inches Round 6pack-5箱\\Ivory 90inches Round 6pack-5箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_Ivory 90inches Round 6pack-5箱_Ivory 90inches Round 6pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\White 60X84inches 2pack-3箱\\White 60X84inches 2pack-3箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_White 60X84inches 2pack-3箱_White 60X84inches 2pack-3箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\White 60×102inches 10packs-11箱\\White 60×102inches 10packs-11箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_White 60×102inches 10packs-11箱_White 60×102inches 10packs-11箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\White 60×84inches 6pack-9箱\\White 60×84inches 6pack-9箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_White 60×84inches 6pack-9箱_White 60×84inches 6pack-9箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\White 70X120inches 2pack-1箱\\White 70X120inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_White 70X120inches 2pack-1箱_White 70X120inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\GYR3\\外箱贴\\White 90inches Round 6pack-18箱\\White 90inches Round 6pack-18箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_GYR3_外箱贴_White 90inches Round 6pack-18箱_White 90inches Round 6pack-18箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Black 60×102inches 6packs-26箱\\Black 60×102inches 6packs-26箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Black 60×102inches 6packs-26箱_Black 60×102inches 6packs-26箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Black 70X120inches 2pack-1箱\\Black 70X120inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Black 70X120inches 2pack-1箱_Black 70X120inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Black 70X120inches 6pack-3箱\\Black 70X120inches 6pack-3箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Black 70X120inches 6pack-3箱_Black 70X120inches 6pack-3箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Black 90inches Round 6pack-2箱\\Black 90inches Round 6pack-2箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Black 90inches Round 6pack-2箱_Black 90inches Round 6pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Blue 60X102inches 10pack-7箱\\Blue 60X102inches 10pack-7箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Blue 60X102inches 10pack-7箱_Blue 60X102inches 10pack-7箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Blue 60X102inches 2pack-2箱\\Blue 60X102inches 2pack-2箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Blue 60X102inches 2pack-2箱_Blue 60X102inches 2pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Blue 60X102inches 6pack-4箱\\Blue 60X102inches 6pack-4箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Blue 60X102inches 6pack-4箱_Blue 60X102inches 6pack-4箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Blue 70X120inches 2pack-1箱\\Blue 70X120inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Blue 70X120inches 2pack-1箱_Blue 70X120inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Blue 70X120inches 6pack-4箱\\Blue 70X120inches 6pack-4箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Blue 70X120inches 6pack-4箱_Blue 70X120inches 6pack-4箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Blue 90inches Round 6pack-5箱\\Blue 90inches Round 6pack-5箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Blue 90inches Round 6pack-5箱_Blue 90inches Round 6pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Ivory 60X102inches 10pack-7箱\\Ivory 60X102inches 10pack-7箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Ivory 60X102inches 10pack-7箱_Ivory 60X102inches 10pack-7箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Ivory 60X102inches 2pack-1箱\\Ivory 60X102inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Ivory 60X102inches 2pack-1箱_Ivory 60X102inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Ivory 60X102inches 6pack-30箱\\Ivory 60X102inches 6pack-30箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Ivory 60X102inches 6pack-30箱_Ivory 60X102inches 6pack-30箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Ivory 60X84inches 2pack-1箱\\Ivory 60X84inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Ivory 60X84inches 2pack-1箱_Ivory 60X84inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Ivory 70X120inches 6pack-5箱\\Ivory 70X120inches 6pack-5箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Ivory 70X120inches 6pack-5箱_Ivory 70X120inches 6pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Ivory 90inches Round 2pack-1箱\\Ivory 90inches Round 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Ivory 90inches Round 2pack-1箱_Ivory 90inches Round 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\Ivory 90inches Round 6pack-6箱\\Ivory 90inches Round 6pack-6箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_Ivory 90inches Round 6pack-6箱_Ivory 90inches Round 6pack-6箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\White 60X84inches 2pack-4箱\\White 60X84inches 2pack-4箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_White 60X84inches 2pack-4箱_White 60X84inches 2pack-4箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\White 60×102inches 10packs-13箱\\White 60×102inches 10packs-13箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_White 60×102inches 10packs-13箱_White 60×102inches 10packs-13箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\White 60×84inches 6pack-12箱\\White 60×84inches 6pack-12箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_White 60×84inches 6pack-12箱_White 60×84inches 6pack-12箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\White 70X120inches 2pack-1箱\\White 70X120inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_White 70X120inches 2pack-1箱_White 70X120inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\LGB8\\外箱贴\\White 90inches Round 6pack-17箱\\White 90inches Round 6pack-17箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_LGB8_外箱贴_White 90inches Round 6pack-17箱_White 90inches Round 6pack-17箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Black 60×102inches 6packs-17箱\\Black 60×102inches 6packs-17箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Black 60×102inches 6packs-17箱_Black 60×102inches 6packs-17箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Black 70X120inches 2pack-1箱\\Black 70X120inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Black 70X120inches 2pack-1箱_Black 70X120inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Black 70X120inches 6pack-3箱\\Black 70X120inches 6pack-3箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Black 70X120inches 6pack-3箱_Black 70X120inches 6pack-3箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Black 90inches Round 6pack-2箱\\Black 90inches Round 6pack-2箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Black 90inches Round 6pack-2箱_Black 90inches Round 6pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Blue 60X102inches 10pack-9箱\\Blue 60X102inches 10pack-9箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Blue 60X102inches 10pack-9箱_Blue 60X102inches 10pack-9箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Blue 60X102inches 2pack-2箱\\Blue 60X102inches 2pack-2箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Blue 60X102inches 2pack-2箱_Blue 60X102inches 2pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Blue 60X102inches 6pack-4箱\\Blue 60X102inches 6pack-4箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Blue 60X102inches 6pack-4箱_Blue 60X102inches 6pack-4箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Blue 70X120inches 2pack-1箱\\Blue 70X120inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Blue 70X120inches 2pack-1箱_Blue 70X120inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Blue 70X120inches 6pack-4箱\\Blue 70X120inches 6pack-4箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Blue 70X120inches 6pack-4箱_Blue 70X120inches 6pack-4箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Blue 90inches Round 6pack-7箱\\Blue 90inches Round 6pack-7箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Blue 90inches Round 6pack-7箱_Blue 90inches Round 6pack-7箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Ivory 60X102inches 10pack-9箱\\Ivory 60X102inches 10pack-9箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Ivory 60X102inches 10pack-9箱_Ivory 60X102inches 10pack-9箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Ivory 60X102inches 2pack-1箱\\Ivory 60X102inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Ivory 60X102inches 2pack-1箱_Ivory 60X102inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Ivory 60X102inches 6pack-16箱\\Ivory 60X102inches 6pack-16箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Ivory 60X102inches 6pack-16箱_Ivory 60X102inches 6pack-16箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Ivory 60X84inches 2pack-2箱\\Ivory 60X84inches 2pack-2箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Ivory 60X84inches 2pack-2箱_Ivory 60X84inches 2pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Ivory 70X120inches 6pack-7箱\\Ivory 70X120inches 6pack-7箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Ivory 70X120inches 6pack-7箱_Ivory 70X120inches 6pack-7箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Ivory 90inches Round 2pack-1箱\\Ivory 90inches Round 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Ivory 90inches Round 2pack-1箱_Ivory 90inches Round 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\Ivory 90inches Round 6pack-5箱\\Ivory 90inches Round 6pack-5箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_Ivory 90inches Round 6pack-5箱_Ivory 90inches Round 6pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\White 60X84inches 2pack-3箱\\White 60X84inches 2pack-3箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_White 60X84inches 2pack-3箱_White 60X84inches 2pack-3箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\White 60×102inches 10packs-9箱\\White 60×102inches 10packs-9箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_White 60×102inches 10packs-9箱_White 60×102inches 10packs-9箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\White 60×84inches 6pack-9箱\\White 60×84inches 6pack-9箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_White 60×84inches 6pack-9箱_White 60×84inches 6pack-9箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\White 70X120inches 2pack-1箱\\White 70X120inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_White 70X120inches 2pack-1箱_White 70X120inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\MDW2\\外箱贴\\White 90inches Round 6pack-22箱\\White 90inches Round 6pack-22箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_MDW2_外箱贴_White 90inches Round 6pack-22箱_White 90inches Round 6pack-22箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Black 60×102inches 6packs-20箱\\Black 60×102inches 6packs-20箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Black 60×102inches 6packs-20箱_Black 60×102inches 6packs-20箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Black 70X120inches 2pack-1箱\\Black 70X120inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Black 70X120inches 2pack-1箱_Black 70X120inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Black 70X120inches 6pack-3箱\\Black 70X120inches 6pack-3箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Black 70X120inches 6pack-3箱_Black 70X120inches 6pack-3箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Black 90inches Round 6pack-3箱\\Black 90inches Round 6pack-3箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Black 90inches Round 6pack-3箱_Black 90inches Round 6pack-3箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Blue 60X102inches 10pack-9箱\\Blue 60X102inches 10pack-9箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Blue 60X102inches 10pack-9箱_Blue 60X102inches 10pack-9箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Blue 60X102inches 2pack-2箱\\Blue 60X102inches 2pack-2箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Blue 60X102inches 2pack-2箱_Blue 60X102inches 2pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Blue 60X102inches 6pack-4箱\\Blue 60X102inches 6pack-4箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Blue 60X102inches 6pack-4箱_Blue 60X102inches 6pack-4箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Blue 70X120inches 2pack-1箱\\Blue 70X120inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Blue 70X120inches 2pack-1箱_Blue 70X120inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Blue 70X120inches 6pack-4箱\\Blue 70X120inches 6pack-4箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Blue 70X120inches 6pack-4箱_Blue 70X120inches 6pack-4箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Blue 90inches Round 6pack-6箱\\Blue 90inches Round 6pack-6箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Blue 90inches Round 6pack-6箱_Blue 90inches Round 6pack-6箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Ivory 60X102inches 10pack-9箱\\Ivory 60X102inches 10pack-9箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Ivory 60X102inches 10pack-9箱_Ivory 60X102inches 10pack-9箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Ivory 60X102inches 2pack-1箱\\Ivory 60X102inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Ivory 60X102inches 2pack-1箱_Ivory 60X102inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Ivory 60X102inches 6pack-20箱\\Ivory 60X102inches 6pack-20箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Ivory 60X102inches 6pack-20箱_Ivory 60X102inches 6pack-20箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Ivory 60X84inches 2pack-3箱\\Ivory 60X84inches 2pack-3箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Ivory 60X84inches 2pack-3箱_Ivory 60X84inches 2pack-3箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Ivory 70X120inches 6pack-6箱\\Ivory 70X120inches 6pack-6箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Ivory 70X120inches 6pack-6箱_Ivory 70X120inches 6pack-6箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Ivory 90inches Round 2pack-1箱\\Ivory 90inches Round 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Ivory 90inches Round 2pack-1箱_Ivory 90inches Round 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\Ivory 90inches Round 6pack-7箱\\Ivory 90inches Round 6pack-7箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_Ivory 90inches Round 6pack-7箱_Ivory 90inches Round 6pack-7箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\White 60X84inches 2pack-3箱\\White 60X84inches 2pack-3箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_White 60X84inches 2pack-3箱_White 60X84inches 2pack-3箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\White 60×102inches 10packs-10箱\\White 60×102inches 10packs-10箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_White 60×102inches 10packs-10箱_White 60×102inches 10packs-10箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\White 60×84inches 6pack-10箱\\White 60×84inches 6pack-10箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_White 60×84inches 6pack-10箱_White 60×84inches 6pack-10箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\White 70X120inches 2pack-1箱\\White 70X120inches 2pack-1箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_White 70X120inches 2pack-1箱_White 70X120inches 2pack-1箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26036-C04-28590_C04_20260510_28590",
+    "from": "00_Master_Reference\\5月发货计划\\C26036单  5.10发货 700箱-材料已准备\\C26036  700箱 外箱贴+入库贴\\RDU2\\外箱贴\\White 90inches Round 6pack-25箱\\White 90inches Round 6pack-25箱.pdf",
+    "to": "Shipments\\EF-C26036-C04-28590_C04_20260510_28590\\FBA外箱贴\\C26036  700箱 外箱贴+入库贴_RDU2_外箱贴_White 90inches Round 6pack-25箱_White 90inches Round 6pack-25箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C07  26001信息表 2026.5.24海运.xlsx",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\_来源归档\\C07  26001信息表 2026.5.24海运.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C07  26002信息表 2026.5.24海运.xlsx",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\_来源归档\\C07  26002信息表 2026.5.24海运.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C07  26003信息表 2026.5.24海运.xlsx",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\_来源归档\\C07  26003信息表 2026.5.24海运.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C07  26004信息表 2026.5.24海运.xlsx",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\_来源归档\\C07  26004信息表 2026.5.24海运.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C07-2604-U-2026.5.17.xlsx",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\出货表\\C07-2604-U-2026.5.17.xlsx",
+    "cat": "出货表"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C26037单  外箱贴+入库贴.zip",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\_来源归档\\C26037单  外箱贴+入库贴.zip",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C26037单，400箱易尚报关数据.doc",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\报关资料表\\C26037单，400箱易尚报关数据.doc",
+    "cat": "报关资料表"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\易尚店 亚马逊5仓产品发货模板.xlsx",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\_来源归档\\易尚店 亚马逊5仓产品发货模板.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\货代入库贴下单表.zip",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\货代入库贴下单表\\货代入库贴下单表.zip",
+    "cat": "货代入库贴下单表"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\2026.5.17日400箱报关资料\\61箱报关资料.xlsx",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\报关资料表\\2026.5.17日400箱报关资料_61箱报关资料.xlsx",
+    "cat": "报关资料表"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\2026.5.17日400箱报关资料\\70箱报关资料YLPSV26050694889W009=FBA19CNPVRRW=.xlsx",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\报关资料表\\2026.5.17日400箱报关资料_70箱报关资料YLPSV26050694889W009=FBA19CNPVRRW=.xlsx",
+    "cat": "报关资料表"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\2026.5.17日400箱报关资料\\86箱报关资料.xlsx",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\报关资料表\\2026.5.17日400箱报关资料_86箱报关资料.xlsx",
+    "cat": "报关资料表"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\2026.5.17日400箱报关资料\\87箱报关资料.xlsx",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\报关资料表\\2026.5.17日400箱报关资料_87箱报关资料.xlsx",
+    "cat": "报关资料表"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\2026.5.17日400箱报关资料\\96箱报关资料.xlsx",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\报关资料表\\2026.5.17日400箱报关资料_96箱报关资料.xlsx",
+    "cat": "报关资料表"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\货代入库贴下单表\\C07桌布 AVP1 61箱.xlsx",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\货代入库贴下单表\\货代入库贴下单表_C07桌布 AVP1 61箱.xlsx",
+    "cat": "货代入库贴下单表"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\货代入库贴下单表\\C07桌布 FTW1  86箱.xlsx",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\货代入库贴下单表\\货代入库贴下单表_C07桌布 FTW1  86箱.xlsx",
+    "cat": "货代入库贴下单表"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\货代入库贴下单表\\C07桌布 MCC1 87箱.xlsx",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\货代入库贴下单表\\货代入库贴下单表_C07桌布 MCC1 87箱.xlsx",
+    "cat": "货代入库贴下单表"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\货代入库贴下单表\\C07桌布 RDU2 70箱.xlsx",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\货代入库贴下单表\\货代入库贴下单表_C07桌布 RDU2 70箱.xlsx",
+    "cat": "货代入库贴下单表"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\货代入库贴下单表\\C07桌布 SWF2  96箱.xlsx",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\货代入库贴下单表\\货代入库贴下单表_C07桌布 SWF2  96箱.xlsx",
+    "cat": "货代入库贴下单表"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C26037单  外箱贴+入库贴\\AVP1\\AVP1 61箱外箱贴.pdf",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\FBA外箱贴\\C26037单  外箱贴+入库贴_AVP1_AVP1 61箱外箱贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C26037单  外箱贴+入库贴\\AVP1\\入库贴.pdf",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\FBA外箱贴\\C26037单  外箱贴+入库贴_AVP1_入库贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C26037单  外箱贴+入库贴\\FTW1\\FTW1 86箱外箱贴.pdf",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\FBA外箱贴\\C26037单  外箱贴+入库贴_FTW1_FTW1 86箱外箱贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C26037单  外箱贴+入库贴\\FTW1\\入库贴.pdf",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\FBA外箱贴\\C26037单  外箱贴+入库贴_FTW1_入库贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C26037单  外箱贴+入库贴\\MCC1\\MCC1 87箱外箱贴.pdf",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\FBA外箱贴\\C26037单  外箱贴+入库贴_MCC1_MCC1 87箱外箱贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C26037单  外箱贴+入库贴\\MCC1\\入库贴.pdf",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\FBA外箱贴\\C26037单  外箱贴+入库贴_MCC1_入库贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C26037单  外箱贴+入库贴\\RDU2\\RDU2 70箱外箱贴.pdf",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\FBA外箱贴\\C26037单  外箱贴+入库贴_RDU2_RDU2 70箱外箱贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C26037单  外箱贴+入库贴\\RDU2\\入库贴.pdf",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\FBA外箱贴\\C26037单  外箱贴+入库贴_RDU2_入库贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C26037单  外箱贴+入库贴\\SWF2\\SWF2 96箱外箱贴.pdf",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\FBA外箱贴\\C26037单  外箱贴+入库贴_SWF2_SWF2 96箱外箱贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26037-C07_C07_20260517_400CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26037-易尚 5.17发货 400箱\\C26037单  外箱贴+入库贴\\SWF2\\入库贴.pdf",
+    "to": "Shipments\\EF-C26037-C07_C07_20260517_400CTN\\FBA外箱贴\\C26037单  外箱贴+入库贴_SWF2_入库贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\5.24发货 288箱 C26039单市场采购数据.zip",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\_来源归档\\5.24发货 288箱 C26039单市场采购数据.zip",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴.zip",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\_来源归档\\C26039外箱贴+入库贴.zip",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\易尚店 C26039单5仓产品发货模板.xlsx",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\_来源归档\\易尚店 C26039单5仓产品发货模板.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\模板 2026.4.5发货 100箱 市场采购数据.xlsx",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\_来源归档\\模板 2026.4.5发货 100箱 市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\模板货代入库贴数据2026.4.19桌布 POC2 300箱.xlsx",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\货代入库贴下单表\\模板货代入库贴数据2026.4.19桌布 POC2 300箱.xlsx",
+    "cat": "货代入库贴下单表"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\货代下单表.zip",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\货代入库贴下单表\\货代下单表.zip",
+    "cat": "货代入库贴下单表"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\5.24发货 288箱 C26039单市场采购数据\\畅选+波丽丝 AVP1 2026.5.24发货 56箱 市场采购数据.xlsx",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\_来源归档\\5.24发货 288箱 C26039单市场采购数据_畅选+波丽丝 AVP1 2026.5.24发货 56箱 市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\5.24发货 288箱 C26039单市场采购数据\\畅选+波丽丝 FTW1 2026.5.24发货 56箱 市场采购数据.xlsx",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\_来源归档\\5.24发货 288箱 C26039单市场采购数据_畅选+波丽丝 FTW1 2026.5.24发货 56箱 市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\5.24发货 288箱 C26039单市场采购数据\\畅选+波丽丝 ONT8 2026.5.24发货 61箱 市场采购数据.xlsx",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\_来源归档\\5.24发货 288箱 C26039单市场采购数据_畅选+波丽丝 ONT8 2026.5.24发货 61箱 市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\5.24发货 288箱 C26039单市场采购数据\\畅选+波丽丝 RDU2 2026.5.24发货 56箱 市场采购数据.xlsx",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\_来源归档\\5.24发货 288箱 C26039单市场采购数据_畅选+波丽丝 RDU2 2026.5.24发货 56箱 市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\5.24发货 288箱 C26039单市场采购数据\\畅选+波丽丝 SWF2 2026.5.24发货 59箱 市场采购数据.xlsx",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\_来源归档\\5.24发货 288箱 C26039单市场采购数据_畅选+波丽丝 SWF2 2026.5.24发货 59箱 市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\原始外箱贴\\FBA19CNN2FGP-1778048883544.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\原始外箱贴_FBA19CNN2FGP-1778048883544.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\原始外箱贴\\FBA19CNNVMXK-1778048877764.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\原始外箱贴_FBA19CNNVMXK-1778048877764.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\原始外箱贴\\FBA19CNNX01C-1778048872049.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\原始外箱贴_FBA19CNNX01C-1778048872049.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\原始外箱贴\\FBA19CNPHG28-1778048888103.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\原始外箱贴_FBA19CNPHG28-1778048888103.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\原始外箱贴\\FBA19CNQ1PPT-1778048859895.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\原始外箱贴_FBA19CNQ1PPT-1778048859895.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\货代下单表\\C26039单 2026.5.17桌布 AVP1 56箱.xlsx",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\货代入库贴下单表\\货代下单表_C26039单 2026.5.17桌布 AVP1 56箱.xlsx",
+    "cat": "货代入库贴下单表"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\货代下单表\\C26039单 2026.5.17桌布 FTW1 56箱.xlsx",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\货代入库贴下单表\\货代下单表_C26039单 2026.5.17桌布 FTW1 56箱.xlsx",
+    "cat": "货代入库贴下单表"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\货代下单表\\C26039单 2026.5.17桌布 ONT8 61箱.xlsx",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\货代入库贴下单表\\货代下单表_C26039单 2026.5.17桌布 ONT8 61箱.xlsx",
+    "cat": "货代入库贴下单表"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\货代下单表\\C26039单 2026.5.17桌布 RDU2 56箱.xlsx",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\货代入库贴下单表\\货代下单表_C26039单 2026.5.17桌布 RDU2 56箱.xlsx",
+    "cat": "货代入库贴下单表"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\货代下单表\\C26039单 2026.5.17桌布 SWF2 59箱.xlsx",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\货代入库贴下单表\\货代下单表_C26039单 2026.5.17桌布 SWF2 59箱.xlsx",
+    "cat": "货代入库贴下单表"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\AVP1\\入库贴.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_AVP1_入库贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\FTW1\\入库贴.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_FTW1_入库贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\ONT8\\入库贴.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_ONT8_入库贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\RDU2\\入库贴.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_RDU2_入库贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\SWF2\\入库贴.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_SWF2_入库贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\AVP1\\白色 90g 70x120inches 10pack-5箱\\白色 90g 70x120inches 10pack-5箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_AVP1_白色 90g 70x120inches 10pack-5箱_白色 90g 70x120inches 10pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\AVP1\\蓝色 90g 60x102inches 10pack-13箱\\蓝色 90g 60x102inches 10pack-13箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_AVP1_蓝色 90g 60x102inches 10pack-13箱_蓝色 90g 60x102inches 10pack-13箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\AVP1\\蓝色 90g 70x120inches 10pack-4箱\\蓝色 90g 70x120inches 10pack-4箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_AVP1_蓝色 90g 70x120inches 10pack-4箱_蓝色 90g 70x120inches 10pack-4箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\AVP1\\蓝色 90g 90inches Round 10pack-2箱\\蓝色 90g 90inches Round 10pack-2箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_AVP1_蓝色 90g 90inches Round 10pack-2箱_蓝色 90g 90inches Round 10pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\AVP1\\象牙白 90g 60x102inches 10pack-11箱\\象牙白 90g 60x102inches 10pack-11箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_AVP1_象牙白 90g 60x102inches 10pack-11箱_象牙白 90g 60x102inches 10pack-11箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\AVP1\\象牙白 90g 70x120inches 10pack-5箱\\象牙白 90g 70x120inches 10pack-5箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_AVP1_象牙白 90g 70x120inches 10pack-5箱_象牙白 90g 70x120inches 10pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\AVP1\\象牙白 90g 90inches Round 10pack-2箱\\象牙白 90g 90inches Round 10pack-2箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_AVP1_象牙白 90g 90inches Round 10pack-2箱_象牙白 90g 90inches Round 10pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\AVP1\\黑色 90g 60x102inches 10pack-7箱\\黑色 90g 60x102inches 10pack-7箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_AVP1_黑色 90g 60x102inches 10pack-7箱_黑色 90g 60x102inches 10pack-7箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\AVP1\\黑色 90g 70x120inches 10pack-5箱\\黑色 90g 70x120inches 10pack-5箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_AVP1_黑色 90g 70x120inches 10pack-5箱_黑色 90g 70x120inches 10pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\AVP1\\黑色 90g 90inches Round 10pack-2箱\\黑色 90g 90inches Round 10pack-2箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_AVP1_黑色 90g 90inches Round 10pack-2箱_黑色 90g 90inches Round 10pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\FTW1\\白色 90g 70x120inches 10pack-5箱\\白色 90g 70x120inches 10pack-5箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_FTW1_白色 90g 70x120inches 10pack-5箱_白色 90g 70x120inches 10pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\FTW1\\蓝色 90g 60x102inches 10pack-11箱\\蓝色 90g 60x102inches 10pack-11箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_FTW1_蓝色 90g 60x102inches 10pack-11箱_蓝色 90g 60x102inches 10pack-11箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\FTW1\\蓝色 90g 70x120inches 10pack-4箱\\蓝色 90g 70x120inches 10pack-4箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_FTW1_蓝色 90g 70x120inches 10pack-4箱_蓝色 90g 70x120inches 10pack-4箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\FTW1\\蓝色 90g 90inches Round 10pack-2箱\\蓝色 90g 90inches Round 10pack-2箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_FTW1_蓝色 90g 90inches Round 10pack-2箱_蓝色 90g 90inches Round 10pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\FTW1\\象牙白 90g 60x102inches 10pack-9箱\\象牙白 90g 60x102inches 10pack-9箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_FTW1_象牙白 90g 60x102inches 10pack-9箱_象牙白 90g 60x102inches 10pack-9箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\FTW1\\象牙白 90g 70x120inches 10pack-5箱\\象牙白 90g 70x120inches 10pack-5箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_FTW1_象牙白 90g 70x120inches 10pack-5箱_象牙白 90g 70x120inches 10pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\FTW1\\象牙白 90g 90inches Round 10pack-2箱\\象牙白 90g 90inches Round 10pack-2箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_FTW1_象牙白 90g 90inches Round 10pack-2箱_象牙白 90g 90inches Round 10pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\FTW1\\黑色 90g 60x102inches 10pack-11箱\\黑色 90g 60x102inches 10pack-11箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_FTW1_黑色 90g 60x102inches 10pack-11箱_黑色 90g 60x102inches 10pack-11箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\FTW1\\黑色 90g 70x120inches 10pack-5箱\\黑色 90g 70x120inches 10pack-5箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_FTW1_黑色 90g 70x120inches 10pack-5箱_黑色 90g 70x120inches 10pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\FTW1\\黑色 90g 90inches Round 10pack-2箱\\黑色 90g 90inches Round 10pack-2箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_FTW1_黑色 90g 90inches Round 10pack-2箱_黑色 90g 90inches Round 10pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\ONT8\\白色 90g 70x120inches 10pack-5箱\\白色 90g 70x120inches 10pack-5箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_ONT8_白色 90g 70x120inches 10pack-5箱_白色 90g 70x120inches 10pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\ONT8\\蓝色 90g 60x102inches 10pack-11箱\\蓝色 90g 60x102inches 10pack-11箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_ONT8_蓝色 90g 60x102inches 10pack-11箱_蓝色 90g 60x102inches 10pack-11箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\ONT8\\蓝色 90g 70x120inches 10pack-4箱\\蓝色 90g 70x120inches 10pack-4箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_ONT8_蓝色 90g 70x120inches 10pack-4箱_蓝色 90g 70x120inches 10pack-4箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\ONT8\\蓝色 90g 90inches Round 10pack-2箱\\蓝色 90g 90inches Round 10pack-2箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_ONT8_蓝色 90g 90inches Round 10pack-2箱_蓝色 90g 90inches Round 10pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\ONT8\\象牙白 90g 60x102inches 10pack-9箱\\象牙白 90g 60x102inches 10pack-9箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_ONT8_象牙白 90g 60x102inches 10pack-9箱_象牙白 90g 60x102inches 10pack-9箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\ONT8\\象牙白 90g 70x120inches 10pack-5箱\\象牙白 90g 70x120inches 10pack-5箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_ONT8_象牙白 90g 70x120inches 10pack-5箱_象牙白 90g 70x120inches 10pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\ONT8\\象牙白 90g 90inches Round 10pack-2箱\\象牙白 90g 90inches Round 10pack-2箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_ONT8_象牙白 90g 90inches Round 10pack-2箱_象牙白 90g 90inches Round 10pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\ONT8\\黑色 90g 60x102inches 10pack-16箱\\黑色 90g 60x102inches 10pack-16箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_ONT8_黑色 90g 60x102inches 10pack-16箱_黑色 90g 60x102inches 10pack-16箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\ONT8\\黑色 90g 70x120inches 10pack-5箱\\黑色 90g 70x120inches 10pack-5箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_ONT8_黑色 90g 70x120inches 10pack-5箱_黑色 90g 70x120inches 10pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\ONT8\\黑色 90g 90inches Round 10pack-2箱\\黑色 90g 90inches Round 10pack-2箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_ONT8_黑色 90g 90inches Round 10pack-2箱_黑色 90g 90inches Round 10pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\RDU2\\白色 90g 70x120inches 10pack-5箱\\白色 90g 70x120inches 10pack-5箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_RDU2_白色 90g 70x120inches 10pack-5箱_白色 90g 70x120inches 10pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\RDU2\\蓝色 90g 60x102inches 10pack-12箱\\蓝色 90g 60x102inches 10pack-12箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_RDU2_蓝色 90g 60x102inches 10pack-12箱_蓝色 90g 60x102inches 10pack-12箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\RDU2\\蓝色 90g 70x120inches 10pack-4箱\\蓝色 90g 70x120inches 10pack-4箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_RDU2_蓝色 90g 70x120inches 10pack-4箱_蓝色 90g 70x120inches 10pack-4箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\RDU2\\蓝色 90g 90inches Round 10pack-2箱\\蓝色 90g 90inches Round 10pack-2箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_RDU2_蓝色 90g 90inches Round 10pack-2箱_蓝色 90g 90inches Round 10pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\RDU2\\象牙白 90g 60x102inches 10pack-10箱\\象牙白 90g 60x102inches 10pack-10箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_RDU2_象牙白 90g 60x102inches 10pack-10箱_象牙白 90g 60x102inches 10pack-10箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\RDU2\\象牙白 90g 70x120inches 10pack-5箱\\象牙白 90g 70x120inches 10pack-5箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_RDU2_象牙白 90g 70x120inches 10pack-5箱_象牙白 90g 70x120inches 10pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\RDU2\\象牙白 90g 90inches Round 10pack-2箱\\象牙白 90g 90inches Round 10pack-2箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_RDU2_象牙白 90g 90inches Round 10pack-2箱_象牙白 90g 90inches Round 10pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\RDU2\\黑色 90g 60x102inches 10pack-9箱\\黑色 90g 60x102inches 10pack-9箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_RDU2_黑色 90g 60x102inches 10pack-9箱_黑色 90g 60x102inches 10pack-9箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\RDU2\\黑色 90g 70x120inches 10pack-5箱\\黑色 90g 70x120inches 10pack-5箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_RDU2_黑色 90g 70x120inches 10pack-5箱_黑色 90g 70x120inches 10pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\RDU2\\黑色 90g 90inches Round 10pack-2箱\\黑色 90g 90inches Round 10pack-2箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_RDU2_黑色 90g 90inches Round 10pack-2箱_黑色 90g 90inches Round 10pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\SWF2\\白色 90g 70x120inches 10pack-6箱\\白色 90g 70x120inches 10pack-6箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_SWF2_白色 90g 70x120inches 10pack-6箱_白色 90g 70x120inches 10pack-6箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\SWF2\\蓝色 90g 60x102inches 10pack-13箱\\蓝色 90g 60x102inches 10pack-13箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_SWF2_蓝色 90g 60x102inches 10pack-13箱_蓝色 90g 60x102inches 10pack-13箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\SWF2\\蓝色 90g 70x120inches 10pack-4箱\\蓝色 90g 70x120inches 10pack-4箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_SWF2_蓝色 90g 70x120inches 10pack-4箱_蓝色 90g 70x120inches 10pack-4箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\SWF2\\蓝色 90g 90inches Round 10pack-2箱\\蓝色 90g 90inches Round 10pack-2箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_SWF2_蓝色 90g 90inches Round 10pack-2箱_蓝色 90g 90inches Round 10pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\SWF2\\象牙白 90g 60x102inches 10pack-11箱\\象牙白 90g 60x102inches 10pack-11箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_SWF2_象牙白 90g 60x102inches 10pack-11箱_象牙白 90g 60x102inches 10pack-11箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\SWF2\\象牙白 90g 70x120inches 10pack-6箱\\象牙白 90g 70x120inches 10pack-6箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_SWF2_象牙白 90g 70x120inches 10pack-6箱_象牙白 90g 70x120inches 10pack-6箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\SWF2\\象牙白 90g 90inches Round 10pack-2箱\\象牙白 90g 90inches Round 10pack-2箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_SWF2_象牙白 90g 90inches Round 10pack-2箱_象牙白 90g 90inches Round 10pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\SWF2\\黑色 90g 60x102inches 10pack-7箱\\黑色 90g 60x102inches 10pack-7箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_SWF2_黑色 90g 60x102inches 10pack-7箱_黑色 90g 60x102inches 10pack-7箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\SWF2\\黑色 90g 70x120inches 10pack-6箱\\黑色 90g 70x120inches 10pack-6箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_SWF2_黑色 90g 70x120inches 10pack-6箱_黑色 90g 70x120inches 10pack-6箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "00_Master_Reference\\5月发货计划\\C26039-易尚  5.24发货 288箱\\C26039外箱贴+入库贴\\SWF2\\黑色 90g 90inches Round 10pack-2箱\\黑色 90g 90inches Round 10pack-2箱.pdf",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\FBA外箱贴\\C26039外箱贴+入库贴_SWF2_黑色 90g 90inches Round 10pack-2箱_黑色 90g 90inches Round 10pack-2箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "01_Order_Outbound\\EF-C26039-C07-10540PCS tablecloth改.xls",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\订单表\\EF-C26039-C07-10540PCS tablecloth改.xls",
+    "cat": "订单表"
+  },
+  {
+    "project": "EF-C26039-C07-10540_C07_20260524_10540",
+    "from": "01_Order_Outbound\\EF-C26039-C07-10600PCS tablecloth.xls",
+    "to": "Shipments\\EF-C26039-C07-10540_C07_20260524_10540\\订单表\\EF-C26039-C07-10600PCS tablecloth.xls",
+    "cat": "订单表"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\C26040  248箱 外箱贴+入库贴.zip",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\_来源归档\\C26040  248箱 外箱贴+入库贴.zip",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\EF-C26040-C04-8490PCS tablecloth改.xls",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\订单表\\EF-C26040-C04-8490PCS tablecloth改.xls",
+    "cat": "订单表"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\畅选+波丽丝 2026.5.10发货 248箱 市场采购数据.xlsx",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\_来源归档\\畅选+波丽丝 2026.5.10发货 248箱 市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\货代入库贴数据2026.5.10 HEA2 248箱.xlsx",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\货代入库贴下单表\\货代入库贴数据2026.5.10 HEA2 248箱.xlsx",
+    "cat": "货代入库贴下单表"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\外箱贴+入库贴\\248箱入库贴.pdf",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\FBA外箱贴\\外箱贴+入库贴_248箱入库贴.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\外箱贴+入库贴\\248箱 外箱贴\\Black 60X126inches 2pack-5箱\\Black 60X126inches 2pack-5箱.pdf",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\FBA外箱贴\\外箱贴+入库贴_248箱 外箱贴_Black 60X126inches 2pack-5箱_Black 60X126inches 2pack-5箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\外箱贴+入库贴\\248箱 外箱贴\\Black 70X120inches 10pack-20箱\\Black 70X120inches 10pack-20箱.pdf",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\FBA外箱贴\\外箱贴+入库贴_248箱 外箱贴_Black 70X120inches 10pack-20箱_Black 70X120inches 10pack-20箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\外箱贴+入库贴\\248箱 外箱贴\\Black 90inches Round 10pack-20箱\\Black 90inches Round 10pack-20箱.pdf",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\FBA外箱贴\\外箱贴+入库贴_248箱 外箱贴_Black 90inches Round 10pack-20箱_Black 90inches Round 10pack-20箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\外箱贴+入库贴\\248箱 外箱贴\\Blue 60X126inches 2pack-10箱\\Blue 60X126inches 2pack-10箱.pdf",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\FBA外箱贴\\外箱贴+入库贴_248箱 外箱贴_Blue 60X126inches 2pack-10箱_Blue 60X126inches 2pack-10箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\外箱贴+入库贴\\248箱 外箱贴\\Blue 60X126inches 6pack-20箱\\Blue 60X126inches 6pack-20箱.pdf",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\FBA外箱贴\\外箱贴+入库贴_248箱 外箱贴_Blue 60X126inches 6pack-20箱_Blue 60X126inches 6pack-20箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\外箱贴+入库贴\\248箱 外箱贴\\Ivory 60X126inches 2pack-10箱\\Ivory 60X126inches 2pack-10箱.pdf",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\FBA外箱贴\\外箱贴+入库贴_248箱 外箱贴_Ivory 60X126inches 2pack-10箱_Ivory 60X126inches 2pack-10箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\外箱贴+入库贴\\248箱 外箱贴\\Ivory 60X126inches 6pack-20箱\\Ivory 60X126inches 6pack-20箱.pdf",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\FBA外箱贴\\外箱贴+入库贴_248箱 外箱贴_Ivory 60X126inches 6pack-20箱_Ivory 60X126inches 6pack-20箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\外箱贴+入库贴\\248箱 外箱贴\\Ivory 70X120inches 10pack-20箱\\Ivory 70X120inches 10pack-20箱.pdf",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\FBA外箱贴\\外箱贴+入库贴_248箱 外箱贴_Ivory 70X120inches 10pack-20箱_Ivory 70X120inches 10pack-20箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\外箱贴+入库贴\\248箱 外箱贴\\Ivory 90inches Round 10pack-20箱\\Ivory 90inches Round 10pack-20箱.pdf",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\FBA外箱贴\\外箱贴+入库贴_248箱 外箱贴_Ivory 90inches Round 10pack-20箱_Ivory 90inches Round 10pack-20箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\外箱贴+入库贴\\248箱 外箱贴\\White 60X126inches 10pack-53箱\\White 60X126inches 10pack-53箱.pdf",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\FBA外箱贴\\外箱贴+入库贴_248箱 外箱贴_White 60X126inches 10pack-53箱_White 60X126inches 10pack-53箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\外箱贴+入库贴\\248箱 外箱贴\\White 60X126inches 2pack-10箱\\White 60X126inches 2pack-10箱.pdf",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\FBA外箱贴\\外箱贴+入库贴_248箱 外箱贴_White 60X126inches 2pack-10箱_White 60X126inches 2pack-10箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\外箱贴+入库贴\\248箱 外箱贴\\White 70X120inches 10pack-20箱\\White 70X120inches 10pack-20箱.pdf",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\FBA外箱贴\\外箱贴+入库贴_248箱 外箱贴_White 70X120inches 10pack-20箱_White 70X120inches 10pack-20箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "EF-C26040-C04-8490_C04_20260510_8490",
+    "from": "00_Master_Reference\\5月发货计划\\C26040 5.10发货 248箱\\外箱贴+入库贴\\248箱 外箱贴\\White 90inches Round 10pack-20箱\\White 90inches Round 10pack-20箱.pdf",
+    "to": "Shipments\\EF-C26040-C04-8490_C04_20260510_8490\\FBA外箱贴\\外箱贴+入库贴_248箱 外箱贴_White 90inches Round 10pack-20箱_White 90inches Round 10pack-20箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.24发货-纽酷\\C26046  500箱 2026.5.24 出货 外箱贴+入库贴.zip",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\_来源归档\\C26046-500箱 2026.5.24发货-纽酷_C26046  500箱 2026.5.24 出货 外箱贴+入库贴.zip",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046标签\\102白色6条.pdf",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\产品标签\\C26046标签_102白色6条.pdf",
+    "cat": "产品标签"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.24发货-纽酷\\入库文件\\纽酷 CLT2 104箱 xlsx.xlsx",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\货代入库贴\\C26046-500箱 2026.5.24发货-纽酷_入库文件_纽酷 CLT2 104箱 xlsx.xlsx",
+    "cat": "货代入库贴"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.24发货-纽酷\\入库文件\\纽酷 LAS1  97箱 xlsx.xlsx",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\货代入库贴\\C26046-500箱 2026.5.24发货-纽酷_入库文件_纽酷 LAS1  97箱 xlsx.xlsx",
+    "cat": "货代入库贴"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.24发货-纽酷\\入库文件\\纽酷 LAX9  99箱 xlsx.xlsx",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\货代入库贴\\C26046-500箱 2026.5.24发货-纽酷_入库文件_纽酷 LAX9  99箱 xlsx.xlsx",
+    "cat": "货代入库贴"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.24发货-纽酷\\入库文件\\纽酷 SBD1  119箱 xlsx.xlsx",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\货代入库贴\\C26046-500箱 2026.5.24发货-纽酷_入库文件_纽酷 SBD1  119箱 xlsx.xlsx",
+    "cat": "货代入库贴"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.24发货-纽酷\\入库文件\\纽酷 TEB9  81箱 xlsx.xlsx",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\货代入库贴\\C26046-500箱 2026.5.24发货-纽酷_入库文件_纽酷 TEB9  81箱 xlsx.xlsx",
+    "cat": "货代入库贴"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.24发货-纽酷\\外箱贴+入库贴\\C26046  2026.5.24  给货  LAS1  97箱.pdf",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\FBA外箱贴\\C26046-500箱 2026.5.24发货-纽酷_外箱贴+入库贴_C26046  2026.5.24  给货  LAS1  97箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.24发货-纽酷\\外箱贴+入库贴\\C26046  2026.5.24  给货  LAX9  99箱.pdf",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\FBA外箱贴\\C26046-500箱 2026.5.24发货-纽酷_外箱贴+入库贴_C26046  2026.5.24  给货  LAX9  99箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.24发货-纽酷\\外箱贴+入库贴\\C26046  2026.5.24  给货  SBD1 119箱.pdf",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\FBA外箱贴\\C26046-500箱 2026.5.24发货-纽酷_外箱贴+入库贴_C26046  2026.5.24  给货  SBD1 119箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.24发货-纽酷\\外箱贴+入库贴\\C26046  2026.5.24  给货 CLT2 104箱.pdf",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\FBA外箱贴\\C26046-500箱 2026.5.24发货-纽酷_外箱贴+入库贴_C26046  2026.5.24  给货 CLT2 104箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.24发货-纽酷\\外箱贴+入库贴\\C26046  2026.5.24  给货 TEB9 81箱.pdf",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\FBA外箱贴\\C26046-500箱 2026.5.24发货-纽酷_外箱贴+入库贴_C26046  2026.5.24  给货 TEB9 81箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.24发货-纽酷\\市场采购数据\\畅选+波丽丝   纽酷  2026.5.24 发货 104箱 市场采购数据.xlsx",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\_来源归档\\C26046-500箱 2026.5.24发货-纽酷_市场采购数据_畅选+波丽丝   纽酷  2026.5.24 发货 104箱 市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.24发货-纽酷\\市场采购数据\\畅选+波丽丝   纽酷  2026.5.24 发货 119箱 市场采购数据.xlsx",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\_来源归档\\C26046-500箱 2026.5.24发货-纽酷_市场采购数据_畅选+波丽丝   纽酷  2026.5.24 发货 119箱 市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.24发货-纽酷\\市场采购数据\\畅选+波丽丝   纽酷  2026.5.24 发货 81箱 市场采购数据.xlsx",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\_来源归档\\C26046-500箱 2026.5.24发货-纽酷_市场采购数据_畅选+波丽丝   纽酷  2026.5.24 发货 81箱 市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.24发货-纽酷\\市场采购数据\\畅选+波丽丝   纽酷  2026.5.24 发货 97箱 市场采购数据.xlsx",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\_来源归档\\C26046-500箱 2026.5.24发货-纽酷_市场采购数据_畅选+波丽丝   纽酷  2026.5.24 发货 97箱 市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.24发货-纽酷\\市场采购数据\\畅选+波丽丝   纽酷  2026.5.24 发货 99箱 市场采购数据.xlsx",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\_来源归档\\C26046-500箱 2026.5.24发货-纽酷_市场采购数据_畅选+波丽丝   纽酷  2026.5.24 发货 99箱 市场采购数据.xlsx",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.31发货-物易通\\外箱贴\\FWA4\\白色 60×102inches 6packs-76箱\\白色 60×102inches 6packs-76箱.pdf",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\FBA外箱贴\\C26046-500箱 2026.5.31发货-物易通_外箱贴_FWA4_白色 60×102inches 6packs-76箱_白色 60×102inches 6packs-76箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.31发货-物易通\\外箱贴\\ONT8\\白色 60×102inches 6packs-148箱\\白色 60×102inches 6packs-148箱.pdf",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\FBA外箱贴\\C26046-500箱 2026.5.31发货-物易通_外箱贴_ONT8_白色 60×102inches 6packs-148箱_白色 60×102inches 6packs-148箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.31发货-物易通\\外箱贴\\ORF2\\白色 60×102inches 6packs-86箱\\白色 60×102inches 6packs-86箱.pdf",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\FBA外箱贴\\C26046-500箱 2026.5.31发货-物易通_外箱贴_ORF2_白色 60×102inches 6packs-86箱_白色 60×102inches 6packs-86箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.31发货-物易通\\外箱贴\\PSP3\\白色 60×102inches 6packs-100箱\\白色 60×102inches 6packs-100箱.pdf",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\FBA外箱贴\\C26046-500箱 2026.5.31发货-物易通_外箱贴_PSP3_白色 60×102inches 6packs-100箱_白色 60×102inches 6packs-100箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "C26046_C04_20260531_1000CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26046 5.31发货 1000箱\\C26046-500箱 2026.5.31发货-物易通\\外箱贴\\RDU2\\白色 60×102inches 6packs-90箱\\白色 60×102inches 6packs-90箱.pdf",
+    "to": "Shipments\\C26046_C04_20260531_1000CTN\\FBA外箱贴\\C26046-500箱 2026.5.31发货-物易通_外箱贴_RDU2_白色 60×102inches 6packs-90箱_白色 60×102inches 6packs-90箱.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "C26047_C04_20260531_90CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26047 5.31 发货 90箱\\C26047标签.zip",
+    "to": "Shipments\\C26047_C04_20260531_90CTN\\_来源归档\\C26047标签.zip",
+    "cat": "_来源归档"
+  },
+  {
+    "project": "C26047_C04_20260531_90CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26047 5.31 发货 90箱\\C26047标签\\70x120象牙色2条装.pdf",
+    "to": "Shipments\\C26047_C04_20260531_90CTN\\产品标签\\C26047标签_70x120象牙色2条装.pdf",
+    "cat": "产品标签"
+  },
+  {
+    "project": "C26047_C04_20260531_90CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26047 5.31 发货 90箱\\C26047标签\\84白色6条.pdf",
+    "to": "Shipments\\C26047_C04_20260531_90CTN\\产品标签\\C26047标签_84白色6条.pdf",
+    "cat": "产品标签"
+  },
+  {
+    "project": "C26047_C04_20260531_90CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26047 5.31 发货 90箱\\C26047标签\\Wigenius  102象牙色2条装.pdf",
+    "to": "Shipments\\C26047_C04_20260531_90CTN\\产品标签\\C26047标签_Wigenius  102象牙色2条装.pdf",
+    "cat": "产品标签"
+  },
+  {
+    "project": "C26047_C04_20260531_90CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26047 5.31 发货 90箱\\C26047标签\\Wigenius  84黑色2条装.pdf",
+    "to": "Shipments\\C26047_C04_20260531_90CTN\\产品标签\\C26047标签_Wigenius  84黑色2条装.pdf",
+    "cat": "产品标签"
+  },
+  {
+    "project": "C26047_C04_20260531_90CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26047 5.31 发货 90箱\\外箱贴5.31-誉杰物流\\FBA19D6BPKL7-1779256909840.pdf",
+    "to": "Shipments\\C26047_C04_20260531_90CTN\\FBA外箱贴\\外箱贴5.31-誉杰物流_FBA19D6BPKL7-1779256909840.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "C26047_C04_20260531_90CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26047 5.31 发货 90箱\\外箱贴5.31-誉杰物流\\FBA19D6C1HN6-1779256889450.pdf",
+    "to": "Shipments\\C26047_C04_20260531_90CTN\\FBA外箱贴\\外箱贴5.31-誉杰物流_FBA19D6C1HN6-1779256889450.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "C26047_C04_20260531_90CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26047 5.31 发货 90箱\\外箱贴5.31-誉杰物流\\FBA19D6C4RJ9-1779256859913.pdf",
+    "to": "Shipments\\C26047_C04_20260531_90CTN\\FBA外箱贴\\外箱贴5.31-誉杰物流_FBA19D6C4RJ9-1779256859913.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "C26047_C04_20260531_90CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26047 5.31 发货 90箱\\外箱贴5.31-誉杰物流\\FBA19D6D18XS-1779256915708.pdf",
+    "to": "Shipments\\C26047_C04_20260531_90CTN\\FBA外箱贴\\外箱贴5.31-誉杰物流_FBA19D6D18XS-1779256915708.pdf",
+    "cat": "FBA外箱贴"
+  },
+  {
+    "project": "C26047_C04_20260531_90CTN",
+    "from": "00_Master_Reference\\5月发货计划\\C26047 5.31 发货 90箱\\外箱贴5.31-誉杰物流\\FBA19D6GJLM6-1779256881367.pdf",
+    "to": "Shipments\\C26047_C04_20260531_90CTN\\FBA外箱贴\\外箱贴5.31-誉杰物流_FBA19D6GJLM6-1779256881367.pdf",
+    "cat": "FBA外箱贴"
+  }
+]

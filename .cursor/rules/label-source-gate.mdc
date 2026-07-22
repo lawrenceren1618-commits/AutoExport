@@ -1,0 +1,50 @@
+---
+description: 标签源只读；当票标签固定落盘 {EF订单号}标签/{N}条装/{尺寸}/原名.pdf；FNSKU双向锁定
+alwaysApply: true
+---
+
+# 标签源复制闸门（固定规则）
+
+## 定位
+
+`桌布标签` = **核心标签数据库**（只读）。
+
+| 谁 | 对标签源 |
+|----|----------|
+| 使用者经**手动上传路径** | 可增 / 删 |
+| 助手 / 脚本 | **只复制出、调取**；禁止对源增删改、剪切 |
+
+## 当票落盘格式（固定，不得改用其它结构）
+
+```text
+Shipments/{项目}/产品标签/{EF订单号}标签/{N}条装/{尺寸短码}/{源原名}.pdf
+```
+
+例：`产品标签/EF-C26079-C04-36460标签/6条装/60x102/102象牙白色ivory6条.pdf`
+
+| 段 | 规则 |
+|----|------|
+| `{EF订单号}标签` | 订单编号（EF 开头）+「标签」 |
+| `{N}条装` | N = 订单 **条数/包**（2/6/10…） |
+| `{尺寸短码}` | 见下方尺寸映射表（与标签源夹名对齐） |
+| PDF 文件名 | **必须**与标签源原名一致，禁止改名 |
+| FNSKU | **禁止**作夹名/文件名；仅 `_manifest.json` 可保留对照 |
+
+全文与映射表：`Templates/Shipment_Product_Label_Layout.md`；机器可读：`Scripts/canonical_schema.json` → `label_output_layout`。
+
+## FNSKU 双向锁定（固定）
+
+品牌 + 尺寸 + 条数/包 + **颜色** + 品名 ↔ FNSKU（双向）。  
+颜色为核心维；**米白 = 象牙白 = Ivory**（`color_aliases`）。  
+克重不参与锁定、不阻断标签复制。
+
+## 作业核对（每次复制强制）
+
+1. 复制前统计源 → 与 `last_completed.json` 核对  
+2. 仅 `copy` 到当票上述路径  
+3. 复制后统计源 → 须与复制前一致  
+4. 落盘：`2_Processed_AI/label_source_inventory/`
+
+## 配置位
+
+- 标签源：`D:\.cursor\Cursor-projects\AutoExport\1_Input_Raw\00_Master_Reference\桌布标签`

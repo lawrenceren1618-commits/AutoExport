@@ -26,11 +26,16 @@
     "order": [
       "order_code",
       "order_date",
+      "delivery_date",
       "master_upload_at",
       "qty_strips",
       "qty_cartons"
     ],
     "temporary_shipment": [
+      "outbound_short",
+      "ship_date",
+      "sales_person",
+      "destination",
       "fba_shipment_id",
       "tracking_id",
       "warehouse_code",
@@ -41,21 +46,183 @@
       "carton_combo",
       "split_shipment",
       "split_batch_no",
+      "split_leg_id",
+      "remaining_strips",
+      "remaining_cartons",
       "gross_kg_total",
       "net_kg_total",
       "declare_amount_total",
       "export_date",
       "export_code"
     ],
-    "derived": ["sku_key", "product_key", "data_tier"]
+    "derived": [
+      "sku_key",
+      "product_key",
+      "fnsku_lock_key",
+      "data_tier"
+    ]
+  },
+  "fnsku_bidirectional_lock": {
+    "keys": [
+      "brand",
+      "size",
+      "strips_per_pack",
+      "color",
+      "product_name_zh"
+    ],
+    "note": "规格↔FNSKU双向成立；颜色为核心维；亚马逊只认FNSKU；克重不参与锁定、不阻断标签复制"
+  },
+  "color_aliases": {
+    "confirmed_at": "2026-07-21",
+    "canonical": {
+      "白": [
+        "白",
+        "白色"
+      ],
+      "黑": [
+        "黑",
+        "黑色"
+      ],
+      "蓝": [
+        "蓝",
+        "蓝色"
+      ],
+      "米白": [
+        "米白",
+        "米白色",
+        "象牙",
+        "象牙色",
+        "象牙白",
+        "象牙白色",
+        "Ivory",
+        "ivory"
+      ]
+    },
+    "note": "米白=象牙白=Ivory 为同一色（使用者确认）；规范化写入沉淀/匹配时归一为「米白」"
+  },
+  "label_output_layout": {
+    "fixed": true,
+    "confirmed_at": "2026-07-21",
+    "pattern": "产品标签/{order_code}标签/{strips_per_pack}条装/{size_folder}/{source_filename}",
+    "rules": [
+      "order_code must start with EF",
+      "bundle folder name = order_code + 标签",
+      "no FNSKU in folder or file names",
+      "PDF filename must equal label-source original name",
+      "classify by strips_per_pack then size_folder only"
+    ],
+    "example": "产品标签/EF-C26079-C04-36460标签/6条装/60x102/102象牙白色ivory6条.pdf"
+  },
+  "size_folder_map": {
+    "confirmed_at": "2026-07-21",
+    "to_folder": {
+      "60X102inch": "60x102",
+      "60*102inch": "60x102",
+      "60x102": "60x102",
+      "6x102": "60x102",
+      "102": "60x102",
+      "60X126inch": "60x126",
+      "60x126": "60x126",
+      "126": "60x126",
+      "70X120inch": "70x120",
+      "70x120": "70x120",
+      "120": "70x120",
+      "60X84inch": "60x84",
+      "60x84": "60x84",
+      "84": "60x84",
+      "90 inch round": "90圆",
+      "90inchround": "90圆",
+      "90圆": "90圆",
+      "90寸圆": "90圆"
+    },
+    "note": "任意尺寸写法→标签夹名；短码102/126/84/120/90圆亦收录"
+  },
+  "size_shortcode_map": {
+    "confirmed_at": "2026-07-21",
+    "authority": "user_confirm_2026-07-21",
+    "master_short_to_order_full": {
+      "84": "60X84inch",
+      "102": "60X102inch",
+      "126": "60X126inch",
+      "120": "70X120inch",
+      "90圆": "90 inch round"
+    },
+    "order_full_aliases": {
+      "60X84inch": [
+        "60x84inch",
+        "60*84inch",
+        "60X84"
+      ],
+      "60X102inch": [
+        "60x102inch",
+        "60*102inch",
+        "60X102"
+      ],
+      "60X126inch": [
+        "60x126inch",
+        "60*126inch",
+        "60X126"
+      ],
+      "70X120inch": [
+        "70x120inch",
+        "70*120inch",
+        "70X120"
+      ],
+      "90 inch round": [
+        "90inchround",
+        "90圆",
+        "90寸圆",
+        "90 inch Round"
+      ]
+    },
+    "canonical_order_form": "prefer 60X102inch style (X + inch); treat * and 英寸 as read aliases; 120 shortcode = 70X120inch",
+    "note": "120=70X120inch（非60x120）；写入纠正 *→X、英寸→inch；与标签夹 70x120 一致"
   },
   "defaults": {
-    "hs_code_tablecloth": "6302539000",
+    "hs_code_tablecloth": "6302539090",
+    "gram_weight_default": "90G",
+    "freight_declare_brand": "无",
+    "outbound_sales_person": "任胜国",
+    "outbound_destination": "US",
+    "outbound_U_means": "USA",
+    "outbound_leave_empty": [
+      "所属订单",
+      "所属仓库"
+    ],
+    "outbound_detail_from": "order_upper_size_color",
+    "outbound_ship_date": "order_delivery_date",
+    "customs_1039": {
+      "applies_to_all_shipments": true,
+      "抬头_means": "生产销售单位等表内统一名称",
+      "抬头_C04": "许昌波丽丝贸易有限公司",
+      "文件名_not_抬头": true,
+      "文件名_may_contain": "畅选+波丽丝",
+      "内部法律主体_C04": "许昌畅选贸易有限公司",
+      "tax_rebate": false,
+      "levy_mode": "免征"
+    },
+    "freight_detail_rows": "one_consolidated_row_per_warehouse",
+    "price_bidirectional_check": true,
     "brand_by_entity": {
       "C04": "WIGENIUS",
       "C07": "Dressmaker"
     },
-    "pack_method_enum": ["heat_shrink", "carton"]
+    "pack_method_enum": [
+      "heat_shrink",
+      "carton"
+    ]
+  },
+  "outbound_short_code": {
+    "confirmed_at": "2026-07-21",
+    "pattern": "{store}-{YY}{NN}",
+    "year_abbr": {
+      "2026": "26",
+      "2027": "27"
+    },
+    "filename": "{short}-U-{date}.xlsx",
+    "cell_value": "short only",
+    "seq_file": "Scripts/outbound_short_seq.json",
+    "note": "NN=该店铺本年第几票出货；U=USA 仅文件名"
   },
   "conflict_recency": {
     "order_source": "order_date",
@@ -63,40 +230,255 @@
     "on_conflict": "report_then_user_confirm"
   },
   "header_aliases": {
-    "entity_code": ["主体", "主体代码", "公司代码", "entity", "entity_code", "C04", "C07"],
-    "company_name": ["公司名", "公司名称", "company", "company_name"],
-    "brand": ["品牌", "商品品牌", "brand"],
-    "gram_weight": ["克重", "面料克重", "WEIGHT", "WEIGHT/规格", "gram_weight"],
-    "size": ["尺寸", "尺寸项", "规格尺寸", "size", "ITEM"],
-    "color": ["颜色", "COLOR", "color"],
-    "strips_per_pack": ["条数/包", "条数每包", "strips_per_pack"],
-    "packs_per_carton": ["包数/箱", "包数每箱", "包数/箱", "packs_per_carton"],
-    "strips_per_carton": ["条数/箱", "条数每箱", "strips_per_carton"],
-    "fnsku": ["FNSKU", "fnsku", "产品标签", "标签"],
-    "pack_method": ["包装方式", "包装", "pack_method"],
-    "inner_pack_lwh_cm": ["内包装尺寸", "内盒", "包装尺寸", "inner_pack_lwh_cm"],
-    "carton_lwh_cm": ["外箱尺寸", "外箱尺寸（长*宽*高）", "纸箱规格", "carton_lwh_cm", "carton_size_cm", "长宽高"],
-    "hs_code": ["HS", "HS CODE", "海关编码", "商品编号", "hs_code"],
-    "product_name_zh": ["中文品名", "品名", "product_name_zh"],
-    "product_name_en": ["英文品名", "英文名称", "product_name_en", "ITEM"],
-    "tax_rebate": ["是否退税", "退税", "tax_rebate"],
-    "declare_unit_price_1039": ["1039单价", "报关单价", "每箱报关单价", "declare_unit_price_1039"],
-    "order_code": ["订单编号", "订单号", "P.O#", "order_code", "Order"],
-    "order_date": ["下单日期", "订单日期", "order_date"],
-    "qty_strips": ["数量", "总条数", "QTY", "qty_strips"],
-    "qty_cartons": ["箱数", "总箱数", "件数", "CTNS", "qty_cartons"],
-    "fba_shipment_id": ["FBA", "FBA货件号", "海外订单号", "货件编号", "fba_shipment_id"],
-    "tracking_id": ["追踪编码", "追踪号", "tracking", "tracking_id"],
-    "warehouse_code": ["仓库代码", "仓库", "warehouse_code"],
-    "warehouse_address": ["仓库地址", "FBA地址", "warehouse_address"],
-    "ship_strips": ["发货条数", "本批条数", "ship_strips"],
-    "cartons": ["本批箱数", "货件箱数", "cartons"],
-    "packs": ["包数", "packs"],
-    "gross_kg": ["毛重", "G.W.", "gross_kg"],
-    "net_kg": ["净重", "N.W.", "net_kg"],
-    "volume_cbm": ["体积", "CBM", "volume_cbm"],
-    "export_date": ["出口日期", "export_date"],
-    "export_code": ["出口编码", "export_code"],
-    "confirmed_order_date": ["生效日期", "confirmed_order_date"]
+    "entity_code": [
+      "主体",
+      "主体代码",
+      "公司代码",
+      "entity",
+      "entity_code",
+      "C04",
+      "C07"
+    ],
+    "company_name": [
+      "公司名",
+      "公司名称",
+      "company",
+      "company_name"
+    ],
+    "brand": [
+      "品牌",
+      "商品品牌",
+      "brand"
+    ],
+    "gram_weight": [
+      "克重",
+      "面料克重",
+      "WEIGHT",
+      "WEIGHT/规格",
+      "gram_weight"
+    ],
+    "size": [
+      "尺寸",
+      "尺寸项",
+      "规格尺寸",
+      "size",
+      "ITEM"
+    ],
+    "color": [
+      "颜色",
+      "COLOR",
+      "color"
+    ],
+    "strips_per_pack": [
+      "条数/包",
+      "条数每包",
+      "strips_per_pack"
+    ],
+    "packs_per_carton": [
+      "包数/箱",
+      "包数每箱",
+      "包数/箱",
+      "packs_per_carton"
+    ],
+    "strips_per_carton": [
+      "条数/箱",
+      "条数每箱",
+      "strips_per_carton"
+    ],
+    "fnsku": [
+      "FNSKU",
+      "fnsku",
+      "产品标签",
+      "标签"
+    ],
+    "pack_method": [
+      "包装方式",
+      "包装",
+      "pack_method"
+    ],
+    "inner_pack_lwh_cm": [
+      "内包装尺寸",
+      "内盒",
+      "包装尺寸",
+      "inner_pack_lwh_cm"
+    ],
+    "carton_lwh_cm": [
+      "外箱尺寸",
+      "外箱尺寸（长*宽*高）",
+      "纸箱规格",
+      "carton_lwh_cm",
+      "carton_size_cm",
+      "长宽高"
+    ],
+    "hs_code": [
+      "HS",
+      "HS CODE",
+      "海关编码",
+      "商品编号",
+      "hs_code"
+    ],
+    "product_name_zh": [
+      "中文品名",
+      "品名",
+      "product_name_zh"
+    ],
+    "product_name_en": [
+      "英文品名",
+      "英文名称",
+      "product_name_en",
+      "ITEM"
+    ],
+    "tax_rebate": [
+      "是否退税",
+      "退税",
+      "tax_rebate"
+    ],
+    "declare_unit_price_1039": [
+      "1039单价",
+      "报关单价",
+      "每箱报关单价",
+      "declare_unit_price_1039"
+    ],
+    "order_code": [
+      "订单编号",
+      "订单号",
+      "P.O#",
+      "order_code",
+      "Order"
+    ],
+    "order_date": [
+      "下单日期",
+      "订单日期",
+      "order_date"
+    ],
+    "delivery_date": [
+      "交货日期",
+      "交付日期",
+      "delivery_date"
+    ],
+    "ship_date": [
+      "订单发货日期",
+      "发货日期",
+      "出货日期",
+      "ship_date"
+    ],
+    "outbound_short": [
+      "客户及订单号",
+      "出货短号",
+      "outbound_short"
+    ],
+    "sales_person": [
+      "业务员",
+      "制单",
+      "sales_person"
+    ],
+    "destination": [
+      "目的地",
+      "destination"
+    ],
+    "qty_strips": [
+      "数量",
+      "总条数",
+      "QTY",
+      "订单数量",
+      "qty_strips"
+    ],
+    "qty_cartons": [
+      "箱数",
+      "总箱数",
+      "件数",
+      "CTNS",
+      "qty_cartons"
+    ],
+    "fba_shipment_id": [
+      "FBA",
+      "FBA货件号",
+      "海外订单号",
+      "货件编号",
+      "fba_shipment_id"
+    ],
+    "tracking_id": [
+      "追踪编码",
+      "追踪号",
+      "tracking",
+      "tracking_id"
+    ],
+    "warehouse_code": [
+      "仓库代码",
+      "仓库",
+      "warehouse_code"
+    ],
+    "warehouse_address": [
+      "仓库地址",
+      "FBA地址",
+      "warehouse_address"
+    ],
+    "ship_strips": [
+      "发货条数",
+      "本批条数",
+      "ship_strips"
+    ],
+    "cartons": [
+      "本批箱数",
+      "货件箱数",
+      "cartons"
+    ],
+    "packs": [
+      "包数",
+      "packs"
+    ],
+    "gross_kg": [
+      "毛重",
+      "G.W.",
+      "gross_kg"
+    ],
+    "net_kg": [
+      "净重",
+      "N.W.",
+      "net_kg"
+    ],
+    "volume_cbm": [
+      "体积",
+      "CBM",
+      "volume_cbm"
+    ],
+    "export_date": [
+      "出口日期",
+      "export_date"
+    ],
+    "export_code": [
+      "出口编码",
+      "export_code"
+    ],
+    "confirmed_order_date": [
+      "生效日期",
+      "confirmed_order_date"
+    ],
+    "remaining_strips": [
+      "剩余条数",
+      "未发条数",
+      "remaining_strips"
+    ],
+    "remaining_cartons": [
+      "剩余箱数",
+      "未发箱数",
+      "remaining_cartons"
+    ],
+    "split_shipment": [
+      "是否拆单",
+      "拆单",
+      "split_shipment"
+    ],
+    "split_batch_no": [
+      "拆单批次",
+      "批次号",
+      "split_batch_no"
+    ],
+    "split_leg_id": [
+      "拆单腿",
+      "出货腿",
+      "split_leg_id",
+      "C26079-A"
+    ]
   }
 }

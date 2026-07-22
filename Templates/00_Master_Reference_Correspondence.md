@@ -1,11 +1,25 @@
 # ⓪ 人工对应关系总表 — 参考说明
 
 > 上传目录：`1_Input_Raw/00_Master_Reference/`  
-> **统一字段**：见 [`Canonical_Data_Schema.md`](Canonical_Data_Schema.md) 与 `Scripts/canonical_schema.json`
+> **统一字段**：见 [`Canonical_Data_Schema.md`](Canonical_Data_Schema.md) 与 `Scripts/canonical_schema.json`  
+> 发货项目制：见 [`Shipment_Project_Layout.md`](Shipment_Project_Layout.md)
 
 ## 定位
 
 人工总表 → 映射为 canonical keys →（H01 确认后）写入沉淀库。
+
+本目录同时存放总表与（远期）发货批次列；**近端**尚无标准发货计划表，当票以订单/手工明细驱动，见 [`End_to_End_Shipment_Pipeline.md`](End_to_End_Shipment_Pipeline.md) §0.1。
+
+**远期拟议**：在总表为每次发货单独加一列，单元格 = 该行 FNSKU 本票箱数（空=不发）。列命名规则待使用者确认后再写解析与 Correspondence。
+
+### 已确认权威默认（2026-07-20）
+
+| 项 | 约定 |
+|----|------|
+| HS | **以总表为准** → 桌布 `6302539090` |
+| 克重 | **默认 90G**；其它克重须当票确认 |
+| 尺寸短码↔全称 | **已确认**：见 `canonical_schema.json` → `size_shortcode_map`（**120=70X120inch**） |
+| 历史发货计划 | `5月发货计划` 及已复制到 `Shipments/` 的文件 = **已验证模板**，生成时优先对齐版式 |
 
 ## 导入后必须能映射到的核心列
 
@@ -15,7 +29,7 @@
 | 品牌 | `brand` |
 | 颜色 / 尺寸 / 克重 | `color` / `size` / `gram_weight` |
 | 条数/箱、包数/箱、条数/包 | `strips_per_carton` 等 |
-| FNSKU / 产品标签 | `fnsku` |
+| FNSKU / 产品标签 | `fnsku`（出货表不需要） |
 | 包装方式 / 外箱尺寸 | `pack_method` / `carton_lwh_cm` |
 | HS / 1039 单价 | `hs_code` / `declare_unit_price_1039` |
 

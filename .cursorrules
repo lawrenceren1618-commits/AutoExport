@@ -1,21 +1,28 @@
-# Order_Freight_Customs_Export 项目业务规则
+# AutoExport 项目业务规则
 
-本文件为 Cursor / AI 助手在本仓库中的全局业务标准。处理订单、出库、货代与报关信息时必须遵守。
+本文件为 Cursor / AI 助手在本仓库中的全局业务标准。处理订单、出库、货代与报关信息时必须遵守。  
+（历史文件夹名 `Order_Freight_Customs_Export` / 云端旧名 `office-cp-ofce` 已废弃，一律以 **AutoExport** 为准。）
 
-## 0. 单据三分法（强制）
+## 0. 单据类型与发货项目制（强制）
 
-三类单据模板 + 人工总表参考**分开**维护，**禁止**混表：
+日常以**发货项目文件夹**组织（一票一夹），见 [`Templates/Shipment_Project_Layout.md`](Templates/Shipment_Project_Layout.md)：
 
-| 序号 | 类型 | 对应关系文件 | 原始模板上传目录 |
-|------|------|--------------|------------------|
-| ⓪ | 人工对应关系总表（沉淀参考） | `Templates/00_Master_Reference_Correspondence.md` | `1_Input_Raw/00_Master_Reference/` |
-| ① | 订单表 + 出库单 | `Templates/01_Order_Outbound_Correspondence.md` | `1_Input_Raw/01_Order_Outbound/` |
-| ② | 货代下单表 | `Templates/02_Freight_Forwarder_Correspondence.md` | `1_Input_Raw/02_Freight_Forwarder/` |
-| ③ | 报关单据 | `Templates/03_Customs_Correspondence.md` | `1_Input_Raw/03_Customs/` |
+`1_Input_Raw/Shipments/{订单号}_{店铺代码}_{出货日期}_{条数}/`
 
-- 日常只根据用户**明确放到对应子目录**（或当次对话指定）的表格建立/更新映射。
-- 字段填写原则：**按目标表必填列对应填写，不用全量字段灌进每一张表。**
-- 货代仓库头、报关成套表：等用户创建亚马逊入库货件/确认报关后再处理（见 ②③ 文档）。
+子文件夹：`订单表` / `出货表` / `货代入库贴下单表` / `报关资料表`（生成）；`产品标签`；`FBA外箱贴` / `货代入库贴`（使用者后续更新）。
+
+类型说明文档仍分册维护（禁止混表逻辑）：
+
+| 类型 | 对应关系文件 | 备注 |
+|------|--------------|------|
+| 人工总表 | `Templates/00_Master_Reference_Correspondence.md` | 仅 `1_Input_Raw/00_Master_Reference/` |
+| 订单 / 出库 | `Templates/01_Order_Outbound_Correspondence.md` | 落入项目 `订单表/` `出货表/` |
+| 货代下单 | `Templates/02_Freight_Forwarder_Correspondence.md` | 项目 `货代入库贴下单表/` |
+| 报关 | `Templates/03_Customs_Correspondence.md` | 项目 `报关资料表/` |
+
+- 识别：含 **EF**→订单；**C04/C07** 且 `…-U-日期`→出货；**货代入库贴下单**→货代下单表；**报关/1039**→报关；**FBA外箱贴**→外箱贴。  
+- 字段填写：按目标表必填列对应填写，不用全量字段灌进每一张表。  
+- 我说「准备上新」→ 总结压缩并给新对话提示词 + 洁癖轻量对齐（`.cursor/rules/ready-for-next-session.mdc`）；不自动清场。
 
 ## 0.1 全局搜索权限闸门（强制）
 
@@ -32,14 +39,55 @@
 
 确认前：助手只能展示候选清单（路径 + 建议归类），不得把未确认文件写入对应关系、不得据此生成单据或当正式依据。
 
+### 0.1.1 使用者提供路径检索（强制）
+
+详细规则见：`.cursor/rules/user-path-resolve.mdc`（alwaysApply）。
+
+1. **优先**检索使用者提供的路径。  
+2. 提供路径为空、不存在或不精确时：先查该路径的 **下一级 → 上一级 → 同级**，补全后再用。  
+3. 邻域仍无结果时，再走 §0.1 全局搜索闸门。
+
 ## 0.2 云端部署隔离与模块握手（办公室）
 
-- **项目前缀 / 仓库名**：`office-cp-ofce`（GitHub / Vercel / Supabase 同名独立项目，勿复用家里电脑项目）。
+- **本机总文件夹**：`D:\.cursor\Cursor-projects\AutoExport`（文件夹名 **AutoExport**）。
+- **项目前缀 / 仓库名**：`AutoExport`（GitHub / Vercel / Supabase 同名独立项目，勿复用家里电脑项目）。
 - **SSH 区分机器**：办公室推送使用 Host 别名 `github.com-office-cp` + 专用密钥；家里继续用原有 `git@github.com:...`。详见 `docs/SSH_OFFICE.md`。提交显示名仍用本仓 `user.name=Office CP`（与 SSH 认证是两层）。
 - **Web 应用**：仓库内 `web/`（Vercel Root Directory = `web`）。
 - **模块与握手全文**：[`Templates/Architecture_Modules_Handshake.md`](Templates/Architecture_Modules_Handshake.md)（M0–M4、Gate；H01/H12/H42/H13/H23/HX）。
 - **后台目标树**：仅 `/admin/progress` 呈现，不对前台暴露。
 - 本机 git 身份（repo-local）：`user.name=Office CP`，邮箱与 GitHub 验证邮箱一致即可。
+- **旁注**：同级目录 `_workspace_archive_AutoExport_20260720` 仅为 Cursor 旧工作区元数据备份，**不是**业务仓；说明见 `docs/WORKSPACE_ARCHIVE.md`。勿打开、勿存放发货表。
+
+## 0.3 端到端发货流水线与标签源
+
+- 全流程顺序与字段定义：[`Templates/End_to_End_Shipment_Pipeline.md`](Templates/End_to_End_Shipment_Pipeline.md)。
+- 发货计划表与总表同目录：`1_Input_Raw/00_Master_Reference/`。
+- 标签源：只复制到当票 `产品标签/`；**核心库只读**；助手不得对源增删；仅你经手动上传路径可增删源。详见 `.cursor/rules/label-source-gate.mdc`。
+- 标签源绝对路径：`D:\.cursor\Cursor-projects\AutoExport\1_Input_Raw\00_Master_Reference\桌布标签`
+- 每次复制前后必须统计源文件数+格式并与上次完工/本次复制前核对。
+- FNSKU **双向锁定**：品牌+尺寸+条数/包+**颜色**+品名 ↔ FNSKU；亚马逊只认 FNSKU；**克重不阻断**；米白=象牙白=Ivory。
+- **当票标签落盘（固定）**：`产品标签/{EF订单号}标签/{N}条装/{尺寸短码}/{源原名}.pdf` — 映射见 [`Templates/Shipment_Product_Label_Layout.md`](Templates/Shipment_Product_Label_Layout.md) 与 `Scripts/canonical_schema.json`（`label_output_layout` / `size_folder_map`）。
+
+## 0.4 Web 技术栈与 UI / 字段严谨性（强制）
+
+详见：.cursor/rules/web-stack-ui-gate.mdc（alwaysApply）。
+
+| 项 | 锁定 |
+|----|------|
+| 前端 | **Next.js**（仓库 web/） |
+| 后端 | **Supabase** |
+| 部署 | **Vercel**（Root = web） |
+| 依赖 | **禁止**私自引入未经允许的庞大第三方库；现有栈外新增须先请示 |
+| UI | 精确、高效、简洁自然；**少用弹窗**，优先同页内联/分区交互 |
+| 业务表单 | 出货 / 货代等组件字段映射必须准确，**不得擅自删减表单项** |
+
+## 0.5 洁癖（neat-freak）skill
+
+触发词：洁癖、neat-freak、`/neat`。  
+- **全局**（所有项目）：`C:\Users\Administrator\.cursor\skills\neat-freak\SKILL.md`（`~/.cursor/skills/neat-freak/`）  
+- **本仓副本**：`.cursor/skills/neat-freak/SKILL.md`  
+「准备上新」= 交接四步 + **洁癖轻量路径**（对齐文档、列删除候选；不自动清场）。完整洁癖 / 清场须另说并确认。  
+权限仍服从本文件与 `.cursor/rules/*`。
 
 ## 1. 公司主体、品牌、店铺、FNSKU
 
@@ -120,8 +168,17 @@
 
 ## 4. 海关编码（HS）
 
-- 平纹单面磨毛桌布默认：`6302539090`。
+- 平纹单面磨毛桌布默认：**`6302539090`（以人工总表为准）**。
 - 其他品名不得乱套；不确定标「待人工确认 HS」。
+
+## 4.1 已确认业务默认（2026-07-20）
+
+- 克重默认 **90G**（其它克重当票确认）。
+- 订单号：**EF 长号**；出货表：**C04/C07 短号**（两套并存）。
+- 出货表**不需要** FNSKU。
+- 货代下单表品牌列填 **`无`**（降海关风险）。
+- 历史发货计划 / `Shipments` 内样例为**已验证模板**。
+- 尺寸短码↔全称映射：**暂缓**。
 
 ## 5. 退税
 

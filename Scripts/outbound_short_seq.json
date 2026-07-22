@@ -1,0 +1,23 @@
+{
+  "confirmed_at": "2026-07-21",
+  "rule": "outbound_short = {store}-{YY}{NN}",
+  "year_abbr": {"2026": "26", "2027": "27"},
+  "U_in_filename": "USA",
+  "filename_pattern": "{short}-U-{delivery_yyyy.M.d}.xlsx",
+  "cell_customer_order_no": "short only (no U, no date)",
+  "ship_date": "order_delivery_date (交货日期; not 下单日期)",
+  "leave_empty_columns": ["所属订单", "所属仓库"],
+  "sales_person_default": "任胜国",
+  "detail_source": "order_upper_summary_size_color",
+  "layout": {
+    "row_height": "uniform in data band; fully visible",
+    "merges": "follow C04-2615 template"
+  },
+  "baselines": {
+    "2026": {
+      "C04": "C04-2616",
+      "C07": "C07-2607",
+      "note": "C04-2616 → EF-C26079 文件 C04-2616-U-2026.7.31；下一票 C04→2617；C07→2608"
+    }
+  }
+}

@@ -3,6 +3,7 @@
 逐步说明：[CLOUD_LINK_OFFICE.md](CLOUD_LINK_OFFICE.md) · [STABLE_DATA_LINK.md](STABLE_DATA_LINK.md)
 
 **总文件夹 / 仓库 / Vercel / Supabase 项目名一律：`AutoExport`**  
+本机路径：`D:\.cursor\Cursor-projects\AutoExport`  
 提交人仍为 **Office CP**；SSH 别名仍为 **github.com-office-cp**。
 
 - [x] 办公室公钥已加到 GitHub — 见 [ssh/](ssh/)

@@ -24,7 +24,7 @@ export default function AdminLoginPage() {
         setError(data.error ?? "登录失败");
         return;
       }
-      router.push("/admin/progress");
+      router.push("/admin/fba-track");
       router.refresh();
     } catch {
       setError("网络错误");

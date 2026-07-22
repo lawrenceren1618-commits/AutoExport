@@ -1,172 +1,113 @@
 # AutoExport — 新对话交接包（压缩版）
 
 > 用途：复制下方「新对话提示词」开新会话；本文件为完整规则底稿。  
-> 项目根目录：本地可任意盘符；以 Cursor 打开的工作区为准（推荐 `D:\...\AutoExport`）。  
-> 云端：GitHub / Vercel / Supabase 项目名均为 **AutoExport**；提交人 **Office CP**；SSH `github.com-office-cp`。
+> 项目根目录：`D:\.cursor\Cursor-projects\AutoExport`  
+> 云端：GitHub / Vercel / Supabase = **AutoExport**；提交人 **Office CP**；SSH `github.com-office-cp`。  
+> 口令：**准备上新** → `.cursor/rules/ready-for-next-session.mdc`（总结+压缩+提示词 + **洁癖轻量**对齐；不自动清场）。  
+> 洁癖 skill：全局 `~\.cursor\skills\neat-freak\`；本仓 `.cursor/skills/neat-freak\`。
 
 ---
 
-## 一、已完成基建（勿重复搭）
+## 一、基建（勿重建）
+
+GitHub / Vercel(Root=`web`) / Supabase / 后台登录·进度树·总表导入骨架 — **完成**。  
+Web 锁定：Next.js + Supabase + Vercel；禁未经允许庞大依赖；UI 少弹窗；业务表单不得擅自删列 — `.cursor/rules/web-stack-ui-gate.mdc`。
+
+旁注：`_workspace_archive_AutoExport_20260720` = Cursor 元数据归档（保留），非业务仓。见 `docs/WORKSPACE_ARCHIVE.md`。
+
+---
+
+## 二、组织与标签（固定）
+
+- 一票一夹：`1_Input_Raw/Shipments/{订单号}_{店铺}_{出货日}_{条数}/`
+- 流水线：`Templates/End_to_End_Shipment_Pipeline.md`
+- 标签源：`00_Master_Reference/桌布标签`（只读；复制前后统计）
+- **标签落盘固定**：`产品标签/{EF订单号}标签/{N}条装/{尺寸短码}/{源原名}.pdf`  
+  映射：`Templates/Shipment_Product_Label_Layout.md` + `canonical_schema.json`（`label_output_layout` / `size_folder_map` / `color_aliases`）
+- FNSKU 双向锁定：品牌+尺寸+条数/包+**颜色**+品名；米白=象牙白=Ivory；克重不阻断标签
+- 路径检索：提供路径优先；空则下一级→上一级→同级（`user-path-resolve.mdc`）
+- 近端：无标准发货计划表 → 订单驱动；远期拟：总表加发货列（FNSKU×箱数）
+
+---
+
+## 三、已确认默认
+
+| 项 | 结论 |
+|----|------|
+| HS | `6302539090` |
+| 克重 | 默认 90G |
+| 订单/出货号 | EF 长号 / C0x 短号 |
+| 货代品牌 | `无` |
+| 出货 FNSKU | 不需要 |
+| 尺寸短码↔全称 | **已确认**（84→60X84inch；102→60X102inch；126→60X126inch；**120→70X120inch**；90圆→90 inch round）— 使用者核验无误 |
+| H01 沉淀 | WAIT（见下：总表确认入库握手，非尺寸映射） |
+
+---
+
+## 四、进度与本票
 
 | 块 | 状态 |
 |----|------|
-| 总文件夹 AutoExport、三分法输入目录、规则闸门 | 完成 |
-| GitHub `main` + office-cp SSH | 完成 |
-| Supabase 表 + 本机试连 | 完成 |
-| Vercel Root=`web` 已部署 | 完成 |
-| 后台：登录 / 工作总结树 / 总表导入骨架 | 完成 |
+| Canonical A | 完成 |
+| 订单 M1 脚本 | 有骨架；正式出单管线未全通 |
+| **本票标签** | **完成**：EF-C26079，23 PDF 已按条装×尺寸归类 |
+| 出货 / 货代 / 报关 / FBA | 未全通 |
+| H01 | WAIT |
 
-**当前优先：业务数据清晰化 → 订单生成 →（货件后）出货/货代/报关。**
+**当前项目**：`Shipments/EF-C26079-C04-36460  桌布-2026.7.10`  
+**订单源**：`…/订单表/`（C04 / WIGENIUS / 90G / 36460 条）  
+**标签**：`…/产品标签/EF-C26079-C04-36460标签/`  
+**会话临时文件**：已清理（`_tmp_*` 等）；`_workspace_archive_*` 仍保留（非业务仓）。
 
----
-
-## 二、两大生成块
-
-### 块 A — 订单生成（可先做）
-
-| 项 | 规则 |
-|----|------|
-| 依据 | **人工总表** + **已确认订单沉淀库** |
-| 冲突 | 同产品关键字段冲突 → **以最新为准** |
-| 「最新」定义 | **订单表**：按下单日期最新；**总表**：按**上传时间**最新 |
-| 冲突动作 | 汇报差异 → 使用者确认 → 再写入沉淀 / 出单 |
-| 输出 | 填入**固定订单模板**空白格 → 按命名规则输出文件/文件夹 |
-
-### 块 B — 出货 / 货代下单 / 报关（货件后）
-
-| 项 | 规则 |
-|----|------|
-| 前置 | 已创建**亚马逊货件**（有 FBA 号、仓码、箱唛组合） |
-| 批次 | 默认：**一订单 = 一批齐发**；例外：**拆单发货**须单独标记批次 |
-| 输出 | 出货表、货代下单表、报关单证 → 固定模板 → 命名后输出 |
+**下一会话优先处理**：①出货表生成（短号、无FNSKU）→ ②你建亚马逊货件并交 FBA 外箱贴后做报关/货代。尺寸短码已闭环。
 
 ---
 
-## 三、主体与品牌（硬规则）
+## 五、主体硬规则
 
-| 代码 | 法律主体 | 订单页眉 | 品牌 |
-|------|----------|----------|------|
-| C04 | 畅选（子公司） | 只写易尚/E-fashion，**不写畅选** | WIGENIUS |
-| C07 | 易尚电子商务 | 易尚/E-fashion | Dressmaker |
-
-同规格可同装箱；**FNSKU 禁跨店**。
+C04→WIGENIUS（页眉不写畅选）；C07→Dressmaker；FNSKU 不串店。
 
 ---
 
-## 四、核心变量（结构化字段）
-
-生成/识别时统一成下列字段（中英别名映射到同一 key）：
-
-| 字段 key | 含义 |
-|----------|------|
-| `entity_code` | 公司代码 C04/C07 |
-| `company_name` | 公司名（内部；页眉另规则） |
-| `brand` | 品牌 |
-| `gram_weight` | 面料克重 |
-| `size` | 产品尺寸 |
-| `color` | 颜色 |
-| `strips_per_pack` / `packs_per_carton` / `strips_per_carton` | 包装条数、每箱包数、每箱条数 |
-| `fnsku` | FNSKU（**一箱一 FNSKU**，原厂原箱） |
-| `ship_strips` | 本批发货条数 |
-| `cartons` | 箱数 |
-| `packs` | 包数 |
-| `pack_method` | `heat_shrink` 热缩膜 / `carton` 纸箱 |
-| `inner_pack_lwh_cm` | 纸箱包装时内包装长宽高（热缩可空） |
-| `carton_lwh_cm` | 外箱尺寸 长×宽×高 |
-| `declare_unit_price_1039` | 1039 模式下每箱报关单价 |
-| `gross_kg` / `net_kg` | 毛重/净重（货件级汇总） |
-| `declare_amount_total` | 货件总报关金额 |
-| `hs_code` | 默认桌布 **6302539000**（若与旧规 6302539090 冲突，以当票确认） |
-| `export_date` / `export_code` | 出口日期、出口相关编码（多为固定值，入沉淀） |
-| `fba_shipment_id` | FBA 货件号 |
-| `tracking_id` | 追踪编码（**仅手工或截图确认后写入**） |
-| `warehouse_code` / `warehouse_address` | 仓库代码、地址 |
-| `carton_combo` | 该货件下各 FNSKU 箱数组合 |
-| `split_shipment` | 是否拆单（bool + 子批次号） |
-
----
-
-## 五、数据分级
-
-| 类型 | 例子 | 策略 |
-|------|------|------|
-| **沉淀数据** | 海关编码、品牌、包装条数/包规、主体、包装方式默认、HS | 确认后入库；极少变；冲突必标 |
-| **临时数据** | 本票 FBA 号、追踪码、仓码、货代下单行、当票箱数组合 | 按货件存储；优先级低；**与总表冲突则标注** |
-
----
-
-## 六、亚马逊货件数据来源
-
-| 来源 | 能取什么 |
-|------|----------|
-| **外箱贴 PDF** | FBA 货件号、仓库代码、地址、箱数/FNSKU 组合等（**追踪码除外**） |
-| **截图 + 拆分外箱贴** | 交叉验证 PDF；有误/无误均交使用者确认 |
-| **前端手工输入** | **FBA 货件编号**（可自动填后再确认）、**追踪编码**（必手填或截图确认） |
-
-流程：上传 PDF/截图 → AI 识别填临时表 → **使用者确认** → 写入临时库 → 再生成出货/货代/报关。
-
----
-
-## 七、模块与握手（交互）
-
-```text
-M0 总表/沉淀 ←H01确认← 上传总表/历史订单
-M1 订单生成 ← 读 M0；冲突按「最新」汇报
-M4 FBA货件 ← PDF/截图/手填追踪码；确认后临时库
-M2 货代下单 ←H12← M1装箱确认包；←H42← M4 仓/FBA
-M3 报关 ←H13← M1件数毛净重；默认不抄仓码(H23)
-Gate 交叉对照 ←HX← 各草稿；通过才最终输出
-```
-
-拆单：M4/M2/M3 按**子批次**各出一套文件，命名含拆单序号。
-
----
-
-## 八、输出约定
-
-1. 只填**目标模板已有空白列**，不灌全量字段。  
-2. 命名建议：`{entity}_{orderNo}_{docType}_{FBA或批次}_{YYYYMMDD}`  
-3. 落盘：`3_Output_Final/{订单号或FBA}/` 下分文件（订单 / 出货 / 货代 / 报关）。  
-4. 终审前对照沉淀库；失败阻断并汇报。
-
----
-
-## 九、新对话提示词（复制即用）
+## 六、新对话提示词（复制即用）
 
 ````text
-你是 AutoExport 项目的数据处理助手。工作区以 Cursor 当前打开的根目录为准（可在 D: 等任意盘符）。
+你是 AutoExport 数据处理助手。工作区：
+D:\.cursor\Cursor-projects\AutoExport
 
-先读并遵守：
+先读：
 - .cursorrules
-- Templates/Architecture_Modules_Handshake.md
-- Templates/Next_Session_Handoff.md（本交接包）
-- Templates/01|02|03_*_Correspondence.md（有则用）
-- Templates/Canonical_Data_Schema.md（块 A）
+- Templates/Next_Session_Handoff.md
+- Templates/End_to_End_Shipment_Pipeline.md
+- Templates/Shipment_Product_Label_Layout.md
+- Templates/Canonical_Data_Schema.md
+- Templates/00|01|02_*_Correspondence.md
+- Scripts/canonical_schema.json
+- .cursor/rules/web-stack-ui-gate.mdc
+- .cursor/rules/label-source-gate.mdc
 
-【基建已完成】GitHub/Vercel/Supabase 名均为 AutoExport；提交人 Office CP；SSH github.com-office-cp。不要重建脚手架，专注业务模块。
+基建完成（GitHub/Vercel/Supabase=AutoExport；Office CP）。勿重建云端。Web=Next.js+Supabase+Vercel；禁私自上庞大依赖；UI少弹窗；表单不得擅自删列。
 
-【本对话目标 — 请按块推进，一次只深做一块，做完小结再问下一块】
-可选块（开场请问我选哪一块，或按我说的块开始）：
-A. 数据清晰与格式变换：读 Templates/Canonical_Data_Schema.md + Scripts/canonical_schema.json；列→canonical key
-B. 订单生成：总表+沉淀库 → 固定订单模板；冲突规则=订单按下单日最新、总表按上传时间最新；冲突先汇报我确认
-C. 货件后单据：出货表 / 货代下单 / 报关；默认整单齐发，拆单要区分批次
-D. PDF/截图识别 FBA：外箱贴 PDF + 我上传截图交叉验证；追踪码前端手填；确认后写临时库
-E. 沉淀 vs 临时数据模型与存储优先级
-F. 固定模板填空 + 命名 + 文件夹输出管线
+组织：Shipments/{订单号}_{店铺}_{出货日}_{条数}/
+标签源：00_Master_Reference/桌布标签（只读）
+标签落盘固定：产品标签/{EF订单号}标签/{N}条装/{尺寸}/{源原名}.pdf
+FNSKU双向锁定：品牌+尺寸+条数/包+颜色+品名；米白=Ivory；克重不阻断标签。
+路径：优先我给的路径；空则下/上/同级。
 
-【硬规则】
-- C04→WIGENIUS（页眉不写畅选）；C07→Dressmaker；FNSKU 不串店
-- 原厂原箱，一箱一 FNSKU
-- 包装：热缩膜 / 纸箱（纸箱须长宽高）；另有外箱尺寸
-- 1039 每箱报关单价；货件级总毛重/总净重/总报关金额
-- HS 默认 6302539000（若与旧文档 6302539090 冲突，先问我确认）
-- 全局搜索结果须我归类确认后才能写入/参考
-- 最终输出前交叉对照；未通过不写最终件
+当前票：EF-C26079-C04-36460（C04/WIGENIUS/90G/36460条）
+订单：…/Shipments/EF-C26079-C04-36460  桌布-2026.7.10/订单表/
+标签已复制：…/产品标签/EF-C26079-C04-36460标签/（23 PDF）
 
-【输出要求】
-- 改动保持模块化；写清模块间握手输入输出
-- 生成物进 3_Output_Final/ 或我指定目录；中间稿进 2_Processed_AI/drafts/
-- 不要把密钥写进仓库；.env.local 已配置
+已确认：HS=6302539090；克重默认90G；EF长号/出货短号；货代品牌=无；出货无FNSKU。
+尺寸短码：84→60X84inch；102→60X102inch；126→60X126inch；120→70X120inch；90圆→90 inch round。
+暂缓：H01 等我说再入库。
 
-开场：用树状列出本块任务（完成/未完成），然后等我指定从哪一块开始优化。
+下一步优先（开场列树等我指定）：
+1) 出货表（短号、无FNSKU）
+2) 等我建亚马逊货件后：FBA外箱贴四级解析 → 报关 → 货代下单（品牌无）
+3) 订单正式出单管线 Gate→Final（若需要重出）
+4) H01（等我发话）
+
+硬规则：C04↔WIGENIUS页眉不写畅选；C07↔Dressmaker；FNSKU不串店；冲突先汇报；最终件交叉对照；密钥不入库。
+「准备上新」→ 总结+压缩+提示词+洁癖轻量对齐（不自动清场）。
 ````

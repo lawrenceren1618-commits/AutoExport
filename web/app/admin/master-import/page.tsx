@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
-import Link from "next/link";
 import { isAdminAuthenticated } from "@/lib/admin-auth";
+import { AdminNav } from "@/components/AdminNav";
 import { MasterImportForm } from "./MasterImportForm";
 
 export default async function MasterImportPage() {
@@ -10,11 +10,7 @@ export default async function MasterImportPage() {
 
   return (
     <main>
-      <nav className="admin-nav">
-        <Link href="/admin/progress">目标树</Link>
-        <Link href="/admin/master-import">人工总表导入</Link>
-        <Link href="/">返回首页</Link>
-      </nav>
+      <AdminNav />
       <div className="card">
         <h1>人工总表导入（M0 / H01）</h1>
         <p className="muted">

@@ -30,7 +30,7 @@ Host github.com-office-cp
 ### 1. 把办公室公钥加到 GitHub
 
 GitHub → Settings → SSH and GPG keys → New SSH key  
-Title 建议：`office-cp-ofce`  
+Title 建议：`AutoExport-office`（历史 title `office-cp-ofce` 也可保留）  
 粘贴 `.pub` 文件内容。
 
 ### 2. 本仓库 remote 使用办公室别名（不要用默认 github.com）
@@ -38,13 +38,14 @@ Title 建议：`office-cp-ofce`
 仓库创建好后：
 
 ```powershell
-# 将 YOUR_USER 换成你的 GitHub 用户名
-git remote add origin git@github.com-office-cp:YOUR_USER/office-cp-ofce.git
+# 将 YOUR_USER 换成你的 GitHub 用户名（本机已用 lawrenceren1618-commits）
+git remote add origin git@github.com-office-cp:YOUR_USER/AutoExport.git
 # 若已有 origin：
-# git remote set-url origin git@github.com-office-cp:YOUR_USER/office-cp-ofce.git
+# git remote set-url origin git@github.com-office-cp:YOUR_USER/AutoExport.git
 ```
 
-推送时会走**办公室专用密钥**，与家里默认 `git@github.com:YOUR_USER/...` 分离。
+推送时会走**办公室专用密钥**，与家里默认 `git@github.com:YOUR_USER/...` 分离。  
+密钥文件名仍可为 `id_ed25519_office_cp_ofce`（本机已有，不必改文件名）。
 
 ### 3. 提交人显示（与 SSH 独立）
 

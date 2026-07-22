@@ -1,5 +1,4 @@
 import { redirect } from "next/navigation";
-import Link from "next/link";
 import { isAdminAuthenticated } from "@/lib/admin-auth";
 import {
   PROGRESS_TREE,
@@ -7,6 +6,7 @@ import {
   summarizeProgress,
 } from "@/content/progress-tree";
 import { ProgressTree } from "@/components/ProgressTree";
+import { AdminNav } from "@/components/AdminNav";
 
 /**
  * 工作总结仅后台：以本地 progress-tree.ts 为当前进度真相来源
@@ -23,15 +23,11 @@ export default async function AdminProgressPage() {
 
   return (
     <main>
-      <nav className="admin-nav">
-        <Link href="/admin/progress">工作总结</Link>
-        <Link href="/admin/master-import">人工总表导入</Link>
-        <Link href="/">返回首页</Link>
-      </nav>
+      <AdminNav />
       <div className="card">
         <h1>工作总结（仅后台）</h1>
         <p className="muted">
-          树状列出各任务与完成目标。已完成标绿，未完成标黄。首页不展示本页。
+          树状列出各任务与完成目标。已完成标绿，未完成标黄。日常作业请用顶栏「FBA仓头/追踪码」。
         </p>
         <div className="summary-bar">
           叶子任务：共 {total} 项 ·{" "}

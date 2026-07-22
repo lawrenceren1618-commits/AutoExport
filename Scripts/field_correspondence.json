@@ -19,8 +19,11 @@
     "01_order_outbound": {
       "title": "订单表与出库单",
       "correspondence_md": "Templates/01_Order_Outbound_Correspondence.md",
+      "field_change_map_md": "Templates/Table_Field_Change_Maps.md",
+      "field_change_map_json": "Scripts/table_field_maps.json",
+      "outbound_short_seq": "Scripts/outbound_short_seq.json",
       "input_dir": "1_Input_Raw/01_Order_Outbound",
-      "status": "template_modeled_zh_packing_scan_conflicts",
+      "status": "outbound_draft_C04-2616_rules_settled_2026-07-21",
       "generator": "Scripts/05_generate_order.py",
       "modules": "Scripts/m1/",
       "blank_template": "Templates/order_blank_zh.xlsx",
@@ -29,17 +32,20 @@
     "02_freight_forwarder": {
       "title": "货代下单表",
       "correspondence_md": "Templates/02_Freight_Forwarder_Correspondence.md",
+      "field_change_map_md": "Templates/Table_Field_Change_Maps.md",
       "input_dir": "1_Input_Raw/02_Freight_Forwarder",
-      "status": "awaiting_user_template_upload",
+      "status": "rules_aligned_one_row_per_wh_WAIT_FBA_2026-07-21",
       "deferred": false,
-      "warehouse_header_deferred_until": "亚马逊入库货件创建并分配仓库后"
+      "warehouse_header_deferred_until": "FBA外箱贴放入项目后"
     },
     "03_customs": {
       "title": "报关单据",
       "correspondence_md": "Templates/03_Customs_Correspondence.md",
+      "field_change_map_md": "Templates/Table_Field_Change_Maps.md",
       "input_dir": "1_Input_Raw/03_Customs",
-      "status": "awaiting_user_template_upload",
-      "deferred": true
+      "status": "C04_1039_dual_header_WAIT_FBA_2026-07-21",
+      "deferred": false,
+      "note": "表内抬头=波丽丝；文件名≠抬头（可含畅选+波丽丝）；不退税只免征；适用所有后续票"
     }
   },
   "entity_brand_rules": "Scripts/entity_brand_rules.json",

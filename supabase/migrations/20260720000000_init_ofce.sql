@@ -1,5 +1,6 @@
--- office-cp-ofce — Supabase schema (run in SQL Editor or via supabase db push)
+-- AutoExport — Supabase schema (run in SQL Editor or via supabase db push)
 -- Project name must be independent from home-PC Supabase projects.
+-- (Historical codename office-cp-ofce retired; cloud project = AutoExport.)
 
 create extension if not exists "pgcrypto";
 
@@ -111,8 +112,8 @@ create table if not exists progress_nodes (
 insert into progress_nodes (id, parent_id, title, status, module, next_action, sort) values
   ('root', null, 'OFCE 总目标：订单→出货→货代→(FBA仓)→报关 可追溯可终审', 'doing', 'Gate', '按 P0→P5 推进', 0),
   ('P0', 'root', 'P0 基建', 'doing', 'P0', '完成 GitHub / Supabase / Vercel 隔离', 10),
-  ('P0-1', 'P0', 'GitHub 仓库 office-cp-ofce + 本机 git 身份', 'doing', 'P0', 'gh auth login 后创建并 push', 11),
-  ('P0-2', 'P0', 'Supabase 项目 + 核心表', 'todo', 'P0', '在控制台新建 office-cp-ofce 并执行 migration', 12),
+  ('P0-1', 'P0', 'GitHub 仓库 AutoExport + 本机 git 身份', 'doing', 'P0', 'gh auth login 后创建并 push', 11),
+  ('P0-2', 'P0', 'Supabase 项目 + 核心表', 'todo', 'P0', '在控制台新建 AutoExport 并执行 migration', 12),
   ('P0-3', 'P0', 'Vercel 部署 web + 环境变量隔离', 'todo', 'P0', 'Import 仓库 Root=web，填 OFCE_/Supabase 密钥', 13),
   ('P1', 'root', 'P1 沉淀与总表', 'todo', 'M0', '上传人工总表并确认入库', 20),
   ('P1-1', 'P1', '上传/导入人工总表 → 确认入库', 'todo', 'M0', '放到 00_Master_Reference 或后台导入', 21),

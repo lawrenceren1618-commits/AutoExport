@@ -80,23 +80,47 @@ def normalize_lwh(v: Any) -> str | None:
     return s or None
 
 
-def normalize_size(v: Any) -> str | None:
+def normalize_size(v: Any, schema: dict | None = None) -> str | None:
+    """Normalize size; expand master short codes via size_shortcode_map → order full form."""
     if v is None or v == "":
         return None
-    s = str(v).strip()
-    if re.search(r"(?i)90.*round", s):
+    schema = schema or load_schema()
+    raw = str(v).strip()
+    short_map = (schema.get("size_shortcode_map") or {}).get("master_short_to_order_full") or {}
+    # exact short-code hit (84 / 102 / 126 / 120 / 90圆)
+    if raw in short_map:
+        raw = short_map[raw]
+    elif raw.lower() == "90圆" or raw == "90寸圆":
+        raw = short_map.get("90圆", "90 inch round")
+
+    if re.search(r"(?i)90.*round", raw) or "90圆" in raw or "90寸圆" in raw:
         return "90inchround"
     # 仅替换尺寸乘号，避免误伤 round 等单词中的字母
-    s = s.replace("×", "X").replace("*", "X")
+    s = raw.replace("×", "X").replace("*", "X")
     s = re.sub(r"(?<=\d)x(?=\d)", "X", s, flags=re.I)
     s = re.sub(r"\s+", "", s)
+    # 70X120inch → keep; strip trailing inch for compare consistency keep inch
     return s
 
 
-def normalize_color(v: Any) -> str | None:
+def normalize_color(v: Any, schema: dict | None = None) -> str | None:
+    """Normalize color; 米白=象牙白=Ivory → canonical「米白」(color_aliases)."""
     if v is None or v == "":
         return None
-    return str(v).strip().replace(" ", "")
+    raw = str(v).strip().replace(" ", "")
+    if not raw:
+        return None
+    schema = schema or load_schema()
+    aliases = (schema.get("color_aliases") or {}).get("canonical") or {}
+    low = raw.lower()
+    for canon, variants in aliases.items():
+        for var in variants:
+            if raw == var or low == str(var).lower() or str(var) in raw or str(var).lower() in low:
+                # 「白」不得误匹配「米白」
+                if canon == "白" and any(x in raw for x in ("米白", "象牙", "ivory", "Ivory")):
+                    continue
+                return canon
+    return raw
 
 
 def normalize_gram_weight(v: Any) -> str | None:

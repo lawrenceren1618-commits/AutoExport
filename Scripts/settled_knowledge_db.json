@@ -35,7 +35,22 @@
   "packing_standards": [],
   "fnsku_index": [],
   "hs_defaults": {
-    "平纹单面磨毛桌布": "6302539090"
+    "平纹单面磨毛桌布": "6302539090",
+    "authority": "master_table",
+    "note": "以总表为准；2026-07-20 确认"
+  },
+  "confirmed_defaults": {
+    "gram_weight": "90G",
+    "freight_brand_column": "无",
+    "outbound_needs_fnsku": false,
+    "order_code_style": "EF_long",
+    "outbound_code_style": "C0x_short_U_date",
+    "size_shortcode_map": "confirmed_2026-07-21",
+    "size_120": "70X120inch",
+    "color_米白_aliases": ["米白", "米白色", "象牙", "象牙色", "象牙白", "象牙白色", "Ivory", "ivory"],
+    "color_canonical_米白": "米白",
+    "label_output_layout": "产品标签/{EF订单号}标签/{N}条装/{尺寸短码}/{源原名}.pdf",
+    "validated_templates": "Shipments/ and historical 发货计划 copies"
   },
   "master_table_imports": [],
   "cross_check_log": [],

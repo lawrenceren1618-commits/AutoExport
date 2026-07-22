@@ -2,7 +2,7 @@
 
 | 项 | 值 |
 |----|-----|
-| **总文件夹（本机）** | `C:\Users\Administrator\.cursor\Cursor-projects\AutoExport` |
+| **总文件夹（本机）** | `D:\.cursor\Cursor-projects\AutoExport` |
 | GitHub / Vercel / Supabase 项目名 | **AutoExport** |
 | Git 提交人 | **Office CP**（office-cp）— 不改 |
 | 办公室 SSH | **github.com-office-cp** |
@@ -14,7 +14,7 @@
 ## GitHub（已完成可跳过）
 
 ```powershell
-cd C:\Users\Administrator\.cursor\Cursor-projects\AutoExport
+cd D:\.cursor\Cursor-projects\AutoExport
 ssh -T git@github.com-office-cp
 git remote -v
 # 应为：git@github.com-office-cp:lawrenceren1618-commits/AutoExport.git
@@ -38,5 +38,3 @@ git remote -v
 
 1. Import 仓库 **AutoExport**
 2. Root Directory = **`web`**
-3. 环境变量与 `.env.local` 相同（Production + Preview）
-4. Deploy → `/admin/login`

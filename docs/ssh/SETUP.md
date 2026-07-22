@@ -21,21 +21,22 @@ Host github.com-office-cp
 
 ## 3. Remote URL pattern
 
-本机已验证账号：**`lawrenceren1618-commits`**
+本机已验证账号：**`lawrenceren1618-commits`**  
+仓库名：**`AutoExport`**
 
 ```text
-git@github.com-office-cp:lawrenceren1618-commits/office-cp-ofce.git
+git@github.com-office-cp:lawrenceren1618-commits/AutoExport.git
 ```
 
 ```powershell
-git remote add origin git@github.com-office-cp:lawrenceren1618-commits/office-cp-ofce.git
+git remote add origin git@github.com-office-cp:lawrenceren1618-commits/AutoExport.git
 # or update existing:
-# git remote set-url origin git@github.com-office-cp:lawrenceren1618-commits/office-cp-ofce.git
+# git remote set-url origin git@github.com-office-cp:lawrenceren1618-commits/AutoExport.git
 ```
 
 ## 4. Add the public key on GitHub
 
-GitHub → Settings → SSH and GPG keys → New SSH key → paste contents of the `.pub` file (title e.g. `office-cp-ofce`).
+GitHub → Settings → SSH and GPG keys → New SSH key → paste contents of the `.pub` file (title e.g. `AutoExport-office`).
 
 ## 5. Test (when ready — do not block on this)
 

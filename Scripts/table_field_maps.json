@@ -1,0 +1,263 @@
+{
+  "version": "1.0",
+  "confirmed_at": "2026-07-21",
+  "doc": "Templates/Table_Field_Change_Maps.md",
+  "global_fill_rules": {
+    "only_edit_change_fields": true,
+    "row_count_is_change_field": true,
+    "row_count_fixed": false,
+    "product_kind": "size+color",
+    "pack_variants_roll_up": "same size+color with different strips_per_pack → one upper/outbound row; sum qty_strips",
+    "outbound_rows_follow": "order_upper_summary",
+    "row_height": "consistent_within_data_band; must fully show content (height ≠ row count)",
+    "merges": "follow_verified_template; vertical merge span = current kind count",
+    "do_not_delete_columns": true,
+    "size_write_form": {
+      "prefer": ["60X102inch", "60X126inch", "70X120inch", "60X84inch", "90 inch round"],
+      "avoid": ["* separator", "英寸", "60x120 for 120-shortcode"],
+      "note": "120 shortcode → 70X120inch; use X and inch"
+    },
+    "kind_example": {
+      "detail": [
+        {"size": "60X102inch", "color": "白", "strips_per_pack": 2, "qty": 500},
+        {"size": "60X102inch", "color": "白", "strips_per_pack": 6, "qty": 8000},
+        {"size": "60X102inch", "color": "白", "strips_per_pack": 10, "qty": 1500}
+      ],
+      "upper_and_outbound_one_row": {"size": "60X102inch", "color": "白", "qty": 10000}
+    }
+  },
+  "tables": {
+    "order": {
+      "folder": "订单表",
+      "structure": {
+        "upper": {
+          "grain": ["size", "color"],
+          "no_fnsku": true,
+          "roll_up_pack_sizes": true
+        },
+        "lower": {
+          "grain": ["size", "color", "strips_per_pack", "fnsku"],
+          "includes_packing": true
+        }
+      },
+      "static_fields": [
+        "layout_two_section",
+        "header_company_en_position",
+        "upper_column_titles",
+        "lower_column_titles",
+        "section_title_装箱明细",
+        "total_label",
+        "signoff_labels"
+      ],
+      "change_fields": [
+        "upper_row_count",
+        "lower_row_count",
+        "order_code",
+        "order_date",
+        "delivery_date",
+        "product_name_zh",
+        "gram_weight",
+        "upper_lines",
+        "lower_lines",
+        "qty_strips_total",
+        "qty_cartons_total",
+        "sales_person"
+      ],
+      "column_map": {
+        "订单编号": "order_code",
+        "下单日期": "order_date",
+        "交货日期": "delivery_date",
+        "尺寸规格": "size",
+        "颜色": "color",
+        "数量": "qty_strips",
+        "产品品类": "product_name_zh",
+        "重量": "gram_weight",
+        "条数/包": "strips_per_pack",
+        "产品标签": "fnsku",
+        "包数/箱": "packs_per_carton",
+        "总箱数": "qty_cartons",
+        "总条数": "qty_strips",
+        "内包装尺寸": "inner_pack_lwh_cm",
+        "外箱尺寸": "carton_lwh_cm"
+      }
+    },
+    "outbound": {
+      "folder": "出货表",
+      "template_ref": "C04-2615-U-2026.6.24.xlsx",
+      "static_fields": [
+        "title_发货单",
+        "label_texts",
+        "nine_column_headers",
+        "no_fnsku_column",
+        "merge_pattern_vertical_category_weight_order_dest",
+        "detail_grain_upper_order"
+      ],
+      "change_fields": [
+        "data_row_count",
+        "ship_date",
+        "outbound_short",
+        "qty_strips_total",
+        "sales_person",
+        "detail_lines",
+        "product_name_zh",
+        "gram_weight",
+        "destination",
+        "remark"
+      ],
+      "usually_empty": ["所属订单", "所属仓库"],
+      "column_map": {
+        "订单发货日期": "ship_date",
+        "客户及订单号": "outbound_short",
+        "订单数量": "qty_strips",
+        "业务员": "sales_person",
+        "产品品类": "product_name_zh",
+        "重量": "gram_weight",
+        "尺寸规格": "size",
+        "颜色": "color",
+        "数量": "qty_strips",
+        "所属订单": null,
+        "所属仓库": "warehouse_code",
+        "备注": "remark",
+        "目的地": "destination"
+      },
+      "naming": {
+        "short": "{store}-{YY}{NN}",
+        "filename": "{short}-U-{delivery_date}.xlsx",
+        "U_means": "USA",
+        "cell_short_only": true
+      },
+      "layout": {
+        "merges_example_11_rows": ["A1:I1", "A5:A15", "B5:B15", "F5:F15", "I5:I15"],
+        "data_row_height_rule": "uniform; fully visible"
+      }
+    }
+  },
+  "cross_table_maps": {
+    "order_to_outbound": [
+      {"from": "delivery_date", "to": "ship_date", "note": "发货日=交货日，非下单日"},
+      {"from": "delivery_date", "to": "outbound_filename_date"},
+      {"from": "order_code", "to": "PROJECT.order_code", "not_in": "outbound_short_cell"},
+      {"from": "upper.size+color+qty", "to": "outbound.detail_rows"},
+      {"from": "upper.qty_sum", "to": "outbound.qty_strips_header"},
+      {"from": "gram_weight", "to": "outbound.gram_weight"},
+      {"from": "product_name_zh", "to": "outbound.product_name_zh"},
+      {"from": "lower.fnsku", "to": null, "note": "不出货表"}
+    ],
+    "fba_to_freight": [
+      {"from": "warehouse_code+address", "to": "freight_header"},
+      {"from": "warehouse_carton_sum", "to": "freight.carton_count_one_row"},
+      {"from": "warehouse_strip_sum", "to": "freight.strips_one_row"},
+      {"from": "declare_price", "to": "unit_and_total_bidirectional_check"}
+    ],
+    "fba_to_customs": [
+      {"from": "warehouse_carton_sum", "to": "件数=总件数=箱数"},
+      {"from": "warehouse_strip_sum", "to": "成交数量"},
+      {"from": "net_kg_sum", "to": "净重=总净重"},
+      {"from": "gross_kg_sum", "to": "总毛重"},
+      {"from": "declare_unit_and_amount", "to": "单价/货值正算反算"}
+    ]
+  },
+  "tables_extended": {
+    "freight_forwarder": {
+      "folder": "货代入库贴下单表",
+      "confirmed_at": "2026-07-21",
+      "generate_after": "FBA外箱贴 placed",
+      "file_grain": "one_xlsx_per_amazon_warehouse",
+      "detail_row_policy": "usually_fixed_one_consolidated_row",
+      "static_fields": [
+        "three_sheets",
+        "row14_column_headers",
+        "brand=无",
+        "brand_type=无",
+        "model=无",
+        "hs_code=6302539090",
+        "material_usage_boilerplate",
+        "enum_sheets"
+      ],
+      "change_fields": [
+        "filename",
+        "warehouse_code",
+        "warehouse_address",
+        "fba_shipment_id",
+        "reference_id",
+        "carton_count_warehouse_total",
+        "strips_warehouse_total",
+        "qty_per_carton_reconciled",
+        "unit_price_usd",
+        "declare_amount",
+        "carton_weight_lwh",
+        "product_name_zh_en"
+      ],
+      "price_check": {
+        "unit_price": "round(amount/strips, 2)",
+        "amount": "round(unit_price*strips, 2)",
+        "on_mismatch": "rewrite_amount_from_strips_x_unit_price"
+      },
+      "column_map": {
+        "仓库代码": "warehouse_code",
+        "收件地址1": "warehouse_address",
+        "任意订单号": "fba_shipment_id",
+        "reference ID": "reference_id",
+        "箱": "carton_count",
+        "中文品名": "product_name_zh",
+        "英文品名": "product_name_en",
+        "单箱数量": "strips_per_carton_or_reconciled",
+        "单价": "declare_unit_price",
+        "申报币别": "currency",
+        "箱重（KG）": "gross_kg",
+        "长（CM）": "carton_l_cm",
+        "宽（CM）": "carton_w_cm",
+        "高（CM）": "carton_h_cm",
+        "HS CODE": "hs_code",
+        "品牌": "brand_freight_fixed_无"
+      }
+    },
+    "customs": {
+      "folder": "报关资料表",
+      "confirmed_at": "2026-07-21",
+      "generate_after": "FBA外箱贴 placed",
+      "mode": "1039",
+      "applies_to": "all_future_shipments",
+      "tax": "no_rebate_exemption_only",
+      "terminology": {
+        "抬头": "表内生产销售单位统一名称 = 许昌波丽丝贸易有限公司",
+        "文件名": "xlsx name only; NEVER call 抬头; may contain 畅选+波丽丝",
+        "内部法律主体_C04": "许昌畅选贸易有限公司（not table 抬头 cell）"
+      },
+      "entity_ticket_C04": true,
+      "static_fields": [
+        "five_sheets",
+        "column_titles",
+        "表内抬头_bolisi",
+        "hs_code",
+        "levy_exemption_免征",
+        "all_other_cells_not_in_change_list"
+      ],
+      "change_fields_only": [
+        "文件名",
+        "件数",
+        "总件数",
+        "成交数量",
+        "单价",
+        "货值",
+        "净重",
+        "总净重",
+        "总毛重"
+      ],
+      "equalities": {
+        "件数": ["箱数", "总件数", "warehouse_carton_total"],
+        "净重": ["总净重", "warehouse_net_kg_total"]
+      },
+      "price_check": {
+        "货值": "round(单价*成交数量, 2)",
+        "单价": "round(货值/成交数量, 2)",
+        "on_mismatch": "pipeline_section_5"
+      }
+    }
+  },
+  "pending_tables": ["fba_carton_label"],
+  "generation_gate": {
+    "freight_and_customs": "WAIT_FBA_CARTON_LABELS",
+    "h01_product_ingest": "WAIT"
+  }
+}

@@ -96,7 +96,7 @@ export async function POST(req: NextRequest) {
         entity_code: entity,
         strips_per_carton: r.strips_per_carton,
         packs_per_carton: r.packs_per_carton,
-        carton_size_cm: r.carton_size_cm ?? null,
+        carton_size_cm: r.carton_lwh_cm ?? null,
         gross_kg: r.gross_kg,
         net_kg: r.net_kg,
         volume_cbm: r.volume_cbm,
