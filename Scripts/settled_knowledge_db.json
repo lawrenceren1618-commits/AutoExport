@@ -72,7 +72,11 @@
       "product_image_rule": {
         "confirmed_at": "2026-07-23",
         "must_reinject_after_openpyxl": true,
-        "channels": ["FC", "AWD", "GWD"],
+        "channels": [
+          "FC",
+          "AWD",
+          "GWD"
+        ],
         "verify": "zip xl/media count>=1",
         "fail_if_missing": true,
         "note": "AWD与FC相同；仅写DISPIMG公式不够，必须回注media/cellimages；09脚本保存后校验"
@@ -91,7 +95,16 @@
     "outbound_code_style": "C0x_short_U_date",
     "size_shortcode_map": "confirmed_2026-07-21",
     "size_120": "70X120inch",
-    "color_米白_aliases": ["米白", "米白色", "象牙", "象牙色", "象牙白", "象牙白色", "Ivory", "ivory"],
+    "color_米白_aliases": [
+      "米白",
+      "米白色",
+      "象牙",
+      "象牙色",
+      "象牙白",
+      "象牙白色",
+      "Ivory",
+      "ivory"
+    ],
     "color_canonical_米白": "米白",
     "label_output_layout": "产品标签/{EF订单号}标签/{N}条装/{尺寸短码}/{源原名}.pdf",
     "validated_templates": "Shipments/ and historical 发货计划 copies",
@@ -110,7 +123,10 @@
     "amazon_sku": {
       "confirmed_at": "2026-07-23",
       "doc": "Templates/SKU_Correspondence.md",
-      "unique_within": ["entity_code", "brand"],
+      "unique_within": [
+        "entity_code",
+        "brand"
+      ],
       "immutable_on_amazon": true,
       "cross_store_forbidden": true,
       "note": "卖家SKU在店铺+品牌内唯一；亚马逊侧基本不可改。夹名/页标冲突时人工指出→写SKU_人工备注→确认后入sku_index。",
@@ -122,8 +138,21 @@
       "doc": "Templates/Carton_Label_Channels.md",
       "purpose": "recognize_for_AI_and_organize_for_factory_labeling",
       "split_and_merge": "same_pipeline_different_layout_only_final_is_one_pdf_per_wh_per_spec",
-      "unified_flow": ["optional_clean", "optional_convert", "recognize_layout", "confirm_fields_by_layout", "separate", "merge_same_wh_same_spec", "organize"],
-      "channels": ["FC", "AWD", "GWD", "UNKNOWN"],
+      "unified_flow": [
+        "optional_clean",
+        "optional_convert",
+        "recognize_layout",
+        "confirm_fields_by_layout",
+        "separate",
+        "merge_same_wh_same_spec",
+        "organize"
+      ],
+      "channels": [
+        "FC",
+        "AWD",
+        "GWD",
+        "UNKNOWN"
+      ],
       "FC": "亚马逊运营中心（Fulfillment Center / 常称FBA仓）",
       "AWD": "Amazon Warehousing & Distribution",
       "GWD": "预留；特征待样例",
@@ -159,11 +188,20 @@
       "awd_sample_calibrated": {
         "at": "2026-07-23",
         "leg": "C26079-B",
-        "signals": ["AWD Box", "AWD 3PL", "ShipmentID STAR-", "IUTE"],
+        "signals": [
+          "AWD Box",
+          "AWD 3PL",
+          "ShipmentID STAR-",
+          "IUTE"
+        ],
         "dest_example": "IUTE - AWD 3PL - (Goodyear, US)",
         "reference_id_tracking": "usually_empty",
         "reference_id_note": "AWD货代reference/追踪编码通常不填；任意订单号=ShipmentID"
       }
+    },
+    "local_data_paths": {
+      "doc": "Templates/Local_Data_Paths.md",
+      "json": "Scripts/local_data_paths.json"
     }
   },
   "master_table_imports": [],
