@@ -1,0 +1,169 @@
+{
+  "version": "1.0",
+  "confirmed_at": "2026-07-23",
+  "doc": "Templates/Data_Source_Interfaces.md",
+  "policy": {
+    "github": "Rules, Templates, settled JSON, pipeline scripts, migrations, light drafts (json/md/needed xlsx)",
+    "interfaces": "Task obtains templates/references via interface_id (API, Storage, module handshake, script entry)",
+    "not_a_path_dump": "Do not treat this file as an inventory of absolute folders to blob-upload; interim_reference is a callable template/reference source for local runs",
+    "heavy_binaries": "Label source PDFs, carton-label trees, product-label copies — not in GitHub; cloud via Supabase Storage/API (pending)"
+  },
+  "interfaces": [
+    {
+      "id": "tpl.freight_order_xlsx",
+      "task": "generate_freight_order",
+      "needs": "verified freight order xlsx including sample product image media",
+      "module": "M2",
+      "obtain": {
+        "github_or_local_script": "Scripts/09_generate_freight_customs_drafts.py FREIGHT_TEMPLATE",
+        "interim_reference_rel": "1_Input_Raw/Shipments/EF-C26040-C04-8490_C04_20260510_8490/货代入库贴下单表/货代入库贴数据2026.5.10 HEA2 248箱.xlsx"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "Supabase Storage templates/freight/ or signed URL API"
+      }
+    },
+    {
+      "id": "tpl.customs_1039_xlsx",
+      "task": "generate_customs_1039",
+      "needs": "verified customs 1039 workbook template",
+      "module": "M3",
+      "obtain": {
+        "github_or_local_script": "Scripts/09_generate_freight_customs_drafts.py CUSTOMS_TEMPLATE",
+        "interim_reference_rel": "1_Input_Raw/Shipments/EF-C26040-C04-8490_C04_20260510_8490/_来源归档/畅选+波丽丝 2026.5.10发货 248箱 市场采购数据.xlsx"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "Supabase Storage templates/customs/"
+      }
+    },
+    {
+      "id": "ref.master_product_table",
+      "task": "enrich_packing_and_1039_prices",
+      "needs": "master product table rows (FNSKU, net/gross, 1039 ctn price)",
+      "module": "M0",
+      "handshake": "H01",
+      "obtain": {
+        "interim_reference_rel": "1_Input_Raw/00_Master_Reference/2026.7.20桌布当前产品总表.xlsx",
+        "rules_doc": "Templates/00_Master_Reference_Correspondence.md"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "autoexport.master_products after H01 confirm; optional Storage for workbook archive"
+      }
+    },
+    {
+      "id": "ref.label_source_library",
+      "task": "copy_shipment_product_labels",
+      "needs": "read-only PDF label library",
+      "module": "M1",
+      "obtain": {
+        "gate": ".cursor/rules/label-source-gate.mdc",
+        "interim_reference_rel": "1_Input_Raw/00_Master_Reference/桌布标签",
+        "note": "Assistant copies out only; never mutate source"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "Supabase Storage bucket label-source (read-only policy)"
+      }
+    },
+    {
+      "id": "job.carton_labels_inbox",
+      "task": "recognize_split_merge_carton_labels",
+      "needs": "uploaded FC/AWD carton label PDFs for a shipment leg",
+      "module": "M4",
+      "obtain": {
+        "local_flow": "Shipments/{project}/FBA外箱贴/_inbox → Scripts/10_carton_label_ingest.py",
+        "rules_doc": "Templates/Carton_Label_Channels.md",
+        "note": "Heavy PDFs not stored in GitHub; job consumes upload interface"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "Upload API → Storage → worker invoke 10/08/11"
+      }
+    },
+    {
+      "id": "ref.split_ledger",
+      "task": "split_shipment_accounting",
+      "needs": "plan vs shipped vs remaining JSON",
+      "module": "M1",
+      "obtain": {
+        "script": "Scripts/07_split_shipment_ledger.py",
+        "github_light_ok": "Shipments/.../拆单比对/*.json|*.md may be committed as light data"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "tables shipment_split_batches / remaining"
+      }
+    },
+    {
+      "id": "ref.settled_knowledge",
+      "task": "defaults_and_gate_authority",
+      "needs": "confirmed_defaults, entities, sku_index skeleton",
+      "module": "M0",
+      "obtain": {
+        "github": "Scripts/settled_knowledge_db.json"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "config API or sync row to autoexport schema"
+      }
+    },
+    {
+      "id": "ref.carton_label_channels",
+      "task": "confirm_fields_by_layout_FC_AWD",
+      "needs": "channel field map and one-leg-one-channel rules",
+      "obtain": {
+        "github": "Templates/Carton_Label_Channels.md",
+        "schema": "Scripts/canonical_schema.json carton_label_channels / settled confirmed_defaults"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "versioned config JSON via API"
+      }
+    },
+    {
+      "id": "ref.amazon_sku_index",
+      "task": "sku_lock_and_manual_notes",
+      "needs": "SKU unique within store+brand",
+      "obtain": {
+        "github": "Scripts/settled_knowledge_db.json sku_index (empty until master SKU column confirmed)",
+        "rules_doc": "Templates/SKU_Correspondence.md"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "table sku_index"
+      }
+    },
+    {
+      "id": "mod.m4_fba_headers",
+      "task": "warehouse_headers_and_tracking",
+      "needs": "warehouse_code, shipment_id, tracking_id, address",
+      "module": "M4",
+      "handshake": "H42",
+      "obtain": {
+        "admin_ui": "/admin/fba-track",
+        "github_light_ok": "2_Processed_AI/drafts/*_warehouse_headers.json / *_tracking.json"
+      },
+      "cloud": {
+        "status": "partial",
+        "planned": "existing fba warehouse migrations + Exposed schema autoexport"
+      }
+    },
+    {
+      "id": "gate.hx_settled",
+      "task": "pre_final_cross_check",
+      "needs": "settled authority vs draft",
+      "module": "Gate",
+      "handshake": "HX",
+      "obtain": {
+        "script": "Scripts/03_cross_validate.py",
+        "rule": ".cursor/rules/pre-output-cross-check.mdc"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "Gate service reading settled DB + draft objects"
+      }
+    }
+  ]
+}

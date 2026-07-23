@@ -200,8 +200,14 @@
       }
     },
     "local_data_paths": {
-      "doc": "Templates/Local_Data_Paths.md",
-      "json": "Scripts/local_data_paths.json"
+      "deprecated": true,
+      "replaced_by": "data_source_interfaces"
+    },
+    "data_source_interfaces": {
+      "confirmed_at": "2026-07-23",
+      "doc": "Templates/Data_Source_Interfaces.md",
+      "json": "Scripts/data_source_interfaces.json",
+      "note": "Task→needs→interface_id; GitHub for rules/light data; heavy binaries via pending Supabase Storage/API — not a disk path dump"
     }
   },
   "master_table_imports": [],

@@ -1,51 +1,8 @@
 {
-  "version": 1,
-  "description": "Heavy local data NOT for GitHub. Paths recorded for local use; cloud phase targets Supabase storage.",
-  "storage": "supabase_pending",
-  "policy": {
-    "github_ok": "Rules, Templates, light JSON/xlsx drafts, scripts, migrations — AutoExport GitHub repo.",
-    "supabase_pending": "Heavy PDFs: label source library, FBA carton label trees (FC/AWD), product labels — stay local until Supabase storage.",
-    "doc": "Templates/Local_Data_Paths.md"
+  "deprecated": true,
+  "replaced_by": {
+    "doc": "Templates/Data_Source_Interfaces.md",
+    "json": "Scripts/data_source_interfaces.json"
   },
-  "paths": {
-    "label_source": {
-      "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\桌布标签",
-      "storage": "supabase_pending",
-      "github": false,
-      "note": "Core read-only label PDF library (桌布标签). Assistant copies out only."
-    },
-    "shipment_project_C26079": {
-      "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10",
-      "storage": "mixed",
-      "github_ok_light": true,
-      "note": "Project folder: light xlsx/json/md may be on GitHub; heavy PDF subtrees stay local."
-    },
-    "fba_carton_labels": {
-      "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴",
-      "storage": "supabase_pending",
-      "github": false,
-      "trees": [
-        "FC",
-        "AWD"
-      ],
-      "also_present": [
-        "AVP1",
-        "CLT2",
-        "GWD",
-        "GYR2",
-        "LGB8",
-        "MDW2",
-        "_inbox",
-        "_recognize",
-        "_staging"
-      ],
-      "note": "FC + AWD carton label PDF trees under project FBA外箱贴; other FC warehouse folders likewise excluded from GitHub."
-    },
-    "product_labels": {
-      "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\产品标签",
-      "storage": "supabase_pending",
-      "github": false,
-      "note": "Per-shipment product label PDF copies under 产品标签."
-    }
-  }
+  "note": "Do not use absolute path dumps. Use interface_id registry for template/reference sources."
 }
