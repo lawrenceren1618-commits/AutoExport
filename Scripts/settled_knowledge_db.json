@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "description": "沉淀知识库：经使用者确认的主体、品牌、FNSKU、装箱规格等。来源可为单据提炼或人工总表。生成草稿可读取；最终输出前必须与之交叉对照。未确认数据不得写入本库。",
-  "updated_at": null,
+  "description": "沉淀知识库：经使用者确认的主体、品牌、SKU、FNSKU、装箱规格等。来源可为单据提炼或人工总表。生成草稿可读取；最终输出前必须与之交叉对照。未确认数据不得写入本库。",
+  "updated_at": "2026-07-23",
   "sources": {
     "from_documents": {
       "enabled": true,
@@ -34,6 +34,8 @@
   "products": [],
   "packing_standards": [],
   "fnsku_index": [],
+  "sku_index": [],
+  "sku_manual_notes": [],
   "hs_defaults": {
     "平纹单面磨毛桌布": "6302539090",
     "authority": "master_table",
@@ -42,6 +44,48 @@
   "confirmed_defaults": {
     "gram_weight": "90G",
     "freight_brand_column": "无",
+    "freight_order_form": {
+      "confirmed_at": "2026-07-23",
+      "doc": "Templates/02_Freight_Forwarder_Correspondence.md",
+      "customer_order_no": "111111111",
+      "customer_order_no_note": "固定占位；禁止写入追踪码/FBA/STAR号",
+      "recipient_name": "empty",
+      "recipient_address": "warehouse_code_or_site + street from carton label (FC or AWD)",
+      "any_order_no": {
+        "FC": "fba_shipment_id",
+        "AWD": "awd_shipment_id_STAR"
+      },
+      "reference_id": {
+        "FC": "tracking_id_required_when_available",
+        "AWD": "usually_empty_confirmed_2026-07-23"
+      },
+      "qty_per_carton": "floor(strips/cartons)",
+      "carton_weight_kg": 16,
+      "carton_l_cm": 16,
+      "carton_w_cm": 16,
+      "carton_h_cm": 16,
+      "hs_code": "6302539090",
+      "material": "聚酯纤维/polyester",
+      "usage": "餐桌",
+      "brand_type_model": "无",
+      "product_image": "sample_DISPIMG_from_freight_template_plus_media_reinject",
+      "product_image_rule": {
+        "confirmed_at": "2026-07-23",
+        "must_reinject_after_openpyxl": true,
+        "channels": ["FC", "AWD", "GWD"],
+        "verify": "zip xl/media count>=1",
+        "fail_if_missing": true,
+        "note": "AWD与FC相同；仅写DISPIMG公式不够，必须回注media/cellimages；09脚本保存后校验"
+      },
+      "sales_link": {
+        "C04": "https://www.amazon.com/dp/B0CCRKDW1K?th=1",
+        "C07": "https://www.amazon.com/gp/product/B0FNVMX537"
+      },
+      "sales_link_cell": "T15",
+      "province_city_zip_cells": "leave_empty",
+      "change_fields_only": true,
+      "change_fields_note": "仅改仓码/姓名空/地址/任意订单号/reference/箱/品名/单箱floor/单价/图片/销售链接；其余固定"
+    },
     "outbound_needs_fnsku": false,
     "order_code_style": "EF_long",
     "outbound_code_style": "C0x_short_U_date",
@@ -50,14 +94,86 @@
     "color_米白_aliases": ["米白", "米白色", "象牙", "象牙色", "象牙白", "象牙白色", "Ivory", "ivory"],
     "color_canonical_米白": "米白",
     "label_output_layout": "产品标签/{EF订单号}标签/{N}条装/{尺寸短码}/{源原名}.pdf",
-    "validated_templates": "Shipments/ and historical 发货计划 copies"
+    "validated_templates": "Shipments/ and historical 发货计划 copies",
+    "amount_weight_reconcile": {
+      "confirmed_at": "2026-07-22",
+      "doc": "Templates/Amount_Weight_Reconcile.md",
+      "spec_aggregate": "sum(cartons * master_per_carton_price_or_weight)",
+      "warehouse_declare": "per_wh raw then unit=round(raw/strips,2) amount=round(unit*strips,2)",
+      "error_rate": "|B-A|/A*100%",
+      "pass_max_pct": 1.0,
+      "on_le_1pct": "normal_no_user_report_continue",
+      "on_gt_1pct": "require_manual_confirm_before_continue",
+      "declare_authority": "warehouse_B",
+      "weight_authority": "warehouse_B"
+    },
+    "amazon_sku": {
+      "confirmed_at": "2026-07-23",
+      "doc": "Templates/SKU_Correspondence.md",
+      "unique_within": ["entity_code", "brand"],
+      "immutable_on_amazon": true,
+      "cross_store_forbidden": true,
+      "note": "卖家SKU在店铺+品牌内唯一；亚马逊侧基本不可改。夹名/页标冲突时人工指出→写SKU_人工备注→确认后入sku_index。",
+      "manual_note_path": "Shipments/{project}/拆单比对/SKU_人工备注.md",
+      "with_fnsku": "SKU与FNSKU并存；规格锁可用SKU或FNSKU，沉淀后优先SKU查表"
+    },
+    "carton_label_channels": {
+      "confirmed_at": "2026-07-23",
+      "doc": "Templates/Carton_Label_Channels.md",
+      "purpose": "recognize_for_AI_and_organize_for_factory_labeling",
+      "split_and_merge": "same_pipeline_different_layout_only_final_is_one_pdf_per_wh_per_spec",
+      "unified_flow": ["optional_clean", "optional_convert", "recognize_layout", "confirm_fields_by_layout", "separate", "merge_same_wh_same_spec", "organize"],
+      "channels": ["FC", "AWD", "GWD", "UNKNOWN"],
+      "FC": "亚马逊运营中心（Fulfillment Center / 常称FBA仓）",
+      "AWD": "Amazon Warehousing & Distribution",
+      "GWD": "预留；特征待样例",
+      "one_leg_one_channel": true,
+      "one_leg_one_channel_note": "一票一次发运=一条拆单腿；一腿只发FC或AWD或GWD之一，互斥",
+      "field_confirm_by_layout": {
+        "note": "拆分合并目的相同；须按版式确认字段，禁止FC/AWD字段混套",
+        "FC": {
+          "shipment_id": "FBA…",
+          "warehouse_key": "AVP1_style_code",
+          "any_order_no": "fba_shipment_id",
+          "reference_id": "tracking_when_available"
+        },
+        "AWD": {
+          "shipment_id": "STAR-…",
+          "warehouse_key": "site_3pl_e.g_IUTE",
+          "any_order_no": "awd_shipment_id",
+          "reference_id": "usually_empty",
+          "po_id": "json_only_not_B15_default"
+        }
+      },
+      "merge_same_warehouse_same_spec": {
+        "confirmed_at": "2026-07-23",
+        "rule": "after_recognize_confirm_merge_same_wh_same_spec_to_one_multipage_pdf",
+        "why": "工厂按仓+规格批量贴标；亦便于识别归档",
+        "final_delivery": "one_pdf_per_warehouse_per_spec",
+        "page_order": "box_sequence_ascending"
+      },
+      "clean_convert": "assistant_decides_skip_if_not_needed",
+      "organize_layout": "FBA外箱贴/{FC|AWD|GWD}/{warehouse}/{spec}/*.pdf",
+      "staging": "FBA外箱贴/_staging then confirm before promote",
+      "script": "Scripts/10_carton_label_ingest.py",
+      "awd_sample_calibrated": {
+        "at": "2026-07-23",
+        "leg": "C26079-B",
+        "signals": ["AWD Box", "AWD 3PL", "ShipmentID STAR-", "IUTE"],
+        "dest_example": "IUTE - AWD 3PL - (Goodyear, US)",
+        "reference_id_tracking": "usually_empty",
+        "reference_id_note": "AWD货代reference/追踪编码通常不填；任意订单号=ShipmentID"
+      }
+    }
   },
   "master_table_imports": [],
   "cross_check_log": [],
   "_schema_notes": {
     "products": "条目示例字段: sku_key, brand, entity_code, color, size, gram_weight, confirmed_order_date, source (document|master_table)",
     "packing_standards": "条目示例字段: product_key, strips_per_carton, packs_per_carton, carton_size_cm, gross_kg, net_kg, volume_cbm, effective_order_date, confirmed_by_user, source",
-    "fnsku_index": "条目示例字段: fnsku, entity_code, brand, color, size, amazon_store_key, source",
+    "fnsku_index": "条目示例字段: fnsku, entity_code, brand, color, size, strips_per_pack, amazon_sku, amazon_store_key, source",
+    "sku_index": "条目示例字段: amazon_sku, entity_code, brand, color, size, strips_per_pack, fnsku, source, confirmed_at — 店铺+品牌内唯一",
+    "sku_manual_notes": "人工纠偏备注: date, order_code, split_leg, store, brand, sku, size, color, strips_per_pack, fnsku, why, source",
     "master_table_imports": "每次吸收人工总表的文件名、确认时间、行数摘要",
     "cross_check_log": "每次最终导出前对照结果摘要，含 pass/fail 与差异列表"
   }

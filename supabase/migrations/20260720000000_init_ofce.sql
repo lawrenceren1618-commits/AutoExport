@@ -1,14 +1,17 @@
--- AutoExport — Supabase schema (run in SQL Editor or via supabase db push)
+﻿-- AutoExport app Supabase schema (run in SQL Editor or via supabase db push)
 -- Project name must be independent from home-PC Supabase projects.
+-- This app uses schema autoexport only; other apps in the same project use other schemas.
 -- (Historical codename office-cp-ofce retired; cloud project = AutoExport.)
 
 create extension if not exists "pgcrypto";
 
+create schema if not exists autoexport;
+grant usage on schema autoexport to postgres, anon, authenticated, service_role;
 -- ---------------------------------------------------------------------------
 -- Settled knowledge (沉淀库)
 -- ---------------------------------------------------------------------------
 
-create table if not exists settled_products (
+create table if not exists autoexport.settled_products (
   id uuid primary key default gen_random_uuid(),
   sku_key text not null,
   brand text not null,
@@ -24,7 +27,7 @@ create table if not exists settled_products (
   unique (sku_key, brand, entity_code)
 );
 
-create table if not exists settled_packing (
+create table if not exists autoexport.settled_packing (
   id uuid primary key default gen_random_uuid(),
   product_key text not null,
   brand text not null,
@@ -43,9 +46,9 @@ create table if not exists settled_packing (
 );
 
 create index if not exists settled_packing_lookup_idx
-  on settled_packing (product_key, brand, entity_code, effective_order_date desc);
+  on autoexport.settled_packing (product_key, brand, entity_code, effective_order_date desc);
 
-create table if not exists settled_fnsku (
+create table if not exists autoexport.settled_fnsku (
   id uuid primary key default gen_random_uuid(),
   fnsku text not null,
   entity_code text not null check (entity_code in ('C04', 'C07')),
@@ -60,7 +63,7 @@ create table if not exists settled_fnsku (
   unique (fnsku, entity_code)
 );
 
-create table if not exists master_table_imports (
+create table if not exists autoexport.master_table_imports (
   id uuid primary key default gen_random_uuid(),
   file_name text not null,
   row_count int not null default 0,
@@ -73,7 +76,7 @@ create table if not exists master_table_imports (
 -- Drafts & final gate
 -- ---------------------------------------------------------------------------
 
-create table if not exists draft_documents (
+create table if not exists autoexport.draft_documents (
   id uuid primary key default gen_random_uuid(),
   batch_id text not null,
   doc_type text not null check (doc_type in ('order', 'outbound', 'freight', 'customs')),
@@ -83,9 +86,9 @@ create table if not exists draft_documents (
   updated_at timestamptz not null default now()
 );
 
-create index if not exists draft_documents_batch_idx on draft_documents (batch_id, doc_type);
+create index if not exists draft_documents_batch_idx on autoexport.draft_documents (batch_id, doc_type);
 
-create table if not exists cross_check_logs (
+create table if not exists autoexport.cross_check_logs (
   id uuid primary key default gen_random_uuid(),
   batch_id text not null,
   passed boolean not null,
@@ -97,9 +100,9 @@ create table if not exists cross_check_logs (
 -- Admin progress tree (后台目标树)
 -- ---------------------------------------------------------------------------
 
-create table if not exists progress_nodes (
+create table if not exists autoexport.progress_nodes (
   id text primary key,
-  parent_id text references progress_nodes (id) on delete cascade,
+  parent_id text references autoexport.progress_nodes (id) on delete cascade,
   title text not null,
   status text not null check (status in ('todo', 'doing', 'done', 'blocked')) default 'todo',
   module text not null,
@@ -109,7 +112,7 @@ create table if not exists progress_nodes (
 );
 
 -- Seed tree (idempotent upsert)
-insert into progress_nodes (id, parent_id, title, status, module, next_action, sort) values
+insert into autoexport.progress_nodes (id, parent_id, title, status, module, next_action, sort) values
   ('root', null, 'OFCE 总目标：订单→出货→货代→(FBA仓)→报关 可追溯可终审', 'doing', 'Gate', '按 P0→P5 推进', 0),
   ('P0', 'root', 'P0 基建', 'doing', 'P0', '完成 GitHub / Supabase / Vercel 隔离', 10),
   ('P0-1', 'P0', 'GitHub 仓库 AutoExport + 本机 git 身份', 'doing', 'P0', 'gh auth login 后创建并 push', 11),
@@ -137,21 +140,29 @@ on conflict (id) do update set
   updated_at = now();
 
 -- RLS: enable; service role bypasses. Anon read of progress for admin UI after auth later.
-alter table settled_products enable row level security;
-alter table settled_packing enable row level security;
-alter table settled_fnsku enable row level security;
-alter table master_table_imports enable row level security;
-alter table draft_documents enable row level security;
-alter table cross_check_logs enable row level security;
-alter table progress_nodes enable row level security;
+alter table autoexport.settled_products enable row level security;
+alter table autoexport.settled_packing enable row level security;
+alter table autoexport.settled_fnsku enable row level security;
+alter table autoexport.master_table_imports enable row level security;
+alter table autoexport.draft_documents enable row level security;
+alter table autoexport.cross_check_logs enable row level security;
+alter table autoexport.progress_nodes enable row level security;
 
 -- Dev-friendly policies: authenticated read/write (tighten in production)
 do $$ begin
-  create policy progress_nodes_select on progress_nodes for select using (true);
+  create policy progress_nodes_select on autoexport.progress_nodes for select using (true);
 exception when duplicate_object then null;
 end $$;
 
 do $$ begin
-  create policy settled_products_select on settled_products for select using (confirmed_by_user = true);
+  create policy settled_products_select on autoexport.settled_products for select using (confirmed_by_user = true);
 exception when duplicate_object then null;
 end $$;
+grant all on all tables in schema autoexport to postgres, service_role;
+grant select on all tables in schema autoexport to anon, authenticated;
+grant all on all sequences in schema autoexport to postgres, service_role;
+
+alter default privileges in schema autoexport
+  grant all on tables to postgres, service_role;
+alter default privileges in schema autoexport
+  grant select on tables to anon, authenticated;

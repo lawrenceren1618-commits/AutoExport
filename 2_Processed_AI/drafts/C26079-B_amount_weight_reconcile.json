@@ -1,0 +1,42 @@
+{
+  "ticket": "C26079-B",
+  "channel": "AWD",
+  "warehouse": "IUTE",
+  "confirmed_at": "2026-07-23",
+  "spec_aggregate": {
+    "amount": 15231.23,
+    "net_kg": 1975.2,
+    "gross_kg": 2213.9,
+    "cartons": 140,
+    "strips": 4200
+  },
+  "warehouse_declare_after_price_check": {
+    "amount": 15246.0,
+    "unit_usd": 3.63
+  },
+  "error_rates": {
+    "declare_pct": 0.097,
+    "net_pct": 0.0,
+    "gross_pct": 0.0
+  },
+  "gate_result": {
+    "declare": "PASS",
+    "net": "PASS",
+    "gross": "PASS",
+    "overall": "PASS"
+  },
+  "specs": [
+    {
+      "fnsku": "X005395XVF",
+      "qty_cartons": 50
+    },
+    {
+      "fnsku": "X0050TQ82L",
+      "qty_cartons": 50
+    },
+    {
+      "fnsku": "X0050TSCX9",
+      "qty_cartons": 40
+    }
+  ]
+}

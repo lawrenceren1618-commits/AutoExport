@@ -72,6 +72,23 @@
     ],
     "note": "规格↔FNSKU双向成立；颜色为核心维；亚马逊只认FNSKU；克重不参与锁定、不阻断标签复制"
   },
+  "amazon_sku_lock": {
+    "confirmed_at": "2026-07-23",
+    "doc": "Templates/SKU_Correspondence.md",
+    "field": "amazon_sku",
+    "aliases": ["SKU", "卖家SKU", "MSKU", "Merchant SKU"],
+    "unique_within": ["entity_code", "brand"],
+    "immutable_on_amazon": true,
+    "cross_store": false,
+    "note": "SKU 在同一店铺+品牌内唯一且亚马逊侧基本不可改；与 FNSKU 并存。夹名/页标与 SKU 冲突时以已沉淀 SKU 或人工备注为准。",
+    "manual_note_path": "Shipments/{project}/拆单比对/SKU_人工备注.md",
+    "priority_after_settled": [
+      "sku_index",
+      "label_or_pdf_sku",
+      "folder_name_and_page_marks",
+      "plan_fnsku_fallback"
+    ]
+  },
   "color_aliases": {
     "confirmed_at": "2026-07-21",
     "canonical": {
@@ -182,6 +199,27 @@
     "hs_code_tablecloth": "6302539090",
     "gram_weight_default": "90G",
     "freight_declare_brand": "无",
+      "freight_order_form": {
+      "customer_order_no": "111111111",
+      "qty_per_carton": "floor(strips/cartons)",
+      "carton_weight_lwh": [16, 16, 16, 16],
+      "recipient_name": "empty",
+      "recipient_address": "warehouse_code_plus_street",
+      "any_order_no": "fba_shipment_id",
+      "reference_id": "tracking_id",
+      "image": "sample_DISPIMG_reinject_media",
+      "sales_link_by_store": {
+        "C04": "https://www.amazon.com/dp/B0CCRKDW1K?th=1",
+        "C07": "https://www.amazon.com/gp/product/B0FNVMX537"
+      },
+      "doc": "Templates/02_Freight_Forwarder_Correspondence.md"
+    },
+    "carton_label_channels": {
+      "channels": ["FC", "AWD", "GWD", "UNKNOWN"],
+      "pipeline": ["optional_clean", "optional_convert", "recognize", "split", "organize"],
+      "doc": "Templates/Carton_Label_Channels.md",
+      "script": "Scripts/10_carton_label_ingest.py"
+    },
     "outbound_sales_person": "任胜国",
     "outbound_destination": "US",
     "outbound_U_means": "USA",
@@ -203,6 +241,13 @@
     },
     "freight_detail_rows": "one_consolidated_row_per_warehouse",
     "price_bidirectional_check": true,
+    "amount_weight_reconcile": {
+      "doc": "Templates/Amount_Weight_Reconcile.md",
+      "error_rate": "|B-A|/A*100%",
+      "pass_max_pct": 1.0,
+      "on_le_1pct": "normal_no_user_report_continue",
+      "on_gt_1pct": "require_manual_confirm"
+    },
     "brand_by_entity": {
       "C04": "WIGENIUS",
       "C07": "Dressmaker"

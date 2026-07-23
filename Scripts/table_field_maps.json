@@ -144,10 +144,14 @@
       {"from": "lower.fnsku", "to": null, "note": "不出货表"}
     ],
     "fba_to_freight": [
-      {"from": "warehouse_code+address", "to": "freight_header"},
+      {"from": "warehouse_code+address", "to": "freight.E8_address"},
       {"from": "warehouse_carton_sum", "to": "freight.carton_count_one_row"},
-      {"from": "warehouse_strip_sum", "to": "freight.strips_one_row"},
-      {"from": "declare_price", "to": "unit_and_total_bidirectional_check"}
+      {"from": "floor(strips/cartons)", "to": "freight.qty_per_carton"},
+      {"from": "fba_shipment_id", "to": "freight.any_order_no"},
+      {"from": "tracking_id", "to": "freight.reference_id"},
+      {"from": "declare_unit_price", "to": "freight.unit_price"},
+      {"from": "sample_DISPIMG", "to": "freight.image"},
+      {"from": "fixed_111111111", "to": "freight.customer_order_no", "note": "static never overwrite"}
     ],
     "fba_to_customs": [
       {"from": "warehouse_carton_sum", "to": "件数=总件数=箱数"},
@@ -160,56 +164,106 @@
   "tables_extended": {
     "freight_forwarder": {
       "folder": "货代入库贴下单表",
-      "confirmed_at": "2026-07-21",
+      "confirmed_at": "2026-07-22",
       "generate_after": "FBA外箱贴 placed",
       "file_grain": "one_xlsx_per_amazon_warehouse",
       "detail_row_policy": "usually_fixed_one_consolidated_row",
       "static_fields": [
         "three_sheets",
         "row14_column_headers",
+        "customer_order_no=111111111",
         "brand=无",
         "brand_type=无",
         "model=无",
         "hs_code=6302539090",
-        "material_usage_boilerplate",
+        "material=聚酯纤维/polyester",
+        "usage=餐桌",
+        "currency=USD",
+        "carton_weight_lwh_all=16",
+        "recipient_province_city_zip_empty",
         "enum_sheets"
       ],
       "change_fields": [
         "filename",
         "warehouse_code",
-        "warehouse_address",
+        "recipient_name_empty",
+        "warehouse_address_code_plus_street",
         "fba_shipment_id",
-        "reference_id",
+        "reference_id_tracking",
         "carton_count_warehouse_total",
-        "strips_warehouse_total",
-        "qty_per_carton_reconciled",
+        "product_name_zh_en",
+        "qty_per_carton_floor_strips_div_cartons",
         "unit_price_usd",
-        "declare_amount",
-        "carton_weight_lwh",
-        "product_name_zh_en"
+        "product_image_sample_dispimg",
+        "sales_link_by_store"
       ],
+      "qty_per_carton": {
+        "formula": "floor(warehouse_strips / warehouse_cartons)",
+        "note": "向下取整；勿用四舍五入小数"
+      },
+      "carton_dims": {
+        "weight_kg": 16,
+        "length_cm": 16,
+        "width_cm": 16,
+        "height_cm": 16,
+        "note": "货代表固定默认；与报关毛净重分离"
+      },
+      "image": {
+        "policy": "copy_sample_DISPIMG_and_ALWAYS_reinject_xl_media_after_openpyxl_save",
+        "sample_formula": "=DISPIMG(\"ID_3D20B9B273A54ACBA2D957C7EE1766FF\",1)",
+        "template": "EF-C26040 HEA2 248箱.xlsx",
+        "applies_to_channels": ["FC", "AWD", "GWD"],
+        "failure_mode": "S15 formula present but xl/media=0 → image missing in Excel/WPS",
+        "verify_after_generate": "xl/media count >= 1 and cellimages present",
+        "note": "2026-07-23 C26079-B AWD 曾漏 reinject；已定为全渠道强制步骤"
+      },
+      "sales_link": {
+        "status": "CONFIRMED_2026-07-22",
+        "by_store": {
+          "C04": "https://www.amazon.com/dp/B0CCRKDW1K?th=1",
+          "C07": "https://www.amazon.com/gp/product/B0FNVMX537"
+        },
+        "cell": "T15",
+        "note": "按店铺代码写入货代下单表销售链接"
+      },
       "price_check": {
-        "unit_price": "round(amount/strips, 2)",
+        "raw": "sum(cartons * master_1039_price_per_carton) per warehouse",
+        "unit_price": "round(raw/strips, 2)",
         "amount": "round(unit_price*strips, 2)",
-        "on_mismatch": "rewrite_amount_from_strips_x_unit_price"
+        "on_mismatch": "rewrite_amount_from_strips_x_unit_price",
+        "spec_aggregate_cross_check": "sum(spec_cartons * price_per_carton)",
+        "error_rate": "|B-A|/A*100%",
+        "error_rate_pass_max_pct": 1.0,
+        "on_error_rate_le_1pct": "normal_no_user_report_continue",
+        "on_error_rate_gt_1pct": "require_manual_confirm_before_continue",
+        "weight_cross_check": "same error_rate gate on net and gross (customs/reconcile; NOT freight IJKL)",
+        "doc": "Templates/Amount_Weight_Reconcile.md"
       },
       "column_map": {
+        "客户单号": "fixed_111111111",
         "仓库代码": "warehouse_code",
-        "收件地址1": "warehouse_address",
+        "收件人姓名": "empty",
+        "收件地址1": "warehouse_code_plus_address",
         "任意订单号": "fba_shipment_id",
-        "reference ID": "reference_id",
+        "reference ID": "tracking_id",
         "箱": "carton_count",
         "中文品名": "product_name_zh",
         "英文品名": "product_name_en",
-        "单箱数量": "strips_per_carton_or_reconciled",
+        "单箱数量": "floor_strips_div_cartons",
         "单价": "declare_unit_price",
-        "申报币别": "currency",
-        "箱重（KG）": "gross_kg",
-        "长（CM）": "carton_l_cm",
-        "宽（CM）": "carton_w_cm",
-        "高（CM）": "carton_h_cm",
-        "HS CODE": "hs_code",
-        "品牌": "brand_freight_fixed_无"
+        "申报币别": "USD",
+        "箱重（KG）": "fixed_16",
+        "长（CM）": "fixed_16",
+        "宽（CM）": "fixed_16",
+        "高（CM）": "fixed_16",
+        "HS CODE": "hs_code_6302539090",
+        "材质(中英文)": "聚酯纤维/polyester",
+        "用途(中英文)": "餐桌",
+        "品牌": "无",
+        "品牌类型": "无",
+        "型号": "无",
+        "图片": "sample_DISPIMG_plus_media",
+        "销售链接": "sales_link_by_store_C04_or_C07"
       }
     },
     "customs": {
@@ -251,13 +305,16 @@
       "price_check": {
         "货值": "round(单价*成交数量, 2)",
         "单价": "round(货值/成交数量, 2)",
-        "on_mismatch": "pipeline_section_5"
+        "on_mismatch": "pipeline_section_5",
+        "error_rate_gate": "Templates/Amount_Weight_Reconcile.md",
+        "pass_max_pct": 1.0
       }
     }
   },
-  "pending_tables": ["fba_carton_label"],
+  "pending_tables": [],
   "generation_gate": {
-    "freight_and_customs": "WAIT_FBA_CARTON_LABELS",
-    "h01_product_ingest": "WAIT"
+    "freight_and_customs": "DRAFTS_C26079_A_DONE_FINAL_WAIT_GATE",
+    "h01_product_ingest": "WAIT",
+    "amount_weight_error_rate_max_pct": 1.0
   }
 }

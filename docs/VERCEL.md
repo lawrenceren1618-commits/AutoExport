@@ -1,16 +1,19 @@
-# Vercel — AutoExport
+﻿# Vercel — AutoExport
 
-1. Import GitHub 仓库 **`AutoExport`**
+1. Import GitHub repository **`AutoExport`**
 2. **Root Directory** = `web`
-3. Framework = Next.js；Production Branch = `main`
-4. 环境变量（与 `web/.env.local` 一致，Production + Preview）：
+3. Framework = Next.js; Production Branch = `main`
+4. Environment variables (match `web/.env.local`, Production + Preview):
 
-| Name | 值从哪来 |
-|------|----------|
+| Name | Value |
+|------|--------|
 | `OFCE_ENV` | `office` |
-| `OFCE_ADMIN_PASSWORD` | 你的后台口令 |
-| `NEXT_PUBLIC_SUPABASE_URL` | Supabase API → Project URL |
+| `OFCE_ADMIN_PASSWORD` | Your admin password |
+| `NEXT_PUBLIC_SUPABASE_URL` | Supabase → Settings → API → Project URL |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | anon public |
 | `SUPABASE_SERVICE_ROLE_KEY` | service_role |
+| `NEXT_PUBLIC_SUPABASE_SCHEMA` | `autoexport` (optional; code defaults to this) |
 
-勿使用家里项目的密钥。Supabase / Vercel 项目名均为 **AutoExport**。
+Do not use keys from a home-PC Supabase project. Supabase and Vercel project names should both be **AutoExport**.
+
+**Supabase side:** Settings → API → **Exposed schemas** must include `autoexport` so PostgREST and `@supabase/supabase-js` can query app tables. Multi-app: other Vercel deployments on the same Supabase project set their own `NEXT_PUBLIC_SUPABASE_SCHEMA`.

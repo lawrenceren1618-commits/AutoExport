@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-07-22T16:55:09+0800",
+  "order_code": "EF-C26079-C04-36460",
+  "split_leg_id": "C26079-A",
+  "pricing_method": "per_warehouse: raw=sum(cartons*master_1039_ctn_price); unit=round(raw/strips,2); amount=round(unit*strips,2)",
+  "note": "草稿；未进 Final；B腿剩余3规格未纳入；货值按仓正算反算",
+  "remaining_for_B": [
+    {
+      "size": "60X126inch",
+      "color": "白",
+      "strips_per_pack": 10
+    },
+    {
+      "size": "70X120inch",
+      "color": "白",
+      "strips_per_pack": 6
+    },
+    {
+      "size": "70X120inch",
+      "color": "米白",
+      "strips_per_pack": 6
+    }
+  ],
+  "files": [
+    {
+      "warehouse_code": "AVP1",
+      "fba_shipment_id": "FBA19JT39521",
+      "tracking_id": "36AGPMRC",
+      "cartons": 175,
+      "strips": 6966,
+      "raw_carton_x_price": 22152.73,
+      "unit_price_usd": 3.18,
+      "declare_amount_usd": 22151.88,
+      "net_kg": 2710.11,
+      "gross_kg": 3016.05,
+      "protocol_no": "20260731801",
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 AVP1 175箱.xlsx",
+      "customs_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\报关资料表\\畅选+波丽丝 2026.7.31发货 C26079-A AVP1 175箱 市场采购数据.xlsx"
+    },
+    {
+      "warehouse_code": "CLT2",
+      "fba_shipment_id": "FBA19JT71WTZ",
+      "tracking_id": "629YFDRT",
+      "cartons": 128,
+      "strips": 5136,
+      "raw_carton_x_price": 16213.63,
+      "unit_price_usd": 3.16,
+      "declare_amount_usd": 16229.76,
+      "net_kg": 1989.27,
+      "gross_kg": 2212.21,
+      "protocol_no": "20260731802",
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 CLT2 128箱.xlsx",
+      "customs_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\报关资料表\\畅选+波丽丝 2026.7.31发货 C26079-A CLT2 128箱 市场采购数据.xlsx"
+    },
+    {
+      "warehouse_code": "GYR2",
+      "fba_shipment_id": "FBA19JT3Q0H0",
+      "tracking_id": "2C4TSS5H",
+      "cartons": 139,
+      "strips": 5608,
+      "raw_carton_x_price": 17645.9,
+      "unit_price_usd": 3.15,
+      "declare_amount_usd": 17665.2,
+      "net_kg": 2168.82,
+      "gross_kg": 2413.08,
+      "protocol_no": "20260731803",
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 GYR2 139箱.xlsx",
+      "customs_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\报关资料表\\畅选+波丽丝 2026.7.31发货 C26079-A GYR2 139箱 市场采购数据.xlsx"
+    },
+    {
+      "warehouse_code": "LGB8",
+      "fba_shipment_id": "FBA19JT0K3PY",
+      "tracking_id": "6522FTZR",
+      "cartons": 182,
+      "strips": 7366,
+      "raw_carton_x_price": 22965.27,
+      "unit_price_usd": 3.12,
+      "declare_amount_usd": 22981.92,
+      "net_kg": 2841.3,
+      "gross_kg": 3165.06,
+      "protocol_no": "20260731804",
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 LGB8 182箱.xlsx",
+      "customs_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\报关资料表\\畅选+波丽丝 2026.7.31发货 C26079-A LGB8 182箱 市场采购数据.xlsx"
+    },
+    {
+      "warehouse_code": "MDW2",
+      "fba_shipment_id": "FBA19JT16DMQ",
+      "tracking_id": "25HS4ZWF",
+      "cartons": 181,
+      "strips": 7184,
+      "raw_carton_x_price": 22749.92,
+      "unit_price_usd": 3.17,
+      "declare_amount_usd": 22773.28,
+      "net_kg": 2804.5,
+      "gross_kg": 3123.9,
+      "protocol_no": "20260731805",
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 MDW2 181箱.xlsx",
+      "customs_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\报关资料表\\畅选+波丽丝 2026.7.31发货 C26079-A MDW2 181箱 市场采购数据.xlsx"
+    }
+  ],
+  "warnings": [],
+  "total_raw_carton_x_price": 101727.45,
+  "total_declare_amount_usd": 101802.04
+}

@@ -34,17 +34,20 @@
       "correspondence_md": "Templates/02_Freight_Forwarder_Correspondence.md",
       "field_change_map_md": "Templates/Table_Field_Change_Maps.md",
       "input_dir": "1_Input_Raw/02_Freight_Forwarder",
-      "status": "rules_aligned_one_row_per_wh_WAIT_FBA_2026-07-21",
+      "status": "C26079_A_drafts_generated_2026-07-22",
       "deferred": false,
-      "warehouse_header_deferred_until": "FBA外箱贴放入项目后"
+      "generator": "Scripts/09_generate_freight_customs_drafts.py",
+      "reconcile_doc": "Templates/Amount_Weight_Reconcile.md"
     },
     "03_customs": {
       "title": "报关单据",
       "correspondence_md": "Templates/03_Customs_Correspondence.md",
       "field_change_map_md": "Templates/Table_Field_Change_Maps.md",
       "input_dir": "1_Input_Raw/03_Customs",
-      "status": "C04_1039_dual_header_WAIT_FBA_2026-07-21",
+      "status": "C26079_A_drafts_generated_2026-07-22",
       "deferred": false,
+      "generator": "Scripts/09_generate_freight_customs_drafts.py",
+      "reconcile_doc": "Templates/Amount_Weight_Reconcile.md",
       "note": "表内抬头=波丽丝；文件名≠抬头（可含畅选+波丽丝）；不退税只免征；适用所有后续票"
     }
   },

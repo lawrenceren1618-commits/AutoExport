@@ -1,0 +1,59 @@
+{
+  "id": "EF-C26079-C04-36460_C04_20260710_36460",
+  "folder_name": "EF-C26079-C04-36460  桌布-2026.7.10",
+  "order_code": "EF-C26079-C04-36460",
+  "outbound_short": "C04-2616",
+  "outbound_filename": "C04-2616-U-2026.7.31.xlsx",
+  "outbound_U_means": "USA",
+  "store": "C04",
+  "brand": "WIGENIUS",
+  "order_date": "2026-07-10",
+  "delivery_date": "2026-07-31",
+  "ship_date": "2026-07-31",
+  "ship_date_source": "order_delivery_date",
+  "strips": 36460,
+  "outbound_rows": 11,
+  "status": "split_complete",
+  "source_note": "出货明细=订单上半尺寸+颜色；发货日=交货日；所属订单/仓库留空（工厂直发）",
+  "sales_person": "任胜国",
+  "order_source_dir": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\订单表",
+  "outbound_draft": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\出货表\\C04-2616-U-2026.7.31.xlsx",
+  "label_source": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\桌布标签",
+  "short_seq_baseline_before": {
+    "C04": "C04-2615",
+    "C07": "C07-2607"
+  },
+  "short_seq_after_this": {
+    "C04": "C04-2616",
+    "C07": "C07-2607"
+  },
+  "layout_notes": {
+    "merges": [
+      "A1:I1",
+      "A5:A15",
+      "B5:B15",
+      "F5:F15",
+      "I5:I15"
+    ],
+    "data_row_height": 37.0,
+    "template": "C04-2615-U-2026.6.24.xlsx"
+  },
+  "split_shipment": true,
+  "split_ledger": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\拆单比对\\split_ledger.json",
+  "split_order_stem": "C26079",
+  "split_leg_next": null,
+  "split_naming": "C26079-A/B/C",
+  "split_batch_latest": 2,
+  "split_leg_latest": "C26079-B",
+  "remaining_strips": 0,
+  "remaining_cartons": 0,
+  "freight_customs_drafts": "generated_C26079-A",
+  "freight_customs_summary": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts\\C26079-A_freight_customs_summary.json",
+  "B_pending_note": "拆单比对/C26079-B_PENDING.md",
+  "gate_final": "WAIT",
+  "awd_leg_B": {
+    "promoted": true,
+    "formal_path": "FBA外箱贴/AWD/IUTE",
+    "shipment_id": "STAR-QG6CTURZGY6MX"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "ticket": "C26079-A",
+  "confirmed_at": "2026-07-22",
+  "method": {
+    "spec_aggregate": "Σ(规格总箱×总表每箱单价/净重/毛重)",
+    "warehouse_declare": "每仓 raw=Σ(箱×单价); unit=round(raw/条,2); amount=round(unit×条,2) — 落表货值用 amount",
+    "warehouse_weight": "每仓 net/gross=Σ(箱×总表每箱净/毛) — 落表用此值；与规格汇总应对齐"
+  },
+  "spec_aggregate": {
+    "amount": 101727.44,
+    "net_kg": 12514.0,
+    "gross_kg": 13930.3,
+    "cartons": 805,
+    "strips": 32260
+  },
+  "warehouse_sum_raw": {
+    "amount": 101727.44,
+    "net_kg": 12514.0,
+    "gross_kg": 13930.3
+  },
+  "warehouse_sum_declare_after_price_check": {
+    "amount": 101802.04,
+    "draft_files_sum": 101802.04
+  },
+  "delta_declare_vs_spec": 74.6,
+  "delta_weight_wh_vs_spec": {
+    "net": 0.0,
+    "gross": 0.0
+  },
+  "warehouses": [
+    {
+      "wh": "AVP1",
+      "raw": 22152.73,
+      "unit": 3.18,
+      "amount": 22151.88,
+      "net": 2710.11,
+      "gross": 3016.05,
+      "ctn": 175,
+      "strips": 6966
+    },
+    {
+      "wh": "CLT2",
+      "raw": 16213.63,
+      "unit": 3.16,
+      "amount": 16229.76,
+      "net": 1989.27,
+      "gross": 2212.21,
+      "ctn": 128,
+      "strips": 5136
+    },
+    {
+      "wh": "GYR2",
+      "raw": 17645.9,
+      "unit": 3.15,
+      "amount": 17665.2,
+      "net": 2168.82,
+      "gross": 2413.08,
+      "ctn": 139,
+      "strips": 5608
+    },
+    {
+      "wh": "LGB8",
+      "raw": 22965.27,
+      "unit": 3.12,
+      "amount": 22981.92,
+      "net": 2841.3,
+      "gross": 3165.06,
+      "ctn": 182,
+      "strips": 7366
+    },
+    {
+      "wh": "MDW2",
+      "raw": 22749.92,
+      "unit": 3.17,
+      "amount": 22773.28,
+      "net": 2804.5,
+      "gross": 3123.9,
+      "ctn": 181,
+      "strips": 7184
+    }
+  ],
+  "rule": "落表=B正算反算；对照A；误差率<=1%不报告，>1%须确认。见 Templates/Amount_Weight_Reconcile.md",
+  "error_rate_gate": {
+    "formula": "|B-A|/A*100%",
+    "pass_max_pct": 1.0,
+    "on_le_1pct": "normal_no_user_report_continue",
+    "on_gt_1pct": "require_manual_confirm"
+  },
+  "error_rates": {
+    "declare_pct": 0.0733,
+    "net_pct": 0.0,
+    "gross_pct": 0.0
+  },
+  "gate_result": {
+    "declare": "PASS",
+    "net": "PASS",
+    "gross": "PASS",
+    "overall": "PASS"
+  }
+}

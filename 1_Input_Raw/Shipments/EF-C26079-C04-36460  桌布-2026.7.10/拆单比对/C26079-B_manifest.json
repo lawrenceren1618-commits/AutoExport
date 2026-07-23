@@ -1,0 +1,100 @@
+{
+  "batch_no": 2,
+  "split_leg_id": "C26079-B",
+  "ship_date": "2026-07-31",
+  "outbound_short": "C04-2616",
+  "channel": "AWD",
+  "note": "AWD IUTE Goodyear；源文件名误写C26078已确认实为C26079-B；ShipmentID STAR-QG6CTURZGY6MX PO 8NK88PWJ",
+  "shipped_strips": 4200,
+  "shipped_cartons": 140,
+  "by_size_color": [
+    {
+      "size": "60X126inch",
+      "color": "白",
+      "qty_strips": 1500,
+      "qty_cartons": 50
+    },
+    {
+      "size": "70X120inch",
+      "color": "白",
+      "qty_strips": 1500,
+      "qty_cartons": 50
+    },
+    {
+      "size": "70X120inch",
+      "color": "米白",
+      "qty_strips": 1200,
+      "qty_cartons": 40
+    }
+  ],
+  "by_fnsku": [
+    {
+      "size": "60X126inch",
+      "color": "白",
+      "strips_per_pack": 10,
+      "fnsku": "X005395XVF",
+      "packs_per_carton": 3,
+      "qty_strips": 1500,
+      "qty_cartons": 50
+    },
+    {
+      "size": "70X120inch",
+      "color": "白",
+      "strips_per_pack": 6,
+      "fnsku": "X0050TQ82L",
+      "packs_per_carton": 5,
+      "qty_strips": 1500,
+      "qty_cartons": 50
+    },
+    {
+      "size": "70X120inch",
+      "color": "米白",
+      "strips_per_pack": 6,
+      "fnsku": "X0050TSCX9",
+      "packs_per_carton": 5,
+      "qty_strips": 1200,
+      "qty_cartons": 40
+    }
+  ],
+  "warehouses": [
+    {
+      "warehouse_code": "IUTE",
+      "channel": "AWD",
+      "fba_shipment_id": "STAR-QG6CTURZGY6MX",
+      "po_id": "8NK88PWJ",
+      "tracking_id": "",
+      "warehouse_address": "IUTE - AWD 3PL - 16155 W Elwood St - GOODYEAR, AZ 85338 - United States",
+      "qty_cartons": 140,
+      "qty_strips": 4200,
+      "specs": [
+        {
+          "size": "60X126inch",
+          "color": "白",
+          "strips_per_pack": 10,
+          "fnsku": "X005395XVF",
+          "packs_per_carton": 3,
+          "qty_strips": 1500,
+          "qty_cartons": 50
+        },
+        {
+          "size": "70X120inch",
+          "color": "白",
+          "strips_per_pack": 6,
+          "fnsku": "X0050TQ82L",
+          "packs_per_carton": 5,
+          "qty_strips": 1500,
+          "qty_cartons": 50
+        },
+        {
+          "size": "70X120inch",
+          "color": "米白",
+          "strips_per_pack": 6,
+          "fnsku": "X0050TSCX9",
+          "packs_per_carton": 5,
+          "qty_strips": 1200,
+          "qty_cartons": 40
+        }
+      ]
+    }
+  ]
+}

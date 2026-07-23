@@ -30,7 +30,7 @@
 | `货代入库贴下单表/` | **系统生成** | 货代下单模板填空 |
 | `报关资料表/` | **系统生成** | 报关套表 |
 | `产品标签/` | 自标签源**复制** | **固定**：`{EF订单号}标签/{N}条装/{尺寸}/原名.pdf`（见 [`Shipment_Product_Label_Layout.md`](Shipment_Product_Label_Layout.md)） |
-| `FBA外箱贴/` | **使用者后续更新** | FBA PDF / 拆分箱唛 |
+| `FBA外箱贴/` | **使用者后续更新** | FC/AWD/GWD 外箱贴；可上传原包后由助手识别拆分归纳（见 [`Carton_Label_Channels.md`](Carton_Label_Channels.md)） |
 | `拆单比对/` | **系统生成** | 拆单时：`split_ledger.json`（计划/已发/剩余）；见 [`Split_Shipment_Ledger.md`](Split_Shipment_Ledger.md) |
 | `货代入库贴/` | **使用者后续更新** | 与「下单表」区分 |
 | `_来源归档/` | 历史样例 | 采购、信息表、旧模板等辅助 |

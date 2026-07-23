@@ -1,0 +1,1528 @@
+{
+  "version": "1.0",
+  "parsed_at": "2026-07-22T16:25:25+0800",
+  "project": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10",
+  "order_code": "EF-C26079-C04-36460",
+  "split_leg_id": "C26079-A",
+  "warehouses": [
+    {
+      "warehouse_code": "AVP1",
+      "fba_shipment_id": "FBA19JT39521",
+      "tracking_id": "36AGPMRC",
+      "fba_hits": {
+        "FBA19JT39521": 175
+      },
+      "pdf_count": 19,
+      "page_count": 175,
+      "qty_cartons": 175,
+      "qty_strips": 7020,
+      "carton_total_text": 175,
+      "warehouse_address": "Amazon.com Services, Inc. | Hazle Township, PA 18202-9361 | 美国",
+      "specs": [
+        {
+          "raw": "白色 60X126inches 2pack-4箱",
+          "color": "白",
+          "size": "60X126inch",
+          "strips_per_pack": 2,
+          "qty_cartons": 4,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005398X17",
+          "packs_per_carton": 18,
+          "qty_strips": 144
+        },
+        {
+          "raw": "白色 60×102inches 10packs-9箱",
+          "color": "白",
+          "size": "60X102inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 9,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X003WN3V5J",
+          "packs_per_carton": 4,
+          "qty_strips": 360
+        },
+        {
+          "raw": "白色 60×126inches 6packs-11箱",
+          "color": "白",
+          "size": "60X126inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 11,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X003WN01DT",
+          "packs_per_carton": 6,
+          "qty_strips": 396
+        },
+        {
+          "raw": "白色 70X120inches 10pack-12箱",
+          "color": "白",
+          "size": "70X120inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 12,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005395QNF",
+          "packs_per_carton": 3,
+          "qty_strips": 360
+        },
+        {
+          "raw": "白色 70X120inches 2pack-2箱",
+          "color": "白",
+          "size": "70X120inch",
+          "strips_per_pack": 2,
+          "qty_cartons": 2,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0XSZT",
+          "packs_per_carton": 15,
+          "qty_strips": 60
+        },
+        {
+          "raw": "白色 90inches Round 10pack-11箱",
+          "color": "白",
+          "size": "90 inch round",
+          "strips_per_pack": 10,
+          "qty_cartons": 11,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005395FVN",
+          "packs_per_carton": 4,
+          "qty_strips": 440
+        },
+        {
+          "raw": "白色 90inches Round 2pack-5箱",
+          "color": "白",
+          "size": "90 inch round",
+          "strips_per_pack": 2,
+          "qty_cartons": 5,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0XBDN",
+          "packs_per_carton": 20,
+          "qty_strips": 200
+        },
+        {
+          "raw": "白色 90inches Round 6pack-19箱",
+          "color": "白",
+          "size": "90 inch round",
+          "strips_per_pack": 6,
+          "qty_cartons": 19,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004S99E9D",
+          "packs_per_carton": 7,
+          "qty_strips": 798
+        },
+        {
+          "raw": "米白色 60X102inches 10pack-19箱",
+          "color": "米白",
+          "size": "60X102inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 19,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0050TQ9HP",
+          "packs_per_carton": 4,
+          "qty_strips": 760
+        },
+        {
+          "raw": "米白色 60X102inches 6pack-23箱",
+          "color": "米白",
+          "size": "60X102inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 23,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W20FM1",
+          "packs_per_carton": 9,
+          "qty_strips": 1242
+        },
+        {
+          "raw": "米白色 60X126inches 6pack-15箱",
+          "color": "米白",
+          "size": "60X126inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 15,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005398UJ7",
+          "packs_per_carton": 6,
+          "qty_strips": 540
+        },
+        {
+          "raw": "米白色 70X120inches 10pack-10箱",
+          "color": "米白",
+          "size": "70X120inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 10,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X00539789F",
+          "packs_per_carton": 3,
+          "qty_strips": 300
+        },
+        {
+          "raw": "米白色 70X120inches 2pack-2箱",
+          "color": "米白",
+          "size": "70X120inch",
+          "strips_per_pack": 2,
+          "qty_cartons": 2,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0WH4H",
+          "packs_per_carton": 15,
+          "qty_strips": 60
+        },
+        {
+          "raw": "米白色 90inches Round 6pack-12箱",
+          "color": "米白",
+          "size": "90 inch round",
+          "strips_per_pack": 6,
+          "qty_cartons": 12,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0V8OH",
+          "packs_per_carton": 7,
+          "qty_strips": 504
+        },
+        {
+          "raw": "蓝色 60X102inches 10pack-8箱",
+          "color": "蓝",
+          "size": "60X102inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 8,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0052FXOH5",
+          "packs_per_carton": 4,
+          "qty_strips": 320
+        },
+        {
+          "raw": "蓝色 60X102inches 6pack-4箱",
+          "color": "蓝",
+          "size": "60X102inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 4,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0050TS4O1",
+          "packs_per_carton": 9,
+          "qty_strips": 216
+        },
+        {
+          "raw": "黑色 70X120inches 10pack-4箱",
+          "color": "黑",
+          "size": "70X120inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 4,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005395YS7",
+          "packs_per_carton": 3,
+          "qty_strips": 120
+        },
+        {
+          "raw": "黑色 90inches Round 10pack-4箱",
+          "color": "黑",
+          "size": "90 inch round",
+          "strips_per_pack": 10,
+          "qty_cartons": 4,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0053992NP",
+          "packs_per_carton": 4,
+          "qty_strips": 160
+        },
+        {
+          "raw": "黑色 90inches Round 2pack-1箱",
+          "color": "黑",
+          "size": "90 inch round",
+          "strips_per_pack": 2,
+          "qty_cartons": 1,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0Y925",
+          "packs_per_carton": 20,
+          "qty_strips": 40
+        }
+      ],
+      "notes": []
+    },
+    {
+      "warehouse_code": "CLT2",
+      "fba_shipment_id": "FBA19JT71WTZ",
+      "tracking_id": "629YFDRT",
+      "fba_hits": {
+        "FBA19JT71WTZ": 128
+      },
+      "pdf_count": 19,
+      "page_count": 128,
+      "qty_cartons": 128,
+      "qty_strips": 5184,
+      "carton_total_text": 128,
+      "warehouse_address": "Amazon.com Services, Inc. | 10240 Old Dowd Rd | Charlotte, NC 28214-8082 | 美国",
+      "specs": [
+        {
+          "raw": "白色 60X126inches 2pack-1箱",
+          "color": "白",
+          "size": "60X126inch",
+          "strips_per_pack": 2,
+          "qty_cartons": 1,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005398X17",
+          "packs_per_carton": 18,
+          "qty_strips": 36
+        },
+        {
+          "raw": "白色 60×102inches 10packs-8箱",
+          "color": "白",
+          "size": "60X102inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 8,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X003WN3V5J",
+          "packs_per_carton": 4,
+          "qty_strips": 320
+        },
+        {
+          "raw": "白色 60×126inches 6packs-7箱",
+          "color": "白",
+          "size": "60X126inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 7,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X003WN01DT",
+          "packs_per_carton": 6,
+          "qty_strips": 252
+        },
+        {
+          "raw": "白色 70X120inches 10pack-6箱",
+          "color": "白",
+          "size": "70X120inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 6,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005395QNF",
+          "packs_per_carton": 3,
+          "qty_strips": 180
+        },
+        {
+          "raw": "白色 70X120inches 2pack-2箱",
+          "color": "白",
+          "size": "70X120inch",
+          "strips_per_pack": 2,
+          "qty_cartons": 2,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0XSZT",
+          "packs_per_carton": 15,
+          "qty_strips": 60
+        },
+        {
+          "raw": "白色 90inches Round 10pack-7箱",
+          "color": "白",
+          "size": "90 inch round",
+          "strips_per_pack": 10,
+          "qty_cartons": 7,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005395FVN",
+          "packs_per_carton": 4,
+          "qty_strips": 280
+        },
+        {
+          "raw": "白色 90inches Round 2pack-4箱",
+          "color": "白",
+          "size": "90 inch round",
+          "strips_per_pack": 2,
+          "qty_cartons": 4,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0XBDN",
+          "packs_per_carton": 20,
+          "qty_strips": 160
+        },
+        {
+          "raw": "白色 90inches Round 6pack-13箱",
+          "color": "白",
+          "size": "90 inch round",
+          "strips_per_pack": 6,
+          "qty_cartons": 13,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004S99E9D",
+          "packs_per_carton": 7,
+          "qty_strips": 546
+        },
+        {
+          "raw": "米白色 60X102inches 10pack-14箱",
+          "color": "米白",
+          "size": "60X102inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 14,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0050TQ9HP",
+          "packs_per_carton": 4,
+          "qty_strips": 560
+        },
+        {
+          "raw": "米白色 60X102inches 6pack-19箱",
+          "color": "米白",
+          "size": "60X102inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 19,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W20FM1",
+          "packs_per_carton": 9,
+          "qty_strips": 1026
+        },
+        {
+          "raw": "米白色 60X126inches 6pack-12箱",
+          "color": "米白",
+          "size": "60X126inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 12,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005398UJ7",
+          "packs_per_carton": 6,
+          "qty_strips": 432
+        },
+        {
+          "raw": "米白色 70X120inches 10pack-8箱",
+          "color": "米白",
+          "size": "70X120inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 8,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X00539789F",
+          "packs_per_carton": 3,
+          "qty_strips": 240
+        },
+        {
+          "raw": "米白色 70X120inches 2pack-2箱",
+          "color": "米白",
+          "size": "70X120inch",
+          "strips_per_pack": 2,
+          "qty_cartons": 2,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0WH4H",
+          "packs_per_carton": 15,
+          "qty_strips": 60
+        },
+        {
+          "raw": "米白色 90inches Round 6pack-8箱",
+          "color": "米白",
+          "size": "90 inch round",
+          "strips_per_pack": 6,
+          "qty_cartons": 8,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0V8OH",
+          "packs_per_carton": 7,
+          "qty_strips": 336
+        },
+        {
+          "raw": "蓝色 60X102inches 10pack-5箱",
+          "color": "蓝",
+          "size": "60X102inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 5,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0052FXOH5",
+          "packs_per_carton": 4,
+          "qty_strips": 200
+        },
+        {
+          "raw": "蓝色 60X102inches 6pack-4箱",
+          "color": "蓝",
+          "size": "60X102inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 4,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0050TS4O1",
+          "packs_per_carton": 9,
+          "qty_strips": 216
+        },
+        {
+          "raw": "黑色 70X120inches 10pack-4箱",
+          "color": "黑",
+          "size": "70X120inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 4,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005395YS7",
+          "packs_per_carton": 3,
+          "qty_strips": 120
+        },
+        {
+          "raw": "黑色 90inches Round 10pack-3箱",
+          "color": "黑",
+          "size": "90 inch round",
+          "strips_per_pack": 10,
+          "qty_cartons": 3,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0053992NP",
+          "packs_per_carton": 4,
+          "qty_strips": 120
+        },
+        {
+          "raw": "黑色 90inches Round 2pack-1箱",
+          "color": "黑",
+          "size": "90 inch round",
+          "strips_per_pack": 2,
+          "qty_cartons": 1,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0Y925",
+          "packs_per_carton": 20,
+          "qty_strips": 40
+        }
+      ],
+      "notes": []
+    },
+    {
+      "warehouse_code": "GYR2",
+      "fba_shipment_id": "FBA19JT3Q0H0",
+      "tracking_id": "2C4TSS5H",
+      "fba_hits": {
+        "FBA19JT3Q0H0": 139
+      },
+      "pdf_count": 19,
+      "page_count": 139,
+      "qty_cartons": 139,
+      "qty_strips": 5650,
+      "carton_total_text": 139,
+      "warehouse_address": "17341 W MINNEZONA AVE | GOODYEAR, AZ 85395-7672 | 美国",
+      "specs": [
+        {
+          "raw": "白色 60X126inches 2pack-1箱",
+          "color": "白",
+          "size": "60X126inch",
+          "strips_per_pack": 2,
+          "qty_cartons": 1,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005398X17",
+          "packs_per_carton": 18,
+          "qty_strips": 36
+        },
+        {
+          "raw": "白色 60×102inches 10packs-9箱",
+          "color": "白",
+          "size": "60X102inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 9,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X003WN3V5J",
+          "packs_per_carton": 4,
+          "qty_strips": 360
+        },
+        {
+          "raw": "白色 60×126inches 6packs-7箱",
+          "color": "白",
+          "size": "60X126inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 7,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X003WN01DT",
+          "packs_per_carton": 6,
+          "qty_strips": 252
+        },
+        {
+          "raw": "白色 70X120inches 10pack-8箱",
+          "color": "白",
+          "size": "70X120inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 8,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005395QNF",
+          "packs_per_carton": 3,
+          "qty_strips": 240
+        },
+        {
+          "raw": "白色 70X120inches 2pack-2箱",
+          "color": "白",
+          "size": "70X120inch",
+          "strips_per_pack": 2,
+          "qty_cartons": 2,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0XSZT",
+          "packs_per_carton": 15,
+          "qty_strips": 60
+        },
+        {
+          "raw": "白色 90inches Round 10pack-5箱",
+          "color": "白",
+          "size": "90 inch round",
+          "strips_per_pack": 10,
+          "qty_cartons": 5,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005395FVN",
+          "packs_per_carton": 4,
+          "qty_strips": 200
+        },
+        {
+          "raw": "白色 90inches Round 2pack-3箱",
+          "color": "白",
+          "size": "90 inch round",
+          "strips_per_pack": 2,
+          "qty_cartons": 3,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0XBDN",
+          "packs_per_carton": 20,
+          "qty_strips": 120
+        },
+        {
+          "raw": "白色 90inches Round 6pack-12箱",
+          "color": "白",
+          "size": "90 inch round",
+          "strips_per_pack": 6,
+          "qty_cartons": 12,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004S99E9D",
+          "packs_per_carton": 7,
+          "qty_strips": 504
+        },
+        {
+          "raw": "米白色 60X102inches 10pack-18箱",
+          "color": "米白",
+          "size": "60X102inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 18,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0050TQ9HP",
+          "packs_per_carton": 4,
+          "qty_strips": 720
+        },
+        {
+          "raw": "米白色 60X102inches 6pack-23箱",
+          "color": "米白",
+          "size": "60X102inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 23,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W20FM1",
+          "packs_per_carton": 9,
+          "qty_strips": 1242
+        },
+        {
+          "raw": "米白色 60X126inches 6pack-12箱",
+          "color": "米白",
+          "size": "60X126inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 12,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005398UJ7",
+          "packs_per_carton": 6,
+          "qty_strips": 432
+        },
+        {
+          "raw": "米白色 70X120inches 10pack-9箱",
+          "color": "米白",
+          "size": "70X120inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 9,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X00539789F",
+          "packs_per_carton": 3,
+          "qty_strips": 270
+        },
+        {
+          "raw": "米白色 70X120inches 2pack-2箱",
+          "color": "米白",
+          "size": "70X120inch",
+          "strips_per_pack": 2,
+          "qty_cartons": 2,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0WH4H",
+          "packs_per_carton": 15,
+          "qty_strips": 60
+        },
+        {
+          "raw": "米白色 90inches Round 6pack-9箱",
+          "color": "米白",
+          "size": "90 inch round",
+          "strips_per_pack": 6,
+          "qty_cartons": 9,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0V8OH",
+          "packs_per_carton": 7,
+          "qty_strips": 378
+        },
+        {
+          "raw": "蓝色 60X102inches 10pack-5箱",
+          "color": "蓝",
+          "size": "60X102inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 5,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0052FXOH5",
+          "packs_per_carton": 4,
+          "qty_strips": 200
+        },
+        {
+          "raw": "蓝色 60X102inches 6pack-4箱",
+          "color": "蓝",
+          "size": "60X102inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 4,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0050TS4O1",
+          "packs_per_carton": 9,
+          "qty_strips": 216
+        },
+        {
+          "raw": "黑色 70X120inches 10pack-4箱",
+          "color": "黑",
+          "size": "70X120inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 4,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005395YS7",
+          "packs_per_carton": 3,
+          "qty_strips": 120
+        },
+        {
+          "raw": "黑色 90inches Round 10pack-5箱",
+          "color": "黑",
+          "size": "90 inch round",
+          "strips_per_pack": 10,
+          "qty_cartons": 5,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0053992NP",
+          "packs_per_carton": 4,
+          "qty_strips": 200
+        },
+        {
+          "raw": "黑色 90inches Round 2pack-1箱",
+          "color": "黑",
+          "size": "90 inch round",
+          "strips_per_pack": 2,
+          "qty_cartons": 1,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0Y925",
+          "packs_per_carton": 20,
+          "qty_strips": 40
+        }
+      ],
+      "notes": []
+    },
+    {
+      "warehouse_code": "LGB8",
+      "fba_shipment_id": "FBA19JT0K3PY",
+      "tracking_id": "6522FTZR",
+      "fba_hits": {
+        "FBA19JT0K3PY": 182
+      },
+      "pdf_count": 19,
+      "page_count": 182,
+      "qty_cartons": 182,
+      "qty_strips": 7408,
+      "carton_total_text": 182,
+      "warehouse_address": "1568 N Linden Ave | Rialto, CA 92376-8624 | 美国",
+      "specs": [
+        {
+          "raw": "白色 60X126inches 2pack-2箱",
+          "color": "白",
+          "size": "60X126inch",
+          "strips_per_pack": 2,
+          "qty_cartons": 2,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005398X17",
+          "packs_per_carton": 18,
+          "qty_strips": 72
+        },
+        {
+          "raw": "白色 60×102inches 10packs-12箱",
+          "color": "白",
+          "size": "60X102inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 12,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X003WN3V5J",
+          "packs_per_carton": 4,
+          "qty_strips": 480
+        },
+        {
+          "raw": "白色 60×126inches 6packs-10箱",
+          "color": "白",
+          "size": "60X126inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 10,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X003WN01DT",
+          "packs_per_carton": 6,
+          "qty_strips": 360
+        },
+        {
+          "raw": "白色 70X120inches 10pack-10箱",
+          "color": "白",
+          "size": "70X120inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 10,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005395QNF",
+          "packs_per_carton": 3,
+          "qty_strips": 300
+        },
+        {
+          "raw": "白色 70X120inches 2pack-2箱",
+          "color": "白",
+          "size": "70X120inch",
+          "strips_per_pack": 2,
+          "qty_cartons": 2,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0XSZT",
+          "packs_per_carton": 15,
+          "qty_strips": 60
+        },
+        {
+          "raw": "白色 90inches Round 10pack-9箱",
+          "color": "白",
+          "size": "90 inch round",
+          "strips_per_pack": 10,
+          "qty_cartons": 9,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005395FVN",
+          "packs_per_carton": 4,
+          "qty_strips": 360
+        },
+        {
+          "raw": "白色 90inches Round 2pack-3箱",
+          "color": "白",
+          "size": "90 inch round",
+          "strips_per_pack": 2,
+          "qty_cartons": 3,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0XBDN",
+          "packs_per_carton": 20,
+          "qty_strips": 120
+        },
+        {
+          "raw": "白色 90inches Round 6pack-15箱",
+          "color": "白",
+          "size": "90 inch round",
+          "strips_per_pack": 6,
+          "qty_cartons": 15,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004S99E9D",
+          "packs_per_carton": 7,
+          "qty_strips": 630
+        },
+        {
+          "raw": "米白色 60X102inches 10pack-30箱",
+          "color": "米白",
+          "size": "60X102inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 30,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0050TQ9HP",
+          "packs_per_carton": 4,
+          "qty_strips": 1200
+        },
+        {
+          "raw": "米白色 60X102inches 6pack-32箱",
+          "color": "米白",
+          "size": "60X102inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 32,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W20FM1",
+          "packs_per_carton": 9,
+          "qty_strips": 1728
+        },
+        {
+          "raw": "米白色 60X126inches 6pack-12箱",
+          "color": "米白",
+          "size": "60X126inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 12,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005398UJ7",
+          "packs_per_carton": 6,
+          "qty_strips": 432
+        },
+        {
+          "raw": "米白色 70X120inches 10pack-15箱",
+          "color": "米白",
+          "size": "70X120inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 15,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X00539789F",
+          "packs_per_carton": 3,
+          "qty_strips": 450
+        },
+        {
+          "raw": "米白色 70X120inches 2pack-2箱",
+          "color": "米白",
+          "size": "70X120inch",
+          "strips_per_pack": 2,
+          "qty_cartons": 2,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0WH4H",
+          "packs_per_carton": 15,
+          "qty_strips": 60
+        },
+        {
+          "raw": "米白色 90inches Round 6pack-10箱",
+          "color": "米白",
+          "size": "90 inch round",
+          "strips_per_pack": 6,
+          "qty_cartons": 10,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0V8OH",
+          "packs_per_carton": 7,
+          "qty_strips": 420
+        },
+        {
+          "raw": "蓝色 60X102inches 10pack-5箱",
+          "color": "蓝",
+          "size": "60X102inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 5,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0052FXOH5",
+          "packs_per_carton": 4,
+          "qty_strips": 200
+        },
+        {
+          "raw": "蓝色 60X102inches 6pack-4箱",
+          "color": "蓝",
+          "size": "60X102inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 4,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0050TS4O1",
+          "packs_per_carton": 9,
+          "qty_strips": 216
+        },
+        {
+          "raw": "黑色 70X120inches 10pack-4箱",
+          "color": "黑",
+          "size": "70X120inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 4,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005395YS7",
+          "packs_per_carton": 3,
+          "qty_strips": 120
+        },
+        {
+          "raw": "黑色 90inches Round 10pack-4箱",
+          "color": "黑",
+          "size": "90 inch round",
+          "strips_per_pack": 10,
+          "qty_cartons": 4,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0053992NP",
+          "packs_per_carton": 4,
+          "qty_strips": 160
+        },
+        {
+          "raw": "黑色 90inches Round 2pack-1箱",
+          "color": "黑",
+          "size": "90 inch round",
+          "strips_per_pack": 2,
+          "qty_cartons": 1,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0Y925",
+          "packs_per_carton": 20,
+          "qty_strips": 40
+        }
+      ],
+      "notes": []
+    },
+    {
+      "warehouse_code": "MDW2",
+      "fba_shipment_id": "FBA19JT16DMQ",
+      "tracking_id": "25HS4ZWF",
+      "fba_hits": {
+        "FBA19JT16DMQ": 181
+      },
+      "pdf_count": 19,
+      "page_count": 181,
+      "qty_cartons": 181,
+      "qty_strips": 7238,
+      "carton_total_text": 181,
+      "warehouse_address": "250 EMERALD DR | Joliet, IL 60433-3280 | 美国",
+      "specs": [
+        {
+          "raw": "白色 60X126inches 2pack-2箱",
+          "color": "白",
+          "size": "60X126inch",
+          "strips_per_pack": 2,
+          "qty_cartons": 2,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005398X17",
+          "packs_per_carton": 18,
+          "qty_strips": 72
+        },
+        {
+          "raw": "白色 60×102inches 10packs-12箱",
+          "color": "白",
+          "size": "60X102inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 12,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X003WN3V5J",
+          "packs_per_carton": 4,
+          "qty_strips": 480
+        },
+        {
+          "raw": "白色 60×126inches 6packs-15箱",
+          "color": "白",
+          "size": "60X126inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 15,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X003WN01DT",
+          "packs_per_carton": 6,
+          "qty_strips": 540
+        },
+        {
+          "raw": "白色 70X120inches 10pack-14箱",
+          "color": "白",
+          "size": "70X120inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 14,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005395QNF",
+          "packs_per_carton": 3,
+          "qty_strips": 420
+        },
+        {
+          "raw": "白色 70X120inches 2pack-2箱",
+          "color": "白",
+          "size": "70X120inch",
+          "strips_per_pack": 2,
+          "qty_cartons": 2,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0XSZT",
+          "packs_per_carton": 15,
+          "qty_strips": 60
+        },
+        {
+          "raw": "白色 90inches Round 10pack-8箱",
+          "color": "白",
+          "size": "90 inch round",
+          "strips_per_pack": 10,
+          "qty_cartons": 8,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005395FVN",
+          "packs_per_carton": 4,
+          "qty_strips": 320
+        },
+        {
+          "raw": "白色 90inches Round 2pack-5箱",
+          "color": "白",
+          "size": "90 inch round",
+          "strips_per_pack": 2,
+          "qty_cartons": 5,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0XBDN",
+          "packs_per_carton": 20,
+          "qty_strips": 200
+        },
+        {
+          "raw": "白色 90inches Round 6pack-21箱",
+          "color": "白",
+          "size": "90 inch round",
+          "strips_per_pack": 6,
+          "qty_cartons": 21,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004S99E9D",
+          "packs_per_carton": 7,
+          "qty_strips": 882
+        },
+        {
+          "raw": "米白色 60X102inches 10pack-19箱",
+          "color": "米白",
+          "size": "60X102inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 19,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0050TQ9HP",
+          "packs_per_carton": 4,
+          "qty_strips": 760
+        },
+        {
+          "raw": "米白色 60X102inches 6pack-23箱",
+          "color": "米白",
+          "size": "60X102inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 23,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W20FM1",
+          "packs_per_carton": 9,
+          "qty_strips": 1242
+        },
+        {
+          "raw": "米白色 60X126inches 6pack-19箱",
+          "color": "米白",
+          "size": "60X126inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 19,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005398UJ7",
+          "packs_per_carton": 6,
+          "qty_strips": 684
+        },
+        {
+          "raw": "米白色 70X120inches 10pack-8箱",
+          "color": "米白",
+          "size": "70X120inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 8,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X00539789F",
+          "packs_per_carton": 3,
+          "qty_strips": 240
+        },
+        {
+          "raw": "米白色 70X120inches 2pack-2箱",
+          "color": "米白",
+          "size": "70X120inch",
+          "strips_per_pack": 2,
+          "qty_cartons": 2,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0WH4H",
+          "packs_per_carton": 15,
+          "qty_strips": 60
+        },
+        {
+          "raw": "米白色 90inches Round 6pack-11箱",
+          "color": "米白",
+          "size": "90 inch round",
+          "strips_per_pack": 6,
+          "qty_cartons": 11,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0V8OH",
+          "packs_per_carton": 7,
+          "qty_strips": 462
+        },
+        {
+          "raw": "蓝色 60X102inches 10pack-7箱",
+          "color": "蓝",
+          "size": "60X102inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 7,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0052FXOH5",
+          "packs_per_carton": 4,
+          "qty_strips": 280
+        },
+        {
+          "raw": "蓝色 60X102inches 6pack-4箱",
+          "color": "蓝",
+          "size": "60X102inch",
+          "strips_per_pack": 6,
+          "qty_cartons": 4,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0050TS4O1",
+          "packs_per_carton": 9,
+          "qty_strips": 216
+        },
+        {
+          "raw": "黑色 70X120inches 10pack-4箱",
+          "color": "黑",
+          "size": "70X120inch",
+          "strips_per_pack": 10,
+          "qty_cartons": 4,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X005395YS7",
+          "packs_per_carton": 3,
+          "qty_strips": 120
+        },
+        {
+          "raw": "黑色 90inches Round 10pack-4箱",
+          "color": "黑",
+          "size": "90 inch round",
+          "strips_per_pack": 10,
+          "qty_cartons": 4,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X0053992NP",
+          "packs_per_carton": 4,
+          "qty_strips": 160
+        },
+        {
+          "raw": "黑色 90inches Round 2pack-1箱",
+          "color": "黑",
+          "size": "90 inch round",
+          "strips_per_pack": 2,
+          "qty_cartons": 1,
+          "pdf_files": 1,
+          "carton_source": "folder_name",
+          "fnsku": "X004W0Y925",
+          "packs_per_carton": 20,
+          "qty_strips": 40
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "tracking_provided": {
+    "FBA19JT16DMQ": "25HS4ZWF",
+    "FBA19JT39521": "36AGPMRC",
+    "FBA19JT0K3PY": "6522FTZR",
+    "FBA19JT3Q0H0": "2C4TSS5H",
+    "FBA19JT71WTZ": "629YFDRT"
+  },
+  "total_cartons": 805,
+  "total_strips": 32500,
+  "total_pdfs": 95,
+  "total_pages": 805,
+  "by_fnsku": [
+    {
+      "size": "60X126inch",
+      "color": "白",
+      "strips_per_pack": 2,
+      "fnsku": "X005398X17",
+      "packs_per_carton": 18,
+      "qty_cartons": 10,
+      "qty_strips": 360
+    },
+    {
+      "size": "60X102inch",
+      "color": "白",
+      "strips_per_pack": 10,
+      "fnsku": "X003WN3V5J",
+      "packs_per_carton": 4,
+      "qty_cartons": 50,
+      "qty_strips": 2000
+    },
+    {
+      "size": "60X126inch",
+      "color": "白",
+      "strips_per_pack": 6,
+      "fnsku": "X003WN01DT",
+      "packs_per_carton": 6,
+      "qty_cartons": 50,
+      "qty_strips": 1800
+    },
+    {
+      "size": "70X120inch",
+      "color": "白",
+      "strips_per_pack": 10,
+      "fnsku": "X005395QNF",
+      "packs_per_carton": 3,
+      "qty_cartons": 50,
+      "qty_strips": 1500
+    },
+    {
+      "size": "70X120inch",
+      "color": "白",
+      "strips_per_pack": 2,
+      "fnsku": "X004W0XSZT",
+      "packs_per_carton": 15,
+      "qty_cartons": 10,
+      "qty_strips": 300
+    },
+    {
+      "size": "90 inch round",
+      "color": "白",
+      "strips_per_pack": 10,
+      "fnsku": "X005395FVN",
+      "packs_per_carton": 4,
+      "qty_cartons": 40,
+      "qty_strips": 1600
+    },
+    {
+      "size": "90 inch round",
+      "color": "白",
+      "strips_per_pack": 2,
+      "fnsku": "X004W0XBDN",
+      "packs_per_carton": 20,
+      "qty_cartons": 20,
+      "qty_strips": 800
+    },
+    {
+      "size": "90 inch round",
+      "color": "白",
+      "strips_per_pack": 6,
+      "fnsku": "X004S99E9D",
+      "packs_per_carton": 7,
+      "qty_cartons": 80,
+      "qty_strips": 3360
+    },
+    {
+      "size": "60X102inch",
+      "color": "米白",
+      "strips_per_pack": 10,
+      "fnsku": "X0050TQ9HP",
+      "packs_per_carton": 4,
+      "qty_cartons": 100,
+      "qty_strips": 4000
+    },
+    {
+      "size": "60X102inch",
+      "color": "米白",
+      "strips_per_pack": 6,
+      "fnsku": "X004W20FM1",
+      "packs_per_carton": 9,
+      "qty_cartons": 120,
+      "qty_strips": 6480
+    },
+    {
+      "size": "60X126inch",
+      "color": "米白",
+      "strips_per_pack": 6,
+      "fnsku": "X005398UJ7",
+      "packs_per_carton": 6,
+      "qty_cartons": 70,
+      "qty_strips": 2520
+    },
+    {
+      "size": "70X120inch",
+      "color": "米白",
+      "strips_per_pack": 10,
+      "fnsku": "X00539789F",
+      "packs_per_carton": 3,
+      "qty_cartons": 50,
+      "qty_strips": 1500
+    },
+    {
+      "size": "70X120inch",
+      "color": "米白",
+      "strips_per_pack": 2,
+      "fnsku": "X004W0WH4H",
+      "packs_per_carton": 15,
+      "qty_cartons": 10,
+      "qty_strips": 300
+    },
+    {
+      "size": "90 inch round",
+      "color": "米白",
+      "strips_per_pack": 6,
+      "fnsku": "X004W0V8OH",
+      "packs_per_carton": 7,
+      "qty_cartons": 50,
+      "qty_strips": 2100
+    },
+    {
+      "size": "60X102inch",
+      "color": "蓝",
+      "strips_per_pack": 10,
+      "fnsku": "X0052FXOH5",
+      "packs_per_carton": 4,
+      "qty_cartons": 30,
+      "qty_strips": 1200
+    },
+    {
+      "size": "60X102inch",
+      "color": "蓝",
+      "strips_per_pack": 6,
+      "fnsku": "X0050TS4O1",
+      "packs_per_carton": 9,
+      "qty_cartons": 20,
+      "qty_strips": 1080
+    },
+    {
+      "size": "70X120inch",
+      "color": "黑",
+      "strips_per_pack": 10,
+      "fnsku": "X005395YS7",
+      "packs_per_carton": 3,
+      "qty_cartons": 20,
+      "qty_strips": 600
+    },
+    {
+      "size": "90 inch round",
+      "color": "黑",
+      "strips_per_pack": 10,
+      "fnsku": "X0053992NP",
+      "packs_per_carton": 4,
+      "qty_cartons": 20,
+      "qty_strips": 800
+    },
+    {
+      "size": "90 inch round",
+      "color": "黑",
+      "strips_per_pack": 2,
+      "fnsku": "X004W0Y925",
+      "packs_per_carton": 20,
+      "qty_cartons": 5,
+      "qty_strips": 200
+    }
+  ],
+  "by_size_color": [
+    {
+      "size": "60X126inch",
+      "color": "白",
+      "qty_strips": 2160,
+      "qty_cartons": 60
+    },
+    {
+      "size": "60X102inch",
+      "color": "白",
+      "qty_strips": 2000,
+      "qty_cartons": 50
+    },
+    {
+      "size": "70X120inch",
+      "color": "白",
+      "qty_strips": 1800,
+      "qty_cartons": 60
+    },
+    {
+      "size": "90 inch round",
+      "color": "白",
+      "qty_strips": 5760,
+      "qty_cartons": 140
+    },
+    {
+      "size": "60X102inch",
+      "color": "米白",
+      "qty_strips": 10480,
+      "qty_cartons": 220
+    },
+    {
+      "size": "60X126inch",
+      "color": "米白",
+      "qty_strips": 2520,
+      "qty_cartons": 70
+    },
+    {
+      "size": "70X120inch",
+      "color": "米白",
+      "qty_strips": 1800,
+      "qty_cartons": 60
+    },
+    {
+      "size": "90 inch round",
+      "color": "米白",
+      "qty_strips": 2100,
+      "qty_cartons": 50
+    },
+    {
+      "size": "60X102inch",
+      "color": "蓝",
+      "qty_strips": 2280,
+      "qty_cartons": 50
+    },
+    {
+      "size": "70X120inch",
+      "color": "黑",
+      "qty_strips": 600,
+      "qty_cartons": 20
+    },
+    {
+      "size": "90 inch round",
+      "color": "黑",
+      "qty_strips": 1000,
+      "qty_cartons": 25
+    }
+  ],
+  "plan_compare": {
+    "plan_cartons": 945,
+    "plan_strips": 36460,
+    "missing_specs_in_fba": [
+      {
+        "size": "60X126inch",
+        "color": "白",
+        "strips_per_pack": 10
+      },
+      {
+        "size": "60X126inch",
+        "color": "米白",
+        "strips_per_pack": 10
+      },
+      {
+        "size": "70X120inch",
+        "color": "白",
+        "strips_per_pack": 6
+      },
+      {
+        "size": "70X120inch",
+        "color": "米白",
+        "strips_per_pack": 6
+      }
+    ],
+    "carton_deltas_vs_plan": [
+      {
+        "size": "60X126inch",
+        "color": "米白",
+        "strips_per_pack": 6,
+        "fnsku": "X005398UJ7",
+        "fba_cartons": 70,
+        "plan_cartons": 30,
+        "delta": 40
+      }
+    ]
+  },
+  "warnings": [
+    "外箱贴缺少计划规格: 60X126inch/白/10条装, 60X126inch/米白/10条装, 70X120inch/白/6条装, 70X120inch/米白/6条装",
+    "箱数与计划不符: 60X126inch/米白/6条 FBA=70 计划=30 Δ=40",
+    "总箱数 FBA=805 计划=945 Δ=-140"
+  ]
+}

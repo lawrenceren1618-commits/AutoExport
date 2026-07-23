@@ -30,6 +30,7 @@
 | 颜色 / 尺寸 / 克重 | `color` / `size` / `gram_weight` |
 | 条数/箱、包数/箱、条数/包 | `strips_per_carton` 等 |
 | FNSKU / 产品标签 | `fnsku`（出货表不需要） |
+| **SKU / 卖家SKU / MSKU** | **`amazon_sku`**（店铺+品牌内唯一；亚马逊侧基本不可改；见 [`SKU_Correspondence.md`](SKU_Correspondence.md)） |
 | 包装方式 / 外箱尺寸 | `pack_method` / `carton_lwh_cm` |
 | HS / 1039 单价 | `hs_code` / `declare_unit_price_1039` |
 
@@ -38,4 +39,5 @@
 ## 冲突
 
 总表多版本：以 **`master_upload_at`（上传时间）最新** 为建议默认，仍须使用者确认。  
-与订单冲突：订单侧看 **`order_date`**。详见 Canonical 文档 §4。
+与订单冲突：订单侧看 **`order_date`**。详见 Canonical 文档 §4。  
+**SKU**：同店同牌重复或与已沉淀 `sku_index` 规格不一致 → **立即汇报**；夹名/页标与 SKU 不符时，人工备注后确认再入库（[`SKU_Correspondence.md`](SKU_Correspondence.md)）。

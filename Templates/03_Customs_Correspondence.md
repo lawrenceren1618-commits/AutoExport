@@ -5,7 +5,7 @@
 > 单表变更映射：[`Table_Field_Change_Maps.md`](Table_Field_Change_Maps.md) · [`Scripts/table_field_maps.json`](../Scripts/table_field_maps.json)  
 > **适用范围：后续所有发货票**（不限本票 C26079）。
 
-状态：术语与 1039 规则已校准（2026-07-21）；等 FBA 外箱贴后再生成当票文件。
+状态：术语与 1039 规则已校准；**本票 C26079-A 已按仓生成报关草稿**（2026-07-22）。后续票仍须外箱贴到位后再生成。货值对照见 [`Amount_Weight_Reconcile.md`](Amount_Weight_Reconcile.md)。
 
 ---
 
@@ -46,7 +46,7 @@
 1. **抬头 = 表内生产销售单位统一名称**；C04/1039 下固定为 **波丽丝**。  
 2. **文件名 ≠ 抬头**；文件名可出现「畅选+波丽丝」字样，仍只叫文件名。  
 3. 勿把波丽丝写进订单/出货/货代表；勿把「畅选」法律全称填进报关**表内抬头格**。  
-4. 金额正算反算；严禁采购底价当报关价。
+4. 金额正算反算；严禁采购底价当报关价。规格汇总↔分仓对照按误差率闸门（≤1% 不报告，>1% 须确认），见 [`Amount_Weight_Reconcile.md`](Amount_Weight_Reconcile.md)。
 
 ---
 

@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-07-23T09:49:32+0800",
+  "order_code": "EF-C26079-C04-36460",
+  "split_leg_id": "C26079-B",
+  "channel": "AWD",
+  "warehouse_code": "IUTE",
+  "pricing_method": "per_warehouse: raw=sum(cartons*master_1039_ctn_price); unit=round(raw/strips,2); amount=round(unit*strips,2)",
+  "note": "draft B AWD IUTE 140ctn 4200 strips",
+  "files": [
+    {
+      "warehouse_code": "IUTE",
+      "channel": "AWD",
+      "fba_shipment_id": "STAR-QG6CTURZGY6MX",
+      "tracking_id": "",
+      "po_id": "8NK88PWJ",
+      "cartons": 140,
+      "strips": 4200,
+      "raw_carton_x_price": 15231.23,
+      "unit_price_usd": 3.63,
+      "declare_amount_usd": 15246.0,
+      "net_kg": 1975.2,
+      "gross_kg": 2213.9,
+      "protocol_no": "20260731806",
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-B 2026.7.31桌布 AWD-IUTE 140箱.xlsx",
+      "customs_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\报关资料表\\畅选+波丽丝 2026.7.31发货 C26079-B AWD-IUTE 140箱 市场采购数据.xlsx",
+      "specs": [
+        {
+          "fnsku": "X005395XVF",
+          "qty_cartons": 50
+        },
+        {
+          "fnsku": "X0050TQ82L",
+          "qty_cartons": 50
+        },
+        {
+          "fnsku": "X0050TSCX9",
+          "qty_cartons": 40
+        }
+      ]
+    }
+  ],
+  "reconcile": {
+    "doc": "Templates/Amount_Weight_Reconcile.md",
+    "A_spec": {
+      "amount": 15231.23,
+      "net_kg": 1975.2,
+      "gross_kg": 2213.9
+    },
+    "B_warehouse": {
+      "amount": 15246.0,
+      "net_kg": 1975.2,
+      "gross_kg": 2213.9
+    },
+    "error_rate_pct": {
+      "declare": 0.097,
+      "net": 0.0,
+      "gross": 0.0
+    },
+    "pass_max_pct": 1.0,
+    "gate": {
+      "declare": "PASS",
+      "net": "PASS",
+      "gross": "PASS",
+      "overall": "PASS"
+    }
+  },
+  "warnings": []
+}

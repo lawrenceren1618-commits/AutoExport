@@ -1,0 +1,46 @@
+{
+  "order_code": "EF-C26079-C04-36460",
+  "split_leg_id": "C26079-A",
+  "rows": [
+    {
+      "warehouse_code": "AVP1",
+      "fba_shipment_id": "FBA19JT39521",
+      "tracking_id": "36AGPMRC",
+      "warehouse_address": "Amazon.com Services, Inc. | Hazle Township, PA 18202-9361 | 美国",
+      "cartons": 175,
+      "strips": 6966
+    },
+    {
+      "warehouse_code": "CLT2",
+      "fba_shipment_id": "FBA19JT71WTZ",
+      "tracking_id": "629YFDRT",
+      "warehouse_address": "Amazon.com Services, Inc. | 10240 Old Dowd Rd | Charlotte, NC 28214-8082 | 美国",
+      "cartons": 128,
+      "strips": 5136
+    },
+    {
+      "warehouse_code": "GYR2",
+      "fba_shipment_id": "FBA19JT3Q0H0",
+      "tracking_id": "2C4TSS5H",
+      "warehouse_address": "17341 W MINNEZONA AVE | GOODYEAR, AZ 85395-7672 | 美国",
+      "cartons": 139,
+      "strips": 5608
+    },
+    {
+      "warehouse_code": "LGB8",
+      "fba_shipment_id": "FBA19JT0K3PY",
+      "tracking_id": "6522FTZR",
+      "warehouse_address": "1568 N Linden Ave | Rialto, CA 92376-8624 | 美国",
+      "cartons": 182,
+      "strips": 7366
+    },
+    {
+      "warehouse_code": "MDW2",
+      "fba_shipment_id": "FBA19JT16DMQ",
+      "tracking_id": "25HS4ZWF",
+      "warehouse_address": "250 EMERALD DR | Joliet, IL 60433-3280 | 美国",
+      "cartons": 181,
+      "strips": 7184
+    }
+  ]
+}
