@@ -21,11 +21,14 @@
 
 ```sshconfig
 Host github.com-office-cp
-  HostName github.com
+  HostName ssh.github.com
+  Port 443
   User git
   IdentityFile ~/.ssh/id_ed25519_office_cp_ofce
   IdentitiesOnly yes
 ```
+
+办公室网络若 **22 端口被代理断开**（`Connection closed by 198.18.x.x port 22`），须走 **`ssh.github.com:443`**（上表）。HTTPS `https://github.com` 仍可用。
 
 ### 1. 把办公室公钥加到 GitHub
 
