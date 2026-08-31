@@ -1,0 +1,872 @@
+{
+  "generated_at": "2026-07-30T09:11:11+0800",
+  "scope": "project",
+  "subject": "EF-C26079-C04-36460  桌布-2026.7.10",
+  "pass": false,
+  "findings": [
+    {
+      "check": "V_ID_ORDER_CODE",
+      "ok": true,
+      "expected": "EF-Cxxxxx-C04|C07-…",
+      "actual": "EF-C26079-C04-36460",
+      "detail": "PROJECT/job order_code",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ENTITY_BRAND",
+      "ok": true,
+      "expected": "WIGENIUS",
+      "actual": "C04/WIGENIUS",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ORDER_FILE_VS_PROJECT",
+      "ok": true,
+      "expected": "EF-C26079-C04-36460",
+      "actual": "EF-C26079-C04-36460",
+      "detail": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\订单表\\EF-C26079-C04-36460  桌布-2026.7.10.xls",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ORDER_DELIVERY_EQ_SHIP",
+      "ok": true,
+      "expected": "2026-07-31",
+      "actual": "2026-07-31",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ID_CHAIN_EF_SHORT_BELONGING",
+      "ok": false,
+      "expected": "EF-C26079-C04-36460 → C26079 → 所属订单",
+      "actual": "(empty)",
+      "detail": "出货所属订单必须对应本批订单表 EF 号抽出的短码",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ID_ORDER_SHORT_ON_OUTBOUND",
+      "ok": false,
+      "expected": "C26079",
+      "actual": "(empty)",
+      "detail": "出货所属订单必须=订单短码，且对应本批订单 EF 号",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ID_OUTBOUND_SHORT",
+      "ok": true,
+      "expected": "C04-2616",
+      "actual": "C04-2616",
+      "detail": "",
+      "soft": false,
+      "edge": "outbound_to_project"
+    },
+    {
+      "check": "V_OUTBOUND_FILENAME",
+      "ok": true,
+      "expected": "C04-2616-U-2026.7.31.xlsx",
+      "actual": "C04-2616-U-2026.7.31.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "outbound_to_project"
+    },
+    {
+      "check": "V_SHIP_DATE_EQ",
+      "ok": true,
+      "expected": "2026.7.31",
+      "actual": "2026.7.31",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_STORE_PREFIX_ON_SHORT",
+      "ok": true,
+      "expected": "C04-…",
+      "actual": "C04-2616",
+      "detail": "",
+      "soft": false,
+      "edge": "outbound_to_project"
+    },
+    {
+      "check": "V_OUT_STRIPS_EQ_PROJECT",
+      "ok": true,
+      "expected": 36460,
+      "actual": 36460.0,
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_OUT_HEADER_QTY_EQ_DETAIL",
+      "ok": true,
+      "expected": 36460.0,
+      "actual": 36460.0,
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_OUT_TOTAL_SUM_FORMULA",
+      "ok": true,
+      "expected": "=SUM(E…)",
+      "actual": "=SUM(E5:E15)",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_NO_FNSKU_ON_OUTBOUND",
+      "ok": true,
+      "expected": "no FNSKU on outbound",
+      "actual": "none",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_OUT_PRODUCT_DEST_PRESENT",
+      "ok": true,
+      "expected": "品类+目的地非空",
+      "actual": "'平纹单面磨毛桌布'/'US'",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_OUT_SPECS_VS_ORDER",
+      "ok": true,
+      "expected": "outbound specs ⊆ order (11 keys)",
+      "actual": "outbound=11 missing_in_order=[]",
+      "detail": "规格联系：出货尺寸+颜色必须能在订单中找到",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_OUT_STRIPS_EQ_ORDER",
+      "ok": true,
+      "expected": 36460.0,
+      "actual": 36460.0,
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_LABEL_BUNDLE_ORDER_CODE",
+      "ok": true,
+      "expected": "EF-C26079-C04-36460标签",
+      "actual": [
+        "EF-C26079-C04-36460标签"
+      ],
+      "detail": "pdfs=23",
+      "soft": false,
+      "edge": "order_to_labels"
+    },
+    {
+      "check": "V_LABEL_MANIFEST_ORDER_CODE",
+      "ok": true,
+      "expected": "EF-C26079-C04-36460",
+      "actual": [
+        "EF-C26079-C04-36460"
+      ],
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_labels"
+    },
+    {
+      "check": "V_ARCHIVE_OUTBOUND_SYNC",
+      "ok": false,
+      "expected": "Shipments belonging= short=C04-2616",
+      "actual": "Archive belonging=C26079 short=C04-2616",
+      "detail": "Shipments 与完整存档出货表身份键必须一致（C26079 曾出现仅存档有所属订单）",
+      "soft": false,
+      "edge": "shipments_to_archive"
+    },
+    {
+      "check": "V_PACK_FOLDER_IDENTITY",
+      "ok": true,
+      "expected": "contains C26079-*贴标包 or 完整存档",
+      "actual": [
+        "C26079-A_32260_2026.7.31_贴标包",
+        "C26079-B_4200_2026.7.31_贴标包",
+        "完整存档"
+      ],
+      "detail": "",
+      "soft": false,
+      "edge": "packs_to_identity"
+    },
+    {
+      "check": "V_FREIGHT_STATICS",
+      "ok": true,
+      "expected": "C2=111111111; PQR=无; HS default",
+      "actual": "C2=111111111 PQR=无/无/无 HS=6302539090",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_FLOOR_QTY",
+      "ok": true,
+      "expected": "C15>0 and F15>=0",
+      "actual": "C15=175 F15=39",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_FBA_PRESENT",
+      "ok": true,
+      "expected": "A15 FBA/STAR",
+      "actual": "FBA19JT39521",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_CUSTOMS_1039_HEADER",
+      "ok": true,
+      "expected": "波丽丝",
+      "actual": "许昌波丽丝贸易有限公司/波丽丝",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_CUSTOMS_FILENAME",
+      "ok": true,
+      "expected": "文件名含畅选/波丽丝",
+      "actual": "畅选+波丽丝 2026.7.31发货 C26079-A AVP1 175箱 市场采购数据.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_CARTONS",
+      "ok": true,
+      "expected": 175,
+      "actual": 175.0,
+      "detail": "wh=AVP1",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_STRIPS_HINT",
+      "ok": true,
+      "expected": 6966.0,
+      "actual": 6825,
+      "detail": "freight implied=C15*F15 may undercount remainder; customs line_strips is authority",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_UNIT_PRICE",
+      "ok": true,
+      "expected": 3.18,
+      "actual": 3.18,
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_PROTOCOL_PRESENT",
+      "ok": true,
+      "expected": "合同协议号",
+      "actual": "20260731801",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_PROTOCOL_UNIQUE",
+      "ok": true,
+      "expected": "registered unique",
+      "actual": "in_reg=True collision=False",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_WH_IN_FILENAMES",
+      "ok": true,
+      "expected": "AVP1",
+      "actual": "freight=货代下单表_C26079-A 2026.7.31桌布 AVP1 175箱.xlsx customs=畅选+波丽丝 2026.7.31发货 C26079-A AVP1 175箱 市场采购数据.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_STATICS",
+      "ok": true,
+      "expected": "C2=111111111; PQR=无; HS default",
+      "actual": "C2=111111111 PQR=无/无/无 HS=6302539090",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_FLOOR_QTY",
+      "ok": true,
+      "expected": "C15>0 and F15>=0",
+      "actual": "C15=128 F15=40",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_FBA_PRESENT",
+      "ok": true,
+      "expected": "A15 FBA/STAR",
+      "actual": "FBA19JT71WTZ",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_CUSTOMS_1039_HEADER",
+      "ok": true,
+      "expected": "波丽丝",
+      "actual": "许昌波丽丝贸易有限公司/波丽丝",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_CUSTOMS_FILENAME",
+      "ok": true,
+      "expected": "文件名含畅选/波丽丝",
+      "actual": "畅选+波丽丝 2026.7.31发货 C26079-A CLT2 128箱 市场采购数据.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_CARTONS",
+      "ok": true,
+      "expected": 128,
+      "actual": 128.0,
+      "detail": "wh=CLT2",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_STRIPS_HINT",
+      "ok": true,
+      "expected": 5136.0,
+      "actual": 5120,
+      "detail": "freight implied=C15*F15 may undercount remainder; customs line_strips is authority",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_UNIT_PRICE",
+      "ok": true,
+      "expected": 3.16,
+      "actual": 3.16,
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_PROTOCOL_PRESENT",
+      "ok": true,
+      "expected": "合同协议号",
+      "actual": "20260731802",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_PROTOCOL_UNIQUE",
+      "ok": true,
+      "expected": "registered unique",
+      "actual": "in_reg=True collision=False",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_WH_IN_FILENAMES",
+      "ok": true,
+      "expected": "CLT2",
+      "actual": "freight=货代下单表_C26079-A 2026.7.31桌布 CLT2 128箱.xlsx customs=畅选+波丽丝 2026.7.31发货 C26079-A CLT2 128箱 市场采购数据.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_STATICS",
+      "ok": true,
+      "expected": "C2=111111111; PQR=无; HS default",
+      "actual": "C2=111111111 PQR=无/无/无 HS=6302539090",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_FLOOR_QTY",
+      "ok": true,
+      "expected": "C15>0 and F15>=0",
+      "actual": "C15=139 F15=40",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_FBA_PRESENT",
+      "ok": true,
+      "expected": "A15 FBA/STAR",
+      "actual": "FBA19JT3Q0H0",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_CUSTOMS_1039_HEADER",
+      "ok": true,
+      "expected": "波丽丝",
+      "actual": "许昌波丽丝贸易有限公司/波丽丝",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_CUSTOMS_FILENAME",
+      "ok": true,
+      "expected": "文件名含畅选/波丽丝",
+      "actual": "畅选+波丽丝 2026.7.31发货 C26079-A GYR2 139箱 市场采购数据.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_CARTONS",
+      "ok": true,
+      "expected": 139,
+      "actual": 139.0,
+      "detail": "wh=GYR2",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_STRIPS_HINT",
+      "ok": true,
+      "expected": 5608.0,
+      "actual": 5560,
+      "detail": "freight implied=C15*F15 may undercount remainder; customs line_strips is authority",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_UNIT_PRICE",
+      "ok": true,
+      "expected": 3.15,
+      "actual": 3.15,
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_PROTOCOL_PRESENT",
+      "ok": true,
+      "expected": "合同协议号",
+      "actual": "20260731803",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_PROTOCOL_UNIQUE",
+      "ok": true,
+      "expected": "registered unique",
+      "actual": "in_reg=True collision=False",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_WH_IN_FILENAMES",
+      "ok": true,
+      "expected": "GYR2",
+      "actual": "freight=货代下单表_C26079-A 2026.7.31桌布 GYR2 139箱.xlsx customs=畅选+波丽丝 2026.7.31发货 C26079-A GYR2 139箱 市场采购数据.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_STATICS",
+      "ok": true,
+      "expected": "C2=111111111; PQR=无; HS default",
+      "actual": "C2=111111111 PQR=无/无/无 HS=6302539090",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_FLOOR_QTY",
+      "ok": true,
+      "expected": "C15>0 and F15>=0",
+      "actual": "C15=182 F15=40",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_FBA_PRESENT",
+      "ok": true,
+      "expected": "A15 FBA/STAR",
+      "actual": "FBA19JT0K3PY",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_CUSTOMS_1039_HEADER",
+      "ok": true,
+      "expected": "波丽丝",
+      "actual": "许昌波丽丝贸易有限公司/波丽丝",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_CUSTOMS_FILENAME",
+      "ok": true,
+      "expected": "文件名含畅选/波丽丝",
+      "actual": "畅选+波丽丝 2026.7.31发货 C26079-A LGB8 182箱 市场采购数据.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_CARTONS",
+      "ok": true,
+      "expected": 182,
+      "actual": 182.0,
+      "detail": "wh=LGB8",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_STRIPS_HINT",
+      "ok": true,
+      "expected": 7366.0,
+      "actual": 7280,
+      "detail": "freight implied=C15*F15 may undercount remainder; customs line_strips is authority",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_UNIT_PRICE",
+      "ok": true,
+      "expected": 3.12,
+      "actual": 3.12,
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_PROTOCOL_PRESENT",
+      "ok": true,
+      "expected": "合同协议号",
+      "actual": "20260731804",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_PROTOCOL_UNIQUE",
+      "ok": true,
+      "expected": "registered unique",
+      "actual": "in_reg=True collision=False",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_WH_IN_FILENAMES",
+      "ok": true,
+      "expected": "LGB8",
+      "actual": "freight=货代下单表_C26079-A 2026.7.31桌布 LGB8 182箱.xlsx customs=畅选+波丽丝 2026.7.31发货 C26079-A LGB8 182箱 市场采购数据.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_STATICS",
+      "ok": true,
+      "expected": "C2=111111111; PQR=无; HS default",
+      "actual": "C2=111111111 PQR=无/无/无 HS=6302539090",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_FLOOR_QTY",
+      "ok": true,
+      "expected": "C15>0 and F15>=0",
+      "actual": "C15=181 F15=39",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_FBA_PRESENT",
+      "ok": true,
+      "expected": "A15 FBA/STAR",
+      "actual": "FBA19JT16DMQ",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_CUSTOMS_1039_HEADER",
+      "ok": true,
+      "expected": "波丽丝",
+      "actual": "许昌波丽丝贸易有限公司/波丽丝",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_CUSTOMS_FILENAME",
+      "ok": true,
+      "expected": "文件名含畅选/波丽丝",
+      "actual": "畅选+波丽丝 2026.7.31发货 C26079-A MDW2 181箱 市场采购数据.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_CARTONS",
+      "ok": true,
+      "expected": 181,
+      "actual": 181.0,
+      "detail": "wh=MDW2",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_STRIPS_HINT",
+      "ok": true,
+      "expected": 7184.0,
+      "actual": 7059,
+      "detail": "freight implied=C15*F15 may undercount remainder; customs line_strips is authority",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_UNIT_PRICE",
+      "ok": true,
+      "expected": 3.17,
+      "actual": 3.17,
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_PROTOCOL_PRESENT",
+      "ok": true,
+      "expected": "合同协议号",
+      "actual": "20260731805",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_PROTOCOL_UNIQUE",
+      "ok": true,
+      "expected": "registered unique",
+      "actual": "in_reg=True collision=False",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_WH_IN_FILENAMES",
+      "ok": true,
+      "expected": "MDW2",
+      "actual": "freight=货代下单表_C26079-A 2026.7.31桌布 MDW2 181箱.xlsx customs=畅选+波丽丝 2026.7.31发货 C26079-A MDW2 181箱 市场采购数据.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_STATICS",
+      "ok": true,
+      "expected": "C2=111111111; PQR=无; HS default",
+      "actual": "C2=111111111 PQR=无/无/无 HS=6302539090",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_FLOOR_QTY",
+      "ok": true,
+      "expected": "C15>0 and F15>=0",
+      "actual": "C15=140 F15=30",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_FBA_PRESENT",
+      "ok": true,
+      "expected": "A15 FBA/STAR",
+      "actual": "STAR-QG6CTURZGY6MX",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_CUSTOMS_1039_HEADER",
+      "ok": true,
+      "expected": "波丽丝",
+      "actual": "许昌波丽丝贸易有限公司/波丽丝",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_CUSTOMS_FILENAME",
+      "ok": true,
+      "expected": "文件名含畅选/波丽丝",
+      "actual": "畅选+波丽丝 2026.7.31发货 C26079-B AWD-IUTE 140箱 市场采购数据.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_CARTONS",
+      "ok": true,
+      "expected": 140,
+      "actual": 140.0,
+      "detail": "wh=IUTE",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_STRIPS_HINT",
+      "ok": true,
+      "expected": 4200.0,
+      "actual": 4200,
+      "detail": "freight implied=C15*F15 may undercount remainder; customs line_strips is authority",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_UNIT_PRICE",
+      "ok": true,
+      "expected": 3.63,
+      "actual": 3.63,
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_PROTOCOL_PRESENT",
+      "ok": true,
+      "expected": "合同协议号",
+      "actual": "20260731806",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_PROTOCOL_UNIQUE",
+      "ok": false,
+      "expected": "registered unique",
+      "actual": "in_reg=False collision=False",
+      "detail": "",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_WH_IN_FILENAMES",
+      "ok": true,
+      "expected": "IUTE",
+      "actual": "freight=货代下单表_C26079-B 2026.7.31桌布 AWD-IUTE 140箱.xlsx customs=畅选+波丽丝 2026.7.31发货 C26079-B AWD-IUTE 140箱 市场采购数据.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_WH_STRIPS_VS_BATCH",
+      "ok": true,
+      "expected": "Σ报关条数 <= 36460",
+      "actual": 36460.0,
+      "detail": "cartons_sum=945.0 files=6",
+      "soft": false,
+      "edge": "legs_to_totals"
+    },
+    {
+      "check": "V_SUMMARY_ORDER_CODE",
+      "ok": false,
+      "expected": "EF-C26079-C04-36460",
+      "actual": "EF-C26082-C04-120",
+      "detail": "PROJECT.freight_customs_summary points to wrong ticket: D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts\\C26079-A_freight_customs_summary.json",
+      "soft": false,
+      "edge": "reports_to_source"
+    },
+    {
+      "check": "V_RECONCILE_FILE_GATE",
+      "ok": true,
+      "expected": "error_rate<=1%",
+      "actual": null,
+      "detail": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts\\C26079-A_amount_weight_reconcile.json",
+      "soft": true,
+      "edge": "reports_to_source"
+    }
+  ],
+  "hard_failures": [
+    {
+      "check": "V_ID_CHAIN_EF_SHORT_BELONGING",
+      "ok": false,
+      "expected": "EF-C26079-C04-36460 → C26079 → 所属订单",
+      "actual": "(empty)",
+      "detail": "出货所属订单必须对应本批订单表 EF 号抽出的短码",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ID_ORDER_SHORT_ON_OUTBOUND",
+      "ok": false,
+      "expected": "C26079",
+      "actual": "(empty)",
+      "detail": "出货所属订单必须=订单短码，且对应本批订单 EF 号",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ARCHIVE_OUTBOUND_SYNC",
+      "ok": false,
+      "expected": "Shipments belonging= short=C04-2616",
+      "actual": "Archive belonging=C26079 short=C04-2616",
+      "detail": "Shipments 与完整存档出货表身份键必须一致（C26079 曾出现仅存档有所属订单）",
+      "soft": false,
+      "edge": "shipments_to_archive"
+    },
+    {
+      "check": "V_SUMMARY_ORDER_CODE",
+      "ok": false,
+      "expected": "EF-C26079-C04-36460",
+      "actual": "EF-C26082-C04-120",
+      "detail": "PROJECT.freight_customs_summary points to wrong ticket: D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts\\C26079-A_freight_customs_summary.json",
+      "soft": false,
+      "edge": "reports_to_source"
+    }
+  ],
+  "meta_keys": {
+    "order_code": "EF-C26079-C04-36460",
+    "order_short": "C26079",
+    "outbound_short": "C04-2616",
+    "ship_date": "2026-07-31"
+  },
+  "doc": "Templates/Cross_Flow_Verify.md",
+  "rules": "Scripts/cross_flow_rules.json"
+}

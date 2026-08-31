@@ -1,0 +1,19 @@
+{
+  "project": "EF-C26089-C07-40000_C07_20260821_40000",
+  "gate_final": "CONFIRMED",
+  "confirmed_at": "2026-08-25T11:10:00+0800",
+  "confirmed_by_user": true,
+  "cross_check": "PASS",
+  "cross_check_report": "2_Processed_AI/cross_check_reports/cross_check_EF-C26089-C07-40000_C07_20260821_40000_20260825_110512.json",
+  "output_root": "3_Output_Final/EF-C26089-C07-40000_C07_20260821_40000",
+  "factory_packs": [
+    "C26089-A_20000_2026.8.29_贴标包",
+    "C26089-B_20000_2026.8.29_贴标包"
+  ],
+  "wechat_zip": "C26089_2026.8.29_微信发送.zip",
+  "protocol_nos": {
+    "C26089-A": ["20260829502", "20260829503", "20260829504", "20260829505", "20260829506"],
+    "C26089-B": ["20260829507"]
+  },
+  "note": "2026-08-25 B recreate: IUTJ voided -> IUSP STAR-RCKQMK6EMHN4K / 42LMBL4E; Gate PASS after regen"
+}

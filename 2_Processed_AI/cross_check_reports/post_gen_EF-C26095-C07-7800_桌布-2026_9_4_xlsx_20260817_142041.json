@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-08-17T14:20:41+0800",
+  "scope": "order_file",
+  "subject": "EF-C26095-C07-7800  桌布-2026.9.4.xlsx",
+  "pass": true,
+  "findings": [
+    {
+      "check": "V_ID_ORDER_CODE",
+      "ok": true,
+      "expected": "EF-Cxxxxx-C04|C07-…",
+      "actual": "EF-C26095-C07-7800",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ORDER_FILE_VS_PROJECT",
+      "ok": true,
+      "expected": "EF-C26095-C07-7800",
+      "actual": "EF-C26095-C07-7800",
+      "detail": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800\\订单表\\EF-C26095-C07-7800  桌布-2026.9.4.xlsx",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ORDER_DELIVERY_EQ_SHIP",
+      "ok": true,
+      "expected": "2026-09-04",
+      "actual": "2026-09-04",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ENTITY_BRAND",
+      "ok": true,
+      "expected": "C07",
+      "actual": "C07",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ORDER_PACK_G_FORMULA",
+      "ok": true,
+      "expected": "=C{r}*E{r}*F{r}",
+      "actual": [
+        "=C18*E18*F18",
+        "=C19*E19*F19",
+        "=C20*E20*F20",
+        "=C21*E21*F21"
+      ],
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ORDER_UPPER_QTY_REF_G",
+      "ok": true,
+      "expected": "=G… (C26079 F9=G27)",
+      "actual": [
+        "=G18",
+        "=G19",
+        "=G20",
+        "=G21"
+      ],
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ORDER_CARTON_DISPLAY",
+      "ok": true,
+      "expected": "内盒→纸箱：LWH；热缩→纸箱规格：LWHcm",
+      "actual": [
+        "纸箱：40*27*58",
+        "纸箱：57*32*37",
+        "纸箱：57*32*37",
+        "纸箱：40*27*58"
+      ],
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    }
+  ],
+  "hard_failures": [],
+  "meta_keys": {
+    "order_code": "EF-C26095-C07-7800",
+    "order_short": null,
+    "outbound_short": null,
+    "ship_date": "2026-09-04"
+  },
+  "doc": "Templates/Cross_Flow_Verify.md",
+  "rules": "Scripts/cross_flow_rules.json"
+}

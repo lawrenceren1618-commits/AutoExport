@@ -1,0 +1,39 @@
+{
+  "short_code": "C04-2616",
+  "filename": "C04-2616-U-2026.7.31.xlsx",
+  "order_code": "EF-C26079-C04-36460",
+  "ship_date": "2026.7.31",
+  "ship_date_source": "order_delivery_date",
+  "total_strips": 36460,
+  "row_count": 11,
+  "source_order": "EF-C26079-C04-36460",
+  "template_used": "1_Input_Raw/Shipments/C04-2615-U_C04_20260624_TBD/出货表/C04-2615-U-2026.6.24.xlsx",
+  "notes": "所属订单 and 所属仓库 left empty (factory direct ship); U in filename means USA; 目的地 US; no FNSKU column; detail rows from order upper summary only. size_canonical: 60X102inch, 60X126inch, 70X120inch, 90 inch round (inch not 英寸; X not *).",
+  "merge_ranges": [
+    "A1:I1",
+    "A5:A15",
+    "B5:B15",
+    "F5:F15",
+    "I5:I15"
+  ],
+  "row_heights": {
+    "1": 32.0,
+    "2": 48.0,
+    "3": 29.0,
+    "4": 34.0,
+    "5": 37.0,
+    "6": 37.0,
+    "7": 37.0,
+    "8": 37.0,
+    "9": 37.0,
+    "10": 37.0,
+    "11": 37.0,
+    "12": 37.0,
+    "13": 37.0,
+    "14": 37.0,
+    "15": 37.0,
+    "16": 37.0
+  },
+  "row_height_notes": "Data rows 5-15 uniform height 37.0 (from template data row); header/total follow template.",
+  "merge_notes": "Vertical merges on 产品品类(A), 重量(B), 所属订单(F), 目的地(I) across all 11 data rows; title A1:I1."
+}

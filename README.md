@@ -38,8 +38,8 @@ npm install
 npm run dev
 ```
 
-- `/admin/progress` 工作总结（仅后台）
-- `/admin/master-import` 总表 H01
+- `/ops/progress` 工作总结（仅库务；`/admin/progress` 重定向）
+- `/ops/master-import` 总表 H01（`/admin/master-import` 重定向）
 
 ## 业务架构
 

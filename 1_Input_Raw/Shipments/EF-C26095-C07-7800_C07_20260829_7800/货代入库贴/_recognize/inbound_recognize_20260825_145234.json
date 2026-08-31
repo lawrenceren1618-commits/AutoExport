@@ -1,0 +1,164 @@
+{
+  "generated_at": "2026-08-25T14:52:34+0800",
+  "project": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800",
+  "inbox": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800\\货代入库贴\\_inbox",
+  "apply": true,
+  "authority_paths": [
+    "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts\\C26095-A_freight_customs_summary.json",
+    "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts\\C26095-B_freight_customs_summary.json"
+  ],
+  "authority_warehouses": {
+    "GEU3": {
+      "shipment_id": "FBA19MTB13T8",
+      "cartons": 120,
+      "channel": "FC",
+      "carton_pages": 120,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800\\货代入库贴下单表\\货代下单表_C26095-B 2026.9.4桌布 GEU3 120箱.xlsx",
+      "fba_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800\\FBA外箱贴\\FC\\GEU3"
+    },
+    "SCK8": {
+      "shipment_id": "FBA19MPKNZJ8",
+      "cartons": 100,
+      "channel": "FC",
+      "carton_pages": 100,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800\\货代入库贴下单表\\货代下单表_C26095-A 2026.9.4桌布 SCK8 100箱.xlsx",
+      "fba_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800\\FBA外箱贴\\FC\\SCK8"
+    }
+  },
+  "doc": "Templates/Freight_Inbound_Label_Pipeline.md",
+  "inbox_file_count": 2,
+  "total_pages": 220,
+  "files": [
+    {
+      "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800\\货代入库贴\\_inbox\\C26095-A SCK8 100箱入库贴.pdf",
+      "page_count": 100,
+      "channels": [
+        "FC"
+      ],
+      "shipment_ids": [
+        "FBA19MPKNZJ8"
+      ],
+      "warehouses": [
+        "SCK8"
+      ],
+      "sample_page0": {
+        "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800\\货代入库贴\\_inbox\\C26095-A SCK8 100箱入库贴.pdf",
+        "page_index": 0,
+        "channel": "FC",
+        "confidence": 0.9,
+        "signals": [
+          "fba_shipment",
+          "receiving_info:SCK8"
+        ],
+        "shipment_id": "FBA19MPKNZJ8",
+        "warehouse_code": "SCK8",
+        "page_fingerprint": "0cc462c2b5e803bb",
+        "text_sample": "Customer Order | Number: | FBA Order Number: | Made in China | Receiving Information: | SCK8 1234567890 | 4700 WILBUR AVE | OAKLEY CA 94561-2677 | FBA19MPKNZJ8 | SCK8 | 1 | 100 | FBA19MPKNZJ8 W009 | YLPCK26082521756W009001"
+      }
+    },
+    {
+      "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800\\货代入库贴\\_inbox\\C26095-B GEU3 120箱入库贴.pdf",
+      "page_count": 120,
+      "channels": [
+        "FC"
+      ],
+      "shipment_ids": [
+        "FBA19MTB13T8"
+      ],
+      "warehouses": [
+        "GEU3"
+      ],
+      "sample_page0": {
+        "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800\\货代入库贴\\_inbox\\C26095-B GEU3 120箱入库贴.pdf",
+        "page_index": 0,
+        "channel": "FC",
+        "confidence": 0.9,
+        "signals": [
+          "fba_shipment",
+          "receiving_info:GEU3"
+        ],
+        "shipment_id": "FBA19MTB13T8",
+        "warehouse_code": "GEU3",
+        "page_fingerprint": "62f13ff31277adc0",
+        "text_sample": "Customer Order | Number: | FBA Order Number: | Made in China | Receiving Information: | GEU3 1234567891 | 18900 W McDowell Road | BUCKEYE AZ 85396 | FBA19MTB13T8 | GEU3 | 1 | 120 | FBA19MTB13T8 W009 | YLPCK26082520656W009001"
+      }
+    }
+  ],
+  "warehouses": [
+    {
+      "warehouse_code": "GEU3",
+      "page_count": 120,
+      "pass": true,
+      "checks": {
+        "shipment_id": {
+          "page": "FBA19MTB13T8",
+          "authority": "FBA19MTB13T8",
+          "ok": true
+        },
+        "warehouse_code": {
+          "page": "GEU3",
+          "authority": "GEU3",
+          "ok": true
+        },
+        "page_count_eq_cartons": {
+          "pages": 120,
+          "freight_cartons": 120,
+          "carton_tree_pages": 120,
+          "ok": true
+        },
+        "no_duplicate_pages": {
+          "ok": true,
+          "duplicates": []
+        }
+      },
+      "errors": [],
+      "channel": "FC",
+      "written": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800\\FBA外箱贴\\FC\\GEU3\\FC_GEU3_入库贴_120箱.pdf"
+    },
+    {
+      "warehouse_code": "SCK8",
+      "page_count": 100,
+      "pass": true,
+      "checks": {
+        "shipment_id": {
+          "page": "FBA19MPKNZJ8",
+          "authority": "FBA19MPKNZJ8",
+          "ok": true
+        },
+        "warehouse_code": {
+          "page": "SCK8",
+          "authority": "SCK8",
+          "ok": true
+        },
+        "page_count_eq_cartons": {
+          "pages": 100,
+          "freight_cartons": 100,
+          "carton_tree_pages": 100,
+          "ok": true
+        },
+        "no_duplicate_pages": {
+          "ok": true,
+          "duplicates": []
+        }
+      },
+      "errors": [],
+      "channel": "FC",
+      "written": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800\\FBA外箱贴\\FC\\SCK8\\FC_SCK8_入库贴_100箱.pdf"
+    }
+  ],
+  "written": [
+    "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800\\FBA外箱贴\\FC\\GEU3\\FC_GEU3_入库贴_120箱.pdf",
+    "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800\\FBA外箱贴\\FC\\SCK8\\FC_SCK8_入库贴_100箱.pdf"
+  ],
+  "blocked": false,
+  "notes": [],
+  "layout_calibrated": {
+    "at": "2026-07-24",
+    "sample": "945箱入库贴(1).zip",
+    "signals": [
+      "Receiving Information: {WH}",
+      "FBA… / STAR-…",
+      "label_{ship}_{N}.pdf"
+    ]
+  }
+}

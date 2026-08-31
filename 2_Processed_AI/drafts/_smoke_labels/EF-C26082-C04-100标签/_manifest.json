@@ -1,0 +1,44 @@
+{
+  "order_code": "EF-C26082-C04-100",
+  "entity_code": "C04",
+  "brand": "WIGENIUS",
+  "layout": "产品标签/{EF}标签/{N}条装/{尺寸}/{原名}.pdf",
+  "label_source": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\桌布标签",
+  "copied": 1,
+  "missing": [],
+  "ambiguous": [],
+  "source_before": {
+    "total_files": 113,
+    "fingerprint": "cb345ccb12bef4e58a026669f045430579a73de75d28d817fcc82acd3e035dbf",
+    "inventory_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\label_source_inventory\\before_EF-C26082-C04-100_20260727_170629.json"
+  },
+  "source_after": {
+    "total_files": 113,
+    "fingerprint": "cb345ccb12bef4e58a026669f045430579a73de75d28d817fcc82acd3e035dbf",
+    "inventory_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\label_source_inventory\\after_EF-C26082-C04-100_20260727_170629.json",
+    "unchanged": true
+  },
+  "lines": [
+    {
+      "size": "60X102inch",
+      "color": "米白",
+      "strips_per_pack": 6,
+      "fnsku": "XTEST",
+      "size_folder": "60x102",
+      "brand": "WIGENIUS",
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/60x102/102象牙白色ivory6条.pdf",
+      "dest_rel": "EF-C26082-C04-100标签/6条装/60x102/102象牙白色ivory6条.pdf",
+      "status": "copied",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/6条装/60x102/102象牙白色ivory6条.pdf",
+          "score": 15
+        },
+        {
+          "rel": "C04-Wigenius品牌/150克桌布标签/6条装/60X102/150-6条象牙白 102.pdf",
+          "score": 11
+        }
+      ]
+    }
+  ]
+}

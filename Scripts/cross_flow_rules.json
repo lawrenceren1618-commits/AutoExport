@@ -1,0 +1,239 @@
+{
+  "version": "1.1",
+  "confirmed_at": "2026-07-30",
+  "doc": "Templates/Cross_Flow_Verify.md",
+  "policy": "Data is never isolated: every generated workbook, label pack, and report must match identity keys and flow edges. Absent artifacts = soft until generated; present mismatches = hard (full report, block).",
+  "identity_keys": {
+    "order_code": {
+      "form": "EF-Cxxxxx-C0x-N",
+      "example": "EF-C26079-C04-36460",
+      "sources": ["PROJECT.order_code", "订单表订单编号", "产品标签夹名", "报告 order_code"]
+    },
+    "order_short": {
+      "form": "Cxxxxx",
+      "example": "C26079",
+      "derive": "from order_code EF-(Cxxxxx)",
+      "sources": ["出货表.所属订单", "PROJECT.split_order_stem", "拆单腿前缀", "贴标包名"]
+    },
+    "outbound_short": {
+      "form": "C0x-YYNN",
+      "example": "C04-2616",
+      "sources": ["PROJECT.outbound_short", "出货表.客户及订单号G2", "出货文件名"]
+    },
+    "ship_date": {
+      "form": "YYYY-MM-DD",
+      "equals": "订单交货日期",
+      "sources": ["PROJECT.ship_date", "出货表.B2", "货代/报关文件名日期"]
+    },
+    "store": {
+      "form": "C04|C07",
+      "brand_lock": { "C04": "WIGENIUS", "C07": "Dressmaker" }
+    },
+    "spec_key": {
+      "form": "store+brand+size+color(+strips_per_pack for packing half)",
+      "note": "出货上半仅 size+color；订单下半/标签另加条数包与 FNSKU",
+      "sources": ["订单上半", "出货明细", "计划行", "标签路径"]
+    },
+    "warehouse_code": {
+      "sources": ["FBA外箱贴", "货代E3", "报关文件名", "贴标包外箱贴夹"]
+    },
+    "fba_shipment_id": {
+      "sources": ["外箱贴", "货代A15"]
+    },
+    "protocol_no": {
+      "sources": ["报关基础表R8C6", "contract_protocol_registry"]
+    },
+    "split_leg_id": {
+      "form": "Cxxxxx-A|B|C",
+      "sources": ["PROJECT.legs", "货代/报关文件名", "贴标包名"]
+    }
+  },
+  "flow_edges": [
+    {
+      "id": "order_to_outbound",
+      "from": "订单表",
+      "to": "出货表",
+      "must": [
+        "order_code_EF_matches_project",
+        "outbound_belonging_order_eq_order_short",
+        "belonging_derives_from_same_EF",
+        "outbound_G2_eq_outbound_short",
+        "ship_date_eq_delivery",
+        "outbound_strips_sum_eq_order_upper_or_project_strips",
+        "outbound_size_color_set_matches_order_upper"
+      ]
+    },
+    {
+      "id": "order_to_labels",
+      "from": "订单表",
+      "to": "产品标签",
+      "must": [
+        "label_bundle_folder_eq_order_code加标签",
+        "manifest_order_code_eq_project"
+      ]
+    },
+    {
+      "id": "outbound_to_project",
+      "from": "出货表",
+      "to": "PROJECT.json",
+      "must": [
+        "filename_matches_outbound_short_and_ship_date",
+        "store_prefix_matches_entity"
+      ]
+    },
+    {
+      "id": "shipments_to_archive",
+      "from": "Shipments出货表",
+      "to": "完整存档出货表",
+      "must": [
+        "belonging_order_equal_when_both_present",
+        "outbound_short_equal"
+      ]
+    },
+    {
+      "id": "freight_to_customs",
+      "from": "货代入库贴下单表",
+      "to": "报关资料表",
+      "join": "warehouse_code",
+      "must": [
+        "cartons_eq",
+        "customs_header_bolisi_reference",
+        "protocol_registered_post_gen"
+      ],
+      "must_not": [
+        "force_unit_price_eq",
+        "force_strips_eq"
+      ],
+      "notes": [
+        "报关单价/条数/货值权威=总表1039+沉淀库+正算反算(Amount_Weight_Reconcile)，不以货代为源",
+        "货代 F15=floor(条÷箱) 可能少计余数条 → 单价可与报关不同，属正常",
+        "箱数可对照；货代箱数来源须为外箱贴确认行（严格）",
+        "表内抬头波丽丝=参考核对；协议号生成后必须程序复查登记库"
+      ]
+    },
+    {
+      "id": "customs_to_master",
+      "from": "报关资料表",
+      "to": "总表/settled_knowledge_db",
+      "must": [
+        "unit_price_and_amount_from_master_reconcile",
+        "reconcile_error_rate_le_1pct_or_confirm"
+      ]
+    },
+    {
+      "id": "freight_carton_source",
+      "from": "货代C15箱数",
+      "to": "FBA外箱贴确认/识别",
+      "must": [
+        "cartons_match_confirmed_fba_or_inbound"
+      ]
+    },
+    {
+      "id": "legs_to_totals",
+      "from": "分仓货代报关",
+      "to": "订单/出货总量",
+      "must": [
+        "sum_warehouse_strips_le_or_eq_batch",
+        "amount_weight_reconcile_le_1pct_when_report_present"
+      ]
+    },
+    {
+      "id": "packs_to_identity",
+      "from": "贴标包/完整存档",
+      "to": "order_short / order_code",
+      "must": [
+        "pack_folder_contains_leg_or_order_short"
+      ]
+    },
+    {
+      "id": "reports_to_source",
+      "from": "reconcile/summary/cross_check/post_gen reports",
+      "to": "生成表与 PROJECT",
+      "must": [
+        "summary_order_code_eq_project",
+        "reconcile_gate_overall_pass_or_confirm",
+        "report_must_not_reference_other_ticket"
+      ]
+    }
+  ],
+  "outbound_cells": {
+    "ship_date": "B2",
+    "outbound_short": "G2",
+    "order_qty_header": "B3",
+    "belonging_order": "F5",
+    "detail_start_row": 5,
+    "cols": {
+      "product": 1,
+      "gram": 2,
+      "size": 3,
+      "color": 4,
+      "qty": 5,
+      "belonging_order": 6,
+      "warehouse": 7,
+      "dest": 9
+    }
+  },
+  "freight_cells": {
+    "sheet": "下单模板",
+    "customer_no": "C2",
+    "warehouse": "E3",
+    "fba": "A15",
+    "tracking": "B15",
+    "cartons": "C15",
+    "qty_per_carton": "F15",
+    "unit_price": "G15",
+    "brand_cols": ["P15", "Q15", "R15"],
+    "hs": "M15",
+    "static_customer_no": "111111111",
+    "brand_value": "无",
+    "hs_default": "6302539090"
+  },
+  "customs_cells": {
+    "sheet": "基础表",
+    "gross_kg": [7, 12],
+    "protocol_no": [8, 6],
+    "net_kg": [8, 12],
+    "header_company": [9, 4],
+    "header_short": [9, 6],
+    "total_cartons": [9, 12],
+    "hs": [14, 3],
+    "line_cartons": [14, 6],
+    "line_strips": [14, 7],
+    "unit_price": [14, 9],
+    "amount": [14, 10],
+    "header_must_contain": "波丽丝",
+    "filename_must_contain": "畅选"
+  },
+  "checks": [
+    { "id": "V_ID_ORDER_CODE", "hard": true },
+    { "id": "V_ID_CHAIN_EF_SHORT_BELONGING", "hard": true },
+    { "id": "V_ID_ORDER_SHORT_ON_OUTBOUND", "hard": true },
+    { "id": "V_ID_OUTBOUND_SHORT", "hard": true },
+    { "id": "V_SHIP_DATE_EQ", "hard": true },
+    { "id": "V_ENTITY_BRAND", "hard": true },
+    { "id": "V_OUT_STRIPS_EQ_PROJECT", "hard": true },
+    { "id": "V_OUT_SPECS_VS_ORDER", "hard": true, "soft_if_order_unparsed": true },
+    { "id": "V_NO_FNSKU_ON_OUTBOUND", "hard": true },
+    { "id": "V_LABEL_BUNDLE_ORDER_CODE", "hard": true, "soft_if_absent": true },
+    { "id": "V_ARCHIVE_OUTBOUND_SYNC", "hard": true, "soft_if_archive_absent": true },
+    { "id": "V_FREIGHT_STATICS", "hard": true },
+    { "id": "V_FREIGHT_FLOOR_QTY", "hard": true },
+    { "id": "V_FREIGHT_CUSTOMS_CARTONS", "hard": true },
+    { "id": "V_FREIGHT_CUSTOMS_UNIT_PRICE", "hard": false, "note": "不得强制相等；货代取整可致单价差" },
+    { "id": "V_FREIGHT_CUSTOMS_STRIPS", "hard": false, "note": "不得强制相等；报关条数权威" },
+    { "id": "V_CUSTOMS_1039_HEADER", "hard": false, "soft": true, "note": "抬头参考核对" },
+    { "id": "V_PROTOCOL_UNIQUE", "hard": true, "note": "生成后程序复查登记库" },
+    { "id": "V_CUSTOMS_VS_RECONCILE", "hard": true, "soft_if_absent": true },
+    { "id": "V_SUMMARY_ORDER_CODE", "hard": true },
+    { "id": "V_RECONCILE_GATE", "hard": true, "soft_if_absent": true },
+    { "id": "V_ORDER_FILE_PARSE", "hard": false, "soft_if_fail": true }
+  ],
+  "authority": {
+    "customs_unit_price_strips_amount": ["master_1039", "settled_knowledge_db", "Amount_Weight_Reconcile B"],
+    "freight_qty_per_carton": "floor(warehouse_strips / warehouse_cartons)",
+    "freight_cartons": "FBA_carton_confirm_or_inbound_verified",
+    "outbound_belonging_order": "order_short from EF",
+    "canonical_workdir": "1_Input_Raw/Shipments/{project}/",
+    "output_copy_only": "3_Output_Final — copy from Shipments; never sole rewrite target"
+  }
+}

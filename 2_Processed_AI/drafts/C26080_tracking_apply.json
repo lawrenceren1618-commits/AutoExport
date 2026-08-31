@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-07-24T14:54:51+0800",
+  "updated": [
+    {
+      "file": "货代下单表_C26080-A 2026.7.31桌布 SCK8 30箱.xlsx",
+      "warehouse_code": "SCK8",
+      "fba_shipment_id": "FBA19JZQXH2X",
+      "tracking_id": "4MBPXH1E"
+    },
+    {
+      "file": "货代下单表_C26080-B 2026.7.31桌布 FWA4 94箱.xlsx",
+      "warehouse_code": "FWA4",
+      "fba_shipment_id": "FBA19JZR1DC8",
+      "tracking_id": "2T8VLG8U"
+    },
+    {
+      "file": "货代下单表_C26080-B 2026.7.31桌布 MCC1 55箱.xlsx",
+      "warehouse_code": "MCC1",
+      "fba_shipment_id": "FBA19JZQF77V",
+      "tracking_id": "6SBALYVV"
+    },
+    {
+      "file": "货代下单表_C26080-B 2026.7.31桌布 PSP3 50箱.xlsx",
+      "warehouse_code": "PSP3",
+      "fba_shipment_id": "FBA19JZVPFS1",
+      "tracking_id": "7QJ2V2SA"
+    },
+    {
+      "file": "货代下单表_C26080-B 2026.7.31桌布 RDU2 54箱.xlsx",
+      "warehouse_code": "RDU2",
+      "fba_shipment_id": "FBA19JZSQT6L",
+      "tracking_id": "48FYIXJX"
+    },
+    {
+      "file": "货代下单表_C26080-B 2026.7.31桌布 TOL3 67箱.xlsx",
+      "warehouse_code": "TOL3",
+      "fba_shipment_id": "FBA19JZPT0MZ",
+      "tracking_id": "6IFXBUOS"
+    }
+  ],
+  "missing": [],
+  "rule": "Templates/Shipment_Tracking_Screenshot_Inbox.md"
+}

@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-08-28T11:09:41",
+  "source": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\发货统计\\_inbox\\2026年发货记录.xls",
+  "rule": "Templates/Ship_Stats_Freight_Allocation.md",
+  "batches": [
+    {
+      "ticket": "C26095",
+      "give": "9.4 易尚",
+      "channel": "物易通",
+      "freight_total": null,
+      "total_packs": 300.0,
+      "batch_issues": [
+        "freight_missing_or_zero"
+      ],
+      "lines": [
+        {
+          "row": 349,
+          "spec": "10",
+          "size": "120白",
+          "cartons": 50.0,
+          "pack_per_ctn": 3.0,
+          "packs": 150.0,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 350,
+          "spec": "10",
+          "size": "120米白",
+          "cartons": 50.0,
+          "pack_per_ctn": 3.0,
+          "packs": 150.0,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "ticket": "C26095",
+      "give": "9.4 易尚",
+      "channel": "物易通",
+      "freight_total": null,
+      "total_packs": 480.0,
+      "batch_issues": [
+        "freight_missing_or_zero"
+      ],
+      "lines": [
+        {
+          "row": 351,
+          "spec": "10",
+          "size": "102米白",
+          "cartons": 100.0,
+          "pack_per_ctn": 4.0,
+          "packs": 400.0,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 352,
+          "spec": "10",
+          "size": "90圆米白",
+          "cartons": 20.0,
+          "pack_per_ctn": 4.0,
+          "packs": 80.0,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "blockers": [
+    "C26095:freight_missing_or_zero"
+  ],
+  "ready": false
+}

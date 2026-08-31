@@ -1,0 +1,21 @@
+{
+  "at": "2026-07-31T03:09:28.413Z",
+  "verdict": "secondary_unavailable",
+  "overlap_ratio": 0,
+  "note": "dual_compare_disabled_or_no_key",
+  "primary": {
+    "engine": "local_tesseract",
+    "ok": true,
+    "text_preview": "paste_1785467313118_0.png\n5 个 确认 货 件\n打印 箱子 标签 后 ， 货 件 将 变 为 \"准备 发 货 \"状态 。\n货 件 1 7 查看 或 编辑 物品 信息 货 件 2 /查看 或 编辑 物品 信息 货 件 3 /查看 或 编辑 物品 信息\n货 件 名 称 : AVP1 4 月 底 发 货 ，400 箱 102 白 -6+102 黑 -6 和 102 白 -10 各 50 货 件 名 称 : ONT8 4 月 底 发 货 ，400 箱 102 白 -6+102 黑 -6 和 102 白 -10 各 50 货 件 名 称 : RDU2 4 月 底 发 货 ，400 箱 102 白 -6+102 黑 -6 和 102 白 -10 各 50\n货 件 编号 : FBA19BBTRWOJ 货 件 编号 : FBA19BBPNJSJ 货 件 编号 : FBA19BBM"
+  },
+  "secondary": {
+    "engine": "llamaparse",
+    "ok": false,
+    "skipped": true,
+    "error": "dual_compare_disabled_or_no_key",
+    "text_preview": ""
+  },
+  "shared_tokens": [],
+  "primary_only_tokens": [],
+  "secondary_only_tokens": []
+}

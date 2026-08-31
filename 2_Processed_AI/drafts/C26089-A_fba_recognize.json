@@ -1,0 +1,95 @@
+{
+  "order_code": "EF-C26089-C07-40000",
+  "split_leg_id": "C26089-A",
+  "channel": "FC",
+  "freight_forwarder": "纽酷",
+  "user_confirmed": true,
+  "confirmed_at": "2026-08-20T16:20:00+0800",
+  "warehouses": [
+    {
+      "warehouse_code": "LAS1",
+      "specs": [
+        {
+          "fnsku": "X004SJV9UF",
+          "size": "60X102inch",
+          "color": "白色",
+          "strips_per_pack": 10,
+          "packs_per_carton": 4,
+          "strips_per_carton": 40,
+          "qty_strips": 4280,
+          "qty_cartons": 107,
+          "strips": 4280,
+          "cartons": 107
+        }
+      ]
+    },
+    {
+      "warehouse_code": "CLT2",
+      "specs": [
+        {
+          "fnsku": "X004SJV9UF",
+          "size": "60X102inch",
+          "color": "白色",
+          "strips_per_pack": 10,
+          "packs_per_carton": 4,
+          "strips_per_carton": 40,
+          "qty_strips": 3400,
+          "qty_cartons": 85,
+          "strips": 3400,
+          "cartons": 85
+        }
+      ]
+    },
+    {
+      "warehouse_code": "TEB9",
+      "specs": [
+        {
+          "fnsku": "X004SJV9UF",
+          "size": "60X102inch",
+          "color": "白色",
+          "strips_per_pack": 10,
+          "packs_per_carton": 4,
+          "strips_per_carton": 40,
+          "qty_strips": 3600,
+          "qty_cartons": 90,
+          "strips": 3600,
+          "cartons": 90
+        }
+      ]
+    },
+    {
+      "warehouse_code": "SBD1",
+      "specs": [
+        {
+          "fnsku": "X004SJV9UF",
+          "size": "60X102inch",
+          "color": "白色",
+          "strips_per_pack": 10,
+          "packs_per_carton": 4,
+          "strips_per_carton": 40,
+          "qty_strips": 4760,
+          "qty_cartons": 119,
+          "strips": 4760,
+          "cartons": 119
+        }
+      ]
+    },
+    {
+      "warehouse_code": "LAX9",
+      "specs": [
+        {
+          "fnsku": "X004SJV9UF",
+          "size": "60X102inch",
+          "color": "白色",
+          "strips_per_pack": 10,
+          "packs_per_carton": 4,
+          "strips_per_carton": 40,
+          "qty_strips": 3960,
+          "qty_cartons": 99,
+          "strips": 3960,
+          "cartons": 99
+        }
+      ]
+    }
+  ]
+}

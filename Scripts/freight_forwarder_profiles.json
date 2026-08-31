@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "confirmed_at": "2026-08-20",
+  "doc": "Templates/Freight_Inbound_Label_Pipeline.md",
+  "rule": "货代类型决定是否需要单独回传入库贴 PDF",
+  "inbound_label_modes": {
+    "send_embedded_in_carton": "亚马逊 SEND 承运人：后台下载的外箱贴 PDF 已含入库贴，无需货代另回传",
+    "freight_returns_pdf": "普通货代：须先发货代下单表，再由货代回传入库贴 PDF（走 12 号脚本流水线）"
+  },
+  "forwarders": {
+    "纽酷": {
+      "type": "amazon_send",
+      "inbound_label_mode": "send_embedded_in_carton",
+      "requires_separate_inbound_pdf": false,
+      "carton_label_source": "amazon_backend_download",
+      "note": "亚马逊 SEND 承运人；外箱贴自带入库贴，不额外向货代要入库贴"
+    },
+    "物易通": {
+      "type": "regular",
+      "inbound_label_mode": "freight_returns_pdf",
+      "requires_separate_inbound_pdf": true,
+      "carton_label_source": "user_upload_or_forwarder",
+      "note": "普通货代；须单独向货代下单并等待回传入库贴 PDF"
+    }
+  }
+}

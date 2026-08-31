@@ -1,12 +1,15 @@
 import Link from "next/link";
 
+/** @deprecated use OpsNav — kept for any stray imports */
 export function AdminNav() {
   return (
     <nav className="admin-nav">
-      <Link href="/admin/progress">工作总结</Link>
-      <Link href="/admin/fba-track">FBA仓头/追踪码</Link>
-      <Link href="/admin/master-import">人工总表导入</Link>
-      <Link href="/">返回首页</Link>
+      <Link href="/workspace">作业</Link>
+      <Link href="/ops/archives">发货存档</Link>
+      <Link href="/ops/progress">进度树</Link>
+      <Link href="/ops/fba-track">FBA仓头/追踪</Link>
+      <Link href="/ops/master-import">总表入库</Link>
+      <Link href="/">首页</Link>
     </nav>
   );
 }

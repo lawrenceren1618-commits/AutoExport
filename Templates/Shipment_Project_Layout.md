@@ -1,9 +1,10 @@
 # 发货项目制（Shipment Project）组织规则
 
 > 每一票发货 = 一个项目文件夹。不再用「01/02/03 三分法目录」作为日常归类主轴（三分法 Correspondence 文档仍描述单据类型）。  
-> 物理根目录：`1_Input_Raw/Shipments/`  
-> 最终生成物同步落：`3_Output_Final/{同一项目名}/`（须 Gate 通过）
-
+> 物理根目录：`1_Input_Raw/Shipments/`（**处理黑箱**）  
+> **用户端简洁 IO**（输入/输出/汇总存档）：`User_IO/` — 见 [`User_IO_Layout.md`](User_IO_Layout.md)。  
+> **输出端两包**（旧仓，仅复制）：`3_Output_Final/{同一项目名}/…`。见 [`Colleague_Pack_Export.md`](Colleague_Pack_Export.md)。Gate→Final 业务闸门仍独立。  
+> 多单并腿补充：[`Multi_Order_Ship_Batch.md`](Multi_Order_Ship_Batch.md)。
 ## 1. 项目文件夹命名
 
 ```text
@@ -30,9 +31,9 @@
 | `货代入库贴下单表/` | **系统生成** | 货代下单模板填空 |
 | `报关资料表/` | **系统生成** | 报关套表 |
 | `产品标签/` | 自标签源**复制** | **固定**：`{EF订单号}标签/{N}条装/{尺寸}/原名.pdf`（见 [`Shipment_Product_Label_Layout.md`](Shipment_Product_Label_Layout.md)） |
-| `FBA外箱贴/` | **使用者后续更新** | FC/AWD/GWD 外箱贴；可上传原包后由助手识别拆分归纳（见 [`Carton_Label_Channels.md`](Carton_Label_Channels.md)） |
+| `FBA外箱贴/` | **使用者后续更新** | FC/AWD 外箱贴（GWD 停用）；可上传原包后由助手识别拆分归纳（见 [`Carton_Label_Channels.md`](Carton_Label_Channels.md)）；确认后的**货代入库贴**一仓一 PDF 亦落在对应 `{渠道}/{仓码}/`（见 [`Freight_Inbound_Label_Pipeline.md`](Freight_Inbound_Label_Pipeline.md)） |
 | `拆单比对/` | **系统生成** | 拆单时：`split_ledger.json`（计划/已发/剩余）；见 [`Split_Shipment_Ledger.md`](Split_Shipment_Ledger.md) |
-| `货代入库贴/` | **使用者后续更新** | 与「下单表」区分 |
+| `货代入库贴/` | **使用者后续更新** | 货代回传 PDF：`_inbox` / `_staging` / `_recognize`；与「下单表」区分；正式件写入 `FBA外箱贴/…` |
 | `_来源归档/` | 历史样例 | 采购、信息表、旧模板等辅助 |
 
 识别规则（读历史包时）：

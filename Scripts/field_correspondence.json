@@ -23,9 +23,10 @@
       "field_change_map_json": "Scripts/table_field_maps.json",
       "outbound_short_seq": "Scripts/outbound_short_seq.json",
       "input_dir": "1_Input_Raw/01_Order_Outbound",
-      "status": "outbound_draft_C04-2616_rules_settled_2026-07-21",
+      "status": "order_layout_locked_c26079_master",
       "generator": "Scripts/05_generate_order.py",
       "modules": "Scripts/m1/",
+      "layout_master": "Templates/order_layout_master.xlsx",
       "blank_template": "Templates/order_blank_zh.xlsx",
       "deferred": false
     },

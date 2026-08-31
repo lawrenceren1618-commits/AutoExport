@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-08-31T15:03:39+0800",
+  "project": "1_Input_Raw\\Shipments\\EF-C26100-C07-12000_C07_20260919_12000",
+  "inbox": "1_Input_Raw\\Shipments\\EF-C26100-C07-12000_C07_20260919_12000\\货代入库贴\\_inbox",
+  "apply": true,
+  "authority_paths": [
+    "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts\\C26100_freight_customs_summary.json"
+  ],
+  "authority_warehouses": {
+    "IUTJ": {
+      "shipment_id": "STAR-Q675HFPYAEZ7Y",
+      "cartons": 300,
+      "channel": "",
+      "carton_pages": 0,
+      "freight_file": "1_Input_Raw\\Shipments\\EF-C26100-C07-12000_C07_20260919_12000\\货代入库贴下单表\\货代下单表_C26100 2026.9.19桌布 IUTJ 300箱.xlsx",
+      "fba_path": null
+    }
+  },
+  "doc": "Templates/Freight_Inbound_Label_Pipeline.md",
+  "inbox_file_count": 1,
+  "total_pages": 300,
+  "files": [
+    {
+      "path": "1_Input_Raw\\Shipments\\EF-C26100-C07-12000_C07_20260919_12000\\货代入库贴\\_inbox\\C26100 入库贴.pdf",
+      "page_count": 300,
+      "channels": [
+        "AWD"
+      ],
+      "shipment_ids": [
+        "STAR-Q675HFPYAEZ7Y"
+      ],
+      "warehouses": [
+        "IUTJ"
+      ],
+      "sample_page0": {
+        "source_file": "1_Input_Raw\\Shipments\\EF-C26100-C07-12000_C07_20260919_12000\\货代入库贴\\_inbox\\C26100 入库贴.pdf",
+        "page_index": 0,
+        "channel": "AWD",
+        "confidence": 0.9,
+        "signals": [
+          "star_shipment",
+          "receiving_info:IUTJ",
+          "awd_signal"
+        ],
+        "shipment_id": "STAR-Q675HFPYAEZ7Y",
+        "warehouse_code": "IUTJ",
+        "page_fingerprint": "a5eb9a33c56f06c9",
+        "text_sample": "Customer Order | Number: | FBA Order Number: | Made in China | Receiving Information: | IUTJ 1234567890 | 9253 Dreamland Drive | Fontana CA 92335 | STAR-Q675HFPYAEZ7Y | IUTJ | 1 | 300 | STAR-Q675HFPYAEZ7Y W009 | YLPCK26083133748W009001"
+      }
+    }
+  ],
+  "warehouses": [
+    {
+      "warehouse_code": "IUTJ",
+      "page_count": 300,
+      "pass": true,
+      "checks": {
+        "shipment_id": {
+          "page": "STAR-Q675HFPYAEZ7Y",
+          "authority": "STAR-Q675HFPYAEZ7Y",
+          "ok": true
+        },
+        "warehouse_code": {
+          "page": "IUTJ",
+          "authority": "IUTJ",
+          "ok": true
+        },
+        "page_count_eq_cartons": {
+          "pages": 300,
+          "freight_cartons": 300,
+          "carton_tree_pages": 0,
+          "ok": true
+        },
+        "no_duplicate_pages": {
+          "ok": true,
+          "duplicates": []
+        }
+      },
+      "errors": [],
+      "channel": "AWD",
+      "written": "1_Input_Raw\\Shipments\\EF-C26100-C07-12000_C07_20260919_12000\\FBA外箱贴\\AWD\\IUTJ\\AWD_IUTJ_入库贴_300箱.pdf"
+    }
+  ],
+  "written": [
+    "1_Input_Raw\\Shipments\\EF-C26100-C07-12000_C07_20260919_12000\\FBA外箱贴\\AWD\\IUTJ\\AWD_IUTJ_入库贴_300箱.pdf"
+  ],
+  "blocked": false,
+  "notes": [],
+  "layout_calibrated": {
+    "at": "2026-07-24",
+    "sample": "945箱入库贴(1).zip",
+    "signals": [
+      "Receiving Information: {WH}",
+      "FBA… / STAR-…",
+      "label_{ship}_{N}.pdf"
+    ]
+  }
+}

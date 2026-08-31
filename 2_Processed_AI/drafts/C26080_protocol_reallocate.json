@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-07-24T16:41:25+0800",
+  "project": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590",
+  "ship_date": "2026-07-31",
+  "rule": "Templates/Customs_Contract_Protocol_No.md",
+  "mapping": [
+    {
+      "warehouse_code": "SCK8",
+      "protocol_no": "20260731501",
+      "old_protocol_no": "20260731801",
+      "file": "畅选+波丽丝 2026.7.31发货 C26080 SCK8 30箱 市场采购数据.xlsx"
+    },
+    {
+      "warehouse_code": "TOL3",
+      "protocol_no": "20260731502",
+      "old_protocol_no": "20260731802",
+      "file": "畅选+波丽丝 2026.7.31发货 C26080 TOL3 67箱 市场采购数据.xlsx"
+    },
+    {
+      "warehouse_code": "MCC1",
+      "protocol_no": "20260731503",
+      "old_protocol_no": "20260731803",
+      "file": "畅选+波丽丝 2026.7.31发货 C26080 MCC1 55箱 市场采购数据.xlsx"
+    },
+    {
+      "warehouse_code": "FWA4",
+      "protocol_no": "20260731504",
+      "old_protocol_no": "20260731804",
+      "file": "畅选+波丽丝 2026.7.31发货 C26080 FWA4 94箱 市场采购数据.xlsx"
+    },
+    {
+      "warehouse_code": "RDU2",
+      "protocol_no": "20260731505",
+      "old_protocol_no": "20260731805",
+      "file": "畅选+波丽丝 2026.7.31发货 C26080 RDU2 54箱 市场采购数据.xlsx"
+    },
+    {
+      "warehouse_code": "PSP3",
+      "protocol_no": "20260731506",
+      "old_protocol_no": "20260731806",
+      "file": "畅选+波丽丝 2026.7.31发货 C26080 PSP3 50箱 市场采购数据.xlsx"
+    }
+  ]
+}

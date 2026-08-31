@@ -1,0 +1,78 @@
+{
+  "id": "EF-C26089-C07-40000_C07_20260821_40000",
+  "folder_name": "EF-C26089-C07-40000_C07_20260821_40000",
+  "order_code": "EF-C26089-C07-40000",
+  "order_short": "C26089",
+  "outbound_short": "C07-2609",
+  "outbound_filename": "C07-2609-U-2026.8.29.xlsx",
+  "store": "C07",
+  "brand": "Dressmaker",
+  "order_date": "2026-08-10",
+  "delivery_date": "2026-08-29",
+  "ship_date": "2026-08-29",
+  "strips": 40000,
+  "cartons": 1000,
+  "status": "split_complete",
+  "split_shipment": true,
+  "split_order_stem": "C26089",
+  "split_naming": "C26089-A/B",
+  "split_leg_latest": "C26089-B",
+  "split_leg_next": null,
+  "remaining_strips": 0,
+  "remaining_cartons": 0,
+  "split_ledger": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\拆单比对\\split_ledger.json",
+  "order_unchanged": true,
+  "product_labels_unchanged": true,
+  "gate_final": "CONFIRMED",
+  "gate_confirmed_at": "2026-08-25T11:10:00+0800",
+  "output_final": "D:\\.cursor\\Cursor-projects\\AutoExport\\3_Output_Final\\EF-C26089-C07-40000_C07_20260821_40000",
+  "job_id": "4ed01c57-9446-4dd9-a7fd-488395f6eaed",
+  "split_legs": {
+    "C26089-A": {
+      "qty_cartons": 500,
+      "qty_strips": 20000,
+      "ship_date": "2026-08-29",
+      "outbound_short": "C07-2609",
+      "freight_forwarder": "纽酷",
+      "inbound_label_mode": "send_embedded_in_carton",
+      "channel": "FC",
+      "warehouses": [
+        "LAS1",
+        "CLT2",
+        "TEB9",
+        "SBD1",
+        "LAX9"
+      ],
+      "protocol_nos": [
+        "20260829502",
+        "20260829503",
+        "20260829504",
+        "20260829505",
+        "20260829506"
+      ]
+    },
+    "C26089-B": {
+      "qty_cartons": 500,
+      "qty_strips": 20000,
+      "ship_date": "2026-08-29",
+      "outbound_short": "C07-2609",
+      "freight_forwarder": "物易通",
+      "inbound_label_mode": "freight_returns_pdf",
+      "channel": "AWD",
+      "warehouses": [
+        "IUSP"
+      ],
+      "fba_shipment_id": "STAR-RCKQMK6EMHN4K",
+      "tracking_id": "42LMBL4E",
+      "protocol_nos": [
+        "20260829507"
+      ],
+      "voided_warehouse": "IUTJ",
+      "recreated_at": "2026-08-25"
+    }
+  },
+  "freight_customs_summary_A": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts\\C26089-A_freight_customs_summary.json",
+  "freight_customs_summary_B": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts\\C26089-B_freight_customs_summary.json",
+  "source_note": "2026-08-20拆两票; 2026-08-25 B重建 IUSP STAR-RCKQMK6EMHN4K/42LMBL4E; 协议502-507; Gate CONFIRMED",
+  "gate_note": "B recreate IUSP; Gate PASS 20260825_110512"
+}

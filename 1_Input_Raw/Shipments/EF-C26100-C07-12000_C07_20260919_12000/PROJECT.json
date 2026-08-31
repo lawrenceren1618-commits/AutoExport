@@ -1,0 +1,51 @@
+{
+  "id": "EF-C26100-C07-12000_C07_20260919_12000",
+  "folder_name": "EF-C26100-C07-12000_C07_20260919_12000",
+  "order_code": "EF-C26100-C07-12000",
+  "order_short": "C26100",
+  "outbound_short": "C07-2611",
+  "outbound_filename": "C07-2611-U-2026.9.19.xlsx",
+  "store": "C07",
+  "brand": "Dressmaker",
+  "order_date": "2026-08-25",
+  "delivery_date": "2026-09-19",
+  "ship_date": "2026-09-19",
+  "strips": 12000,
+  "cartons": 300,
+  "status": "gate_confirmed_final_exported",
+  "gate_final": "CONFIRMED",
+  "job_id": "3d483c2c-fa17-488b-95b0-cb418b8c500f",
+  "channel": "AWD",
+  "freight_forwarder": "物易通",
+  "inbound_label_mode": "freight_returns_pdf",
+  "lines": [
+    {
+      "size": "60X102inch",
+      "color": "白",
+      "qty_strips": 12000,
+      "qty_cartons": 300,
+      "strips_per_pack": 10,
+      "packs_per_carton": 4,
+      "strips_per_carton": 40,
+      "fnsku": "X004SJV9UF",
+      "gram_weight": "90G"
+    }
+  ],
+  "legs": {
+    "C26100": {
+      "channel": "AWD",
+      "warehouse_code": "IUTJ",
+      "fba_shipment_id": "STAR-Q675HFPYAEZ7Y",
+      "tracking_id": "8OTA332Y",
+      "freight_addr": "IUTJ - 9253 Dreamland Drive 92335 - Fontana, CA - United States",
+      "qty_cartons": 300,
+      "qty_strips": 12000,
+      "ship_date": "2026-09-19",
+      "outbound_short": "C07-2611",
+      "user_confirmed_ids_at": "2026-08-31",
+      "freight_forwarder": "物易通",
+      "carton_pdf": "promoted"
+    }
+  },
+  "source_note": "2026-08-31 AWD/IUTJ 物易通；STAR-Q675HFPYAEZ7Y / 8OTA332Y / 300箱；等外箱贴 PDF 识别"
+}

@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-08-13T09:53:43+0800",
+  "scope": "labels",
+  "subject": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\autoexport-jobs\\4ed01c57-9446-4dd9-a7fd-488395f6eaed\\out\\product_labels\\EF-C26089-C07-40000标签",
+  "pass": true,
+  "findings": [
+    {
+      "check": "V_LABEL_BUNDLE_ORDER_CODE",
+      "ok": true,
+      "expected": "EF-C26089-C07-40000标签",
+      "actual": [
+        "EF-C26089-C07-40000标签"
+      ],
+      "detail": "pdfs=1",
+      "soft": false,
+      "edge": "order_to_labels"
+    },
+    {
+      "check": "V_LABEL_MANIFEST_ORDER_CODE",
+      "ok": true,
+      "expected": "EF-C26089-C07-40000",
+      "actual": [
+        "EF-C26089-C07-40000"
+      ],
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_labels"
+    }
+  ],
+  "hard_failures": [],
+  "meta_keys": {
+    "order_code": "EF-C26089-C07-40000",
+    "order_short": null,
+    "outbound_short": null,
+    "ship_date": null
+  },
+  "doc": "Templates/Cross_Flow_Verify.md",
+  "rules": "Scripts/cross_flow_rules.json"
+}

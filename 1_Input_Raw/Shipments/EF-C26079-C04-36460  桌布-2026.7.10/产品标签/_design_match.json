@@ -1,0 +1,520 @@
+{
+  "order_code": "EF-C26079-C04-36460",
+  "rules": "fnsku bidirectional; gram weight ignored for label match",
+  "taken_at": "2026-07-21T09:22:00+0800",
+  "summary": {
+    "copied": 23
+  },
+  "lines": [
+    {
+      "size": "60X102inch",
+      "color": "米白",
+      "strips_per_pack": 6,
+      "fnsku": "X004W20FM1",
+      "packs_per_carton": 9,
+      "cartons": 120,
+      "total_strips": 6480,
+      "size_key": "60x102",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|60x102|6|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/6条装/60x102/102象牙白色ivory6条.pdf",
+          "score": 15
+        },
+        {
+          "rel": "C04-Wigenius品牌/150克桌布标签/6条装/60X102/150-6条象牙白 102.pdf",
+          "score": 11
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/60x102/102象牙白色ivory6条.pdf",
+      "dest_rel": "by_fnsku/X004W20FM1/102象牙白色ivory6条.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "60X102inch",
+      "color": "蓝",
+      "strips_per_pack": 6,
+      "fnsku": "X0050TS4O1",
+      "packs_per_carton": 9,
+      "cartons": 20,
+      "total_strips": 1080,
+      "size_key": "60x102",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|60x102|6|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/6条装/60x102/102蓝色6条.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/60x102/102蓝色6条.pdf",
+      "dest_rel": "by_fnsku/X0050TS4O1/102蓝色6条.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "60X102inch",
+      "color": "白",
+      "strips_per_pack": 10,
+      "fnsku": "X003WN3V5J",
+      "packs_per_carton": 4,
+      "cartons": 50,
+      "total_strips": 2000,
+      "size_key": "60x102",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|60x102|10|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/10条装/6x102/102白 10条装.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/6x102/102白 10条装.pdf",
+      "dest_rel": "by_fnsku/X003WN3V5J/102白 10条装.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "60X102inch",
+      "color": "米白",
+      "strips_per_pack": 10,
+      "fnsku": "X0050TQ9HP",
+      "packs_per_carton": 4,
+      "cartons": 100,
+      "total_strips": 4000,
+      "size_key": "60x102",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|60x102|10|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/10条装/6x102/102象牙色10条.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/6x102/102象牙色10条.pdf",
+      "dest_rel": "by_fnsku/X0050TQ9HP/102象牙色10条.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "60X102inch",
+      "color": "蓝",
+      "strips_per_pack": 10,
+      "fnsku": "X0052FXOH5",
+      "packs_per_carton": 4,
+      "cartons": 30,
+      "total_strips": 1200,
+      "size_key": "60x102",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|60x102|10|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/10条装/6x102/102蓝 10条装.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/6x102/102蓝 10条装.pdf",
+      "dest_rel": "by_fnsku/X0052FXOH5/102蓝 10条装.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "60X126inch",
+      "color": "白",
+      "strips_per_pack": 2,
+      "fnsku": "X005398X17",
+      "packs_per_carton": 18,
+      "cartons": 10,
+      "total_strips": 360,
+      "size_key": "60x126",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|60x126|2|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/2条装/60x126/126白 两条装.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/2条装/60x126/126白 两条装.pdf",
+      "dest_rel": "by_fnsku/X005398X17/126白 两条装.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "60X126inch",
+      "color": "白",
+      "strips_per_pack": 6,
+      "fnsku": "X003WN01DT",
+      "packs_per_carton": 6,
+      "cartons": 50,
+      "total_strips": 1800,
+      "size_key": "60x126",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|60x126|6|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/6条装/60x126/126白色6条.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/60x126/126白色6条.pdf",
+      "dest_rel": "by_fnsku/X003WN01DT/126白色6条.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "60X126inch",
+      "color": "米白",
+      "strips_per_pack": 6,
+      "fnsku": "X005398UJ7",
+      "packs_per_carton": 6,
+      "cartons": 30,
+      "total_strips": 1080,
+      "size_key": "60x126",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|60x126|6|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/6条装/60x126/126米白 6条装.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/60x126/126米白 6条装.pdf",
+      "dest_rel": "by_fnsku/X005398UJ7/126米白 6条装.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "60X126inch",
+      "color": "白",
+      "strips_per_pack": 10,
+      "fnsku": "X005395XVF",
+      "packs_per_carton": 3,
+      "cartons": 50,
+      "total_strips": 1500,
+      "size_key": "60x126",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|60x126|10|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/10条装/60x126/126白 10条装.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/60x126/126白 10条装.pdf",
+      "dest_rel": "by_fnsku/X005395XVF/126白 10条装.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "60X126inch",
+      "color": "米白",
+      "strips_per_pack": 10,
+      "fnsku": "X0054KNSLF",
+      "packs_per_carton": 3,
+      "cartons": 40,
+      "total_strips": 1200,
+      "size_key": "60x126",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|60x126|10|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/10条装/60x126/Wigenius 126米白 10条装.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/60x126/Wigenius 126米白 10条装.pdf",
+      "dest_rel": "by_fnsku/X0054KNSLF/Wigenius 126米白 10条装.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "70X120inch",
+      "color": "白",
+      "strips_per_pack": 2,
+      "fnsku": "X004W0XSZT",
+      "packs_per_carton": 15,
+      "cartons": 10,
+      "total_strips": 300,
+      "size_key": "70x120",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|70x120|2|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/2条装/70x120/70x120白色2条装.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/2条装/70x120/70x120白色2条装.pdf",
+      "dest_rel": "by_fnsku/X004W0XSZT/70x120白色2条装.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "70X120inch",
+      "color": "米白",
+      "strips_per_pack": 2,
+      "fnsku": "X004W0WH4H",
+      "packs_per_carton": 15,
+      "cartons": 10,
+      "total_strips": 300,
+      "size_key": "70x120",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|70x120|2|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/2条装/70x120/70x120象牙色2条装.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/2条装/70x120/70x120象牙色2条装.pdf",
+      "dest_rel": "by_fnsku/X004W0WH4H/70x120象牙色2条装.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "70X120inch",
+      "color": "白",
+      "strips_per_pack": 6,
+      "fnsku": "X0050TQ82L",
+      "packs_per_carton": 5,
+      "cartons": 50,
+      "total_strips": 1500,
+      "size_key": "70x120",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|70x120|6|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/6条装/70x120/120白色6条.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/70x120/120白色6条.pdf",
+      "dest_rel": "by_fnsku/X0050TQ82L/120白色6条.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "70X120inch",
+      "color": "米白",
+      "strips_per_pack": 6,
+      "fnsku": "X0050TSCX9",
+      "packs_per_carton": 5,
+      "cartons": 40,
+      "total_strips": 1200,
+      "size_key": "70x120",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|70x120|6|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/6条装/70x120/120象牙色6条.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/70x120/120象牙色6条.pdf",
+      "dest_rel": "by_fnsku/X0050TSCX9/120象牙色6条.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "70X120inch",
+      "color": "白",
+      "strips_per_pack": 10,
+      "fnsku": "X005395QNF",
+      "packs_per_carton": 3,
+      "cartons": 50,
+      "total_strips": 1500,
+      "size_key": "70x120",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|70x120|10|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/10条装/70x120/120白 10条装.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/70x120/120白 10条装.pdf",
+      "dest_rel": "by_fnsku/X005395QNF/120白 10条装.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "70X120inch",
+      "color": "米白",
+      "strips_per_pack": 10,
+      "fnsku": "X00539789F",
+      "packs_per_carton": 3,
+      "cartons": 50,
+      "total_strips": 1500,
+      "size_key": "70x120",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|70x120|10|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/10条装/70x120/120米白 10条装.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/70x120/120米白 10条装.pdf",
+      "dest_rel": "by_fnsku/X00539789F/120米白 10条装.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "70X120inch",
+      "color": "黑",
+      "strips_per_pack": 10,
+      "fnsku": "X005395YS7",
+      "packs_per_carton": 3,
+      "cartons": 20,
+      "total_strips": 600,
+      "size_key": "70x120",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|70x120|10|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/10条装/70x120/120黑 10条装.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/70x120/120黑 10条装.pdf",
+      "dest_rel": "by_fnsku/X005395YS7/120黑 10条装.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "90 inch round",
+      "color": "白",
+      "strips_per_pack": 2,
+      "fnsku": "X004W0XBDN",
+      "packs_per_carton": 20,
+      "cartons": 20,
+      "total_strips": 800,
+      "size_key": "90圆",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|90圆|2|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/2条装/90圆/Wigenius  90寸圆白色2条装.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/2条装/90圆/Wigenius  90寸圆白色2条装.pdf",
+      "dest_rel": "by_fnsku/X004W0XBDN/Wigenius  90寸圆白色2条装.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "90 inch round",
+      "color": "黑",
+      "strips_per_pack": 2,
+      "fnsku": "X004W0Y925",
+      "packs_per_carton": 20,
+      "cartons": 5,
+      "total_strips": 200,
+      "size_key": "90圆",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|90圆|2|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/2条装/90圆/Wigenius  90寸圆黑色2条装.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/2条装/90圆/Wigenius  90寸圆黑色2条装.pdf",
+      "dest_rel": "by_fnsku/X004W0Y925/Wigenius  90寸圆黑色2条装.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "90 inch round",
+      "color": "白",
+      "strips_per_pack": 6,
+      "fnsku": "X004S99E9D",
+      "packs_per_carton": 7,
+      "cartons": 80,
+      "total_strips": 3360,
+      "size_key": "90圆",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|90圆|6|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/6条装/90圆/90圆白色6条.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/90圆/90圆白色6条.pdf",
+      "dest_rel": "by_fnsku/X004S99E9D/90圆白色6条.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "90 inch round",
+      "color": "米白",
+      "strips_per_pack": 6,
+      "fnsku": "X004W0V8OH",
+      "packs_per_carton": 7,
+      "cartons": 50,
+      "total_strips": 2100,
+      "size_key": "90圆",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|90圆|6|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/6条装/90圆/90圆米白ivory6条.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/90圆/90圆米白ivory6条.pdf",
+      "dest_rel": "by_fnsku/X004W0V8OH/90圆米白ivory6条.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "90 inch round",
+      "color": "白",
+      "strips_per_pack": 10,
+      "fnsku": "X005395FVN",
+      "packs_per_carton": 4,
+      "cartons": 40,
+      "total_strips": 1600,
+      "size_key": "90圆",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|90圆|10|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/10条装/90圆/90圆白 10条装.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/90圆/90圆白 10条装.pdf",
+      "dest_rel": "by_fnsku/X005395FVN/90圆白 10条装.pdf",
+      "status": "copied"
+    },
+    {
+      "size": "90 inch round",
+      "color": "黑",
+      "strips_per_pack": 10,
+      "fnsku": "X0053992NP",
+      "packs_per_carton": 4,
+      "cartons": 20,
+      "total_strips": 800,
+      "size_key": "90圆",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "brand": "WIGENIUS",
+      "fnsku_lock_key": "WIGENIUS|90圆|10|单面磨毛纤维桌布",
+      "candidates": [
+        {
+          "rel": "C04-Wigenius品牌/110克桌布标签/10条装/90圆/90圆黑 10条装.pdf",
+          "score": 15
+        }
+      ],
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/90圆/90圆黑 10条装.pdf",
+      "dest_rel": "by_fnsku/X0053992NP/90圆黑 10条装.pdf",
+      "status": "copied"
+    }
+  ]
+}

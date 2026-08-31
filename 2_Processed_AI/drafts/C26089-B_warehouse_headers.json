@@ -1,0 +1,17 @@
+{
+  "order_code": "EF-C26089-C07-40000",
+  "ship_date": "2026-08-29",
+  "split_leg_id": "C26089-B",
+  "freight_forwarder": "物易通",
+  "channel": "AWD",
+  "rows": [
+    {
+      "warehouse_code": "IUSP",
+      "fba_shipment_id": "STAR-RCKQMK6EMHN4K",
+      "tracking_id": "42LMBL4E",
+      "cartons": 500,
+      "strips": 20000,
+      "store": "C07"
+    }
+  ]
+}

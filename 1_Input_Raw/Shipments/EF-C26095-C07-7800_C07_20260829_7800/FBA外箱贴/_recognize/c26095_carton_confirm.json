@@ -1,0 +1,48 @@
+{
+  "confirmed_at": "2026-08-25T14:30:00+0800",
+  "order_code": "EF-C26095-C07-7800",
+  "user_confirmed": true,
+  "legs": {
+    "C26095-A": {
+      "channel": "FC",
+      "ship_date": "2026-09-04",
+      "outbound_short": "C07-2610",
+      "qty_cartons": 100,
+      "qty_strips": 3000,
+      "note": "70x120白+米白误判大件→SCK8",
+      "rows": [
+        {
+          "warehouse_code": "SCK8",
+          "fba_shipment_id": "FBA19MPKNZJ8",
+          "tracking_id": "2HJ2UCVI",
+          "carton_count": 100,
+          "strip_count": 3000,
+          "channel": "FC",
+          "freight_addr": "SCK8 - 4700 WILBUR AVE 94561-2677 - OAKLEY, CA - United States",
+          "sku_mix": "Ivory9070120-10 x50 + White9070120-10 x50"
+        }
+      ],
+      "freight_forwarder": "物易通"
+    },
+    "C26095-B": {
+      "channel": "FC",
+      "ship_date": "2026-09-04",
+      "outbound_short": "C07-2610",
+      "qty_cartons": 120,
+      "qty_strips": 4800,
+      "rows": [
+        {
+          "warehouse_code": "GEU3",
+          "fba_shipment_id": "FBA19MTB13T8",
+          "tracking_id": "12F2UWPZ",
+          "carton_count": 120,
+          "strip_count": 4800,
+          "channel": "FC",
+          "freight_addr": "GEU3 - 18900 W McDowell Road 85396 - BUCKEYE, AZ - United States",
+          "sku_mix": "I11060102-10 x100 + Ivory9090round-10 x20"
+        }
+      ],
+      "freight_forwarder": "物易通"
+    }
+  }
+}

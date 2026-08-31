@@ -1,0 +1,28 @@
+{
+  "order_code": "EF-C26100-C07-12000",
+  "split_leg_id": "C26100",
+  "channel": "AWD",
+  "freight_forwarder": "物易通",
+  "user_confirmed": true,
+  "confirmed_at": "2026-08-31T14:40:00+0800",
+  "note": "登记 JSON；非 PDF 识别；IUTJ 300箱 白 60X102 10条",
+  "warehouses": [
+    {
+      "warehouse_code": "IUTJ",
+      "specs": [
+        {
+          "fnsku": "X004SJV9UF",
+          "size": "60X102inch",
+          "color": "白",
+          "strips_per_pack": 10,
+          "packs_per_carton": 4,
+          "strips_per_carton": 40,
+          "qty_strips": 12000,
+          "qty_cartons": 300,
+          "strips": 12000,
+          "cartons": 300
+        }
+      ]
+    }
+  ]
+}

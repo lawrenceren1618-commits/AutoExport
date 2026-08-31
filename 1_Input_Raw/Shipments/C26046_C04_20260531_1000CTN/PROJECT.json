@@ -1,0 +1,9 @@
+{
+  "id": "C26046_C04_20260531_1000CTN",
+  "order_code": "C26046",
+  "store": "C04",
+  "ship_date": "20260531",
+  "strips": null,
+  "note": "缺EF长号与总条数；暂用箱数",
+  "batch_glob": "C26046*"
+}

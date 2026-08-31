@@ -1,0 +1,177 @@
+{
+  "version": "1.0",
+  "order_code": "EF-C26089-C07-40000",
+  "order_stem": "C26089",
+  "project_folder": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000",
+  "split_shipment": true,
+  "split_naming": "order_stem_letter",
+  "created_at": "2026-08-20T14:00:00+0800",
+  "updated_at": "2026-08-25T11:00:00+0800",
+  "confirm_note": "2026-08-20 A纽酷FC五仓+B物易通；2026-08-25 B货件重建 IUTJ→IUSP STAR-RCKQMK6EMHN4K/42LMBL4E；协议502–507；纽酷SEND/物易通须回传入库贴",
+  "plan": {
+    "qty_strips": 40000,
+    "qty_cartons": 1000,
+    "by_size_color": [
+      {
+        "size": "60X102inch",
+        "color": "白色",
+        "qty_strips": 40000,
+        "qty_cartons": 1000
+      }
+    ],
+    "by_fnsku": [
+      {
+        "size": "60X102inch",
+        "color": "白色",
+        "strips_per_pack": 10,
+        "fnsku": "X004SJV9UF",
+        "packs_per_carton": 4,
+        "strips_per_carton": 40,
+        "qty_strips": 40000,
+        "qty_cartons": 1000,
+        "gram_weight": "90G"
+      }
+    ]
+  },
+  "batches": [
+    {
+      "batch_no": 1,
+      "split_leg_id": "C26089-A",
+      "ship_date": "2026-08-29",
+      "outbound_short": "C07-2609",
+      "channel": "FC",
+      "freight_forwarder": "纽酷",
+      "inbound_label_mode": "send_embedded_in_carton",
+      "note": "五仓 PDF 箱数：LAS1 107 / CLT2 85 / TEB9 90 / SBD1 119 / LAX9 99；纽酷=SEND，外箱贴已含入库贴",
+      "shipped_strips": 20000,
+      "shipped_cartons": 500,
+      "by_size_color": [
+        {
+          "size": "60X102inch",
+          "color": "白色",
+          "qty_strips": 20000,
+          "qty_cartons": 500
+        }
+      ],
+      "by_fnsku": [
+        {
+          "size": "60X102inch",
+          "color": "白色",
+          "strips_per_pack": 10,
+          "fnsku": "X004SJV9UF",
+          "packs_per_carton": 4,
+          "qty_strips": 20000,
+          "qty_cartons": 500
+        }
+      ],
+      "warehouses": [
+        {
+          "warehouse_code": "LAS1",
+          "fba_shipment_id": "FBA19MBJ7GW8",
+          "tracking_id": "6PAUFFDO",
+          "cartons": 107,
+          "strips": 4280,
+          "protocol_no": "20260829502"
+        },
+        {
+          "warehouse_code": "CLT2",
+          "fba_shipment_id": "FBA19MBF40MV",
+          "tracking_id": "5ZYWD47J",
+          "cartons": 85,
+          "strips": 3400,
+          "protocol_no": "20260829503"
+        },
+        {
+          "warehouse_code": "TEB9",
+          "fba_shipment_id": "FBA19MBHDDR0",
+          "tracking_id": "6EYAJFFI",
+          "cartons": 90,
+          "strips": 3600,
+          "protocol_no": "20260829504"
+        },
+        {
+          "warehouse_code": "SBD1",
+          "fba_shipment_id": "FBA19MBFWX4B",
+          "tracking_id": "6OZ3AMWL",
+          "cartons": 119,
+          "strips": 4760,
+          "protocol_no": "20260829505"
+        },
+        {
+          "warehouse_code": "LAX9",
+          "fba_shipment_id": "FBA19MBJ7JXH",
+          "tracking_id": "1ZHHGF1L",
+          "cartons": 99,
+          "strips": 3960,
+          "protocol_no": "20260829506"
+        }
+      ]
+    },
+    {
+      "batch_no": 2,
+      "split_leg_id": "C26089-B",
+      "ship_date": "2026-08-29",
+      "outbound_short": "C07-2609",
+      "channel": "AWD",
+      "freight_forwarder": "物易通",
+      "inbound_label_mode": "freight_returns_pdf",
+      "note": "重建：IUSP STAR-RCKQMK6EMHN4K / 追踪 42LMBL4E / 500箱（原 IUTJ 作废）；物易通须另回传入库贴",
+      "voided": {
+        "warehouse_code": "IUTJ",
+        "fba_shipment_id": "STAR-RVDK5S4HGQWDK",
+        "tracking_id": "5PGFDAXN",
+        "voided_at": "2026-08-25"
+      },
+      "shipped_strips": 20000,
+      "shipped_cartons": 500,
+      "by_size_color": [
+        {
+          "size": "60X102inch",
+          "color": "白色",
+          "qty_strips": 20000,
+          "qty_cartons": 500
+        }
+      ],
+      "by_fnsku": [
+        {
+          "size": "60X102inch",
+          "color": "白色",
+          "strips_per_pack": 10,
+          "fnsku": "X004SJV9UF",
+          "packs_per_carton": 4,
+          "qty_strips": 20000,
+          "qty_cartons": 500
+        }
+      ],
+      "warehouses": [
+        {
+          "warehouse_code": "IUSP",
+          "channel": "AWD",
+          "fba_shipment_id": "STAR-RCKQMK6EMHN4K",
+          "tracking_id": "42LMBL4E",
+          "cartons": 500,
+          "strips": 20000,
+          "protocol_no": "20260829507"
+        }
+      ]
+    }
+  ],
+  "shipped_total": {
+    "qty_strips": 40000,
+    "qty_cartons": 1000
+  },
+  "remaining": {
+    "qty_strips": 0,
+    "qty_cartons": 0
+  },
+  "status": "split_complete",
+  "balance_ok": true,
+  "split_leg_next": null,
+  "gate_final": "CONFIRMED",
+  "warnings": [
+    "1039 继承 C04 X003WN3V5J $87.978/箱（已确认）",
+    "协议号一仓一号：A=502–506、B=507（原单仓假设502/503已按规则扩展）",
+    "纽酷=SEND承运人：外箱贴已含入库贴，A腿不另要入库贴；物易通须等回传入库贴（见拆单比对/货代入库贴情况说明.md）"
+  ],
+  "doc": "Templates/Split_Shipment_Ledger.md"
+}

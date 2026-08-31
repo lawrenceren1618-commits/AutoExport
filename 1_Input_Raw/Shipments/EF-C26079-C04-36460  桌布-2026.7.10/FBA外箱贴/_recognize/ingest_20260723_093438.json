@@ -1,0 +1,2009 @@
+{
+  "generated_at": "2026-07-23T09:34:38+0800",
+  "project": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10",
+  "inbox": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox",
+  "apply": false,
+  "doc": "Templates/Carton_Label_Channels.md",
+  "files": [
+    {
+      "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+      "clean_reasons": [],
+      "convert_reasons": [],
+      "clean_executed": false,
+      "convert_executed": false,
+      "pages": [
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 0,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 1 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797255 | PO ID: 8NK88PWJ, Shi",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 1,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 2 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797262 | PO ID: 8NK88PWJ, Shi",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 2,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 3 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797279 | PO ID: 8NK88PWJ, Shi",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 3,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 4 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797286 | PO ID: 8NK88PWJ, Shi",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 4,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 5 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797293 | PO ID: 8NK88PWJ, Shi",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 5,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 6 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797309 | PO ID: 8NK88PWJ, Shi",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 6,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 7 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797316 | PO ID: 8NK88PWJ, Shi",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 7,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 8 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797323 | PO ID: 8NK88PWJ, Shi",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 8,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 9 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797330 | PO ID: 8NK88PWJ, Shi",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 9,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 10 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797347 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 10,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 11 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797354 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 11,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 12 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797361 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 12,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 13 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797378 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 13,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 14 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797385 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 14,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 15 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797392 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 15,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 16 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797408 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 16,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 17 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797415 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 17,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 18 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797422 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 18,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 19 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797439 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 19,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 20 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797446 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 20,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 21 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797453 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 21,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 22 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797460 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 22,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 23 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797477 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 23,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 24 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797484 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 24,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 25 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797491 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 25,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 26 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797507 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 26,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 27 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797514 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 27,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 28 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797521 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 28,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 29 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797538 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 29,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 30 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797545 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 30,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 31 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797552 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 31,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 32 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797569 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 32,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 33 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797576 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 33,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 34 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797583 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 34,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 35 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797590 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 35,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 36 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797606 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 36,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 37 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797613 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 37,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 38 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797620 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 38,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 39 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797637 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 39,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 40 of 140 45 lbs | SKU: Ivory 70X120inches 6pack Units: 5 | FNSKU: X0050TSCX9 |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797644 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 40,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 41 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797651 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 41,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 42 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797668 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 42,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 43 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797675 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 43,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 44 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797682 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 44,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 45 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797699 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 45,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 46 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797705 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 46,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 47 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797712 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 47,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 48 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797729 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 48,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 49 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797736 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 49,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 50 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797743 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 50,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 51 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797750 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 51,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 52 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797767 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 52,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 53 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797774 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 53,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 54 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797781 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 54,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 55 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797798 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 55,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 56 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797804 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 56,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 57 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797811 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 57,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 58 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797828 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 58,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 59 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797835 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 59,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 60 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797842 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 60,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 61 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797859 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 61,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 62 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797866 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 62,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 63 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797873 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 63,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 64 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797880 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 64,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 65 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797897 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 65,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 66 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797903 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 66,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 67 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797910 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 67,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 68 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797927 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 68,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 69 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797934 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 69,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 70 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797941 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 70,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 71 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797958 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 71,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 72 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797965 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 72,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 73 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797972 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 73,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 74 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797989 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 74,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 75 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797996 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 75,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 76 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406798009 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 76,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 77 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406798016 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 77,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 78 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406798023 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 78,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 79 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406798030 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 79,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 80 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406798047 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 80,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 81 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406798054 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 81,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 82 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406798061 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 82,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 83 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406798078 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 83,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 84 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406798085 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 84,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 85 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406798092 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 85,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 86 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406798108 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 86,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 87 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406798115 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 87,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 88 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406798122 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 88,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 89 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406798139 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 89,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 90 of 140 40 lbs | SKU: White 60X126inches 10pack Units: 3 | FNSKU: X005395XVF |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406798146 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 90,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 91 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796753 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 91,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 92 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796760 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 92,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 93 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796777 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 93,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 94 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796784 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 94,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 95 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796791 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 95,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 96 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796807 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 96,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 97 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796814 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 97,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 98 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796821 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 98,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 99 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796838 | PO ID: 8NK88PWJ, Sh",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 99,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 100 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796845 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 100,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 101 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796852 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 101,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 102 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796869 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 102,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 103 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796876 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 103,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 104 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796883 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 104,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 105 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796890 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 105,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 106 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796906 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 106,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 107 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796913 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 107,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 108 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796920 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 108,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 109 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796937 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 109,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 110 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796944 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 110,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 111 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796951 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 111,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 112 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796968 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 112,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 113 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796975 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 113,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 114 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796982 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 114,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 115 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406796999 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 115,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 116 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797002 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 116,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 117 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797019 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 117,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 118 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797026 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 118,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 119 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797033 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 119,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 120 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797040 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 120,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 121 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797057 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 121,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 122 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797064 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 122,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 123 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797071 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 123,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 124 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797088 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 124,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 125 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797095 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 125,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 126 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797101 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 126,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 127 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797118 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 127,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 128 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797125 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 128,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 129 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797132 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 129,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 130 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797149 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 130,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 131 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797156 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 131,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 132 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797163 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 132,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 133 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797170 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 133,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 134 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797187 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 134,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 135 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797194 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 135,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 136 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797200 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 136,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 137 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797217 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 137,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 138 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797224 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 138,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 139 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797231 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        },
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\IUTE C26078单 剩下的140箱 7.31给货.pdf",
+          "page_index": 139,
+          "channel": "AWD",
+          "confidence": 0.7,
+          "signals": [
+            "awd_keyword"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": "AWD Box 140 of 140 45 lbs | SKU: White 70X120inches 6pack Units: 5 | FNSKU: X0050TQ82L |   | Created: 07/22/2026IUTE | 发货地： | xuchangchangxuanmaoyiyouxiangongsi | Henan - xuchang - 461000 | weiduquwenfenglujiedaoyuxiulu11haolou104shipinganxiang151hao | 中国 | 目的地： | AWD: xuchangchangxuanmaoyiyouxiangongsi | IUTE - AWD 3PL - (Goodyear, US) | 16155 W Elwood St | GOODYEAR, AZ 85338 | 美国 |   | SSCC: 201952611406797248 | PO ID: 8NK88PWJ, S",
+          "staged_path": null,
+          "dry_run": true
+        }
+      ]
+    },
+    {
+      "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\README.md",
+      "clean_reasons": [
+        "unusual_suffix:.md"
+      ],
+      "convert_reasons": [],
+      "clean_executed": false,
+      "convert_executed": false,
+      "pages": [
+        {
+          "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\_inbox\\README.md",
+          "page_index": 0,
+          "channel": "UNKNOWN",
+          "confidence": 0.0,
+          "signals": [
+            "non_pdf_no_convert_needed_flag_false"
+          ],
+          "shipment_id": "",
+          "warehouse_code": "",
+          "text_sample": ""
+        }
+      ]
+    }
+  ],
+  "channel_counts": {
+    "AWD": 140
+  },
+  "notes": [
+    "AWD/GWD keyword list is provisional until first sample calibration",
+    "Clean/convert skipped when heuristics return no reasons",
+    "clean_suggested:README.md:['unusual_suffix:.md']"
+  ]
+}

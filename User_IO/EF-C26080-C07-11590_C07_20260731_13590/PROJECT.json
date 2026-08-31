@@ -1,0 +1,21 @@
+{
+    "project_id":  "EF-C26080-C07-11590_C07_20260731_13590",
+    "entity_code":  "C07",
+    "user_io_status":  "gate_confirmed_scaffold",
+    "created_at":  "2026-07-24",
+    "black_box":  {
+                      "shipment":  "1_Input_Raw/Shipments/EF-C26080-C07-11590_C07_20260731_13590",
+                      "output_legacy":  "3_Output_Final/EF-C26080-C07-11590_C07_20260731_13590",
+                      "cross_check":  "2_Processed_AI/cross_check_reports/cross_check_EF-C26080-C07-11590_C07_20260731_13590_20260724_173548.json",
+                      "gate_final":  "CONFIRMED",
+                      "notes":  "资料齐；03 PASS；入库贴齐；协议号 20260731501-506；未同步进 User_IO"
+                  },
+    "layout_doc":  "Templates/User_IO_Layout.md",
+    "tomorrow_tasks":  [
+                           "confirm whether 出货表 gets its own 输出端 subfolder",
+                           "wire export copy black_box → User_IO 输出端 + 汇总存档",
+                           "optional: populate C26080 User_IO from black_box / 3_Output_Final as sample",
+                           "Gate→Final / git only if user explicitly asks"
+                       ],
+    "gate_final":  "CONFIRMED"
+}

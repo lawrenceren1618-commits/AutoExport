@@ -28,6 +28,8 @@
 近端不阻塞：无标准计划表时，流水线入口可为「订单行 + 总表 join」，不强制先有计划 xlsx。  
 远期列名/批次命名规则落定后再写解析器；落定前不得臆造列格式写死代码。
 
+> **补充**：主单拆腿 + 次单并腿、同日出货合并等 → [`Multi_Order_Ship_Batch.md`](Multi_Order_Ship_Batch.md)；报错确认 → `.cursor/rules/error-confirm-gate.mdc`。
+
 ---
 
 ## 1. 规格键与对应关系（核心）
@@ -57,43 +59,42 @@
 
 ## 2. 阶段流水线（先后顺序）
 
+> **UI（2026-07-27）**：不做「前台/后台」二分；主路径 `/workspace` 按 **输入→提取→处理→输出**；总表入库/进度/仓头在登录后 **库务** `/ops`。订单号 **系统自动生成**（见 `Scripts/order_code_seq.json`）。
+
 ```mermaid
 flowchart TD
-  Plan[上传发货计划到00_Master_Reference] --> Enrich[总表补齐规格箱规]
-  Enrich --> Order[填空白订单表_drafts]
-  Order --> Labels[从标签源复制到项目产品标签]
+  Plan[输入_发货计划_产品箱数_下单日_发货日] --> Enrich[处理_总表补齐]
+  Enrich --> Order[输出_自动生成订单_EF长号]
+  Order --> Labels[输出_产品标签包_工厂贴标]
   Labels --> Amazon[人工创建亚马逊货件]
-  Amazon --> FbaPdf[提交拆分外箱贴PDF四级目录]
-  FbaPdf --> Parse[PDF转可识别格式并按仓规格统计]
-  Parse --> WhTpl[填5仓发货模板或汇总到总表口径]
-  WhTpl --> Customs[按仓填报关空白表_合同协议号]
-  Customs --> UiTrack[前端按仓推送_填追踪编码]
-  UiTrack --> WhDb[仓码地址沉淀库]
-  UiTrack --> Freight[填货代下单表品牌无]
-  Freight --> Outbound[生成出货表无FNSKU]
-  Outbound --> Gate[交叉对照Gate]
-  Gate --> Final[3_Output_Final]
-  Final --> Audit[核对源库规则库沉淀库二次确认]
+  Amazon --> FbaPdf[输入_外箱贴与货件截图]
+  FbaPdf --> Parse[提取_仓x规格x箱]
+  Parse --> Batch[处理_分批或一次发完]
+  Batch --> Trio[输出同波次_出货表_货代下单_报关]
+  Trio --> Inbound[输入_货代入库贴]
+  Inbound --> Pack[处理_发货贴标包_按批zip]
+  Pack --> Gate[交叉对照Gate]
+  Gate --> Final[输出可下载_存档凭证]
 ```
 
 ### 阶段明细
 
 | 步 | 名称 | 输入 | 输出 | 闸门 |
 |----|------|------|------|------|
-| P1 | 计划/订单入库 | **近端**：工厂订单（或临时明细）；**远期**：总表发货列（FNSKU×箱数） | 规范化计划行（canonical） | 列齐全或可从总表补 |
-| P2 | 总表补齐 | 计划/订单行 + 总表 | 完整行（FNSKU、箱规、净毛重、1039…） | 冲突汇报；H01 沉淀仍 **WAIT** 至口头确认 |
-| P3 | 订单生成 | 补齐行 + `Templates/order_blank_zh.xlsx` | 项目 `订单表/` 草稿 → Gate → Final | C04 页眉不写畅选 |
-| P4 | 标签复制 | FNSKU / 计划行 + **标签源** | 项目 `产品标签/`（**仅复制**） | 见 §3 双确认；事后核对源未变 |
-| P5 | 人工货件 | 外箱贴 + 计划截图 | 亚马逊侧 通常约 5 仓（可 1 或 >5） | |
-| P6 | 外箱贴目录 | 用户提交 PDF | 四级结构解析 | 见 §4 |
-| P7 | 仓规格统计 | 解析结果 | 仓 × 规格 → 箱数；总净/毛重、总报关金额、总箱/条、平均单价 USD | 见 §5 金额规则 |
-| P8 | 报关 | 仓汇总 + 报关空白表 | 项目 `报关资料表/`；文件名含合同协议号 | 协议号：`YYYYMMDD`+三位随机；**同计划不同目的地号不同**；其它栏位保持模板不变 |
-| P9 | 前端仓头 | 按目的仓 / FBA 单号 | 总件数、总条数、平均单价、FBA 单号、仓库代码；追踪码人工填 | 识别不到 FBA 单号则空出手工填 |
-| P10 | 仓址沉淀 | 确认后的仓码↔地址 | **独立** FBA 仓库库（非产品沉淀主库） | 写入须确认 |
-| P11 | 货代下单 | 仓头 + 明细；品牌=`无` | `货代入库贴下单表/` | H42 仓头齐后再写满 |
-| P12 | 出货表 | 计划/订单短号口径 | `出货表/` **无 FNSKU** | |
-| P13 | Gate + 终审 | 草稿 vs 权威参考 | `3_Output_Final/{项目}/` | 失败阻断 |
-| P14 | 库核对 | 源文件 / 规则 / 对应关系 / 沉淀 | 变更清单交使用者 **两次确认** | |
+| P1 | 发货计划 | 店铺 + 产品×箱数 + 下单日 + 发货日（上传表或表单） | 规范化计划行；**自动** EF 长号 / 项目代号 / 出货短号 | 列可与总表匹配 |
+| P2 | 总表补齐 | 计划行 + 总表/settled | 完整行（FNSKU、箱规、净毛重、1039…） | 冲突汇报；H01 沉淀仍 **WAIT** 至确认 |
+| P3 | 订单生成 | 克隆 `Templates/order_layout_master.xlsx`（C26079）；只改字段；上/下半伸缩；下半总条数 `=C*E*F`、上半数量引用 G；内外箱按沉淀库 LWH + 母版已有文案 | `订单表/`；号段见 `order_code_seq.json` | C04 页眉不写畅选 |
+| P4 | 产品标签包 | FNSKU / 计划行 + **标签源** | **产品标签包**（仅复制，发工厂） | 见 §3；与后期「发货贴标包」分阶段 |
+| P5 | 人工货件 | — | 亚马逊侧建货件 | |
+| P6 | 外箱贴+截图 | 用户上传 PDF/图 | 可识别中间态 | 见 §4 |
+| P7 | 仓规格提取 | 解析结果 | 仓 × 规格 → 箱数；件重尺/金额 | 见 §5；误差率闸 |
+| P8 | 分批判定 | 计划总量 vs 本批发 | 一次发完或 `-A/-B…` 腿 | Split_Shipment_Ledger |
+| P9 | 三表同波次 | 仓汇总 + 追踪（可后补 B15） | **出货表 + 货代下单 + 报关** 同一处理/输出波次 | 合同协议号登记去重；品牌列=`无` |
+| P10 | 仓头/追踪（库务） | 截图识别 | 仓码、FBA 号；追踪人工填 | 可进 `/ops/fba-track` |
+| P11 | 货代入库贴 | 货代按货代表回传 | 用户上传入库贴 | |
+| P12 | 发货贴标包 | 外箱贴 + 入库贴 | 按批 zip 可下载 | Colleague_Pack |
+| P13 | Gate + 终审 | 草稿 vs settled | 正式可下载；失败阻断 | HX |
+| P14 | 汇总存档 | Final 后 | 本票凭证快照 | 审查向；不可跳过 |
 
 ---
 
@@ -111,16 +112,16 @@ flowchart TD
 
 ---
 
-## 4. FBA / AWD / GWD 外箱贴目录与渠道识别
+## 4. FBA / AWD 外箱贴目录与渠道识别
 
-发往亚马逊相关仓分渠道：**FC（运营中心）**、**AWD**、**GWD（预留）**。外箱贴大同小异，须先识别渠道再拆分归纳。全文：[`Carton_Label_Channels.md`](Carton_Label_Channels.md)。
+发往亚马逊相关仓分渠道：**FC（运营中心）**、**AWD**（**GWD 已停用**，2026-07-24 起勿新建）。外箱贴大同小异，须先识别渠道再拆分归纳。全文：[`Carton_Label_Channels.md`](Carton_Label_Channels.md)。
 
 流水线：`[可选清洗] → [可选转格式] → **识别版式 + 按版式确认字段** → 分离 → 同仓同规格合并多页PDF → 归纳`。  
 拆分与合并目的相同（识别 + 工厂贴标）；**区分点是 FC/AWD 版式字段表**，见 [`Carton_Label_Channels.md`](Carton_Label_Channels.md) §3。
 
 ```text
 FBA外箱贴/
-  FC|{AWD}|{GWD}/
+  FC|{AWD}/
     {仓库代码}/
       {规格夹}/
         *.pdf                          # 一箱一文件优先
@@ -205,6 +206,7 @@ Canonical keys：[`Canonical_Data_Schema.md`](Canonical_Data_Schema.md) / `Scrip
 |----|------|
 | 标签源绝对路径 | **已指定** → `00_Master_Reference/桌布标签` |
 | 标准发货计划表 | **近端无**；用手工商单/订单驱动。远期：总表加发货列（FNSKU×箱数），列名规则待定 |
+| 多单并批 / 报错闸门 | 补充见 [`Multi_Order_Ship_Batch.md`](Multi_Order_Ship_Batch.md)、`.cursor/rules/error-confirm-gate.mdc` |
 | 本次具体订单号 / 项目夹 | 当票告知 |
 | 亚马逊 5 仓空白模板 xlsx | 放入 `Templates/` 或指定样例路径 |
 | 报关 / 货代空白骨架 | 优先用 Shipments 已验证样例抽模板 |

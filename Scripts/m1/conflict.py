@@ -14,6 +14,7 @@ PACK_COMPARE_FIELDS = (
     "packs_per_carton",
     "strips_per_carton",
     "pack_method",
+    "inner_pack_lwh_cm",
     "carton_lwh_cm",
     "fnsku",
 )

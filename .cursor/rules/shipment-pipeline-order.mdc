@@ -1,0 +1,40 @@
+---
+description: 发货项目单据阶段顺序（货代≠外箱贴）；禁止误导性箭头叙事
+alwaysApply: true
+---
+
+# 发货单据流水线 · 阶段用词（AutoExport）
+
+权威：`Templates/Freight_Inbound_Label_Pipeline.md`、`Scripts/document_field_preflight.json`（机器可读预检 **高于** `Document_Field_Preflight.md` 表格「常见来源」列）。
+
+## 阶段 ID（写交接/汇报必须用编号，禁止混写成一条箭头链）
+
+| 阶段 | 做什么 | 依赖什么 | **不依赖** |
+|------|--------|----------|------------|
+| **P-ORDER** | 订单表 | EF 文件或生成 | — |
+| **P-OUT** | 出货表 | 订单上半 | 外箱贴 PDF |
+| **P-LABEL** | 产品标签复制 | 订单下半 + 标签源 | 外箱贴 PDF |
+| **P-FREIGHT** | 货代下单表 + 报关草稿（`09_generate_freight_customs_drafts.py`） | 仓/货件/追踪/箱数/条数 + 规格 JSON（`PROJECT.json` / `split_ledger` / `*_recognize.json`）+ 总表 1039 | **外箱贴 PDF** |
+| **P-FREIGHT-STOP** | **停等使用者**：发下单表给货代；上传外箱贴/入库贴 | — | — |
+| **P-CARTON** | 外箱贴 inbox → `10_carton_label_ingest` → promote | `FBA外箱贴/_inbox` PDF | 货代下单表不必等 |
+| **P-INBOUND** | 入库贴 inbox → `12_freight_inbound_label_ingest` | 货代回传 PDF + **已有下单表箱数** | 外箱贴 PDF |
+| **P-GATE** | `03_cross_validate.py` | 当票表齐；外箱贴项需 P-CARTON 完成 | — |
+| **P-FINAL** | `13_export_output_packs.py` | **P-GATE pass** + 贴标文件齐 | — |
+
+**物易通（普通货代）**：P-FREIGHT → 发业务员 → P-INBOUND。  
+**纽酷 SEND**：P-CARTON 即可含入库贴，P-INBOUND 可 skip（见 `freight_forwarder_profiles.json`）。
+
+## 禁止写法（易导致整链误停）
+
+- ❌ `外箱贴 → 货代下单` / `等外箱贴再做货代`
+- ❌ 把 P-FREIGHT 与 P-CARTON / P-INBOUND 绑成「必须先后」单链
+- ❌ 用 Glob 判断 `Shipments/**` 下 PDF/xlsx 是否存在（`.gitignore` 会漏）→ 用 `python os.walk` 单项目路径
+
+## P-FREIGHT 够格即执行
+
+登记齐（仓、货件号、箱数、条数、规格/FNSKU）→ 写 `*_awd_recognize.json` + `*_warehouse_headers.json` → 跑 `09`。  
+完成后 **必须汇报并 STOP**（除非使用者同轮明确要求继续 P-CARTON）。
+
+## 「trio」在本仓含义
+
+指出货 + 货代下单 + 报关 **同波次生成**（多为 P-OUT 后与 P-FREIGHT 一起或紧随），**不是**「外箱贴 + 货代 + 报关」三件套。

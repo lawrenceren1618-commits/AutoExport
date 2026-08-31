@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-07-24T14:48:44+0800",
+  "project": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_待识别",
+  "preflight": {
+    "generated_at": "2026-07-24T14:48:44+0800",
+    "documents": {
+      "order": {
+        "ok": true,
+        "have": [
+          "EF-C26068-C07-2000  桌布-2026.6.3 (3).xls",
+          "EF-C26080-C07- 11590 桌布-7.10改.xls"
+        ],
+        "missing": []
+      },
+      "carton_organize": {
+        "ok": true,
+        "have": {
+          "pdf_count": 6
+        },
+        "missing": []
+      },
+      "freight": {
+        "ok": true,
+        "have": {
+          "files": 6
+        },
+        "missing": []
+      },
+      "customs": {
+        "ok": true,
+        "have": "from freight summary + C07 master",
+        "missing": [],
+        "note": "C07 uses same 1039/波丽丝 template as verified C26039 samples unless user overrides"
+      },
+      "outbound": {
+        "ok": true,
+        "have": {
+          "ship_date": "2026.7.31",
+          "store": "C07",
+          "outbound_short": "C07-2608",
+          "sales_person": "任胜国",
+          "template": "C07-2607 / C04-2616 layout"
+        },
+        "missing": []
+      },
+      "product_labels": {
+        "ok": true,
+        "have": {
+          "label_source": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\桌布标签"
+        },
+        "missing": []
+      },
+      "freight_inbound_labels": {
+        "ok": false,
+        "have": {
+          "pdf_count": 0
+        },
+        "missing": [
+          "货代入库贴/_inbox 货代回传 PDF"
+        ]
+      },
+      "output_packs": {
+        "ok": false,
+        "have": {},
+        "missing": [
+          "formal FBA外箱贴 tree after --apply",
+          "入库贴 verified (optional but recommended for 贴标包)"
+        ]
+      },
+      "gate_final": {
+        "ok": false,
+        "have": {},
+        "missing": [
+          "user_explicit_gate_pass",
+          "cross_validate_pass"
+        ]
+      }
+    }
+  },
+  "executed": [
+    {
+      "doc": "carton_organize",
+      "returncode": 0,
+      "promoted_fc": [
+        "FBA外箱贴\\FC\\SCK8\\FBA19JZQXH2X-1784874401344.pdf",
+        "FBA外箱贴\\FC\\TOL3\\FBA19JZPT0MZ-1784874421973.pdf",
+        "FBA外箱贴\\FC\\MCC1\\FBA19JZQF77V-1784874428890.pdf",
+        "FBA外箱贴\\FC\\FWA4\\FBA19JZR1DC8-1784874440707.pdf",
+        "FBA外箱贴\\FC\\RDU2\\FBA19JZSQT6L-1784874434440.pdf",
+        "FBA外箱贴\\FC\\PSP3\\FBA19JZVPFS1-1784874445794.pdf"
+      ],
+      "stdout_tail": "wrote D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_��ʶ��\\FBA������\\_recognize\\ingest_20260724_144847.json\nwrote D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_��ʶ��\\FBA������\\_recognize\\ingest_20260724_144847.md\nchannel_counts: {'FC': 350}\n"
+    },
+    {
+      "doc": "outbound",
+      "file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_待识别\\出货表\\C07-2608-U-2026.7.31.xlsx",
+      "rows": 9,
+      "total": 13590
+    },
+    {
+      "doc": "customs",
+      "files": [
+        "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_待识别\\报关资料表\\畅选+波丽丝 2026.7.31发货 C26080 FWA4 94箱 市场采购数据.xlsx",
+        "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_待识别\\报关资料表\\畅选+波丽丝 2026.7.31发货 C26080 MCC1 55箱 市场采购数据.xlsx",
+        "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_待识别\\报关资料表\\畅选+波丽丝 2026.7.31发货 C26080 PSP3 50箱 市场采购数据.xlsx",
+        "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_待识别\\报关资料表\\畅选+波丽丝 2026.7.31发货 C26080 RDU2 54箱 市场采购数据.xlsx",
+        "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_待识别\\报关资料表\\畅选+波丽丝 2026.7.31发货 C26080 SCK8 30箱 市场采购数据.xlsx",
+        "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_待识别\\报关资料表\\畅选+波丽丝 2026.7.31发货 C26080 TOL3 67箱 市场采购数据.xlsx"
+      ]
+    },
+    {
+      "doc": "product_labels",
+      "results": [
+        {
+          "order": "EF-C26068-C07-2000",
+          "copied": 1,
+          "missing": 0
+        },
+        {
+          "order": "EF-C26080-C07-11590",
+          "copied": 11,
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "doc": "output_packs",
+      "returncode": 0,
+      "note": "pre-Final; inbound may be missing in 贴标包",
+      "stdout_tail": "/SCK8\",\n    \"C26080-A_FC/���������/TOL3\",\n    \"C26080-A_0_2026.7.31_�����/FWA4/�����\",\n    \"C26080-A_0_2026.7.31_�����/MCC1/�����\",\n    \"C26080-A_0_2026.7.31_�����/PSP3/�����\",\n    \"C26080-A_0_2026.7.31_�����/RDU2/�����\",\n    \"C26080-A_0_2026.7.31_�����/SCK8/�����\",\n    \"C26080-A_0_2026.7.31_�����/TOL3/�����\"\n  ],\n  \"note\": \"copy-only; folders kept; WeChat needs merged zip; Gate may still WAIT\"\n}\n"
+    }
+  ],
+  "skipped": [
+    {
+      "doc": "freight_inbound_labels",
+      "reason": [
+        "货代入库贴/_inbox 货代回传 PDF"
+      ]
+    },
+    {
+      "doc": "gate_final",
+      "reason": [
+        "user_explicit_gate_pass",
+        "cross_validate_pass"
+      ]
+    }
+  ],
+  "gaps_for_user": [
+    "缺少：货代入库贴 PDF。请放入 D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_待识别\\货代入库贴\\_inbox",
+    "Gate→Final 须你明示确认后才执行"
+  ]
+}

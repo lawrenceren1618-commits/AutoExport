@@ -1,0 +1,73 @@
+{
+  "version": "1.0",
+  "order_code": "EF-C26100-C07-12000",
+  "order_stem": "C26100",
+  "project_folder": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26100-C07-12000_C07_20260919_12000",
+  "split_shipment": false,
+  "same_ship_together": true,
+  "created_at": "2026-08-25T16:20:00+0800",
+  "updated_at": "2026-08-31T14:41:00+0800",
+  "confirm_note": "单腿 AWD IUTJ 300箱；货件 STAR-Q675HFPYAEZ7Y / PO 8OTA332Y；使用者 2026-08-31 口头确认编号与地址",
+  "plan": {
+    "qty_strips": 12000,
+    "qty_cartons": 300
+  },
+  "batches": [
+    {
+      "batch_no": 1,
+      "split_leg_id": "C26100",
+      "ship_date": "2026-09-19",
+      "outbound_short": "C07-2611",
+      "channel": "AWD",
+      "shipped_strips": 12000,
+      "shipped_cartons": 300,
+      "warehouses": [
+        {
+          "warehouse_code": "IUTJ",
+          "channel": "AWD",
+          "fba_shipment_id": "STAR-Q675HFPYAEZ7Y",
+          "tracking_id": "8OTA332Y",
+          "cartons": 300,
+          "strips": 12000,
+          "freight_addr": "IUTJ - 9253 Dreamland Drive 92335 - Fontana, CA - United States"
+        }
+      ],
+      "by_fnsku": [
+        {
+          "size": "60X102inch",
+          "color": "白",
+          "strips_per_pack": 10,
+          "fnsku": "X004SJV9UF",
+          "packs_per_carton": 4,
+          "qty_strips": 12000,
+          "qty_cartons": 300
+        }
+      ],
+      "freight_forwarder": "物易通",
+      "inbound_label_mode": "freight_returns_pdf"
+    }
+  ],
+  "shipped_total": {
+    "qty_strips": 12000,
+    "qty_cartons": 300
+  },
+  "remaining": {
+    "qty_strips": 0,
+    "qty_cartons": 0
+  },
+  "status": "freight_customs_gate_draft_pass",
+  "gate_final": "WAIT",
+  "warnings": [
+    "外箱贴 PDF 未上传 — 须 300 页/箱核对后 promote → FBA外箱贴/AWD/IUTJ/",
+    "物易通：货代下单表已生成，须发业务员后等入库贴 PDF → 货代入库贴/_inbox/",
+    "Final 未出 — 外箱贴+入库贴齐后再 Gate CONFIRMED + 3_Output_Final"
+  ],
+  "freight_customs": {
+    "generated_at": "2026-08-31T14:38:51+0800",
+    "protocol_no": "20260919501",
+    "declare_amount_usd": 26400.0,
+    "reconcile_gate": "PASS",
+    "c07_1039_inherit": "X004SJV9UF → C04 X003WN3V5J",
+    "gate_report": "2_Processed_AI/cross_check_reports/cross_check_EF-C26100-C07-12000_C07_20260919_12000_20260831_144007.json"
+  }
+}

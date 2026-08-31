@@ -1,0 +1,25 @@
+﻿STEP1 List _inbox 2026-07-24T16:18:37.1322815+08:00
+path=D:\.cursor\Cursor-projects\AutoExport\1_Input_Raw\Shipments\EF-C26080-C07-11590_C07_20260731_13590\货代入库贴\_inbox
+count=7 files (+ _unzipped dir)
+26080+26068 入仓贴.zip	415519
+label_FBA19JZPT0MZ_67.pdf	199145
+label_FBA19JZQF77V_55.pdf	169893
+label_FBA19JZQXH2X_30.pdf	109565
+label_FBA19JZR1DC8_94.pdf	264702
+label_FBA19JZSQT6L_54.pdf	167755
+label_FBA19JZVPFS1_50.pdf	158022
+
+STEP2 dry-run starting 2026-07-24T16:18:37.1372670+08:00
+
+STEP2 dry-run DONE 2026-07-24T16:20:51.2116580+08:00 exit=1 blocked=True
+report=D:\.cursor\Cursor-projects\AutoExport\1_Input_Raw\Shipments\EF-C26080-C07-11590_C07_20260731_13590\货代入库贴\_recognize\inbound_recognize_latest.json
+inbox_files: 12 pages: 700 warehouses: 6
+FAIL FWA4 pages=188 expected_carton=94 errs=authority_missing_shipment_id; page_count_vs_carton_tree 188!=94; page_count_vs_freight 188!=94; duplicate_pages
+FAIL MCC1 pages=110 expected_carton=55 errs=authority_missing_shipment_id; page_count_vs_carton_tree 110!=55; page_count_vs_freight 110!=55; duplicate_pages
+FAIL PSP3 pages=100 expected_carton=50 errs=authority_missing_shipment_id; page_count_vs_carton_tree 100!=50; page_count_vs_freight 100!=50; duplicate_pages
+FAIL RDU2 pages=108 expected_carton=54 errs=authority_missing_shipment_id; page_count_vs_carton_tree 108!=54; page_count_vs_freight 108!=54; duplicate_pages
+FAIL SCK8 pages=60 expected_carton=30 errs=authority_missing_shipment_id; page_count_vs_carton_tree 60!=30; page_count_vs_freight 60!=30; duplicate_pages
+FAIL TOL3 pages=134 expected_carton=67 errs=authority_missing_shipment_id; page_count_vs_carton_tree 134!=67; page_count_vs_freight 134!=67; duplicate_pages
+NOTE: every WH pages == 2x expected; inbox has zip + 6 loose PDFs — likely double ingest. STOP per error-confirm-gate. --apply NOT run. Script 13 NOT run.
+STEP3 SKIP apply (blocked)
+STEP4 SKIP export packs (no apply)

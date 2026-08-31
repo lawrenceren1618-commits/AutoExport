@@ -1,0 +1,435 @@
+{
+  "generated_at": "2026-07-24T10:49:34+0800",
+  "project": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10",
+  "inbox": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴\\_inbox",
+  "apply": true,
+  "authority_paths": [
+    "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts\\C26079-A_freight_customs_summary.json",
+    "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts\\C26079-B_freight_customs_summary.json"
+  ],
+  "authority_warehouses": {
+    "AVP1": {
+      "shipment_id": "FBA19JT39521",
+      "cartons": 175,
+      "channel": "FC",
+      "carton_pages": 175,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 AVP1 175箱.xlsx",
+      "fba_path": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\AVP1"
+    },
+    "CLT2": {
+      "shipment_id": "FBA19JT71WTZ",
+      "cartons": 128,
+      "channel": "FC",
+      "carton_pages": 128,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 CLT2 128箱.xlsx",
+      "fba_path": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\CLT2"
+    },
+    "GYR2": {
+      "shipment_id": "FBA19JT3Q0H0",
+      "cartons": 139,
+      "channel": "FC",
+      "carton_pages": 139,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 GYR2 139箱.xlsx",
+      "fba_path": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\GYR2"
+    },
+    "IUTE": {
+      "shipment_id": "STAR-QG6CTURZGY6MX",
+      "cartons": 140,
+      "channel": "AWD",
+      "carton_pages": 140,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-B 2026.7.31桌布 AWD-IUTE 140箱.xlsx",
+      "fba_path": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\AWD\\IUTE"
+    },
+    "LGB8": {
+      "shipment_id": "FBA19JT0K3PY",
+      "cartons": 182,
+      "channel": "FC",
+      "carton_pages": 182,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 LGB8 182箱.xlsx",
+      "fba_path": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\LGB8"
+    },
+    "MDW2": {
+      "shipment_id": "FBA19JT16DMQ",
+      "cartons": 181,
+      "channel": "FC",
+      "carton_pages": 181,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 MDW2 181箱.xlsx",
+      "fba_path": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\MDW2"
+    }
+  },
+  "doc": "Templates/Freight_Inbound_Label_Pipeline.md",
+  "inbox_file_count": 6,
+  "total_pages": 945,
+  "files": [
+    {
+      "path": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴\\_inbox\\label_FBA19JT0K3PY_182.pdf",
+      "page_count": 182,
+      "channels": [
+        "FC"
+      ],
+      "shipment_ids": [
+        "FBA19JT0K3PY"
+      ],
+      "warehouses": [
+        "LGB8"
+      ],
+      "sample_page0": {
+        "source_file": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴\\_inbox\\label_FBA19JT0K3PY_182.pdf",
+        "page_index": 0,
+        "channel": "FC",
+        "confidence": 0.9,
+        "signals": [
+          "fba_shipment",
+          "receiving_info:LGB8",
+          "filename_page_count_ok:182"
+        ],
+        "shipment_id": "FBA19JT0K3PY",
+        "warehouse_code": "LGB8",
+        "page_fingerprint": "ca495dee2719e20e",
+        "text_sample": "Customer Order | Number: | FBA Order Number: | Made in China | Receiving Information: | LGB8 6268618266 | 1568 N Linden Ave | Rialto CA 92376-8624 | FBA19JT0K3PY | LGB8 | 1 | 182 | FBA19JT0K3PY W009 | YLPCT26072352736W009001"
+      }
+    },
+    {
+      "path": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴\\_inbox\\label_FBA19JT16DMQ_181.pdf",
+      "page_count": 181,
+      "channels": [
+        "FC"
+      ],
+      "shipment_ids": [
+        "FBA19JT16DMQ"
+      ],
+      "warehouses": [
+        "MDW2"
+      ],
+      "sample_page0": {
+        "source_file": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴\\_inbox\\label_FBA19JT16DMQ_181.pdf",
+        "page_index": 0,
+        "channel": "FC",
+        "confidence": 0.9,
+        "signals": [
+          "fba_shipment",
+          "receiving_info:MDW2",
+          "filename_page_count_ok:181"
+        ],
+        "shipment_id": "FBA19JT16DMQ",
+        "warehouse_code": "MDW2",
+        "page_fingerprint": "ed817004e6190283",
+        "text_sample": "Customer Order | Number: | FBA Order Number: | Made in China | Receiving Information: | MDW2 6268618266 | 250 Emerald Drive | Joliet IL 60433-3280 | FBA19JT16DMQ | MDW2 | 1 | 181 | FBA19JT16DMQ W009 | YLPZY26072356892W009001"
+      }
+    },
+    {
+      "path": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴\\_inbox\\label_FBA19JT39521_175.pdf",
+      "page_count": 175,
+      "channels": [
+        "FC"
+      ],
+      "shipment_ids": [
+        "FBA19JT39521"
+      ],
+      "warehouses": [
+        "AVP1"
+      ],
+      "sample_page0": {
+        "source_file": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴\\_inbox\\label_FBA19JT39521_175.pdf",
+        "page_index": 0,
+        "channel": "FC",
+        "confidence": 0.9,
+        "signals": [
+          "fba_shipment",
+          "receiving_info:AVP1",
+          "filename_page_count_ok:175"
+        ],
+        "shipment_id": "FBA19JT39521",
+        "warehouse_code": "AVP1",
+        "page_fingerprint": "add004493558dbe9",
+        "text_sample": "Customer Order | Number: | FBA Order Number: | Made in China | Receiving Information: | AVP1 6268618266 | 550 Oak Ridge Road | Hazle Township PA 18202-9361 | FBA19JT39521 | AVP1 | 1 | 175 | FBA19JT39521 W009 | YLPNT26072358430W009001"
+      }
+    },
+    {
+      "path": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴\\_inbox\\label_FBA19JT3Q0H0_139.pdf",
+      "page_count": 139,
+      "channels": [
+        "FC"
+      ],
+      "shipment_ids": [
+        "FBA19JT3Q0H0"
+      ],
+      "warehouses": [
+        "GYR2"
+      ],
+      "sample_page0": {
+        "source_file": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴\\_inbox\\label_FBA19JT3Q0H0_139.pdf",
+        "page_index": 0,
+        "channel": "FC",
+        "confidence": 0.9,
+        "signals": [
+          "fba_shipment",
+          "receiving_info:GYR2",
+          "filename_page_count_ok:139"
+        ],
+        "shipment_id": "FBA19JT3Q0H0",
+        "warehouse_code": "GYR2",
+        "page_fingerprint": "540937e8457bdb1f",
+        "text_sample": "Customer Order | Number: | FBA Order Number: | Made in China | Receiving Information: | GYR2 6268618266 | 17341 W MINNEZONA AVE | GOODYEAR AZ 85395-7672 | FBA19JT3Q0H0 | GYR2 | 1 | 139 | FBA19JT3Q0H0 W009 | YLPCT26072375450W009001"
+      }
+    },
+    {
+      "path": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴\\_inbox\\label_FBA19JT71WTZ_128.pdf",
+      "page_count": 128,
+      "channels": [
+        "FC"
+      ],
+      "shipment_ids": [
+        "FBA19JT71WTZ"
+      ],
+      "warehouses": [
+        "CLT2"
+      ],
+      "sample_page0": {
+        "source_file": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴\\_inbox\\label_FBA19JT71WTZ_128.pdf",
+        "page_index": 0,
+        "channel": "FC",
+        "confidence": 0.9,
+        "signals": [
+          "fba_shipment",
+          "receiving_info:CLT2",
+          "filename_page_count_ok:128"
+        ],
+        "shipment_id": "FBA19JT71WTZ",
+        "warehouse_code": "CLT2",
+        "page_fingerprint": "f55e148af9293a60",
+        "text_sample": "Customer Order | Number: | FBA Order Number: | Made in China | Receiving Information: | CLT2 6268618266 | 10240 Old Dowd Rd | Charlotte NC 28214-8082 | FBA19JT71WTZ | CLT2 | 1 | 128 | FBA19JT71WTZ W009 | YLPSV26072359360W009001"
+      }
+    },
+    {
+      "path": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴\\_inbox\\label_STAR-QG6CTURZGY6MX_140.pdf",
+      "page_count": 140,
+      "channels": [
+        "AWD"
+      ],
+      "shipment_ids": [
+        "STAR-QG6CTURZGY6MX"
+      ],
+      "warehouses": [
+        "IUTE"
+      ],
+      "sample_page0": {
+        "source_file": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴\\_inbox\\label_STAR-QG6CTURZGY6MX_140.pdf",
+        "page_index": 0,
+        "channel": "AWD",
+        "confidence": 0.9,
+        "signals": [
+          "star_shipment",
+          "receiving_info:IUTE",
+          "awd_signal",
+          "filename_page_count_ok:140"
+        ],
+        "shipment_id": "STAR-QG6CTURZGY6MX",
+        "warehouse_code": "IUTE",
+        "page_fingerprint": "169ad336b06a581c",
+        "text_sample": "Customer Order | Number: | FBA Order Number: | Made in China | Receiving Information: | IUTE 00000000 | 16155 W Elwood St | GOODYEAR AZ 85338 | STAR-QG6CTURZGY6MX | IUTE | 1 | 140 | STAR-QG6CTURZGY6MX W009 | YLPCK26072330156W009001"
+      }
+    }
+  ],
+  "warehouses": [
+    {
+      "warehouse_code": "AVP1",
+      "page_count": 175,
+      "pass": true,
+      "checks": {
+        "shipment_id": {
+          "page": "FBA19JT39521",
+          "authority": "FBA19JT39521",
+          "ok": true
+        },
+        "warehouse_code": {
+          "page": "AVP1",
+          "authority": "AVP1",
+          "ok": true
+        },
+        "page_count_eq_cartons": {
+          "pages": 175,
+          "freight_cartons": 175,
+          "carton_tree_pages": 175,
+          "ok": true
+        },
+        "no_duplicate_pages": {
+          "ok": true,
+          "duplicates": []
+        }
+      },
+      "errors": [],
+      "channel": "FC",
+      "written": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\AVP1\\FC_AVP1_入库贴_175箱.pdf"
+    },
+    {
+      "warehouse_code": "CLT2",
+      "page_count": 128,
+      "pass": true,
+      "checks": {
+        "shipment_id": {
+          "page": "FBA19JT71WTZ",
+          "authority": "FBA19JT71WTZ",
+          "ok": true
+        },
+        "warehouse_code": {
+          "page": "CLT2",
+          "authority": "CLT2",
+          "ok": true
+        },
+        "page_count_eq_cartons": {
+          "pages": 128,
+          "freight_cartons": 128,
+          "carton_tree_pages": 128,
+          "ok": true
+        },
+        "no_duplicate_pages": {
+          "ok": true,
+          "duplicates": []
+        }
+      },
+      "errors": [],
+      "channel": "FC",
+      "written": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\CLT2\\FC_CLT2_入库贴_128箱.pdf"
+    },
+    {
+      "warehouse_code": "GYR2",
+      "page_count": 139,
+      "pass": true,
+      "checks": {
+        "shipment_id": {
+          "page": "FBA19JT3Q0H0",
+          "authority": "FBA19JT3Q0H0",
+          "ok": true
+        },
+        "warehouse_code": {
+          "page": "GYR2",
+          "authority": "GYR2",
+          "ok": true
+        },
+        "page_count_eq_cartons": {
+          "pages": 139,
+          "freight_cartons": 139,
+          "carton_tree_pages": 139,
+          "ok": true
+        },
+        "no_duplicate_pages": {
+          "ok": true,
+          "duplicates": []
+        }
+      },
+      "errors": [],
+      "channel": "FC",
+      "written": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\GYR2\\FC_GYR2_入库贴_139箱.pdf"
+    },
+    {
+      "warehouse_code": "IUTE",
+      "page_count": 140,
+      "pass": true,
+      "checks": {
+        "shipment_id": {
+          "page": "STAR-QG6CTURZGY6MX",
+          "authority": "STAR-QG6CTURZGY6MX",
+          "ok": true
+        },
+        "warehouse_code": {
+          "page": "IUTE",
+          "authority": "IUTE",
+          "ok": true
+        },
+        "page_count_eq_cartons": {
+          "pages": 140,
+          "freight_cartons": 140,
+          "carton_tree_pages": 140,
+          "ok": true
+        },
+        "no_duplicate_pages": {
+          "ok": true,
+          "duplicates": []
+        }
+      },
+      "errors": [],
+      "channel": "AWD",
+      "written": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\AWD\\IUTE\\AWD_IUTE_入库贴_140箱.pdf"
+    },
+    {
+      "warehouse_code": "LGB8",
+      "page_count": 182,
+      "pass": true,
+      "checks": {
+        "shipment_id": {
+          "page": "FBA19JT0K3PY",
+          "authority": "FBA19JT0K3PY",
+          "ok": true
+        },
+        "warehouse_code": {
+          "page": "LGB8",
+          "authority": "LGB8",
+          "ok": true
+        },
+        "page_count_eq_cartons": {
+          "pages": 182,
+          "freight_cartons": 182,
+          "carton_tree_pages": 182,
+          "ok": true
+        },
+        "no_duplicate_pages": {
+          "ok": true,
+          "duplicates": []
+        }
+      },
+      "errors": [],
+      "channel": "FC",
+      "written": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\LGB8\\FC_LGB8_入库贴_182箱.pdf"
+    },
+    {
+      "warehouse_code": "MDW2",
+      "page_count": 181,
+      "pass": true,
+      "checks": {
+        "shipment_id": {
+          "page": "FBA19JT16DMQ",
+          "authority": "FBA19JT16DMQ",
+          "ok": true
+        },
+        "warehouse_code": {
+          "page": "MDW2",
+          "authority": "MDW2",
+          "ok": true
+        },
+        "page_count_eq_cartons": {
+          "pages": 181,
+          "freight_cartons": 181,
+          "carton_tree_pages": 181,
+          "ok": true
+        },
+        "no_duplicate_pages": {
+          "ok": true,
+          "duplicates": []
+        }
+      },
+      "errors": [],
+      "channel": "FC",
+      "written": "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\MDW2\\FC_MDW2_入库贴_181箱.pdf"
+    }
+  ],
+  "written": [
+    "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\AVP1\\FC_AVP1_入库贴_175箱.pdf",
+    "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\CLT2\\FC_CLT2_入库贴_128箱.pdf",
+    "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\GYR2\\FC_GYR2_入库贴_139箱.pdf",
+    "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\AWD\\IUTE\\AWD_IUTE_入库贴_140箱.pdf",
+    "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\LGB8\\FC_LGB8_入库贴_182箱.pdf",
+    "1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\MDW2\\FC_MDW2_入库贴_181箱.pdf"
+  ],
+  "blocked": false,
+  "notes": [],
+  "layout_calibrated": {
+    "at": "2026-07-24",
+    "sample": "945箱入库贴(1).zip",
+    "signals": [
+      "Receiving Information: {WH}",
+      "FBA… / STAR-…",
+      "label_{ship}_{N}.pdf"
+    ]
+  }
+}

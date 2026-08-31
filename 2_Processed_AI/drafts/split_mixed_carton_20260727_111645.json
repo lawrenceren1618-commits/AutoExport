@@ -1,0 +1,228 @@
+{
+  "project": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10",
+  "apply": false,
+  "count": 5,
+  "results": [
+    {
+      "plan": {
+        "warehouse": "AVP1",
+        "wh_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\AVP1",
+        "src_folder": "米白色 60X126inches 6pack-15箱",
+        "src_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\AVP1\\米白色 60X126inches 6pack-15箱",
+        "pdfs": [
+          "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\AVP1\\米白色 60X126inches 6pack-15箱\\米白色 60X126inches 6pack-15箱.pdf"
+        ],
+        "page_packs": {
+          "10": 9,
+          "6": 6
+        },
+        "folder_label_packs": 6,
+        "targets": [
+          {
+            "strips_per_pack": 6,
+            "qty_cartons": 6,
+            "folder_name": "米白色 60X126inches 6pack-6箱"
+          },
+          {
+            "strips_per_pack": 10,
+            "qty_cartons": 9,
+            "folder_name": "米白色 60X126inches 10pack-9箱"
+          }
+        ],
+        "color": "米白",
+        "size": "60X126inch"
+      },
+      "result": {
+        "ok": true,
+        "dry": true,
+        "ops": [
+          {
+            "create": "米白色 60X126inches 6pack-6箱",
+            "pages": 6
+          },
+          {
+            "create": "米白色 60X126inches 10pack-9箱",
+            "pages": 9
+          }
+        ]
+      }
+    },
+    {
+      "plan": {
+        "warehouse": "CLT2",
+        "wh_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\CLT2",
+        "src_folder": "米白色 60X126inches 6pack-12箱",
+        "src_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\CLT2\\米白色 60X126inches 6pack-12箱",
+        "pdfs": [
+          "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\CLT2\\米白色 60X126inches 6pack-12箱\\米白色 60X126inches 6pack-12箱.pdf"
+        ],
+        "page_packs": {
+          "10": 8,
+          "6": 4
+        },
+        "folder_label_packs": 6,
+        "targets": [
+          {
+            "strips_per_pack": 6,
+            "qty_cartons": 4,
+            "folder_name": "米白色 60X126inches 6pack-4箱"
+          },
+          {
+            "strips_per_pack": 10,
+            "qty_cartons": 8,
+            "folder_name": "米白色 60X126inches 10pack-8箱"
+          }
+        ],
+        "color": "米白",
+        "size": "60X126inch"
+      },
+      "result": {
+        "ok": true,
+        "dry": true,
+        "ops": [
+          {
+            "create": "米白色 60X126inches 6pack-4箱",
+            "pages": 4
+          },
+          {
+            "create": "米白色 60X126inches 10pack-8箱",
+            "pages": 8
+          }
+        ]
+      }
+    },
+    {
+      "plan": {
+        "warehouse": "GYR2",
+        "wh_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\GYR2",
+        "src_folder": "米白色 60X126inches 6pack-12箱",
+        "src_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\GYR2\\米白色 60X126inches 6pack-12箱",
+        "pdfs": [
+          "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\GYR2\\米白色 60X126inches 6pack-12箱\\米白色 60X126inches 6pack-12箱.pdf"
+        ],
+        "page_packs": {
+          "10": 7,
+          "6": 5
+        },
+        "folder_label_packs": 6,
+        "targets": [
+          {
+            "strips_per_pack": 6,
+            "qty_cartons": 5,
+            "folder_name": "米白色 60X126inches 6pack-5箱"
+          },
+          {
+            "strips_per_pack": 10,
+            "qty_cartons": 7,
+            "folder_name": "米白色 60X126inches 10pack-7箱"
+          }
+        ],
+        "color": "米白",
+        "size": "60X126inch"
+      },
+      "result": {
+        "ok": true,
+        "dry": true,
+        "ops": [
+          {
+            "create": "米白色 60X126inches 6pack-5箱",
+            "pages": 5
+          },
+          {
+            "create": "米白色 60X126inches 10pack-7箱",
+            "pages": 7
+          }
+        ]
+      }
+    },
+    {
+      "plan": {
+        "warehouse": "LGB8",
+        "wh_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\LGB8",
+        "src_folder": "米白色 60X126inches 6pack-12箱",
+        "src_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\LGB8\\米白色 60X126inches 6pack-12箱",
+        "pdfs": [
+          "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\LGB8\\米白色 60X126inches 6pack-12箱\\米白色 60X126inches 6pack-12箱.pdf"
+        ],
+        "page_packs": {
+          "10": 7,
+          "6": 5
+        },
+        "folder_label_packs": 6,
+        "targets": [
+          {
+            "strips_per_pack": 6,
+            "qty_cartons": 5,
+            "folder_name": "米白色 60X126inches 6pack-5箱"
+          },
+          {
+            "strips_per_pack": 10,
+            "qty_cartons": 7,
+            "folder_name": "米白色 60X126inches 10pack-7箱"
+          }
+        ],
+        "color": "米白",
+        "size": "60X126inch"
+      },
+      "result": {
+        "ok": true,
+        "dry": true,
+        "ops": [
+          {
+            "create": "米白色 60X126inches 6pack-5箱",
+            "pages": 5
+          },
+          {
+            "create": "米白色 60X126inches 10pack-7箱",
+            "pages": 7
+          }
+        ]
+      }
+    },
+    {
+      "plan": {
+        "warehouse": "MDW2",
+        "wh_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\MDW2",
+        "src_folder": "米白色 60X126inches 6pack-19箱",
+        "src_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\MDW2\\米白色 60X126inches 6pack-19箱",
+        "pdfs": [
+          "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\FBA外箱贴\\MDW2\\米白色 60X126inches 6pack-19箱\\米白色 60X126inches 6pack-19箱.pdf"
+        ],
+        "page_packs": {
+          "10": 9,
+          "6": 10
+        },
+        "folder_label_packs": 6,
+        "targets": [
+          {
+            "strips_per_pack": 6,
+            "qty_cartons": 10,
+            "folder_name": "米白色 60X126inches 6pack-10箱"
+          },
+          {
+            "strips_per_pack": 10,
+            "qty_cartons": 9,
+            "folder_name": "米白色 60X126inches 10pack-9箱"
+          }
+        ],
+        "color": "米白",
+        "size": "60X126inch"
+      },
+      "result": {
+        "ok": true,
+        "dry": true,
+        "ops": [
+          {
+            "create": "米白色 60X126inches 6pack-10箱",
+            "pages": 10
+          },
+          {
+            "create": "米白色 60X126inches 10pack-9箱",
+            "pages": 9
+          }
+        ]
+      }
+    }
+  ],
+  "at": "20260727_111645"
+}

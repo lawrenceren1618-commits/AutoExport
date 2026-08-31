@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-08-25T14:25:04+0800",
+  "order_code": "EF-C26095-C07-7800",
+  "split_leg_id": "C26095-B",
+  "ship_date": "2026-09-04",
+  "pricing_method": "per_warehouse: raw=sum(cartons*master_1039_ctn_price); unit=round(raw/strips,2); amount=round(unit*strips,2)",
+  "note": "草稿；未进 Final",
+  "remaining_for_B": null,
+  "files": [
+    {
+      "warehouse_code": "GEU3",
+      "fba_shipment_id": "FBA19MTB13T8",
+      "tracking_id": "12F2UWPZ",
+      "cartons": 120,
+      "strips": 4800,
+      "raw_carton_x_price": 14296.88,
+      "unit_price_usd": 2.98,
+      "declare_amount_usd": 14304.0,
+      "net_kg": 1716.6,
+      "gross_kg": 1973.4,
+      "protocol_no": "20260904502",
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800\\货代入库贴下单表\\货代下单表_C26095-B 2026.9.4桌布 GEU3 120箱.xlsx",
+      "customs_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26095-C07-7800_C07_20260829_7800\\报关资料表\\畅选+波丽丝 2026.9.4发货 C26095-B GEU3 120箱 市场采购数据.xlsx"
+    }
+  ],
+  "warnings": [
+    "X00510W6CF: c04_same_spec_1039 via C04 X0050TQ9HP $116.974/ctn",
+    "X0053BBGYL: c04_same_spec_1039 via C04 X0053906ZX $129.97400000000002/ctn"
+  ],
+  "total_raw_carton_x_price": 14296.88,
+  "total_declare_amount_usd": 14304.0,
+  "reconcile": {
+    "doc": "Templates/Amount_Weight_Reconcile.md",
+    "A_spec": {
+      "amount": 14296.88,
+      "net_kg": 1716.6,
+      "gross_kg": 1973.4
+    },
+    "B_warehouse": {
+      "amount": 14304.0,
+      "net_kg": 1716.6,
+      "gross_kg": 1973.4
+    },
+    "error_rate_pct": {
+      "declare": 0.0498,
+      "net": 0.0,
+      "gross": 0.0
+    },
+    "pass_max_pct": 1.0,
+    "gate": {
+      "declare": "PASS",
+      "net": "PASS",
+      "gross": "PASS",
+      "overall": "PASS"
+    }
+  }
+}

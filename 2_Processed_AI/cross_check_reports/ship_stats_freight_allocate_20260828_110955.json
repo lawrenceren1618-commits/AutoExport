@@ -1,0 +1,2019 @@
+{
+  "generated_at": "2026-08-28T11:09:55",
+  "source": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\发货统计\\_inbox\\2026年发货记录.xls",
+  "rule": "Templates/Ship_Stats_Freight_Allocation.md",
+  "batches": [
+    {
+      "ticket": "C26006",
+      "give": "3.21-C26006",
+      "channel": "",
+      "freight_total": 19200.0,
+      "total_packs": 1000.0,
+      "batch_issues": [],
+      "lines": [
+        {
+          "row": 179,
+          "spec": "6",
+          "size": "102白",
+          "cartons": 200.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 180,
+          "spec": "6",
+          "size": "102黑",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 181,
+          "spec": "6",
+          "size": "126白",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 183,
+          "spec": "6",
+          "size": "120白",
+          "cartons": 60.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 184,
+          "spec": "6",
+          "size": "120黑",
+          "cartons": 15.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 185,
+          "spec": "6",
+          "size": "90圆黑",
+          "cartons": 15.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 186,
+          "spec": "10",
+          "size": "102白",
+          "cartons": 250.0,
+          "pack_per_ctn": 4.0,
+          "packs": 1000.0,
+          "pack_weight_kg": 4.343217119999999,
+          "pack_freight_yuan": 19.2,
+          "issues": []
+        },
+        {
+          "row": 187,
+          "spec": "10",
+          "size": "102黑",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        }
+      ]
+    },
+    {
+      "ticket": "C26007",
+      "give": "4.12-易尚",
+      "channel": "",
+      "freight_total": 16238.0,
+      "total_packs": 200.0,
+      "batch_issues": [],
+      "lines": [
+        {
+          "row": 210,
+          "spec": "10",
+          "size": "102黑",
+          "cartons": 50.0,
+          "pack_per_ctn": 4.0,
+          "packs": 200.0,
+          "pack_weight_kg": 4.343217119999999,
+          "pack_freight_yuan": 81.19,
+          "issues": []
+        },
+        {
+          "row": 211,
+          "spec": "10",
+          "size": "102米白",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 212,
+          "spec": "6",
+          "size": "102米白",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 213,
+          "spec": "6",
+          "size": "120白",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 214,
+          "spec": "6",
+          "size": "120米白",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 215,
+          "spec": "6",
+          "size": "120黑",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 216,
+          "spec": "6",
+          "size": "90圆黑",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 217,
+          "spec": "6",
+          "size": "90圆米白",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 218,
+          "spec": "2",
+          "size": "102米白",
+          "cartons": 5.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 219,
+          "spec": "2",
+          "size": "120米白",
+          "cartons": 5.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 220,
+          "spec": "2",
+          "size": "120白",
+          "cartons": 5.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 221,
+          "spec": "2",
+          "size": "120黑",
+          "cartons": 5.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 222,
+          "spec": "2",
+          "size": "90圆白",
+          "cartons": 5.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 223,
+          "spec": "2",
+          "size": "90圆黑",
+          "cartons": 5.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        }
+      ]
+    },
+    {
+      "ticket": "C26032",
+      "give": "4.19-易尚",
+      "channel": "五仓",
+      "freight_total": 12891.4,
+      "total_packs": 600.0,
+      "batch_issues": [],
+      "lines": [
+        {
+          "row": 226,
+          "spec": "10",
+          "size": "102白",
+          "cartons": 150.0,
+          "pack_per_ctn": 4.0,
+          "packs": 600.0,
+          "pack_weight_kg": 3.55354128,
+          "pack_freight_yuan": 21.4857,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "ticket": "C26036",
+      "give": "5.9-",
+      "channel": "",
+      "freight_total": 75385.6,
+      "total_packs": 200.0,
+      "batch_issues": [],
+      "lines": [
+        {
+          "row": 232,
+          "spec": "2",
+          "size": "102蓝",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 233,
+          "spec": "2",
+          "size": "102米白",
+          "cartons": 5.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 234,
+          "spec": "2",
+          "size": "120白",
+          "cartons": 5.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 235,
+          "spec": "2",
+          "size": "120黑",
+          "cartons": 5.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 236,
+          "spec": "2",
+          "size": "120蓝",
+          "cartons": 5.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 237,
+          "spec": "2",
+          "size": "90圆米白",
+          "cartons": 5.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 238,
+          "spec": "2",
+          "size": "84白",
+          "cartons": 15.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 239,
+          "spec": "2",
+          "size": "84米白",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 240,
+          "spec": "6",
+          "size": "84白",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 241,
+          "spec": "6",
+          "size": "90圆白",
+          "cartons": 100.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 242,
+          "spec": "6",
+          "size": "90圆黑",
+          "cartons": 15.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 243,
+          "spec": "6",
+          "size": "90圆蓝",
+          "cartons": 30.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 244,
+          "spec": "6",
+          "size": "90圆米白",
+          "cartons": 30.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 245,
+          "spec": "6",
+          "size": "120米白",
+          "cartons": 30.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 246,
+          "spec": "6",
+          "size": "120黑",
+          "cartons": 15.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 247,
+          "spec": "6",
+          "size": "120蓝",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 248,
+          "spec": "6",
+          "size": "102米白",
+          "cartons": 100.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 249,
+          "spec": "6",
+          "size": "102黑",
+          "cartons": 100.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 250,
+          "spec": "6",
+          "size": "102蓝",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 251,
+          "spec": "10",
+          "size": "102白",
+          "cartons": 50.0,
+          "pack_per_ctn": 4.0,
+          "packs": 200.0,
+          "pack_weight_kg": 4.343217119999999,
+          "pack_freight_yuan": 376.928,
+          "issues": []
+        },
+        {
+          "row": 252,
+          "spec": "10",
+          "size": "102蓝",
+          "cartons": 40.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 253,
+          "spec": "10",
+          "size": "102米白",
+          "cartons": 40.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        }
+      ]
+    },
+    {
+      "ticket": "C26037",
+      "give": "5.16-易尚",
+      "channel": "",
+      "freight_total": 38945.2,
+      "total_packs": 1600.0,
+      "batch_issues": [],
+      "lines": [
+        {
+          "row": 254,
+          "spec": "10",
+          "size": "102白",
+          "cartons": 400.0,
+          "pack_per_ctn": 4.0,
+          "packs": 1600.0,
+          "pack_weight_kg": 3.55354128,
+          "pack_freight_yuan": 24.3407,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "ticket": "C26039",
+      "give": "5.23-易尚",
+      "channel": "",
+      "freight_total": 27470.1,
+      "total_packs": 240.0,
+      "batch_issues": [],
+      "lines": [
+        {
+          "row": 255,
+          "spec": "10",
+          "size": "102蓝",
+          "cartons": 60.0,
+          "pack_per_ctn": 4.0,
+          "packs": 240.0,
+          "pack_weight_kg": 3.55354128,
+          "pack_freight_yuan": 114.4587,
+          "issues": []
+        },
+        {
+          "row": 256,
+          "spec": "10",
+          "size": "102黑",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 257,
+          "spec": "10",
+          "size": "102米白",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 258,
+          "spec": "10",
+          "size": "120白",
+          "cartons": 26.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 259,
+          "spec": "10",
+          "size": "120黑",
+          "cartons": 26.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 260,
+          "spec": "10",
+          "size": "120蓝",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 261,
+          "spec": "10",
+          "size": "120米白",
+          "cartons": 26.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 262,
+          "spec": "10",
+          "size": "90圆黑",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 263,
+          "spec": "10",
+          "size": "90圆蓝",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 264,
+          "spec": "10",
+          "size": "90圆米白",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        }
+      ]
+    },
+    {
+      "ticket": "C26040",
+      "give": "5.24 ",
+      "channel": "",
+      "freight_total": 26972.0,
+      "total_packs": 159.0,
+      "batch_issues": [],
+      "lines": [
+        {
+          "row": 265,
+          "spec": "2",
+          "size": "126白",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 266,
+          "spec": "2",
+          "size": "126黑",
+          "cartons": 5.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 267,
+          "spec": "2",
+          "size": "126蓝",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 268,
+          "spec": "2",
+          "size": "126米白",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 269,
+          "spec": "6",
+          "size": "126蓝",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 270,
+          "spec": "6",
+          "size": "126米白",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 271,
+          "spec": "10",
+          "size": "126白",
+          "cartons": 53.0,
+          "pack_per_ctn": 3.0,
+          "packs": 159.0,
+          "pack_weight_kg": 5.365150559999999,
+          "pack_freight_yuan": 169.6352,
+          "issues": []
+        },
+        {
+          "row": 272,
+          "spec": "10",
+          "size": "120白",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 273,
+          "spec": "10",
+          "size": "120黑",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 274,
+          "spec": "10",
+          "size": "120米白",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 275,
+          "spec": "10",
+          "size": "90圆白",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 276,
+          "spec": "10",
+          "size": "90圆黑",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 277,
+          "spec": "10",
+          "size": "90圆米白",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        }
+      ]
+    },
+    {
+      "ticket": "C26046",
+      "give": "5.24",
+      "channel": "后台扣款",
+      "freight_total": 0.0,
+      "total_packs": null,
+      "batch_issues": [],
+      "lines": [
+        {
+          "row": 278,
+          "spec": "6",
+          "size": "102白",
+          "cartons": 500.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": 0.0,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "ticket": "C26047",
+      "give": "5.31",
+      "channel": "",
+      "freight_total": 10074.8,
+      "total_packs": null,
+      "batch_issues": [
+        "total_pack_weight_zero"
+      ],
+      "lines": [
+        {
+          "row": 280,
+          "spec": "2",
+          "size": "84黑",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 281,
+          "spec": "2",
+          "size": "102米白",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 282,
+          "spec": "2",
+          "size": "120米白",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 283,
+          "spec": "6",
+          "size": "84白",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        }
+      ]
+    },
+    {
+      "ticket": "C26052",
+      "give": "6.4",
+      "channel": "",
+      "freight_total": 69608.5,
+      "total_packs": null,
+      "batch_issues": [
+        "total_pack_weight_zero"
+      ],
+      "lines": [
+        {
+          "row": 286,
+          "spec": "6",
+          "size": "102白",
+          "cartons": 500.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        }
+      ]
+    },
+    {
+      "ticket": "C26055B",
+      "give": "6.12 易尚",
+      "channel": "",
+      "freight_total": 88736.5,
+      "total_packs": 3200.0,
+      "batch_issues": [],
+      "lines": [
+        {
+          "row": 287,
+          "spec": "10",
+          "size": "102白",
+          "cartons": 800.0,
+          "pack_per_ctn": 4.0,
+          "packs": 3200.0,
+          "pack_weight_kg": 3.55354128,
+          "pack_freight_yuan": 27.7302,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "ticket": "C26055A",
+      "give": "6.17",
+      "channel": "",
+      "freight_total": 28127.1,
+      "total_packs": 940.0,
+      "batch_issues": [],
+      "lines": [
+        {
+          "row": 288,
+          "spec": "10",
+          "size": "102白",
+          "cartons": 235.0,
+          "pack_per_ctn": 4.0,
+          "packs": 940.0,
+          "pack_weight_kg": 3.55354128,
+          "pack_freight_yuan": 29.9224,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "ticket": "C26065",
+      "give": "6.20 易尚",
+      "channel": "",
+      "freight_total": 23938.2,
+      "total_packs": null,
+      "batch_issues": [
+        "total_pack_weight_zero"
+      ],
+      "lines": [
+        {
+          "row": 289,
+          "spec": "6",
+          "size": "84白",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 290,
+          "spec": "2",
+          "size": "84白",
+          "cartons": 15.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 291,
+          "spec": "2",
+          "size": "102白",
+          "cartons": 150.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        }
+      ]
+    },
+    {
+      "ticket": "C26064",
+      "give": "6.24",
+      "channel": "",
+      "freight_total": 114136.5,
+      "total_packs": 600.0,
+      "batch_issues": [],
+      "lines": [
+        {
+          "row": 292,
+          "spec": "2",
+          "size": "84白",
+          "cartons": 25.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 293,
+          "spec": "2",
+          "size": "102米白",
+          "cartons": 30.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 294,
+          "spec": "2",
+          "size": "90圆白",
+          "cartons": 15.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 295,
+          "spec": "2",
+          "size": "90圆米白",
+          "cartons": 15.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 296,
+          "spec": "6",
+          "size": "84白",
+          "cartons": 75.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 297,
+          "spec": "6",
+          "size": "102米白",
+          "cartons": 75.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 298,
+          "spec": "6",
+          "size": "102蓝",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 299,
+          "spec": "6",
+          "size": "90圆白",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 300,
+          "spec": "6",
+          "size": "90圆米白",
+          "cartons": 40.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 301,
+          "spec": "6",
+          "size": "126白",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 302,
+          "spec": "6",
+          "size": "70*120 白",
+          "cartons": 40.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 303,
+          "spec": "10",
+          "size": "102白",
+          "cartons": 150.0,
+          "pack_per_ctn": 4.0,
+          "packs": 600.0,
+          "pack_weight_kg": 4.343217119999999,
+          "pack_freight_yuan": 190.2275,
+          "issues": []
+        },
+        {
+          "row": 304,
+          "spec": "10",
+          "size": "102米白",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 305,
+          "spec": "10",
+          "size": "90圆白",
+          "cartons": 30.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 306,
+          "spec": "10",
+          "size": "90圆米白",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        },
+        {
+          "row": 307,
+          "spec": "10",
+          "size": "126米白",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": [
+            "pack_per_ctn_missing"
+          ]
+        }
+      ]
+    },
+    {
+      "ticket": "C26079",
+      "give": "7.31",
+      "channel": "物易通",
+      "freight_total": null,
+      "total_packs": 400.0,
+      "batch_issues": [
+        "freight_missing_or_zero"
+      ],
+      "lines": [
+        {
+          "row": 310,
+          "spec": "10",
+          "size": "102米白",
+          "cartons": 100.0,
+          "pack_per_ctn": 4.0,
+          "packs": 400.0,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 311,
+          "spec": "10",
+          "size": "102白",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 312,
+          "spec": "10",
+          "size": "120白",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 313,
+          "spec": "10",
+          "size": "120米白",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 314,
+          "spec": "10",
+          "size": "90圆白",
+          "cartons": 40.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 315,
+          "spec": "10",
+          "size": "126米白",
+          "cartons": 40.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 316,
+          "spec": "10",
+          "size": "102蓝",
+          "cartons": 30.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 317,
+          "spec": "10",
+          "size": "120黑",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 318,
+          "spec": "10",
+          "size": "90圆黑",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 319,
+          "spec": "2",
+          "size": "90圆白",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 320,
+          "spec": "2",
+          "size": "126白",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 321,
+          "spec": "2",
+          "size": "120白",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 322,
+          "spec": "2",
+          "size": "120米白",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 323,
+          "spec": "2",
+          "size": "90圆黑",
+          "cartons": 5.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 324,
+          "spec": "6",
+          "size": "102米白",
+          "cartons": 120.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 325,
+          "spec": "6",
+          "size": "90圆白",
+          "cartons": 80.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 326,
+          "spec": "6",
+          "size": "126白",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 327,
+          "spec": "6",
+          "size": "90圆米白",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 328,
+          "spec": "6",
+          "size": "126米白",
+          "cartons": 30.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 329,
+          "spec": "6",
+          "size": "102蓝",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "ticket": "C26079",
+      "give": "7.31",
+      "channel": "物易通",
+      "freight_total": null,
+      "total_packs": 150.0,
+      "batch_issues": [
+        "freight_missing_or_zero"
+      ],
+      "lines": [
+        {
+          "row": 330,
+          "spec": "10",
+          "size": "126白",
+          "cartons": 50.0,
+          "pack_per_ctn": 3.0,
+          "packs": 150.0,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 331,
+          "spec": "6",
+          "size": "120白",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 332,
+          "spec": "6",
+          "size": "120米白",
+          "cartons": 40.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "ticket": "C26080",
+      "give": "7.31 易尚",
+      "channel": "物易通",
+      "freight_total": null,
+      "total_packs": null,
+      "batch_issues": [
+        "freight_missing_or_zero"
+      ],
+      "lines": [
+        {
+          "row": 333,
+          "spec": "6",
+          "size": "120白",
+          "cartons": 30.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "ticket": "C26080",
+      "give": "7.31 易尚",
+      "channel": "物易通",
+      "freight_total": null,
+      "total_packs": 200.0,
+      "batch_issues": [
+        "freight_missing_or_zero"
+      ],
+      "lines": [
+        {
+          "row": 334,
+          "spec": "10",
+          "size": "102米白",
+          "cartons": 50.0,
+          "pack_per_ctn": 4.0,
+          "packs": 200.0,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 335,
+          "spec": "2",
+          "size": "90圆黑",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 336,
+          "spec": "2",
+          "size": "120米白",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 337,
+          "spec": "2",
+          "size": "120白",
+          "cartons": 10.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 338,
+          "spec": "2",
+          "size": "102米白",
+          "cartons": 5.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 339,
+          "spec": "6",
+          "size": "90圆白",
+          "cartons": 85.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 340,
+          "spec": "6",
+          "size": "90圆米白",
+          "cartons": 50.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 341,
+          "spec": "6",
+          "size": "126米白",
+          "cartons": 30.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 342,
+          "spec": "6",
+          "size": "120米白",
+          "cartons": 30.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 343,
+          "spec": "6",
+          "size": "102白",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 344,
+          "spec": "6",
+          "size": "126白",
+          "cartons": 20.0,
+          "pack_per_ctn": null,
+          "packs": null,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "ticket": "C26089",
+      "give": "8.29 易尚",
+      "channel": "后台扣款",
+      "freight_total": 0.0,
+      "total_packs": 2000.0,
+      "batch_issues": [],
+      "lines": [
+        {
+          "row": 347,
+          "spec": "10",
+          "size": "102白",
+          "cartons": 500.0,
+          "pack_per_ctn": 4.0,
+          "packs": 2000.0,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": 0.0,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "ticket": "C26089",
+      "give": "8.29 易尚",
+      "channel": "物易通",
+      "freight_total": null,
+      "total_packs": 2000.0,
+      "batch_issues": [
+        "freight_missing_or_zero"
+      ],
+      "lines": [
+        {
+          "row": 348,
+          "spec": "10",
+          "size": "102白",
+          "cartons": 500.0,
+          "pack_per_ctn": 4.0,
+          "packs": 2000.0,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "ticket": "C26095",
+      "give": "9.4 易尚",
+      "channel": "物易通",
+      "freight_total": null,
+      "total_packs": 300.0,
+      "batch_issues": [
+        "freight_missing_or_zero"
+      ],
+      "lines": [
+        {
+          "row": 349,
+          "spec": "10",
+          "size": "120白",
+          "cartons": 50.0,
+          "pack_per_ctn": 3.0,
+          "packs": 150.0,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 350,
+          "spec": "10",
+          "size": "120米白",
+          "cartons": 50.0,
+          "pack_per_ctn": 3.0,
+          "packs": 150.0,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "ticket": "C26095",
+      "give": "9.4 易尚",
+      "channel": "物易通",
+      "freight_total": null,
+      "total_packs": 480.0,
+      "batch_issues": [
+        "freight_missing_or_zero"
+      ],
+      "lines": [
+        {
+          "row": 351,
+          "spec": "10",
+          "size": "102米白",
+          "cartons": 100.0,
+          "pack_per_ctn": 4.0,
+          "packs": 400.0,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        },
+        {
+          "row": 352,
+          "spec": "10",
+          "size": "90圆米白",
+          "cartons": 20.0,
+          "pack_per_ctn": 4.0,
+          "packs": 80.0,
+          "pack_weight_kg": null,
+          "pack_freight_yuan": null,
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "blockers": [
+    "C26006:row179:pack_per_ctn_missing",
+    "C26006:row180:pack_per_ctn_missing",
+    "C26006:row181:pack_per_ctn_missing",
+    "C26006:row183:pack_per_ctn_missing",
+    "C26006:row184:pack_per_ctn_missing",
+    "C26006:row185:pack_per_ctn_missing",
+    "C26006:row187:pack_per_ctn_missing",
+    "C26007:row211:pack_per_ctn_missing",
+    "C26007:row212:pack_per_ctn_missing",
+    "C26007:row213:pack_per_ctn_missing",
+    "C26007:row214:pack_per_ctn_missing",
+    "C26007:row215:pack_per_ctn_missing",
+    "C26007:row216:pack_per_ctn_missing",
+    "C26007:row217:pack_per_ctn_missing",
+    "C26007:row218:pack_per_ctn_missing",
+    "C26007:row219:pack_per_ctn_missing",
+    "C26007:row220:pack_per_ctn_missing",
+    "C26007:row221:pack_per_ctn_missing",
+    "C26007:row222:pack_per_ctn_missing",
+    "C26007:row223:pack_per_ctn_missing",
+    "C26036:row232:pack_per_ctn_missing",
+    "C26036:row233:pack_per_ctn_missing",
+    "C26036:row234:pack_per_ctn_missing",
+    "C26036:row235:pack_per_ctn_missing",
+    "C26036:row236:pack_per_ctn_missing",
+    "C26036:row237:pack_per_ctn_missing",
+    "C26036:row238:pack_per_ctn_missing",
+    "C26036:row239:pack_per_ctn_missing",
+    "C26036:row240:pack_per_ctn_missing",
+    "C26036:row241:pack_per_ctn_missing",
+    "C26036:row242:pack_per_ctn_missing",
+    "C26036:row243:pack_per_ctn_missing",
+    "C26036:row244:pack_per_ctn_missing",
+    "C26036:row245:pack_per_ctn_missing",
+    "C26036:row246:pack_per_ctn_missing",
+    "C26036:row247:pack_per_ctn_missing",
+    "C26036:row248:pack_per_ctn_missing",
+    "C26036:row249:pack_per_ctn_missing",
+    "C26036:row250:pack_per_ctn_missing",
+    "C26036:row252:pack_per_ctn_missing",
+    "C26036:row253:pack_per_ctn_missing",
+    "C26039:row256:pack_per_ctn_missing",
+    "C26039:row257:pack_per_ctn_missing",
+    "C26039:row258:pack_per_ctn_missing",
+    "C26039:row259:pack_per_ctn_missing",
+    "C26039:row260:pack_per_ctn_missing",
+    "C26039:row261:pack_per_ctn_missing",
+    "C26039:row262:pack_per_ctn_missing",
+    "C26039:row263:pack_per_ctn_missing",
+    "C26039:row264:pack_per_ctn_missing",
+    "C26040:row265:pack_per_ctn_missing",
+    "C26040:row266:pack_per_ctn_missing",
+    "C26040:row267:pack_per_ctn_missing",
+    "C26040:row268:pack_per_ctn_missing",
+    "C26040:row269:pack_per_ctn_missing",
+    "C26040:row270:pack_per_ctn_missing",
+    "C26040:row272:pack_per_ctn_missing",
+    "C26040:row273:pack_per_ctn_missing",
+    "C26040:row274:pack_per_ctn_missing",
+    "C26040:row275:pack_per_ctn_missing",
+    "C26040:row276:pack_per_ctn_missing",
+    "C26040:row277:pack_per_ctn_missing",
+    "C26047:row280:pack_per_ctn_missing",
+    "C26047:row281:pack_per_ctn_missing",
+    "C26047:row282:pack_per_ctn_missing",
+    "C26047:row283:pack_per_ctn_missing",
+    "C26047:total_pack_weight_zero",
+    "C26052:row286:pack_per_ctn_missing",
+    "C26052:total_pack_weight_zero",
+    "C26064:row292:pack_per_ctn_missing",
+    "C26064:row293:pack_per_ctn_missing",
+    "C26064:row294:pack_per_ctn_missing",
+    "C26064:row295:pack_per_ctn_missing",
+    "C26064:row296:pack_per_ctn_missing",
+    "C26064:row297:pack_per_ctn_missing",
+    "C26064:row298:pack_per_ctn_missing",
+    "C26064:row299:pack_per_ctn_missing",
+    "C26064:row300:pack_per_ctn_missing",
+    "C26064:row301:pack_per_ctn_missing",
+    "C26064:row302:pack_per_ctn_missing",
+    "C26064:row304:pack_per_ctn_missing",
+    "C26064:row305:pack_per_ctn_missing",
+    "C26064:row306:pack_per_ctn_missing",
+    "C26064:row307:pack_per_ctn_missing",
+    "C26065:row289:pack_per_ctn_missing",
+    "C26065:row290:pack_per_ctn_missing",
+    "C26065:row291:pack_per_ctn_missing",
+    "C26065:total_pack_weight_zero",
+    "C26079:freight_missing_or_zero",
+    "C26080:freight_missing_or_zero",
+    "C26089:freight_missing_or_zero",
+    "C26095:freight_missing_or_zero"
+  ],
+  "ready": false
+}

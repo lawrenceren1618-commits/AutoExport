@@ -1,0 +1,46 @@
+{
+  "order_code": "EF-C26089-C07-40000",
+  "entity_code": "C07",
+  "brand": "Dressmaker",
+  "layout": "产品标签/{EF}标签/{N}条装/{尺寸}/{原名}.pdf",
+  "label_source": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\桌布标签",
+  "copied": 1,
+  "missing": [],
+  "ambiguous": [],
+  "source_before": {
+    "total_files": 113,
+    "fingerprint": "cb345ccb12bef4e58a026669f045430579a73de75d28d817fcc82acd3e035dbf",
+    "inventory_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\label_source_inventory\\before_EF-C26089-C07-40000_20260813_095343.json"
+  },
+  "source_after": {
+    "total_files": 113,
+    "fingerprint": "cb345ccb12bef4e58a026669f045430579a73de75d28d817fcc82acd3e035dbf",
+    "inventory_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\label_source_inventory\\after_EF-C26089-C07-40000_20260813_095343.json",
+    "unchanged": true
+  },
+  "lines": [
+    {
+      "size": "60X102inch",
+      "color": "白色",
+      "qty_strips": 40000,
+      "qty_cartons": 1000,
+      "strips_per_pack": 10,
+      "packs_per_carton": 4,
+      "strips_per_carton": 40,
+      "fnsku": "X004SJV9UF",
+      "amazon_sku": null,
+      "gram_weight": "90G",
+      "size_folder": "60x102",
+      "brand": "Dressmaker",
+      "source_rel": "C07-Dressmaker品牌/易尚美国站90克桌布/10条装/60x102/102白-10条.pdf",
+      "dest_rel": "EF-C26089-C07-40000标签/10条装/60x102/102白-10条.pdf",
+      "status": "copied",
+      "candidates": [
+        {
+          "rel": "C07-Dressmaker品牌/易尚美国站90克桌布/10条装/60x102/102白-10条.pdf",
+          "score": 13
+        }
+      ]
+    }
+  ]
+}

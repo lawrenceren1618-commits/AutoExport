@@ -1,0 +1,500 @@
+{
+  "output": "D:\\.cursor\\Cursor-projects\\AutoExport\\3_Output_Final\\EF-C26079-C04-36460  桌布-2026.7.10",
+  "ship": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10",
+  "ship_freight_a": [
+    {
+      "name": "货代下单表_C26079-A 2026.7.31桌布 AVP1 175箱.xlsx",
+      "wh": [
+        "AVP1"
+      ],
+      "size": 110344
+    },
+    {
+      "name": "货代下单表_C26079-A 2026.7.31桌布 CLT2 128箱.xlsx",
+      "wh": [
+        "CLT2"
+      ],
+      "size": 110342
+    },
+    {
+      "name": "货代下单表_C26079-A 2026.7.31桌布 GYR2 139箱.xlsx",
+      "wh": [
+        "GYR2"
+      ],
+      "size": 110346
+    },
+    {
+      "name": "货代下单表_C26079-A 2026.7.31桌布 LGB8 182箱.xlsx",
+      "wh": [
+        "LGB8"
+      ],
+      "size": 110340
+    },
+    {
+      "name": "货代下单表_C26079-A 2026.7.31桌布 MDW2 181箱.xlsx",
+      "wh": [
+        "MDW2"
+      ],
+      "size": 110337
+    }
+  ],
+  "ship_freight_b": [
+    {
+      "name": "货代下单表_C26079-B 2026.7.31桌布 AWD-IUTE 140箱.pre_mediafix.xlsx",
+      "wh": [
+        "IUTE"
+      ],
+      "size": 14095
+    },
+    {
+      "name": "货代下单表_C26079-B 2026.7.31桌布 AWD-IUTE 140箱.xlsx",
+      "wh": [
+        "IUTE"
+      ],
+      "size": 110341
+    }
+  ],
+  "out_freight_a": [
+    {
+      "name": "货代下单表_C26079-A 2026.7.31桌布 AVP1 175箱.xlsx",
+      "wh": [
+        "AVP1"
+      ]
+    },
+    {
+      "name": "货代下单表_C26079-A 2026.7.31桌布 CLT2 128箱.xlsx",
+      "wh": [
+        "CLT2"
+      ]
+    },
+    {
+      "name": "货代下单表_C26079-A 2026.7.31桌布 GYR2 139箱.xlsx",
+      "wh": [
+        "GYR2"
+      ]
+    },
+    {
+      "name": "货代下单表_C26079-A 2026.7.31桌布 LGB8 182箱.xlsx",
+      "wh": [
+        "LGB8"
+      ]
+    },
+    {
+      "name": "货代下单表_C26079-A 2026.7.31桌布 MDW2 181箱.xlsx",
+      "wh": [
+        "MDW2"
+      ]
+    }
+  ],
+  "out_freight_b": [
+    {
+      "name": "货代下单表_C26079-B 2026.7.31桌布 AWD-IUTE 140箱.xlsx",
+      "wh": [
+        "IUTE"
+      ]
+    }
+  ],
+  "ship_customs": [
+    {
+      "name": "畅选+波丽丝 2026.7.31发货 C26079-A AVP1 175箱 市场采购数据.xlsx",
+      "wh": [
+        "AVP1"
+      ],
+      "size": 143310
+    },
+    {
+      "name": "畅选+波丽丝 2026.7.31发货 C26079-A CLT2 128箱 市场采购数据.xlsx",
+      "wh": [
+        "CLT2"
+      ],
+      "size": 143309
+    },
+    {
+      "name": "畅选+波丽丝 2026.7.31发货 C26079-A GYR2 139箱 市场采购数据.xlsx",
+      "wh": [
+        "GYR2"
+      ],
+      "size": 143306
+    },
+    {
+      "name": "畅选+波丽丝 2026.7.31发货 C26079-A LGB8 182箱 市场采购数据.xlsx",
+      "wh": [
+        "LGB8"
+      ],
+      "size": 143309
+    },
+    {
+      "name": "畅选+波丽丝 2026.7.31发货 C26079-A MDW2 181箱 市场采购数据.xlsx",
+      "wh": [
+        "MDW2"
+      ],
+      "size": 143310
+    },
+    {
+      "name": "畅选+波丽丝 2026.7.31发货 C26079-B AWD-IUTE 140箱 市场采购数据.xlsx",
+      "wh": [
+        "IUTE"
+      ],
+      "size": 143307
+    }
+  ],
+  "out_customs_a": [
+    {
+      "name": "畅选+波丽丝 2026.7.31发货 C26079-A AVP1 175箱 市场采购数据.xlsx",
+      "wh": [
+        "AVP1"
+      ]
+    },
+    {
+      "name": "畅选+波丽丝 2026.7.31发货 C26079-A CLT2 128箱 市场采购数据.xlsx",
+      "wh": [
+        "CLT2"
+      ]
+    },
+    {
+      "name": "畅选+波丽丝 2026.7.31发货 C26079-A GYR2 139箱 市场采购数据.xlsx",
+      "wh": [
+        "GYR2"
+      ]
+    },
+    {
+      "name": "畅选+波丽丝 2026.7.31发货 C26079-A LGB8 182箱 市场采购数据.xlsx",
+      "wh": [
+        "LGB8"
+      ]
+    },
+    {
+      "name": "畅选+波丽丝 2026.7.31发货 C26079-A MDW2 181箱 市场采购数据.xlsx",
+      "wh": [
+        "MDW2"
+      ]
+    }
+  ],
+  "out_customs_b": [
+    {
+      "name": "畅选+波丽丝 2026.7.31发货 C26079-B AWD-IUTE 140箱 市场采购数据.xlsx",
+      "wh": [
+        "IUTE"
+      ]
+    }
+  ],
+  "ship_fba_wh_dirs": [
+    {
+      "dir": "AVP1",
+      "subdirs": [
+        "白色 60X126inches 2pack-4箱",
+        "白色 60×102inches 10packs-9箱",
+        "白色 60×126inches 6packs-11箱",
+        "白色 70X120inches 10pack-12箱",
+        "白色 70X120inches 2pack-2箱",
+        "白色 90inches Round 10pack-11箱",
+        "白色 90inches Round 2pack-5箱",
+        "白色 90inches Round 6pack-19箱",
+        "米白色 60X102inches 10pack-19箱",
+        "米白色 60X102inches 6pack-23箱",
+        "米白色 60X126inches 10pack-9箱",
+        "米白色 60X126inches 6pack-6箱",
+        "米白色 70X120inches 10pack-10箱",
+        "米白色 70X120inches 2pack-2箱",
+        "米白色 90inches Round 6pack-12箱",
+        "蓝色 60X102inches 10pack-8箱",
+        "蓝色 60X102inches 6pack-4箱",
+        "黑色 70X120inches 10pack-4箱",
+        "黑色 90inches Round 10pack-4箱",
+        "黑色 90inches Round 2pack-1箱"
+      ],
+      "pdf_count_excl_bak": 21
+    },
+    {
+      "dir": "AWD",
+      "subdirs": [
+        "IUTE"
+      ],
+      "pdf_count_excl_bak": 4
+    },
+    {
+      "dir": "CLT2",
+      "subdirs": [
+        "白色 60X126inches 2pack-1箱",
+        "白色 60×102inches 10packs-8箱",
+        "白色 60×126inches 6packs-7箱",
+        "白色 70X120inches 10pack-6箱",
+        "白色 70X120inches 2pack-2箱",
+        "白色 90inches Round 10pack-7箱",
+        "白色 90inches Round 2pack-4箱",
+        "白色 90inches Round 6pack-13箱",
+        "米白色 60X102inches 10pack-14箱",
+        "米白色 60X102inches 6pack-19箱",
+        "米白色 60X126inches 10pack-8箱",
+        "米白色 60X126inches 6pack-4箱",
+        "米白色 70X120inches 10pack-8箱",
+        "米白色 70X120inches 2pack-2箱",
+        "米白色 90inches Round 6pack-8箱",
+        "蓝色 60X102inches 10pack-5箱",
+        "蓝色 60X102inches 6pack-4箱",
+        "黑色 70X120inches 10pack-4箱",
+        "黑色 90inches Round 10pack-3箱",
+        "黑色 90inches Round 2pack-1箱"
+      ],
+      "pdf_count_excl_bak": 21
+    },
+    {
+      "dir": "FC",
+      "subdirs": [],
+      "pdf_count_excl_bak": 0
+    },
+    {
+      "dir": "GWD",
+      "subdirs": [],
+      "pdf_count_excl_bak": 0
+    },
+    {
+      "dir": "GYR2",
+      "subdirs": [
+        "白色 60X126inches 2pack-1箱",
+        "白色 60×102inches 10packs-9箱",
+        "白色 60×126inches 6packs-7箱",
+        "白色 70X120inches 10pack-8箱",
+        "白色 70X120inches 2pack-2箱",
+        "白色 90inches Round 10pack-5箱",
+        "白色 90inches Round 2pack-3箱",
+        "白色 90inches Round 6pack-12箱",
+        "米白色 60X102inches 10pack-18箱",
+        "米白色 60X102inches 6pack-23箱",
+        "米白色 60X126inches 10pack-7箱",
+        "米白色 60X126inches 6pack-5箱",
+        "米白色 70X120inches 10pack-9箱",
+        "米白色 70X120inches 2pack-2箱",
+        "米白色 90inches Round 6pack-9箱",
+        "蓝色 60X102inches 10pack-5箱",
+        "蓝色 60X102inches 6pack-4箱",
+        "黑色 70X120inches 10pack-4箱",
+        "黑色 90inches Round 10pack-5箱",
+        "黑色 90inches Round 2pack-1箱"
+      ],
+      "pdf_count_excl_bak": 21
+    },
+    {
+      "dir": "LGB8",
+      "subdirs": [
+        "白色 60X126inches 2pack-2箱",
+        "白色 60×102inches 10packs-12箱",
+        "白色 60×126inches 6packs-10箱",
+        "白色 70X120inches 10pack-10箱",
+        "白色 70X120inches 2pack-2箱",
+        "白色 90inches Round 10pack-9箱",
+        "白色 90inches Round 2pack-3箱",
+        "白色 90inches Round 6pack-15箱",
+        "米白色 60X102inches 10pack-30箱",
+        "米白色 60X102inches 6pack-32箱",
+        "米白色 60X126inches 10pack-7箱",
+        "米白色 60X126inches 6pack-5箱",
+        "米白色 70X120inches 10pack-15箱",
+        "米白色 70X120inches 2pack-2箱",
+        "米白色 90inches Round 6pack-10箱",
+        "蓝色 60X102inches 10pack-5箱",
+        "蓝色 60X102inches 6pack-4箱",
+        "黑色 70X120inches 10pack-4箱",
+        "黑色 90inches Round 10pack-4箱",
+        "黑色 90inches Round 2pack-1箱"
+      ],
+      "pdf_count_excl_bak": 21
+    },
+    {
+      "dir": "MDW2",
+      "subdirs": [
+        "白色 60X126inches 2pack-2箱",
+        "白色 60×102inches 10packs-12箱",
+        "白色 60×126inches 6packs-15箱",
+        "白色 70X120inches 10pack-14箱",
+        "白色 70X120inches 2pack-2箱",
+        "白色 90inches Round 10pack-8箱",
+        "白色 90inches Round 2pack-5箱",
+        "白色 90inches Round 6pack-21箱",
+        "米白色 60X102inches 10pack-19箱",
+        "米白色 60X102inches 6pack-23箱",
+        "米白色 60X126inches 10pack-9箱",
+        "米白色 60X126inches 6pack-10箱",
+        "米白色 70X120inches 10pack-8箱",
+        "米白色 70X120inches 2pack-2箱",
+        "米白色 90inches Round 6pack-11箱",
+        "蓝色 60X102inches 10pack-7箱",
+        "蓝色 60X102inches 6pack-4箱",
+        "黑色 70X120inches 10pack-4箱",
+        "黑色 90inches Round 10pack-4箱",
+        "黑色 90inches Round 2pack-1箱"
+      ],
+      "pdf_count_excl_bak": 21
+    }
+  ],
+  "pack_a_wh": [
+    "AVP1",
+    "CLT2",
+    "GYR2",
+    "LGB8",
+    "MDW2"
+  ],
+  "pack_b_files": [
+    "入库贴_IUTE/AWD_IUTE_入库贴_140箱.pdf",
+    "外箱贴_IUTE/白_60X126inch_10条装/AWD_IUTE_白_60X126inch_10条装_50箱.pdf",
+    "外箱贴_IUTE/白_70X120inch_6条装/AWD_IUTE_白_70X120inch_6条装_50箱.pdf",
+    "外箱贴_IUTE/米白_70X120inch_6条装/AWD_IUTE_米白_70X120inch_6条装_40箱.pdf"
+  ],
+  "mismatch_notes": [],
+  "ship_fba_top": [
+    "AVP1",
+    "AWD",
+    "CLT2",
+    "FC",
+    "GWD",
+    "GYR2",
+    "LGB8",
+    "MDW2",
+    "_inbox",
+    "_recognize",
+    "_staging"
+  ],
+  "archive_legs": [
+    {
+      "leg": "C26079-A_FC",
+      "freight": [
+        {
+          "name": "货代下单表_C26079-A 2026.7.31桌布 AVP1 175箱.xlsx",
+          "wh": [
+            "AVP1"
+          ]
+        },
+        {
+          "name": "货代下单表_C26079-A 2026.7.31桌布 CLT2 128箱.xlsx",
+          "wh": [
+            "CLT2"
+          ]
+        },
+        {
+          "name": "货代下单表_C26079-A 2026.7.31桌布 GYR2 139箱.xlsx",
+          "wh": [
+            "GYR2"
+          ]
+        },
+        {
+          "name": "货代下单表_C26079-A 2026.7.31桌布 LGB8 182箱.xlsx",
+          "wh": [
+            "LGB8"
+          ]
+        },
+        {
+          "name": "货代下单表_C26079-A 2026.7.31桌布 MDW2 181箱.xlsx",
+          "wh": [
+            "MDW2"
+          ]
+        }
+      ],
+      "customs": [
+        {
+          "name": "畅选+波丽丝 2026.7.31发货 C26079-A AVP1 175箱 市场采购数据.xlsx",
+          "wh": [
+            "AVP1"
+          ]
+        },
+        {
+          "name": "畅选+波丽丝 2026.7.31发货 C26079-A CLT2 128箱 市场采购数据.xlsx",
+          "wh": [
+            "CLT2"
+          ]
+        },
+        {
+          "name": "畅选+波丽丝 2026.7.31发货 C26079-A GYR2 139箱 市场采购数据.xlsx",
+          "wh": [
+            "GYR2"
+          ]
+        },
+        {
+          "name": "畅选+波丽丝 2026.7.31发货 C26079-A LGB8 182箱 市场采购数据.xlsx",
+          "wh": [
+            "LGB8"
+          ]
+        },
+        {
+          "name": "畅选+波丽丝 2026.7.31发货 C26079-A MDW2 181箱 市场采购数据.xlsx",
+          "wh": [
+            "MDW2"
+          ]
+        }
+      ],
+      "fba_wh": []
+    },
+    {
+      "leg": "C26079-B_AWD",
+      "freight": [
+        {
+          "name": "货代下单表_C26079-B 2026.7.31桌布 AWD-IUTE 140箱.xlsx",
+          "wh": [
+            "IUTE"
+          ]
+        }
+      ],
+      "customs": [
+        {
+          "name": "畅选+波丽丝 2026.7.31发货 C26079-B AWD-IUTE 140箱 市场采购数据.xlsx",
+          "wh": [
+            "IUTE"
+          ]
+        }
+      ],
+      "fba_wh": []
+    },
+    {
+      "leg": "共用",
+      "freight": [],
+      "customs": [],
+      "fba_wh": []
+    }
+  ],
+  "compare_A": {
+    "ship_freight_file_count": 5,
+    "out_freight_file_count": 5,
+    "ship_customs_file_count": 6,
+    "wh_from_ship_freight_A": [
+      "AVP1",
+      "CLT2",
+      "GYR2",
+      "LGB8",
+      "MDW2"
+    ],
+    "wh_from_pack_A": [
+      "AVP1",
+      "CLT2",
+      "GYR2",
+      "LGB8",
+      "MDW2"
+    ],
+    "wh_from_ship_customs": [
+      "AVP1",
+      "CLT2",
+      "GYR2",
+      "IUTE",
+      "LGB8",
+      "MDW2"
+    ],
+    "wh_fba_fc_with_pdfs": [
+      "AVP1",
+      "CLT2",
+      "GYR2",
+      "LGB8",
+      "MDW2"
+    ],
+    "freight_minus_pack": [],
+    "pack_minus_freight": [],
+    "customs_minus_freight_A": []
+  },
+  "compare_counts_hypothesis": {
+    "ship_freight_all_xlsx": 7,
+    "ship_freight_A_only": 5,
+    "ship_freight_B_including_pre_media": 2,
+    "out_archive_freight_A": 5,
+    "out_archive_freight_B": 1,
+    "out_archive_freight_A_plus_B": 6,
+    "pack_A_warehouse_count": 5,
+    "ship_customs_count": 6
+  }
+}

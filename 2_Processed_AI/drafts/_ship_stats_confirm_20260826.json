@@ -1,0 +1,600 @@
+{
+  "generated_at": "2026-08-26T14:52:10",
+  "source_xls": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\发货统计\\_inbox\\2025.畅选 发货情况(2)(1).xls",
+  "format": {
+    "sheet": "Sheet1",
+    "headers": [
+      "月份",
+      "创建日期",
+      "给货日期",
+      "规格",
+      "尺寸",
+      "成本",
+      "箱数",
+      "渠道",
+      "FBA单号",
+      "运费"
+    ],
+    "batch_vs_detail": "给货日期含批次标签；首行常带 FBA；后续行尺寸+箱数",
+    "vs_locked_rules": [
+      "颜色 ivory/Ivory/米白 → 米白",
+      "FBA 批次行写全",
+      "新行：渠道=货代，运费留空待填（纠正把货代写进运费列）",
+      "月份拟写 2026.7 / 2026.8"
+    ]
+  },
+  "normalize_size_color": [
+    {
+      "from": "102白",
+      "to": "60*102 白",
+      "count": 51,
+      "sample_rows": [
+        6,
+        9,
+        12
+      ]
+    },
+    {
+      "from": "102黑",
+      "to": "60*102 黑",
+      "count": 19,
+      "sample_rows": [
+        10,
+        35,
+        42
+      ]
+    },
+    {
+      "from": "84白",
+      "to": "60*84 白",
+      "count": 14,
+      "sample_rows": [
+        17,
+        41,
+        45
+      ]
+    },
+    {
+      "from": "126白",
+      "to": "60*126 白",
+      "count": 12,
+      "sample_rows": [
+        11,
+        18,
+        36
+      ]
+    },
+    {
+      "from": "120黑",
+      "to": "70*120 黑",
+      "count": 11,
+      "sample_rows": [
+        128,
+        162,
+        185
+      ]
+    },
+    {
+      "from": "102米白",
+      "to": "60*102 米白",
+      "count": 10,
+      "sample_rows": [
+        199,
+        200,
+        207
+      ]
+    },
+    {
+      "from": "120白",
+      "to": "70*120 白",
+      "count": 9,
+      "sample_rows": [
+        127,
+        161,
+        184
+      ]
+    },
+    {
+      "from": "90圆 Ivory",
+      "to": "90圆 米白",
+      "count": 8,
+      "sample_rows": [
+        132,
+        134,
+        165
+      ]
+    },
+    {
+      "from": "84黑",
+      "to": "60*84 黑",
+      "count": 6,
+      "sample_rows": [
+        19,
+        46,
+        52
+      ]
+    },
+    {
+      "from": "102蓝",
+      "to": "60*102 蓝",
+      "count": 6,
+      "sample_rows": [
+        201,
+        208,
+        239
+      ]
+    },
+    {
+      "from": "120米白",
+      "to": "70*120 米白",
+      "count": 6,
+      "sample_rows": [
+        202,
+        209,
+        221
+      ]
+    },
+    {
+      "from": "60*84白",
+      "to": "60*84 白",
+      "count": 5,
+      "sample_rows": [
+        5,
+        296,
+        297
+      ]
+    },
+    {
+      "from": "102 黑",
+      "to": "60*102 黑",
+      "count": 5,
+      "sample_rows": [
+        121,
+        166,
+        188
+      ]
+    },
+    {
+      "from": "120蓝",
+      "to": "70*120 蓝",
+      "count": 5,
+      "sample_rows": [
+        203,
+        211,
+        243
+      ]
+    },
+    {
+      "from": "90圆米白",
+      "to": "90圆 米白",
+      "count": 5,
+      "sample_rows": [
+        206,
+        224,
+        244
+      ]
+    },
+    {
+      "from": "120Ivory",
+      "to": "70*120 米白",
+      "count": 4,
+      "sample_rows": [
+        129,
+        163,
+        281
+      ]
+    },
+    {
+      "from": "90圆黑",
+      "to": "90圆 黑",
+      "count": 3,
+      "sample_rows": [
+        214,
+        223,
+        230
+      ]
+    },
+    {
+      "from": "60*102 ivory",
+      "to": "60*102 米白",
+      "count": 3,
+      "sample_rows": [
+        300,
+        304,
+        311
+      ]
+    },
+    {
+      "from": "90圆白",
+      "to": "90圆 白",
+      "count": 2,
+      "sample_rows": [
+        213,
+        229
+      ]
+    },
+    {
+      "from": "126蓝",
+      "to": "60*126 蓝",
+      "count": 2,
+      "sample_rows": [
+        274,
+        276
+      ]
+    },
+    {
+      "from": "126米白",
+      "to": "60*126 米白",
+      "count": 2,
+      "sample_rows": [
+        275,
+        277
+      ]
+    },
+    {
+      "from": "60*102黑",
+      "to": "60*102 黑",
+      "count": 1,
+      "sample_rows": [
+        4
+      ]
+    },
+    {
+      "from": "102象牙白",
+      "to": "60*102 米白",
+      "count": 1,
+      "sample_rows": [
+        93
+      ]
+    },
+    {
+      "from": "90圆蓝",
+      "to": "90圆 蓝",
+      "count": 1,
+      "sample_rows": [
+        215
+      ]
+    },
+    {
+      "from": "126黑",
+      "to": "60*126 黑",
+      "count": 1,
+      "sample_rows": [
+        273
+      ]
+    },
+    {
+      "from": "60*126 ivory",
+      "to": "60*126 米白",
+      "count": 1,
+      "sample_rows": [
+        314
+      ]
+    }
+  ],
+  "fba_single_flagged_sample": [
+    {
+      "r": 180,
+      "give": "3.21-C26006",
+      "fba_count": 1,
+      "fba": "STAR-S4SW6W6GG7PKM"
+    },
+    {
+      "r": 217,
+      "give": "4.12-易尚\nC26007",
+      "fba_count": 1,
+      "fba": "FBA199HMT3ZN"
+    },
+    {
+      "r": 272,
+      "give": "5.24 \nC26040-248箱",
+      "fba_count": 1,
+      "fba": "FBA19C7TY7J6"
+    },
+    {
+      "r": 296,
+      "give": "6.20 易尚\nC26065 215箱",
+      "fba_count": 1,
+      "fba": "FBA19FBDDBNS"
+    }
+  ],
+  "carrier_in_freight_col_count": 8,
+  "jul_aug_in_sheet": false,
+  "proposed_batches": [
+    {
+      "ticket": "C26079",
+      "store": "C04",
+      "give_label": "7.31\nC26079 945箱\n（A805+B140）",
+      "month": "2026.7",
+      "ship_date": "2026-07-31",
+      "channel": "物易通",
+      "freight": "",
+      "fba_ids": [
+        "FBA19JT39521",
+        "FBA19JT71WTZ",
+        "FBA19JT3Q0H0",
+        "FBA19JT0K3PY",
+        "FBA19JT16DMQ",
+        "STAR-QG6CTURZGY6MX"
+      ],
+      "total_cartons": 945,
+      "details": [
+        {
+          "spec": "桌布-10",
+          "size": "60*102 米白",
+          "cartons": 100
+        },
+        {
+          "spec": "",
+          "size": "60*102 白",
+          "cartons": 50
+        },
+        {
+          "spec": "",
+          "size": "70*120 白",
+          "cartons": 50
+        },
+        {
+          "spec": "",
+          "size": "70*120 米白",
+          "cartons": 50
+        },
+        {
+          "spec": "",
+          "size": "60*126 白",
+          "cartons": 50
+        },
+        {
+          "spec": "",
+          "size": "90圆 白",
+          "cartons": 40
+        },
+        {
+          "spec": "",
+          "size": "60*126 米白",
+          "cartons": 40
+        },
+        {
+          "spec": "",
+          "size": "60*102 蓝",
+          "cartons": 30
+        },
+        {
+          "spec": "",
+          "size": "70*120 黑",
+          "cartons": 20
+        },
+        {
+          "spec": "",
+          "size": "90圆 黑",
+          "cartons": 20
+        },
+        {
+          "spec": "桌布-2",
+          "size": "90圆 白",
+          "cartons": 20
+        },
+        {
+          "spec": "",
+          "size": "60*126 白",
+          "cartons": 10
+        },
+        {
+          "spec": "",
+          "size": "70*120 白",
+          "cartons": 10
+        },
+        {
+          "spec": "",
+          "size": "70*120 米白",
+          "cartons": 10
+        },
+        {
+          "spec": "",
+          "size": "90圆 黑",
+          "cartons": 5
+        },
+        {
+          "spec": "桌布-6",
+          "size": "60*102 米白",
+          "cartons": 120
+        },
+        {
+          "spec": "",
+          "size": "90圆 白",
+          "cartons": 80
+        },
+        {
+          "spec": "",
+          "size": "60*126 白",
+          "cartons": 50
+        },
+        {
+          "spec": "",
+          "size": "90圆 米白",
+          "cartons": 50
+        },
+        {
+          "spec": "",
+          "size": "70*120 白",
+          "cartons": 50
+        },
+        {
+          "spec": "",
+          "size": "70*120 米白",
+          "cartons": 40
+        },
+        {
+          "spec": "",
+          "size": "60*126 米白",
+          "cartons": 30
+        },
+        {
+          "spec": "",
+          "size": "60*102 蓝",
+          "cartons": 20
+        }
+      ],
+      "notes": "本仓货件号6个（5×FBA+1×STAR IUTE）；运费待填；规格暂写桌布-N（克重未统一）",
+      "confirm_items": [
+        "运费金额",
+        "规格是否补 90G/110G"
+      ]
+    },
+    {
+      "ticket": "C26080",
+      "store": "C07",
+      "give_label": "7.31 易尚\nC26080+C26068 350箱",
+      "month": "2026.7",
+      "ship_date": "2026-07-31",
+      "channel": "物易通",
+      "freight": "",
+      "fba_ids": [
+        "FBA19JZR1DC8",
+        "FBA19JZQF77V",
+        "FBA19JZVPFS1",
+        "FBA19JZSQT6L",
+        "FBA19JZQXH2X",
+        "FBA19JZPT0MZ"
+      ],
+      "total_cartons": 350,
+      "details": [
+        {
+          "spec": "110G 桌布-10",
+          "size": "60*102 米白",
+          "cartons": 50
+        },
+        {
+          "spec": "110G 桌布-2",
+          "size": "90圆 黑",
+          "cartons": 10
+        },
+        {
+          "spec": "",
+          "size": "70*120 米白",
+          "cartons": 10
+        },
+        {
+          "spec": "",
+          "size": "70*120 白",
+          "cartons": 10
+        },
+        {
+          "spec": "",
+          "size": "60*102 米白",
+          "cartons": 5
+        },
+        {
+          "spec": "110G 桌布-6",
+          "size": "90圆 白",
+          "cartons": 85
+        },
+        {
+          "spec": "",
+          "size": "90圆 米白",
+          "cartons": 50
+        },
+        {
+          "spec": "",
+          "size": "60*126 米白",
+          "cartons": 30
+        },
+        {
+          "spec": "",
+          "size": "70*120 米白",
+          "cartons": 30
+        },
+        {
+          "spec": "",
+          "size": "70*120 白",
+          "cartons": 30
+        },
+        {
+          "spec": "",
+          "size": "60*102 白",
+          "cartons": 20
+        },
+        {
+          "spec": "",
+          "size": "60*126 白",
+          "cartons": 20
+        }
+      ],
+      "detail_carton_sum": 350,
+      "notes": "并腿 C26068；SKU：I/Ivory→米白，W/White→白，B→黑",
+      "confirm_items": [
+        "运费",
+        "B前缀=黑是否正确",
+        "明细合计350 vs 票面350"
+      ]
+    },
+    {
+      "ticket": "C26089-A",
+      "store": "C07",
+      "give_label": "8.29 易尚\nC26089-A 500箱 纽酷SEND",
+      "month": "2026.8",
+      "ship_date": "2026-08-29",
+      "channel": "纽酷",
+      "freight": "",
+      "fba_ids": [
+        "FBA19MBJ7GW8",
+        "FBA19MBF40MV",
+        "FBA19MBHDDR0",
+        "FBA19MBFWX4B",
+        "FBA19MBJ7JXH"
+      ],
+      "total_cartons": 500,
+      "details": [
+        {
+          "spec": "90G 桌布-10",
+          "size": "60*102 白",
+          "cartons": 500
+        }
+      ],
+      "notes": "五仓FC；纽酷=SEND",
+      "confirm_items": [
+        "运费"
+      ]
+    },
+    {
+      "ticket": "C26089-B",
+      "store": "C07",
+      "give_label": "8.29 易尚\nC26089-B 500箱 物易通AWD",
+      "month": "2026.8",
+      "ship_date": "2026-08-29",
+      "channel": "物易通",
+      "freight": "",
+      "fba_ids": [
+        "STAR-RCKQMK6EMHN4K"
+      ],
+      "total_cartons": 500,
+      "details": [
+        {
+          "spec": "90G 桌布-10",
+          "size": "60*102 白",
+          "cartons": 500
+        }
+      ],
+      "notes": "IUSP STAR-RCKQMK6EMHN4K（不作废号）",
+      "confirm_items": [
+        "运费"
+      ]
+    },
+    {
+      "ticket": "C26095",
+      "store": "C07",
+      "include_default": false,
+      "reason": "交货日 2026-09-04 → 默认记入 2026.9，不自动写入 7–8 月",
+      "ship_date": "2026-09-04",
+      "fba_ids": [
+        "FBA19MPKNZJ8",
+        "FBA19MTB13T8"
+      ],
+      "total_cartons": 220,
+      "confirm_items": [
+        "是否仍要记入 8 月作业周"
+      ]
+    }
+  ],
+  "write_policy": "APPLIED_JUL_AUG_TO_MAIN bak=_bak_before_jul_aug_20260826.xls; historical normalize NOT applied; C26095 skipped; freight blank"
+}

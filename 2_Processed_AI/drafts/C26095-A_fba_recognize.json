@@ -1,0 +1,37 @@
+{
+  "order_code": "EF-C26095-C07-7800",
+  "split_leg_id": "C26095-A",
+  "channel": "FC",
+  "user_confirmed": true,
+  "warehouses": [
+    {
+      "warehouse_code": "SCK8",
+      "specs": [
+        {
+          "fnsku": "X0053BQ5SD",
+          "size": "70X120inch",
+          "color": "白",
+          "strips_per_pack": 10,
+          "packs_per_carton": 3,
+          "strips_per_carton": 30,
+          "qty_strips": 1500,
+          "qty_cartons": 50,
+          "strips": 1500,
+          "cartons": 50
+        },
+        {
+          "fnsku": "X0053BIIXN",
+          "size": "70X120inch",
+          "color": "米白",
+          "strips_per_pack": 10,
+          "packs_per_carton": 3,
+          "strips_per_carton": 30,
+          "qty_strips": 1500,
+          "qty_cartons": 50,
+          "strips": 1500,
+          "cartons": 50
+        }
+      ]
+    }
+  ]
+}

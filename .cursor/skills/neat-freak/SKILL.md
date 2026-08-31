@@ -5,11 +5,11 @@ description: >-
   (CLAUDE.md/AGENTS.md), authorized agent memory, and workspace residue with
   what the code and runtime actually do, so the next session or the next
   person starts from one current answer. Trigger when the user names
-  "neat-freak", "洁癖", or "/neat" — and also on clear knowledge-closeout
-  intent without the name: syncing or tidying project docs/rules/memory after
-  development ("把文档和记忆整理一下", "收尾时把文档同步掉", "docs 和代码对不上了"),
-  stale or conflicting CLAUDE.md/memory, a clean handoff to a teammate or a
-  fresh session, or auditing whether workspace rules are actually followed.
+  "neat-freak", "洁癖", or "/neat" — and also when the user says
+  "准备上新" (must run neat-freak light FIRST per ready-for-next-session.mdc)
+  — and on clear knowledge-closeout intent without the name: syncing or
+  tidying project docs/rules/memory after development, stale CLAUDE.md/memory,
+  a clean handoff / fresh session, or auditing whether workspace rules are followed.
   Do not trigger for pure coding/refactoring/debugging tasks, tidying data or
   prose (JSON, 周报, changelog announcements), or a bare "整理" with no
   project-knowledge context.
@@ -21,7 +21,45 @@ metadata:
 
 # 洁癖 — Knowledge and Governance Closeout
 
-> 在 **AutoExport** 仓库工作时另遵：Next.js + Supabase + Vercel；禁未经允许的庞大依赖；UI 少弹窗；出货/货代字段不得擅自删减（见该仓 `.cursor/rules/web-stack-ui-gate.mdc`）。其它项目以各仓规则为准。
+> 在 **AutoExport** 仓库工作时另遵：Next.js + Supabase + Vercel；禁未经允许的庞大依赖；UI 少弹窗；出货/货代字段不得擅自删减（见该仓 `.cursor/rules/web-stack-ui-gate.mdc`）。做单阶段顺序见 `.cursor/rules/shipment-pipeline-order.mdc`；回合收尾见 `session-turn-closeout.mdc`。其它项目以各仓规则为准。
+
+## AutoExport 洁癖附加（本仓轻量/完整均适用）
+
+### 交接包 `Templates/Next_Session_Handoff.md`
+
+- 用 **阶段 ID**（P-FREIGHT、P-CARTON、P-INBOUND、P-GATE、P-FINAL）写进度，**禁止** `外箱贴→货代下单` 箭头链。
+- 「下一优先」与「阻断」分开：P-FREIGHT 完成且停等上传 ≠ 整票阻断。
+- 新对话提示词须与 `PROJECT.json` / `split_ledger` 一致；写前 `os.walk` 核实文件，不用 Glob 判 Shipments PDF。
+- 发货统计（`发货统计/`、`ship_stats_*.py`）与做单 **分条** 写，勿混进同一「继续 C26xxx」叙事。
+
+### 文档冲突巡检（轻量路径第 2 步顺带做）
+
+| 权威 | 劣后（只作「常见来源」，不可当硬依赖） |
+|------|----------------------------------------|
+| `Scripts/document_field_preflight.json` | `Document_Field_Preflight.md` 表格「常见来源」列 |
+| `Freight_Inbound_Label_Pipeline.md` | 交接包里自拟顺序 |
+| `shipment-pipeline-order.mdc` | `End_to_End` 流程图箭头（trio=出货+货代+报关，非外箱贴三件套） |
+
+发现矛盾 → 改劣后文档或交接包，并在汇报中列一行。
+
+### 准备上新时的汇报模板（替换通用模板首段）
+
+```text
+## 洁癖收尾完成（AutoExport）
+
+**影响**：<消除了哪些误导顺序/过期交接>
+
+**改动**
+- <规则/交接/预检表> — <具体改词>
+
+**票进度**（阶段 ID）
+- C26xxx：P-FREIGHT ✅ | P-CARTON 待上传 | …
+
+**待你确认**：删除候选（未删前不删）
+
+**遗留**：Git 未 push / pending 项
+```
+
 
 你是知识库编辑、规范审计员和收尾者。目标不是「多写一点」，而是让代码、真实运行态、项目文档、Agent 规则、获准维护的记忆和工作区状态彼此一致，让下一次会话或第一次接手的人能找到唯一现役答案。
 

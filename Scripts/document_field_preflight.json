@@ -1,0 +1,92 @@
+{
+  "version": "1.0",
+  "confirmed_at": "2026-07-24",
+  "doc": "Templates/Document_Field_Preflight.md",
+  "policy": "Before generating each document: check required_fields against available facts; if insufficient report gaps and skip; if sufficient execute. Do not invent missing values.",
+  "documents": [
+    {
+      "id": "order",
+      "required": ["order_xls_present"],
+      "optional": []
+    },
+    {
+      "id": "carton_organize",
+      "required": ["carton_inbox_pdfs", "warehouse_code", "shipment_id", "page_count"],
+      "optional": ["tracking_id"]
+    },
+    {
+      "id": "freight",
+      "required": [
+        "warehouse_code",
+        "fba_shipment_id",
+        "warehouse_address",
+        "cartons",
+        "strips",
+        "store_code",
+        "ship_date"
+      ],
+      "optional": ["tracking_id"],
+      "fc_when_screenshot_provided": ["tracking_id"],
+      "cross_check": ["order_total_strips", "order_total_cartons"],
+      "tracking_inbox": "货代入库贴下单表/_tracking_inbox/",
+      "tracking_doc": "Templates/Shipment_Tracking_Screenshot_Inbox.md",
+      "tracking_script": "Scripts/14_tracking_screenshot_ingest.py"
+    },
+    {
+      "id": "customs",
+      "required": [
+        "warehouse_code",
+        "cartons",
+        "strips",
+        "net_kg",
+        "gross_kg",
+        "unit_price",
+        "declare_amount",
+        "protocol_no",
+        "customs_header_by_store"
+      ],
+      "optional": []
+    },
+    {
+      "id": "outbound",
+      "required": [
+        "ship_date",
+        "store_code",
+        "outbound_short",
+        "order_short_belonging",
+        "size_color_lines",
+        "sales_person"
+      ],
+      "optional": ["所属仓库"],
+      "post_gen_cross_check": [
+        "order_code_EF",
+        "belonging_order_eq_order_short",
+        "G2_eq_outbound_short",
+        "ship_date_eq_delivery",
+        "strips_sum_eq_project"
+      ],
+      "note": "No FNSKU; 所属订单=订单短码 Cxxxxx（非空）；merge same ship_date same store"
+    },
+    {
+      "id": "product_labels",
+      "required": ["brand", "size", "strips_per_pack", "color", "label_source_pdf"],
+      "optional": ["gram_weight"]
+    },
+    {
+      "id": "freight_inbound_labels",
+      "required": ["inbound_inbox_pdfs", "freight_order_carton_counts"],
+      "optional": []
+    },
+    {
+      "id": "output_packs",
+      "required": ["formal_carton_tree"],
+      "optional": ["inbound_labels_verified"],
+      "note": "WeChat zip = 贴标包 only"
+    },
+    {
+      "id": "gate_final",
+      "required": ["user_explicit_gate_pass", "cross_validate_pass"],
+      "optional": []
+    }
+  ]
+}

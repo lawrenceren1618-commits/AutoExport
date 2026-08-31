@@ -2,21 +2,22 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <main>
-      <div className="card">
-        <h1>AutoExport</h1>
-        <p className="muted">
-          订单 / 货代 / 报关 — 办公室端云端应用。工作总结与进度树仅后台可见。
+    <main className="ws-main">
+      <header className="ws-hero">
+        <p className="ws-brand">AutoExport</p>
+        <h1>办公室发货单证</h1>
+        <p className="ws-lead">
+          作业前台仅「输入 / 输出」；生成前预检，外箱贴多仓确认后出三表。库务用于总表入库、仓头追踪与进度。
         </p>
-        <p>
-          <Link className="btn" href="/admin/login">
-            进入后台
+        <p style={{ marginTop: "1.25rem" }}>
+          <Link className="ws-btn" href="/workspace" style={{ textDecoration: "none" }}>
+            进入作业
           </Link>
         </p>
-        <p className="muted">
-          项目名 AutoExport；提交人 Office CP；SSH 别名 github.com-office-cp。
+        <p className="ws-meta" style={{ marginTop: "1rem" }}>
+          <Link href="/ops/login">库务登录</Link>
         </p>
-      </div>
+      </header>
     </main>
   );
 }

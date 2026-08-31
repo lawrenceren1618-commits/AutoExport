@@ -14,7 +14,7 @@
   "strips": 36460,
   "outbound_rows": 11,
   "status": "split_complete",
-  "source_note": "出货明细=订单上半尺寸+颜色；发货日=交货日；所属订单/仓库留空（工厂直发）",
+  "source_note": "出货明细=订单上半尺寸+颜色；发货日=交货日；所属订单=订单短码（旧注「留空」已废止；Shipments 出货仍待按存档回填）",
   "sales_person": "任胜国",
   "order_source_dir": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\订单表",
   "outbound_draft": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\出货表\\C04-2616-U-2026.7.31.xlsx",
@@ -55,5 +55,32 @@
     "promoted": true,
     "formal_path": "FBA外箱贴/AWD/IUTE",
     "shipment_id": "STAR-QG6CTURZGY6MX"
+  },
+  "colleague_pack_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\3_Output_Final\\EF-C26079-C04-36460  桌布-2026.7.10",
+  "output_packs": {
+    "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\3_Output_Final\\EF-C26079-C04-36460  桌布-2026.7.10",
+    "rule": "Templates/Colleague_Pack_Export.md",
+    "packs": ["完整存档", "C26079-A_32260_2026.7.31_贴标包", "C26079-B_4200_2026.7.31_贴标包"],
+    "factory_pack_naming": "{split_leg_id}_{actual_strips}_{ship_date}_贴标包",
+    "factory_one_pack_per_leg": true,
+    "script": "Scripts/13_export_output_packs.py",
+    "gate_final_still": "WAIT",
+    "inbound_labels": "verified_2026-07-24_six_warehouses",
+    "note": "一腿一贴标包；B 单仓扁平 外箱贴_IUTE；Gate 仍 WAIT"
+  },
+  "freight_inbound": {
+    "status": "verified",
+    "verified_at": "2026-07-24",
+    "source_zip": "货代入库贴/945箱入库贴(1).zip",
+    "recognize": "货代入库贴/_recognize/inbound_recognize_latest.json",
+    "warehouses_pass": ["AVP1", "CLT2", "GYR2", "LGB8", "MDW2", "IUTE"],
+    "settled": "Scripts/settled_knowledge_db.json confirmed_defaults.freight_inbound_labels"
+  },
+  "colleague_pack": {
+    "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\3_Output_Final\\EF-C26079-C04-36460  桌布-2026.7.10",
+    "rule": "Templates/Colleague_Pack_Export.md",
+    "gate_final_still": "WAIT",
+    "deprecated_alias": "use output_packs",
+    "note": "兼容旧字段；语义同 output_packs"
   }
 }

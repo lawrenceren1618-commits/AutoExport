@@ -1,0 +1,135 @@
+{
+  "generated_at": "2026-08-19T13:53:32+0800",
+  "scope": "outbound_file",
+  "subject": "C07-2609-U-2026.8.29.xlsx",
+  "pass": false,
+  "findings": [
+    {
+      "check": "V_ID_ORDER_CODE",
+      "ok": true,
+      "expected": "EF-Cxxxxx-C04|C07-…",
+      "actual": "EF-C26089-C07-40000",
+      "detail": "PROJECT/job order_code",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ENTITY_BRAND",
+      "ok": false,
+      "expected": "Dressmaker",
+      "actual": "C07/",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ID_ORDER_SHORT_ON_OUTBOUND",
+      "ok": true,
+      "expected": "C26089",
+      "actual": "C26089",
+      "detail": "出货所属订单必须=订单短码，且对应本批订单 EF 号",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ID_OUTBOUND_SHORT",
+      "ok": true,
+      "expected": "C07-2609",
+      "actual": "C07-2609",
+      "detail": "",
+      "soft": false,
+      "edge": "outbound_to_project"
+    },
+    {
+      "check": "V_OUTBOUND_FILENAME",
+      "ok": true,
+      "expected": "C07-2609-U-2026.8.29.xlsx",
+      "actual": "C07-2609-U-2026.8.29.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "outbound_to_project"
+    },
+    {
+      "check": "V_SHIP_DATE_EQ",
+      "ok": true,
+      "expected": "2026.8.29",
+      "actual": "2026.8.29",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_STORE_PREFIX_ON_SHORT",
+      "ok": true,
+      "expected": "C07-…",
+      "actual": "C07-2609",
+      "detail": "",
+      "soft": false,
+      "edge": "outbound_to_project"
+    },
+    {
+      "check": "V_OUT_STRIPS_EQ_PROJECT",
+      "ok": true,
+      "expected": 40000.0,
+      "actual": 40000.0,
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_OUT_HEADER_QTY_EQ_DETAIL",
+      "ok": true,
+      "expected": 40000.0,
+      "actual": 40000.0,
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_OUT_TOTAL_SUM_FORMULA",
+      "ok": true,
+      "expected": "=SUM(E…)",
+      "actual": "=SUM(E5:E5)",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_NO_FNSKU_ON_OUTBOUND",
+      "ok": true,
+      "expected": "no FNSKU on outbound",
+      "actual": "none",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_OUT_PRODUCT_DEST_PRESENT",
+      "ok": true,
+      "expected": "品类+目的地非空",
+      "actual": "'单面磨毛纤维桌布'/'US'",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    }
+  ],
+  "hard_failures": [
+    {
+      "check": "V_ENTITY_BRAND",
+      "ok": false,
+      "expected": "Dressmaker",
+      "actual": "C07/",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    }
+  ],
+  "meta_keys": {
+    "order_code": "EF-C26089-C07-40000",
+    "order_short": "C26089",
+    "outbound_short": "C07-2609",
+    "ship_date": "2026-08-29"
+  },
+  "doc": "Templates/Cross_Flow_Verify.md",
+  "rules": "Scripts/cross_flow_rules.json"
+}

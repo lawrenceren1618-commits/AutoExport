@@ -29,6 +29,15 @@
   "tables": {
     "order": {
       "folder": "订单表",
+      "template_ref": "order_layout_master.xlsx",
+      "template_source_sample": "EF-C26079-C04-36460  桌布-2026.7.10.xls",
+      "fill_mode": "clone_master_change_fields_only",
+      "settlement": "locked_c26079_master",
+      "row_expand": {
+        "upper": "one_row_per_size_color_kind; insert_or_delete; remake_vertical_merges",
+        "lower": "one_row_per_pack_fnsku_variant; insert_or_delete",
+        "master_row_count_is_not_cap": true
+      },
       "structure": {
         "upper": {
           "grain": ["size", "color"],

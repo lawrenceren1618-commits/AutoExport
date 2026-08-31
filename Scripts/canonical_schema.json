@@ -70,7 +70,15 @@
       "color",
       "product_name_zh"
     ],
-    "note": "规格↔FNSKU双向成立；颜色为核心维；亚马逊只认FNSKU；克重不参与锁定、不阻断标签复制"
+    "note": "规格↔FNSKU双向成立；颜色为核心维；亚马逊只认FNSKU；克重不参与锁定键",
+    "gsm_interchange": {
+      "confirmed_at": "2026-07-29",
+      "doc": "Templates/Ship_Stats_Correspondence.md",
+      "interchangeable_gsm": [90, 110],
+      "rule": "同公司同规格维下 90克与110克可互通同一FNSKU；标签匹配不因90/110克重夹差异阻断",
+      "not_interchangeable_with": [150],
+      "other_gsm": "不得套用与90/110互通；冲突走 error-confirm-gate"
+    }
   },
   "amazon_sku_lock": {
     "confirmed_at": "2026-07-23",
@@ -130,6 +138,25 @@
     ],
     "example": "产品标签/EF-C26079-C04-36460标签/6条装/60x102/102象牙白色ivory6条.pdf"
   },
+    "order_workbook_layout": {
+    "status": "locked_c26079_master",
+    "file": "Templates/order_layout_master.xlsx",
+    "fill_mode": "clone_master_change_fields_only",
+    "upper_grain": "size+color",
+    "lower_grain": "size+color+strips_per_pack+fnsku",
+    "row_count_fixed": false,
+    "expand": "insert_or_delete_before_section_total; remake_merges",
+    "packing_display": {
+      "authority": "settled packing_standards LWH + C26079 cell wording",
+      "carton_inner": "内盒{inner_pack_lwh_cm}",
+      "carton_outer": "纸箱：{carton_lwh_cm}",
+      "heat_shrink_inner": "热缩膜包装",
+      "heat_shrink_outer": "纸箱规格：{carton_lwh_cm}cm",
+      "pack_strips_formula": "=C*E*F",
+      "upper_qty_formula": "sum matching pack G cells"
+    },
+    "note": "2026-08-14 版式权威=C26079 母版；不以 C26089 生成件沉淀。字段值走 packing_standards。"
+  },
   "size_folder_map": {
     "confirmed_at": "2026-07-21",
     "to_folder": {
@@ -155,8 +182,9 @@
     "note": "任意尺寸写法→标签夹名；短码102/126/84/120/90圆亦收录"
   },
   "size_shortcode_map": {
-    "confirmed_at": "2026-07-21",
-    "authority": "user_confirm_2026-07-21",
+    "confirmed_at": "2026-07-24",
+    "locked": true,
+    "authority": "user_confirm_maintain_current_table",
     "master_short_to_order_full": {
       "84": "60X84inch",
       "102": "60X102inch",
@@ -218,7 +246,76 @@
       "channels": ["FC", "AWD", "GWD", "UNKNOWN"],
       "pipeline": ["optional_clean", "optional_convert", "recognize", "split", "organize"],
       "doc": "Templates/Carton_Label_Channels.md",
-      "script": "Scripts/10_carton_label_ingest.py"
+      "script": "Scripts/10_carton_label_ingest.py",
+      "destination_rules": "Scripts/carton_destination_rules.json",
+      "destination_rules_web_copy": "web/lib/pipeline/carton-destination-rules.json",
+      "dual_file_must_stay_identical": true,
+      "recognize_engines_doc": "Templates/Ocr_Dual_Convert_Compare.md"
+    },
+    "freight_inbound_label": {
+      "confirmed_at": "2026-07-24",
+      "doc": "Templates/Freight_Inbound_Label_Pipeline.md",
+      "script": "Scripts/12_freight_inbound_label_ingest.py",
+      "forwarder_profiles": "Scripts/freight_forwarder_profiles.json",
+      "inbox": "货代入库贴/_inbox",
+      "final_pattern": "FBA外箱贴/{channel}/{warehouse_code}/{channel}_{warehouse_code}_入库贴_{N}箱.pdf",
+      "one_pdf_per_warehouse": true,
+      "cross_check": [
+        "shipment_id",
+        "warehouse_code",
+        "page_count_eq_cartons"
+      ],
+      "no_duplicate_pages": true,
+      "layout_signals": [
+        "Receiving Information: {WH}",
+        "label_{FBA|STAR}_{N}.pdf",
+        "FBA… / STAR-…"
+      ],
+      "calibrated_sample": "EF-C26079 945箱入库贴(1).zip"
+    },
+    "output_packs": {
+      "confirmed_at": "2026-07-24",
+      "doc": "Templates/Colleague_Pack_Export.md",
+      "script": "Scripts/13_export_output_packs.py",
+      "packs": {
+        "完整存档": [
+          "订单表",
+          "出货表",
+          "报关资料表",
+          "货代入库贴下单表",
+          "外箱贴",
+          "货代入库贴"
+        ],
+        "factory_label_kit": [
+          "外箱贴_by_warehouse",
+          "入库贴_by_warehouse"
+        ]
+      },
+      "factory_pack_naming": "{split_leg_id}_{actual_strips}_{ship_date}_贴标包",
+      "factory_one_pack_per_leg": true,
+      "factory_pack_date_format": "YYYY.M.D",
+      "factory_pack_layout": {
+        "single_warehouse": ["外箱贴_{warehouse}", "入库贴_{warehouse}"],
+        "multi_warehouse": ["{warehouse}/外箱贴", "{warehouse}/入库贴"]
+      },
+      "example": "C26079-B_4200_2026.7.31_贴标包/外箱贴_IUTE",
+      "example_partial_leg": "C26079-A_32260_2026.7.31_贴标包",
+      "copy_only": true,
+      "wechat_send": {
+        "required": true,
+        "zip_naming": "{order_short}_{ship_date}_微信发送.zip",
+        "merge": "all same-batch leg 贴标包 into one zip",
+        "exclude": ["完整存档"],
+        "script_flag": "--zip (default on)"
+      }
+    },
+    "multi_order_ship_batch": {
+      "confirmed_at": "2026-07-24",
+      "doc": "Templates/Multi_Order_Ship_Batch.md",
+      "additive": true
+    },
+    "error_confirm_gate": {
+      "rule": ".cursor/rules/error-confirm-gate.mdc"
     },
     "outbound_sales_person": "任胜国",
     "outbound_destination": "US",
@@ -267,7 +364,7 @@
     "filename": "{short}-U-{date}.xlsx",
     "cell_value": "short only",
     "seq_file": "Scripts/outbound_short_seq.json",
-    "note": "NN=该店铺本年第几票出货；U=USA 仅文件名"
+    "note": "NN=该店铺本年第几票出货（按业务员各自独立递推）；U=USA 仅文件名。订单短码才是全公司共用。"
   },
   "conflict_recency": {
     "order_source": "order_date",

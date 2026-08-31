@@ -1,0 +1,510 @@
+{
+  "month_markers": [
+    {
+      "r": 3,
+      "month": "2024.11"
+    },
+    {
+      "r": 9,
+      "month": "1.0"
+    },
+    {
+      "r": 14,
+      "month": "2.0"
+    },
+    {
+      "r": 16,
+      "month": "3.0"
+    },
+    {
+      "r": 25,
+      "month": "4.0"
+    },
+    {
+      "r": 30,
+      "month": "5.0"
+    },
+    {
+      "r": 40,
+      "month": "6.0"
+    },
+    {
+      "r": 61,
+      "month": "7.0"
+    },
+    {
+      "r": 69,
+      "month": "8.0"
+    },
+    {
+      "r": 97,
+      "month": "9.0"
+    },
+    {
+      "r": 102,
+      "month": "10.0"
+    },
+    {
+      "r": 121,
+      "month": "11.0"
+    },
+    {
+      "r": 158,
+      "month": "2026.0"
+    }
+  ],
+  "batch_count": 64,
+  "last_batches": [
+    {
+      "r": 155,
+      "month": "11.0",
+      "create": "",
+      "give": "12.4-易尚",
+      "spec": "110G 桌布-2",
+      "size": "102白",
+      "cartons": 70.0,
+      "channel": "",
+      "fba": "IUSJ\nSTAR-VBE27ZUP52Z24",
+      "freight": 8758.4
+    },
+    {
+      "r": 157,
+      "month": "11.0",
+      "create": "",
+      "give": "12.14",
+      "spec": "110G 桌布-6",
+      "size": "102白",
+      "cartons": 200.0,
+      "channel": "",
+      "fba": "POC2 \nFBA194MJ0KG1",
+      "freight": 26004.0
+    },
+    {
+      "r": 160,
+      "month": "2026.0",
+      "create": "",
+      "give": "1.24",
+      "spec": "110G 桌布-2",
+      "size": "84白",
+      "cartons": 20.0,
+      "channel": "物易通",
+      "fba": "IUST\nSTAR-R6WXWWNKTYUTQ",
+      "freight": 16934.4
+    },
+    {
+      "r": 170,
+      "month": "2026.0",
+      "create": "",
+      "give": "1.31",
+      "spec": "化纤头套",
+      "size": "12/16/613",
+      "cartons": 1.0,
+      "channel": "威旭",
+      "fba": "HLI2\nFBA1969S10QM",
+      "freight": 1434.0
+    },
+    {
+      "r": 180,
+      "month": "2026.0",
+      "create": "",
+      "give": "3.21-C26006",
+      "spec": "110G 桌布-6",
+      "size": "102白",
+      "cartons": 200.0,
+      "channel": "",
+      "fba": "STAR-S4SW6W6GG7PKM",
+      "freight": 19200.0
+    },
+    {
+      "r": 189,
+      "month": "2026.0",
+      "create": "",
+      "give": "3.21",
+      "spec": "化纤头套",
+      "size": "12/16/613",
+      "cartons": 2.0,
+      "channel": "",
+      "fba": "未发走",
+      "freight": ""
+    },
+    {
+      "r": 197,
+      "month": "2026.0",
+      "create": "",
+      "give": "4.6-易尚",
+      "spec": "90G 桌布-10",
+      "size": "102白",
+      "cartons": 100.0,
+      "channel": "",
+      "fba": "C07-STAR-T4CU25HY4QZBM",
+      "freight": 8132.8
+    },
+    {
+      "r": 198,
+      "month": "2026.0",
+      "create": "",
+      "give": "4.6",
+      "spec": "110G 桌布-6",
+      "size": "102白",
+      "cartons": 357.0,
+      "channel": "",
+      "fba": "FBA199P8JHQ0",
+      "freight": 32880.8
+    },
+    {
+      "r": 199,
+      "month": "2026.0",
+      "create": "",
+      "give": "4.11-26006，剩余350箱",
+      "spec": "110G 桌布-10",
+      "size": "102米白",
+      "cartons": 60.0,
+      "channel": "",
+      "fba": "FBA198VWNTR2\nFBA198VW45JH\nFBA198VYXBRW\nFBA198VWJR7S\nFBA198VTTD8W\nFBA198VVGJS7",
+      "freight": ""
+    },
+    {
+      "r": 217,
+      "month": "2026.0",
+      "create": "",
+      "give": "4.12-易尚\nC26007",
+      "spec": "110G 桌布-10",
+      "size": "102黑",
+      "cartons": 50.0,
+      "channel": "",
+      "fba": "C07- FBA199HMT3ZN",
+      "freight": ""
+    },
+    {
+      "r": 231,
+      "month": "2026.0",
+      "create": "",
+      "give": "4.19",
+      "spec": "110G 桌布-6",
+      "size": "102白",
+      "cartons": 243.0,
+      "channel": "",
+      "fba": "FBA199P96JTH",
+      "freight": ""
+    },
+    {
+      "r": 233,
+      "month": "2026.0",
+      "create": "",
+      "give": "4.19-易尚",
+      "spec": "90G桌布-10\nC26032",
+      "size": "102白",
+      "cartons": 150.0,
+      "channel": "五仓",
+      "fba": "FBA19BCKR4NJ",
+      "freight": ""
+    },
+    {
+      "r": 234,
+      "month": "2026.0",
+      "create": "",
+      "give": "4.29",
+      "spec": "110G 桌布-10",
+      "size": "102白",
+      "cartons": 50.0,
+      "channel": "",
+      "fba": "FBA19BBNRPJC",
+      "freight": ""
+    },
+    {
+      "r": 239,
+      "month": "2026.0",
+      "create": "",
+      "give": "5.9-\nC26036单700箱",
+      "spec": "110G 桌布-2",
+      "size": "102蓝",
+      "cartons": 10.0,
+      "channel": "",
+      "fba": "FBA19BJ7R61L\nFBA19BJ87J13\nFBA19BJ871NY\nFBA19BJ5RQZT\nFBA19BJ806CN",
+      "freight": ""
+    },
+    {
+      "r": 261,
+      "month": "2026.0",
+      "create": "",
+      "give": "5.16-易尚\nC26037",
+      "spec": "90G 桌布-10",
+      "size": "102白",
+      "cartons": 400.0,
+      "channel": "",
+      "fba": "FBA19CNNVCHX\nFBA19CNQ48Z6",
+      "freight": ""
+    },
+    {
+      "r": 262,
+      "month": "2026.0",
+      "create": "",
+      "give": "5.23-易尚\nC26039",
+      "spec": "90G 桌布-10",
+      "size": "102蓝",
+      "cartons": 60.0,
+      "channel": "",
+      "fba": "FBA19CNPHG28\nFBA19CNN2FGP",
+      "freight": ""
+    },
+    {
+      "r": 272,
+      "month": "2026.0",
+      "create": "",
+      "give": "5.24 \nC26040-248箱",
+      "spec": "110G 桌布-2",
+      "size": "126白",
+      "cartons": 10.0,
+      "channel": "",
+      "fba": "FBA19C7TY7J6",
+      "freight": ""
+    },
+    {
+      "r": 285,
+      "month": "2026.0",
+      "create": "",
+      "give": "5.24\nC26046 500箱",
+      "spec": "90G 桌布-6",
+      "size": "102白",
+      "cartons": 500.0,
+      "channel": "",
+      "fba": "FBA19DC2CCQD\nFBA19DBZPF5B\nFBA19DC3HC7D\nFBA19DC1971Z\nFBA19DC47Q05",
+      "freight": "纽酷"
+    },
+    {
+      "r": 286,
+      "month": "2026.0",
+      "create": "",
+      "give": "5.31\nC26046 500箱",
+      "spec": "",
+      "size": "",
+      "cartons": 500.0,
+      "channel": "",
+      "fba": "FBA19DLWJJ2B\nFBA19DLYV943\nFBA19DLY10V5\nFBA19DLZLRBZ\nFBA19DLT8CJC",
+      "freight": "物易通"
+    },
+    {
+      "r": 287,
+      "month": "2026.0",
+      "create": "",
+      "give": "5.31\nC26047 90箱",
+      "spec": "110G 桌布-2",
+      "size": "84黑",
+      "cartons": 10.0,
+      "channel": "",
+      "fba": "FBA19D6C1HN6\nFBA19D6GJLM6\nFBA19D6D18XS\nFBA19D6C4RJ9\nFBA19D6BPKL7",
+      "freight": "物易通"
+    },
+    {
+      "r": 293,
+      "month": "2026.0",
+      "create": "",
+      "give": "6.4\nC26052 500箱",
+      "spec": "90G 桌布-6",
+      "size": "60*102 白",
+      "cartons": 500.0,
+      "channel": "",
+      "fba": "FBA19F3L02P4\nFBA19F3L5YR0\nFBA19F3MKGZT\nFBA19F3LM71B\nFBA19F3JJ3T5",
+      "freight": "物易通"
+    },
+    {
+      "r": 294,
+      "month": "2026.0",
+      "create": "",
+      "give": "6.12 易尚\nC26055B 800箱",
+      "spec": "90G 桌布-10",
+      "size": "60*102 白",
+      "cartons": 800.0,
+      "channel": "",
+      "fba": "FBA19FLNWL87\nFBA19FLQBTS9\nFBA19FLQCB5Q\nFBA19FLLDGPH\nFBA19FLNFY8Z",
+      "freight": "物易通"
+    },
+    {
+      "r": 295,
+      "month": "2026.0",
+      "create": "",
+      "give": "6.17\nC26055A 235箱",
+      "spec": "90G 桌布-10",
+      "size": "60*102 白",
+      "cartons": 235.0,
+      "channel": "",
+      "fba": "FBA19FK20Z7D\nFBA19FK4TBQZ\nFBA19FK1M9Y3\nFBA19FK30XQ8\nFBA19FK4C60Z",
+      "freight": "物易通"
+    },
+    {
+      "r": 296,
+      "month": "2026.0",
+      "create": "",
+      "give": "6.20 易尚\nC26065 215箱",
+      "spec": "90G 桌布-6",
+      "size": "60*84白",
+      "cartons": 50.0,
+      "channel": "",
+      "fba": "FBA19FBDDBNS",
+      "freight": "物易通"
+    },
+    {
+      "r": 299,
+      "month": "2026.0",
+      "create": "",
+      "give": "6.24\nC26064 735箱\n（40+695）",
+      "spec": "110G 桌布-2",
+      "size": "60*84白",
+      "cartons": 25.0,
+      "channel": "",
+      "fba": "FBA19FK3X8XG\nFBA19FK3WG61\nFBA19FJWN2L5\nFBA19FK0ZY39\nFBA19FJZMK2G\nFBA19FJZJRLT",
+      "freight": "物易通"
+    }
+  ],
+  "unique_sizes_sample": [
+    "#Balayage",
+    "#FH2730",
+    "#T433/327HD",
+    "102 lory",
+    "102 黑",
+    "102白",
+    "102米白",
+    "102蓝",
+    "102象牙白",
+    "102黑",
+    "12+1",
+    "12/16/613",
+    "120Ivory",
+    "120白",
+    "120米白",
+    "120蓝",
+    "120黑",
+    "126白",
+    "126米白",
+    "126蓝",
+    "126黑",
+    "1B",
+    "2.0",
+    "4个颜色 每个",
+    "60 inch",
+    "60 圆 白",
+    "60*102 ivory",
+    "60*102 白",
+    "60*102 蓝",
+    "60*102黑",
+    "60*126 ivory",
+    "60*126 白",
+    "60*84白",
+    "60圆 白",
+    "613.0",
+    "70*120 白",
+    "84 lory",
+    "84白",
+    "84黑",
+    "90圆 Ivory",
+    "90圆 白",
+    "90圆 蓝",
+    "90圆 黑",
+    "90圆白",
+    "90圆米白",
+    "90圆蓝",
+    "90圆黑",
+    "FH2730",
+    "T433/327HD",
+    "TH2763",
+    "balayage",
+    "橘色",
+    "灰绿",
+    "灰蓝",
+    "米白",
+    "米黄",
+    "脏蓝",
+    "蓝",
+    "金",
+    "铁锈红"
+  ],
+  "fba_multi_line_examples": [
+    {
+      "r": 34,
+      "fba": "10个货件FBA18X5WRSMJ，FBA18WZKZK4W",
+      "create": "",
+      "give": "5.17",
+      "cartons": 400.0
+    },
+    {
+      "r": 199,
+      "fba": "FBA198VWNTR2\nFBA198VW45JH\nFBA198VYXBRW\nFBA198VWJR7S\nFBA198VTTD8W\nFBA198VVGJS7",
+      "create": "",
+      "give": "4.11-26006，剩余350箱",
+      "cartons": 60.0
+    },
+    {
+      "r": 239,
+      "fba": "FBA19BJ7R61L\nFBA19BJ87J13\nFBA19BJ871NY\nFBA19BJ5RQZT\nFBA19BJ806CN",
+      "create": "",
+      "give": "5.9-\nC26036单700箱",
+      "cartons": 10.0
+    },
+    {
+      "r": 261,
+      "fba": "FBA19CNNVCHX\nFBA19CNQ48Z6",
+      "create": "",
+      "give": "5.16-易尚\nC26037",
+      "cartons": 400.0
+    },
+    {
+      "r": 262,
+      "fba": "FBA19CNPHG28\nFBA19CNN2FGP",
+      "create": "",
+      "give": "5.23-易尚\nC26039",
+      "cartons": 60.0
+    },
+    {
+      "r": 285,
+      "fba": "FBA19DC2CCQD\nFBA19DBZPF5B\nFBA19DC3HC7D\nFBA19DC1971Z\nFBA19DC47Q05",
+      "create": "",
+      "give": "5.24\nC26046 500箱",
+      "cartons": 500.0
+    },
+    {
+      "r": 286,
+      "fba": "FBA19DLWJJ2B\nFBA19DLYV943\nFBA19DLY10V5\nFBA19DLZLRBZ\nFBA19DLT8CJC",
+      "create": "",
+      "give": "5.31\nC26046 500箱",
+      "cartons": 500.0
+    },
+    {
+      "r": 287,
+      "fba": "FBA19D6C1HN6\nFBA19D6GJLM6\nFBA19D6D18XS\nFBA19D6C4RJ9\nFBA19D6BPKL7",
+      "create": "",
+      "give": "5.31\nC26047 90箱",
+      "cartons": 10.0
+    },
+    {
+      "r": 293,
+      "fba": "FBA19F3L02P4\nFBA19F3L5YR0\nFBA19F3MKGZT\nFBA19F3LM71B\nFBA19F3JJ3T5",
+      "create": "",
+      "give": "6.4\nC26052 500箱",
+      "cartons": 500.0
+    },
+    {
+      "r": 294,
+      "fba": "FBA19FLNWL87\nFBA19FLQBTS9\nFBA19FLQCB5Q\nFBA19FLLDGPH\nFBA19FLNFY8Z",
+      "create": "",
+      "give": "6.12 易尚\nC26055B 800箱",
+      "cartons": 800.0
+    },
+    {
+      "r": 295,
+      "fba": "FBA19FK20Z7D\nFBA19FK4TBQZ\nFBA19FK1M9Y3\nFBA19FK30XQ8\nFBA19FK4C60Z",
+      "create": "",
+      "give": "6.17\nC26055A 235箱",
+      "cartons": 235.0
+    },
+    {
+      "r": 299,
+      "fba": "FBA19FK3X8XG\nFBA19FK3WG61\nFBA19FJWN2L5\nFBA19FK0ZY39\nFBA19FJZMK2G\nFBA19FJZJRLT",
+      "create": "",
+      "give": "6.24\nC26064 735箱\n（40+695）",
+      "cartons": 25.0
+    }
+  ],
+  "fba_single_count": 49,
+  "fba_row_total": 72,
+  "jul_aug_candidates": []
+}

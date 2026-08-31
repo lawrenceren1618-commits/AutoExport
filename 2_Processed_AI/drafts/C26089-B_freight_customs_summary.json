@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-25T11:03:54+0800",
+  "order_code": "EF-C26089-C07-40000",
+  "split_leg_id": "C26089-B",
+  "ship_date": "2026-08-29",
+  "pricing_method": "per_warehouse: raw=sum(cartons*master_1039_ctn_price); unit=round(raw/strips,2); amount=round(unit*strips,2)",
+  "note": "草稿；未进 Final",
+  "remaining_for_B": null,
+  "files": [
+    {
+      "warehouse_code": "IUSP",
+      "fba_shipment_id": "STAR-RCKQMK6EMHN4K",
+      "tracking_id": "42LMBL4E",
+      "cartons": 500,
+      "strips": 20000,
+      "raw_carton_x_price": 43989.0,
+      "unit_price_usd": 2.2,
+      "declare_amount_usd": 44000.0,
+      "net_kg": 7105.0,
+      "gross_kg": 8175.0,
+      "protocol_no": "20260829507",
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\货代入库贴下单表\\货代下单表_C26089-B 2026.8.29桌布 IUSP 500箱.xlsx",
+      "customs_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\报关资料表\\畅选+波丽丝 2026.8.29发货 C26089-B IUSP 500箱 市场采购数据.xlsx"
+    }
+  ],
+  "warnings": [
+    "X004SJV9UF: c04_same_spec_1039 via C04 X003WN3V5J $87.97800000000001/ctn"
+  ],
+  "total_raw_carton_x_price": 43989.0,
+  "total_declare_amount_usd": 44000.0,
+  "reconcile": {
+    "doc": "Templates/Amount_Weight_Reconcile.md",
+    "A_spec": {
+      "amount": 43989.0,
+      "net_kg": 7105.0,
+      "gross_kg": 8175.0
+    },
+    "B_warehouse": {
+      "amount": 44000.0,
+      "net_kg": 7105.0,
+      "gross_kg": 8175.0
+    },
+    "error_rate_pct": {
+      "declare": 0.025,
+      "net": 0.0,
+      "gross": 0.0
+    },
+    "pass_max_pct": 1.0,
+    "gate": {
+      "declare": "PASS",
+      "net": "PASS",
+      "gross": "PASS",
+      "overall": "PASS"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "order_code": "EF-C26089-C07-40000",
+  "split_leg_id": "C26089-B",
+  "channel": "AWD",
+  "freight_forwarder": "物易通",
+  "user_confirmed": true,
+  "confirmed_at": "2026-08-25T11:00:00+0800",
+  "note": "货件重建：原 IUTJ/STAR-RVDK5S4HGQWDK 作废 → IUSP/STAR-RCKQMK6EMHN4K",
+  "warehouses": [
+    {
+      "warehouse_code": "IUSP",
+      "specs": [
+        {
+          "fnsku": "X004SJV9UF",
+          "size": "60X102inch",
+          "color": "白色",
+          "strips_per_pack": 10,
+          "packs_per_carton": 4,
+          "strips_per_carton": 40,
+          "qty_strips": 20000,
+          "qty_cartons": 500,
+          "strips": 20000,
+          "cartons": 500
+        }
+      ]
+    }
+  ]
+}

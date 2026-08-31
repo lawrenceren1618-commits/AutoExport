@@ -1,0 +1,28 @@
+{
+  "taken_at": "2026-07-29T09:13:48+0800",
+  "root": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\桌布标签",
+  "total_files": 124,
+  "by_ext": {
+    ".pdf": 113,
+    ".ini": 11
+  },
+  "pdf_ok": 113,
+  "pdf_bad": 0,
+  "by_brand": {
+    "C04-Wigenius品牌": 76,
+    "C07-Dressmaker品牌": 37
+  },
+  "fingerprint": "c139c6b0bc34c9365c12f1d07ca0ff124c7b2f9b418dc720efc170d4d41c87ef",
+  "last_completed": {
+    "taken_at": "2026-07-29T09:06:48+0800",
+    "total_files": 113,
+    "fingerprint": "cb345ccb12bef4e58a026669f045430579a73de75d28d817fcc82acd3e035dbf"
+  },
+  "drift_vs_last_completed": {
+    "missing_now": [],
+    "extra_now": [],
+    "size_changed": []
+  },
+  "bad_files": [],
+  "note": "read-only audit; source not modified"
+}

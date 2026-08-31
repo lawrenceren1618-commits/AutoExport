@@ -22,7 +22,9 @@
 
 - 识别：含 **EF**→订单；**C04/C07** 且 `…-U-日期`→出货；**货代入库贴下单**→货代下单表；**报关/1039**→报关；**FBA外箱贴**→外箱贴。  
 - 字段填写：按目标表必填列对应填写，不用全量字段灌进每一张表。  
-- 我说「准备上新」→ 总结压缩并给新对话提示词 + 洁癖轻量对齐（`.cursor/rules/ready-for-next-session.mdc`）；不自动清场。
+- 我说「准备上新」→ **先跑洁癖**（neat-freak 轻量），再总结压缩并给新对话提示词（`.cursor/rules/ready-for-next-session.mdc`）；不自动清场。
+- 作业中报错/歧义：全量汇报，待确认后再继续（`.cursor/rules/error-confirm-gate.mdc`）。多单并腿补充：`Templates/Multi_Order_Ship_Batch.md`（不改既有 C04 单票规则正文）。
+- **单据字段预检**：每张表生成前核对其必填字段是否已齐；不足则提示并跳过该表，足够才执行（`Templates/Document_Field_Preflight.md`）。
 
 ## 0.1 全局搜索权限闸门（强制）
 
@@ -54,7 +56,7 @@
 - **SSH 区分机器**：办公室推送使用 Host 别名 `github.com-office-cp` + 专用密钥；家里继续用原有 `git@github.com:...`。详见 `docs/SSH_OFFICE.md`。提交显示名仍用本仓 `user.name=Office CP`（与 SSH 认证是两层）。
 - **Web 应用**：仓库内 `web/`（Vercel Root Directory = `web`）。
 - **模块与握手全文**：[`Templates/Architecture_Modules_Handshake.md`](Templates/Architecture_Modules_Handshake.md)（M0–M4、Gate；H01/H12/H42/H13/H23/HX）。
-- **后台目标树**：仅 `/admin/progress` 呈现，不对前台暴露。
+- **库务进度树**：仅 `/ops/progress` 呈现，不对做单主路径暴露（旧 `/admin/*` 重定向）。
 - 本机 git 身份（repo-local）：`user.name=Office CP`，邮箱与 GitHub 验证邮箱一致即可。
 - **旁注**：同级目录 `_workspace_archive_AutoExport_20260720` 仅为 Cursor 旧工作区元数据备份，**不是**业务仓；说明见 `docs/WORKSPACE_ARCHIVE.md`。勿打开、勿存放发货表。
 
@@ -65,7 +67,7 @@
 - 标签源：只复制到当票 `产品标签/`；**核心库只读**；助手不得对源增删；仅你经手动上传路径可增删源。详见 `.cursor/rules/label-source-gate.mdc`。
 - 标签源绝对路径：`D:\.cursor\Cursor-projects\AutoExport\1_Input_Raw\00_Master_Reference\桌布标签`
 - 每次复制前后必须统计源文件数+格式并与上次完工/本次复制前核对。
-- FNSKU **双向锁定**：品牌+尺寸+条数/包+**颜色**+品名 ↔ FNSKU；亚马逊只认 FNSKU；**克重不阻断**；米白=象牙白=Ivory。
+- FNSKU **双向锁定**：品牌+尺寸+条数/包+**颜色**+品名 ↔ FNSKU；亚马逊只认 FNSKU；克重不在锁定键内；**90克↔110克可互通**（150+不互通）；米白=象牙白=Ivory。
 - **当票标签落盘（固定）**：`产品标签/{EF订单号}标签/{N}条装/{尺寸短码}/{源原名}.pdf` — 映射见 [`Templates/Shipment_Product_Label_Layout.md`](Templates/Shipment_Product_Label_Layout.md) 与 `Scripts/canonical_schema.json`（`label_output_layout` / `size_folder_map`）。
 
 ## 0.4 Web 技术栈与 UI / 字段严谨性（强制）
@@ -86,7 +88,7 @@
 触发词：洁癖、neat-freak、`/neat`。  
 - **全局**（所有项目）：`C:\Users\Administrator\.cursor\skills\neat-freak\SKILL.md`（`~/.cursor/skills/neat-freak/`）  
 - **本仓副本**：`.cursor/skills/neat-freak/SKILL.md`  
-「准备上新」= 交接四步 + **洁癖轻量路径**（对齐文档、列删除候选；不自动清场）。完整洁癖 / 清场须另说并确认。  
+「准备上新」= **先洁癖轻量**（对齐文档、列删除候选；不自动清场）→ 再交接总结/压缩/提示词。完整洁癖 / 清场须另说并确认。  
 权限仍服从本文件与 `.cursor/rules/*`。
 
 ## 1. 公司主体、品牌、店铺、FNSKU
@@ -101,19 +103,22 @@
 1. 两公司均可做桌布；**品牌不同**，须按 C04/C07 自动匹配，禁止串品牌。
 2. 跨主体（C04↔C07）时：同规格产品的装箱信息**可以相同**；**FNSKU 绝不可混用**。
 3. 畅选是内部归属/报关等场景可能用到的法律主体，**不等于**工厂订单页眉印刷名。
+4. **C07 补充（不另起规则书）**：字段、参数、定义、产品本质、箱重/毛净重/每箱单价、命名与数据处理**参照已完成的 C04 规则**；差异仅为店铺对应（C07↔Dressmaker↔独立 FNSKU）。亚马逊分配仓址可与 C04 同或不同，以当票外箱贴为准。见 `Scripts/entity_brand_rules.json` → `c07_inherits_c04_pipeline`。
 
 ## 1.1 装箱规格变更（强制汇报）— 第二条业务规则
 
 详细规则见：`.cursor/rules/packing-spec-variance.mdc`（alwaysApply）。
 
-面料**克重**等变化会导致每箱最大**条数**、每箱**包数**变化。因此允许出现：
+面料**克重**等变化会导致每箱最大**条数**、每箱**包数**、内外箱变化。因此允许出现：
 
-- 同一产品 + 同一品牌 + 同一公司，但订单上 **条数/箱、包数/箱**（及关联箱规）不同。
+- 同一产品 + 同一品牌 + 同一公司，但订单上 **条数/箱、包数/箱、内包装、外箱尺寸**（及关联箱规）不同。
 
 | 环节 | 要求 |
 |------|------|
-| 发现上述冲突 | **立即向使用者汇报**（列出各版本克重、条数/箱、包数/箱、订单号、下单日期） |
-| 默认倾向 | 一般以**下单日期最新**的版本为准（仅作建议） |
+| 权威 | **沉淀库** `packing_standards`；计划行不得跳过库 |
+| 发现冲突或多套 | **立即向使用者汇报**（克重、条/包、条/箱、包/箱、内外箱、订单号、下单日期） |
+| 库无对应行 | **汇报缺失**；不编造箱规 |
+| 默认倾向 | 一般以**下单日期最新**为准（仅作建议） |
 | 写入 / 调用 / 当作标准装箱库 | 必须等使用者**确认**后方可 |
 
 禁止静默挑选某一历史装箱规格继续生成单据。
@@ -122,7 +127,9 @@
 
 详细规则见：`.cursor/rules/pre-output-cross-check.mdc`（alwaysApply）。
 
-在输出**最终成品**（订单、出货表、货代下单表、报关单证等）到 `3_Output_Final/` 之前，必须将本票**生成草稿**与**沉淀数据库**做交叉对照（脚本骨架：`Scripts/03_cross_validate.py`）。
+在输出**业务终件**（订单、出货表、货代下单表、报关单证等，视为 Gate 通过后的正式交付）之前，必须将本票**生成草稿**与**沉淀数据库**做交叉对照（脚本骨架：`Scripts/03_cross_validate.py`）。  
+**输出端两包**（仅复制、不处理）：`完整存档` + **一腿一包** `{腿号}_{实发条数}_{出货日期}_贴标包`（单仓扁平 `外箱贴_{仓}/`；多仓 `{仓}/外箱贴`），见 [`Templates/Colleague_Pack_Export.md`](Templates/Colleague_Pack_Export.md)；落在 `3_Output_Final/{项目}/`，**不替代** Gate，处理仍在 `Shipments/`。  
+**货代入库贴**：货代回传 → `_inbox` → 三重验证 → 一仓一 PDF 写入 `FBA外箱贴/{渠道}/{仓}/`，见 [`Templates/Freight_Inbound_Label_Pipeline.md`](Templates/Freight_Inbound_Label_Pipeline.md)。
 
 ### 沉淀库的合法来源（并列，均须确认后才作对照基准）
 
@@ -155,7 +162,7 @@
 - `1_Input_Raw/00_Master_Reference/`：使用者上传的**人工对应关系总表**。
 - `1_Input_Raw/01_Order_Outbound|02_Freight_Forwarder|03_Customs/`：分类存放用户上传的原始模板与样例。
 - `2_Processed_AI/`：脱敏中间件；`drafts/` 为终审前草稿；`cross_check_reports/` 为对照报告。
-- `3_Output_Final/`：仅存放**对照通过后**的最终导出。
+- `3_Output_Final/`：输出端（`完整存档` + 一腿一 `{腿号}_{条数}_{出货日}_贴标包`）及 Gate 通过后的正式交付；处理仍在 Shipments。
 - `Scripts/mapping_dict.json`：脱敏映射；`Scripts/entity_brand_rules.json`：主体品牌规则；`Scripts/settled_knowledge_db.json`：**沉淀知识库**（可来自单据提炼 + 人工总表）。
 
 数据流：**原始 / 人工总表 →（确认）沉淀库 → 脱敏整理 → 生成草稿 → 与沉淀库交叉对照 →（通过）最终表**。禁止跳过对照直接交最终件；禁止让 AI 直接接触采购底价或真实供应商全称。
@@ -174,7 +181,8 @@
 ## 4.1 已确认业务默认（2026-07-20）
 
 - 克重默认 **90G**（其它克重当票确认）。
-- 订单号：**EF 长号**；出货表：**C04/C07 短号**（两套并存）。
+- 订单号：**EF 长号**；出货表：**C04/C07 短号**（两套并存）。  
+- **编号占用（2026-08-26）**：**订单短码**全公司业务员共用（他人已用不得再用，空号不回填；本机 next 仅建议）。**出货短号**按业务员各自独立（本机 `outbound_short_seq` 即本人递推）。
 - 出货表**不需要** FNSKU。
 - 货代下单表品牌列填 **`无`**（降海关风险）。
 - 历史发货计划 / `Shipments` 内样例为**已验证模板**。
@@ -197,9 +205,10 @@
 ## 8. 对 AI 助手
 
 - 优先遵循本文件、`.cursor/rules/*.mdc`、`Templates/Architecture_Modules_Handshake.md` 与 `Templates/01|02|03_*_Correspondence.md`。
+- **做单阶段顺序**（货代下单≠外箱贴前置）：`.cursor/rules/shipment-pipeline-order.mdc`；**每轮结论四行**：`session-turn-closeout.mdc`。
 - 不擅自删除 `1_Input_Raw` 原始文件；不把敏感原表复制到 `2_Processed_AI`。
 - 不确定的主体、品牌、FNSKU、退税、报关抬头：先问用户。
 - 全局搜索结果必须先经使用者归类确认，再进入写入/调用/参考（见 §0.1）。
-- 同品同牌同公司装箱条数/包数冲突：立即汇报，默认倾向最新下单日期，以使用者确认为准（见 §1.1）。
+- 同品同牌同公司装箱条数/包数/**内外箱**冲突或沉淀库无行：立即汇报，默认倾向最新下单日期，以使用者确认为准（见 §1.1）。
 - 最终成品输出前必须与沉淀库交叉对照通过（见 §1.2）；失败则阻断并汇报。
 - 沉淀库可来自单据提炼或使用者上传的人工总表（`00_Master_Reference`）；冲突时请示确认。

@@ -1,0 +1,194 @@
+{
+  "version": "1.1",
+  "confirmed_at": "2026-07-27",
+  "doc": "Templates/Cloud_Workspace_Pipeline.md",
+  "runtime": "vercel_web + supabase_autoexport",
+  "design_reference": "B Shipments section composition (not local path runtime)",
+  "fundamental_db": "settled_knowledge_db + autoexport.settled_*",
+  "ui": {
+    "primary": "/workspace",
+    "ops": "/ops",
+    "ops_archives": "/ops/archives",
+    "no_front_back_split": true,
+    "front_views": ["input", "output"],
+    "backend_stages": ["input", "extract", "process", "output"],
+    "login_purpose": "bind_identity_store_job_data_settled_precision"
+  },
+  "flow_defaults": {
+    "trio_same_wave": true,
+    "first_slot": "ship_plan",
+    "auto_order_code": true,
+    "product_label_pack_name": "产品标签包",
+    "shipment_label_pack_name": "发货贴标包"
+  },
+  "sections": {
+    "input": [
+      {
+        "id": "ship_plan",
+        "label": "发货计划",
+        "aliases": ["order_plan"],
+        "accept": [".xls", ".xlsx", ".csv", ".json"],
+        "max_mb": 20,
+        "storage_prefix": "jobs/{job_id}/in/ship_plan/",
+        "source_fields": [
+          "entity_code",
+          "order_date",
+          "ship_date",
+          "lines:size,color,strips_per_pack,qty_cartons,qty_strips"
+        ],
+        "required_for": ["order_xlsx", "product_label_pack", "outbound_xlsx", "freight_xlsx", "customs_xlsx"],
+        "stage": "input",
+        "order": 1
+      },
+      {
+        "id": "carton_and_tracking",
+        "label": "亚马逊外箱贴与追踪（PDF）",
+        "accept": [".pdf", ".zip"],
+        "max_mb": 80,
+        "storage_prefix": "jobs/{job_id}/in/carton_tracking/",
+        "source_fields": [
+          "channel",
+          "warehouse_code",
+          "fba_shipment_id",
+          "tracking_id",
+          "spec_folder",
+          "carton_pages"
+        ],
+        "required_for": ["outbound_xlsx", "freight_xlsx", "customs_xlsx", "shipment_label_pack"],
+        "stage": "input",
+        "order": 2,
+        "unlock_after": ["order_xlsx", "product_label_pack"]
+      },
+      {
+        "id": "freight_inbound",
+        "label": "货代入库贴",
+        "accept": [".pdf", ".zip"],
+        "max_mb": 50,
+        "storage_prefix": "jobs/{job_id}/in/freight_inbound/",
+        "source_fields": ["warehouse_code", "carton_count_on_label"],
+        "required_for": ["shipment_label_pack", "archive"],
+        "stage": "input",
+        "order": 3,
+        "unlock_after": ["freight_xlsx"]
+      }
+    ],
+    "output": [
+      {
+        "id": "order_xlsx",
+        "label": "订单表",
+        "file_spec": "xlsx EF long order (auto-numbered)",
+        "module": "M1",
+        "storage_prefix": "jobs/{job_id}/out/order/",
+        "wave": "after_plan"
+      },
+      {
+        "id": "product_label_pack",
+        "label": "产品标签包",
+        "aliases": ["product_labels"],
+        "file_spec": "pdf copy-only from label-source; factory labeling",
+        "module": "M1",
+        "storage_prefix": "jobs/{job_id}/out/product_labels/",
+        "wave": "after_plan"
+      },
+      {
+        "id": "outbound_xlsx",
+        "label": "出货表",
+        "file_spec": "xlsx C04/C07-U short, no FNSKU",
+        "module": "M1",
+        "storage_prefix": "jobs/{job_id}/out/outbound/",
+        "wave": "trio_after_carton"
+      },
+      {
+        "id": "freight_xlsx",
+        "label": "货代下单表",
+        "file_spec": "xlsx brand列=无; B15=tracking",
+        "module": "M2",
+        "storage_prefix": "jobs/{job_id}/out/freight/",
+        "wave": "trio_after_carton"
+      },
+      {
+        "id": "customs_xlsx",
+        "label": "报关单证",
+        "file_spec": "xlsx 波丽丝抬头+畅选波丽丝文件名; USD no FX; protocol no",
+        "module": "M3",
+        "storage_prefix": "jobs/{job_id}/out/customs/",
+        "wave": "trio_after_carton"
+      },
+      {
+        "id": "shipment_label_pack",
+        "label": "发货贴标包",
+        "aliases": ["label_pack"],
+        "file_spec": "per-leg zip: carton+inbound by WH",
+        "module": "pack",
+        "storage_prefix": "jobs/{job_id}/out/shipment_label_pack/",
+        "wave": "after_inbound"
+      }
+    ],
+    "archive": {
+      "id": "audit_archive",
+      "label": "汇总存档",
+      "storage_prefix": "jobs/{job_id}/archive/",
+      "includes": ["input_snapshot", "outputs", "gate_report", "protocol_nos"],
+      "after_gate": true
+    }
+  },
+  "pipeline_steps": [
+    { "id": "upload_plan", "stage": "input", "label": "上传发货计划" },
+    { "id": "extract_plan", "stage": "extract", "label": "提取规格键" },
+    { "id": "enrich_master", "stage": "process", "label": "总表补齐" },
+    { "id": "gen_order", "stage": "output", "label": "生成订单" },
+    { "id": "gen_product_labels", "stage": "output", "label": "生成产品标签包" },
+    { "id": "upload_carton", "stage": "input", "label": "上传外箱贴与截图" },
+    { "id": "extract_warehouse", "stage": "extract", "label": "提取仓×规格×箱" },
+    { "id": "decide_batch", "stage": "process", "label": "分批或一次发完" },
+    { "id": "gen_trio", "stage": "output", "label": "生成出货+货代+报关" },
+    { "id": "upload_inbound", "stage": "input", "label": "上传货代入库贴" },
+    { "id": "pack_shipment_labels", "stage": "process", "label": "按批打包发货贴标包" },
+    { "id": "gate", "stage": "process", "label": "交叉验证 Gate" },
+    { "id": "download", "stage": "output", "label": "提供下载" },
+    { "id": "archive", "stage": "output", "label": "留存档凭证" }
+  ],
+  "save_modes": {
+    "upload_raw": "immutable object in Storage; sha256 recorded",
+    "draft": "row in draft_documents / job_artifacts status=draft",
+    "pre_final": "exportable copy; gate_final=WAIT",
+    "final": "only after HX pass + user confirm; gate_final=CONFIRMED",
+    "archive": "audit bundle; no _tmp / inbox noise"
+  },
+  "handshake": {
+    "H01": { "from": "user", "to": "M0", "requires": ["confirmed_by_user=true"] },
+    "H12": { "from": "M1", "to": "M2", "carries": ["brand", "fnsku", "cartons", "strips_per_carton", "order_ref"] },
+    "H42": { "from": "M4", "to": "M2", "carries": ["warehouse_code", "fba_shipment_id", "address"] },
+    "H13": { "from": "M1", "to": "M3", "carries": ["cartons", "gross_net", "spec"] },
+    "H23": { "from": "M2", "to": "M3", "carries": [], "note": "default no warehouse into customs" },
+    "HX": { "from": "drafts", "to": "Gate", "blocks_final_on_fail": true }
+  },
+  "apis": {
+    "POST /api/jobs": "create job; auto order_code + project_code",
+    "GET /api/jobs": "list jobs",
+    "GET /api/jobs/[id]": "job detail + stage + artifact index",
+    "POST /api/jobs/[id]/upload": "multipart → Storage; section=input id",
+    "POST /api/jobs/[id]/run": "run pipeline step (preflight→generate mock/real)",
+    "GET /api/jobs/[id]/download": "signed URL for artifact",
+    "POST /api/jobs/[id]/gate": "request Gate; requires confirm body",
+    "POST /api/jobs/[id]/export": "build shipment_label_pack + archive after rules",
+    "GET /api/ops/archives": "ops archive index tree by ship_date YYYY/MM/DD"
+  },
+  "export_rules": {
+    "product_label_pack": "copy-only from label-source; factory",
+    "shipment_label_pack": "one leg one pack; single WH flat; multi WH nested",
+    "wechat_zip": "shipment label packs only; exclude full archive",
+    "archive": "inputs+outputs+gate report; after Final preferred",
+    "no_generate_in_download": "download is copy/signed URL only"
+  },
+  "defaults_from_settled": [
+    "entity_brand_lock",
+    "customs_c04_1039_for_all_stores",
+    "freight_brand_column=无",
+    "outbound_needs_fnsku=false",
+    "fx_rate_profit_only",
+    "amount_weight_reconcile pass_max_pct=1",
+    "GWD disabled",
+    "flow_ui_alignment_2026_07_27"
+  ]
+}

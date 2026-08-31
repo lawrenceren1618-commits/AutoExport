@@ -1,0 +1,21 @@
+{
+  "project": "EF-C26095-C07-7800_C07_20260829_7800",
+  "gate_final": "CONFIRMED",
+  "confirmed_at": "2026-08-25T14:55:00+0800",
+  "confirmed_by_user": true,
+  "cross_check": "PASS",
+  "inbound": {
+    "SCK8": "FC_SCK8_入库贴_100箱.pdf",
+    "GEU3": "FC_GEU3_入库贴_120箱.pdf"
+  },
+  "protocol_nos": {
+    "C26095-A": [
+      "20260904501"
+    ],
+    "C26095-B": [
+      "20260904502"
+    ]
+  },
+  "output_root": "D:\\.cursor\\Cursor-projects\\AutoExport\\3_Output_Final\\EF-C26095-C07-7800_C07_20260829_7800",
+  "note": "物易通两仓入库贴验证 PASS 后 Final"
+}

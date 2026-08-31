@@ -1,0 +1,29 @@
+{
+  "as_of": "2026-08-28",
+  "source_xls": "1_Input_Raw\\00_Master_Reference\\发货统计\\_inbox\\2026年发货记录.xls",
+  "total_spec_lines": 319,
+  "packs_per_carton_empty": 150,
+  "wuyi_freight_empty": 8,
+  "cv_warning": "交叉验证时跳过 freight_rmb/packs_per_carton 为 null 的行，或标为待确认",
+  "empty_ppc_tickets": [
+    "C26006",
+    "C26007",
+    "C26032",
+    "C26036",
+    "C26039",
+    "C26040",
+    "C26046",
+    "C26047",
+    "C26052",
+    "C26064",
+    "C26065",
+    "C26079",
+    "C26080"
+  ],
+  "empty_freight_tickets": [
+    "C26079",
+    "C26080",
+    "C26089",
+    "C26095"
+  ]
+}

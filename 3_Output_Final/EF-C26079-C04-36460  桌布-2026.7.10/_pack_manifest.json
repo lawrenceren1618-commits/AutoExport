@@ -1,0 +1,95 @@
+{
+  "kind": "output_packs",
+  "generated_at": "2026-07-27T11:22:58+0800",
+  "rule": "Templates/Colleague_Pack_Export.md",
+  "project": "EF-C26079-C04-36460  桌布-2026.7.10",
+  "pack_root": "D:\\.cursor\\Cursor-projects\\AutoExport\\3_Output_Final\\EF-C26079-C04-36460  桌布-2026.7.10",
+  "packs": {
+    "archive": "完整存档",
+    "factory_label_kits": [
+      "C26079-A_32260_2026.7.31_贴标包",
+      "C26079-B_4200_2026.7.31_贴标包"
+    ],
+    "factory_naming": "{split_leg_id}_{actual_strips}_{ship_date}_贴标包",
+    "factory_one_pack_per_leg": true,
+    "wechat_send_zip": "C26079_2026.7.31_微信发送.zip"
+  },
+  "factory_packs": [
+    {
+      "folder": "C26079-A_32260_2026.7.31_贴标包",
+      "batch": "C26079-A",
+      "strips": 32260,
+      "ship_date": "2026.7.31",
+      "layout": "wh_nested",
+      "warehouses": [
+        "AVP1",
+        "CLT2",
+        "GYR2",
+        "LGB8",
+        "MDW2"
+      ],
+      "channel": "FC"
+    },
+    {
+      "folder": "C26079-B_4200_2026.7.31_贴标包",
+      "batch": "C26079-B",
+      "strips": 4200,
+      "ship_date": "2026.7.31",
+      "layout": "flat_single_wh",
+      "warehouses": [
+        "IUTE"
+      ],
+      "channel": "AWD"
+    }
+  ],
+  "wechat_send": {
+    "file": "C26079_2026.7.31_微信发送.zip",
+    "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\3_Output_Final\\EF-C26079-C04-36460  桌布-2026.7.10\\C26079_2026.7.31_微信发送.zip",
+    "bytes": 2205605,
+    "members": 109,
+    "included_tops": [
+      "C26079-A_32260_2026.7.31_贴标包",
+      "C26079-B_4200_2026.7.31_贴标包"
+    ],
+    "excluded_tops": [
+      "完整存档"
+    ],
+    "rule": "same-batch 贴标包 only for WeChat; 完整存档 not included"
+  },
+  "legs": [
+    {
+      "folder": "C26079-A_FC",
+      "channel": "FC",
+      "warehouses": [
+        "AVP1",
+        "CLT2",
+        "GYR2",
+        "LGB8",
+        "MDW2"
+      ],
+      "fba_subdir": "FC"
+    },
+    {
+      "folder": "C26079-B_AWD",
+      "channel": "AWD",
+      "warehouses": [
+        "IUTE"
+      ],
+      "fba_subdir": "AWD",
+      "shipment_id": "STAR-QG6CTURZGY6MX"
+    }
+  ],
+  "counts": {
+    "shared_order": 1,
+    "shared_outbound": 1,
+    "shared_labels": 23,
+    "archive_freight": 6,
+    "archive_customs": 6,
+    "archive_carton": 109,
+    "archive_inbound": 6,
+    "factory_inbound": 6,
+    "factory_carton": 103
+  },
+  "missing": [],
+  "note": "copy-only; folders kept; WeChat needs merged zip; Gate may still WAIT"
+}

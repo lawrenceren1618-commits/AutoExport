@@ -37,6 +37,50 @@ Thumbs.db
 2_Processed_AI/_*.json
 2_Processed_AI/_*.txt
 2_Processed_AI/_*.md
+2_Processed_AI/_tmp*/
+2_Processed_AI/_fba_scan_*
+2_Processed_AI/_inspect_*
+2_Processed_AI/freight_inspect_*
+2_Processed_AI/cloud_job_blobs/
+2_Processed_AI/cloud_job_store/
+
+# Heavy binaries — channel B local / Storage later; keep GitHub slim
+1_Input_Raw/00_Master_Reference/桌布标签/
+1_Input_Raw/00_Master_Reference/发货统计/local_unit_prices/*
+!1_Input_Raw/00_Master_Reference/发货统计/local_unit_prices/.gitkeep
+1_Input_Raw/Shipments/**/*.pdf
+1_Input_Raw/Shipments/**/*.zip
+1_Input_Raw/Shipments/**/*.PNG
+1_Input_Raw/Shipments/**/*.png
+1_Input_Raw/Shipments/**/*.jpg
+1_Input_Raw/Shipments/**/*.jpeg
+3_Output_Final/**/*.pdf
+3_Output_Final/**/*.zip
+
+# User_IO: track scaffold only (md/json/gitkeep); ignore other payloads under IO leaves
+User_IO/**/输入端/**
+User_IO/**/输出端/**
+User_IO/**/汇总存档/**
+!User_IO/**/输入端/**/
+!User_IO/**/输出端/**/
+!User_IO/**/汇总存档/**/
+!User_IO/**/输入端/**/.gitkeep
+!User_IO/**/输出端/**/.gitkeep
+!User_IO/**/汇总存档/**/.gitkeep
+!User_IO/**/*.md
+!User_IO/**/*.json
+!User_IO/README.md
+
+# One-off debug helpers (optional regenerate)
+Scripts/_gen_c26080_*.py
+Scripts/_run_c26080_*.py
+Scripts/_reconcile_c26080.py
+Scripts/_reorg_c26080_*.py
+Scripts/_reallocate_c26080_*.py
+Scripts/_rename_c26080_*.py
+Scripts/_inspect_*.py
+web/_audit-env-keys.js
+web/_env-link-test-run.js
 
 # Optional: cost/price workbooks outside classified input dirs (never ignore 1_Input_Raw)
 # *底价*.xls*

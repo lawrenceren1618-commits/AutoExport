@@ -1,0 +1,129 @@
+{
+  "id": "EF-C26080-C07-11590_C07_20260731_13590",
+  "folder_name": "EF-C26080-C07-11590_C07_20260731_13590",
+  "status": "OUTPUT_CONFIRMED_PRE_FINAL",
+  "primary_order_stem": "C26080",
+  "order_codes": [
+    "EF-C26080-C07-11590",
+    "EF-C26068-C07-2000"
+  ],
+  "store": "C07",
+  "brand": "Dressmaker",
+  "order_date_primary": "2026-07-10",
+  "order_date_secondary": "2026-06-03",
+  "ship_date": "2026-07-31",
+  "strips_total": 13590,
+  "cartons_total": 350,
+  "strips_by_order": {
+    "EF-C26080-C07-11590": 11590,
+    "EF-C26068-C07-2000": 2000
+  },
+  "cartons_by_order": {
+    "EF-C26080-C07-11590": 300,
+    "EF-C26068-C07-2000": 50
+  },
+  "co_ship": {
+    "enabled": true,
+    "secondary_order_stem": "C26068",
+    "join_leg": "C26080-B",
+    "evidence": "外箱贴标注 C26080+c26068；I11060102-10 共50箱=C26068整单"
+  },
+  "split_shipment": true,
+  "split_naming": "C26080-A/B",
+  "split_order_stem": "C26080",
+  "legs": {
+    "C26080-A": {
+      "channel": "FC",
+      "warehouses": [
+        "SCK8"
+      ],
+      "cartons": 30,
+      "strips": 900,
+      "orders": [
+        "EF-C26080-C07-11590"
+      ]
+    },
+    "C26080-B": {
+      "channel": "FC",
+      "warehouses": [
+        "TOL3",
+        "MCC1",
+        "FWA4",
+        "RDU2",
+        "PSP3"
+      ],
+      "cartons": 320,
+      "strips": 12690,
+      "orders": [
+        "EF-C26080-C07-11590",
+        "EF-C26068-C07-2000"
+      ]
+    }
+  },
+  "freight_drafts": {
+    "script": "Scripts/_gen_c26080_freight.py",
+    "summary": "2_Processed_AI/drafts/C26080_freight_summary.json",
+    "dir": "货代入库贴下单表/",
+    "warehouses": [
+      "SCK8",
+      "TOL3",
+      "MCC1",
+      "FWA4",
+      "RDU2",
+      "PSP3"
+    ],
+    "generated_at": "2026-07-24"
+  },
+  "gate_final": "WAIT",
+  "pending": [
+    "货代入库贴 PDF → 货代入库贴/_inbox",
+    "Gate→Final 须明示",
+    "旧夹 EF-C26080_待识别 仍被 Excel 锁定，关闭后手动删除重复夹"
+  ],
+  "rules": [
+    "Templates/Multi_Order_Ship_Batch.md",
+    ".cursor/rules/error-confirm-gate.mdc",
+    "Scripts/entity_brand_rules.json c07_inherits_c04_pipeline"
+  ],
+  "outbound_short": "C07-2608",
+  "outbound_filename": "C07-2608-U-2026.7.31.xlsx",
+  "preflight_report": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts\\C26080_preflight_and_run.json",
+  "split_ledger": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\拆单比对\\split_ledger.json",
+  "output_confirmed_at": "2026-07-24",
+  "output_packs": {
+    "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\3_Output_Final\\EF-C26080-C07-11590_C07_20260731_13590",
+    "rule": "Templates/Colleague_Pack_Export.md",
+    "packs": [
+      "完整存档",
+      "C26080-A_900_2026.7.31_贴标包",
+      "C26080-B_12690_2026.7.31_贴标包"
+    ],
+    "wechat_zip": "C26080_2026.7.31_微信发送.zip",
+    "wechat_note": "贴标包 only; 入库贴 missing",
+    "gate_final_still": "WAIT",
+    "inbound_labels": "MISSING",
+    "reconcile_pass": true,
+    "tracking_filled": true
+  },
+  "settled_refs": [
+    "Templates/Multi_Order_Ship_Batch.md",
+    "Templates/Document_Field_Preflight.md",
+    "Templates/Shipment_Tracking_Screenshot_Inbox.md",
+    "Scripts/settled_knowledge_db.json confirmed_defaults.multi_order_ship_batch.verified_sample"
+  ],
+  "rename_from": "EF-C26080_待识别",
+  "renamed_at": "2026-07-24",
+  "rename_note": "target folder already present (prior copy); WinError5 lock on old EF-C26080_待识别 (Excel ~$ lock); work on new name",
+  "notes": {
+    "carton_reorg_zh_c26079_a_at": "2026-07-24",
+    "contract_protocol_reallocated_at": "2026-07-24T16:41:25+0800",
+    "contract_protocol_map": {
+      "SCK8": "20260731501",
+      "TOL3": "20260731502",
+      "MCC1": "20260731503",
+      "FWA4": "20260731504",
+      "RDU2": "20260731505",
+      "PSP3": "20260731506"
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "generated_at": "2026-08-25T13:55:55+0800",
+  "project": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000",
+  "inbox": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\货代入库贴\\_inbox",
+  "apply": false,
+  "authority_paths": [
+    "2_Processed_AI\\drafts\\C26089-B_freight_customs_summary.json"
+  ],
+  "authority_warehouses": {
+    "CLT2": {
+      "shipment_id": "",
+      "cartons": 85,
+      "channel": "FC",
+      "carton_pages": 170,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\货代入库贴下单表\\货代下单表_C26089-A 2026.8.29桌布 CLT2 85箱.xlsx",
+      "fba_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\FBA外箱贴\\FC\\CLT2"
+    },
+    "IUSP": {
+      "shipment_id": "STAR-RCKQMK6EMHN4K",
+      "cartons": 500,
+      "channel": "AWD",
+      "carton_pages": 500,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\货代入库贴下单表\\货代下单表_C26089-B 2026.8.29桌布 IUSP 500箱.xlsx",
+      "fba_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\FBA外箱贴\\AWD\\IUSP"
+    },
+    "LAS1": {
+      "shipment_id": "",
+      "cartons": 107,
+      "channel": "FC",
+      "carton_pages": 214,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\货代入库贴下单表\\货代下单表_C26089-A 2026.8.29桌布 LAS1 107箱.xlsx",
+      "fba_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\FBA外箱贴\\FC\\LAS1"
+    },
+    "LAX9": {
+      "shipment_id": "",
+      "cartons": 99,
+      "channel": "FC",
+      "carton_pages": 198,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\货代入库贴下单表\\货代下单表_C26089-A 2026.8.29桌布 LAX9 99箱.xlsx",
+      "fba_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\FBA外箱贴\\FC\\LAX9"
+    },
+    "SBD1": {
+      "shipment_id": "",
+      "cartons": 119,
+      "channel": "FC",
+      "carton_pages": 238,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\货代入库贴下单表\\货代下单表_C26089-A 2026.8.29桌布 SBD1 119箱.xlsx",
+      "fba_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\FBA外箱贴\\FC\\SBD1"
+    },
+    "TEB9": {
+      "shipment_id": "",
+      "cartons": 90,
+      "channel": "FC",
+      "carton_pages": 180,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\货代入库贴下单表\\货代下单表_C26089-A 2026.8.29桌布 TEB9 90箱.xlsx",
+      "fba_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\FBA外箱贴\\FC\\TEB9"
+    }
+  },
+  "doc": "Templates/Freight_Inbound_Label_Pipeline.md",
+  "inbox_file_count": 1,
+  "total_pages": 500,
+  "files": [
+    {
+      "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\货代入库贴\\_inbox\\C26089-B 500箱入库贴.pdf",
+      "page_count": 500,
+      "channels": [
+        "AWD"
+      ],
+      "shipment_ids": [
+        "STAR-RCKQMK6EMHN4K"
+      ],
+      "warehouses": [
+        "IUSP"
+      ],
+      "sample_page0": {
+        "source_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\货代入库贴\\_inbox\\C26089-B 500箱入库贴.pdf",
+        "page_index": 0,
+        "channel": "AWD",
+        "confidence": 0.9,
+        "signals": [
+          "star_shipment",
+          "receiving_info:IUSP",
+          "awd_signal"
+        ],
+        "shipment_id": "STAR-RCKQMK6EMHN4K",
+        "warehouse_code": "IUSP",
+        "page_fingerprint": "9e26885fc333af94",
+        "text_sample": "Customer Order | Number: | FBA Order Number: | Made in China | Receiving Information: | IUSP 0000000000 | 8140 Caliente Rd | HESPERIA CA 92344 | STAR-RCKQMK6EMHN4K | IUSP | 1 | 500 | STAR-RCKQMK6EMHN4K W009 | YLPCK26082573930W009001"
+      }
+    }
+  ],
+  "warehouses": [
+    {
+      "warehouse_code": "IUSP",
+      "page_count": 500,
+      "pass": true,
+      "checks": {
+        "shipment_id": {
+          "page": "STAR-RCKQMK6EMHN4K",
+          "authority": "STAR-RCKQMK6EMHN4K",
+          "ok": true
+        },
+        "warehouse_code": {
+          "page": "IUSP",
+          "authority": "IUSP",
+          "ok": true
+        },
+        "page_count_eq_cartons": {
+          "pages": 500,
+          "freight_cartons": 500,
+          "carton_tree_pages": 500,
+          "ok": true
+        },
+        "no_duplicate_pages": {
+          "ok": true,
+          "duplicates": []
+        }
+      },
+      "errors": [],
+      "channel": "AWD"
+    }
+  ],
+  "written": [],
+  "blocked": false,
+  "notes": [],
+  "layout_calibrated": {
+    "at": "2026-07-24",
+    "sample": "945箱入库贴(1).zip",
+    "signals": [
+      "Receiving Information: {WH}",
+      "FBA… / STAR-…",
+      "label_{ship}_{N}.pdf"
+    ]
+  }
+}

@@ -3,7 +3,12 @@
 
 from .conflict import ConflictReport, detect_packing_conflicts, detect_master_conflicts
 from .order_parse import parse_order_workbook, extract_order_meta
-from .order_fill import fill_order_template, resolve_blank_template
+from .order_fill import (
+    fill_order_template,
+    resolve_blank_template,
+    resolve_order_template,
+    order_workbook_filename,
+)
 from .assemble import assemble_order_lines, load_settled_products
 
 __all__ = [
@@ -14,6 +19,8 @@ __all__ = [
     "extract_order_meta",
     "fill_order_template",
     "resolve_blank_template",
+    "resolve_order_template",
+    "order_workbook_filename",
     "assemble_order_lines",
     "load_settled_products",
 ]

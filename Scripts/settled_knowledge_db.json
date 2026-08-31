@@ -1,7 +1,7 @@
 {
   "version": "1.1",
   "description": "沉淀知识库：经使用者确认的主体、品牌、SKU、FNSKU、装箱规格等。来源可为单据提炼或人工总表。生成草稿可读取；最终输出前必须与之交叉对照。未确认数据不得写入本库。",
-  "updated_at": "2026-07-23",
+  "updated_at": "2026-08-19",
   "sources": {
     "from_documents": {
       "enabled": true,
@@ -21,21 +21,18 @@
   },
   "entities": {
     "C04": {
-      "legal_name_zh": "畅选贸易有限公司",
+      "legal_name_zh": "许昌畅选贸易有限公司",
+      "legal_name_role": "internal_filing_only",
       "brand_tablecloth": "WIGENIUS",
-      "order_header_note": "页眉仅易尚/E-fashion，不显示畅选"
+      "order_header_note": "页眉仅易尚/E-fashion，不显示畅选；法律名不改流程"
     },
     "C07": {
-      "legal_name_zh": "易尚电子商务有限公司",
+      "legal_name_zh": "许昌易尚电子商务有限公司",
+      "legal_name_role": "internal_filing_only",
       "brand_tablecloth": "Dressmaker",
-      "order_header_note": "页眉易尚/E-fashion"
+      "order_header_note": "页眉易尚/E-fashion；法律名不改流程/不改报关抬头"
     }
   },
-  "products": [],
-  "packing_standards": [],
-  "fnsku_index": [],
-  "sku_index": [],
-  "sku_manual_notes": [],
   "hs_defaults": {
     "平纹单面磨毛桌布": "6302539090",
     "authority": "master_table",
@@ -74,8 +71,7 @@
         "must_reinject_after_openpyxl": true,
         "channels": [
           "FC",
-          "AWD",
-          "GWD"
+          "AWD"
         ],
         "verify": "zip xl/media count>=1",
         "fail_if_missing": true,
@@ -93,7 +89,13 @@
     "outbound_needs_fnsku": false,
     "order_code_style": "EF_long",
     "outbound_code_style": "C0x_short_U_date",
-    "size_shortcode_map": "confirmed_2026-07-21",
+    "size_shortcode_map": {
+      "confirmed_at": "2026-07-24",
+      "locked": true,
+      "authority": "user_confirm_maintain_current_table",
+      "schema": "Scripts/canonical_schema.json size_shortcode_map / size_folder_map",
+      "note": "维持现表，不再扩展；84/102/126/120/90圆"
+    },
     "size_120": "70X120inch",
     "color_米白_aliases": [
       "米白",
@@ -108,6 +110,22 @@
     "color_canonical_米白": "米白",
     "label_output_layout": "产品标签/{EF订单号}标签/{N}条装/{尺寸短码}/{源原名}.pdf",
     "validated_templates": "Shipments/ and historical 发货计划 copies",
+    "packing_authority": {
+      "confirmed_at": "2026-08-14",
+      "doc": ".cursor/rules/packing-spec-variance.mdc",
+      "authority": "settled packing_standards",
+      "plan_may_not_skip_settled": true,
+      "on_conflict_or_missing": "report_and_wait_user_confirm",
+      "scope": [
+        "strips_per_pack",
+        "packs_per_carton",
+        "strips_per_carton",
+        "inner_pack_lwh_cm",
+        "carton_lwh_cm",
+        "pack_method",
+        "gram_weight"
+      ]
+    },
     "amount_weight_reconcile": {
       "confirmed_at": "2026-07-22",
       "doc": "Templates/Amount_Weight_Reconcile.md",
@@ -150,14 +168,60 @@
       "channels": [
         "FC",
         "AWD",
-        "GWD",
         "UNKNOWN"
       ],
+      "GWD": "disabled_2026-07-24_not_in_active_pipeline",
       "FC": "亚马逊运营中心（Fulfillment Center / 常称FBA仓）",
       "AWD": "Amazon Warehousing & Distribution",
-      "GWD": "预留；特征待样例",
       "one_leg_one_channel": true,
-      "one_leg_one_channel_note": "一票一次发运=一条拆单腿；一腿只发FC或AWD或GWD之一，互斥",
+      "one_leg_one_channel_note": "一票一次发运=一条拆单腿；一腿只发FC或AWD之一，互斥",
+      "destination_types_fixed": {
+        "confirmed_at": "2026-08-19",
+        "confirmed_by": "user",
+        "rules_file": "Scripts/carton_destination_rules.json",
+        "web_runtime": "web/lib/pipeline/carton-destination-rules.json",
+        "dual_file_policy": "must_stay_identical; edit Scripts first then copy to web (user confirmed 2026-08-19)",
+        "note": "目的地仅两种现役：FC=运营中心，AWD=仓储配送。确认后仓码/货件形态固定。识别宁空不填错，仍须人工确认。",
+        "FC": "运营中心；货件号 FBA…；仓码 AVP1 型",
+        "AWD": "AWD 仓库；货件号必须 STAR-（带连字符，禁把 PDF startxref 当成货件号）；站点 IUTE/IUSW/HEA2",
+        "case_c26089": "IUTE + STAR-WDWSD2Q5T56Y4 + 追踪 2MSYJZTJ"
+      },
+      "recognize_engines": {
+        "confirmed_at": "2026-08-19",
+        "confirmed_by": "user",
+        "doc": "Templates/Ocr_Dual_Convert_Compare.md",
+        "primary": "pdf_text_layer",
+        "backup": "tesseract.js",
+        "backup_when": "primary_cannot_extract_warehouse_and_shipment_id_or_errors",
+        "do_not_delete_backup": true,
+        "confirm_still_required": true,
+        "llamaparse": "opt_in_compare_only",
+        "cost_shot_primary": "tesseract.js"
+      },
+      "page_mark_split_must_rewrite_folders": {
+        "confirmed_at": "2026-07-27",
+        "confirmed_by_user_via": "assistant_judgment_user_asked_to_settle_if_needed",
+        "doc": "Templates/Carton_Label_Channels.md",
+        "script": "Scripts/16_split_mixed_carton_spec_folders.py",
+        "trigger": "folder_name strips_per_pack disagrees with multi page marks (e.g. 126-6 and 126-10) and page_count==carton_count",
+        "must": [
+          "physically_split_pdf_pages_into_separate_FC_spec_folders",
+          "pdf_filename_equals_folder_name_including_carton_count",
+          "run_before_13_export_output_packs",
+          "JSON_only_page_mark_split_is_insufficient"
+        ],
+        "pdf_naming": "{颜色全称} {尺寸} {N}pack-{箱数}箱.pdf",
+        "pdf_naming_example": "米白色 60X126inches 10pack-9箱.pdf",
+        "backup": "rename mixed source folder to .mixed_bak_* ; 13 must skip .mixed_bak_*",
+        "case": "C26079-A ivory 60X126 five WH mixed under false 6pack label"
+      },
+      "spec_folder_naming": {
+        "confirmed_at": "2026-07-24",
+        "FC": "{颜色全称} {尺寸} {N}pack[s]-{箱数}箱",
+        "FC_example": "白色 60X102inches 6pack-3箱",
+        "AWD": "{颜色短}_{尺寸}_{N}条装",
+        "AWD_example": "白_60X126inch_10条装"
+      },
       "field_confirm_by_layout": {
         "note": "拆分合并目的相同；须按版式确认字段，禁止FC/AWD字段混套",
         "FC": {
@@ -182,7 +246,7 @@
         "page_order": "box_sequence_ascending"
       },
       "clean_convert": "assistant_decides_skip_if_not_needed",
-      "organize_layout": "FBA外箱贴/{FC|AWD|GWD}/{warehouse}/{spec}/*.pdf",
+      "organize_layout": "FBA外箱贴/{FC|AWD}/{warehouse}/{spec}/*.pdf",
       "staging": "FBA外箱贴/_staging then confirm before promote",
       "script": "Scripts/10_carton_label_ingest.py",
       "awd_sample_calibrated": {
@@ -199,26 +263,618 @@
         "reference_id_note": "AWD货代reference/追踪编码通常不填；任意订单号=ShipmentID"
       }
     },
+    "freight_inbound_labels": {
+      "confirmed_at": "2026-07-24",
+      "doc": "Templates/Freight_Inbound_Label_Pipeline.md",
+      "script": "Scripts/12_freight_inbound_label_ingest.py",
+      "forwarder_profiles": "Scripts/freight_forwarder_profiles.json",
+      "source": "freight_forwarder_returns_PDF_after_order_xlsx_sent",
+      "send_carrier_exception": {
+        "confirmed_at": "2026-08-20",
+        "example_forwarder": "纽酷",
+        "rule": "Amazon SEND carrier carton PDF from seller backend already includes inbound label; no separate inbound PDF from forwarder",
+        "contrast_regular": "物易通 etc. require separate inbound PDF after order xlsx sent"
+      },
+      "inbox": "货代入库贴/_inbox",
+      "staging": "货代入库贴/_staging",
+      "recognize": "货代入库贴/_recognize",
+      "final_place": "FBA外箱贴/{channel}/{warehouse}/{channel}_{warehouse}_入库贴_{N}箱.pdf",
+      "one_pdf_per_warehouse": true,
+      "cross_check": [
+        "shipment_id_vs_freight_any_order_no_vs_carton_label",
+        "warehouse_code_vs_freight_vs_carton_tree",
+        "deduped_page_count_eq_carton_count"
+      ],
+      "no_duplicate_pages": true,
+      "fail_blocks_merge": true,
+      "layout_calibrated": {
+        "at": "2026-07-24",
+        "sample_shipment": "EF-C26079",
+        "sample_zip": "945箱入库贴(1).zip",
+        "filename_pattern": "label_{FBA|STAR-…}_{N}.pdf",
+        "text_signals": [
+          "Receiving Information: {WH}",
+          "FBA Order Number / FBA…",
+          "STAR-… for AWD",
+          "carton index n/N unique per page"
+        ],
+        "verified_warehouses": {
+          "AVP1": {
+            "shipment_id": "FBA19JT39521",
+            "cartons": 175,
+            "channel": "FC"
+          },
+          "CLT2": {
+            "shipment_id": "FBA19JT71WTZ",
+            "cartons": 128,
+            "channel": "FC"
+          },
+          "GYR2": {
+            "shipment_id": "FBA19JT3Q0H0",
+            "cartons": 139,
+            "channel": "FC"
+          },
+          "LGB8": {
+            "shipment_id": "FBA19JT0K3PY",
+            "cartons": 182,
+            "channel": "FC"
+          },
+          "MDW2": {
+            "shipment_id": "FBA19JT16DMQ",
+            "cartons": 181,
+            "channel": "FC"
+          },
+          "IUTE": {
+            "shipment_id": "STAR-QG6CTURZGY6MX",
+            "cartons": 140,
+            "channel": "AWD"
+          }
+        },
+        "note": "C26079 六仓三重验证全通过后沉淀；版式信号供后续票识别复用"
+      }
+    },
+    "output_packs": {
+      "confirmed_at": "2026-07-24",
+      "doc": "Templates/Colleague_Pack_Export.md",
+      "root": "3_Output_Final/{project}/",
+      "packs": [
+        "完整存档",
+        "{split_leg_id}_{actual_strips}_{ship_date}_贴标包（一腿一包）"
+      ],
+      "factory_pack_naming": "{split_leg_id}_{actual_strips}_{ship_date}_贴标包",
+      "factory_one_pack_per_leg": true,
+      "factory_pack_strips": "that leg shipped_strips",
+      "factory_pack_date_format": "YYYY.M.D",
+      "factory_pack_layout": {
+        "single_warehouse": "贴标包根下 外箱贴_{仓码}/ + 入库贴_{仓码}/",
+        "multi_warehouse": "{仓码}/外箱贴 + {仓码}/入库贴"
+      },
+      "example_factory_packs": [
+        "C26079-A_32260_2026.7.31_贴标包",
+        "C26079-B_4200_2026.7.31_贴标包/外箱贴_IUTE"
+      ],
+      "copy_only": true,
+      "processing_stays_in_shipments": true,
+      "wechat_send": {
+        "required": true,
+        "reason": "WeChat accepts zip only, not folders",
+        "merge_scope": "same order + same ship_date batch: all leg 贴标包 folders only",
+        "exclude": [
+          "完整存档"
+        ],
+        "zip_naming": "{order_short}_{ship_date}_微信发送.zip",
+        "example": "C26079_2026.7.31_微信发送.zip",
+        "keep_folders": true,
+        "oversized_fallback": "split per-leg 贴标包.zip; note in manifest"
+      }
+    },
     "local_data_paths": {
       "deprecated": true,
-      "replaced_by": "data_source_interfaces"
+      "replaced_by": [
+        "data_source_interfaces",
+        "local_operational_paths"
+      ],
+      "deleted_at": "2026-07-24"
+    },
+    "local_operational_paths": {
+      "confirmed_at": "2026-07-24",
+      "doc": "Templates/Local_Operational_Paths.md",
+      "json": "Scripts/local_operational_paths.json",
+      "note": "本机绝对路径速查（办公室）；与 data_source_interfaces 并存，不互相替代"
     },
     "data_source_interfaces": {
       "confirmed_at": "2026-07-23",
       "doc": "Templates/Data_Source_Interfaces.md",
       "json": "Scripts/data_source_interfaces.json",
       "note": "Task→needs→interface_id; GitHub for rules/light data; heavy binaries via pending Supabase Storage/API — not a disk path dump"
+    },
+    "multi_order_ship_batch": {
+      "confirmed_at": "2026-07-24",
+      "doc": "Templates/Multi_Order_Ship_Batch.md",
+      "note": "Additive only; C04 single-order rules unchanged. Primary split legs + secondary co_ship.join_leg; outbound by ship_date; freight/customs by warehouse + order totals cross-check",
+      "verified_sample": {
+        "at": "2026-07-24",
+        "primary": "EF-C26080-C07-11590",
+        "co_ship": "EF-C26068-C07-2000",
+        "join_leg": "C26080-B",
+        "ship_date": "2026.7.31",
+        "outbound_short": "C07-2608",
+        "order_strips": 13590,
+        "order_cartons": 350,
+        "legs": {
+          "C26080-A": {
+            "warehouses": [
+              "SCK8"
+            ],
+            "cartons": 30,
+            "strips": 900
+          },
+          "C26080-B": {
+            "warehouses": [
+              "TOL3",
+              "MCC1",
+              "FWA4",
+              "RDU2",
+              "PSP3"
+            ],
+            "cartons": 320,
+            "strips": 12690
+          }
+        },
+        "reconcile": "2_Processed_AI/drafts/C26080_amount_weight_reconcile.json",
+        "reconcile_pass": true,
+        "error_rate_pct_amount": 0.0013
+      }
+    },
+    "error_confirm_gate": {
+      "confirmed_at": "2026-07-24",
+      "rule": ".cursor/rules/error-confirm-gate.mdc",
+      "report_all_errors": true,
+      "stop_until_user_confirms": true,
+      "cross_checks": [
+        "missing_or_unreadable_inputs",
+        "co_ship_join_leg_ambiguous",
+        "cross_store_fnsku_mix",
+        "outbound_group_by_ship_date",
+        "freight_group_by_warehouse_vs_order_total_strips_cartons",
+        "customs_group_by_warehouse_and_strips_vs_freight",
+        "customs_contract_protocol_no_unique",
+        "amount_weight_error_rate_gt_1pct",
+        "packing_spec_variance"
+      ]
+    },
+    "document_field_preflight": {
+      "confirmed_at": "2026-07-24",
+      "doc": "Templates/Document_Field_Preflight.md",
+      "json": "Scripts/document_field_preflight.json",
+      "note": "Before each document: check required fields vs available; gap→report+skip; enough→execute"
+    },
+    "customs_contract_protocol_no": {
+      "confirmed_at": "2026-07-24",
+      "confirmed_by_user": true,
+      "user_confirm_action": "重开C26080并改表后沉淀入库",
+      "doc": "Templates/Customs_Contract_Protocol_No.md",
+      "script": "Scripts/contract_protocol.py",
+      "registry": "Scripts/contract_protocol_registry.json",
+      "format": "YYYYMMDD + 3-digit suffix",
+      "preferred_suffix_start": 501,
+      "rule": "global unique; check registry before allocate; persist after; same project+wh+day reuses; only NNN mutable",
+      "note": "Same ship_date across different plans must not collide",
+      "verified_sample": {
+        "at": "2026-07-24",
+        "project": "EF-C26080-C07-11590_C07_20260731_13590",
+        "ship_date": "2026-07-31",
+        "realloc_from": "20260731801–806 (collided with C26079-A same day)",
+        "realloc_to": {
+          "SCK8": "20260731501",
+          "TOL3": "20260731502",
+          "MCC1": "20260731503",
+          "FWA4": "20260731504",
+          "RDU2": "20260731505",
+          "PSP3": "20260731506"
+        },
+        "draft": "2_Processed_AI/drafts/C26080_protocol_reallocate.json",
+        "customs_cell": "基础表!F8 (row8 col6)"
+      }
+    },
+    "shipment_tracking_screenshots": {
+      "confirmed_at": "2026-07-24",
+      "doc": "Templates/Shipment_Tracking_Screenshot_Inbox.md",
+      "inbox": "货代入库贴下单表/_tracking_inbox/",
+      "script": "Scripts/14_tracking_screenshot_ingest.py",
+      "write_cell": "freight_xlsx_B15",
+      "never_write_customer_no": "111111111"
+    },
+    "c07_inherits_c04_pipeline": {
+      "confirmed_at": "2026-07-24",
+      "source": "Scripts/entity_brand_rules.json c07_inherits_c04_pipeline",
+      "note": "C07 reuses C04 field/param/weight/price/naming pipeline; only store+brand+FNSKU mapping differs; WH address per Amazon shipment may match or not"
+    },
+    "customs_c04_1039_for_all_stores": {
+      "confirmed_at": "2026-07-24",
+      "confirmed_by_user": true,
+      "doc": "Templates/03_Customs_Correspondence.md",
+      "source": "Scripts/entity_brand_rules.json entities.*.customs_1039",
+      "rule": "C04 and C07 shipments both use 波丽丝 table header + 畅选+波丽丝 filename; do not invent alternate patterns; declare currency USD no FX on forms"
+    },
+    "fx_rate_profit_only": {
+      "confirmed_at": "2026-07-24",
+      "rate": 6.8,
+      "applies_to": "profit_estimate_only",
+      "not_on": [
+        "customs_forms",
+        "freight_forms",
+        "outbound_forms"
+      ],
+      "note": "报关/货代等表金额为美金单价与美金总价，不做汇率换算"
+    },
+    "folder_simplify_policy": {
+      "confirmed_at": "2026-07-24",
+      "priority": [
+        "complete_task_first",
+        "then_concise"
+      ],
+      "do_not_force_converge_01_02_03": true,
+      "trim_only_unnecessary_nesting": true,
+      "example": "single destination should not have multi useless folder levels",
+      "future_option": "keep current tree as knowledge DB; optional new slim folders for user upload + needed outputs only",
+      "user_io_root": "User_IO",
+      "user_io_doc": "Templates/User_IO_Layout.md",
+      "black_box": [
+        "1_Input_Raw/Shipments",
+        "2_Processed_AI",
+        "Scripts"
+      ],
+      "scaffold_at": "2026-07-24",
+      "wire_export_pending": true
+    },
+    "channel_ab_roles": {
+      "confirmed_at": "2026-07-26",
+      "doc": "Templates/Channel_AB_Architecture.md",
+      "fundamental_db": "Scripts/settled_knowledge_db.json",
+      "runtime": "cloud_vercel_supabase",
+      "channel_A": {
+        "name": "User_IO_and_cloud_workspace",
+        "role": "per_job_workspace_upload_and_pickup",
+        "root": "User_IO",
+        "web": "/workspace",
+        "ops": "/ops",
+        "status": "cloud_primary"
+      },
+      "channel_B": {
+        "name": "Shipments_composition_spec",
+        "role": "design_reference_and_local_archive_only",
+        "roots": [
+          "1_Input_Raw/Shipments",
+          "2_Processed_AI",
+          "Scripts"
+        ],
+        "status": "not_for_ops_runtime",
+        "note": "2026-07-26: 不考虑用B作业；云端按B组成设计部署"
+      },
+      "rule": "Cloud mirrors B sections; settled is Gate authority; local B not ops path"
+    },
+    "c26080_gate_final": {
+      "confirmed_at": "2026-07-26",
+      "confirmed_by_user": true,
+      "project": "EF-C26080-C07-11590_C07_20260731_13590",
+      "gate_final": "CONFIRMED",
+      "note": "User confirmed 26080 Final"
+    },
+    "one_off_scripts_policy": {
+      "confirmed_at": "2026-07-24",
+      "rule": "keep if still needed for tasks; delete if not; review at simplify stage"
+    },
+    "long_task_report_gate": {
+      "confirmed_at": "2026-07-27",
+      "doc": "Templates/Long_Task_Report_Gate.md",
+      "rule_file": ".cursor/rules/long-task-report-gate.mdc",
+      "threshold_minutes": 2,
+      "behavior": "report_blocker_and_options_then_stop_for_user_decision",
+      "forbid": [
+        "silent_spin",
+        "blind_retry_same_failure_path"
+      ]
+    },
+    "flow_ui_alignment_2026_07_27": {
+      "confirmed_at": "2026-07-27",
+      "doc": "Templates/Cloud_Workspace_Pipeline.md",
+      "ui": "1B_workspace_stages_plus_ops_sidebar",
+      "no_front_back": true,
+      "ops_routes": [
+        "/ops/login",
+        "/ops/progress",
+        "/ops/archives",
+        "/ops/master-import",
+        "/ops/fba-track"
+      ],
+      "A_trio_same_wave": true,
+      "B_first_slot_ship_plan_auto_project": true,
+      "C_product_label_pack_vs_shipment_label_pack": true,
+      "D_ops_includes_H01_progress_fba": true,
+      "ui_front_input_output_only": true,
+      "wave_preflight_blocks_generate": true,
+      "carton_ocr": {
+        "confirmed_at": "2026-08-19",
+        "primary": "pdf_text_layer",
+        "backup": "tesseract.js",
+        "backup_when": "primary_fail_or_no_warehouse_and_shipment_id",
+        "do_not_uninstall": true,
+        "note": "OCR pause = carton labels do not run Tesseract by default; designed flow kept as backup. Cost-shot still tesseract-primary."
+      },
+      "multi_warehouse_recog_rows": "unlimited line-by-line",
+      "shipment_archive_index": {
+        "confirmed_at": "2026-07-27",
+        "doc": "Templates/Shipment_Archive_Index.md",
+        "route": "/ops/archives",
+        "group_by": "ship_date YYYY/MM/DD",
+        "leaf": "order_code + batch_label + carton_count (one row per ticket)",
+        "physical_folders": false,
+        "not_on_workspace_main_path": true
+      },
+      "storage_python_bridge_2026_07_27": {
+        "doc": "Templates/Storage_Python_Bridge.md",
+        "upload": "job-uploads + local cloud_job_blobs fallback",
+        "download": "/api/jobs/[id]/download",
+        "gen_order": "Scripts/19_cloud_job_step.py",
+        "gen_product_labels": "m1/label_copy.py read-only copy",
+        "gen_trio": "outbound_fill + 09 parameterized + materialize from carton_recognition",
+        "python_runner": "local|off|http",
+        "supabase_health": "supabase_ready_2026_07_27"
+      },
+      "order_code": {
+        "pattern": "EF-{CyyNNN}-{C0X}-{total_strips}",
+        "seq_file": "Scripts/order_code_seq.json",
+        "last_seen_short": "C26080",
+        "last_allocated_short": "C26080",
+        "next_short": "C26081",
+        "increments_per_calendar_year": true
+      },
+      "outbound_short": {
+        "authority": "Scripts/outbound_short_seq.json",
+        "C04_next": "C04-2618",
+        "C07_next": "C07-2609"
+      }
+    },
+    "user_io_layout": {
+      "confirmed_at": "2026-07-27",
+      "doc": "Templates/User_IO_Layout.md",
+      "root": "User_IO",
+      "per_project": {
+        "输入端": [
+          "发货计划",
+          "亚马逊外箱贴与追踪截图",
+          "货代入库贴"
+        ],
+        "输出端": [
+          "订单表",
+          "出货表",
+          "货代下单表",
+          "报关单证",
+          "产品标签包",
+          "发货贴标包"
+        ],
+        "汇总存档": "audit_archive_for_order_and_follow_on_shipments"
+      },
+      "outbound_xlsx_in_output": "confirmed_2026-07-26_in_输出端",
+      "note": "首槽=发货计划；订单号自动生成；云端 /workspace 四阶段"
+    },
+    "gate_cross_validate": {
+      "confirmed_at": "2026-07-24",
+      "priority_next": true,
+      "script": "Scripts/03_cross_validate.py",
+      "rule": ".cursor/rules/pre-output-cross-check.mdc",
+      "scope_now": [
+        "entity_brand_lock",
+        "c07_inherits",
+        "customs_bolisi_header_and_filename",
+        "protocol_unique",
+        "amount_reconcile_draft_if_present"
+      ],
+      "deferred_until_master_ingest": [
+        "fnsku_row_lock",
+        "packing_standards_row"
+      ],
+      "note": "空索引已删；行级 FNSKU/装箱对照等有总表入库后再扩"
+    },
+    "empty_indexes_removed": {
+      "at": "2026-07-24",
+      "removed": [
+        "products",
+        "packing_standards",
+        "fnsku_index",
+        "sku_index",
+        "sku_manual_notes"
+      ],
+      "reason": "user_confirm_delete_empty"
+    },
+    "settled_rules_inventory": {
+      "generated_at": "2026-07-24",
+      "doc": "Templates/Settled_Rules_Inventory.md",
+      "script": "Scripts/15_generate_settled_rules_inventory.py",
+      "json": "2_Processed_AI/drafts/settled_rules_inventory.json",
+      "note": "Auto tables for process/fields/gates; U1–U12 confirmed 2026-07-24 (see Settled_Rules_User_Decisions); next=folder/table simplify per folder_simplify_policy"
     }
   },
+  "packing_standards": [
+    {
+      "entity_code": "C07",
+      "brand": "Dressmaker",
+      "size": "60X102inch",
+      "color": "白",
+      "gram_weight": "90G",
+      "strips_per_pack": 10,
+      "packs_per_carton": 4,
+      "strips_per_carton": 40,
+      "fnsku": "X004SJV9UF",
+      "pack_method": "carton",
+      "inner_pack_lwh_cm": "25*19*28",
+      "carton_lwh_cm": "40*27*58",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "confirmed_at": "2026-08-14",
+      "confirmed_by": "user",
+      "source": "C26079_10pack_sample_applied_C26089",
+      "note": "跨店装箱可同；FNSKU 为本票 C07，不混用 C04"
+    },
+    {
+      "entity_code": "C07",
+      "brand": "Dressmaker",
+      "size": "60X102inch",
+      "color": "米白",
+      "gram_weight": "90G",
+      "strips_per_pack": 10,
+      "packs_per_carton": 4,
+      "strips_per_carton": 40,
+      "fnsku": "X00510W6CF",
+      "pack_method": "carton",
+      "inner_pack_lwh_cm": "25*19*28",
+      "carton_lwh_cm": "40*27*58",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "confirmed_at": "2026-08-14",
+      "confirmed_by": "user_gen_C26095",
+      "source": "C26068_and_C26039改_C07_10pack",
+      "note": "C07 FNSKU；箱规与 C04 10条装 102 米白可同"
+    },
+    {
+      "entity_code": "C07",
+      "brand": "Dressmaker",
+      "size": "70X120inch",
+      "color": "白",
+      "gram_weight": "90G",
+      "strips_per_pack": 10,
+      "packs_per_carton": 3,
+      "strips_per_carton": 30,
+      "fnsku": "X0053BQ5SD",
+      "pack_method": "carton",
+      "inner_pack_lwh_cm": "18*30*35.5",
+      "carton_lwh_cm": "57*32*37",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "confirmed_at": "2026-08-14",
+      "confirmed_by": "user",
+      "source": "C26039改_C07_plus_C26079_3pack",
+      "note": "2026-08-14 你确认 10条装 70X120 = 3包/箱；内箱 18*30*35.5、外箱 57*32*37（取代旧 40*20*24 / 41.5*25.5*62.5）"
+    },
+    {
+      "entity_code": "C07",
+      "brand": "Dressmaker",
+      "size": "70X120inch",
+      "color": "米白",
+      "gram_weight": "90G",
+      "strips_per_pack": 10,
+      "packs_per_carton": 3,
+      "strips_per_carton": 30,
+      "fnsku": "X0053BIIXN",
+      "pack_method": "carton",
+      "inner_pack_lwh_cm": "18*30*35.5",
+      "carton_lwh_cm": "57*32*37",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "confirmed_at": "2026-08-14",
+      "confirmed_by": "user",
+      "source": "C26039改_C07_plus_C26079_3pack",
+      "note": "2026-08-14 你确认 10条装 70X120 = 3包/箱；内箱 18*30*35.5、外箱 57*32*37（取代旧 40*20*24 / 41.5*25.5*62.5）"
+    },
+    {
+      "entity_code": "C07",
+      "brand": "Dressmaker",
+      "size": "90 inch round",
+      "color": "米白",
+      "gram_weight": "90G",
+      "strips_per_pack": 10,
+      "packs_per_carton": 4,
+      "strips_per_carton": 40,
+      "fnsku": "X0053BBGYL",
+      "pack_method": "carton",
+      "inner_pack_lwh_cm": "25*19*28",
+      "carton_lwh_cm": "40*27*58",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "confirmed_at": "2026-08-14",
+      "confirmed_by": "user_gen_C26095",
+      "source": "C26039改_C07_10pack_90round",
+      "note": "C07 FNSKU；箱规同 90圆 10条装箱"
+    },
+    {
+      "entity_code": "C04",
+      "brand": "WIGENIUS",
+      "size": "60X126inch",
+      "color": "白",
+      "gram_weight": "90G",
+      "strips_per_pack": 10,
+      "packs_per_carton": 3,
+      "strips_per_carton": 30,
+      "fnsku": "X005395XVF",
+      "pack_method": "carton",
+      "inner_pack_lwh_cm": "18*30*35.5",
+      "carton_lwh_cm": "57*32*37",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "confirmed_at": "2026-08-19",
+      "confirmed_by": "user",
+      "source": "user_confirm_same_size_same_spp_rule",
+      "note": "同尺寸同条数/包=同箱规；内盒18*30*35.5/外箱57*32*37（取代旧40*20*24/41.5*25.5*62.5）"
+    },
+    {
+      "entity_code": "C04",
+      "brand": "WIGENIUS",
+      "size": "60X126inch",
+      "color": "米白",
+      "gram_weight": "90G",
+      "strips_per_pack": 10,
+      "packs_per_carton": 3,
+      "strips_per_carton": 30,
+      "fnsku": "X0054KNSLF",
+      "pack_method": "carton",
+      "inner_pack_lwh_cm": "18*30*35.5",
+      "carton_lwh_cm": "57*32*37",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "confirmed_at": "2026-08-19",
+      "confirmed_by": "user",
+      "source": "user_confirm_same_size_same_spp_rule",
+      "note": "同尺寸同条数/包=同箱规；内盒18*30*35.5/外箱57*32*37（取代旧40*20*24/41.5*25.5*62.5）"
+    },
+    {
+      "entity_code": "C04",
+      "brand": "WIGENIUS",
+      "size": "70X120inch",
+      "color": "白",
+      "gram_weight": "90G",
+      "strips_per_pack": 10,
+      "packs_per_carton": 3,
+      "strips_per_carton": 30,
+      "fnsku": "X005395QNF",
+      "pack_method": "carton",
+      "inner_pack_lwh_cm": "18*30*35.5",
+      "carton_lwh_cm": "57*32*37",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "confirmed_at": "2026-08-19",
+      "confirmed_by": "user",
+      "source": "user_confirm_same_size_same_spp_rule",
+      "note": "同尺寸同条数/包=同箱规；内盒18*30*35.5/外箱57*32*37（取代旧40*20*24/41.5*25.5*62.5）"
+    },
+    {
+      "entity_code": "C04",
+      "brand": "WIGENIUS",
+      "size": "70X120inch",
+      "color": "米白",
+      "gram_weight": "90G",
+      "strips_per_pack": 10,
+      "packs_per_carton": 3,
+      "strips_per_carton": 30,
+      "fnsku": "X00539789F",
+      "pack_method": "carton",
+      "inner_pack_lwh_cm": "18*30*35.5",
+      "carton_lwh_cm": "57*32*37",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "confirmed_at": "2026-08-19",
+      "confirmed_by": "user",
+      "source": "user_confirm_same_size_same_spp_rule",
+      "note": "同尺寸同条数/包=同箱规；内盒18*30*35.5/外箱57*32*37（取代旧40*20*24/41.5*25.5*62.5）"
+    }
+  ],
   "master_table_imports": [],
   "cross_check_log": [],
   "_schema_notes": {
-    "products": "条目示例字段: sku_key, brand, entity_code, color, size, gram_weight, confirmed_order_date, source (document|master_table)",
-    "packing_standards": "条目示例字段: product_key, strips_per_carton, packs_per_carton, carton_size_cm, gross_kg, net_kg, volume_cbm, effective_order_date, confirmed_by_user, source",
-    "fnsku_index": "条目示例字段: fnsku, entity_code, brand, color, size, strips_per_pack, amazon_sku, amazon_store_key, source",
-    "sku_index": "条目示例字段: amazon_sku, entity_code, brand, color, size, strips_per_pack, fnsku, source, confirmed_at — 店铺+品牌内唯一",
-    "sku_manual_notes": "人工纠偏备注: date, order_code, split_leg, store, brand, sku, size, color, strips_per_pack, fnsku, why, source",
-    "master_table_imports": "每次吸收人工总表的文件名、确认时间、行数摘要",
-    "cross_check_log": "每次最终导出前对照结果摘要，含 pass/fail 与差异列表"
+    "entities.legal_name_zh": "仅内部备案归属；不影响订单页眉/报关抬头/品牌流程",
+    "master_table_imports": "若将来 H01 导入总表再启用；当前无空索引表",
+    "cross_check_log": "03_cross_validate 报告摘要可追加；当前写在 2_Processed_AI/cross_check_reports/",
+    "removed_empty_indexes_2026-07-24": "products/fnsku_index/sku_index/sku_manual_notes 空表已删；packing_standards 自 2026-08-14 起按你确认逐行回写"
   }
 }

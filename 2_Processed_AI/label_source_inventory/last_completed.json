@@ -1,5 +1,5 @@
 {
-  "taken_at": "2026-07-21T09:22:00+0800",
+  "taken_at": "2026-08-25T16:20:05+0800",
   "root": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\桌布标签",
   "total_files": 113,
   "by_ext": {
@@ -571,10 +571,6 @@
       "size": 48812,
       "ext": ".pdf"
     }
-  ],
-  "exclude_names": [
-    "Thumbs.db",
-    "desktop.ini"
   ],
   "fingerprint": "cb345ccb12bef4e58a026669f045430579a73de75d28d817fcc82acd3e035dbf"
 }

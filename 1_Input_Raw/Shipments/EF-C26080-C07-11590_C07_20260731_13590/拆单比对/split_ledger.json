@@ -1,0 +1,33 @@
+{
+  "order_code": "EF-C26080-C07-11590",
+  "linked_orders": ["EF-C26068-C07-2000"],
+  "split_order_stem": "C26080",
+  "plan_strips": 13590,
+  "plan_cartons": 350,
+  "batches": [
+    {
+      "batch_no": 1,
+      "split_leg_id": "C26080-A",
+      "ship_date": "2026.7.31",
+      "channel": "FC",
+      "warehouses": ["SCK8"],
+      "shipped_strips": 900,
+      "shipped_cartons": 30,
+      "included_order_codes": ["EF-C26080-C07-11590"]
+    },
+    {
+      "batch_no": 2,
+      "split_leg_id": "C26080-B",
+      "ship_date": "2026.7.31",
+      "channel": "FC",
+      "warehouses": ["TOL3", "MCC1", "FWA4", "RDU2", "PSP3"],
+      "shipped_strips": 12690,
+      "shipped_cartons": 320,
+      "included_order_codes": ["EF-C26080-C07-11590", "EF-C26068-C07-2000"],
+      "co_ship": "C26068"
+    }
+  ],
+  "remaining_strips": 0,
+  "remaining_cartons": 0,
+  "status": "split_complete"
+}

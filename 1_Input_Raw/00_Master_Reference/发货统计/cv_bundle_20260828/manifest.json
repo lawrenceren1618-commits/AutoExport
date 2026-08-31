@@ -1,0 +1,56 @@
+{
+  "bundle_id": "ship_stats_cv_20260828",
+  "created_at": "2026-08-28",
+  "purpose": "库存/财务系统 · 发货部分交叉验证数据源（只读）",
+  "root": "1_Input_Raw/00_Master_Reference/发货统计/cv_bundle_20260828",
+  "absolute_root": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\发货统计\\cv_bundle_20260828",
+  "primary_read_order": [
+    "cross_validation_guide.md",
+    "rows_flat.json",
+    "column_schema_v3.json",
+    "ship_stats_size_dims.json",
+    "known_gaps.json"
+  ],
+  "files": {
+    "data": {
+      "2026年发货记录.xls": "主表 Excel 快照（v3）",
+      "rows_flat.json": "319 行扁平原数据，CV 脚本首选"
+    },
+    "schema_rules": {
+      "column_schema_v3.json": "列序、批次键、数量公式",
+      "ship_stats_size_dims.json": "尺寸/颜色/头程公式（机器可读）",
+      "field_map.json": "字段规则锁定摘要",
+      "Ship_Stats_Freight_Allocation.md": "头程分摊规则（2026-08-28）",
+      "Ship_Stats_Correspondence.md": "发货统计总对应关系"
+    },
+    "quality": {
+      "known_gaps.json": "包/箱、物易通运费等待补字段"
+    },
+    "tooling": {
+      "ship_stats_freight_allocate.py": "头程分摊审计（只读报告）"
+    },
+    "index": {
+      "cross_validation_guide.md": "接入说明与提示词",
+      "manifest.json": "本文件"
+    }
+  },
+  "live_authoritative_sources_in_repo": {
+    "xls_inbox": "1_Input_Raw/00_Master_Reference/发货统计/_inbox/2026年发货记录.xls",
+    "size_dims": "Scripts/ship_stats_size_dims.json",
+    "freight_script": "Scripts/ship_stats_freight_allocate.py",
+    "packing_standards": "Scripts/settled_knowledge_db.json"
+  },
+  "cv_match_keys": [
+    "batch_ticket",
+    "strips_per_pack",
+    "size_short",
+    "gram_weight_g"
+  ],
+  "formulas": {
+    "packs_total": "cartons * packs_per_carton",
+    "strips_total": "packs_total * strips_per_pack",
+    "batch_freight_per_kg": "freight_rmb / sum(packs_total * pack_weight_kg)",
+    "pack_freight": "batch_freight_per_kg * pack_weight_kg",
+    "niuku_send_freight": 0
+  }
+}

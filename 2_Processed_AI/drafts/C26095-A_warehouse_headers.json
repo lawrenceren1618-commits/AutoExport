@@ -1,0 +1,16 @@
+{
+  "order_code": "EF-C26095-C07-7800",
+  "ship_date": "2026-09-04",
+  "split_leg_id": "C26095-A",
+  "channel": "FC",
+  "rows": [
+    {
+      "warehouse_code": "SCK8",
+      "fba_shipment_id": "FBA19MPKNZJ8",
+      "tracking_id": "2HJ2UCVI",
+      "cartons": 100,
+      "strips": 3000,
+      "store": "C07"
+    }
+  ]
+}

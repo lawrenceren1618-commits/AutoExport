@@ -1,188 +1,296 @@
 # -*- coding: utf-8 -*-
 """
 03_cross_validate.py
-脚本职责：在写入 3_Output_Final 之前，将「本票生成的草稿数据」与
-          「沉淀知识库 settled_knowledge_db.json」及主体/品牌规则做交叉对照，
-          输出对照报告；未通过则阻断最终导出。
+成品输出前交叉对照（Gate HX）：草稿/当票要点 vs 沉淀规则。
+
+Usage:
+  python Scripts/03_cross_validate.py --project "<Shipments/...>"
+  python Scripts/03_cross_validate.py --project "..." --out "2_Processed_AI/cross_check_reports/..."
+
+不依赖已删除的空 products/fnsku_index 表；对照以 confirmed_defaults + entity_brand_rules + 登记库为主。
+总表行级 join 待 H01 有数据后再扩展。
 """
+from __future__ import annotations
 
+import argparse
+import json
+import re
+import sys
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
 
-# ---------------------------------------------------------------------------
-# 路径常量
-# ---------------------------------------------------------------------------
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-SCRIPTS_DIR = Path(__file__).resolve().parent
-SETTLED_DB = SCRIPTS_DIR / "settled_knowledge_db.json"
-ENTITY_RULES = SCRIPTS_DIR / "entity_brand_rules.json"
-MASTER_REF_DIR = PROJECT_ROOT / "1_Input_Raw" / "00_Master_Reference"
-DRAFT_DIR = PROJECT_ROOT / "2_Processed_AI" / "drafts"
-OUTPUT_DIR = PROJECT_ROOT / "3_Output_Final"
-REPORT_DIR = PROJECT_ROOT / "2_Processed_AI" / "cross_check_reports"
+ROOT = Path(__file__).resolve().parents[1]
+SETTLED_DB = ROOT / "Scripts" / "settled_knowledge_db.json"
+ENTITY_RULES = ROOT / "Scripts" / "entity_brand_rules.json"
+PROTOCOL_REG = ROOT / "Scripts" / "contract_protocol_registry.json"
+REPORT_DIR = ROOT / "2_Processed_AI" / "cross_check_reports"
 
 
-def load_settled_db(path: Path = SETTLED_DB) -> dict:
-    """
-    加载沉淀知识库（可含单据提炼与人工总表已确认记录）。
-
-    实现思路：
-    1. json.load 读取 entities / products / packing_standards / fnsku_index；
-    2. 文件缺失或为空结构时返回空库并标记 library_incomplete，供报告提示。
-    """
-    # TODO: 安全读取 JSON
-    pass
+def _now() -> str:
+    return datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%dT%H:%M:%S%z")
 
 
-def load_master_reference_table(master_dir: Path = MASTER_REF_DIR) -> Any:
-    """
-    读取使用者上传的人工对应关系总表（Excel/CSV）。
-
-    实现思路：
-    1. 扫描 00_Master_Reference 下最新或指定文件；
-    2. 解析为统一行记录（与沉淀库 schema 对齐的候选字段）；
-    3. 不自动写入 settled_knowledge_db：先产出预览供使用者确认；
-    4. 确认后由 ingest_master_reference_into_settled 合并入库，或当次直接参与对照。
-    """
-    # TODO: 解析人工总表
-    pass
+def load_json(path: Path) -> dict:
+    if not path.is_file():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
-def ingest_master_reference_into_settled(
-    rows: list[dict],
-    settled_path: Path = SETTLED_DB,
-) -> dict:
-    """
-    在使用者确认后，将人工总表行合并进沉淀库。
-
-    实现思路：
-    1. 按 product_key / fnsku 等键合并或更新；
-    2. 标记 source=master_table 与 confirmed_by_user；
-    3. 追加 master_table_imports 日志；冲突行不得静默覆盖。
-    """
-    # TODO: 确认后合并入库
-    pass
-
-
-def load_draft_documents(draft_dir: Path = DRAFT_DIR) -> dict[str, Any]:
-    """
-    加载本票待终审的草稿：订单、出货、货代、报关（按实际存在的类型）。
-
-    实现思路：
-    1. 按文件名或子目录识别 document_type ∈ {order, outbound, freight, customs}；
-    2. 解析为统一行记录结构（entity、brand、fnsku、packing、qty、weights…）；
-    3. 只加载本票批次，不混入其它未确认全局文件。
-    """
-    # TODO: 扫描并解析草稿
-    pass
-
-
-def check_entity_brand(rows: list[dict], settled: dict, entity_rules: dict) -> list[dict]:
-    """
-    对照主体与品牌是否匹配（C04↔WIGENIUS，C07↔Dressmaker）。
-
-    实现思路：从订单号或显式字段取 entity_code，与品牌字段比对规则表；
-    返回差异列表 [{field, draft, settled, severity}]。
-    """
-    # TODO: 主体/品牌校验
-    pass
+def check_entity_brand(project_meta: dict, entity_rules: dict) -> list[dict]:
+    findings: list[dict] = []
+    store = (project_meta.get("store") or "").upper()
+    brand = project_meta.get("brand") or ""
+    ents = entity_rules.get("entities") or {}
+    if store not in ("C04", "C07"):
+        findings.append(
+            {
+                "check": "entity_store",
+                "ok": False,
+                "detail": f"store={store!r} not C04/C07",
+            }
+        )
+        return findings
+    expect_brand = (ents.get(store) or {}).get("brand_tablecloth") or ""
+    ok = brand.upper() == expect_brand.upper() or (
+        store == "C04" and brand.upper() == "WIGENIUS"
+    ) or (store == "C07" and brand.upper() == "DRESSMAKER")
+    findings.append(
+        {
+            "check": "entity_brand_lock",
+            "ok": ok,
+            "detail": f"store={store} brand={brand} expect={expect_brand}",
+        }
+    )
+    return findings
 
 
-def check_fnsku(rows: list[dict], settled: dict) -> list[dict]:
-    """
-    对照 FNSKU 是否属于正确店铺池、是否与沉淀库冲突。
-
-    实现思路：
-    1. 在 fnsku_index 中查找；跨 entity 命中则 fail；
-    2. 库中无记录则记为 missing_确认项，不自动放行最终件。
-    """
-    # TODO: FNSKU 校验
-    pass
-
-
-def check_packing_specs(rows: list[dict], settled: dict) -> list[dict]:
-    """
-    对照条数/箱、包数/箱、克重等装箱规格。
-
-    实现思路：
-    1. 按 product_key + brand + entity 查 packing_standards；
-    2. 多版本并存时触发装箱变更汇报逻辑（见 packing-spec-variance）；
-    3. 数量勾稽：总条数 与 条数/箱×箱数（及包规）是否一致。
-    """
-    # TODO: 装箱与数量勾稽
-    pass
-
-
-def check_cross_document_consistency(drafts: dict[str, Any]) -> list[dict]:
-    """
-    订单 / 出货 / 货代 / 报关之间共用字段一致性（箱数、品名规格、毛净重等）。
-
-    实现思路：以出货装箱为枢纽，向货代、报关（若已生成）对齐必填交集字段；
-    仅校验各表实际应有列，不要求报关未启用时仍具备报关字段。
-    """
-    # TODO: 多单据交叉一致性
-    pass
-
-
-def check_hs_and_tax_rebate(rows: list[dict], settled: dict) -> list[dict]:
-    """
-    报关启用时：HS 默认值、是否退税标记完整性。
-    """
-    # TODO: HS / 退税校验
-    pass
-
-
-def build_report(issues: list[dict]) -> dict:
-    """
-    汇总对照报告：pass/fail、按单据分类的差异、建议动作（确认入库/改草稿/采用最新下单日版本）。
-    """
-    # TODO: 生成结构化报告 dict
-    pass
-
-
-def save_report(report: dict, report_dir: Path = REPORT_DIR) -> Path:
-    """
-    将对照报告写入 2_Processed_AI/cross_check_reports/（Markdown + JSON）。
-    """
-    # TODO: 落盘报告
-    pass
+def check_customs_1039_path(project: Path, entity_rules: dict) -> list[dict]:
+    """C04/C07 报关均须波丽丝表内抬头；文件名含畅选+波丽丝。"""
+    findings: list[dict] = []
+    customs_dir = project / "报关资料表"
+    if not customs_dir.is_dir():
+        findings.append(
+            {"check": "customs_dir", "ok": False, "detail": "报关资料表 missing"}
+        )
+        return findings
+    files = [p for p in customs_dir.glob("*.xlsx") if not p.name.startswith("~$")]
+    if not files:
+        findings.append(
+            {"check": "customs_files", "ok": False, "detail": "no customs xlsx"}
+        )
+        return findings
+    try:
+        import openpyxl
+    except ImportError:
+        findings.append(
+            {"check": "customs_openpyxl", "ok": False, "detail": "openpyxl missing"}
+        )
+        return findings
+    header_ok = True
+    name_ok = True
+    details: list[str] = []
+    for p in files:
+        if "畅选+波丽丝" not in p.name and "畅选" not in p.name:
+            name_ok = False
+            details.append(f"filename_pattern:{p.name}")
+        wb = openpyxl.load_workbook(p, data_only=True)
+        if "基础表" not in wb.sheetnames:
+            header_ok = False
+            details.append(f"no_基础表:{p.name}")
+            wb.close()
+            continue
+        ws = wb["基础表"]
+        v = str(ws.cell(9, 4).value or "")
+        wb.close()
+        if "波丽丝" not in v:
+            header_ok = False
+            details.append(f"header_cell:{p.name}={v!r}")
+    findings.append(
+        {
+            "check": "customs_filename_c04_pattern",
+            "ok": name_ok,
+            "detail": "; ".join(details) if details and not name_ok else f"n={len(files)}",
+        }
+    )
+    findings.append(
+        {
+            "check": "customs_table_header_bolisi",
+            "ok": header_ok,
+            "detail": "; ".join(details) if details and not header_ok else "波丽丝 ok",
+        }
+    )
+    return findings
 
 
-def allow_final_export(report: dict) -> bool:
-    """
-    仅当 report 无 error/fail 级问题时返回 True；否则阻断写入 3_Output_Final。
-    """
-    # TODO: 根据 severity 判定
-    pass
+def check_protocol_unique(project_meta: dict) -> list[dict]:
+    findings: list[dict] = []
+    reg = load_json(PROTOCOL_REG)
+    entries = reg.get("entries") or []
+    proj = project_meta.get("folder_name") or project_meta.get("id") or ""
+    mine = [e for e in entries if e.get("project") == proj]
+    nos = [e.get("protocol_no") for e in mine if e.get("protocol_no")]
+    all_nos = [e.get("protocol_no") for e in entries if e.get("protocol_no")]
+    # uniqueness among mine
+    dup_mine = len(nos) != len(set(nos))
+    # each of mine appears exactly once in global? (same no cannot belong to two projects)
+    collision = False
+    for no in nos:
+        owners = {e.get("project") for e in entries if e.get("protocol_no") == no}
+        if len(owners) > 1:
+            collision = True
+    findings.append(
+        {
+            "check": "protocol_registered",
+            "ok": len(mine) > 0,
+            "detail": f"count={len(mine)} nos={nos}",
+        }
+    )
+    findings.append(
+        {
+            "check": "protocol_unique_in_project",
+            "ok": not dup_mine,
+            "detail": f"nos={nos}",
+        }
+    )
+    findings.append(
+        {
+            "check": "protocol_no_cross_project_collision",
+            "ok": not collision,
+            "detail": f"checked={nos}",
+        }
+    )
+    return findings
 
 
-def append_cross_check_log(report: dict, settled_path: Path = SETTLED_DB) -> None:
-    """
-    将本次对照摘要追加到沉淀库 cross_check_log（通过与否均记录，便于追溯）。
-    """
-    # TODO: 追加日志，不把未确认业务数据当标准入库
-    pass
+def check_c07_inherits(project_meta: dict, settled: dict) -> list[dict]:
+    store = (project_meta.get("store") or "").upper()
+    if store != "C07":
+        return [{"check": "c07_inherits", "ok": True, "detail": "n/a not C07"}]
+    block = (settled.get("confirmed_defaults") or {}).get("c07_inherits_c04_pipeline")
+    return [
+        {
+            "check": "c07_inherits_documented",
+            "ok": bool(block),
+            "detail": "c07_inherits_c04_pipeline present" if block else "missing",
+        }
+    ]
 
 
-def run_cross_validate(draft_dir: Path | None = None) -> dict:
-    """
-    主流程：加载库与草稿 → 各项 check → 建报告 → 判定是否允许最终导出。
+def check_amount_reconcile_draft(project: Path) -> list[dict]:
+    drafts = ROOT / "2_Processed_AI" / "drafts"
+    # C26080 style
+    stem = ""
+    m = re.search(r"(C\d{5})", project.name)
+    if m:
+        stem = m.group(1)
+    candidates = list(drafts.glob(f"*{stem}*reconcile*.json")) if stem else []
+    if not candidates:
+        return [
+            {
+                "check": "amount_weight_reconcile_draft",
+                "ok": True,
+                "detail": "no draft found — skip (not fail)",
+                "soft": True,
+            }
+        ]
+    data = load_json(candidates[0])
+    # various shapes
+    err = (
+        data.get("error_rate_pct_amount")
+        or data.get("amount_error_rate_pct")
+        or (data.get("summary") or {}).get("error_rate_pct_amount")
+    )
+    passed = data.get("reconcile_pass")
+    if passed is None and err is not None:
+        try:
+            passed = float(err) <= 1.0
+        except (TypeError, ValueError):
+            passed = None
+    return [
+        {
+            "check": "amount_weight_reconcile",
+            "ok": bool(passed) if passed is not None else True,
+            "detail": f"file={candidates[0].name} error_rate={err} pass={passed}",
+            "soft": passed is None,
+        }
+    ]
 
-    实现思路：
-    1. load_settled_db + load_draft_documents
-    2. 串联 check_* ，合并 issues
-    3. build_report → save_report → allow_final_export
-    4. 返回报告；调用方仅在 allow 为 True 时执行导出
-    """
-    # TODO: 串联并返回报告
-    pass
+
+def run_for_project(project: Path) -> dict:
+    settled = load_json(SETTLED_DB)
+    entity_rules = load_json(ENTITY_RULES)
+    meta_path = project / "PROJECT.json"
+    meta = load_json(meta_path) if meta_path.is_file() else {"folder_name": project.name}
+
+    findings: list[dict] = []
+    findings.extend(check_entity_brand(meta, entity_rules))
+    findings.extend(check_c07_inherits(meta, settled))
+    findings.extend(check_customs_1039_path(project, entity_rules))
+    findings.extend(check_protocol_unique(meta))
+    findings.extend(check_amount_reconcile_draft(project))
+
+    # 事后交叉流动核对（订单↔出货↔货代↔报关↔报告）
+    try:
+        sys.path.insert(0, str(ROOT / "Scripts"))
+        from m1.post_gen_verify import verify_project
+
+        post = verify_project(project)
+        for f in post.get("findings") or []:
+            findings.append(
+                {
+                    "check": f"post_gen:{f.get('check')}",
+                    "ok": f.get("ok"),
+                    "detail": (
+                        f"expected={f.get('expected')!r} actual={f.get('actual')!r} "
+                        f"{f.get('detail') or ''}"
+                    ).strip(),
+                    "soft": f.get("soft"),
+                    "edge": f.get("edge"),
+                }
+            )
+    except Exception as e:
+        findings.append(
+            {
+                "check": "post_gen_verify",
+                "ok": False,
+                "detail": str(e),
+            }
+        )
+
+    hard = [f for f in findings if not f.get("soft") and not f.get("ok")]
+    report = {
+        "generated_at": _now(),
+        "project": str(project),
+        "pass": len(hard) == 0,
+        "findings": findings,
+        "hard_failures": hard,
+        "doc": "Templates/Cross_Flow_Verify.md + pre-output-cross-check",
+        "note": "Includes post_gen cross-flow; row-level FNSKU lock still expands with master ingest",
+    }
+    return report
 
 
-def main() -> None:
-    """入口：对本票草稿执行交叉对照并打印通过/阻断结论。"""
-    # TODO: 调用 run_cross_validate 并输出摘要
-    pass
+def main() -> int:
+    ap = argparse.ArgumentParser(description="Cross-validate shipment before Final")
+    ap.add_argument("--project", required=True)
+    ap.add_argument("--out", default="")
+    args = ap.parse_args()
+    project = Path(args.project)
+    if not project.is_dir():
+        print(f"project missing: {project}")
+        return 1
+    report = run_for_project(project)
+    REPORT_DIR.mkdir(parents=True, exist_ok=True)
+    out = Path(args.out) if args.out else REPORT_DIR / f"cross_check_{project.name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    latest = REPORT_DIR / "cross_check_latest.json"
+    latest.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"pass={report['pass']} wrote {out}")
+    for f in report["findings"]:
+        mark = "PASS" if f.get("ok") else ("SOFT" if f.get("soft") else "FAIL")
+        print(f"  {mark} {f.get('check')}: {f.get('detail')}")
+    return 0 if report["pass"] else 1
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

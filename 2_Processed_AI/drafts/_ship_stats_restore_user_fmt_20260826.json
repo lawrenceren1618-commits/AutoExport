@@ -1,0 +1,25 @@
+{
+  "saved": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\发货统计\\_inbox\\2026年发货记录.xls",
+  "base": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\发货统计\\_inbox\\_bak_before_jul_aug_20260826.xls",
+  "style": "user_june: channel empty, forwarder in freight col, size like 60*102 白",
+  "historical": "unchanged (no size rewrite)",
+  "sums": {
+    "C26079": [
+      945,
+      945
+    ],
+    "C26080": [
+      350,
+      350
+    ],
+    "C26089-A": [
+      500,
+      500
+    ],
+    "C26089-B": [
+      500,
+      500
+    ]
+  },
+  "end_row": 353
+}

@@ -1,0 +1,32 @@
+---
+description: 每轮作业结束必须结论四行；长任务先报耗时；禁止只探索不收尾
+alwaysApply: true
+---
+
+# 回合收尾（AutoExport 做单）
+
+## 每轮结束必须输出（缺一不可）
+
+1. **已完成** — 具体路径或阶段 ID（见 `shipment-pipeline-order.mdc`）
+2. **未完成** — 缺什么 / 等谁上传
+3. **下一步** — 一条动作（命令或「等你放 inbox」）
+4. **状态词** — `进行中` | `P-FREIGHT 已完成停等` | `Gate CONFIRMED` | `Final 已出`
+
+禁止：只有 `Explored N files` / `Thought` 而无上述四行。
+
+## 长任务（>30s）
+
+先写：`正在跑 <脚本名>，约 N 分钟，完成后本回合汇报。`  
+例：`12_freight_inbound_label_ingest` 300 页常 1～2 分钟。
+
+## 列项目文件
+
+```bash
+python -c "import os; root='.../Shipments/{项目}'; ..."
+```
+
+不用 Glob 判 `Shipments` 下 PDF 是否存在。
+
+## Gate 脚本
+
+`03_cross_validate.py` 可能因控制台 Unicode 打印 exit≠0；以 `2_Processed_AI/cross_check_reports/cross_check_*.json` 内 `pass` 为准。

@@ -10,11 +10,19 @@
 2. 助手解析后列出拟入库字段，由你确认可采范围。
 3. 确认后写入 / 合并进 `Scripts/settled_knowledge_db.json`，供交叉对照使用。
 
+## 子目录
+
+| 子目录 | 用途 |
+|--------|------|
+| `桌布标签/` | 产品标签源（只读复制；见 label-source-gate） |
+| `发货统计/_inbox/` | **发货批次/票次统计表**上传区（对齐云端 `/ops/archives`；字段由你定义） |
+
 ## 与三分单据模板的关系
 
 | 来源 | 目录 |
 |------|------|
 | 人工总表（推荐优先作对照基准时可注明） | `1_Input_Raw/00_Master_Reference/` |
+| 发货统计工具表 | `00_Master_Reference/发货统计/_inbox/` |
 | 订单/出货样例 | `01_Order_Outbound/` |
 | 货代下单样例 | `02_Freight_Forwarder/` |
 | 报关样例 | `03_Customs/` |

@@ -1,0 +1,3520 @@
+{
+  "output_root": "D:\\.cursor\\Cursor-projects\\AutoExport\\3_Output_Final\\EF-C26079-C04-36460  桌布-2026.7.10",
+  "ship_root": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10",
+  "output_tree": {
+    ".": [
+      "C26079_2026.7.31_微信发送.zip",
+      "_pack_manifest.json"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包": [],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1": [],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\入库贴": [
+      "FC_AVP1_入库贴_175箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴": [],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 60X126inches 2pack-4箱": [
+      "白色 60X126inches 2pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 60×102inches 10packs-9箱": [
+      "白色 60×102inches 10packs-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 60×126inches 6packs-11箱": [
+      "白色 60×126inches 6packs-11箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 70X120inches 10pack-12箱": [
+      "白色 70X120inches 10pack-12箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 90inches Round 10pack-11箱": [
+      "白色 90inches Round 10pack-11箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 90inches Round 2pack-5箱": [
+      "白色 90inches Round 2pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 90inches Round 6pack-19箱": [
+      "白色 90inches Round 6pack-19箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 60X102inches 10pack-19箱": [
+      "米白色 60X102inches 10pack-19箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 60X126inches 10pack-9箱": [
+      "米白色 60X126inches 10pack-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 60X126inches 6pack-6箱": [
+      "米白色 60X126inches 6pack-6箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 70X120inches 10pack-10箱": [
+      "米白色 70X120inches 10pack-10箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 90inches Round 6pack-12箱": [
+      "米白色 90inches Round 6pack-12箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\蓝色 60X102inches 10pack-8箱": [
+      "蓝色 60X102inches 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2": [],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\入库贴": [
+      "FC_CLT2_入库贴_128箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴": [],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 60X126inches 2pack-1箱": [
+      "白色 60X126inches 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 60×102inches 10packs-8箱": [
+      "白色 60×102inches 10packs-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 60×126inches 6packs-7箱": [
+      "白色 60×126inches 6packs-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 70X120inches 10pack-6箱": [
+      "白色 70X120inches 10pack-6箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 90inches Round 10pack-7箱": [
+      "白色 90inches Round 10pack-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 90inches Round 2pack-4箱": [
+      "白色 90inches Round 2pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 90inches Round 6pack-13箱": [
+      "白色 90inches Round 6pack-13箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 60X102inches 10pack-14箱": [
+      "米白色 60X102inches 10pack-14箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 60X102inches 6pack-19箱": [
+      "米白色 60X102inches 6pack-19箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 60X126inches 10pack-8箱": [
+      "米白色 60X126inches 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 60X126inches 6pack-4箱": [
+      "米白色 60X126inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 70X120inches 10pack-8箱": [
+      "米白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 90inches Round 6pack-8箱": [
+      "米白色 90inches Round 6pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\黑色 90inches Round 10pack-3箱": [
+      "黑色 90inches Round 10pack-3箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2": [],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\入库贴": [
+      "FC_GYR2_入库贴_139箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴": [],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 60X126inches 2pack-1箱": [
+      "白色 60X126inches 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 60×102inches 10packs-9箱": [
+      "白色 60×102inches 10packs-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 60×126inches 6packs-7箱": [
+      "白色 60×126inches 6packs-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 70X120inches 10pack-8箱": [
+      "白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 90inches Round 10pack-5箱": [
+      "白色 90inches Round 10pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 90inches Round 2pack-3箱": [
+      "白色 90inches Round 2pack-3箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 90inches Round 6pack-12箱": [
+      "白色 90inches Round 6pack-12箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 60X102inches 10pack-18箱": [
+      "米白色 60X102inches 10pack-18箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 60X126inches 10pack-7箱": [
+      "米白色 60X126inches 10pack-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 60X126inches 6pack-5箱": [
+      "米白色 60X126inches 6pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 70X120inches 10pack-9箱": [
+      "米白色 70X120inches 10pack-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 90inches Round 6pack-9箱": [
+      "米白色 90inches Round 6pack-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\黑色 90inches Round 10pack-5箱": [
+      "黑色 90inches Round 10pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8": [],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\入库贴": [
+      "FC_LGB8_入库贴_182箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴": [],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 60X126inches 2pack-2箱": [
+      "白色 60X126inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 60×102inches 10packs-12箱": [
+      "白色 60×102inches 10packs-12箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 60×126inches 6packs-10箱": [
+      "白色 60×126inches 6packs-10箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 70X120inches 10pack-10箱": [
+      "白色 70X120inches 10pack-10箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 90inches Round 10pack-9箱": [
+      "白色 90inches Round 10pack-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 90inches Round 2pack-3箱": [
+      "白色 90inches Round 2pack-3箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 90inches Round 6pack-15箱": [
+      "白色 90inches Round 6pack-15箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 60X102inches 10pack-30箱": [
+      "米白色 60X102inches 10pack-30箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 60X102inches 6pack-32箱": [
+      "米白色 60X102inches 6pack-32箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 60X126inches 10pack-7箱": [
+      "米白色 60X126inches 10pack-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 60X126inches 6pack-5箱": [
+      "米白色 60X126inches 6pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 70X120inches 10pack-15箱": [
+      "米白色 70X120inches 10pack-15箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 90inches Round 6pack-10箱": [
+      "米白色 90inches Round 6pack-10箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2": [],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\入库贴": [
+      "FC_MDW2_入库贴_181箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴": [],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 60X126inches 2pack-2箱": [
+      "白色 60X126inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 60×102inches 10packs-12箱": [
+      "白色 60×102inches 10packs-12箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 60×126inches 6packs-15箱": [
+      "白色 60×126inches 6packs-15箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 70X120inches 10pack-14箱": [
+      "白色 70X120inches 10pack-14箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 90inches Round 10pack-8箱": [
+      "白色 90inches Round 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 90inches Round 2pack-5箱": [
+      "白色 90inches Round 2pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 90inches Round 6pack-21箱": [
+      "白色 90inches Round 6pack-21箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 60X102inches 10pack-19箱": [
+      "米白色 60X102inches 10pack-19箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 60X126inches 10pack-9箱": [
+      "米白色 60X126inches 10pack-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 60X126inches 6pack-10箱": [
+      "米白色 60X126inches 6pack-10箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 70X120inches 10pack-8箱": [
+      "米白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 90inches Round 6pack-11箱": [
+      "米白色 90inches Round 6pack-11箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\蓝色 60X102inches 10pack-7箱": [
+      "蓝色 60X102inches 10pack-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "C26079-B_4200_2026.7.31_贴标包": [],
+    "C26079-B_4200_2026.7.31_贴标包\\入库贴_IUTE": [
+      "AWD_IUTE_入库贴_140箱.pdf"
+    ],
+    "C26079-B_4200_2026.7.31_贴标包\\外箱贴_IUTE": [],
+    "C26079-B_4200_2026.7.31_贴标包\\外箱贴_IUTE\\白_60X126inch_10条装": [
+      "AWD_IUTE_白_60X126inch_10条装_50箱.pdf"
+    ],
+    "C26079-B_4200_2026.7.31_贴标包\\外箱贴_IUTE\\白_70X120inch_6条装": [
+      "AWD_IUTE_白_70X120inch_6条装_50箱.pdf"
+    ],
+    "C26079-B_4200_2026.7.31_贴标包\\外箱贴_IUTE\\米白_70X120inch_6条装": [
+      "AWD_IUTE_米白_70X120inch_6条装_40箱.pdf"
+    ],
+    "完整存档": [],
+    "完整存档\\C26079-A_FC": [],
+    "完整存档\\C26079-A_FC\\外箱贴": [],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1": [
+      "FC_AVP1_入库贴_175箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 60X126inches 2pack-4箱": [
+      "白色 60X126inches 2pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 60×102inches 10packs-9箱": [
+      "白色 60×102inches 10packs-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 60×126inches 6packs-11箱": [
+      "白色 60×126inches 6packs-11箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 70X120inches 10pack-12箱": [
+      "白色 70X120inches 10pack-12箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 90inches Round 10pack-11箱": [
+      "白色 90inches Round 10pack-11箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 90inches Round 2pack-5箱": [
+      "白色 90inches Round 2pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 90inches Round 6pack-19箱": [
+      "白色 90inches Round 6pack-19箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 60X102inches 10pack-19箱": [
+      "米白色 60X102inches 10pack-19箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 60X126inches 10pack-9箱": [
+      "米白色 60X126inches 10pack-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 60X126inches 6pack-6箱": [
+      "米白色 60X126inches 6pack-6箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 70X120inches 10pack-10箱": [
+      "米白色 70X120inches 10pack-10箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 90inches Round 6pack-12箱": [
+      "米白色 90inches Round 6pack-12箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\蓝色 60X102inches 10pack-8箱": [
+      "蓝色 60X102inches 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2": [
+      "FC_CLT2_入库贴_128箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 60X126inches 2pack-1箱": [
+      "白色 60X126inches 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 60×102inches 10packs-8箱": [
+      "白色 60×102inches 10packs-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 60×126inches 6packs-7箱": [
+      "白色 60×126inches 6packs-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 70X120inches 10pack-6箱": [
+      "白色 70X120inches 10pack-6箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 90inches Round 10pack-7箱": [
+      "白色 90inches Round 10pack-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 90inches Round 2pack-4箱": [
+      "白色 90inches Round 2pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 90inches Round 6pack-13箱": [
+      "白色 90inches Round 6pack-13箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 60X102inches 10pack-14箱": [
+      "米白色 60X102inches 10pack-14箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 60X102inches 6pack-19箱": [
+      "米白色 60X102inches 6pack-19箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 60X126inches 10pack-8箱": [
+      "米白色 60X126inches 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 60X126inches 6pack-4箱": [
+      "米白色 60X126inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 70X120inches 10pack-8箱": [
+      "米白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 90inches Round 6pack-8箱": [
+      "米白色 90inches Round 6pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\黑色 90inches Round 10pack-3箱": [
+      "黑色 90inches Round 10pack-3箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2": [
+      "FC_GYR2_入库贴_139箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 60X126inches 2pack-1箱": [
+      "白色 60X126inches 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 60×102inches 10packs-9箱": [
+      "白色 60×102inches 10packs-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 60×126inches 6packs-7箱": [
+      "白色 60×126inches 6packs-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 70X120inches 10pack-8箱": [
+      "白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 90inches Round 10pack-5箱": [
+      "白色 90inches Round 10pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 90inches Round 2pack-3箱": [
+      "白色 90inches Round 2pack-3箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 90inches Round 6pack-12箱": [
+      "白色 90inches Round 6pack-12箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 60X102inches 10pack-18箱": [
+      "米白色 60X102inches 10pack-18箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 60X126inches 10pack-7箱": [
+      "米白色 60X126inches 10pack-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 60X126inches 6pack-5箱": [
+      "米白色 60X126inches 6pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 70X120inches 10pack-9箱": [
+      "米白色 70X120inches 10pack-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 90inches Round 6pack-9箱": [
+      "米白色 90inches Round 6pack-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\黑色 90inches Round 10pack-5箱": [
+      "黑色 90inches Round 10pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8": [
+      "FC_LGB8_入库贴_182箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 60X126inches 2pack-2箱": [
+      "白色 60X126inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 60×102inches 10packs-12箱": [
+      "白色 60×102inches 10packs-12箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 60×126inches 6packs-10箱": [
+      "白色 60×126inches 6packs-10箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 70X120inches 10pack-10箱": [
+      "白色 70X120inches 10pack-10箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 90inches Round 10pack-9箱": [
+      "白色 90inches Round 10pack-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 90inches Round 2pack-3箱": [
+      "白色 90inches Round 2pack-3箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 90inches Round 6pack-15箱": [
+      "白色 90inches Round 6pack-15箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 60X102inches 10pack-30箱": [
+      "米白色 60X102inches 10pack-30箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 60X102inches 6pack-32箱": [
+      "米白色 60X102inches 6pack-32箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 60X126inches 10pack-7箱": [
+      "米白色 60X126inches 10pack-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 60X126inches 6pack-5箱": [
+      "米白色 60X126inches 6pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 70X120inches 10pack-15箱": [
+      "米白色 70X120inches 10pack-15箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 90inches Round 6pack-10箱": [
+      "米白色 90inches Round 6pack-10箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2": [
+      "FC_MDW2_入库贴_181箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 60X126inches 2pack-2箱": [
+      "白色 60X126inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 60×102inches 10packs-12箱": [
+      "白色 60×102inches 10packs-12箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 60×126inches 6packs-15箱": [
+      "白色 60×126inches 6packs-15箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 70X120inches 10pack-14箱": [
+      "白色 70X120inches 10pack-14箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 90inches Round 10pack-8箱": [
+      "白色 90inches Round 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 90inches Round 2pack-5箱": [
+      "白色 90inches Round 2pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 90inches Round 6pack-21箱": [
+      "白色 90inches Round 6pack-21箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 60X102inches 10pack-19箱": [
+      "米白色 60X102inches 10pack-19箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 60X126inches 10pack-9箱": [
+      "米白色 60X126inches 10pack-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 60X126inches 6pack-10箱": [
+      "米白色 60X126inches 6pack-10箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 70X120inches 10pack-8箱": [
+      "米白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 90inches Round 6pack-11箱": [
+      "米白色 90inches Round 6pack-11箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\蓝色 60X102inches 10pack-7箱": [
+      "蓝色 60X102inches 10pack-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\报关资料表": [
+      "畅选+波丽丝 2026.7.31发货 C26079-A AVP1 175箱 市场采购数据.xlsx",
+      "畅选+波丽丝 2026.7.31发货 C26079-A CLT2 128箱 市场采购数据.xlsx",
+      "畅选+波丽丝 2026.7.31发货 C26079-A GYR2 139箱 市场采购数据.xlsx",
+      "畅选+波丽丝 2026.7.31发货 C26079-A LGB8 182箱 市场采购数据.xlsx",
+      "畅选+波丽丝 2026.7.31发货 C26079-A MDW2 181箱 市场采购数据.xlsx"
+    ],
+    "完整存档\\C26079-A_FC\\货代入库贴": [],
+    "完整存档\\C26079-A_FC\\货代入库贴\\AVP1": [
+      "FC_AVP1_入库贴_175箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\货代入库贴\\CLT2": [
+      "FC_CLT2_入库贴_128箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\货代入库贴\\GYR2": [
+      "FC_GYR2_入库贴_139箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\货代入库贴\\LGB8": [
+      "FC_LGB8_入库贴_182箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\货代入库贴\\MDW2": [
+      "FC_MDW2_入库贴_181箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\货代入库贴下单表": [
+      "货代下单表_C26079-A 2026.7.31桌布 AVP1 175箱.xlsx",
+      "货代下单表_C26079-A 2026.7.31桌布 CLT2 128箱.xlsx",
+      "货代下单表_C26079-A 2026.7.31桌布 GYR2 139箱.xlsx",
+      "货代下单表_C26079-A 2026.7.31桌布 LGB8 182箱.xlsx",
+      "货代下单表_C26079-A 2026.7.31桌布 MDW2 181箱.xlsx"
+    ],
+    "完整存档\\C26079-B_AWD": [],
+    "完整存档\\C26079-B_AWD\\外箱贴": [],
+    "完整存档\\C26079-B_AWD\\外箱贴\\IUTE": [
+      "AWD_IUTE_入库贴_140箱.pdf"
+    ],
+    "完整存档\\C26079-B_AWD\\外箱贴\\IUTE\\白_60X126inch_10条装": [
+      "AWD_IUTE_白_60X126inch_10条装_50箱.pdf"
+    ],
+    "完整存档\\C26079-B_AWD\\外箱贴\\IUTE\\白_70X120inch_6条装": [
+      "AWD_IUTE_白_70X120inch_6条装_50箱.pdf"
+    ],
+    "完整存档\\C26079-B_AWD\\外箱贴\\IUTE\\米白_70X120inch_6条装": [
+      "AWD_IUTE_米白_70X120inch_6条装_40箱.pdf"
+    ],
+    "完整存档\\C26079-B_AWD\\报关资料表": [
+      "畅选+波丽丝 2026.7.31发货 C26079-B AWD-IUTE 140箱 市场采购数据.xlsx"
+    ],
+    "完整存档\\C26079-B_AWD\\货代入库贴": [],
+    "完整存档\\C26079-B_AWD\\货代入库贴\\IUTE": [
+      "AWD_IUTE_入库贴_140箱.pdf"
+    ],
+    "完整存档\\C26079-B_AWD\\货代入库贴下单表": [
+      "货代下单表_C26079-B 2026.7.31桌布 AWD-IUTE 140箱.xlsx"
+    ],
+    "完整存档\\共用": [],
+    "完整存档\\共用\\产品标签": [],
+    "完整存档\\共用\\产品标签\\EF-C26079-C04-36460标签": [],
+    "完整存档\\共用\\产品标签\\EF-C26079-C04-36460标签\\10条装": [],
+    "完整存档\\共用\\产品标签\\EF-C26079-C04-36460标签\\10条装\\60x102": [
+      "102白 10条装.pdf",
+      "102蓝 10条装.pdf",
+      "102象牙色10条.pdf"
+    ],
+    "完整存档\\共用\\产品标签\\EF-C26079-C04-36460标签\\10条装\\60x126": [
+      "126白 10条装.pdf",
+      "Wigenius 126米白 10条装.pdf"
+    ],
+    "完整存档\\共用\\产品标签\\EF-C26079-C04-36460标签\\10条装\\70x120": [
+      "120白 10条装.pdf",
+      "120米白 10条装.pdf",
+      "120黑 10条装.pdf"
+    ],
+    "完整存档\\共用\\产品标签\\EF-C26079-C04-36460标签\\10条装\\90圆": [
+      "90圆白 10条装.pdf",
+      "90圆黑 10条装.pdf"
+    ],
+    "完整存档\\共用\\产品标签\\EF-C26079-C04-36460标签\\2条装": [],
+    "完整存档\\共用\\产品标签\\EF-C26079-C04-36460标签\\2条装\\60x126": [
+      "126白 两条装.pdf"
+    ],
+    "完整存档\\共用\\产品标签\\EF-C26079-C04-36460标签\\2条装\\70x120": [
+      "70x120白色2条装.pdf",
+      "70x120象牙色2条装.pdf"
+    ],
+    "完整存档\\共用\\产品标签\\EF-C26079-C04-36460标签\\2条装\\90圆": [
+      "Wigenius  90寸圆白色2条装.pdf",
+      "Wigenius  90寸圆黑色2条装.pdf"
+    ],
+    "完整存档\\共用\\产品标签\\EF-C26079-C04-36460标签\\6条装": [],
+    "完整存档\\共用\\产品标签\\EF-C26079-C04-36460标签\\6条装\\60x102": [
+      "102蓝色6条.pdf",
+      "102象牙白色ivory6条.pdf"
+    ],
+    "完整存档\\共用\\产品标签\\EF-C26079-C04-36460标签\\6条装\\60x126": [
+      "126白色6条.pdf",
+      "126米白 6条装.pdf"
+    ],
+    "完整存档\\共用\\产品标签\\EF-C26079-C04-36460标签\\6条装\\70x120": [
+      "120白色6条.pdf",
+      "120象牙色6条.pdf"
+    ],
+    "完整存档\\共用\\产品标签\\EF-C26079-C04-36460标签\\6条装\\90圆": [
+      "90圆白色6条.pdf",
+      "90圆米白ivory6条.pdf"
+    ],
+    "完整存档\\共用\\出货表": [
+      "C04-2616-U-2026.7.31.xlsx"
+    ],
+    "完整存档\\共用\\订单表": [
+      "EF-C26079-C04-36460  桌布-2026.7.10.xls"
+    ]
+  },
+  "ship_tree": {
+    ".": [
+      "PROJECT.json"
+    ],
+    "FBA外箱贴": [],
+    "FBA外箱贴\\AVP1": [
+      "FC_AVP1_入库贴_175箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\.mixed_bak_20260727_111719_米白色 60X126inches 6pack-15箱": [
+      "米白色 60X126inches 6pack-15箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\白色 60X126inches 2pack-4箱": [
+      "白色 60X126inches 2pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\白色 60×102inches 10packs-9箱": [
+      "白色 60×102inches 10packs-9箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\白色 60×126inches 6packs-11箱": [
+      "白色 60×126inches 6packs-11箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\白色 70X120inches 10pack-12箱": [
+      "白色 70X120inches 10pack-12箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\白色 90inches Round 10pack-11箱": [
+      "白色 90inches Round 10pack-11箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\白色 90inches Round 2pack-5箱": [
+      "白色 90inches Round 2pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\白色 90inches Round 6pack-19箱": [
+      "白色 90inches Round 6pack-19箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\米白色 60X102inches 10pack-19箱": [
+      "米白色 60X102inches 10pack-19箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\米白色 60X126inches 10pack-9箱": [
+      "米白色 60X126inches 10pack-9箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\米白色 60X126inches 6pack-6箱": [
+      "米白色 60X126inches 6pack-6箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\米白色 70X120inches 10pack-10箱": [
+      "米白色 70X120inches 10pack-10箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\米白色 90inches Round 6pack-12箱": [
+      "米白色 90inches Round 6pack-12箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\蓝色 60X102inches 10pack-8箱": [
+      "蓝色 60X102inches 10pack-8箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "FBA外箱贴\\AWD": [],
+    "FBA外箱贴\\AWD\\IUTE": [
+      "AWD_IUTE_入库贴_140箱.pdf",
+      "_MERGE_NOTE.md",
+      "_PROMOTED.md"
+    ],
+    "FBA外箱贴\\AWD\\IUTE\\白_60X126inch_10条装": [
+      "AWD_IUTE_白_60X126inch_10条装_50箱.pdf"
+    ],
+    "FBA外箱贴\\AWD\\IUTE\\白_70X120inch_6条装": [
+      "AWD_IUTE_白_70X120inch_6条装_50箱.pdf"
+    ],
+    "FBA外箱贴\\AWD\\IUTE\\米白_70X120inch_6条装": [
+      "AWD_IUTE_米白_70X120inch_6条装_40箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2": [
+      "FC_CLT2_入库贴_128箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\.mixed_bak_20260727_111719_米白色 60X126inches 6pack-12箱": [
+      "米白色 60X126inches 6pack-12箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\白色 60X126inches 2pack-1箱": [
+      "白色 60X126inches 2pack-1箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\白色 60×102inches 10packs-8箱": [
+      "白色 60×102inches 10packs-8箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\白色 60×126inches 6packs-7箱": [
+      "白色 60×126inches 6packs-7箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\白色 70X120inches 10pack-6箱": [
+      "白色 70X120inches 10pack-6箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\白色 90inches Round 10pack-7箱": [
+      "白色 90inches Round 10pack-7箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\白色 90inches Round 2pack-4箱": [
+      "白色 90inches Round 2pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\白色 90inches Round 6pack-13箱": [
+      "白色 90inches Round 6pack-13箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\米白色 60X102inches 10pack-14箱": [
+      "米白色 60X102inches 10pack-14箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\米白色 60X102inches 6pack-19箱": [
+      "米白色 60X102inches 6pack-19箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\米白色 60X126inches 10pack-8箱": [
+      "米白色 60X126inches 10pack-8箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\米白色 60X126inches 6pack-4箱": [
+      "米白色 60X126inches 6pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\米白色 70X120inches 10pack-8箱": [
+      "米白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\米白色 90inches Round 6pack-8箱": [
+      "米白色 90inches Round 6pack-8箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\黑色 90inches Round 10pack-3箱": [
+      "黑色 90inches Round 10pack-3箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "FBA外箱贴\\FC": [],
+    "FBA外箱贴\\GWD": [],
+    "FBA外箱贴\\GYR2": [
+      "FC_GYR2_入库贴_139箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\.mixed_bak_20260727_111719_米白色 60X126inches 6pack-12箱": [
+      "米白色 60X126inches 6pack-12箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\白色 60X126inches 2pack-1箱": [
+      "白色 60X126inches 2pack-1箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\白色 60×102inches 10packs-9箱": [
+      "白色 60×102inches 10packs-9箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\白色 60×126inches 6packs-7箱": [
+      "白色 60×126inches 6packs-7箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\白色 70X120inches 10pack-8箱": [
+      "白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\白色 90inches Round 10pack-5箱": [
+      "白色 90inches Round 10pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\白色 90inches Round 2pack-3箱": [
+      "白色 90inches Round 2pack-3箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\白色 90inches Round 6pack-12箱": [
+      "白色 90inches Round 6pack-12箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\米白色 60X102inches 10pack-18箱": [
+      "米白色 60X102inches 10pack-18箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\米白色 60X126inches 10pack-7箱": [
+      "米白色 60X126inches 10pack-7箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\米白色 60X126inches 6pack-5箱": [
+      "米白色 60X126inches 6pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\米白色 70X120inches 10pack-9箱": [
+      "米白色 70X120inches 10pack-9箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\米白色 90inches Round 6pack-9箱": [
+      "米白色 90inches Round 6pack-9箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\黑色 90inches Round 10pack-5箱": [
+      "黑色 90inches Round 10pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8": [
+      "FC_LGB8_入库贴_182箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\.mixed_bak_20260727_111719_米白色 60X126inches 6pack-12箱": [
+      "米白色 60X126inches 6pack-12箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\白色 60X126inches 2pack-2箱": [
+      "白色 60X126inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\白色 60×102inches 10packs-12箱": [
+      "白色 60×102inches 10packs-12箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\白色 60×126inches 6packs-10箱": [
+      "白色 60×126inches 6packs-10箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\白色 70X120inches 10pack-10箱": [
+      "白色 70X120inches 10pack-10箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\白色 90inches Round 10pack-9箱": [
+      "白色 90inches Round 10pack-9箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\白色 90inches Round 2pack-3箱": [
+      "白色 90inches Round 2pack-3箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\白色 90inches Round 6pack-15箱": [
+      "白色 90inches Round 6pack-15箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\米白色 60X102inches 10pack-30箱": [
+      "米白色 60X102inches 10pack-30箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\米白色 60X102inches 6pack-32箱": [
+      "米白色 60X102inches 6pack-32箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\米白色 60X126inches 10pack-7箱": [
+      "米白色 60X126inches 10pack-7箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\米白色 60X126inches 6pack-5箱": [
+      "米白色 60X126inches 6pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\米白色 70X120inches 10pack-15箱": [
+      "米白色 70X120inches 10pack-15箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\米白色 90inches Round 6pack-10箱": [
+      "米白色 90inches Round 6pack-10箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2": [
+      "FC_MDW2_入库贴_181箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\.mixed_bak_20260727_111719_米白色 60X126inches 6pack-19箱": [
+      "米白色 60X126inches 6pack-19箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\白色 60X126inches 2pack-2箱": [
+      "白色 60X126inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\白色 60×102inches 10packs-12箱": [
+      "白色 60×102inches 10packs-12箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\白色 60×126inches 6packs-15箱": [
+      "白色 60×126inches 6packs-15箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\白色 70X120inches 10pack-14箱": [
+      "白色 70X120inches 10pack-14箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\白色 90inches Round 10pack-8箱": [
+      "白色 90inches Round 10pack-8箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\白色 90inches Round 2pack-5箱": [
+      "白色 90inches Round 2pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\白色 90inches Round 6pack-21箱": [
+      "白色 90inches Round 6pack-21箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\米白色 60X102inches 10pack-19箱": [
+      "米白色 60X102inches 10pack-19箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\米白色 60X126inches 10pack-9箱": [
+      "米白色 60X126inches 10pack-9箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\米白色 60X126inches 6pack-10箱": [
+      "米白色 60X126inches 6pack-10箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\米白色 70X120inches 10pack-8箱": [
+      "米白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\米白色 90inches Round 6pack-11箱": [
+      "米白色 90inches Round 6pack-11箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\蓝色 60X102inches 10pack-7箱": [
+      "蓝色 60X102inches 10pack-7箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "FBA外箱贴\\_inbox": [
+      "IUTE C26078单 剩下的140箱 7.31给货.pdf"
+    ],
+    "FBA外箱贴\\_recognize": [
+      "C26079-B_AWD_page_summary.json",
+      "C26079-B_AWD_page_summary.md",
+      "ingest_20260723_093438.json",
+      "ingest_20260723_093438.md",
+      "ingest_20260723_093444.json",
+      "ingest_20260723_093444.md"
+    ],
+    "FBA外箱贴\\_staging": [],
+    "FBA外箱贴\\_staging\\AWD": [],
+    "FBA外箱贴\\_staging\\AWD\\IUTE": [],
+    "FBA外箱贴\\_staging\\AWD\\IUTE\\白_60X126inch_10条装": [
+      "AWD_IUTE_白_60X126inch_10条装_50箱.pdf"
+    ],
+    "FBA外箱贴\\_staging\\AWD\\IUTE\\白_70X120inch_6条装": [
+      "AWD_IUTE_白_70X120inch_6条装_50箱.pdf"
+    ],
+    "FBA外箱贴\\_staging\\AWD\\IUTE\\米白_70X120inch_6条装": [
+      "AWD_IUTE_米白_70X120inch_6条装_40箱.pdf"
+    ],
+    "FBA外箱贴\\_staging\\AWD\\_no_wh": [
+      "IUTE C26078单 剩下的140箱 7.31给货_p0001_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0002_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0003_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0004_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0005_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0006_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0007_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0008_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0009_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0010_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0011_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0012_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0013_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0014_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0015_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0016_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0017_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0018_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0019_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0020_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0021_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0022_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0023_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0024_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0025_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0026_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0027_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0028_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0029_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0030_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0031_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0032_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0033_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0034_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0035_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0036_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0037_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0038_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0039_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0040_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0041_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0042_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0043_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0044_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0045_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0046_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0047_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0048_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0049_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0050_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0051_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0052_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0053_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0054_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0055_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0056_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0057_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0058_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0059_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0060_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0061_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0062_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0063_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0064_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0065_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0066_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0067_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0068_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0069_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0070_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0071_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0072_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0073_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0074_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0075_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0076_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0077_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0078_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0079_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0080_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0081_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0082_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0083_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0084_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0085_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0086_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0087_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0088_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0089_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0090_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0091_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0092_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0093_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0094_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0095_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0096_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0097_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0098_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0099_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0100_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0101_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0102_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0103_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0104_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0105_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0106_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0107_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0108_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0109_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0110_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0111_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0112_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0113_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0114_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0115_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0116_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0117_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0118_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0119_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0120_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0121_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0122_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0123_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0124_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0125_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0126_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0127_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0128_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0129_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0130_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0131_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0132_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0133_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0134_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0135_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0136_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0137_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0138_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0139_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0140_noship.pdf"
+    ],
+    "_来源归档": [
+      "EF-C26079-C04-36460  桌布-2026.7.10.xls"
+    ],
+    "产品标签": [
+      "_design_match.json",
+      "_manifest.json"
+    ],
+    "产品标签\\EF-C26079-C04-36460标签": [],
+    "产品标签\\EF-C26079-C04-36460标签\\10条装": [],
+    "产品标签\\EF-C26079-C04-36460标签\\10条装\\60x102": [
+      "102白 10条装.pdf",
+      "102蓝 10条装.pdf",
+      "102象牙色10条.pdf"
+    ],
+    "产品标签\\EF-C26079-C04-36460标签\\10条装\\60x126": [
+      "126白 10条装.pdf",
+      "Wigenius 126米白 10条装.pdf"
+    ],
+    "产品标签\\EF-C26079-C04-36460标签\\10条装\\70x120": [
+      "120白 10条装.pdf",
+      "120米白 10条装.pdf",
+      "120黑 10条装.pdf"
+    ],
+    "产品标签\\EF-C26079-C04-36460标签\\10条装\\90圆": [
+      "90圆白 10条装.pdf",
+      "90圆黑 10条装.pdf"
+    ],
+    "产品标签\\EF-C26079-C04-36460标签\\2条装": [],
+    "产品标签\\EF-C26079-C04-36460标签\\2条装\\60x126": [
+      "126白 两条装.pdf"
+    ],
+    "产品标签\\EF-C26079-C04-36460标签\\2条装\\70x120": [
+      "70x120白色2条装.pdf",
+      "70x120象牙色2条装.pdf"
+    ],
+    "产品标签\\EF-C26079-C04-36460标签\\2条装\\90圆": [
+      "Wigenius  90寸圆白色2条装.pdf",
+      "Wigenius  90寸圆黑色2条装.pdf"
+    ],
+    "产品标签\\EF-C26079-C04-36460标签\\6条装": [],
+    "产品标签\\EF-C26079-C04-36460标签\\6条装\\60x102": [
+      "102蓝色6条.pdf",
+      "102象牙白色ivory6条.pdf"
+    ],
+    "产品标签\\EF-C26079-C04-36460标签\\6条装\\60x126": [
+      "126白色6条.pdf",
+      "126米白 6条装.pdf"
+    ],
+    "产品标签\\EF-C26079-C04-36460标签\\6条装\\70x120": [
+      "120白色6条.pdf",
+      "120象牙色6条.pdf"
+    ],
+    "产品标签\\EF-C26079-C04-36460标签\\6条装\\90圆": [
+      "90圆白色6条.pdf",
+      "90圆米白ivory6条.pdf"
+    ],
+    "出货表": [
+      "C04-2616-U-2026.7.31.xlsx"
+    ],
+    "报关资料表": [
+      "畅选+波丽丝 2026.7.31发货 C26079-A AVP1 175箱 市场采购数据.xlsx",
+      "畅选+波丽丝 2026.7.31发货 C26079-A CLT2 128箱 市场采购数据.xlsx",
+      "畅选+波丽丝 2026.7.31发货 C26079-A GYR2 139箱 市场采购数据.xlsx",
+      "畅选+波丽丝 2026.7.31发货 C26079-A LGB8 182箱 市场采购数据.xlsx",
+      "畅选+波丽丝 2026.7.31发货 C26079-A MDW2 181箱 市场采购数据.xlsx",
+      "畅选+波丽丝 2026.7.31发货 C26079-B AWD-IUTE 140箱 市场采购数据.xlsx"
+    ],
+    "拆单比对": [
+      "C26079-A_TEMPLATE.json",
+      "C26079-A_TEMPLATE.md",
+      "C26079-A_amount_weight_reconcile.md",
+      "C26079-A_fba_recognize.json",
+      "C26079-A_manifest.DRAFT.json",
+      "C26079-A_manifest.json",
+      "C26079-B_AWD_NOTE.md",
+      "C26079-B_PENDING.md",
+      "C26079-B_amount_weight_reconcile.md",
+      "C26079-B_manifest.json",
+      "SKU_人工备注.md",
+      "_last_compare_report.md",
+      "split_ledger.json"
+    ],
+    "订单表": [
+      "EF-C26079-C04-36460  桌布-2026.7.10.xls"
+    ],
+    "货代入库贴": [
+      "945箱入库贴(1).zip"
+    ],
+    "货代入库贴\\_inbox": [
+      "label_FBA19JT0K3PY_182.pdf",
+      "label_FBA19JT16DMQ_181.pdf",
+      "label_FBA19JT39521_175.pdf",
+      "label_FBA19JT3Q0H0_139.pdf",
+      "label_FBA19JT71WTZ_128.pdf",
+      "label_STAR-QG6CTURZGY6MX_140.pdf"
+    ],
+    "货代入库贴\\_recognize": [
+      "inbound_recognize_20260724_103553.json",
+      "inbound_recognize_20260724_104934.json",
+      "inbound_recognize_latest.json"
+    ],
+    "货代入库贴\\_staging": [],
+    "货代入库贴下单表": [
+      "货代下单表_C26079-A 2026.7.31桌布 AVP1 175箱.xlsx",
+      "货代下单表_C26079-A 2026.7.31桌布 CLT2 128箱.xlsx",
+      "货代下单表_C26079-A 2026.7.31桌布 GYR2 139箱.xlsx",
+      "货代下单表_C26079-A 2026.7.31桌布 LGB8 182箱.xlsx",
+      "货代下单表_C26079-A 2026.7.31桌布 MDW2 181箱.xlsx",
+      "货代下单表_C26079-B 2026.7.31桌布 AWD-IUTE 140箱.pre_mediafix.xlsx",
+      "货代下单表_C26079-B 2026.7.31桌布 AWD-IUTE 140箱.xlsx"
+    ]
+  },
+  "freight_files": [
+    "完整存档\\C26079-A_FC\\货代入库贴\\AVP1\\FC_AVP1_入库贴_175箱.pdf",
+    "完整存档\\C26079-A_FC\\货代入库贴\\CLT2\\FC_CLT2_入库贴_128箱.pdf",
+    "完整存档\\C26079-A_FC\\货代入库贴\\GYR2\\FC_GYR2_入库贴_139箱.pdf",
+    "完整存档\\C26079-A_FC\\货代入库贴\\LGB8\\FC_LGB8_入库贴_182箱.pdf",
+    "完整存档\\C26079-A_FC\\货代入库贴\\MDW2\\FC_MDW2_入库贴_181箱.pdf",
+    "完整存档\\C26079-A_FC\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 AVP1 175箱.xlsx",
+    "完整存档\\C26079-A_FC\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 CLT2 128箱.xlsx",
+    "完整存档\\C26079-A_FC\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 GYR2 139箱.xlsx",
+    "完整存档\\C26079-A_FC\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 LGB8 182箱.xlsx",
+    "完整存档\\C26079-A_FC\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 MDW2 181箱.xlsx",
+    "完整存档\\C26079-B_AWD\\货代入库贴\\IUTE\\AWD_IUTE_入库贴_140箱.pdf",
+    "完整存档\\C26079-B_AWD\\货代入库贴下单表\\货代下单表_C26079-B 2026.7.31桌布 AWD-IUTE 140箱.xlsx"
+  ],
+  "carton_files": [
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 60X126inches 2pack-4箱\\白色 60X126inches 2pack-4箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 60×102inches 10packs-9箱\\白色 60×102inches 10packs-9箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 60×126inches 6packs-11箱\\白色 60×126inches 6packs-11箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 70X120inches 10pack-12箱\\白色 70X120inches 10pack-12箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 70X120inches 2pack-2箱\\白色 70X120inches 2pack-2箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 90inches Round 10pack-11箱\\白色 90inches Round 10pack-11箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 90inches Round 2pack-5箱\\白色 90inches Round 2pack-5箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 90inches Round 6pack-19箱\\白色 90inches Round 6pack-19箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 60X102inches 10pack-19箱\\米白色 60X102inches 10pack-19箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 60X102inches 6pack-23箱\\米白色 60X102inches 6pack-23箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 60X126inches 10pack-9箱\\米白色 60X126inches 10pack-9箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 60X126inches 6pack-6箱\\米白色 60X126inches 6pack-6箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 70X120inches 10pack-10箱\\米白色 70X120inches 10pack-10箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 70X120inches 2pack-2箱\\米白色 70X120inches 2pack-2箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 90inches Round 6pack-12箱\\米白色 90inches Round 6pack-12箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\蓝色 60X102inches 10pack-8箱\\蓝色 60X102inches 10pack-8箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\蓝色 60X102inches 6pack-4箱\\蓝色 60X102inches 6pack-4箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\黑色 70X120inches 10pack-4箱\\黑色 70X120inches 10pack-4箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\黑色 90inches Round 10pack-4箱\\黑色 90inches Round 10pack-4箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\黑色 90inches Round 2pack-1箱\\黑色 90inches Round 2pack-1箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 60X126inches 2pack-1箱\\白色 60X126inches 2pack-1箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 60×102inches 10packs-8箱\\白色 60×102inches 10packs-8箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 60×126inches 6packs-7箱\\白色 60×126inches 6packs-7箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 70X120inches 10pack-6箱\\白色 70X120inches 10pack-6箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 70X120inches 2pack-2箱\\白色 70X120inches 2pack-2箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 90inches Round 10pack-7箱\\白色 90inches Round 10pack-7箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 90inches Round 2pack-4箱\\白色 90inches Round 2pack-4箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 90inches Round 6pack-13箱\\白色 90inches Round 6pack-13箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 60X102inches 10pack-14箱\\米白色 60X102inches 10pack-14箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 60X102inches 6pack-19箱\\米白色 60X102inches 6pack-19箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 60X126inches 10pack-8箱\\米白色 60X126inches 10pack-8箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 60X126inches 6pack-4箱\\米白色 60X126inches 6pack-4箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 70X120inches 10pack-8箱\\米白色 70X120inches 10pack-8箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 70X120inches 2pack-2箱\\米白色 70X120inches 2pack-2箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 90inches Round 6pack-8箱\\米白色 90inches Round 6pack-8箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\蓝色 60X102inches 10pack-5箱\\蓝色 60X102inches 10pack-5箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\蓝色 60X102inches 6pack-4箱\\蓝色 60X102inches 6pack-4箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\黑色 70X120inches 10pack-4箱\\黑色 70X120inches 10pack-4箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\黑色 90inches Round 10pack-3箱\\黑色 90inches Round 10pack-3箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\黑色 90inches Round 2pack-1箱\\黑色 90inches Round 2pack-1箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 60X126inches 2pack-1箱\\白色 60X126inches 2pack-1箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 60×102inches 10packs-9箱\\白色 60×102inches 10packs-9箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 60×126inches 6packs-7箱\\白色 60×126inches 6packs-7箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 70X120inches 10pack-8箱\\白色 70X120inches 10pack-8箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 70X120inches 2pack-2箱\\白色 70X120inches 2pack-2箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 90inches Round 10pack-5箱\\白色 90inches Round 10pack-5箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 90inches Round 2pack-3箱\\白色 90inches Round 2pack-3箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 90inches Round 6pack-12箱\\白色 90inches Round 6pack-12箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 60X102inches 10pack-18箱\\米白色 60X102inches 10pack-18箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 60X102inches 6pack-23箱\\米白色 60X102inches 6pack-23箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 60X126inches 10pack-7箱\\米白色 60X126inches 10pack-7箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 60X126inches 6pack-5箱\\米白色 60X126inches 6pack-5箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 70X120inches 10pack-9箱\\米白色 70X120inches 10pack-9箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 70X120inches 2pack-2箱\\米白色 70X120inches 2pack-2箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 90inches Round 6pack-9箱\\米白色 90inches Round 6pack-9箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\蓝色 60X102inches 10pack-5箱\\蓝色 60X102inches 10pack-5箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\蓝色 60X102inches 6pack-4箱\\蓝色 60X102inches 6pack-4箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\黑色 70X120inches 10pack-4箱\\黑色 70X120inches 10pack-4箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\黑色 90inches Round 10pack-5箱\\黑色 90inches Round 10pack-5箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\黑色 90inches Round 2pack-1箱\\黑色 90inches Round 2pack-1箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 60X126inches 2pack-2箱\\白色 60X126inches 2pack-2箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 60×102inches 10packs-12箱\\白色 60×102inches 10packs-12箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 60×126inches 6packs-10箱\\白色 60×126inches 6packs-10箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 70X120inches 10pack-10箱\\白色 70X120inches 10pack-10箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 70X120inches 2pack-2箱\\白色 70X120inches 2pack-2箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 90inches Round 10pack-9箱\\白色 90inches Round 10pack-9箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 90inches Round 2pack-3箱\\白色 90inches Round 2pack-3箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 90inches Round 6pack-15箱\\白色 90inches Round 6pack-15箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 60X102inches 10pack-30箱\\米白色 60X102inches 10pack-30箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 60X102inches 6pack-32箱\\米白色 60X102inches 6pack-32箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 60X126inches 10pack-7箱\\米白色 60X126inches 10pack-7箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 60X126inches 6pack-5箱\\米白色 60X126inches 6pack-5箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 70X120inches 10pack-15箱\\米白色 70X120inches 10pack-15箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 70X120inches 2pack-2箱\\米白色 70X120inches 2pack-2箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 90inches Round 6pack-10箱\\米白色 90inches Round 6pack-10箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\蓝色 60X102inches 10pack-5箱\\蓝色 60X102inches 10pack-5箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\蓝色 60X102inches 6pack-4箱\\蓝色 60X102inches 6pack-4箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\黑色 70X120inches 10pack-4箱\\黑色 70X120inches 10pack-4箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\黑色 90inches Round 10pack-4箱\\黑色 90inches Round 10pack-4箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\黑色 90inches Round 2pack-1箱\\黑色 90inches Round 2pack-1箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 60X126inches 2pack-2箱\\白色 60X126inches 2pack-2箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 60×102inches 10packs-12箱\\白色 60×102inches 10packs-12箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 60×126inches 6packs-15箱\\白色 60×126inches 6packs-15箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 70X120inches 10pack-14箱\\白色 70X120inches 10pack-14箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 70X120inches 2pack-2箱\\白色 70X120inches 2pack-2箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 90inches Round 10pack-8箱\\白色 90inches Round 10pack-8箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 90inches Round 2pack-5箱\\白色 90inches Round 2pack-5箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 90inches Round 6pack-21箱\\白色 90inches Round 6pack-21箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 60X102inches 10pack-19箱\\米白色 60X102inches 10pack-19箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 60X102inches 6pack-23箱\\米白色 60X102inches 6pack-23箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 60X126inches 10pack-9箱\\米白色 60X126inches 10pack-9箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 60X126inches 6pack-10箱\\米白色 60X126inches 6pack-10箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 70X120inches 10pack-8箱\\米白色 70X120inches 10pack-8箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 70X120inches 2pack-2箱\\米白色 70X120inches 2pack-2箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 90inches Round 6pack-11箱\\米白色 90inches Round 6pack-11箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\蓝色 60X102inches 10pack-7箱\\蓝色 60X102inches 10pack-7箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\蓝色 60X102inches 6pack-4箱\\蓝色 60X102inches 6pack-4箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\黑色 70X120inches 10pack-4箱\\黑色 70X120inches 10pack-4箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\黑色 90inches Round 10pack-4箱\\黑色 90inches Round 10pack-4箱.pdf",
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\黑色 90inches Round 2pack-1箱\\黑色 90inches Round 2pack-1箱.pdf",
+    "C26079-B_4200_2026.7.31_贴标包\\外箱贴_IUTE\\白_60X126inch_10条装\\AWD_IUTE_白_60X126inch_10条装_50箱.pdf",
+    "C26079-B_4200_2026.7.31_贴标包\\外箱贴_IUTE\\白_70X120inch_6条装\\AWD_IUTE_白_70X120inch_6条装_50箱.pdf",
+    "C26079-B_4200_2026.7.31_贴标包\\外箱贴_IUTE\\米白_70X120inch_6条装\\AWD_IUTE_米白_70X120inch_6条装_40箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\FC_AVP1_入库贴_175箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 60X126inches 2pack-4箱\\白色 60X126inches 2pack-4箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 60×102inches 10packs-9箱\\白色 60×102inches 10packs-9箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 60×126inches 6packs-11箱\\白色 60×126inches 6packs-11箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 70X120inches 10pack-12箱\\白色 70X120inches 10pack-12箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 70X120inches 2pack-2箱\\白色 70X120inches 2pack-2箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 90inches Round 10pack-11箱\\白色 90inches Round 10pack-11箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 90inches Round 2pack-5箱\\白色 90inches Round 2pack-5箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 90inches Round 6pack-19箱\\白色 90inches Round 6pack-19箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 60X102inches 10pack-19箱\\米白色 60X102inches 10pack-19箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 60X102inches 6pack-23箱\\米白色 60X102inches 6pack-23箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 60X126inches 10pack-9箱\\米白色 60X126inches 10pack-9箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 60X126inches 6pack-6箱\\米白色 60X126inches 6pack-6箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 70X120inches 10pack-10箱\\米白色 70X120inches 10pack-10箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 70X120inches 2pack-2箱\\米白色 70X120inches 2pack-2箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 90inches Round 6pack-12箱\\米白色 90inches Round 6pack-12箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\蓝色 60X102inches 10pack-8箱\\蓝色 60X102inches 10pack-8箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\蓝色 60X102inches 6pack-4箱\\蓝色 60X102inches 6pack-4箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\黑色 70X120inches 10pack-4箱\\黑色 70X120inches 10pack-4箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\黑色 90inches Round 10pack-4箱\\黑色 90inches Round 10pack-4箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\黑色 90inches Round 2pack-1箱\\黑色 90inches Round 2pack-1箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\FC_CLT2_入库贴_128箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 60X126inches 2pack-1箱\\白色 60X126inches 2pack-1箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 60×102inches 10packs-8箱\\白色 60×102inches 10packs-8箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 60×126inches 6packs-7箱\\白色 60×126inches 6packs-7箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 70X120inches 10pack-6箱\\白色 70X120inches 10pack-6箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 70X120inches 2pack-2箱\\白色 70X120inches 2pack-2箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 90inches Round 10pack-7箱\\白色 90inches Round 10pack-7箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 90inches Round 2pack-4箱\\白色 90inches Round 2pack-4箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 90inches Round 6pack-13箱\\白色 90inches Round 6pack-13箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 60X102inches 10pack-14箱\\米白色 60X102inches 10pack-14箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 60X102inches 6pack-19箱\\米白色 60X102inches 6pack-19箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 60X126inches 10pack-8箱\\米白色 60X126inches 10pack-8箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 60X126inches 6pack-4箱\\米白色 60X126inches 6pack-4箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 70X120inches 10pack-8箱\\米白色 70X120inches 10pack-8箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 70X120inches 2pack-2箱\\米白色 70X120inches 2pack-2箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 90inches Round 6pack-8箱\\米白色 90inches Round 6pack-8箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\蓝色 60X102inches 10pack-5箱\\蓝色 60X102inches 10pack-5箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\蓝色 60X102inches 6pack-4箱\\蓝色 60X102inches 6pack-4箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\黑色 70X120inches 10pack-4箱\\黑色 70X120inches 10pack-4箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\黑色 90inches Round 10pack-3箱\\黑色 90inches Round 10pack-3箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\黑色 90inches Round 2pack-1箱\\黑色 90inches Round 2pack-1箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\FC_GYR2_入库贴_139箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 60X126inches 2pack-1箱\\白色 60X126inches 2pack-1箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 60×102inches 10packs-9箱\\白色 60×102inches 10packs-9箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 60×126inches 6packs-7箱\\白色 60×126inches 6packs-7箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 70X120inches 10pack-8箱\\白色 70X120inches 10pack-8箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 70X120inches 2pack-2箱\\白色 70X120inches 2pack-2箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 90inches Round 10pack-5箱\\白色 90inches Round 10pack-5箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 90inches Round 2pack-3箱\\白色 90inches Round 2pack-3箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 90inches Round 6pack-12箱\\白色 90inches Round 6pack-12箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 60X102inches 10pack-18箱\\米白色 60X102inches 10pack-18箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 60X102inches 6pack-23箱\\米白色 60X102inches 6pack-23箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 60X126inches 10pack-7箱\\米白色 60X126inches 10pack-7箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 60X126inches 6pack-5箱\\米白色 60X126inches 6pack-5箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 70X120inches 10pack-9箱\\米白色 70X120inches 10pack-9箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 70X120inches 2pack-2箱\\米白色 70X120inches 2pack-2箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 90inches Round 6pack-9箱\\米白色 90inches Round 6pack-9箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\蓝色 60X102inches 10pack-5箱\\蓝色 60X102inches 10pack-5箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\蓝色 60X102inches 6pack-4箱\\蓝色 60X102inches 6pack-4箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\黑色 70X120inches 10pack-4箱\\黑色 70X120inches 10pack-4箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\黑色 90inches Round 10pack-5箱\\黑色 90inches Round 10pack-5箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\黑色 90inches Round 2pack-1箱\\黑色 90inches Round 2pack-1箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\FC_LGB8_入库贴_182箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 60X126inches 2pack-2箱\\白色 60X126inches 2pack-2箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 60×102inches 10packs-12箱\\白色 60×102inches 10packs-12箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 60×126inches 6packs-10箱\\白色 60×126inches 6packs-10箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 70X120inches 10pack-10箱\\白色 70X120inches 10pack-10箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 70X120inches 2pack-2箱\\白色 70X120inches 2pack-2箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 90inches Round 10pack-9箱\\白色 90inches Round 10pack-9箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 90inches Round 2pack-3箱\\白色 90inches Round 2pack-3箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 90inches Round 6pack-15箱\\白色 90inches Round 6pack-15箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 60X102inches 10pack-30箱\\米白色 60X102inches 10pack-30箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 60X102inches 6pack-32箱\\米白色 60X102inches 6pack-32箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 60X126inches 10pack-7箱\\米白色 60X126inches 10pack-7箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 60X126inches 6pack-5箱\\米白色 60X126inches 6pack-5箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 70X120inches 10pack-15箱\\米白色 70X120inches 10pack-15箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 70X120inches 2pack-2箱\\米白色 70X120inches 2pack-2箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 90inches Round 6pack-10箱\\米白色 90inches Round 6pack-10箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\蓝色 60X102inches 10pack-5箱\\蓝色 60X102inches 10pack-5箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\蓝色 60X102inches 6pack-4箱\\蓝色 60X102inches 6pack-4箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\黑色 70X120inches 10pack-4箱\\黑色 70X120inches 10pack-4箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\黑色 90inches Round 10pack-4箱\\黑色 90inches Round 10pack-4箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\黑色 90inches Round 2pack-1箱\\黑色 90inches Round 2pack-1箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\FC_MDW2_入库贴_181箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 60X126inches 2pack-2箱\\白色 60X126inches 2pack-2箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 60×102inches 10packs-12箱\\白色 60×102inches 10packs-12箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 60×126inches 6packs-15箱\\白色 60×126inches 6packs-15箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 70X120inches 10pack-14箱\\白色 70X120inches 10pack-14箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 70X120inches 2pack-2箱\\白色 70X120inches 2pack-2箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 90inches Round 10pack-8箱\\白色 90inches Round 10pack-8箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 90inches Round 2pack-5箱\\白色 90inches Round 2pack-5箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 90inches Round 6pack-21箱\\白色 90inches Round 6pack-21箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 60X102inches 10pack-19箱\\米白色 60X102inches 10pack-19箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 60X102inches 6pack-23箱\\米白色 60X102inches 6pack-23箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 60X126inches 10pack-9箱\\米白色 60X126inches 10pack-9箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 60X126inches 6pack-10箱\\米白色 60X126inches 6pack-10箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 70X120inches 10pack-8箱\\米白色 70X120inches 10pack-8箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 70X120inches 2pack-2箱\\米白色 70X120inches 2pack-2箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 90inches Round 6pack-11箱\\米白色 90inches Round 6pack-11箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\蓝色 60X102inches 10pack-7箱\\蓝色 60X102inches 10pack-7箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\蓝色 60X102inches 6pack-4箱\\蓝色 60X102inches 6pack-4箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\黑色 70X120inches 10pack-4箱\\黑色 70X120inches 10pack-4箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\黑色 90inches Round 10pack-4箱\\黑色 90inches Round 10pack-4箱.pdf",
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\黑色 90inches Round 2pack-1箱\\黑色 90inches Round 2pack-1箱.pdf",
+    "完整存档\\C26079-B_AWD\\外箱贴\\IUTE\\AWD_IUTE_入库贴_140箱.pdf",
+    "完整存档\\C26079-B_AWD\\外箱贴\\IUTE\\白_60X126inch_10条装\\AWD_IUTE_白_60X126inch_10条装_50箱.pdf",
+    "完整存档\\C26079-B_AWD\\外箱贴\\IUTE\\白_70X120inch_6条装\\AWD_IUTE_白_70X120inch_6条装_50箱.pdf",
+    "完整存档\\C26079-B_AWD\\外箱贴\\IUTE\\米白_70X120inch_6条装\\AWD_IUTE_米白_70X120inch_6条装_40箱.pdf"
+  ],
+  "out_interest": {
+    "C26079-A_32260_2026.7.31_贴标包": [],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1": [],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\入库贴": [
+      "FC_AVP1_入库贴_175箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴": [],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 60X126inches 2pack-4箱": [
+      "白色 60X126inches 2pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 60×102inches 10packs-9箱": [
+      "白色 60×102inches 10packs-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 60×126inches 6packs-11箱": [
+      "白色 60×126inches 6packs-11箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 70X120inches 10pack-12箱": [
+      "白色 70X120inches 10pack-12箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 90inches Round 10pack-11箱": [
+      "白色 90inches Round 10pack-11箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 90inches Round 2pack-5箱": [
+      "白色 90inches Round 2pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 90inches Round 6pack-19箱": [
+      "白色 90inches Round 6pack-19箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 60X102inches 10pack-19箱": [
+      "米白色 60X102inches 10pack-19箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 60X126inches 10pack-9箱": [
+      "米白色 60X126inches 10pack-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 60X126inches 6pack-6箱": [
+      "米白色 60X126inches 6pack-6箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 70X120inches 10pack-10箱": [
+      "米白色 70X120inches 10pack-10箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 90inches Round 6pack-12箱": [
+      "米白色 90inches Round 6pack-12箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\蓝色 60X102inches 10pack-8箱": [
+      "蓝色 60X102inches 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2": [],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\入库贴": [
+      "FC_CLT2_入库贴_128箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴": [],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 60X126inches 2pack-1箱": [
+      "白色 60X126inches 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 60×102inches 10packs-8箱": [
+      "白色 60×102inches 10packs-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 60×126inches 6packs-7箱": [
+      "白色 60×126inches 6packs-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 70X120inches 10pack-6箱": [
+      "白色 70X120inches 10pack-6箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 90inches Round 10pack-7箱": [
+      "白色 90inches Round 10pack-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 90inches Round 2pack-4箱": [
+      "白色 90inches Round 2pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 90inches Round 6pack-13箱": [
+      "白色 90inches Round 6pack-13箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 60X102inches 10pack-14箱": [
+      "米白色 60X102inches 10pack-14箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 60X102inches 6pack-19箱": [
+      "米白色 60X102inches 6pack-19箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 60X126inches 10pack-8箱": [
+      "米白色 60X126inches 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 60X126inches 6pack-4箱": [
+      "米白色 60X126inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 70X120inches 10pack-8箱": [
+      "米白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 90inches Round 6pack-8箱": [
+      "米白色 90inches Round 6pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\黑色 90inches Round 10pack-3箱": [
+      "黑色 90inches Round 10pack-3箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2": [],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\入库贴": [
+      "FC_GYR2_入库贴_139箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴": [],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 60X126inches 2pack-1箱": [
+      "白色 60X126inches 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 60×102inches 10packs-9箱": [
+      "白色 60×102inches 10packs-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 60×126inches 6packs-7箱": [
+      "白色 60×126inches 6packs-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 70X120inches 10pack-8箱": [
+      "白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 90inches Round 10pack-5箱": [
+      "白色 90inches Round 10pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 90inches Round 2pack-3箱": [
+      "白色 90inches Round 2pack-3箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 90inches Round 6pack-12箱": [
+      "白色 90inches Round 6pack-12箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 60X102inches 10pack-18箱": [
+      "米白色 60X102inches 10pack-18箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 60X126inches 10pack-7箱": [
+      "米白色 60X126inches 10pack-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 60X126inches 6pack-5箱": [
+      "米白色 60X126inches 6pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 70X120inches 10pack-9箱": [
+      "米白色 70X120inches 10pack-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 90inches Round 6pack-9箱": [
+      "米白色 90inches Round 6pack-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\黑色 90inches Round 10pack-5箱": [
+      "黑色 90inches Round 10pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8": [],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\入库贴": [
+      "FC_LGB8_入库贴_182箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴": [],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 60X126inches 2pack-2箱": [
+      "白色 60X126inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 60×102inches 10packs-12箱": [
+      "白色 60×102inches 10packs-12箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 60×126inches 6packs-10箱": [
+      "白色 60×126inches 6packs-10箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 70X120inches 10pack-10箱": [
+      "白色 70X120inches 10pack-10箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 90inches Round 10pack-9箱": [
+      "白色 90inches Round 10pack-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 90inches Round 2pack-3箱": [
+      "白色 90inches Round 2pack-3箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 90inches Round 6pack-15箱": [
+      "白色 90inches Round 6pack-15箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 60X102inches 10pack-30箱": [
+      "米白色 60X102inches 10pack-30箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 60X102inches 6pack-32箱": [
+      "米白色 60X102inches 6pack-32箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 60X126inches 10pack-7箱": [
+      "米白色 60X126inches 10pack-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 60X126inches 6pack-5箱": [
+      "米白色 60X126inches 6pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 70X120inches 10pack-15箱": [
+      "米白色 70X120inches 10pack-15箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 90inches Round 6pack-10箱": [
+      "米白色 90inches Round 6pack-10箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2": [],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\入库贴": [
+      "FC_MDW2_入库贴_181箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴": [],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 60X126inches 2pack-2箱": [
+      "白色 60X126inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 60×102inches 10packs-12箱": [
+      "白色 60×102inches 10packs-12箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 60×126inches 6packs-15箱": [
+      "白色 60×126inches 6packs-15箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 70X120inches 10pack-14箱": [
+      "白色 70X120inches 10pack-14箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 90inches Round 10pack-8箱": [
+      "白色 90inches Round 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 90inches Round 2pack-5箱": [
+      "白色 90inches Round 2pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 90inches Round 6pack-21箱": [
+      "白色 90inches Round 6pack-21箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 60X102inches 10pack-19箱": [
+      "米白色 60X102inches 10pack-19箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 60X126inches 10pack-9箱": [
+      "米白色 60X126inches 10pack-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 60X126inches 6pack-10箱": [
+      "米白色 60X126inches 6pack-10箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 70X120inches 10pack-8箱": [
+      "米白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 90inches Round 6pack-11箱": [
+      "米白色 90inches Round 6pack-11箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\蓝色 60X102inches 10pack-7箱": [
+      "蓝色 60X102inches 10pack-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC": [],
+    "完整存档\\C26079-A_FC\\外箱贴": [],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1": [
+      "FC_AVP1_入库贴_175箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 60X126inches 2pack-4箱": [
+      "白色 60X126inches 2pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 60×102inches 10packs-9箱": [
+      "白色 60×102inches 10packs-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 60×126inches 6packs-11箱": [
+      "白色 60×126inches 6packs-11箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 70X120inches 10pack-12箱": [
+      "白色 70X120inches 10pack-12箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 90inches Round 10pack-11箱": [
+      "白色 90inches Round 10pack-11箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 90inches Round 2pack-5箱": [
+      "白色 90inches Round 2pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 90inches Round 6pack-19箱": [
+      "白色 90inches Round 6pack-19箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 60X102inches 10pack-19箱": [
+      "米白色 60X102inches 10pack-19箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 60X126inches 10pack-9箱": [
+      "米白色 60X126inches 10pack-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 60X126inches 6pack-6箱": [
+      "米白色 60X126inches 6pack-6箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 70X120inches 10pack-10箱": [
+      "米白色 70X120inches 10pack-10箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 90inches Round 6pack-12箱": [
+      "米白色 90inches Round 6pack-12箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\蓝色 60X102inches 10pack-8箱": [
+      "蓝色 60X102inches 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2": [
+      "FC_CLT2_入库贴_128箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 60X126inches 2pack-1箱": [
+      "白色 60X126inches 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 60×102inches 10packs-8箱": [
+      "白色 60×102inches 10packs-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 60×126inches 6packs-7箱": [
+      "白色 60×126inches 6packs-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 70X120inches 10pack-6箱": [
+      "白色 70X120inches 10pack-6箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 90inches Round 10pack-7箱": [
+      "白色 90inches Round 10pack-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 90inches Round 2pack-4箱": [
+      "白色 90inches Round 2pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 90inches Round 6pack-13箱": [
+      "白色 90inches Round 6pack-13箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 60X102inches 10pack-14箱": [
+      "米白色 60X102inches 10pack-14箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 60X102inches 6pack-19箱": [
+      "米白色 60X102inches 6pack-19箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 60X126inches 10pack-8箱": [
+      "米白色 60X126inches 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 60X126inches 6pack-4箱": [
+      "米白色 60X126inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 70X120inches 10pack-8箱": [
+      "米白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 90inches Round 6pack-8箱": [
+      "米白色 90inches Round 6pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\黑色 90inches Round 10pack-3箱": [
+      "黑色 90inches Round 10pack-3箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2": [
+      "FC_GYR2_入库贴_139箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 60X126inches 2pack-1箱": [
+      "白色 60X126inches 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 60×102inches 10packs-9箱": [
+      "白色 60×102inches 10packs-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 60×126inches 6packs-7箱": [
+      "白色 60×126inches 6packs-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 70X120inches 10pack-8箱": [
+      "白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 90inches Round 10pack-5箱": [
+      "白色 90inches Round 10pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 90inches Round 2pack-3箱": [
+      "白色 90inches Round 2pack-3箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 90inches Round 6pack-12箱": [
+      "白色 90inches Round 6pack-12箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 60X102inches 10pack-18箱": [
+      "米白色 60X102inches 10pack-18箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 60X126inches 10pack-7箱": [
+      "米白色 60X126inches 10pack-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 60X126inches 6pack-5箱": [
+      "米白色 60X126inches 6pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 70X120inches 10pack-9箱": [
+      "米白色 70X120inches 10pack-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 90inches Round 6pack-9箱": [
+      "米白色 90inches Round 6pack-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\黑色 90inches Round 10pack-5箱": [
+      "黑色 90inches Round 10pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8": [
+      "FC_LGB8_入库贴_182箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 60X126inches 2pack-2箱": [
+      "白色 60X126inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 60×102inches 10packs-12箱": [
+      "白色 60×102inches 10packs-12箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 60×126inches 6packs-10箱": [
+      "白色 60×126inches 6packs-10箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 70X120inches 10pack-10箱": [
+      "白色 70X120inches 10pack-10箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 90inches Round 10pack-9箱": [
+      "白色 90inches Round 10pack-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 90inches Round 2pack-3箱": [
+      "白色 90inches Round 2pack-3箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 90inches Round 6pack-15箱": [
+      "白色 90inches Round 6pack-15箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 60X102inches 10pack-30箱": [
+      "米白色 60X102inches 10pack-30箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 60X102inches 6pack-32箱": [
+      "米白色 60X102inches 6pack-32箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 60X126inches 10pack-7箱": [
+      "米白色 60X126inches 10pack-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 60X126inches 6pack-5箱": [
+      "米白色 60X126inches 6pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 70X120inches 10pack-15箱": [
+      "米白色 70X120inches 10pack-15箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 90inches Round 6pack-10箱": [
+      "米白色 90inches Round 6pack-10箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2": [
+      "FC_MDW2_入库贴_181箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 60X126inches 2pack-2箱": [
+      "白色 60X126inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 60×102inches 10packs-12箱": [
+      "白色 60×102inches 10packs-12箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 60×126inches 6packs-15箱": [
+      "白色 60×126inches 6packs-15箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 70X120inches 10pack-14箱": [
+      "白色 70X120inches 10pack-14箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 90inches Round 10pack-8箱": [
+      "白色 90inches Round 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 90inches Round 2pack-5箱": [
+      "白色 90inches Round 2pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 90inches Round 6pack-21箱": [
+      "白色 90inches Round 6pack-21箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 60X102inches 10pack-19箱": [
+      "米白色 60X102inches 10pack-19箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 60X126inches 10pack-9箱": [
+      "米白色 60X126inches 10pack-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 60X126inches 6pack-10箱": [
+      "米白色 60X126inches 6pack-10箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 70X120inches 10pack-8箱": [
+      "米白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 90inches Round 6pack-11箱": [
+      "米白色 90inches Round 6pack-11箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\蓝色 60X102inches 10pack-7箱": [
+      "蓝色 60X102inches 10pack-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\报关资料表": [
+      "畅选+波丽丝 2026.7.31发货 C26079-A AVP1 175箱 市场采购数据.xlsx",
+      "畅选+波丽丝 2026.7.31发货 C26079-A CLT2 128箱 市场采购数据.xlsx",
+      "畅选+波丽丝 2026.7.31发货 C26079-A GYR2 139箱 市场采购数据.xlsx",
+      "畅选+波丽丝 2026.7.31发货 C26079-A LGB8 182箱 市场采购数据.xlsx",
+      "畅选+波丽丝 2026.7.31发货 C26079-A MDW2 181箱 市场采购数据.xlsx"
+    ],
+    "完整存档\\C26079-A_FC\\货代入库贴": [],
+    "完整存档\\C26079-A_FC\\货代入库贴\\AVP1": [
+      "FC_AVP1_入库贴_175箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\货代入库贴\\CLT2": [
+      "FC_CLT2_入库贴_128箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\货代入库贴\\GYR2": [
+      "FC_GYR2_入库贴_139箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\货代入库贴\\LGB8": [
+      "FC_LGB8_入库贴_182箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\货代入库贴\\MDW2": [
+      "FC_MDW2_入库贴_181箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\货代入库贴下单表": [
+      "货代下单表_C26079-A 2026.7.31桌布 AVP1 175箱.xlsx",
+      "货代下单表_C26079-A 2026.7.31桌布 CLT2 128箱.xlsx",
+      "货代下单表_C26079-A 2026.7.31桌布 GYR2 139箱.xlsx",
+      "货代下单表_C26079-A 2026.7.31桌布 LGB8 182箱.xlsx",
+      "货代下单表_C26079-A 2026.7.31桌布 MDW2 181箱.xlsx"
+    ],
+    "完整存档\\C26079-B_AWD\\货代入库贴": [],
+    "完整存档\\C26079-B_AWD\\货代入库贴\\IUTE": [
+      "AWD_IUTE_入库贴_140箱.pdf"
+    ],
+    "完整存档\\C26079-B_AWD\\货代入库贴下单表": [
+      "货代下单表_C26079-B 2026.7.31桌布 AWD-IUTE 140箱.xlsx"
+    ]
+  },
+  "out_carton": {
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴": [],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 60X126inches 2pack-4箱": [
+      "白色 60X126inches 2pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 60×102inches 10packs-9箱": [
+      "白色 60×102inches 10packs-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 60×126inches 6packs-11箱": [
+      "白色 60×126inches 6packs-11箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 70X120inches 10pack-12箱": [
+      "白色 70X120inches 10pack-12箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 90inches Round 10pack-11箱": [
+      "白色 90inches Round 10pack-11箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 90inches Round 2pack-5箱": [
+      "白色 90inches Round 2pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\白色 90inches Round 6pack-19箱": [
+      "白色 90inches Round 6pack-19箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 60X102inches 10pack-19箱": [
+      "米白色 60X102inches 10pack-19箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 60X126inches 10pack-9箱": [
+      "米白色 60X126inches 10pack-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 60X126inches 6pack-6箱": [
+      "米白色 60X126inches 6pack-6箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 70X120inches 10pack-10箱": [
+      "米白色 70X120inches 10pack-10箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\米白色 90inches Round 6pack-12箱": [
+      "米白色 90inches Round 6pack-12箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\蓝色 60X102inches 10pack-8箱": [
+      "蓝色 60X102inches 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\AVP1\\外箱贴\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴": [],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 60X126inches 2pack-1箱": [
+      "白色 60X126inches 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 60×102inches 10packs-8箱": [
+      "白色 60×102inches 10packs-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 60×126inches 6packs-7箱": [
+      "白色 60×126inches 6packs-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 70X120inches 10pack-6箱": [
+      "白色 70X120inches 10pack-6箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 90inches Round 10pack-7箱": [
+      "白色 90inches Round 10pack-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 90inches Round 2pack-4箱": [
+      "白色 90inches Round 2pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\白色 90inches Round 6pack-13箱": [
+      "白色 90inches Round 6pack-13箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 60X102inches 10pack-14箱": [
+      "米白色 60X102inches 10pack-14箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 60X102inches 6pack-19箱": [
+      "米白色 60X102inches 6pack-19箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 60X126inches 10pack-8箱": [
+      "米白色 60X126inches 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 60X126inches 6pack-4箱": [
+      "米白色 60X126inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 70X120inches 10pack-8箱": [
+      "米白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\米白色 90inches Round 6pack-8箱": [
+      "米白色 90inches Round 6pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\黑色 90inches Round 10pack-3箱": [
+      "黑色 90inches Round 10pack-3箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\CLT2\\外箱贴\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴": [],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 60X126inches 2pack-1箱": [
+      "白色 60X126inches 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 60×102inches 10packs-9箱": [
+      "白色 60×102inches 10packs-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 60×126inches 6packs-7箱": [
+      "白色 60×126inches 6packs-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 70X120inches 10pack-8箱": [
+      "白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 90inches Round 10pack-5箱": [
+      "白色 90inches Round 10pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 90inches Round 2pack-3箱": [
+      "白色 90inches Round 2pack-3箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\白色 90inches Round 6pack-12箱": [
+      "白色 90inches Round 6pack-12箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 60X102inches 10pack-18箱": [
+      "米白色 60X102inches 10pack-18箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 60X126inches 10pack-7箱": [
+      "米白色 60X126inches 10pack-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 60X126inches 6pack-5箱": [
+      "米白色 60X126inches 6pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 70X120inches 10pack-9箱": [
+      "米白色 70X120inches 10pack-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\米白色 90inches Round 6pack-9箱": [
+      "米白色 90inches Round 6pack-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\黑色 90inches Round 10pack-5箱": [
+      "黑色 90inches Round 10pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\GYR2\\外箱贴\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴": [],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 60X126inches 2pack-2箱": [
+      "白色 60X126inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 60×102inches 10packs-12箱": [
+      "白色 60×102inches 10packs-12箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 60×126inches 6packs-10箱": [
+      "白色 60×126inches 6packs-10箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 70X120inches 10pack-10箱": [
+      "白色 70X120inches 10pack-10箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 90inches Round 10pack-9箱": [
+      "白色 90inches Round 10pack-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 90inches Round 2pack-3箱": [
+      "白色 90inches Round 2pack-3箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\白色 90inches Round 6pack-15箱": [
+      "白色 90inches Round 6pack-15箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 60X102inches 10pack-30箱": [
+      "米白色 60X102inches 10pack-30箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 60X102inches 6pack-32箱": [
+      "米白色 60X102inches 6pack-32箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 60X126inches 10pack-7箱": [
+      "米白色 60X126inches 10pack-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 60X126inches 6pack-5箱": [
+      "米白色 60X126inches 6pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 70X120inches 10pack-15箱": [
+      "米白色 70X120inches 10pack-15箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\米白色 90inches Round 6pack-10箱": [
+      "米白色 90inches Round 6pack-10箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\LGB8\\外箱贴\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴": [],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 60X126inches 2pack-2箱": [
+      "白色 60X126inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 60×102inches 10packs-12箱": [
+      "白色 60×102inches 10packs-12箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 60×126inches 6packs-15箱": [
+      "白色 60×126inches 6packs-15箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 70X120inches 10pack-14箱": [
+      "白色 70X120inches 10pack-14箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 90inches Round 10pack-8箱": [
+      "白色 90inches Round 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 90inches Round 2pack-5箱": [
+      "白色 90inches Round 2pack-5箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\白色 90inches Round 6pack-21箱": [
+      "白色 90inches Round 6pack-21箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 60X102inches 10pack-19箱": [
+      "米白色 60X102inches 10pack-19箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 60X126inches 10pack-9箱": [
+      "米白色 60X126inches 10pack-9箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 60X126inches 6pack-10箱": [
+      "米白色 60X126inches 6pack-10箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 70X120inches 10pack-8箱": [
+      "米白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\米白色 90inches Round 6pack-11箱": [
+      "米白色 90inches Round 6pack-11箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\蓝色 60X102inches 10pack-7箱": [
+      "蓝色 60X102inches 10pack-7箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "C26079-A_32260_2026.7.31_贴标包\\MDW2\\外箱贴\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "C26079-B_4200_2026.7.31_贴标包\\外箱贴_IUTE": [],
+    "C26079-B_4200_2026.7.31_贴标包\\外箱贴_IUTE\\白_60X126inch_10条装": [
+      "AWD_IUTE_白_60X126inch_10条装_50箱.pdf"
+    ],
+    "C26079-B_4200_2026.7.31_贴标包\\外箱贴_IUTE\\白_70X120inch_6条装": [
+      "AWD_IUTE_白_70X120inch_6条装_50箱.pdf"
+    ],
+    "C26079-B_4200_2026.7.31_贴标包\\外箱贴_IUTE\\米白_70X120inch_6条装": [
+      "AWD_IUTE_米白_70X120inch_6条装_40箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴": [],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1": [
+      "FC_AVP1_入库贴_175箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 60X126inches 2pack-4箱": [
+      "白色 60X126inches 2pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 60×102inches 10packs-9箱": [
+      "白色 60×102inches 10packs-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 60×126inches 6packs-11箱": [
+      "白色 60×126inches 6packs-11箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 70X120inches 10pack-12箱": [
+      "白色 70X120inches 10pack-12箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 90inches Round 10pack-11箱": [
+      "白色 90inches Round 10pack-11箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 90inches Round 2pack-5箱": [
+      "白色 90inches Round 2pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\白色 90inches Round 6pack-19箱": [
+      "白色 90inches Round 6pack-19箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 60X102inches 10pack-19箱": [
+      "米白色 60X102inches 10pack-19箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 60X126inches 10pack-9箱": [
+      "米白色 60X126inches 10pack-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 60X126inches 6pack-6箱": [
+      "米白色 60X126inches 6pack-6箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 70X120inches 10pack-10箱": [
+      "米白色 70X120inches 10pack-10箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\米白色 90inches Round 6pack-12箱": [
+      "米白色 90inches Round 6pack-12箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\蓝色 60X102inches 10pack-8箱": [
+      "蓝色 60X102inches 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\AVP1\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2": [
+      "FC_CLT2_入库贴_128箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 60X126inches 2pack-1箱": [
+      "白色 60X126inches 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 60×102inches 10packs-8箱": [
+      "白色 60×102inches 10packs-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 60×126inches 6packs-7箱": [
+      "白色 60×126inches 6packs-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 70X120inches 10pack-6箱": [
+      "白色 70X120inches 10pack-6箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 90inches Round 10pack-7箱": [
+      "白色 90inches Round 10pack-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 90inches Round 2pack-4箱": [
+      "白色 90inches Round 2pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\白色 90inches Round 6pack-13箱": [
+      "白色 90inches Round 6pack-13箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 60X102inches 10pack-14箱": [
+      "米白色 60X102inches 10pack-14箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 60X102inches 6pack-19箱": [
+      "米白色 60X102inches 6pack-19箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 60X126inches 10pack-8箱": [
+      "米白色 60X126inches 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 60X126inches 6pack-4箱": [
+      "米白色 60X126inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 70X120inches 10pack-8箱": [
+      "米白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\米白色 90inches Round 6pack-8箱": [
+      "米白色 90inches Round 6pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\黑色 90inches Round 10pack-3箱": [
+      "黑色 90inches Round 10pack-3箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\CLT2\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2": [
+      "FC_GYR2_入库贴_139箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 60X126inches 2pack-1箱": [
+      "白色 60X126inches 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 60×102inches 10packs-9箱": [
+      "白色 60×102inches 10packs-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 60×126inches 6packs-7箱": [
+      "白色 60×126inches 6packs-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 70X120inches 10pack-8箱": [
+      "白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 90inches Round 10pack-5箱": [
+      "白色 90inches Round 10pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 90inches Round 2pack-3箱": [
+      "白色 90inches Round 2pack-3箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\白色 90inches Round 6pack-12箱": [
+      "白色 90inches Round 6pack-12箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 60X102inches 10pack-18箱": [
+      "米白色 60X102inches 10pack-18箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 60X126inches 10pack-7箱": [
+      "米白色 60X126inches 10pack-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 60X126inches 6pack-5箱": [
+      "米白色 60X126inches 6pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 70X120inches 10pack-9箱": [
+      "米白色 70X120inches 10pack-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\米白色 90inches Round 6pack-9箱": [
+      "米白色 90inches Round 6pack-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\黑色 90inches Round 10pack-5箱": [
+      "黑色 90inches Round 10pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\GYR2\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8": [
+      "FC_LGB8_入库贴_182箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 60X126inches 2pack-2箱": [
+      "白色 60X126inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 60×102inches 10packs-12箱": [
+      "白色 60×102inches 10packs-12箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 60×126inches 6packs-10箱": [
+      "白色 60×126inches 6packs-10箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 70X120inches 10pack-10箱": [
+      "白色 70X120inches 10pack-10箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 90inches Round 10pack-9箱": [
+      "白色 90inches Round 10pack-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 90inches Round 2pack-3箱": [
+      "白色 90inches Round 2pack-3箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\白色 90inches Round 6pack-15箱": [
+      "白色 90inches Round 6pack-15箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 60X102inches 10pack-30箱": [
+      "米白色 60X102inches 10pack-30箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 60X102inches 6pack-32箱": [
+      "米白色 60X102inches 6pack-32箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 60X126inches 10pack-7箱": [
+      "米白色 60X126inches 10pack-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 60X126inches 6pack-5箱": [
+      "米白色 60X126inches 6pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 70X120inches 10pack-15箱": [
+      "米白色 70X120inches 10pack-15箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\米白色 90inches Round 6pack-10箱": [
+      "米白色 90inches Round 6pack-10箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\LGB8\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2": [
+      "FC_MDW2_入库贴_181箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 60X126inches 2pack-2箱": [
+      "白色 60X126inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 60×102inches 10packs-12箱": [
+      "白色 60×102inches 10packs-12箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 60×126inches 6packs-15箱": [
+      "白色 60×126inches 6packs-15箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 70X120inches 10pack-14箱": [
+      "白色 70X120inches 10pack-14箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 90inches Round 10pack-8箱": [
+      "白色 90inches Round 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 90inches Round 2pack-5箱": [
+      "白色 90inches Round 2pack-5箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\白色 90inches Round 6pack-21箱": [
+      "白色 90inches Round 6pack-21箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 60X102inches 10pack-19箱": [
+      "米白色 60X102inches 10pack-19箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 60X126inches 10pack-9箱": [
+      "米白色 60X126inches 10pack-9箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 60X126inches 6pack-10箱": [
+      "米白色 60X126inches 6pack-10箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 70X120inches 10pack-8箱": [
+      "米白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\米白色 90inches Round 6pack-11箱": [
+      "米白色 90inches Round 6pack-11箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\蓝色 60X102inches 10pack-7箱": [
+      "蓝色 60X102inches 10pack-7箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "完整存档\\C26079-A_FC\\外箱贴\\MDW2\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "完整存档\\C26079-B_AWD\\外箱贴": [],
+    "完整存档\\C26079-B_AWD\\外箱贴\\IUTE": [
+      "AWD_IUTE_入库贴_140箱.pdf"
+    ],
+    "完整存档\\C26079-B_AWD\\外箱贴\\IUTE\\白_60X126inch_10条装": [
+      "AWD_IUTE_白_60X126inch_10条装_50箱.pdf"
+    ],
+    "完整存档\\C26079-B_AWD\\外箱贴\\IUTE\\白_70X120inch_6条装": [
+      "AWD_IUTE_白_70X120inch_6条装_50箱.pdf"
+    ],
+    "完整存档\\C26079-B_AWD\\外箱贴\\IUTE\\米白_70X120inch_6条装": [
+      "AWD_IUTE_米白_70X120inch_6条装_40箱.pdf"
+    ]
+  },
+  "ship_interest": {
+    "FBA外箱贴": [],
+    "FBA外箱贴\\AVP1": [
+      "FC_AVP1_入库贴_175箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\.mixed_bak_20260727_111719_米白色 60X126inches 6pack-15箱": [
+      "米白色 60X126inches 6pack-15箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\白色 60X126inches 2pack-4箱": [
+      "白色 60X126inches 2pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\白色 60×102inches 10packs-9箱": [
+      "白色 60×102inches 10packs-9箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\白色 60×126inches 6packs-11箱": [
+      "白色 60×126inches 6packs-11箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\白色 70X120inches 10pack-12箱": [
+      "白色 70X120inches 10pack-12箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\白色 90inches Round 10pack-11箱": [
+      "白色 90inches Round 10pack-11箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\白色 90inches Round 2pack-5箱": [
+      "白色 90inches Round 2pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\白色 90inches Round 6pack-19箱": [
+      "白色 90inches Round 6pack-19箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\米白色 60X102inches 10pack-19箱": [
+      "米白色 60X102inches 10pack-19箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\米白色 60X126inches 10pack-9箱": [
+      "米白色 60X126inches 10pack-9箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\米白色 60X126inches 6pack-6箱": [
+      "米白色 60X126inches 6pack-6箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\米白色 70X120inches 10pack-10箱": [
+      "米白色 70X120inches 10pack-10箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\米白色 90inches Round 6pack-12箱": [
+      "米白色 90inches Round 6pack-12箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\蓝色 60X102inches 10pack-8箱": [
+      "蓝色 60X102inches 10pack-8箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\AVP1\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "FBA外箱贴\\AWD": [],
+    "FBA外箱贴\\AWD\\IUTE": [
+      "AWD_IUTE_入库贴_140箱.pdf",
+      "_MERGE_NOTE.md",
+      "_PROMOTED.md"
+    ],
+    "FBA外箱贴\\AWD\\IUTE\\白_60X126inch_10条装": [
+      "AWD_IUTE_白_60X126inch_10条装_50箱.pdf"
+    ],
+    "FBA外箱贴\\AWD\\IUTE\\白_70X120inch_6条装": [
+      "AWD_IUTE_白_70X120inch_6条装_50箱.pdf"
+    ],
+    "FBA外箱贴\\AWD\\IUTE\\米白_70X120inch_6条装": [
+      "AWD_IUTE_米白_70X120inch_6条装_40箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2": [
+      "FC_CLT2_入库贴_128箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\.mixed_bak_20260727_111719_米白色 60X126inches 6pack-12箱": [
+      "米白色 60X126inches 6pack-12箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\白色 60X126inches 2pack-1箱": [
+      "白色 60X126inches 2pack-1箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\白色 60×102inches 10packs-8箱": [
+      "白色 60×102inches 10packs-8箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\白色 60×126inches 6packs-7箱": [
+      "白色 60×126inches 6packs-7箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\白色 70X120inches 10pack-6箱": [
+      "白色 70X120inches 10pack-6箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\白色 90inches Round 10pack-7箱": [
+      "白色 90inches Round 10pack-7箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\白色 90inches Round 2pack-4箱": [
+      "白色 90inches Round 2pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\白色 90inches Round 6pack-13箱": [
+      "白色 90inches Round 6pack-13箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\米白色 60X102inches 10pack-14箱": [
+      "米白色 60X102inches 10pack-14箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\米白色 60X102inches 6pack-19箱": [
+      "米白色 60X102inches 6pack-19箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\米白色 60X126inches 10pack-8箱": [
+      "米白色 60X126inches 10pack-8箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\米白色 60X126inches 6pack-4箱": [
+      "米白色 60X126inches 6pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\米白色 70X120inches 10pack-8箱": [
+      "米白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\米白色 90inches Round 6pack-8箱": [
+      "米白色 90inches Round 6pack-8箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\黑色 90inches Round 10pack-3箱": [
+      "黑色 90inches Round 10pack-3箱.pdf"
+    ],
+    "FBA外箱贴\\CLT2\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "FBA外箱贴\\FC": [],
+    "FBA外箱贴\\GWD": [],
+    "FBA外箱贴\\GYR2": [
+      "FC_GYR2_入库贴_139箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\.mixed_bak_20260727_111719_米白色 60X126inches 6pack-12箱": [
+      "米白色 60X126inches 6pack-12箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\白色 60X126inches 2pack-1箱": [
+      "白色 60X126inches 2pack-1箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\白色 60×102inches 10packs-9箱": [
+      "白色 60×102inches 10packs-9箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\白色 60×126inches 6packs-7箱": [
+      "白色 60×126inches 6packs-7箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\白色 70X120inches 10pack-8箱": [
+      "白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\白色 90inches Round 10pack-5箱": [
+      "白色 90inches Round 10pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\白色 90inches Round 2pack-3箱": [
+      "白色 90inches Round 2pack-3箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\白色 90inches Round 6pack-12箱": [
+      "白色 90inches Round 6pack-12箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\米白色 60X102inches 10pack-18箱": [
+      "米白色 60X102inches 10pack-18箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\米白色 60X126inches 10pack-7箱": [
+      "米白色 60X126inches 10pack-7箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\米白色 60X126inches 6pack-5箱": [
+      "米白色 60X126inches 6pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\米白色 70X120inches 10pack-9箱": [
+      "米白色 70X120inches 10pack-9箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\米白色 90inches Round 6pack-9箱": [
+      "米白色 90inches Round 6pack-9箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\黑色 90inches Round 10pack-5箱": [
+      "黑色 90inches Round 10pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\GYR2\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8": [
+      "FC_LGB8_入库贴_182箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\.mixed_bak_20260727_111719_米白色 60X126inches 6pack-12箱": [
+      "米白色 60X126inches 6pack-12箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\白色 60X126inches 2pack-2箱": [
+      "白色 60X126inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\白色 60×102inches 10packs-12箱": [
+      "白色 60×102inches 10packs-12箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\白色 60×126inches 6packs-10箱": [
+      "白色 60×126inches 6packs-10箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\白色 70X120inches 10pack-10箱": [
+      "白色 70X120inches 10pack-10箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\白色 90inches Round 10pack-9箱": [
+      "白色 90inches Round 10pack-9箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\白色 90inches Round 2pack-3箱": [
+      "白色 90inches Round 2pack-3箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\白色 90inches Round 6pack-15箱": [
+      "白色 90inches Round 6pack-15箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\米白色 60X102inches 10pack-30箱": [
+      "米白色 60X102inches 10pack-30箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\米白色 60X102inches 6pack-32箱": [
+      "米白色 60X102inches 6pack-32箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\米白色 60X126inches 10pack-7箱": [
+      "米白色 60X126inches 10pack-7箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\米白色 60X126inches 6pack-5箱": [
+      "米白色 60X126inches 6pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\米白色 70X120inches 10pack-15箱": [
+      "米白色 70X120inches 10pack-15箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\米白色 90inches Round 6pack-10箱": [
+      "米白色 90inches Round 6pack-10箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\蓝色 60X102inches 10pack-5箱": [
+      "蓝色 60X102inches 10pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\LGB8\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2": [
+      "FC_MDW2_入库贴_181箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\.mixed_bak_20260727_111719_米白色 60X126inches 6pack-19箱": [
+      "米白色 60X126inches 6pack-19箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\白色 60X126inches 2pack-2箱": [
+      "白色 60X126inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\白色 60×102inches 10packs-12箱": [
+      "白色 60×102inches 10packs-12箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\白色 60×126inches 6packs-15箱": [
+      "白色 60×126inches 6packs-15箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\白色 70X120inches 10pack-14箱": [
+      "白色 70X120inches 10pack-14箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\白色 70X120inches 2pack-2箱": [
+      "白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\白色 90inches Round 10pack-8箱": [
+      "白色 90inches Round 10pack-8箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\白色 90inches Round 2pack-5箱": [
+      "白色 90inches Round 2pack-5箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\白色 90inches Round 6pack-21箱": [
+      "白色 90inches Round 6pack-21箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\米白色 60X102inches 10pack-19箱": [
+      "米白色 60X102inches 10pack-19箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\米白色 60X102inches 6pack-23箱": [
+      "米白色 60X102inches 6pack-23箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\米白色 60X126inches 10pack-9箱": [
+      "米白色 60X126inches 10pack-9箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\米白色 60X126inches 6pack-10箱": [
+      "米白色 60X126inches 6pack-10箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\米白色 70X120inches 10pack-8箱": [
+      "米白色 70X120inches 10pack-8箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\米白色 70X120inches 2pack-2箱": [
+      "米白色 70X120inches 2pack-2箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\米白色 90inches Round 6pack-11箱": [
+      "米白色 90inches Round 6pack-11箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\蓝色 60X102inches 10pack-7箱": [
+      "蓝色 60X102inches 10pack-7箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\蓝色 60X102inches 6pack-4箱": [
+      "蓝色 60X102inches 6pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\黑色 70X120inches 10pack-4箱": [
+      "黑色 70X120inches 10pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\黑色 90inches Round 10pack-4箱": [
+      "黑色 90inches Round 10pack-4箱.pdf"
+    ],
+    "FBA外箱贴\\MDW2\\黑色 90inches Round 2pack-1箱": [
+      "黑色 90inches Round 2pack-1箱.pdf"
+    ],
+    "FBA外箱贴\\_inbox": [
+      "IUTE C26078单 剩下的140箱 7.31给货.pdf"
+    ],
+    "FBA外箱贴\\_recognize": [
+      "C26079-B_AWD_page_summary.json",
+      "C26079-B_AWD_page_summary.md",
+      "ingest_20260723_093438.json",
+      "ingest_20260723_093438.md",
+      "ingest_20260723_093444.json",
+      "ingest_20260723_093444.md"
+    ],
+    "FBA外箱贴\\_staging": [],
+    "FBA外箱贴\\_staging\\AWD": [],
+    "FBA外箱贴\\_staging\\AWD\\IUTE": [],
+    "FBA外箱贴\\_staging\\AWD\\IUTE\\白_60X126inch_10条装": [
+      "AWD_IUTE_白_60X126inch_10条装_50箱.pdf"
+    ],
+    "FBA外箱贴\\_staging\\AWD\\IUTE\\白_70X120inch_6条装": [
+      "AWD_IUTE_白_70X120inch_6条装_50箱.pdf"
+    ],
+    "FBA外箱贴\\_staging\\AWD\\IUTE\\米白_70X120inch_6条装": [
+      "AWD_IUTE_米白_70X120inch_6条装_40箱.pdf"
+    ],
+    "FBA外箱贴\\_staging\\AWD\\_no_wh": [
+      "IUTE C26078单 剩下的140箱 7.31给货_p0001_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0002_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0003_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0004_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0005_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0006_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0007_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0008_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0009_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0010_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0011_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0012_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0013_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0014_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0015_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0016_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0017_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0018_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0019_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0020_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0021_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0022_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0023_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0024_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0025_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0026_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0027_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0028_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0029_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0030_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0031_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0032_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0033_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0034_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0035_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0036_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0037_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0038_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0039_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0040_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0041_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0042_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0043_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0044_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0045_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0046_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0047_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0048_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0049_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0050_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0051_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0052_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0053_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0054_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0055_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0056_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0057_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0058_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0059_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0060_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0061_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0062_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0063_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0064_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0065_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0066_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0067_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0068_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0069_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0070_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0071_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0072_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0073_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0074_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0075_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0076_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0077_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0078_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0079_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0080_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0081_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0082_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0083_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0084_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0085_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0086_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0087_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0088_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0089_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0090_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0091_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0092_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0093_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0094_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0095_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0096_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0097_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0098_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0099_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0100_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0101_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0102_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0103_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0104_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0105_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0106_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0107_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0108_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0109_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0110_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0111_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0112_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0113_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0114_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0115_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0116_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0117_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0118_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0119_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0120_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0121_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0122_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0123_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0124_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0125_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0126_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0127_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0128_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0129_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0130_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0131_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0132_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0133_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0134_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0135_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0136_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0137_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0138_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0139_noship.pdf",
+      "IUTE C26078单 剩下的140箱 7.31给货_p0140_noship.pdf"
+    ],
+    "拆单比对": [
+      "C26079-A_TEMPLATE.json",
+      "C26079-A_TEMPLATE.md",
+      "C26079-A_amount_weight_reconcile.md",
+      "C26079-A_fba_recognize.json",
+      "C26079-A_manifest.DRAFT.json",
+      "C26079-A_manifest.json",
+      "C26079-B_AWD_NOTE.md",
+      "C26079-B_PENDING.md",
+      "C26079-B_amount_weight_reconcile.md",
+      "C26079-B_manifest.json",
+      "SKU_人工备注.md",
+      "_last_compare_report.md",
+      "split_ledger.json"
+    ],
+    "货代入库贴": [
+      "945箱入库贴(1).zip"
+    ],
+    "货代入库贴\\_inbox": [
+      "label_FBA19JT0K3PY_182.pdf",
+      "label_FBA19JT16DMQ_181.pdf",
+      "label_FBA19JT39521_175.pdf",
+      "label_FBA19JT3Q0H0_139.pdf",
+      "label_FBA19JT71WTZ_128.pdf",
+      "label_STAR-QG6CTURZGY6MX_140.pdf"
+    ],
+    "货代入库贴\\_recognize": [
+      "inbound_recognize_20260724_103553.json",
+      "inbound_recognize_20260724_104934.json",
+      "inbound_recognize_latest.json"
+    ],
+    "货代入库贴\\_staging": [],
+    "货代入库贴下单表": [
+      "货代下单表_C26079-A 2026.7.31桌布 AVP1 175箱.xlsx",
+      "货代下单表_C26079-A 2026.7.31桌布 CLT2 128箱.xlsx",
+      "货代下单表_C26079-A 2026.7.31桌布 GYR2 139箱.xlsx",
+      "货代下单表_C26079-A 2026.7.31桌布 LGB8 182箱.xlsx",
+      "货代下单表_C26079-A 2026.7.31桌布 MDW2 181箱.xlsx",
+      "货代下单表_C26079-B 2026.7.31桌布 AWD-IUTE 140箱.pre_mediafix.xlsx",
+      "货代下单表_C26079-B 2026.7.31桌布 AWD-IUTE 140箱.xlsx"
+    ]
+  }
+}

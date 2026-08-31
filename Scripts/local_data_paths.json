@@ -1,8 +1,0 @@
-{
-  "deprecated": true,
-  "replaced_by": {
-    "doc": "Templates/Data_Source_Interfaces.md",
-    "json": "Scripts/data_source_interfaces.json"
-  },
-  "note": "Do not use absolute path dumps. Use interface_id registry for template/reference sources."
-}

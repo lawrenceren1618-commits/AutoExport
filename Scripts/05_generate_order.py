@@ -26,7 +26,7 @@ sys.path.insert(0, str(SCRIPTS))
 
 from m1.assemble import assemble_order_lines, load_settled_products  # noqa: E402
 from m1.conflict import detect_master_conflicts, detect_packing_conflicts  # noqa: E402
-from m1.order_fill import fill_order_template, resolve_blank_template  # noqa: E402
+from m1.order_fill import fill_order_template, resolve_blank_template, resolve_order_template  # noqa: E402
 from m1.order_parse import parse_order_workbook  # noqa: E402
 
 PROJECT = SCRIPTS.parent
@@ -158,8 +158,8 @@ def main() -> None:
     args = parser.parse_args()
 
     if args.ensure_template:
-        p = resolve_blank_template()
-        print(f"blank_template={p}")
+        p = resolve_order_template()
+        print(f"order_template={p}")
         return
 
     if args.scan or not args.order_code:
@@ -255,7 +255,9 @@ def main() -> None:
         print("BLOCKED by gate")
         sys.exit(5)
 
-    out_xlsx = DRAFT_DIR / f"{entity}_{args.order_code}_order_{datetime.now().strftime('%Y%m%d')}.xlsx"
+    from m1.order_fill import order_workbook_filename
+
+    out_xlsx = DRAFT_DIR / order_workbook_filename(args.order_code, args.delivery_date)
     fill_order_template(
         order_code=args.order_code,
         order_date=args.order_date,

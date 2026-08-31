@@ -1,0 +1,3 @@
+本腿货代为亚马逊 SEND 承运人（如纽酷）。
+外箱贴 PDF 已从后台下载且已含入库贴，无需单独货代回传入库贴。
+见 Scripts/freight_forwarder_profiles.json 与 Templates/Freight_Inbound_Label_Pipeline.md §0.1

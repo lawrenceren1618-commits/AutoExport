@@ -1,0 +1,23 @@
+{
+  "project": "EF-C26100-C07-12000_C07_20260919_12000",
+  "confirmed_at": "2026-08-31T15:08:31+0800",
+  "gate": "CONFIRMED",
+  "gate_report": "2_Processed_AI/cross_check_reports/cross_check_EF-C26100-C07-12000_C07_20260919_12000_20260831_150812.json",
+  "output_root": "3_Output_Final/EF-C26100-C07-12000_C07_20260919_12000",
+  "legs": {
+    "C26100": {
+      "channel": "AWD",
+      "warehouse": "IUTJ",
+      "cartons": 300,
+      "strips": 12000,
+      "shipment_id": "STAR-Q675HFPYAEZ7Y",
+      "tracking_id": "8OTA332Y",
+      "freight_forwarder": "物易通"
+    }
+  },
+  "notes": [
+    "外箱贴 300页 promote 完成",
+    "入库贴 300页 三重验证 PASS",
+    "贴标包文件夹名 C26100-B_0 为导出脚本腿号解析所致，内容条数=12000"
+  ]
+}

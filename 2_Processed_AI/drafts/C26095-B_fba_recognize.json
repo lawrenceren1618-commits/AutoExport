@@ -1,0 +1,37 @@
+{
+  "order_code": "EF-C26095-C07-7800",
+  "split_leg_id": "C26095-B",
+  "channel": "FC",
+  "user_confirmed": true,
+  "warehouses": [
+    {
+      "warehouse_code": "GEU3",
+      "specs": [
+        {
+          "fnsku": "X00510W6CF",
+          "size": "60X102inch",
+          "color": "米白",
+          "strips_per_pack": 10,
+          "packs_per_carton": 4,
+          "strips_per_carton": 40,
+          "qty_strips": 4000,
+          "qty_cartons": 100,
+          "strips": 4000,
+          "cartons": 100
+        },
+        {
+          "fnsku": "X0053BBGYL",
+          "size": "90inchround",
+          "color": "米白",
+          "strips_per_pack": 10,
+          "packs_per_carton": 4,
+          "strips_per_carton": 40,
+          "qty_strips": 800,
+          "qty_cartons": 20,
+          "strips": 800,
+          "cartons": 20
+        }
+      ]
+    }
+  ]
+}

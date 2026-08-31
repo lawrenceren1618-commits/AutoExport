@@ -164,6 +164,110 @@
         "status": "pending_cloud",
         "planned": "Gate service reading settled DB + draft objects"
       }
+    },
+    {
+      "id": "job.freight_inbound_labels_inbox",
+      "task": "recognize_validate_merge_freight_inbound_labels",
+      "needs": "PDF inbound labels returned by freight forwarder after order xlsx sent",
+      "module": "M2",
+      "obtain": {
+        "local_flow": "Shipments/{project}/货代入库贴/_inbox → Scripts/12_freight_inbound_label_ingest.py",
+        "rules_doc": "Templates/Freight_Inbound_Label_Pipeline.md",
+        "final_place": "FBA外箱贴/{channel}/{warehouse}/{channel}_{warehouse}_入库贴_{N}箱.pdf",
+        "note": "Triple cross-check FBA+warehouse+page_count; no duplicate pages; one PDF per warehouse"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "Upload API → Storage → worker invoke 12"
+      }
+    },
+    {
+      "id": "pack.archive_full",
+      "task": "export_full_shipment_archive",
+      "needs": "order / outbound / customs / carton labels / freight order xlsx / inbound labels",
+      "obtain": {
+        "local_flow": "Scripts/13_export_output_packs.py → 3_Output_Final/{project}/完整存档/",
+        "rules_doc": "Templates/Colleague_Pack_Export.md",
+        "note": "Copy-only; processing stays in Shipments"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "Storage download pack or zip API"
+      }
+    },
+    {
+      "id": "pack.factory_label_kit",
+      "task": "export_factory_label_kit",
+      "needs": "carton labels and inbound labels organized by destination warehouse",
+      "obtain": {
+        "local_flow": "Scripts/13_export_output_packs.py → 3_Output_Final/{project}/{split_leg_id}_{strips}_{ship_date}_贴标包/",
+        "rules_doc": "Templates/Colleague_Pack_Export.md",
+        "note": "One pack per leg; single-WH flat 外箱贴_{WH}/+入库贴_{WH}/; multi-WH {WH}/外箱贴"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "Storage download pack or zip API"
+      }
+    },
+    {
+      "id": "pack.wechat_send_zip",
+      "task": "merge_same_batch_label_kits_for_wechat",
+      "needs": "one zip of all same-order same-ship_date leg 贴标包 (no 完整存档)",
+      "obtain": {
+        "local_flow": "Scripts/13_export_output_packs.py --zip → 3_Output_Final/{project}/{order_short}_{ship_date}_微信发送.zip",
+        "rules_doc": "Templates/Colleague_Pack_Export.md",
+        "note": "WeChat cannot send folders; merge 贴标包 only; 完整存档 stays as folder beside zip"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "Storage signed download of merged zip"
+      }
+    },
+    {
+      "id": "ref.multi_order_ship_batch",
+      "task": "primary_split_plus_secondary_co_ship",
+      "needs": "rules for C26080 split + C26068 join one leg",
+      "obtain": {
+        "github": "Templates/Multi_Order_Ship_Batch.md",
+        "upload_scaffold": "1_Input_Raw/Shipments/EF-C26080_待识别/",
+        "note": "Additive doc; does not replace C04 single-order settled rules"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "batch_group / co_ship fields on shipment project"
+      }
+    },
+    {
+      "id": "job.user_io_project",
+      "task": "per_job_upload_and_pickup_via_channel_A",
+      "needs": "User_IO project tree: 输入端 three folders + 输出端 five + 汇总存档",
+      "channel": "A",
+      "obtain": {
+        "local_root": "User_IO/{project}/",
+        "template": "User_IO/_TEMPLATE/",
+        "rules_doc": "Templates/User_IO_Layout.md",
+        "architecture": "Templates/Channel_AB_Architecture.md",
+        "note": "Ops front; processing still in channel B until A↔B wired"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "Storage buckets user-io-in / user-io-out + project row in autoexport.user_io_projects"
+      }
+    },
+    {
+      "id": "ref.channel_b_shipments",
+      "task": "verified_pipeline_secondary_source",
+      "needs": "Shipments project tree + Scripts pipeline",
+      "channel": "B",
+      "obtain": {
+        "local_root": "1_Input_Raw/Shipments/{project}/",
+        "scripts": "Scripts/03|06|09|12|13|14_*.py",
+        "note": "Tech-support black box; not the fundamental DB (settled is)"
+      },
+      "cloud": {
+        "status": "pending_cloud",
+        "planned": "optional archive of light PROJECT.json + ledgers only; heavy PDFs via Storage"
+      }
     }
   ]
 }

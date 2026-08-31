@@ -1,0 +1,100 @@
+{
+  "confirmed_at": "2026-08-20T16:20:00+0800",
+  "order_code": "EF-C26089-C07-40000",
+  "user_confirmed": true,
+  "legs": {
+    "C26089-A": {
+      "freight_forwarder": "纽酷",
+      "channel": "FC",
+      "ship_date": "2026-08-29",
+      "outbound_short": "C07-2609",
+      "qty_cartons": 500,
+      "qty_strips": 20000,
+      "carton_sources": [
+        "FBA外箱贴/_inbox/C26089-A 纽酷/*.pdf（五仓各一）"
+      ],
+      "rows": [
+        {
+          "warehouse_code": "LAS1",
+          "fba_shipment_id": "FBA19MBJ7GW8",
+          "tracking_id": "6PAUFFDO",
+          "carton_count": 107,
+          "strip_count": 4280,
+          "channel": "FC",
+          "freight_addr": "LAS1 - 12300 Bermuda Road 89044-8746 - HENDERSON, NV - United States"
+        },
+        {
+          "warehouse_code": "CLT2",
+          "fba_shipment_id": "FBA19MBF40MV",
+          "tracking_id": "5ZYWD47J",
+          "carton_count": 85,
+          "strip_count": 3400,
+          "channel": "FC",
+          "freight_addr": "CLT2 - 10240 Old Dowd Rd 28214-8082 - Charlotte, NC - United States"
+        },
+        {
+          "warehouse_code": "TEB9",
+          "fba_shipment_id": "FBA19MBHDDR0",
+          "tracking_id": "6EYAJFFI",
+          "carton_count": 90,
+          "strip_count": 3600,
+          "channel": "FC",
+          "freight_addr": "TEB9 - 601 Randolph Road 08873 - SOMERSET, NJ - United States"
+        },
+        {
+          "warehouse_code": "SBD1",
+          "fba_shipment_id": "FBA19MBFWX4B",
+          "tracking_id": "6OZ3AMWL",
+          "carton_count": 119,
+          "strip_count": 4760,
+          "channel": "FC",
+          "freight_addr": "SBD1 - 3388 S Cactus Ave 92316-3819 - BLOOMINGTON, CA - United States"
+        },
+        {
+          "warehouse_code": "LAX9",
+          "fba_shipment_id": "FBA19MBJ7JXH",
+          "tracking_id": "1ZHHGF1L",
+          "carton_count": 99,
+          "strip_count": 3960,
+          "channel": "FC",
+          "freight_addr": "LAX9 - 11263 Oleander Ave 92337-7441 - FONTANA, CA - United States"
+        }
+      ],
+      "note": "PDF页眉箱数：LAS1=107 CLT2=85 TEB9=90 SBD1=119 LAX9=99；Σ=500。用户确认FBA/追踪/地址。"
+    },
+    "C26089-B": {
+      "freight_forwarder": "物易通",
+      "channel": "AWD",
+      "ship_date": "2026-08-29",
+      "outbound_short": "C07-2609",
+      "qty_cartons": 500,
+      "qty_strips": 20000,
+      "carton_sources": [
+        "FBA外箱贴/_inbox/C26089-B STAR-RCKQMK6EMHN4K 物易通500箱 IUSP.pdf"
+      ],
+      "voided_shipment": {
+        "warehouse_code": "IUTJ",
+        "fba_shipment_id": "STAR-RVDK5S4HGQWDK",
+        "tracking_id": "5PGFDAXN",
+        "voided_at": "2026-08-25",
+        "reason": "user deleted Amazon shipment; recreate"
+      },
+      "rows": [
+        {
+          "warehouse_code": "IUSP",
+          "fba_shipment_id": "STAR-RCKQMK6EMHN4K",
+          "tracking_id": "42LMBL4E",
+          "carton_count": 500,
+          "strip_count": 20000,
+          "channel": "AWD",
+          "freight_addr": "IUSP - 8140 Caliente Rd 92344 - HESPERIA, CA - United States",
+          "recognize_notes": "PDF文本层：IUSP / STAR-RCKQMK6EMHN4K / PO ID 42LMBL4E / 500箱；2026-08-25 重建确认"
+        }
+      ]
+    }
+  },
+  "protocol_note": "原计划A=502 B=503按单仓假设；A现为五FC仓，按一仓一号重开：A=502–506、B=507（501已作废）",
+  "fnsku": "X004SJV9UF",
+  "strips_per_carton": 40,
+  "product": "白 60X102inch 10条装"
+}

@@ -1,0 +1,34 @@
+{
+  "version": "v3",
+  "confirmed_at": "2026-08-28",
+  "source_file": "2026年发货记录.xls",
+  "sheet": "Sheet1",
+  "header_rows": 2,
+  "freeze_pane": "B3",
+  "columns": [
+    { "col": "A", "index": 0, "field": "month", "label": "月份", "merge": "vertical_by_month_block" },
+    { "col": "B", "index": 1, "field": "create_date", "label": "创建日期", "nullable": true },
+    { "col": "C", "index": 2, "field": "give_date", "label": "给货日期", "note": "票号 C26xxx 写在本列第二行，如 9.4 易尚\\nC26095-A 100箱" },
+    { "col": "D", "index": 3, "field": "gram_weight_g", "label": "克重", "unit": "g/m2", "merge": "with_spec_group" },
+    { "col": "E", "index": 4, "field": "strips_per_pack", "label": "规格", "note": "2026+ 桌布简写：6/10/2 表示条/包" },
+    { "col": "F", "index": 5, "field": "size_short", "label": "尺寸", "note": "简码+色，如 102白、120米白、90圆米白" },
+    { "col": "G", "index": 6, "field": "unit_cost", "label": "成本", "note": "历史对照；新业务以单价截图确认流为准" },
+    { "col": "H", "index": 7, "field": "cartons", "label": "箱数", "type": "number" },
+    { "col": "I", "index": 8, "field": "channel", "label": "渠道", "examples": ["物易通", "后台扣款", "纽酷"] },
+    { "col": "J", "index": 9, "field": "fba_ids", "label": "FBA单号", "note": "同腿可多行 FBA19… 换行并列" },
+    { "col": "K", "index": 10, "field": "freight_rmb", "label": "运费", "unit": "CNY", "niuku_send_rule": 0 },
+    { "col": "L", "index": 11, "field": "note", "label": "备注" },
+    { "col": "M", "index": 12, "field": "packs_per_carton", "label": "包/箱", "type": "number", "required_for_freight_alloc": true }
+  ],
+  "batch_grouping": {
+    "primary_key": "batch_ticket",
+    "ticket_regex": "C26\\d{2,}[A-Z]?",
+    "ticket_location": "give_date_column",
+    "detail_rows": "share batch_ticket until next give_date with ticket"
+  },
+  "quantity_chain": {
+    "packs_total": "cartons * packs_per_carton",
+    "strips_total": "packs_total * strips_per_pack",
+    "core_unit_for_freight": "包"
+  }
+}

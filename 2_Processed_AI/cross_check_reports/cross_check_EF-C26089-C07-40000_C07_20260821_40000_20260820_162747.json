@@ -1,0 +1,689 @@
+{
+  "generated_at": "2026-08-20T16:27:47+0800",
+  "project": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000",
+  "pass": false,
+  "findings": [
+    {
+      "check": "entity_brand_lock",
+      "ok": true,
+      "detail": "store=C07 brand=Dressmaker expect=Dressmaker"
+    },
+    {
+      "check": "c07_inherits_documented",
+      "ok": true,
+      "detail": "c07_inherits_c04_pipeline present"
+    },
+    {
+      "check": "customs_filename_c04_pattern",
+      "ok": true,
+      "detail": "n=6"
+    },
+    {
+      "check": "customs_table_header_bolisi",
+      "ok": true,
+      "detail": "波丽丝 ok"
+    },
+    {
+      "check": "protocol_registered",
+      "ok": true,
+      "detail": "count=6 nos=['20260829502', '20260829503', '20260829504', '20260829505', '20260829506', '20260829507']"
+    },
+    {
+      "check": "protocol_unique_in_project",
+      "ok": true,
+      "detail": "nos=['20260829502', '20260829503', '20260829504', '20260829505', '20260829506', '20260829507']"
+    },
+    {
+      "check": "protocol_no_cross_project_collision",
+      "ok": true,
+      "detail": "checked=['20260829502', '20260829503', '20260829504', '20260829505', '20260829506', '20260829507']"
+    },
+    {
+      "check": "amount_weight_reconcile_draft",
+      "ok": true,
+      "detail": "no draft found — skip (not fail)",
+      "soft": true
+    },
+    {
+      "check": "post_gen:V_ID_ORDER_CODE",
+      "ok": true,
+      "detail": "expected='EF-Cxxxxx-C04|C07-…' actual='EF-C26089-C07-40000' PROJECT/job order_code",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "post_gen:V_ENTITY_BRAND",
+      "ok": true,
+      "detail": "expected='Dressmaker' actual='C07/Dressmaker'",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "post_gen:V_ORDER_FILE_VS_PROJECT",
+      "ok": true,
+      "detail": "expected='EF-C26089-C07-40000' actual='EF-C26089-C07-40000' D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\订单表\\EF-C26089-C07-40000  桌布-2026.8.29.xlsx",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "post_gen:V_ORDER_DELIVERY_EQ_SHIP",
+      "ok": true,
+      "detail": "expected='2026-08-29' actual='2026-08-29'",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "post_gen:V_ID_CHAIN_EF_SHORT_BELONGING",
+      "ok": true,
+      "detail": "expected='EF-C26089-C07-40000 → C26089 → 所属订单' actual='C26089' 出货所属订单必须对应本批订单表 EF 号抽出的短码",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "post_gen:V_ID_ORDER_SHORT_ON_OUTBOUND",
+      "ok": true,
+      "detail": "expected='C26089' actual='C26089' 出货所属订单必须=订单短码，且对应本批订单 EF 号",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "post_gen:V_ID_OUTBOUND_SHORT",
+      "ok": true,
+      "detail": "expected='C07-2609' actual='C07-2609'",
+      "soft": false,
+      "edge": "outbound_to_project"
+    },
+    {
+      "check": "post_gen:V_OUTBOUND_FILENAME",
+      "ok": true,
+      "detail": "expected='C07-2609-U-2026.8.29.xlsx' actual='C07-2609-U-2026.8.29.xlsx'",
+      "soft": false,
+      "edge": "outbound_to_project"
+    },
+    {
+      "check": "post_gen:V_SHIP_DATE_EQ",
+      "ok": true,
+      "detail": "expected='2026.8.29' actual='2026.8.29'",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "post_gen:V_STORE_PREFIX_ON_SHORT",
+      "ok": true,
+      "detail": "expected='C07-…' actual='C07-2609'",
+      "soft": false,
+      "edge": "outbound_to_project"
+    },
+    {
+      "check": "post_gen:V_OUT_STRIPS_EQ_PROJECT",
+      "ok": true,
+      "detail": "expected=40000 actual=40000.0",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "post_gen:V_OUT_HEADER_QTY_EQ_DETAIL",
+      "ok": true,
+      "detail": "expected=40000.0 actual=40000.0",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "post_gen:V_OUT_TOTAL_SUM_FORMULA",
+      "ok": true,
+      "detail": "expected='=SUM(E…)' actual='=SUM(E5:E5)'",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "post_gen:V_NO_FNSKU_ON_OUTBOUND",
+      "ok": true,
+      "detail": "expected='no FNSKU on outbound' actual='none'",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "post_gen:V_OUT_PRODUCT_DEST_PRESENT",
+      "ok": true,
+      "detail": "expected='品类+目的地非空' actual=\"'单面磨毛纤维桌布'/'US'\"",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "post_gen:V_OUT_SPECS_VS_ORDER",
+      "ok": false,
+      "detail": "expected='outbound specs ⊆ order (1 keys)' actual=\"outbound=1 missing_in_order=['60X102|white']\" 规格联系：出货尺寸+颜色必须能在订单中找到",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "post_gen:V_LABEL_BUNDLE_ORDER_CODE",
+      "ok": true,
+      "detail": "expected='EF-C26089-C07-40000标签' actual=['EF-C26089-C07-40000标签'] pdfs=1",
+      "soft": false,
+      "edge": "order_to_labels"
+    },
+    {
+      "check": "post_gen:V_LABEL_MANIFEST_ORDER_CODE",
+      "ok": true,
+      "detail": "expected='EF-C26089-C07-40000' actual=['EF-C26089-C07-40000']",
+      "soft": false,
+      "edge": "order_to_labels"
+    },
+    {
+      "check": "post_gen:V_ARCHIVE_OUTBOUND_SYNC",
+      "ok": true,
+      "detail": "expected=None actual=None no archive path on PROJECT — soft",
+      "soft": true,
+      "edge": "shipments_to_archive"
+    },
+    {
+      "check": "post_gen:V_PACK_FOLDER_IDENTITY",
+      "ok": true,
+      "detail": "expected=None actual=None 贴标包 path absent — soft",
+      "soft": true,
+      "edge": "packs_to_identity"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_STATICS",
+      "ok": true,
+      "detail": "expected='C2=111111111; PQR=无; HS default' actual='C2=111111111 PQR=无/无/无 HS=6302539090'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_FLOOR_QTY",
+      "ok": true,
+      "detail": "expected='C15>0 and F15>=0' actual='C15=85 F15=40'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_FBA_PRESENT",
+      "ok": true,
+      "detail": "expected='A15 FBA/STAR' actual='FBA19MBF40MV'",
+      "soft": false,
+      "edge": "freight_carton_source"
+    },
+    {
+      "check": "post_gen:V_CUSTOMS_1039_HEADER",
+      "ok": true,
+      "detail": "expected='波丽丝（参考）' actual='许昌波丽丝贸易有限公司/波丽丝' 表内抬头作参考核对，非与货代统一字段",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_CUSTOMS_FILENAME",
+      "ok": true,
+      "detail": "expected='文件名含畅选/波丽丝' actual='畅选+波丽丝 2026.8.29发货 C26089-A CLT2 85箱 市场采购数据.xlsx'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_CARTONS",
+      "ok": true,
+      "detail": "expected=85 actual=85.0 wh=CLT2 箱数可对照；货代箱数须来自外箱贴确认",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_STRIPS",
+      "ok": true,
+      "detail": "expected=3400.0 actual=3400 不强制相等：货代 implied=C15×floor(条÷箱) 可能少余数；报关条数/单价权威=总表1039+沉淀+正算反算",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_UNIT_PRICE",
+      "ok": true,
+      "detail": "expected=2.2 actual=2.2 碰巧相同；报关单价须对总表/沉淀，不以货代为源",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_PROTOCOL_PRESENT",
+      "ok": true,
+      "detail": "expected='合同协议号' actual='20260829503'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_PROTOCOL_UNIQUE",
+      "ok": true,
+      "detail": "expected='registered unique in contract_protocol_registry' actual='in_reg=True collision=False' 生成后程序复查：须在登记库且无跨项目撞号",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_WH_IN_FILENAMES",
+      "ok": true,
+      "detail": "expected='CLT2' actual='freight=货代下单表_C26089-A 2026.8.29桌布 CLT2 85箱.xlsx customs=畅选+波丽丝 2026.8.29发货 C26089-A CLT2 85箱 市场采购数据.xlsx'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_STATICS",
+      "ok": true,
+      "detail": "expected='C2=111111111; PQR=无; HS default' actual='C2=111111111 PQR=无/无/无 HS=6302539090'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_FLOOR_QTY",
+      "ok": true,
+      "detail": "expected='C15>0 and F15>=0' actual='C15=107 F15=40'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_FBA_PRESENT",
+      "ok": true,
+      "detail": "expected='A15 FBA/STAR' actual='FBA19MBJ7GW8'",
+      "soft": false,
+      "edge": "freight_carton_source"
+    },
+    {
+      "check": "post_gen:V_CUSTOMS_1039_HEADER",
+      "ok": true,
+      "detail": "expected='波丽丝（参考）' actual='许昌波丽丝贸易有限公司/波丽丝' 表内抬头作参考核对，非与货代统一字段",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_CUSTOMS_FILENAME",
+      "ok": true,
+      "detail": "expected='文件名含畅选/波丽丝' actual='畅选+波丽丝 2026.8.29发货 C26089-A LAS1 107箱 市场采购数据.xlsx'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_CARTONS",
+      "ok": true,
+      "detail": "expected=107 actual=107.0 wh=LAS1 箱数可对照；货代箱数须来自外箱贴确认",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_STRIPS",
+      "ok": true,
+      "detail": "expected=4280.0 actual=4280 不强制相等：货代 implied=C15×floor(条÷箱) 可能少余数；报关条数/单价权威=总表1039+沉淀+正算反算",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_UNIT_PRICE",
+      "ok": true,
+      "detail": "expected=2.2 actual=2.2 碰巧相同；报关单价须对总表/沉淀，不以货代为源",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_PROTOCOL_PRESENT",
+      "ok": true,
+      "detail": "expected='合同协议号' actual='20260829502'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_PROTOCOL_UNIQUE",
+      "ok": true,
+      "detail": "expected='registered unique in contract_protocol_registry' actual='in_reg=True collision=False' 生成后程序复查：须在登记库且无跨项目撞号",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_WH_IN_FILENAMES",
+      "ok": true,
+      "detail": "expected='LAS1' actual='freight=货代下单表_C26089-A 2026.8.29桌布 LAS1 107箱.xlsx customs=畅选+波丽丝 2026.8.29发货 C26089-A LAS1 107箱 市场采购数据.xlsx'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_STATICS",
+      "ok": true,
+      "detail": "expected='C2=111111111; PQR=无; HS default' actual='C2=111111111 PQR=无/无/无 HS=6302539090'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_FLOOR_QTY",
+      "ok": true,
+      "detail": "expected='C15>0 and F15>=0' actual='C15=99 F15=40'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_FBA_PRESENT",
+      "ok": true,
+      "detail": "expected='A15 FBA/STAR' actual='FBA19MBJ7JXH'",
+      "soft": false,
+      "edge": "freight_carton_source"
+    },
+    {
+      "check": "post_gen:V_CUSTOMS_1039_HEADER",
+      "ok": true,
+      "detail": "expected='波丽丝（参考）' actual='许昌波丽丝贸易有限公司/波丽丝' 表内抬头作参考核对，非与货代统一字段",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_CUSTOMS_FILENAME",
+      "ok": true,
+      "detail": "expected='文件名含畅选/波丽丝' actual='畅选+波丽丝 2026.8.29发货 C26089-A LAX9 99箱 市场采购数据.xlsx'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_CARTONS",
+      "ok": true,
+      "detail": "expected=99 actual=99.0 wh=LAX9 箱数可对照；货代箱数须来自外箱贴确认",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_STRIPS",
+      "ok": true,
+      "detail": "expected=3960.0 actual=3960 不强制相等：货代 implied=C15×floor(条÷箱) 可能少余数；报关条数/单价权威=总表1039+沉淀+正算反算",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_UNIT_PRICE",
+      "ok": true,
+      "detail": "expected=2.2 actual=2.2 碰巧相同；报关单价须对总表/沉淀，不以货代为源",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_PROTOCOL_PRESENT",
+      "ok": true,
+      "detail": "expected='合同协议号' actual='20260829506'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_PROTOCOL_UNIQUE",
+      "ok": true,
+      "detail": "expected='registered unique in contract_protocol_registry' actual='in_reg=True collision=False' 生成后程序复查：须在登记库且无跨项目撞号",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_WH_IN_FILENAMES",
+      "ok": true,
+      "detail": "expected='LAX9' actual='freight=货代下单表_C26089-A 2026.8.29桌布 LAX9 99箱.xlsx customs=畅选+波丽丝 2026.8.29发货 C26089-A LAX9 99箱 市场采购数据.xlsx'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_STATICS",
+      "ok": true,
+      "detail": "expected='C2=111111111; PQR=无; HS default' actual='C2=111111111 PQR=无/无/无 HS=6302539090'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_FLOOR_QTY",
+      "ok": true,
+      "detail": "expected='C15>0 and F15>=0' actual='C15=119 F15=40'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_FBA_PRESENT",
+      "ok": true,
+      "detail": "expected='A15 FBA/STAR' actual='FBA19MBFWX4B'",
+      "soft": false,
+      "edge": "freight_carton_source"
+    },
+    {
+      "check": "post_gen:V_CUSTOMS_1039_HEADER",
+      "ok": true,
+      "detail": "expected='波丽丝（参考）' actual='许昌波丽丝贸易有限公司/波丽丝' 表内抬头作参考核对，非与货代统一字段",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_CUSTOMS_FILENAME",
+      "ok": true,
+      "detail": "expected='文件名含畅选/波丽丝' actual='畅选+波丽丝 2026.8.29发货 C26089-A SBD1 119箱 市场采购数据.xlsx'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_CARTONS",
+      "ok": true,
+      "detail": "expected=119 actual=119.0 wh=SBD1 箱数可对照；货代箱数须来自外箱贴确认",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_STRIPS",
+      "ok": true,
+      "detail": "expected=4760.0 actual=4760 不强制相等：货代 implied=C15×floor(条÷箱) 可能少余数；报关条数/单价权威=总表1039+沉淀+正算反算",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_UNIT_PRICE",
+      "ok": true,
+      "detail": "expected=2.2 actual=2.2 碰巧相同；报关单价须对总表/沉淀，不以货代为源",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_PROTOCOL_PRESENT",
+      "ok": true,
+      "detail": "expected='合同协议号' actual='20260829505'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_PROTOCOL_UNIQUE",
+      "ok": true,
+      "detail": "expected='registered unique in contract_protocol_registry' actual='in_reg=True collision=False' 生成后程序复查：须在登记库且无跨项目撞号",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_WH_IN_FILENAMES",
+      "ok": true,
+      "detail": "expected='SBD1' actual='freight=货代下单表_C26089-A 2026.8.29桌布 SBD1 119箱.xlsx customs=畅选+波丽丝 2026.8.29发货 C26089-A SBD1 119箱 市场采购数据.xlsx'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_STATICS",
+      "ok": true,
+      "detail": "expected='C2=111111111; PQR=无; HS default' actual='C2=111111111 PQR=无/无/无 HS=6302539090'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_FLOOR_QTY",
+      "ok": true,
+      "detail": "expected='C15>0 and F15>=0' actual='C15=90 F15=40'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_FBA_PRESENT",
+      "ok": true,
+      "detail": "expected='A15 FBA/STAR' actual='FBA19MBHDDR0'",
+      "soft": false,
+      "edge": "freight_carton_source"
+    },
+    {
+      "check": "post_gen:V_CUSTOMS_1039_HEADER",
+      "ok": true,
+      "detail": "expected='波丽丝（参考）' actual='许昌波丽丝贸易有限公司/波丽丝' 表内抬头作参考核对，非与货代统一字段",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_CUSTOMS_FILENAME",
+      "ok": true,
+      "detail": "expected='文件名含畅选/波丽丝' actual='畅选+波丽丝 2026.8.29发货 C26089-A TEB9 90箱 市场采购数据.xlsx'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_CARTONS",
+      "ok": true,
+      "detail": "expected=90 actual=90.0 wh=TEB9 箱数可对照；货代箱数须来自外箱贴确认",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_STRIPS",
+      "ok": true,
+      "detail": "expected=3600.0 actual=3600 不强制相等：货代 implied=C15×floor(条÷箱) 可能少余数；报关条数/单价权威=总表1039+沉淀+正算反算",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_UNIT_PRICE",
+      "ok": true,
+      "detail": "expected=2.2 actual=2.2 碰巧相同；报关单价须对总表/沉淀，不以货代为源",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_PROTOCOL_PRESENT",
+      "ok": true,
+      "detail": "expected='合同协议号' actual='20260829504'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_PROTOCOL_UNIQUE",
+      "ok": true,
+      "detail": "expected='registered unique in contract_protocol_registry' actual='in_reg=True collision=False' 生成后程序复查：须在登记库且无跨项目撞号",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_WH_IN_FILENAMES",
+      "ok": true,
+      "detail": "expected='TEB9' actual='freight=货代下单表_C26089-A 2026.8.29桌布 TEB9 90箱.xlsx customs=畅选+波丽丝 2026.8.29发货 C26089-A TEB9 90箱 市场采购数据.xlsx'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_STATICS",
+      "ok": true,
+      "detail": "expected='C2=111111111; PQR=无; HS default' actual='C2=111111111 PQR=无/无/无 HS=6302539090'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_FLOOR_QTY",
+      "ok": true,
+      "detail": "expected='C15>0 and F15>=0' actual='C15=500 F15=40'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_FBA_PRESENT",
+      "ok": true,
+      "detail": "expected='A15 FBA/STAR' actual='STAR-RVDK5S4HGQWDK'",
+      "soft": false,
+      "edge": "freight_carton_source"
+    },
+    {
+      "check": "post_gen:V_CUSTOMS_1039_HEADER",
+      "ok": true,
+      "detail": "expected='波丽丝（参考）' actual='许昌波丽丝贸易有限公司/波丽丝' 表内抬头作参考核对，非与货代统一字段",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_CUSTOMS_FILENAME",
+      "ok": true,
+      "detail": "expected='文件名含畅选/波丽丝' actual='畅选+波丽丝 2026.8.29发货 C26089-B IUTJ 500箱 市场采购数据.xlsx'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_CARTONS",
+      "ok": true,
+      "detail": "expected=500 actual=500.0 wh=IUTJ 箱数可对照；货代箱数须来自外箱贴确认",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_STRIPS",
+      "ok": true,
+      "detail": "expected=20000.0 actual=20000 不强制相等：货代 implied=C15×floor(条÷箱) 可能少余数；报关条数/单价权威=总表1039+沉淀+正算反算",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_FREIGHT_CUSTOMS_UNIT_PRICE",
+      "ok": true,
+      "detail": "expected=2.2 actual=2.2 碰巧相同；报关单价须对总表/沉淀，不以货代为源",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_PROTOCOL_PRESENT",
+      "ok": true,
+      "detail": "expected='合同协议号' actual='20260829507'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_PROTOCOL_UNIQUE",
+      "ok": true,
+      "detail": "expected='registered unique in contract_protocol_registry' actual='in_reg=True collision=False' 生成后程序复查：须在登记库且无跨项目撞号",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_WH_IN_FILENAMES",
+      "ok": true,
+      "detail": "expected='IUTJ' actual='freight=货代下单表_C26089-B 2026.8.29桌布 IUTJ 500箱.xlsx customs=畅选+波丽丝 2026.8.29发货 C26089-B IUTJ 500箱 市场采购数据.xlsx'",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "post_gen:V_WH_STRIPS_VS_BATCH",
+      "ok": true,
+      "detail": "expected='Σ报关条数 <= 40000' actual=40000.0 cartons_sum=1000.0 files=6",
+      "soft": false,
+      "edge": "legs_to_totals"
+    },
+    {
+      "check": "post_gen:V_SUMMARY_ORDER_CODE",
+      "ok": true,
+      "detail": "expected='EF-C26089-C07-40000' actual='EF-C26089-C07-40000'",
+      "soft": false,
+      "edge": "reports_to_source"
+    },
+    {
+      "check": "post_gen:V_RECONCILE_GATE",
+      "ok": true,
+      "detail": "expected='PASS' actual='PASS' {'declare': 0.025, 'net': 0.0, 'gross': 0.0}",
+      "soft": false,
+      "edge": "reports_to_source"
+    },
+    {
+      "check": "post_gen:V_SUMMARY_STRIPS_LE_PROJECT",
+      "ok": true,
+      "detail": "expected='<= 40000' actual=20000.0",
+      "soft": true,
+      "edge": "legs_to_totals"
+    }
+  ],
+  "hard_failures": [
+    {
+      "check": "post_gen:V_OUT_SPECS_VS_ORDER",
+      "ok": false,
+      "detail": "expected='outbound specs ⊆ order (1 keys)' actual=\"outbound=1 missing_in_order=['60X102|white']\" 规格联系：出货尺寸+颜色必须能在订单中找到",
+      "soft": false,
+      "edge": "order_to_outbound"
+    }
+  ],
+  "doc": "Templates/Cross_Flow_Verify.md + pre-output-cross-check",
+  "note": "Includes post_gen cross-flow; row-level FNSKU lock still expands with master ingest"
+}

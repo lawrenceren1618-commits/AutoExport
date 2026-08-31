@@ -1,0 +1,41 @@
+{
+  "confirmed_at": null,
+  "order_code": "EF-C26100-C07-12000",
+  "order_short": "C26100",
+  "user_confirmed_ids": true,
+  "user_confirmed_ids_at": "2026-08-31T14:14:00+0800",
+  "user_confirmed_pdf": true,
+  "user_confirmed_pdf_at": "2026-08-31T15:08:00+0800",
+  "legs": {
+    "C26100": {
+      "freight_forwarder": null,
+      "channel": "AWD",
+      "ship_date": "2026-09-19",
+      "outbound_short": "C07-2611",
+      "qty_cartons": 300,
+      "qty_strips": 12000,
+      "carton_sources": [],
+      "rows": [
+        {
+          "warehouse_code": "IUTJ",
+          "fba_shipment_id": "STAR-Q675HFPYAEZ7Y",
+          "tracking_id": "8OTA332Y",
+          "carton_count": 300,
+          "strip_count": 12000,
+          "channel": "AWD",
+          "freight_addr": "IUTJ - 9253 Dreamland Drive 92335 - Fontana, CA - United States",
+          "recognize_notes": "2026-08-31 使用者口头提供；待 PDF 文本层/页数三重验证"
+        }
+      ],
+      "product": "白 60X102inch 10条装",
+      "fnsku": "X004SJV9UF",
+      "strips_per_carton": 40
+    }
+  },
+  "pending": [
+    "上传外箱贴 PDF 至 FBA外箱贴/_inbox/",
+    "确认货代（物易通 / 纽酷）",
+    "PDF 识别后 promote → FBA外箱贴/AWD/IUTJ/",
+    "trio + Gate 后才 Final"
+  ]
+}

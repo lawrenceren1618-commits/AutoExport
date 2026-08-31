@@ -1,7 +1,9 @@
 # 亚马逊外箱贴：统一识别 + 按版式确认字段
 
-> 确认日：2026-07-23  
+> 确认日：2026-07-23（目的地规则库补 2026-08-19；引擎策略同日）  
 > 沉淀：`settled_knowledge_db.json` → `confirmed_defaults.carton_label_channels`  
+> 机器规则：[`Scripts/carton_destination_rules.json`](../Scripts/carton_destination_rules.json) 与 [`web/lib/pipeline/carton-destination-rules.json`](../web/lib/pipeline/carton-destination-rules.json) **两份内容必须相同**（先改 Scripts，再原样复制到 web；Vercel Root=`web`）  
+> 识别引擎：主路径 PDF 文本层；备用 Tesseract 仅主路径失败时尝试（见 `Templates/Ocr_Dual_Convert_Compare.md`）  
 > 脚本：`Scripts/10_carton_label_ingest.py` · `08_parse_fba_carton_labels.py` · `11_awd_iute_page_summary.py`
 
 ## 0. 定位（先读）
@@ -30,14 +32,30 @@
 
 | 代码 | 名称 | 版式状态 |
 |------|------|----------|
-| **FC** | 运营中心（FBA 仓） | 已用（C26079-A） |
-| **AWD** | Warehousing & Distribution | 已标定（C26079-B IUTE） |
-| **GWD** | 预留 | 待样例 |
-| `UNKNOWN` | 无法判定 | 阻断，汇报 |
+| **FC** | 运营中心（FBA 仓） | 已用（C26079-A）；中文规格夹：`白色 60X102inches 6pack-9箱` |
+| **AWD** | Warehousing & Distribution | 已标定（C26079-B、C26089 IUTE） |
+| **GWD** | （停用） | 2026-07-24 起不纳入现役；勿新建 GWD 树 |
+| `UNKNOWN` | 无法判定 | **宁空不填错**，汇报后手补 |
+
+仓码与货件形态以 `carton_destination_rules.json` 已确认清单为准（新仓须你确认后再入库）。  
+**确认闸门仍强制**：识别只给建议，降低手改量，不取消「确认」一步。
+
+### 1.0.0 识别引擎（2026-08-19 确认）
+
+- **主路径**：PDF 文本层（不默认跑 OCR）。  
+- **备用**：已设计的 `tesseract.js` **保留不删**；仅当主路径无法处理或报错（非 PDF、无文本层、抽不出仓码且货件号）才尝试。  
+- 抽出结果仍须人工确认。LlamaParse 仅显式对照，不自动当第三引擎。  
+- 单价截图是另一条线，仍以 Tesseract 为主。
+
+### 1.0.1 误识防护（2026-08-19）
+
+- AWD 货件号必须是 `STAR-` + 连字符（例 `STAR-WDWSD2Q5T56Y4`）。禁止把 PDF `startxref` 识别成 `STARTXREF`。
+- 未在规则库、又没有「货件名称」标签的四位乱码（如 `UCS2`）不得当仓码。
+- 无标签的 8–12 位字母数字不得当参考号/追踪。
 
 ### 1.1 一腿一渠道（强制）
 
-一票一次发运 = 一条拆单腿；**一腿只发 FC 或 AWD 或 GWD 之一**（互斥）。  
+一票一次发运 = 一条拆单腿；**一腿只发 FC 或 AWD 之一**（互斥）。  
 例：A=FC 五仓；B=AWD IUTE。
 
 ---
@@ -47,9 +65,19 @@
 | 步 | 必须？ | 说明 |
 |----|--------|------|
 | 清洗 / 转化 | 否 | 助手判断；不需要则跳过 |
-| **识别版式 + 抽字段** | **是** | 先定 FC/AWD/GWD，再按下表抽 |
+| **识别版式 + 抽字段** | **是** | 先定 FC/AWD，再按下表抽 |
 | **确认字段** | **是** | 与计划/总表/SKU 对照；冲突汇报 |
 | 分离 → 合并 → 归纳 | **是** | 形态服务识别与贴标；最终 **一仓一规格一个多页 PDF** |
+
+**页标纠偏（强制落盘 · 已沉淀）**：夹名包规错标、页内出现多种 `126-6`/`126-10` 等时，`08` 识别为 `page_mark_split` 后，必须再跑  
+`Scripts/16_split_mixed_carton_spec_folders.py --apply`：
+
+1. PDF **按页物理拆进**正确规格夹（禁止只改 JSON、夹内仍混装）  
+2. **PDF 文件名 = 规格夹名**（含正确箱数），例：`米白色 60X126inches 10pack-9箱.pdf`，禁止沿用混装旧名如 `…6pack-15箱.pdf`  
+3. 原混装夹改名 `.mixed_bak_*`；`13` 导出须跳过该备份  
+4. 然后再导出贴标包  
+
+沉淀键：`confirmed_defaults.carton_label_channels.page_mark_split_must_rewrite_folders`
 
 ---
 
@@ -81,7 +109,7 @@ qty_cartons（汇总后）
 | **规格** | 夹名 + 页标 `126-6` 等；可纠夹名 | 页内 SKU 行 + FNSKU（优先） |
 | **箱序** | 箱唛序号 / 页序 | `Box N of M` |
 
-GWD：表结构预留，样例到后补列。
+GWD：已停用，不补版式表。
 
 ### 3.2 确认闸门（FC/AWD 相同）
 
@@ -109,15 +137,17 @@ FBA外箱贴/
   _inbox/                 # 原始上传
   _staging/               # 确认前
   _recognize/             # 识别+字段确认报告
-  FC|{AWD}|{GWD}/
+  FC|{AWD}/
     {warehouse_key}/
-      {颜色}_{尺寸}_{N}条装/
+      {规格夹}/   # FC 与 AWD 中文命名见 §1；勿混用
         {渠道}_{仓}_{规格}_{N}箱.pdf   # 多页；同仓同规格仅此一份
+      {渠道}_{仓}_入库贴_{N}箱.pdf     # 货代回传整理件；一仓一份（见 Freight_Inbound_Label_Pipeline.md）
 ```
 
 | 中间 | 最终交付 |
 |------|----------|
 | 可按页临时拆开便于识别 | **同仓 + 同规格 → 一个多页 PDF**（工厂批量贴标） |
+| 入库贴 `_inbox` → 验证 | **同仓 → 一个多页入库贴 PDF**（与外箱贴并列） |
 
 页序：箱序号升序。  
 旧扁平 FC 树（无 `FC/` 前缀）仍可读，默认 channel=FC。
@@ -142,3 +172,4 @@ FBA外箱贴/
 |----|------|--------------|
 | C26079-A | FC | 五仓 FBA + 追踪码；126 米白页标纠 6/10 |
 | C26079-B | AWD | IUTE；STAR-…；reference 空；三规格 50+50+40 已合并多页 PDF |
+| C26089 | AWD | IUTE；STAR-WDWSD2Q5T56Y4；追踪 2MSYJZTJ；1000 箱 |

@@ -3,6 +3,10 @@
 
 Uses pypdf text extraction when available (FBA号形如 FBA19JT39521U000001 → 货件号 FBA19JT39521).
 
+When folder label packs disagree with page marks (page_mark_split in JSON),
+also run Scripts/16_split_mixed_carton_spec_folders.py --apply so PDFs are
+physically split and renamed to match each spec folder (settled rule).
+
 Usage:
   python Scripts/08_parse_fba_carton_labels.py --project "<Shipments/...>" \\
     --tracking-json drafts/tracking.json --write-batch

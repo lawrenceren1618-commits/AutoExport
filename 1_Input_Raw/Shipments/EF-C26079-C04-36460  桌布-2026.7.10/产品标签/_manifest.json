@@ -1,0 +1,285 @@
+{
+  "order_code": "EF-C26079-C04-36460",
+  "project_folder": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10",
+  "label_source": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\桌布标签",
+  "source_before": {
+    "total_files": 113,
+    "by_ext": {
+      ".pdf": 113
+    },
+    "inventory_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\label_source_inventory\\before_C26079_20260721_092200.json",
+    "fingerprint": "cb345ccb12bef4e58a026669f045430579a73de75d28d817fcc82acd3e035dbf"
+  },
+  "source_after": {
+    "total_files": 113,
+    "by_ext": {
+      ".pdf": 113
+    },
+    "inventory_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\label_source_inventory\\after_C26079_20260721_092200.json",
+    "fingerprint": "cb345ccb12bef4e58a026669f045430579a73de75d28d817fcc82acd3e035dbf",
+    "match_before": true
+  },
+  "copied": 23,
+  "summary": {
+    "copied": 23
+  },
+  "ambiguous": [],
+  "missing": [],
+  "lines": [
+    {
+      "fnsku": "X004W20FM1",
+      "size": "60X102inch",
+      "color": "米白",
+      "strips_per_pack": 6,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/60x102/102象牙白色ivory6条.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/6条装/60x102/102象牙白色ivory6条.pdf",
+      "status": "copied",
+      "size_folder": "60x102",
+      "pack_folder": "6条装"
+    },
+    {
+      "fnsku": "X0050TS4O1",
+      "size": "60X102inch",
+      "color": "蓝",
+      "strips_per_pack": 6,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/60x102/102蓝色6条.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/6条装/60x102/102蓝色6条.pdf",
+      "status": "copied",
+      "size_folder": "60x102",
+      "pack_folder": "6条装"
+    },
+    {
+      "fnsku": "X003WN3V5J",
+      "size": "60X102inch",
+      "color": "白",
+      "strips_per_pack": 10,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/6x102/102白 10条装.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/10条装/60x102/102白 10条装.pdf",
+      "status": "copied",
+      "size_folder": "60x102",
+      "pack_folder": "10条装"
+    },
+    {
+      "fnsku": "X0050TQ9HP",
+      "size": "60X102inch",
+      "color": "米白",
+      "strips_per_pack": 10,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/6x102/102象牙色10条.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/10条装/60x102/102象牙色10条.pdf",
+      "status": "copied",
+      "size_folder": "60x102",
+      "pack_folder": "10条装"
+    },
+    {
+      "fnsku": "X0052FXOH5",
+      "size": "60X102inch",
+      "color": "蓝",
+      "strips_per_pack": 10,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/6x102/102蓝 10条装.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/10条装/60x102/102蓝 10条装.pdf",
+      "status": "copied",
+      "size_folder": "60x102",
+      "pack_folder": "10条装"
+    },
+    {
+      "fnsku": "X005398X17",
+      "size": "60X126inch",
+      "color": "白",
+      "strips_per_pack": 2,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/2条装/60x126/126白 两条装.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/2条装/60x126/126白 两条装.pdf",
+      "status": "copied",
+      "size_folder": "60x126",
+      "pack_folder": "2条装"
+    },
+    {
+      "fnsku": "X003WN01DT",
+      "size": "60X126inch",
+      "color": "白",
+      "strips_per_pack": 6,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/60x126/126白色6条.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/6条装/60x126/126白色6条.pdf",
+      "status": "copied",
+      "size_folder": "60x126",
+      "pack_folder": "6条装"
+    },
+    {
+      "fnsku": "X005398UJ7",
+      "size": "60X126inch",
+      "color": "米白",
+      "strips_per_pack": 6,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/60x126/126米白 6条装.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/6条装/60x126/126米白 6条装.pdf",
+      "status": "copied",
+      "size_folder": "60x126",
+      "pack_folder": "6条装"
+    },
+    {
+      "fnsku": "X005395XVF",
+      "size": "60X126inch",
+      "color": "白",
+      "strips_per_pack": 10,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/60x126/126白 10条装.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/10条装/60x126/126白 10条装.pdf",
+      "status": "copied",
+      "size_folder": "60x126",
+      "pack_folder": "10条装"
+    },
+    {
+      "fnsku": "X0054KNSLF",
+      "size": "60X126inch",
+      "color": "米白",
+      "strips_per_pack": 10,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/60x126/Wigenius 126米白 10条装.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/10条装/60x126/Wigenius 126米白 10条装.pdf",
+      "status": "copied",
+      "size_folder": "60x126",
+      "pack_folder": "10条装"
+    },
+    {
+      "fnsku": "X004W0XSZT",
+      "size": "70X120inch",
+      "color": "白",
+      "strips_per_pack": 2,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/2条装/70x120/70x120白色2条装.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/2条装/70x120/70x120白色2条装.pdf",
+      "status": "copied",
+      "size_folder": "70x120",
+      "pack_folder": "2条装"
+    },
+    {
+      "fnsku": "X004W0WH4H",
+      "size": "70X120inch",
+      "color": "米白",
+      "strips_per_pack": 2,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/2条装/70x120/70x120象牙色2条装.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/2条装/70x120/70x120象牙色2条装.pdf",
+      "status": "copied",
+      "size_folder": "70x120",
+      "pack_folder": "2条装"
+    },
+    {
+      "fnsku": "X0050TQ82L",
+      "size": "70X120inch",
+      "color": "白",
+      "strips_per_pack": 6,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/70x120/120白色6条.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/6条装/70x120/120白色6条.pdf",
+      "status": "copied",
+      "size_folder": "70x120",
+      "pack_folder": "6条装"
+    },
+    {
+      "fnsku": "X0050TSCX9",
+      "size": "70X120inch",
+      "color": "米白",
+      "strips_per_pack": 6,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/70x120/120象牙色6条.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/6条装/70x120/120象牙色6条.pdf",
+      "status": "copied",
+      "size_folder": "70x120",
+      "pack_folder": "6条装"
+    },
+    {
+      "fnsku": "X005395QNF",
+      "size": "70X120inch",
+      "color": "白",
+      "strips_per_pack": 10,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/70x120/120白 10条装.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/10条装/70x120/120白 10条装.pdf",
+      "status": "copied",
+      "size_folder": "70x120",
+      "pack_folder": "10条装"
+    },
+    {
+      "fnsku": "X00539789F",
+      "size": "70X120inch",
+      "color": "米白",
+      "strips_per_pack": 10,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/70x120/120米白 10条装.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/10条装/70x120/120米白 10条装.pdf",
+      "status": "copied",
+      "size_folder": "70x120",
+      "pack_folder": "10条装"
+    },
+    {
+      "fnsku": "X005395YS7",
+      "size": "70X120inch",
+      "color": "黑",
+      "strips_per_pack": 10,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/70x120/120黑 10条装.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/10条装/70x120/120黑 10条装.pdf",
+      "status": "copied",
+      "size_folder": "70x120",
+      "pack_folder": "10条装"
+    },
+    {
+      "fnsku": "X004W0XBDN",
+      "size": "90 inch round",
+      "color": "白",
+      "strips_per_pack": 2,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/2条装/90圆/Wigenius  90寸圆白色2条装.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/2条装/90圆/Wigenius  90寸圆白色2条装.pdf",
+      "status": "copied",
+      "size_folder": "90圆",
+      "pack_folder": "2条装"
+    },
+    {
+      "fnsku": "X004W0Y925",
+      "size": "90 inch round",
+      "color": "黑",
+      "strips_per_pack": 2,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/2条装/90圆/Wigenius  90寸圆黑色2条装.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/2条装/90圆/Wigenius  90寸圆黑色2条装.pdf",
+      "status": "copied",
+      "size_folder": "90圆",
+      "pack_folder": "2条装"
+    },
+    {
+      "fnsku": "X004S99E9D",
+      "size": "90 inch round",
+      "color": "白",
+      "strips_per_pack": 6,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/90圆/90圆白色6条.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/6条装/90圆/90圆白色6条.pdf",
+      "status": "copied",
+      "size_folder": "90圆",
+      "pack_folder": "6条装"
+    },
+    {
+      "fnsku": "X004W0V8OH",
+      "size": "90 inch round",
+      "color": "米白",
+      "strips_per_pack": 6,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/6条装/90圆/90圆米白ivory6条.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/6条装/90圆/90圆米白ivory6条.pdf",
+      "status": "copied",
+      "size_folder": "90圆",
+      "pack_folder": "6条装"
+    },
+    {
+      "fnsku": "X005395FVN",
+      "size": "90 inch round",
+      "color": "白",
+      "strips_per_pack": 10,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/90圆/90圆白 10条装.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/10条装/90圆/90圆白 10条装.pdf",
+      "status": "copied",
+      "size_folder": "90圆",
+      "pack_folder": "10条装"
+    },
+    {
+      "fnsku": "X0053992NP",
+      "size": "90 inch round",
+      "color": "黑",
+      "strips_per_pack": 10,
+      "source_rel": "C04-Wigenius品牌/110克桌布标签/10条装/90圆/90圆黑 10条装.pdf",
+      "dest_rel": "EF-C26079-C04-36460标签/10条装/90圆/90圆黑 10条装.pdf",
+      "status": "copied",
+      "size_folder": "90圆",
+      "pack_folder": "10条装"
+    }
+  ],
+  "label_bundle_dir": "EF-C26079-C04-36460标签",
+  "layout": "EF订单号标签 / {N}条装 / {尺寸} / 原名.pdf"
+}

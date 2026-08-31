@@ -11,7 +11,7 @@ export type ProgressNode = {
 };
 
 /**
- * 后台目标树（仅 /admin/progress）。
+ * 后台目标树（仅 /ops/progress；/admin/progress 重定向）。
  * done = 已完成（绿）；todo/doing/blocked = 未完成（黄）。
  * 状态按当前真实进度维护。
  */
@@ -163,7 +163,7 @@ export const PROGRESS_TREE: ProgressNode[] = [
     title: "订单/出库模板列映射确认",
     status: "doing",
     module: "M1",
-    nextAction: "固定中文模板已建模（C26079 版式）；空白骨架 Templates/order_blank_zh.xlsx",
+    nextAction: "克隆 C26079 母版填空；内外箱按沉淀库+母版文案；=C*E*F",
     sort: 31,
   },
   {

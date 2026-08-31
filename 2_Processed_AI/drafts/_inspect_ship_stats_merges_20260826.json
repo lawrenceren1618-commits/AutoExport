@@ -1,0 +1,2292 @@
+{
+  "2026年发货记录.xls": {
+    "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\发货统计\\_inbox\\2026年发货记录.xls",
+    "sheet": "Sheet1",
+    "nrows": 353,
+    "ncols": 18,
+    "header": [
+      "月份",
+      "创建日期",
+      "给货日期",
+      "发货产品",
+      "",
+      "",
+      "箱数",
+      "渠道",
+      "FBA单号",
+      "运费",
+      "领星----畅选美国站货件授权日期为2025.7.14，追溯授权前90天，也就是4.14号之前创建的货件都不能通发货单提取成本运费，要通过期初成本计算",
+      ""
+    ],
+    "total_merges": 208,
+    "hits": [
+      {
+        "row": 292,
+        "col": 2,
+        "target": "C26052",
+        "text": "6.4\nC26052 500箱"
+      },
+      {
+        "row": 298,
+        "col": 2,
+        "target": "C26064",
+        "text": "6.24\nC26064 735箱\n（40+695）"
+      },
+      {
+        "row": 315,
+        "col": 2,
+        "target": "C26079",
+        "text": "7.31\nC26079 945箱\n（A805+B140）"
+      },
+      {
+        "row": 338,
+        "col": 2,
+        "target": "C26080",
+        "text": "7.31 易尚\nC26080+C26068 350箱"
+      }
+    ],
+    "batches": {
+      "C26064": {
+        "start_row": 298,
+        "date_merge": {
+          "rlo": 298,
+          "rhi": 314,
+          "clo": 2,
+          "chi": 3,
+          "span_rows": 16
+        },
+        "给货日期_text": "6.24\nC26064 735箱\n（40+695）",
+        "col_merges": {
+          "给货日期": [
+            {
+              "rlo": 298,
+              "rhi": 314,
+              "clo": 2,
+              "chi": 3,
+              "span_rows": 16,
+              "span_cols": 1,
+              "top_text": "6.24\nC26064 735箱\n（40+695）"
+            }
+          ],
+          "规格": [
+            {
+              "rlo": 298,
+              "rhi": 302,
+              "clo": 3,
+              "chi": 4,
+              "span_rows": 4,
+              "span_cols": 1,
+              "top_text": "110G 桌布-2"
+            }
+          ],
+          "尺寸": [],
+          "箱数": [],
+          "FBA单号": [
+            {
+              "rlo": 298,
+              "rhi": 314,
+              "clo": 8,
+              "chi": 9,
+              "span_rows": 16,
+              "span_cols": 1,
+              "top_text": "FBA19FK3X8XG\nFBA19FK3WG61\nFBA19FJWN2L5\nFBA19FK0ZY39\nFBA19FJZMK2G\nFBA19FJZJRLT"
+            }
+          ],
+          "运费": [
+            {
+              "rlo": 298,
+              "rhi": 314,
+              "clo": 9,
+              "chi": 10,
+              "span_rows": 16,
+              "span_cols": 1,
+              "top_text": "物易通"
+            }
+          ]
+        },
+        "all_batch_merges": [
+          {
+            "rlo": 298,
+            "rhi": 314,
+            "clo": 2,
+            "chi": 3,
+            "span_rows": 16,
+            "span_cols": 1,
+            "top_text": "6.24\nC26064 735箱\n（40+695）"
+          },
+          {
+            "rlo": 298,
+            "rhi": 302,
+            "clo": 3,
+            "chi": 4,
+            "span_rows": 4,
+            "span_cols": 1,
+            "top_text": "110G 桌布-2"
+          },
+          {
+            "rlo": 302,
+            "rhi": 309,
+            "clo": 3,
+            "chi": 4,
+            "span_rows": 7,
+            "span_cols": 1,
+            "top_text": "110G 桌布-6"
+          },
+          {
+            "rlo": 309,
+            "rhi": 314,
+            "clo": 3,
+            "chi": 4,
+            "span_rows": 5,
+            "span_cols": 1,
+            "top_text": "110G 桌布-10"
+          },
+          {
+            "rlo": 298,
+            "rhi": 314,
+            "clo": 8,
+            "chi": 9,
+            "span_rows": 16,
+            "span_cols": 1,
+            "top_text": "FBA19FK3X8XG\nFBA19FK3WG61\nFBA19FJWN2L5\nFBA19FK0ZY39\nFBA19FJZMK2G\nFBA19FJZJRLT"
+          },
+          {
+            "rlo": 298,
+            "rhi": 314,
+            "clo": 9,
+            "chi": 10,
+            "span_rows": 16,
+            "span_cols": 1,
+            "top_text": "物易通"
+          }
+        ],
+        "detail_rows": [
+          {
+            "row": 298,
+            "vals": [
+              "",
+              "",
+              "6.24\nC26064 735箱\n（40+695）",
+              "110G 桌布-2",
+              "60*84白",
+              "",
+              "25",
+              "",
+              "FBA19FK3X8XG\nFBA19FK3WG61\nFBA19FJWN2L5\nFBA19FK0ZY39\nFBA19FJZMK2G\nFBA19FJZJRLT",
+              "物易通",
+              ""
+            ],
+            "xf": {
+              "2": {
+                "xf_idx": 97,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": true,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "NONE"
+                }
+              },
+              "3": {
+                "xf_idx": 19,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": false,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "NONE"
+                }
+              },
+              "4": {
+                "xf_idx": 17,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": false,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "THIN"
+                }
+              },
+              "5": {
+                "xf_idx": 17,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": false,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "THIN"
+                }
+              },
+              "8": {
+                "xf_idx": 70,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": true,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "NONE"
+                }
+              },
+              "9": {
+                "xf_idx": 22,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": false,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "NONE"
+                }
+              }
+            }
+          },
+          {
+            "row": 299,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*102 ivory",
+              "",
+              "30",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 300,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "90圆 白",
+              "",
+              "15",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 301,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "90圆 Ivory",
+              "",
+              "15",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 302,
+            "vals": [
+              "",
+              "",
+              "",
+              "110G 桌布-6",
+              "60*84白",
+              "",
+              "75",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 303,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*102 ivory",
+              "",
+              "75",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 304,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*102 蓝",
+              "",
+              "50",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 305,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "90圆 白",
+              "",
+              "50",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 306,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "90圆 Ivory",
+              "",
+              "40",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 307,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*126 白",
+              "",
+              "50",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 308,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "70*120 白",
+              "",
+              "40",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 309,
+            "vals": [
+              "",
+              "",
+              "",
+              "110G 桌布-10",
+              "60*102 白",
+              "",
+              "150",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 310,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*102 ivory",
+              "",
+              "50",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 311,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "90圆 白",
+              "",
+              "30",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 312,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "90圆 Ivory",
+              "",
+              "20",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 313,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*126 ivory",
+              "",
+              "20",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "fba_all_in_one_merged_cell": true
+      },
+      "C26052": {
+        "start_row": 292,
+        "date_merge": null,
+        "给货日期_text": "6.4\nC26052 500箱",
+        "col_merges": {
+          "给货日期": [],
+          "规格": [],
+          "尺寸": [],
+          "箱数": [],
+          "FBA单号": [],
+          "运费": []
+        },
+        "all_batch_merges": [
+          {
+            "rlo": 295,
+            "rhi": 298,
+            "clo": 2,
+            "chi": 3,
+            "span_rows": 3,
+            "span_cols": 1,
+            "top_text": "6.20 易尚\nC26065 215箱"
+          },
+          {
+            "rlo": 298,
+            "rhi": 314,
+            "clo": 2,
+            "chi": 3,
+            "span_rows": 16,
+            "span_cols": 1,
+            "top_text": "6.24\nC26064 735箱\n（40+695）"
+          },
+          {
+            "rlo": 296,
+            "rhi": 298,
+            "clo": 3,
+            "chi": 4,
+            "span_rows": 2,
+            "span_cols": 1,
+            "top_text": "90G 桌布-2"
+          },
+          {
+            "rlo": 298,
+            "rhi": 302,
+            "clo": 3,
+            "chi": 4,
+            "span_rows": 4,
+            "span_cols": 1,
+            "top_text": "110G 桌布-2"
+          },
+          {
+            "rlo": 302,
+            "rhi": 309,
+            "clo": 3,
+            "chi": 4,
+            "span_rows": 7,
+            "span_cols": 1,
+            "top_text": "110G 桌布-6"
+          },
+          {
+            "rlo": 295,
+            "rhi": 298,
+            "clo": 8,
+            "chi": 9,
+            "span_rows": 3,
+            "span_cols": 1,
+            "top_text": "FBA19FBDDBNS"
+          },
+          {
+            "rlo": 298,
+            "rhi": 314,
+            "clo": 8,
+            "chi": 9,
+            "span_rows": 16,
+            "span_cols": 1,
+            "top_text": "FBA19FK3X8XG\nFBA19FK3WG61\nFBA19FJWN2L5\nFBA19FK0ZY39\nFBA19FJZMK2G\nFBA19FJZJRLT"
+          },
+          {
+            "rlo": 295,
+            "rhi": 298,
+            "clo": 9,
+            "chi": 10,
+            "span_rows": 3,
+            "span_cols": 1,
+            "top_text": "物易通"
+          },
+          {
+            "rlo": 298,
+            "rhi": 314,
+            "clo": 9,
+            "chi": 10,
+            "span_rows": 16,
+            "span_cols": 1,
+            "top_text": "物易通"
+          }
+        ],
+        "detail_rows": [
+          {
+            "row": 292,
+            "vals": [
+              "",
+              "",
+              "6.4\nC26052 500箱",
+              "90G 桌布-6",
+              "60*102 白",
+              "",
+              "500",
+              "",
+              "FBA19F3L02P4\nFBA19F3L5YR0\nFBA19F3MKGZT\nFBA19F3LM71B\nFBA19F3JJ3T5",
+              "物易通",
+              ""
+            ],
+            "xf": {
+              "2": {
+                "xf_idx": 106,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": true,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "THIN"
+                }
+              },
+              "3": {
+                "xf_idx": 17,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": false,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "THIN"
+                }
+              },
+              "4": {
+                "xf_idx": 17,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": false,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "THIN"
+                }
+              },
+              "5": {
+                "xf_idx": 17,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": false,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "THIN"
+                }
+              },
+              "8": {
+                "xf_idx": 31,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": true,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "THIN"
+                }
+              },
+              "9": {
+                "xf_idx": 23,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": false,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "THIN"
+                }
+              }
+            }
+          },
+          {
+            "row": 293,
+            "vals": [
+              "",
+              "",
+              "6.12 易尚\nC26055B 800箱",
+              "90G 桌布-10",
+              "60*102 白",
+              "",
+              "800",
+              "",
+              "FBA19FLNWL87\nFBA19FLQBTS9\nFBA19FLQCB5Q\nFBA19FLLDGPH\nFBA19FLNFY8Z",
+              "物易通",
+              ""
+            ]
+          },
+          {
+            "row": 294,
+            "vals": [
+              "",
+              "",
+              "6.17\nC26055A 235箱",
+              "90G 桌布-10",
+              "60*102 白",
+              "",
+              "235",
+              "",
+              "FBA19FK20Z7D\nFBA19FK4TBQZ\nFBA19FK1M9Y3\nFBA19FK30XQ8\nFBA19FK4C60Z",
+              "物易通",
+              ""
+            ]
+          },
+          {
+            "row": 295,
+            "vals": [
+              "",
+              "",
+              "6.20 易尚\nC26065 215箱",
+              "90G 桌布-6",
+              "60*84白",
+              "",
+              "50",
+              "",
+              "FBA19FBDDBNS",
+              "物易通",
+              ""
+            ]
+          },
+          {
+            "row": 296,
+            "vals": [
+              "",
+              "",
+              "",
+              "90G 桌布-2",
+              "60*84白",
+              "",
+              "15",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 297,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*102 白",
+              "",
+              "150",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 298,
+            "vals": [
+              "",
+              "",
+              "6.24\nC26064 735箱\n（40+695）",
+              "110G 桌布-2",
+              "60*84白",
+              "",
+              "25",
+              "",
+              "FBA19FK3X8XG\nFBA19FK3WG61\nFBA19FJWN2L5\nFBA19FK0ZY39\nFBA19FJZMK2G\nFBA19FJZJRLT",
+              "物易通",
+              ""
+            ]
+          },
+          {
+            "row": 299,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*102 ivory",
+              "",
+              "30",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 300,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "90圆 白",
+              "",
+              "15",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 301,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "90圆 Ivory",
+              "",
+              "15",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 302,
+            "vals": [
+              "",
+              "",
+              "",
+              "110G 桌布-6",
+              "60*84白",
+              "",
+              "75",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 303,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*102 ivory",
+              "",
+              "75",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "fba_all_in_one_merged_cell": false
+      }
+    },
+    "merges_around_285_310": [
+      {
+        "rlo": 284,
+        "rhi": 286,
+        "clo": 3,
+        "chi": 4,
+        "span_rows": 2,
+        "span_cols": 1,
+        "top_text": "90G 桌布-6"
+      },
+      {
+        "rlo": 284,
+        "rhi": 286,
+        "clo": 4,
+        "chi": 5,
+        "span_rows": 2,
+        "span_cols": 1,
+        "top_text": "102白"
+      },
+      {
+        "rlo": 286,
+        "rhi": 290,
+        "clo": 2,
+        "chi": 3,
+        "span_rows": 4,
+        "span_cols": 1,
+        "top_text": "5.31\nC26047 90箱"
+      },
+      {
+        "rlo": 286,
+        "rhi": 289,
+        "clo": 3,
+        "chi": 4,
+        "span_rows": 3,
+        "span_cols": 1,
+        "top_text": "110G 桌布-2"
+      },
+      {
+        "rlo": 286,
+        "rhi": 290,
+        "clo": 8,
+        "chi": 9,
+        "span_rows": 4,
+        "span_cols": 1,
+        "top_text": "FBA19D6C1HN6\nFBA19D6GJLM6\nFBA19D6D18XS\nFBA19D6C4RJ9\nFBA19D6BPKL7"
+      },
+      {
+        "rlo": 286,
+        "rhi": 290,
+        "clo": 9,
+        "chi": 10,
+        "span_rows": 4,
+        "span_cols": 1,
+        "top_text": "物易通"
+      },
+      {
+        "rlo": 290,
+        "rhi": 292,
+        "clo": 2,
+        "chi": 10,
+        "span_rows": 2,
+        "span_cols": 8,
+        "top_text": ""
+      },
+      {
+        "rlo": 295,
+        "rhi": 298,
+        "clo": 2,
+        "chi": 3,
+        "span_rows": 3,
+        "span_cols": 1,
+        "top_text": "6.20 易尚\nC26065 215箱"
+      },
+      {
+        "rlo": 295,
+        "rhi": 298,
+        "clo": 8,
+        "chi": 9,
+        "span_rows": 3,
+        "span_cols": 1,
+        "top_text": "FBA19FBDDBNS"
+      },
+      {
+        "rlo": 295,
+        "rhi": 298,
+        "clo": 9,
+        "chi": 10,
+        "span_rows": 3,
+        "span_cols": 1,
+        "top_text": "物易通"
+      },
+      {
+        "rlo": 296,
+        "rhi": 298,
+        "clo": 3,
+        "chi": 4,
+        "span_rows": 2,
+        "span_cols": 1,
+        "top_text": "90G 桌布-2"
+      },
+      {
+        "rlo": 298,
+        "rhi": 314,
+        "clo": 2,
+        "chi": 3,
+        "span_rows": 16,
+        "span_cols": 1,
+        "top_text": "6.24\nC26064 735箱\n（40+695）"
+      },
+      {
+        "rlo": 298,
+        "rhi": 302,
+        "clo": 3,
+        "chi": 4,
+        "span_rows": 4,
+        "span_cols": 1,
+        "top_text": "110G 桌布-2"
+      },
+      {
+        "rlo": 298,
+        "rhi": 314,
+        "clo": 8,
+        "chi": 9,
+        "span_rows": 16,
+        "span_cols": 1,
+        "top_text": "FBA19FK3X8XG\nFBA19FK3WG61\nFBA19FJWN2L5\nFBA19FK0ZY39\nFBA19FJZMK2G\nFBA19FJZJRLT"
+      },
+      {
+        "rlo": 298,
+        "rhi": 314,
+        "clo": 9,
+        "chi": 10,
+        "span_rows": 16,
+        "span_cols": 1,
+        "top_text": "物易通"
+      },
+      {
+        "rlo": 302,
+        "rhi": 309,
+        "clo": 3,
+        "chi": 4,
+        "span_rows": 7,
+        "span_cols": 1,
+        "top_text": "110G 桌布-6"
+      },
+      {
+        "rlo": 309,
+        "rhi": 314,
+        "clo": 3,
+        "chi": 4,
+        "span_rows": 5,
+        "span_cols": 1,
+        "top_text": "110G 桌布-10"
+      }
+    ],
+    "header_xf": {
+      "0": {
+        "xf_idx": 17,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "THIN",
+          "top": "THIN",
+          "bottom": "THIN"
+        }
+      },
+      "1": {
+        "xf_idx": 19,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "THIN",
+          "top": "THIN",
+          "bottom": "NONE"
+        }
+      },
+      "2": {
+        "xf_idx": 17,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "THIN",
+          "top": "THIN",
+          "bottom": "THIN"
+        }
+      },
+      "3": {
+        "xf_idx": 20,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "NONE",
+          "top": "THIN",
+          "bottom": "THIN"
+        }
+      },
+      "4": {
+        "xf_idx": 20,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "NONE",
+          "top": "THIN",
+          "bottom": "THIN"
+        }
+      },
+      "5": {
+        "xf_idx": 20,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "NONE",
+          "top": "THIN",
+          "bottom": "THIN"
+        }
+      },
+      "6": {
+        "xf_idx": 17,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "THIN",
+          "top": "THIN",
+          "bottom": "THIN"
+        }
+      },
+      "7": {
+        "xf_idx": 17,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "THIN",
+          "top": "THIN",
+          "bottom": "THIN"
+        }
+      },
+      "8": {
+        "xf_idx": 22,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "THIN",
+          "top": "THIN",
+          "bottom": "NONE"
+        }
+      },
+      "9": {
+        "xf_idx": 23,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "THIN",
+          "top": "THIN",
+          "bottom": "THIN"
+        }
+      },
+      "10": {
+        "xf_idx": 24,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": true,
+        "border": {
+          "left": "NONE",
+          "right": "NONE",
+          "top": "NONE",
+          "bottom": "NONE"
+        }
+      }
+    }
+  },
+  "_bak_before_jul_aug_20260826.xls": {
+    "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\发货统计\\_inbox\\_bak_before_jul_aug_20260826.xls",
+    "sheet": "Sheet1",
+    "nrows": 337,
+    "ncols": 18,
+    "header": [
+      "月份",
+      "创建日期",
+      "给货日期",
+      "发货产品",
+      "",
+      "",
+      "箱数",
+      "渠道",
+      "FBA单号",
+      "运费",
+      "领星----畅选美国站货件授权日期为2025.7.14，追溯授权前90天，也就是4.14号之前创建的货件都不能通发货单提取成本运费，要通过期初成本计算",
+      ""
+    ],
+    "total_merges": 208,
+    "hits": [
+      {
+        "row": 292,
+        "col": 2,
+        "target": "C26052",
+        "text": "6.4\nC26052 500箱"
+      },
+      {
+        "row": 298,
+        "col": 2,
+        "target": "C26064",
+        "text": "6.24\nC26064 735箱\n（40+695）"
+      }
+    ],
+    "batches": {
+      "C26064": {
+        "start_row": 298,
+        "date_merge": {
+          "rlo": 298,
+          "rhi": 314,
+          "clo": 2,
+          "chi": 3,
+          "span_rows": 16
+        },
+        "给货日期_text": "6.24\nC26064 735箱\n（40+695）",
+        "col_merges": {
+          "给货日期": [
+            {
+              "rlo": 298,
+              "rhi": 314,
+              "clo": 2,
+              "chi": 3,
+              "span_rows": 16,
+              "span_cols": 1,
+              "top_text": "6.24\nC26064 735箱\n（40+695）"
+            }
+          ],
+          "规格": [
+            {
+              "rlo": 298,
+              "rhi": 302,
+              "clo": 3,
+              "chi": 4,
+              "span_rows": 4,
+              "span_cols": 1,
+              "top_text": "110G 桌布-2"
+            }
+          ],
+          "尺寸": [],
+          "箱数": [],
+          "FBA单号": [
+            {
+              "rlo": 298,
+              "rhi": 314,
+              "clo": 8,
+              "chi": 9,
+              "span_rows": 16,
+              "span_cols": 1,
+              "top_text": "FBA19FK3X8XG\nFBA19FK3WG61\nFBA19FJWN2L5\nFBA19FK0ZY39\nFBA19FJZMK2G\nFBA19FJZJRLT"
+            }
+          ],
+          "运费": [
+            {
+              "rlo": 298,
+              "rhi": 314,
+              "clo": 9,
+              "chi": 10,
+              "span_rows": 16,
+              "span_cols": 1,
+              "top_text": "物易通"
+            }
+          ]
+        },
+        "all_batch_merges": [
+          {
+            "rlo": 298,
+            "rhi": 314,
+            "clo": 2,
+            "chi": 3,
+            "span_rows": 16,
+            "span_cols": 1,
+            "top_text": "6.24\nC26064 735箱\n（40+695）"
+          },
+          {
+            "rlo": 298,
+            "rhi": 302,
+            "clo": 3,
+            "chi": 4,
+            "span_rows": 4,
+            "span_cols": 1,
+            "top_text": "110G 桌布-2"
+          },
+          {
+            "rlo": 302,
+            "rhi": 309,
+            "clo": 3,
+            "chi": 4,
+            "span_rows": 7,
+            "span_cols": 1,
+            "top_text": "110G 桌布-6"
+          },
+          {
+            "rlo": 309,
+            "rhi": 314,
+            "clo": 3,
+            "chi": 4,
+            "span_rows": 5,
+            "span_cols": 1,
+            "top_text": "110G 桌布-10"
+          },
+          {
+            "rlo": 298,
+            "rhi": 314,
+            "clo": 8,
+            "chi": 9,
+            "span_rows": 16,
+            "span_cols": 1,
+            "top_text": "FBA19FK3X8XG\nFBA19FK3WG61\nFBA19FJWN2L5\nFBA19FK0ZY39\nFBA19FJZMK2G\nFBA19FJZJRLT"
+          },
+          {
+            "rlo": 298,
+            "rhi": 314,
+            "clo": 9,
+            "chi": 10,
+            "span_rows": 16,
+            "span_cols": 1,
+            "top_text": "物易通"
+          }
+        ],
+        "detail_rows": [
+          {
+            "row": 298,
+            "vals": [
+              "",
+              "",
+              "6.24\nC26064 735箱\n（40+695）",
+              "110G 桌布-2",
+              "60*84白",
+              "",
+              "25",
+              "",
+              "FBA19FK3X8XG\nFBA19FK3WG61\nFBA19FJWN2L5\nFBA19FK0ZY39\nFBA19FJZMK2G\nFBA19FJZJRLT",
+              "物易通",
+              ""
+            ],
+            "xf": {
+              "2": {
+                "xf_idx": 200,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": true,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "NONE"
+                }
+              },
+              "3": {
+                "xf_idx": 68,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": false,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "NONE"
+                }
+              },
+              "4": {
+                "xf_idx": 67,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": false,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "THIN"
+                }
+              },
+              "5": {
+                "xf_idx": 67,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": false,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "THIN"
+                }
+              },
+              "8": {
+                "xf_idx": 154,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": true,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "NONE"
+                }
+              },
+              "9": {
+                "xf_idx": 72,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": false,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "NONE"
+                }
+              }
+            }
+          },
+          {
+            "row": 299,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*102 ivory",
+              "",
+              "30",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 300,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "90圆 白",
+              "",
+              "15",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 301,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "90圆 Ivory",
+              "",
+              "15",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 302,
+            "vals": [
+              "",
+              "",
+              "",
+              "110G 桌布-6",
+              "60*84白",
+              "",
+              "75",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 303,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*102 ivory",
+              "",
+              "75",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 304,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*102 蓝",
+              "",
+              "50",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 305,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "90圆 白",
+              "",
+              "50",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 306,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "90圆 Ivory",
+              "",
+              "40",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 307,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*126 白",
+              "",
+              "50",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 308,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "70*120 白",
+              "",
+              "40",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 309,
+            "vals": [
+              "",
+              "",
+              "",
+              "110G 桌布-10",
+              "60*102 白",
+              "",
+              "150",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 310,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*102 ivory",
+              "",
+              "50",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 311,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "90圆 白",
+              "",
+              "30",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 312,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "90圆 Ivory",
+              "",
+              "20",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 313,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*126 ivory",
+              "",
+              "20",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "fba_all_in_one_merged_cell": true
+      },
+      "C26052": {
+        "start_row": 292,
+        "date_merge": null,
+        "给货日期_text": "6.4\nC26052 500箱",
+        "col_merges": {
+          "给货日期": [],
+          "规格": [],
+          "尺寸": [],
+          "箱数": [],
+          "FBA单号": [],
+          "运费": []
+        },
+        "all_batch_merges": [
+          {
+            "rlo": 295,
+            "rhi": 298,
+            "clo": 2,
+            "chi": 3,
+            "span_rows": 3,
+            "span_cols": 1,
+            "top_text": "6.20 易尚\nC26065 215箱"
+          },
+          {
+            "rlo": 298,
+            "rhi": 314,
+            "clo": 2,
+            "chi": 3,
+            "span_rows": 16,
+            "span_cols": 1,
+            "top_text": "6.24\nC26064 735箱\n（40+695）"
+          },
+          {
+            "rlo": 296,
+            "rhi": 298,
+            "clo": 3,
+            "chi": 4,
+            "span_rows": 2,
+            "span_cols": 1,
+            "top_text": "90G 桌布-2"
+          },
+          {
+            "rlo": 298,
+            "rhi": 302,
+            "clo": 3,
+            "chi": 4,
+            "span_rows": 4,
+            "span_cols": 1,
+            "top_text": "110G 桌布-2"
+          },
+          {
+            "rlo": 302,
+            "rhi": 309,
+            "clo": 3,
+            "chi": 4,
+            "span_rows": 7,
+            "span_cols": 1,
+            "top_text": "110G 桌布-6"
+          },
+          {
+            "rlo": 295,
+            "rhi": 298,
+            "clo": 8,
+            "chi": 9,
+            "span_rows": 3,
+            "span_cols": 1,
+            "top_text": "FBA19FBDDBNS"
+          },
+          {
+            "rlo": 298,
+            "rhi": 314,
+            "clo": 8,
+            "chi": 9,
+            "span_rows": 16,
+            "span_cols": 1,
+            "top_text": "FBA19FK3X8XG\nFBA19FK3WG61\nFBA19FJWN2L5\nFBA19FK0ZY39\nFBA19FJZMK2G\nFBA19FJZJRLT"
+          },
+          {
+            "rlo": 295,
+            "rhi": 298,
+            "clo": 9,
+            "chi": 10,
+            "span_rows": 3,
+            "span_cols": 1,
+            "top_text": "物易通"
+          },
+          {
+            "rlo": 298,
+            "rhi": 314,
+            "clo": 9,
+            "chi": 10,
+            "span_rows": 16,
+            "span_cols": 1,
+            "top_text": "物易通"
+          }
+        ],
+        "detail_rows": [
+          {
+            "row": 292,
+            "vals": [
+              "",
+              "",
+              "6.4\nC26052 500箱",
+              "90G 桌布-6",
+              "60*102 白",
+              "",
+              "500",
+              "",
+              "FBA19F3L02P4\nFBA19F3L5YR0\nFBA19F3MKGZT\nFBA19F3LM71B\nFBA19F3JJ3T5",
+              "物易通",
+              ""
+            ],
+            "xf": {
+              "2": {
+                "xf_idx": 222,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": true,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "THIN"
+                }
+              },
+              "3": {
+                "xf_idx": 67,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": false,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "THIN"
+                }
+              },
+              "4": {
+                "xf_idx": 67,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": false,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "THIN"
+                }
+              },
+              "5": {
+                "xf_idx": 67,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": false,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "THIN"
+                }
+              },
+              "8": {
+                "xf_idx": 160,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": true,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "THIN"
+                }
+              },
+              "9": {
+                "xf_idx": 73,
+                "horz": "CENTER",
+                "vert": "CENTER",
+                "wrap": false,
+                "border": {
+                  "left": "THIN",
+                  "right": "THIN",
+                  "top": "THIN",
+                  "bottom": "THIN"
+                }
+              }
+            }
+          },
+          {
+            "row": 293,
+            "vals": [
+              "",
+              "",
+              "6.12 易尚\nC26055B 800箱",
+              "90G 桌布-10",
+              "60*102 白",
+              "",
+              "800",
+              "",
+              "FBA19FLNWL87\nFBA19FLQBTS9\nFBA19FLQCB5Q\nFBA19FLLDGPH\nFBA19FLNFY8Z",
+              "物易通",
+              ""
+            ]
+          },
+          {
+            "row": 294,
+            "vals": [
+              "",
+              "",
+              "6.17\nC26055A 235箱",
+              "90G 桌布-10",
+              "60*102 白",
+              "",
+              "235",
+              "",
+              "FBA19FK20Z7D\nFBA19FK4TBQZ\nFBA19FK1M9Y3\nFBA19FK30XQ8\nFBA19FK4C60Z",
+              "物易通",
+              ""
+            ]
+          },
+          {
+            "row": 295,
+            "vals": [
+              "",
+              "",
+              "6.20 易尚\nC26065 215箱",
+              "90G 桌布-6",
+              "60*84白",
+              "",
+              "50",
+              "",
+              "FBA19FBDDBNS",
+              "物易通",
+              ""
+            ]
+          },
+          {
+            "row": 296,
+            "vals": [
+              "",
+              "",
+              "",
+              "90G 桌布-2",
+              "60*84白",
+              "",
+              "15",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 297,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*102 白",
+              "",
+              "150",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 298,
+            "vals": [
+              "",
+              "",
+              "6.24\nC26064 735箱\n（40+695）",
+              "110G 桌布-2",
+              "60*84白",
+              "",
+              "25",
+              "",
+              "FBA19FK3X8XG\nFBA19FK3WG61\nFBA19FJWN2L5\nFBA19FK0ZY39\nFBA19FJZMK2G\nFBA19FJZJRLT",
+              "物易通",
+              ""
+            ]
+          },
+          {
+            "row": 299,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*102 ivory",
+              "",
+              "30",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 300,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "90圆 白",
+              "",
+              "15",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 301,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "90圆 Ivory",
+              "",
+              "15",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 302,
+            "vals": [
+              "",
+              "",
+              "",
+              "110G 桌布-6",
+              "60*84白",
+              "",
+              "75",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "row": 303,
+            "vals": [
+              "",
+              "",
+              "",
+              "",
+              "60*102 ivory",
+              "",
+              "75",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ],
+        "fba_all_in_one_merged_cell": false
+      }
+    },
+    "merges_around_285_310": [
+      {
+        "rlo": 284,
+        "rhi": 286,
+        "clo": 3,
+        "chi": 4,
+        "span_rows": 2,
+        "span_cols": 1,
+        "top_text": "90G 桌布-6"
+      },
+      {
+        "rlo": 284,
+        "rhi": 286,
+        "clo": 4,
+        "chi": 5,
+        "span_rows": 2,
+        "span_cols": 1,
+        "top_text": "102白"
+      },
+      {
+        "rlo": 286,
+        "rhi": 290,
+        "clo": 2,
+        "chi": 3,
+        "span_rows": 4,
+        "span_cols": 1,
+        "top_text": "5.31\nC26047 90箱"
+      },
+      {
+        "rlo": 286,
+        "rhi": 289,
+        "clo": 3,
+        "chi": 4,
+        "span_rows": 3,
+        "span_cols": 1,
+        "top_text": "110G 桌布-2"
+      },
+      {
+        "rlo": 286,
+        "rhi": 290,
+        "clo": 8,
+        "chi": 9,
+        "span_rows": 4,
+        "span_cols": 1,
+        "top_text": "FBA19D6C1HN6\nFBA19D6GJLM6\nFBA19D6D18XS\nFBA19D6C4RJ9\nFBA19D6BPKL7"
+      },
+      {
+        "rlo": 286,
+        "rhi": 290,
+        "clo": 9,
+        "chi": 10,
+        "span_rows": 4,
+        "span_cols": 1,
+        "top_text": "物易通"
+      },
+      {
+        "rlo": 290,
+        "rhi": 292,
+        "clo": 2,
+        "chi": 10,
+        "span_rows": 2,
+        "span_cols": 8,
+        "top_text": ""
+      },
+      {
+        "rlo": 295,
+        "rhi": 298,
+        "clo": 2,
+        "chi": 3,
+        "span_rows": 3,
+        "span_cols": 1,
+        "top_text": "6.20 易尚\nC26065 215箱"
+      },
+      {
+        "rlo": 295,
+        "rhi": 298,
+        "clo": 8,
+        "chi": 9,
+        "span_rows": 3,
+        "span_cols": 1,
+        "top_text": "FBA19FBDDBNS"
+      },
+      {
+        "rlo": 295,
+        "rhi": 298,
+        "clo": 9,
+        "chi": 10,
+        "span_rows": 3,
+        "span_cols": 1,
+        "top_text": "物易通"
+      },
+      {
+        "rlo": 296,
+        "rhi": 298,
+        "clo": 3,
+        "chi": 4,
+        "span_rows": 2,
+        "span_cols": 1,
+        "top_text": "90G 桌布-2"
+      },
+      {
+        "rlo": 298,
+        "rhi": 314,
+        "clo": 2,
+        "chi": 3,
+        "span_rows": 16,
+        "span_cols": 1,
+        "top_text": "6.24\nC26064 735箱\n（40+695）"
+      },
+      {
+        "rlo": 298,
+        "rhi": 302,
+        "clo": 3,
+        "chi": 4,
+        "span_rows": 4,
+        "span_cols": 1,
+        "top_text": "110G 桌布-2"
+      },
+      {
+        "rlo": 298,
+        "rhi": 314,
+        "clo": 8,
+        "chi": 9,
+        "span_rows": 16,
+        "span_cols": 1,
+        "top_text": "FBA19FK3X8XG\nFBA19FK3WG61\nFBA19FJWN2L5\nFBA19FK0ZY39\nFBA19FJZMK2G\nFBA19FJZJRLT"
+      },
+      {
+        "rlo": 298,
+        "rhi": 314,
+        "clo": 9,
+        "chi": 10,
+        "span_rows": 16,
+        "span_cols": 1,
+        "top_text": "物易通"
+      },
+      {
+        "rlo": 302,
+        "rhi": 309,
+        "clo": 3,
+        "chi": 4,
+        "span_rows": 7,
+        "span_cols": 1,
+        "top_text": "110G 桌布-6"
+      },
+      {
+        "rlo": 309,
+        "rhi": 314,
+        "clo": 3,
+        "chi": 4,
+        "span_rows": 5,
+        "span_cols": 1,
+        "top_text": "110G 桌布-10"
+      }
+    ],
+    "header_xf": {
+      "0": {
+        "xf_idx": 67,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "THIN",
+          "top": "THIN",
+          "bottom": "THIN"
+        }
+      },
+      "1": {
+        "xf_idx": 68,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "THIN",
+          "top": "THIN",
+          "bottom": "NONE"
+        }
+      },
+      "2": {
+        "xf_idx": 67,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "THIN",
+          "top": "THIN",
+          "bottom": "THIN"
+        }
+      },
+      "3": {
+        "xf_idx": 69,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "NONE",
+          "top": "THIN",
+          "bottom": "THIN"
+        }
+      },
+      "4": {
+        "xf_idx": 70,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "NONE",
+          "right": "NONE",
+          "top": "THIN",
+          "bottom": "THIN"
+        }
+      },
+      "5": {
+        "xf_idx": 71,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "NONE",
+          "right": "THIN",
+          "top": "THIN",
+          "bottom": "THIN"
+        }
+      },
+      "6": {
+        "xf_idx": 67,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "THIN",
+          "top": "THIN",
+          "bottom": "THIN"
+        }
+      },
+      "7": {
+        "xf_idx": 67,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "THIN",
+          "top": "THIN",
+          "bottom": "THIN"
+        }
+      },
+      "8": {
+        "xf_idx": 72,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "THIN",
+          "top": "THIN",
+          "bottom": "NONE"
+        }
+      },
+      "9": {
+        "xf_idx": 73,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": false,
+        "border": {
+          "left": "THIN",
+          "right": "THIN",
+          "top": "THIN",
+          "bottom": "THIN"
+        }
+      },
+      "10": {
+        "xf_idx": 74,
+        "horz": "CENTER",
+        "vert": "CENTER",
+        "wrap": true,
+        "border": {
+          "left": "NONE",
+          "right": "NONE",
+          "top": "NONE",
+          "bottom": "NONE"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "append": [
+    "appended C26095-A/B (4 spec lines)"
+  ],
+  "ppc_filled": 18,
+  "ppc_skipped": [
+    {
+      "size": "84白",
+      "spec": "2",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "102米白",
+      "spec": "6",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "102白",
+      "spec": "6",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "102白",
+      "spec": "6",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "102米白",
+      "spec": "6",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "102米白",
+      "spec": "2",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "102米白",
+      "spec": "6",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "102米白",
+      "spec": "2",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "102白",
+      "spec": "6",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "102白",
+      "spec": "6",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "102蓝",
+      "spec": "2",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "84白",
+      "spec": "6",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "126白",
+      "spec": "2",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "126蓝",
+      "spec": "6",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "102白",
+      "spec": "6",
+      "gsm": 90.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "84黑",
+      "spec": "2",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "84白",
+      "spec": "6",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "102白",
+      "spec": "6",
+      "gsm": 90.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "84白",
+      "spec": "6",
+      "gsm": 90.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "84白",
+      "spec": "2",
+      "gsm": 90.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "84白",
+      "spec": "2",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "84白",
+      "spec": "6",
+      "gsm": 110.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "90圆白",
+      "spec": "2",
+      "gsm": 90.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "102米白",
+      "spec": "6",
+      "gsm": 90.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "120白",
+      "spec": "6",
+      "gsm": 90.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "120白",
+      "spec": "6",
+      "gsm": 90.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "90圆黑",
+      "spec": "2",
+      "gsm": 90.0,
+      "reason": "no_unique_ppc"
+    },
+    {
+      "size": "90圆白",
+      "spec": "6",
+      "gsm": 90.0,
+      "reason": "no_unique_ppc"
+    }
+  ],
+  "ppc_skipped_count": 28
+}

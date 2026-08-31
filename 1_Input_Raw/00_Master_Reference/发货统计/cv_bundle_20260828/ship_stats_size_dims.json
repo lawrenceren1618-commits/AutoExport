@@ -1,0 +1,43 @@
+{
+  "confirmed_at": "2026-08-28",
+  "authority": "user_confirm_maintain_current_table",
+  "note": "发货统计简化尺寸短码 ↔ 实际 inch 尺寸；用于头程分摊按包重量计算",
+  "unit": "inch",
+  "shapes": {
+    "rect": {
+      "area_formula": "length_inch * width_inch",
+      "weight_per_piece_formula": "gsm_g_per_m2 * area_m2",
+      "area_m2_formula": "(length_inch * 0.0254) * (width_inch * 0.0254)"
+    },
+    "round": {
+      "area_formula": "pi * (diameter_inch / 2) ^ 2",
+      "weight_per_piece_formula": "gsm_g_per_m2 * area_m2",
+      "area_m2_formula": "pi * ((diameter_inch * 0.0254) / 2) ^ 2",
+      "note": "直径 inch；目前业务以 90inch 圆为主，历史有 60inch 圆"
+    }
+  },
+  "short_to_dims": {
+    "84": { "shape": "rect", "length_inch": 60, "width_inch": 84, "order_full": "60X84inch" },
+    "102": { "shape": "rect", "length_inch": 60, "width_inch": 102, "order_full": "60X102inch" },
+    "126": { "shape": "rect", "length_inch": 60, "width_inch": 126, "order_full": "60X126inch" },
+    "120": { "shape": "rect", "length_inch": 70, "width_inch": 120, "order_full": "70X120inch" },
+    "90圆": { "shape": "round", "diameter_inch": 90, "order_full": "90 inch round" },
+    "60圆": { "shape": "round", "diameter_inch": 60, "order_full": "60 inch round" }
+  },
+  "color_normalize": {
+    "米白": ["ivory", "Ivory", "lory", "象牙白", "象牙", "米白"],
+    "白": ["白", "白色", "white", "White"],
+    "黑": ["黑", "黑色", "black", "Black"]
+  },
+  "freight_allocation": {
+    "core_unit": "包",
+    "batch_freight_per_kg": "批次总运费 / 该批次所有包的总重量(kg)",
+    "pack_freight": "头程单价(元/kg) * 每包重量(kg)",
+    "pack_weight": "每条克重(g) * 条/包 / 1000",
+    "piece_weight": "面料克重(g/m2) * 面积(m2)",
+    "packs_per_carton_column": "包/箱（表内新增列；同尺寸可因90/110克或包装优化而不同）",
+    "domestic_cost": "每包采购成本 + 每包头程分摊",
+    "niuku_send_freight_in_table": 0,
+    "niuku_send_reason": "SEND/后台扣款已在到账金额中体现，利润核算避免重复扣头程"
+  }
+}

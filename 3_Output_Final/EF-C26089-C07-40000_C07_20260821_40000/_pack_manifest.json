@@ -1,0 +1,110 @@
+{
+  "kind": "output_packs",
+  "generated_at": "2026-08-25T14:02:14+0800",
+  "rule": "Templates/Colleague_Pack_Export.md",
+  "project": "EF-C26089-C07-40000_C07_20260821_40000",
+  "pack_root": "D:\\.cursor\\Cursor-projects\\AutoExport\\3_Output_Final\\EF-C26089-C07-40000_C07_20260821_40000",
+  "packs": {
+    "archive": "完整存档",
+    "factory_label_kits": [
+      "C26089-A_20000_2026.8.29_贴标包",
+      "C26089-B_20000_2026.8.29_贴标包"
+    ],
+    "factory_naming": "{split_leg_id}_{actual_strips}_{ship_date}_贴标包",
+    "factory_one_pack_per_leg": true,
+    "wechat_send_zip": "C26089_2026.8.29_微信发送.zip"
+  },
+  "factory_packs": [
+    {
+      "folder": "C26089-A_20000_2026.8.29_贴标包",
+      "batch": "C26089-A",
+      "strips": 20000,
+      "ship_date": "2026.8.29",
+      "layout": "wh_nested",
+      "warehouses": [
+        "CLT2",
+        "LAS1",
+        "LAX9",
+        "SBD1",
+        "TEB9"
+      ],
+      "channel": "FC",
+      "inbound_skipped_send": true,
+      "freight_forwarder": "纽酷"
+    },
+    {
+      "folder": "C26089-B_20000_2026.8.29_贴标包",
+      "batch": "C26089-B",
+      "strips": 20000,
+      "ship_date": "2026.8.29",
+      "layout": "flat_single_wh",
+      "warehouses": [
+        "IUSP"
+      ],
+      "channel": "AWD",
+      "inbound_skipped_send": false,
+      "freight_forwarder": "物易通"
+    }
+  ],
+  "wechat_send": {
+    "file": "C26089_2026.8.29_微信发送.zip",
+    "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\3_Output_Final\\EF-C26089-C07-40000_C07_20260821_40000\\C26089_2026.8.29_微信发送.zip",
+    "bytes": 14550870,
+    "members": 12,
+    "included_tops": [
+      "C26089-A_20000_2026.8.29_贴标包",
+      "C26089-B_20000_2026.8.29_贴标包"
+    ],
+    "excluded_tops": [
+      "完整存档"
+    ],
+    "rule": "same-batch 贴标包 only for WeChat; 完整存档 not included"
+  },
+  "legs": [
+    {
+      "folder": "C26089-A_FC",
+      "channel": "FC",
+      "warehouses": [
+        "CLT2",
+        "LAS1",
+        "LAX9",
+        "SBD1",
+        "TEB9"
+      ],
+      "fba_subdir": "FC"
+    },
+    {
+      "folder": "C26089-B_AWD",
+      "channel": "AWD",
+      "warehouses": [
+        "IUSP"
+      ],
+      "fba_subdir": "AWD"
+    }
+  ],
+  "counts": {
+    "shared_order": 1,
+    "shared_outbound": 1,
+    "shared_labels": 1,
+    "archive_freight": 6,
+    "archive_customs": 6,
+    "archive_carton": 7,
+    "factory_carton": 6,
+    "archive_inbound": 1,
+    "factory_inbound": 1
+  },
+  "missing": [],
+  "inbound_skipped_send": [
+    "C26089-A_FC/货代入库贴/CLT2",
+    "C26089-A_FC/货代入库贴/LAS1",
+    "C26089-A_FC/货代入库贴/LAX9",
+    "C26089-A_FC/货代入库贴/SBD1",
+    "C26089-A_FC/货代入库贴/TEB9",
+    "C26089-A_20000_2026.8.29_贴标包/CLT2/入库贴",
+    "C26089-A_20000_2026.8.29_贴标包/LAS1/入库贴",
+    "C26089-A_20000_2026.8.29_贴标包/LAX9/入库贴",
+    "C26089-A_20000_2026.8.29_贴标包/SBD1/入库贴",
+    "C26089-A_20000_2026.8.29_贴标包/TEB9/入库贴"
+  ],
+  "note": "copy-only; SEND legs skip separate inbound (see freight_forwarder_profiles.json)"
+}

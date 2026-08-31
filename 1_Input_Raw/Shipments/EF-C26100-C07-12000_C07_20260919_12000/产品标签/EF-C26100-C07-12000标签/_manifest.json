@@ -1,0 +1,54 @@
+{
+  "order_code": "EF-C26100-C07-12000",
+  "entity_code": "C07",
+  "brand": "Dressmaker",
+  "layout": "产品标签/{EF}标签/{N}条装/{尺寸}/{原名}.pdf",
+  "label_source": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\桌布标签",
+  "copied": 1,
+  "missing": [],
+  "ambiguous": [],
+  "source_before": {
+    "total_files": 113,
+    "fingerprint": "cb345ccb12bef4e58a026669f045430579a73de75d28d817fcc82acd3e035dbf",
+    "inventory_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\label_source_inventory\\before_EF-C26100-C07-12000_20260825_162005.json"
+  },
+  "source_after": {
+    "total_files": 113,
+    "fingerprint": "cb345ccb12bef4e58a026669f045430579a73de75d28d817fcc82acd3e035dbf",
+    "inventory_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\label_source_inventory\\after_EF-C26100-C07-12000_20260825_162005.json",
+    "unchanged": true
+  },
+  "lines": [
+    {
+      "entity_code": "C07",
+      "brand": "Dressmaker",
+      "order_code": "EF-C26100-C07-12000",
+      "order_date": "2026-08-25",
+      "size": "60X102inch",
+      "color": "白",
+      "qty_strips": 12000,
+      "gram_weight": "90G",
+      "strips_per_pack": 10,
+      "packs_per_carton": 4,
+      "strips_per_carton": 40,
+      "fnsku": "X004SJV9UF",
+      "pack_method": "carton",
+      "inner_pack_lwh_cm": "25*19*28",
+      "carton_lwh_cm": "40*27*58",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "sku_key": "Dressmaker|60X102inch|白",
+      "product_key": "Dressmaker|60X102inch|白",
+      "qty_cartons": 300,
+      "size_folder": "60x102",
+      "source_rel": "C07-Dressmaker品牌/易尚美国站90克桌布/10条装/60x102/102白-10条.pdf",
+      "dest_rel": "EF-C26100-C07-12000标签/10条装/60x102/102白-10条.pdf",
+      "status": "copied",
+      "candidates": [
+        {
+          "rel": "C07-Dressmaker品牌/易尚美国站90克桌布/10条装/60x102/102白-10条.pdf",
+          "score": 13
+        }
+      ]
+    }
+  ]
+}

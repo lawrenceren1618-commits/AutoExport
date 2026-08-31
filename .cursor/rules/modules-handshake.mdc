@@ -9,6 +9,6 @@ alwaysApply: true
 - 本机路径：`D:\.cursor\Cursor-projects\AutoExport`
 - 仓库 / Vercel / Supabase 项目名：`AutoExport`（勿连家里项目密钥）
 - 办公室推送 SSH：`git@github.com-office-cp:lawrenceren1618-commits/AutoExport.git`（见 `docs/SSH_OFFICE.md`）；家里机继续用默认 `github.com` 密钥
-- Web Root：`web/`；后台目标树：`/admin/progress`
+- Web Root：`web/`；库务进度树：`/ops/progress`（原 `/admin/progress` 重定向）
 - H01 总表入库必须使用者显式确认（`/admin/master-import` 或 `Scripts/04_ingest_master_table.py --confirm`）
 - 最终输出前走 Gate（HX），见 `pre-output-cross-check.mdc`

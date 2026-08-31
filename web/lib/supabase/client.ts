@@ -1,4 +1,4 @@
-﻿import { createClient, SupabaseClient } from "@supabase/supabase-js";
+﻿import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
 function supabaseDbSchema(): string {
   return (
@@ -12,7 +12,7 @@ export function assertOfficeEnv(): void {
   const env = process.env.OFCE_ENV;
   if (env && env !== "office") {
     throw new Error(
-      `OFCE_ENV must be "office" for this deployment (got "${env}"). Refusing to continue — home/office isolation.`
+      `OFCE_ENV must be "office" for this deployment (got "${env}"). Refusing to continue — home/office isolation.`,
     );
   }
 }
@@ -22,9 +22,10 @@ export function getSupabaseAnon(): SupabaseClient | null {
   const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
   if (!url || !key || url.includes("YOUR_PROJECT")) return null;
   const schema = supabaseDbSchema();
+  // schema is env string (autoexport); cast away default "public" generic
   return createClient(url, key, {
     db: { schema },
-  });
+  }) as unknown as SupabaseClient;
 }
 
 /** Server-only client for writes (master import H01). */
@@ -37,7 +38,7 @@ export function getSupabaseService(): SupabaseClient | null {
   return createClient(url, key, {
     db: { schema },
     auth: { persistSession: false, autoRefreshToken: false },
-  });
+  }) as unknown as SupabaseClient;
 }
 
 export function isSupabaseConfigured(): boolean {

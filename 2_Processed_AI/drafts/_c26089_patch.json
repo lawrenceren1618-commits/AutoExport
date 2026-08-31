@@ -1,0 +1,17 @@
+{
+  "plan_mode": "manual_lines",
+  "total_strips": 40000,
+  "lines": [
+    {
+      "size": "60X102inch",
+      "color": "白色",
+      "qty_strips": 40000,
+      "qty_cartons": 1000,
+      "strips_per_pack": 10,
+      "packs_per_carton": 4,
+      "strips_per_carton": 40,
+      "fnsku": "X004SJV9UF",
+      "gram_weight": "90G"
+    }
+  ]
+}

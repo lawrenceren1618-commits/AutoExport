@@ -1,0 +1,481 @@
+{
+  "generated_at": "2026-07-24T16:31:20+0800",
+  "project": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590",
+  "inbox": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴\\_inbox",
+  "apply": false,
+  "authority_paths": [
+    "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts\\C26079-A_freight_customs_summary.json",
+    "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts\\C26079-B_freight_customs_summary.json"
+  ],
+  "authority_warehouses": {
+    "AVP1": {
+      "shipment_id": "FBA19JT39521",
+      "cartons": 175,
+      "channel": "",
+      "carton_pages": 0,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 AVP1 175箱.xlsx",
+      "fba_path": null
+    },
+    "CLT2": {
+      "shipment_id": "FBA19JT71WTZ",
+      "cartons": 128,
+      "channel": "",
+      "carton_pages": 0,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 CLT2 128箱.xlsx",
+      "fba_path": null
+    },
+    "FWA4": {
+      "shipment_id": "",
+      "cartons": 94,
+      "channel": "FC",
+      "carton_pages": 94,
+      "freight_file": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴下单表\\货代下单表_C26080-B 2026.7.31桌布 FWA4 94箱.xlsx",
+      "fba_path": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\FBA外箱贴\\FC\\FWA4"
+    },
+    "GYR2": {
+      "shipment_id": "FBA19JT3Q0H0",
+      "cartons": 139,
+      "channel": "",
+      "carton_pages": 0,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 GYR2 139箱.xlsx",
+      "fba_path": null
+    },
+    "IUTE": {
+      "shipment_id": "STAR-QG6CTURZGY6MX",
+      "cartons": 140,
+      "channel": "",
+      "carton_pages": 0,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-B 2026.7.31桌布 AWD-IUTE 140箱.xlsx",
+      "fba_path": null
+    },
+    "LGB8": {
+      "shipment_id": "FBA19JT0K3PY",
+      "cartons": 182,
+      "channel": "",
+      "carton_pages": 0,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 LGB8 182箱.xlsx",
+      "fba_path": null
+    },
+    "MCC1": {
+      "shipment_id": "",
+      "cartons": 55,
+      "channel": "FC",
+      "carton_pages": 55,
+      "freight_file": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴下单表\\货代下单表_C26080-B 2026.7.31桌布 MCC1 55箱.xlsx",
+      "fba_path": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\FBA外箱贴\\FC\\MCC1"
+    },
+    "MDW2": {
+      "shipment_id": "FBA19JT16DMQ",
+      "cartons": 181,
+      "channel": "",
+      "carton_pages": 0,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 MDW2 181箱.xlsx",
+      "fba_path": null
+    },
+    "PSP3": {
+      "shipment_id": "",
+      "cartons": 50,
+      "channel": "FC",
+      "carton_pages": 50,
+      "freight_file": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴下单表\\货代下单表_C26080-B 2026.7.31桌布 PSP3 50箱.xlsx",
+      "fba_path": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\FBA外箱贴\\FC\\PSP3"
+    },
+    "RDU2": {
+      "shipment_id": "",
+      "cartons": 54,
+      "channel": "FC",
+      "carton_pages": 54,
+      "freight_file": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴下单表\\货代下单表_C26080-B 2026.7.31桌布 RDU2 54箱.xlsx",
+      "fba_path": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\FBA外箱贴\\FC\\RDU2"
+    },
+    "SCK8": {
+      "shipment_id": "",
+      "cartons": 30,
+      "channel": "FC",
+      "carton_pages": 30,
+      "freight_file": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴下单表\\货代下单表_C26080-A 2026.7.31桌布 SCK8 30箱.xlsx",
+      "fba_path": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\FBA外箱贴\\FC\\SCK8"
+    },
+    "TOL3": {
+      "shipment_id": "",
+      "cartons": 67,
+      "channel": "FC",
+      "carton_pages": 67,
+      "freight_file": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴下单表\\货代下单表_C26080-B 2026.7.31桌布 TOL3 67箱.xlsx",
+      "fba_path": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\FBA外箱贴\\FC\\TOL3"
+    }
+  },
+  "doc": "Templates/Freight_Inbound_Label_Pipeline.md",
+  "inbox_file_count": 6,
+  "total_pages": 350,
+  "files": [
+    {
+      "path": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴\\_inbox\\label_FBA19JZPT0MZ_67.pdf",
+      "page_count": 67,
+      "channels": [
+        "FC"
+      ],
+      "shipment_ids": [
+        "FBA19JZPT0MZ"
+      ],
+      "warehouses": [
+        "TOL3"
+      ],
+      "sample_page0": {
+        "source_file": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴\\_inbox\\label_FBA19JZPT0MZ_67.pdf",
+        "page_index": 0,
+        "channel": "FC",
+        "confidence": 0.9,
+        "signals": [
+          "fba_shipment",
+          "receiving_info:TOL3",
+          "filename_page_count_ok:67"
+        ],
+        "shipment_id": "FBA19JZPT0MZ",
+        "warehouse_code": "TOL3",
+        "page_fingerprint": "f13d631cd3e04f4a",
+        "text_sample": "Customer Order | Number: | FBA Order Number: | Made in China | Receiving Information: | TOL3 1234567891 | 9240 Fremont Pike | PERRYSBURG OH 43551-4210 | FBA19JZPT0MZ | TOL3 | 1 | 67 | FBA19JZPT0MZ W009 | YLPZY26072435758W009001"
+      }
+    },
+    {
+      "path": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴\\_inbox\\label_FBA19JZQF77V_55.pdf",
+      "page_count": 55,
+      "channels": [
+        "FC"
+      ],
+      "shipment_ids": [
+        "FBA19JZQF77V"
+      ],
+      "warehouses": [
+        "MCC1"
+      ],
+      "sample_page0": {
+        "source_file": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴\\_inbox\\label_FBA19JZQF77V_55.pdf",
+        "page_index": 0,
+        "channel": "FC",
+        "confidence": 0.9,
+        "signals": [
+          "fba_shipment",
+          "receiving_info:MCC1",
+          "filename_page_count_ok:55"
+        ],
+        "shipment_id": "FBA19JZQF77V",
+        "warehouse_code": "MCC1",
+        "page_fingerprint": "9ec9749001a00795",
+        "text_sample": "Customer Order | Number: | FBA Order Number: | Made in China | Receiving Information: | MCC1 0000000000 | 3300 Rancho Cordova Pkwy | Rancho Cordova CA 95742 | FBA19JZQF77V | MCC1 | 1 | 55 | FBA19JZQF77V W009 | YLPCK26072450361W009001"
+      }
+    },
+    {
+      "path": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴\\_inbox\\label_FBA19JZQXH2X_30.pdf",
+      "page_count": 30,
+      "channels": [
+        "FC"
+      ],
+      "shipment_ids": [
+        "FBA19JZQXH2X"
+      ],
+      "warehouses": [
+        "SCK8"
+      ],
+      "sample_page0": {
+        "source_file": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴\\_inbox\\label_FBA19JZQXH2X_30.pdf",
+        "page_index": 0,
+        "channel": "FC",
+        "confidence": 0.9,
+        "signals": [
+          "fba_shipment",
+          "receiving_info:SCK8",
+          "filename_page_count_ok:30"
+        ],
+        "shipment_id": "FBA19JZQXH2X",
+        "warehouse_code": "SCK8",
+        "page_fingerprint": "3bfd07a52309bd17",
+        "text_sample": "Customer Order | Number: | FBA Order Number: | Made in China | Receiving Information: | SCK8 1234567890 | 4700 WILBUR AVE | OAKLEY CA 94561-2677 | FBA19JZQXH2X | SCK8 | 1 | 30 | FBA19JZQXH2X W009 | YLPCK26072464410W009001"
+      }
+    },
+    {
+      "path": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴\\_inbox\\label_FBA19JZR1DC8_94.pdf",
+      "page_count": 94,
+      "channels": [
+        "FC"
+      ],
+      "shipment_ids": [
+        "FBA19JZR1DC8"
+      ],
+      "warehouses": [
+        "FWA4"
+      ],
+      "sample_page0": {
+        "source_file": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴\\_inbox\\label_FBA19JZR1DC8_94.pdf",
+        "page_index": 0,
+        "channel": "FC",
+        "confidence": 0.9,
+        "signals": [
+          "fba_shipment",
+          "receiving_info:FWA4",
+          "filename_page_count_ok:94"
+        ],
+        "shipment_id": "FBA19JZR1DC8",
+        "warehouse_code": "FWA4",
+        "page_fingerprint": "bf7183709a2b0151",
+        "text_sample": "Customer Order | Number: | FBA Order Number: | Made in China | Receiving Information: | FWA4 6268618266 | 9798 Smith Road | FORT WAYNE IN 46809-9771 | FBA19JZR1DC8 | FWA4 | 1 | 94 | FBA19JZR1DC8 W009 | YLPZY26072470313W009001"
+      }
+    },
+    {
+      "path": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴\\_inbox\\label_FBA19JZSQT6L_54.pdf",
+      "page_count": 54,
+      "channels": [
+        "FC"
+      ],
+      "shipment_ids": [
+        "FBA19JZSQT6L"
+      ],
+      "warehouses": [
+        "RDU2"
+      ],
+      "sample_page0": {
+        "source_file": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴\\_inbox\\label_FBA19JZSQT6L_54.pdf",
+        "page_index": 0,
+        "channel": "FC",
+        "confidence": 0.9,
+        "signals": [
+          "fba_shipment",
+          "receiving_info:RDU2",
+          "filename_page_count_ok:54"
+        ],
+        "shipment_id": "FBA19JZSQT6L",
+        "warehouse_code": "RDU2",
+        "page_fingerprint": "15995027767dae66",
+        "text_sample": "Customer Order | Number: | FBA Order Number: | Made in China | Receiving Information: | RDU2 0000000000 | 2150 US HWY 70 Business West | SMITHFIELD NC 27577 | FBA19JZSQT6L | RDU2 | 1 | 54 | FBA19JZSQT6L W009 | YLPSV26072489679W009001"
+      }
+    },
+    {
+      "path": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴\\_inbox\\label_FBA19JZVPFS1_50.pdf",
+      "page_count": 50,
+      "channels": [
+        "FC"
+      ],
+      "shipment_ids": [
+        "FBA19JZVPFS1"
+      ],
+      "warehouses": [
+        "PSP3"
+      ],
+      "sample_page0": {
+        "source_file": "1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴\\_inbox\\label_FBA19JZVPFS1_50.pdf",
+        "page_index": 0,
+        "channel": "FC",
+        "confidence": 0.9,
+        "signals": [
+          "fba_shipment",
+          "receiving_info:PSP3",
+          "filename_page_count_ok:50"
+        ],
+        "shipment_id": "FBA19JZVPFS1",
+        "warehouse_code": "PSP3",
+        "page_fingerprint": "82a890a6e4c55d85",
+        "text_sample": "Customer Order | Number: | FBA Order Number: | Made in China | Receiving Information: | PSP3 0000000000 | 64165 19th AVE | DESERT HOT SPRINGS CA 92240 | FBA19JZVPFS1 | PSP3 | 1 | 50 | FBA19JZVPFS1 W009 | YLPCK26072449263W009001"
+      }
+    }
+  ],
+  "warehouses": [
+    {
+      "warehouse_code": "FWA4",
+      "page_count": 94,
+      "pass": false,
+      "checks": {
+        "shipment_id": {
+          "page": "FBA19JZR1DC8",
+          "authority": "",
+          "ok": false
+        },
+        "warehouse_code": {
+          "page": "FWA4",
+          "authority": "FWA4",
+          "ok": true
+        },
+        "page_count_eq_cartons": {
+          "pages": 94,
+          "freight_cartons": 94,
+          "carton_tree_pages": 94,
+          "ok": true
+        },
+        "no_duplicate_pages": {
+          "ok": true,
+          "duplicates": []
+        }
+      },
+      "errors": [
+        "authority_missing_shipment_id"
+      ],
+      "channel": "FC"
+    },
+    {
+      "warehouse_code": "MCC1",
+      "page_count": 55,
+      "pass": false,
+      "checks": {
+        "shipment_id": {
+          "page": "FBA19JZQF77V",
+          "authority": "",
+          "ok": false
+        },
+        "warehouse_code": {
+          "page": "MCC1",
+          "authority": "MCC1",
+          "ok": true
+        },
+        "page_count_eq_cartons": {
+          "pages": 55,
+          "freight_cartons": 55,
+          "carton_tree_pages": 55,
+          "ok": true
+        },
+        "no_duplicate_pages": {
+          "ok": true,
+          "duplicates": []
+        }
+      },
+      "errors": [
+        "authority_missing_shipment_id"
+      ],
+      "channel": "FC"
+    },
+    {
+      "warehouse_code": "PSP3",
+      "page_count": 50,
+      "pass": false,
+      "checks": {
+        "shipment_id": {
+          "page": "FBA19JZVPFS1",
+          "authority": "",
+          "ok": false
+        },
+        "warehouse_code": {
+          "page": "PSP3",
+          "authority": "PSP3",
+          "ok": true
+        },
+        "page_count_eq_cartons": {
+          "pages": 50,
+          "freight_cartons": 50,
+          "carton_tree_pages": 50,
+          "ok": true
+        },
+        "no_duplicate_pages": {
+          "ok": true,
+          "duplicates": []
+        }
+      },
+      "errors": [
+        "authority_missing_shipment_id"
+      ],
+      "channel": "FC"
+    },
+    {
+      "warehouse_code": "RDU2",
+      "page_count": 54,
+      "pass": false,
+      "checks": {
+        "shipment_id": {
+          "page": "FBA19JZSQT6L",
+          "authority": "",
+          "ok": false
+        },
+        "warehouse_code": {
+          "page": "RDU2",
+          "authority": "RDU2",
+          "ok": true
+        },
+        "page_count_eq_cartons": {
+          "pages": 54,
+          "freight_cartons": 54,
+          "carton_tree_pages": 54,
+          "ok": true
+        },
+        "no_duplicate_pages": {
+          "ok": true,
+          "duplicates": []
+        }
+      },
+      "errors": [
+        "authority_missing_shipment_id"
+      ],
+      "channel": "FC"
+    },
+    {
+      "warehouse_code": "SCK8",
+      "page_count": 30,
+      "pass": false,
+      "checks": {
+        "shipment_id": {
+          "page": "FBA19JZQXH2X",
+          "authority": "",
+          "ok": false
+        },
+        "warehouse_code": {
+          "page": "SCK8",
+          "authority": "SCK8",
+          "ok": true
+        },
+        "page_count_eq_cartons": {
+          "pages": 30,
+          "freight_cartons": 30,
+          "carton_tree_pages": 30,
+          "ok": true
+        },
+        "no_duplicate_pages": {
+          "ok": true,
+          "duplicates": []
+        }
+      },
+      "errors": [
+        "authority_missing_shipment_id"
+      ],
+      "channel": "FC"
+    },
+    {
+      "warehouse_code": "TOL3",
+      "page_count": 67,
+      "pass": false,
+      "checks": {
+        "shipment_id": {
+          "page": "FBA19JZPT0MZ",
+          "authority": "",
+          "ok": false
+        },
+        "warehouse_code": {
+          "page": "TOL3",
+          "authority": "TOL3",
+          "ok": true
+        },
+        "page_count_eq_cartons": {
+          "pages": 67,
+          "freight_cartons": 67,
+          "carton_tree_pages": 67,
+          "ok": true
+        },
+        "no_duplicate_pages": {
+          "ok": true,
+          "duplicates": []
+        }
+      },
+      "errors": [
+        "authority_missing_shipment_id"
+      ],
+      "channel": "FC"
+    }
+  ],
+  "written": [],
+  "blocked": true,
+  "notes": [],
+  "layout_calibrated": {
+    "at": "2026-07-24",
+    "sample": "945箱入库贴(1).zip",
+    "signals": [
+      "Receiving Information: {WH}",
+      "FBA… / STAR-…",
+      "label_{ship}_{N}.pdf"
+    ]
+  }
+}

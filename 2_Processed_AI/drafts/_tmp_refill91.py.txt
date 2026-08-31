@@ -1,0 +1,37 @@
+python -X utf8 -c "
+import sys
+sys.path.insert(0, r'D:/.cursor/Cursor-projects/AutoExport/Scripts')
+from pathlib import Path
+from m1.outbound_fill import refill_outbound_file
+
+jobs = [
+ (
+  Path(r'D:/.cursor/Cursor-projects/AutoExport/1_Input_Raw/Shipments/EF-C26080-C07-11590_C07_20260731_13590/出货表/C07-2608-U-2026.7.31.xlsx'),
+  'EF-C26080-C07-11590', 'C26080'
+ ),
+ (
+  Path(r'D:/.cursor/Cursor-projects/AutoExport/3_Output_Final/EF-C26080-C07-11590_C07_20260731_13590/完整存档/共用/出货表/C07-2608-U-2026.7.31.xlsx'),
+  'EF-C26080-C07-11590', 'C26080'
+ ),
+ (
+  Path(r'D:/.cursor/Cursor-projects/AutoExport/3_Output_Final/EF-C26079-C04-36460  桌布-2026.7.10/完整存档/共用/出货表/C04-2616-U-2026.7.31.xlsx'),
+  'EF-C26079-C04-36460', 'C26079'
+ ),
+]
+# also C26079 ship if exists
+ship79=list(Path(r'D:/.cursor/Cursor-projects/AutoExport/1_Input_Raw/Shipments').glob('*C26079*/出货表/*.xlsx'))
+for p in ship79:
+ jobs.append((p, 'EF-C26079-C04-36460', 'C26079'))
+
+from openpyxl import load_workbook
+for path, oc, os_ in jobs:
+ if not path.exists():
+  print('SKIP missing', path); continue
+ out=refill_outbound_file(path, order_code=oc, order_short=os_)
+ wb=load_workbook(out)
+ ws=wb.active
+ print('OK', out)
+ print('  merges', list(ws.merged_cells.ranges))
+ print('  F5', ws.cell(5,6).value, 'A5', ws.cell(5,1).value, 'E_total', ws.cell(ws.max_row,5).value)
+ print('  heights', [ws.row_dimensions[r].height for r in range(5, 5+8)])
+"

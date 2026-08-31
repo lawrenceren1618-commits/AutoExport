@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-07-24",
+  "source": "Amazon Seller Central screenshots (确认货件 / 打印箱子标签)",
+  "note": "tracking_id → 货代 B15; customer_no C2 stays 111111111",
+  "rows": [
+    {
+      "warehouse_code": "SCK8",
+      "fba_shipment_id": "FBA19JZQXH2X",
+      "tracking_id": "4MBPXH1E",
+      "cartons": 30,
+      "leg": "C26080-A"
+    },
+    {
+      "warehouse_code": "TOL3",
+      "fba_shipment_id": "FBA19JZPT0MZ",
+      "tracking_id": "6IFXBUOS",
+      "cartons": 67,
+      "leg": "C26080-B"
+    },
+    {
+      "warehouse_code": "MCC1",
+      "fba_shipment_id": "FBA19JZQF77V",
+      "tracking_id": "6SBALYVV",
+      "cartons": 55,
+      "leg": "C26080-B"
+    },
+    {
+      "warehouse_code": "RDU2",
+      "fba_shipment_id": "FBA19JZSQT6L",
+      "tracking_id": "48FYIXJX",
+      "cartons": 54,
+      "leg": "C26080-B"
+    },
+    {
+      "warehouse_code": "FWA4",
+      "fba_shipment_id": "FBA19JZR1DC8",
+      "tracking_id": "2T8VLG8U",
+      "cartons": 94,
+      "leg": "C26080-B"
+    },
+    {
+      "warehouse_code": "PSP3",
+      "fba_shipment_id": "FBA19JZVPFS1",
+      "tracking_id": "7QJ2V2SA",
+      "cartons": 50,
+      "leg": "C26080-B"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "order_code": "EF-C26089-C07-40000",
+  "ship_date": "2026-08-29",
+  "split_leg_id": "C26089-A",
+  "freight_forwarder": "纽酷",
+  "channel": "FC",
+  "rows": [
+    {
+      "warehouse_code": "LAS1",
+      "fba_shipment_id": "FBA19MBJ7GW8",
+      "tracking_id": "6PAUFFDO",
+      "cartons": 107,
+      "strips": 4280,
+      "store": "C07"
+    },
+    {
+      "warehouse_code": "CLT2",
+      "fba_shipment_id": "FBA19MBF40MV",
+      "tracking_id": "5ZYWD47J",
+      "cartons": 85,
+      "strips": 3400,
+      "store": "C07"
+    },
+    {
+      "warehouse_code": "TEB9",
+      "fba_shipment_id": "FBA19MBHDDR0",
+      "tracking_id": "6EYAJFFI",
+      "cartons": 90,
+      "strips": 3600,
+      "store": "C07"
+    },
+    {
+      "warehouse_code": "SBD1",
+      "fba_shipment_id": "FBA19MBFWX4B",
+      "tracking_id": "6OZ3AMWL",
+      "cartons": 119,
+      "strips": 4760,
+      "store": "C07"
+    },
+    {
+      "warehouse_code": "LAX9",
+      "fba_shipment_id": "FBA19MBJ7JXH",
+      "tracking_id": "1ZHHGF1L",
+      "cartons": 99,
+      "strips": 3960,
+      "store": "C07"
+    }
+  ]
+}

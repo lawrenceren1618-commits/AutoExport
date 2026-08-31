@@ -1,0 +1,13 @@
+﻿upper_lines 11 upper_sku 11
+lower_lines 23
+total_upper_qty 36460.0
+total_lower_strips 36460.0
+python : Traceback (most recent call last):
+所在位置 C:\Users\Administrator\AppData\Local\Temp\ps-script-31b0d8c4-846f-489c-99e0-8608044b972a.ps1:98 字符: 1
++ python -c "
++ ~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "<string>", line 32, in <module>
+TypeError: 'ensure_ascii' is an invalid keyword argument for sort()

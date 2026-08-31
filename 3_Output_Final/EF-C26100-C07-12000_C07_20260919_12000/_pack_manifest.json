@@ -1,0 +1,68 @@
+{
+  "kind": "output_packs",
+  "generated_at": "2026-08-31T15:08:31+0800",
+  "rule": "Templates/Colleague_Pack_Export.md",
+  "project": "EF-C26100-C07-12000_C07_20260919_12000",
+  "pack_root": "D:\\.cursor\\Cursor-projects\\AutoExport\\3_Output_Final\\EF-C26100-C07-12000_C07_20260919_12000",
+  "packs": {
+    "archive": "完整存档",
+    "factory_label_kits": [
+      "C26100-B_0_2026.9.19_贴标包"
+    ],
+    "factory_naming": "{split_leg_id}_{actual_strips}_{ship_date}_贴标包",
+    "factory_one_pack_per_leg": true,
+    "wechat_send_zip": "C26100_2026.9.19_微信发送.zip"
+  },
+  "factory_packs": [
+    {
+      "folder": "C26100-B_0_2026.9.19_贴标包",
+      "batch": "C26100-B",
+      "strips": 0,
+      "ship_date": "2026.9.19",
+      "layout": "flat_single_wh",
+      "warehouses": [
+        "IUTJ"
+      ],
+      "channel": "AWD",
+      "inbound_skipped_send": false,
+      "freight_forwarder": null
+    }
+  ],
+  "wechat_send": {
+    "file": "C26100_2026.9.19_微信发送.zip",
+    "path": "D:\\.cursor\\Cursor-projects\\AutoExport\\3_Output_Final\\EF-C26100-C07-12000_C07_20260919_12000\\C26100_2026.9.19_微信发送.zip",
+    "bytes": 671054,
+    "members": 2,
+    "included_tops": [
+      "C26100-B_0_2026.9.19_贴标包"
+    ],
+    "excluded_tops": [
+      "完整存档"
+    ],
+    "rule": "same-batch 贴标包 only for WeChat; 完整存档 not included"
+  },
+  "legs": [
+    {
+      "folder": "C26100-B_AWD",
+      "channel": "AWD",
+      "warehouses": [
+        "IUTJ"
+      ],
+      "fba_subdir": "AWD"
+    }
+  ],
+  "counts": {
+    "shared_order": 1,
+    "shared_outbound": 1,
+    "shared_labels": 1,
+    "archive_freight": 1,
+    "archive_customs": 1,
+    "archive_carton": 2,
+    "archive_inbound": 1,
+    "factory_inbound": 1,
+    "factory_carton": 1
+  },
+  "missing": [],
+  "inbound_skipped_send": [],
+  "note": "copy-only; SEND legs skip separate inbound (see freight_forwarder_profiles.json)"
+}

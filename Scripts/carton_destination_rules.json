@@ -1,0 +1,146 @@
+{
+  "version": "1.1",
+  "confirmed_at": "2026-08-19",
+  "confirmed_by": "user",
+  "doc": "Templates/Carton_Label_Channels.md",
+  "dual_file_policy": {
+    "must_stay_identical": true,
+    "paths": [
+      "Scripts/carton_destination_rules.json",
+      "web/lib/pipeline/carton-destination-rules.json"
+    ],
+    "edit_first": "Scripts/carton_destination_rules.json",
+    "then_copy_to": "web/lib/pipeline/carton-destination-rules.json",
+    "reason": "Vercel Root Directory = web 不能随部署带上仓库 Scripts/；Next 运行时读 web 副本。权威仍以 Scripts 为先改点，改完必须原样复制到 web，两份内容必须相同。",
+    "confirmed_at": "2026-08-19",
+    "confirmed_by": "user"
+  },
+  "recognize_engines": {
+    "primary": "pdf_text_layer",
+    "backup": "tesseract.js",
+    "backup_when": "primary_cannot_extract_warehouse_and_shipment_id_or_errors",
+    "do_not_delete_backup": true,
+    "confirm_still_required": true,
+    "llamaparse": "opt_in_compare_only",
+    "llamaparse_env": "OCR_DUAL_COMPARE=on + LLAMA_CLOUD_API_KEY",
+    "cost_shot_is_separate": "单价截图仍以 tesseract 为主路径，见 Templates/Cost_Shot_Recognize.md",
+    "note": "OCR 暂停指外箱贴默认不跑 OCR；已设计的 Tesseract 流程保留为备用，主路径报错/抽不出仓+货件号才尝试。不卸载 tesseract.js。"
+  },
+  "note": "亚马逊目的地仅两种现役：FC=运营中心，AWD=仓储配送。确认后仓码/货件形态固定。识别只给建议，仍须人工点确认。宁空不填错。",
+  "one_leg_one_channel": true,
+  "GWD": "disabled",
+  "confirm_still_required": true,
+  "prefer_empty_over_wrong": true,
+  "channels": {
+    "FC": {
+      "name_zh": "运营中心",
+      "name_en": "Fulfillment Center",
+      "shipment_id_pattern": "FBA[0-9A-Z]{8,}",
+      "shipment_id_example": "FBA19JT39521",
+      "warehouse_pattern": "[A-Z]{3}\\d",
+      "signals": ["FBA", "货件名称", "Fulfillment", "U000001"],
+      "tracking": "labeled_or_common_carrier_ok",
+      "reference_id": "tracking_when_available",
+      "freight_any_order_no": "fba_shipment_id",
+      "calibrated_tickets": ["C26079-A"]
+    },
+    "AWD": {
+      "name_zh": "AWD 仓库",
+      "name_en": "Amazon Warehousing & Distribution",
+      "shipment_id_pattern": "STAR-[0-9A-Z]+",
+      "shipment_id_must_have_hyphen": true,
+      "shipment_id_example": "STAR-WDWSD2Q5T56Y4",
+      "warehouse_pattern": "IUTE|IUSW|HEA2",
+      "signals": ["STAR-", "AWD Box", "AWD 3PL", "ShipmentID", "IUTE"],
+      "tracking": "usually_empty_but_may_exist",
+      "tracking_note": "有则写入货代 B15；勿把 PDF 结构或 PO 当追踪",
+      "reference_id": "usually_empty",
+      "po_id": "json_only_not_B15_default",
+      "freight_any_order_no": "star_shipment_id",
+      "calibrated_tickets": ["C26079-B", "C26089"]
+    }
+  },
+  "warehouses": {
+    "FC": [
+      "AVP1",
+      "CLT2",
+      "GYR2",
+      "GYR3",
+      "LGB8",
+      "MDW2",
+      "ONT8",
+      "FTW1",
+      "SWF2",
+      "RDU2",
+      "SCK8",
+      "TOL3",
+      "MCC1",
+      "FWA4",
+      "PSP3",
+      "CF012"
+    ],
+    "AWD": ["IUTE", "IUSW", "HEA2"]
+  },
+  "verified_pairs": [
+    {
+      "ticket": "C26079-A",
+      "channel": "FC",
+      "warehouse": "AVP1",
+      "shipment_id": "FBA19JT39521"
+    },
+    {
+      "ticket": "C26079-A",
+      "channel": "FC",
+      "warehouse": "CLT2",
+      "shipment_id": "FBA19JT71WTZ"
+    },
+    {
+      "ticket": "C26079-A",
+      "channel": "FC",
+      "warehouse": "GYR2",
+      "shipment_id": "FBA19JT3Q0H0"
+    },
+    {
+      "ticket": "C26079-A",
+      "channel": "FC",
+      "warehouse": "LGB8",
+      "shipment_id": "FBA19JT0K3PY"
+    },
+    {
+      "ticket": "C26079-A",
+      "channel": "FC",
+      "warehouse": "MDW2",
+      "shipment_id": "FBA19JT16DMQ"
+    },
+    {
+      "ticket": "C26079-B",
+      "channel": "AWD",
+      "warehouse": "IUTE",
+      "shipment_id": "STAR-QG6CTURZGY6MX"
+    },
+    {
+      "ticket": "C26089",
+      "channel": "AWD",
+      "warehouse": "IUTE",
+      "shipment_id": "STAR-WDWSD2Q5T56Y4",
+      "tracking_id": "2MSYJZTJ",
+      "cartons": 1000,
+      "note": "2026-08-19 用户确认；PDF 文本层曾误识 UCS2/STARTXREF"
+    }
+  ],
+  "pdf_text_layer": {
+    "ignore_tokens": [
+      "STARTXREF",
+      "XREF",
+      "ENDOBJ",
+      "ENDSTREAM",
+      "STREAM",
+      "FLATEDECODE",
+      "PROCSET"
+    ],
+    "star_id_requires_hyphen": true,
+    "do_not_treat_pdf_xref_as_shipment_id": true,
+    "unlabeled_alnum_8_12_is_not_reference": true,
+    "unknown_fc_style_code_without_货件名称_is_not_warehouse": true
+  }
+}

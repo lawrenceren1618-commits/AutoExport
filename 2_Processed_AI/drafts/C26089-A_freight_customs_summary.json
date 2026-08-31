@@ -1,0 +1,120 @@
+{
+  "generated_at": "2026-08-20T16:19:24+0800",
+  "order_code": "EF-C26089-C07-40000",
+  "split_leg_id": "C26089-A",
+  "ship_date": "2026-08-29",
+  "pricing_method": "per_warehouse: raw=sum(cartons*master_1039_ctn_price); unit=round(raw/strips,2); amount=round(unit*strips,2)",
+  "note": "草稿；未进 Final",
+  "remaining_for_B": null,
+  "files": [
+    {
+      "warehouse_code": "LAS1",
+      "fba_shipment_id": "FBA19MBJ7GW8",
+      "tracking_id": "6PAUFFDO",
+      "cartons": 107,
+      "strips": 4280,
+      "raw_carton_x_price": 9413.65,
+      "unit_price_usd": 2.2,
+      "declare_amount_usd": 9416.0,
+      "net_kg": 1520.47,
+      "gross_kg": 1749.45,
+      "protocol_no": "20260829502",
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\货代入库贴下单表\\货代下单表_C26089-A 2026.8.29桌布 LAS1 107箱.xlsx",
+      "customs_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\报关资料表\\畅选+波丽丝 2026.8.29发货 C26089-A LAS1 107箱 市场采购数据.xlsx"
+    },
+    {
+      "warehouse_code": "CLT2",
+      "fba_shipment_id": "FBA19MBF40MV",
+      "tracking_id": "5ZYWD47J",
+      "cartons": 85,
+      "strips": 3400,
+      "raw_carton_x_price": 7478.13,
+      "unit_price_usd": 2.2,
+      "declare_amount_usd": 7480.0,
+      "net_kg": 1207.85,
+      "gross_kg": 1389.75,
+      "protocol_no": "20260829503",
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\货代入库贴下单表\\货代下单表_C26089-A 2026.8.29桌布 CLT2 85箱.xlsx",
+      "customs_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\报关资料表\\畅选+波丽丝 2026.8.29发货 C26089-A CLT2 85箱 市场采购数据.xlsx"
+    },
+    {
+      "warehouse_code": "TEB9",
+      "fba_shipment_id": "FBA19MBHDDR0",
+      "tracking_id": "6EYAJFFI",
+      "cartons": 90,
+      "strips": 3600,
+      "raw_carton_x_price": 7918.02,
+      "unit_price_usd": 2.2,
+      "declare_amount_usd": 7920.0,
+      "net_kg": 1278.9,
+      "gross_kg": 1471.5,
+      "protocol_no": "20260829504",
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\货代入库贴下单表\\货代下单表_C26089-A 2026.8.29桌布 TEB9 90箱.xlsx",
+      "customs_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\报关资料表\\畅选+波丽丝 2026.8.29发货 C26089-A TEB9 90箱 市场采购数据.xlsx"
+    },
+    {
+      "warehouse_code": "SBD1",
+      "fba_shipment_id": "FBA19MBFWX4B",
+      "tracking_id": "6OZ3AMWL",
+      "cartons": 119,
+      "strips": 4760,
+      "raw_carton_x_price": 10469.38,
+      "unit_price_usd": 2.2,
+      "declare_amount_usd": 10472.0,
+      "net_kg": 1690.99,
+      "gross_kg": 1945.65,
+      "protocol_no": "20260829505",
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\货代入库贴下单表\\货代下单表_C26089-A 2026.8.29桌布 SBD1 119箱.xlsx",
+      "customs_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\报关资料表\\畅选+波丽丝 2026.8.29发货 C26089-A SBD1 119箱 市场采购数据.xlsx"
+    },
+    {
+      "warehouse_code": "LAX9",
+      "fba_shipment_id": "FBA19MBJ7JXH",
+      "tracking_id": "1ZHHGF1L",
+      "cartons": 99,
+      "strips": 3960,
+      "raw_carton_x_price": 8709.82,
+      "unit_price_usd": 2.2,
+      "declare_amount_usd": 8712.0,
+      "net_kg": 1406.79,
+      "gross_kg": 1618.65,
+      "protocol_no": "20260829506",
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\货代入库贴下单表\\货代下单表_C26089-A 2026.8.29桌布 LAX9 99箱.xlsx",
+      "customs_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26089-C07-40000_C07_20260821_40000\\报关资料表\\畅选+波丽丝 2026.8.29发货 C26089-A LAX9 99箱 市场采购数据.xlsx"
+    }
+  ],
+  "warnings": [
+    "X004SJV9UF: c04_same_spec_1039 via C04 X003WN3V5J $87.97800000000001/ctn",
+    "X004SJV9UF: c04_same_spec_1039 via C04 X003WN3V5J $87.97800000000001/ctn",
+    "X004SJV9UF: c04_same_spec_1039 via C04 X003WN3V5J $87.97800000000001/ctn",
+    "X004SJV9UF: c04_same_spec_1039 via C04 X003WN3V5J $87.97800000000001/ctn",
+    "X004SJV9UF: c04_same_spec_1039 via C04 X003WN3V5J $87.97800000000001/ctn"
+  ],
+  "total_raw_carton_x_price": 43989.0,
+  "total_declare_amount_usd": 44000.0,
+  "reconcile": {
+    "doc": "Templates/Amount_Weight_Reconcile.md",
+    "A_spec": {
+      "amount": 43989.0,
+      "net_kg": 7105.0,
+      "gross_kg": 8175.0
+    },
+    "B_warehouse": {
+      "amount": 44000.0,
+      "net_kg": 7105.0,
+      "gross_kg": 8175.0
+    },
+    "error_rate_pct": {
+      "declare": 0.025,
+      "net": 0.0,
+      "gross": 0.0
+    },
+    "pass_max_pct": 1.0,
+    "gate": {
+      "declare": "PASS",
+      "net": "PASS",
+      "gross": "PASS",
+      "overall": "PASS"
+    }
+  }
+}

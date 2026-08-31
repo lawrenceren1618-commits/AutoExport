@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-07-24T16:04:24+0800",
+  "project": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590",
+  "inbox": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴\\_inbox",
+  "apply": false,
+  "authority_paths": [
+    "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts\\C26079-A_freight_customs_summary.json",
+    "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts\\C26079-B_freight_customs_summary.json"
+  ],
+  "authority_warehouses": {
+    "AVP1": {
+      "shipment_id": "FBA19JT39521",
+      "cartons": 175,
+      "channel": "",
+      "carton_pages": 0,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 AVP1 175箱.xlsx",
+      "fba_path": null
+    },
+    "CLT2": {
+      "shipment_id": "FBA19JT71WTZ",
+      "cartons": 128,
+      "channel": "",
+      "carton_pages": 0,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 CLT2 128箱.xlsx",
+      "fba_path": null
+    },
+    "FWA4": {
+      "shipment_id": "",
+      "cartons": 94,
+      "channel": "FC",
+      "carton_pages": 94,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴下单表\\货代下单表_C26080-B 2026.7.31桌布 FWA4 94箱.xlsx",
+      "fba_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\FBA外箱贴\\FC\\FWA4"
+    },
+    "GYR2": {
+      "shipment_id": "FBA19JT3Q0H0",
+      "cartons": 139,
+      "channel": "",
+      "carton_pages": 0,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 GYR2 139箱.xlsx",
+      "fba_path": null
+    },
+    "IUTE": {
+      "shipment_id": "STAR-QG6CTURZGY6MX",
+      "cartons": 140,
+      "channel": "",
+      "carton_pages": 0,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-B 2026.7.31桌布 AWD-IUTE 140箱.xlsx",
+      "fba_path": null
+    },
+    "LGB8": {
+      "shipment_id": "FBA19JT0K3PY",
+      "cartons": 182,
+      "channel": "",
+      "carton_pages": 0,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 LGB8 182箱.xlsx",
+      "fba_path": null
+    },
+    "MCC1": {
+      "shipment_id": "",
+      "cartons": 55,
+      "channel": "FC",
+      "carton_pages": 55,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴下单表\\货代下单表_C26080-B 2026.7.31桌布 MCC1 55箱.xlsx",
+      "fba_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\FBA外箱贴\\FC\\MCC1"
+    },
+    "MDW2": {
+      "shipment_id": "FBA19JT16DMQ",
+      "cartons": 181,
+      "channel": "",
+      "carton_pages": 0,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26079-C04-36460  桌布-2026.7.10\\货代入库贴下单表\\货代下单表_C26079-A 2026.7.31桌布 MDW2 181箱.xlsx",
+      "fba_path": null
+    },
+    "PSP3": {
+      "shipment_id": "",
+      "cartons": 50,
+      "channel": "FC",
+      "carton_pages": 50,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴下单表\\货代下单表_C26080-B 2026.7.31桌布 PSP3 50箱.xlsx",
+      "fba_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\FBA外箱贴\\FC\\PSP3"
+    },
+    "RDU2": {
+      "shipment_id": "",
+      "cartons": 54,
+      "channel": "FC",
+      "carton_pages": 54,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴下单表\\货代下单表_C26080-B 2026.7.31桌布 RDU2 54箱.xlsx",
+      "fba_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\FBA外箱贴\\FC\\RDU2"
+    },
+    "SCK8": {
+      "shipment_id": "",
+      "cartons": 30,
+      "channel": "FC",
+      "carton_pages": 30,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴下单表\\货代下单表_C26080-A 2026.7.31桌布 SCK8 30箱.xlsx",
+      "fba_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\FBA外箱贴\\FC\\SCK8"
+    },
+    "TOL3": {
+      "shipment_id": "",
+      "cartons": 67,
+      "channel": "FC",
+      "carton_pages": 67,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\货代入库贴下单表\\货代下单表_C26080-B 2026.7.31桌布 TOL3 67箱.xlsx",
+      "fba_path": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590\\FBA外箱贴\\FC\\TOL3"
+    }
+  },
+  "doc": "Templates/Freight_Inbound_Label_Pipeline.md",
+  "inbox_file_count": 0,
+  "total_pages": 0,
+  "files": [],
+  "warehouses": [],
+  "written": [],
+  "blocked": true,
+  "notes": [
+    "inbox_empty: place freight-returned PDFs under 货代入库贴/_inbox"
+  ],
+  "layout_calibrated": {
+    "at": "2026-07-24",
+    "sample": "945箱入库贴(1).zip",
+    "signals": [
+      "Receiving Information: {WH}",
+      "FBA… / STAR-…",
+      "label_{ship}_{N}.pdf"
+    ]
+  }
+}

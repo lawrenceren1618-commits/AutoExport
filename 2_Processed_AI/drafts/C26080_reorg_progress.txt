@@ -1,0 +1,11 @@
+C26080 reorg progress
+started: check state
+folder: still EF-C26080_待识别
+MERGE_NOTE: EXISTS under FBA外箱贴/FC/
+next: verify FC tree + rename + Scripts/13
+--- rename_step ---
+copied_to EF-C26080-C07-11590_C07_20260731_13590
+PROJECT patched
+export13_ok archive_carton=56 factory=56 wechat_members=56
+old_folder_locked_still_present
+DONE

@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "confirmed_at": "2026-07-24",
+  "doc": "Templates/Local_Operational_Paths.md",
+  "machine": "office_AutoExport",
+  "note": "Absolute paths for local stable processing; coexists with data_source_interfaces (interface_id for portable/cloud)",
+  "roots": {
+    "repo": "D:\\.cursor\\Cursor-projects\\AutoExport",
+    "shipments": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments",
+    "master_reference": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference",
+    "label_source": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\桌布标签",
+    "drafts": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\drafts",
+    "cross_check_reports": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\cross_check_reports",
+    "output_final": "D:\\.cursor\\Cursor-projects\\AutoExport\\3_Output_Final",
+    "user_io": "D:\\.cursor\\Cursor-projects\\AutoExport\\User_IO"
+  }
+}

@@ -1,0 +1,526 @@
+{
+  "generated_at": "2026-07-24T14:36:24+0800",
+  "project": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_待识别",
+  "store": "C07",
+  "brand": "Dressmaker",
+  "ship_date": "2026.7.31",
+  "order_codes": [
+    "EF-C26080-C07-11590",
+    "EF-C26068-C07-2000"
+  ],
+  "co_ship": {
+    "secondary": "C26068",
+    "join_leg": "C26080-B"
+  },
+  "cross_check": {
+    "order_cartons": 350,
+    "pdf_cartons": 350,
+    "order_strips": 13590,
+    "fba_strips": 13590
+  },
+  "files": [
+    {
+      "warehouse_code": "FWA4",
+      "fba_shipment_id": "FBA19JZR1DC8",
+      "tracking_id": "2T8VLG8U",
+      "cartons": 94,
+      "strips": 3728,
+      "store": "C07",
+      "leg": "C26080-B",
+      "unit_price_usd": 3.47,
+      "declare_amount_usd": 12936.16,
+      "raw_carton_x_price": 12934.48,
+      "net_kg": 1452.01,
+      "gross_kg": 1584.51,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_待识别\\货代入库贴下单表\\货代下单表_C26080-B 2026.7.31桌布 FWA4 94箱.xlsx",
+      "freight_addr": "FWA4 - 9798 Smith Road - FORT WAYNE, IN 46809-9771 - United States",
+      "specs": [
+        {
+          "fnsku": "X00510BIG5",
+          "qty_cartons": 3,
+          "cartons": 3,
+          "strips": 120,
+          "amazon_sku": "B11090round-2"
+        },
+        {
+          "fnsku": "X00510W6CF",
+          "qty_cartons": 11,
+          "cartons": 11,
+          "strips": 440,
+          "amazon_sku": "I11060102-10"
+        },
+        {
+          "fnsku": "X00510PW17",
+          "qty_cartons": 1,
+          "cartons": 1,
+          "strips": 48,
+          "amazon_sku": "I11060102-2"
+        },
+        {
+          "fnsku": "X0057068YB",
+          "qty_cartons": 7,
+          "cartons": 7,
+          "strips": 252,
+          "amazon_sku": "I11060126-6"
+        },
+        {
+          "fnsku": "X00510JHJZ",
+          "qty_cartons": 4,
+          "cartons": 4,
+          "strips": 120,
+          "amazon_sku": "I11070120-2"
+        },
+        {
+          "fnsku": "X00510BIJH",
+          "qty_cartons": 11,
+          "cartons": 11,
+          "strips": 462,
+          "amazon_sku": "I11090round-6"
+        },
+        {
+          "fnsku": "X0051BNWMH",
+          "qty_cartons": 8,
+          "cartons": 8,
+          "strips": 240,
+          "amazon_sku": "Ivory11070120-6"
+        },
+        {
+          "fnsku": "X004SJYYGB",
+          "qty_cartons": 5,
+          "cartons": 5,
+          "strips": 270,
+          "amazon_sku": "W11060102-6"
+        },
+        {
+          "fnsku": "X004SJV9UP",
+          "qty_cartons": 8,
+          "cartons": 8,
+          "strips": 288,
+          "amazon_sku": "W11060126-6"
+        },
+        {
+          "fnsku": "X00510JHF9",
+          "qty_cartons": 2,
+          "cartons": 2,
+          "strips": 60,
+          "amazon_sku": "W11070120-2"
+        },
+        {
+          "fnsku": "X004SJU7RB",
+          "qty_cartons": 34,
+          "cartons": 34,
+          "strips": 1428,
+          "amazon_sku": "W11090round-6"
+        }
+      ]
+    },
+    {
+      "warehouse_code": "MCC1",
+      "fba_shipment_id": "FBA19JZQF77V",
+      "tracking_id": "6SBALYVV",
+      "cartons": 55,
+      "strips": 2184,
+      "store": "C07",
+      "leg": "C26080-B",
+      "unit_price_usd": 3.39,
+      "declare_amount_usd": 7403.76,
+      "raw_carton_x_price": 7404.9,
+      "net_kg": 843.65,
+      "gross_kg": 927.47,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_待识别\\货代入库贴下单表\\货代下单表_C26080-B 2026.7.31桌布 MCC1 55箱.xlsx",
+      "freight_addr": "MCC1 - 3300 Rancho Cordova Pkwy - RANCHO CORDOVA, CA 95742 - United States",
+      "specs": [
+        {
+          "fnsku": "X00510BIG5",
+          "qty_cartons": 2,
+          "cartons": 2,
+          "strips": 80,
+          "amazon_sku": "B11090round-2"
+        },
+        {
+          "fnsku": "X00510W6CF",
+          "qty_cartons": 13,
+          "cartons": 13,
+          "strips": 520,
+          "amazon_sku": "I11060102-10"
+        },
+        {
+          "fnsku": "X00510PW17",
+          "qty_cartons": 1,
+          "cartons": 1,
+          "strips": 48,
+          "amazon_sku": "I11060102-2"
+        },
+        {
+          "fnsku": "X0057068YB",
+          "qty_cartons": 5,
+          "cartons": 5,
+          "strips": 180,
+          "amazon_sku": "I11060126-6"
+        },
+        {
+          "fnsku": "X00510JHJZ",
+          "qty_cartons": 1,
+          "cartons": 1,
+          "strips": 30,
+          "amazon_sku": "I11070120-2"
+        },
+        {
+          "fnsku": "X00510BIJH",
+          "qty_cartons": 9,
+          "cartons": 9,
+          "strips": 378,
+          "amazon_sku": "I11090round-6"
+        },
+        {
+          "fnsku": "X0051BNWMH",
+          "qty_cartons": 6,
+          "cartons": 6,
+          "strips": 180,
+          "amazon_sku": "Ivory11070120-6"
+        },
+        {
+          "fnsku": "X004SJYYGB",
+          "qty_cartons": 4,
+          "cartons": 4,
+          "strips": 216,
+          "amazon_sku": "W11060102-6"
+        },
+        {
+          "fnsku": "X004SJV9UP",
+          "qty_cartons": 2,
+          "cartons": 2,
+          "strips": 72,
+          "amazon_sku": "W11060126-6"
+        },
+        {
+          "fnsku": "X00510JHF9",
+          "qty_cartons": 2,
+          "cartons": 2,
+          "strips": 60,
+          "amazon_sku": "W11070120-2"
+        },
+        {
+          "fnsku": "X004SJU7RB",
+          "qty_cartons": 10,
+          "cartons": 10,
+          "strips": 420,
+          "amazon_sku": "W11090round-6"
+        }
+      ]
+    },
+    {
+      "warehouse_code": "PSP3",
+      "fba_shipment_id": "FBA19JZVPFS1",
+      "tracking_id": "7QJ2V2SA",
+      "cartons": 50,
+      "strips": 2012,
+      "store": "C07",
+      "leg": "C26080-B",
+      "unit_price_usd": 3.39,
+      "declare_amount_usd": 6820.68,
+      "raw_carton_x_price": 6813.64,
+      "net_kg": 773.66,
+      "gross_kg": 848.98,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_待识别\\货代入库贴下单表\\货代下单表_C26080-B 2026.7.31桌布 PSP3 50箱.xlsx",
+      "freight_addr": "PSP3 - 64165 19th AVE - DESERT HOT SPRINGS, CA 92240 - United States",
+      "specs": [
+        {
+          "fnsku": "X00510BIG5",
+          "qty_cartons": 1,
+          "cartons": 1,
+          "strips": 40,
+          "amazon_sku": "B11090round-2"
+        },
+        {
+          "fnsku": "X00510W6CF",
+          "qty_cartons": 10,
+          "cartons": 10,
+          "strips": 400,
+          "amazon_sku": "I11060102-10"
+        },
+        {
+          "fnsku": "X00510PW17",
+          "qty_cartons": 1,
+          "cartons": 1,
+          "strips": 48,
+          "amazon_sku": "I11060102-2"
+        },
+        {
+          "fnsku": "X0057068YB",
+          "qty_cartons": 5,
+          "cartons": 5,
+          "strips": 180,
+          "amazon_sku": "I11060126-6"
+        },
+        {
+          "fnsku": "X00510JHJZ",
+          "qty_cartons": 1,
+          "cartons": 1,
+          "strips": 30,
+          "amazon_sku": "I11070120-2"
+        },
+        {
+          "fnsku": "X00510BIJH",
+          "qty_cartons": 9,
+          "cartons": 9,
+          "strips": 378,
+          "amazon_sku": "I11090round-6"
+        },
+        {
+          "fnsku": "X0051BNWMH",
+          "qty_cartons": 4,
+          "cartons": 4,
+          "strips": 120,
+          "amazon_sku": "Ivory11070120-6"
+        },
+        {
+          "fnsku": "X004SJYYGB",
+          "qty_cartons": 4,
+          "cartons": 4,
+          "strips": 216,
+          "amazon_sku": "W11060102-6"
+        },
+        {
+          "fnsku": "X004SJV9UP",
+          "qty_cartons": 3,
+          "cartons": 3,
+          "strips": 108,
+          "amazon_sku": "W11060126-6"
+        },
+        {
+          "fnsku": "X00510JHF9",
+          "qty_cartons": 1,
+          "cartons": 1,
+          "strips": 30,
+          "amazon_sku": "W11070120-2"
+        },
+        {
+          "fnsku": "X004SJU7RB",
+          "qty_cartons": 11,
+          "cartons": 11,
+          "strips": 462,
+          "amazon_sku": "W11090round-6"
+        }
+      ]
+    },
+    {
+      "warehouse_code": "RDU2",
+      "fba_shipment_id": "FBA19JZSQT6L",
+      "tracking_id": "48FYIXJX",
+      "cartons": 54,
+      "strips": 2138,
+      "store": "C07",
+      "leg": "C26080-B",
+      "unit_price_usd": 3.47,
+      "declare_amount_usd": 7418.86,
+      "raw_carton_x_price": 7426.33,
+      "net_kg": 837.54,
+      "gross_kg": 916.99,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_待识别\\货代入库贴下单表\\货代下单表_C26080-B 2026.7.31桌布 RDU2 54箱.xlsx",
+      "freight_addr": "RDU2 - 2150 US HWY 70 Business West - SMITHFIELD, NC 27577 - United States",
+      "specs": [
+        {
+          "fnsku": "X00510BIG5",
+          "qty_cartons": 1,
+          "cartons": 1,
+          "strips": 40,
+          "amazon_sku": "B11090round-2"
+        },
+        {
+          "fnsku": "X00510W6CF",
+          "qty_cartons": 7,
+          "cartons": 7,
+          "strips": 280,
+          "amazon_sku": "I11060102-10"
+        },
+        {
+          "fnsku": "X00510PW17",
+          "qty_cartons": 1,
+          "cartons": 1,
+          "strips": 48,
+          "amazon_sku": "I11060102-2"
+        },
+        {
+          "fnsku": "X0057068YB",
+          "qty_cartons": 6,
+          "cartons": 6,
+          "strips": 216,
+          "amazon_sku": "I11060126-6"
+        },
+        {
+          "fnsku": "X00510JHJZ",
+          "qty_cartons": 2,
+          "cartons": 2,
+          "strips": 60,
+          "amazon_sku": "I11070120-2"
+        },
+        {
+          "fnsku": "X00510BIJH",
+          "qty_cartons": 11,
+          "cartons": 11,
+          "strips": 462,
+          "amazon_sku": "I11090round-6"
+        },
+        {
+          "fnsku": "X0051BNWMH",
+          "qty_cartons": 5,
+          "cartons": 5,
+          "strips": 150,
+          "amazon_sku": "Ivory11070120-6"
+        },
+        {
+          "fnsku": "X004SJYYGB",
+          "qty_cartons": 4,
+          "cartons": 4,
+          "strips": 216,
+          "amazon_sku": "W11060102-6"
+        },
+        {
+          "fnsku": "X004SJV9UP",
+          "qty_cartons": 4,
+          "cartons": 4,
+          "strips": 144,
+          "amazon_sku": "W11060126-6"
+        },
+        {
+          "fnsku": "X00510JHF9",
+          "qty_cartons": 2,
+          "cartons": 2,
+          "strips": 60,
+          "amazon_sku": "W11070120-2"
+        },
+        {
+          "fnsku": "X004SJU7RB",
+          "qty_cartons": 11,
+          "cartons": 11,
+          "strips": 462,
+          "amazon_sku": "W11090round-6"
+        }
+      ]
+    },
+    {
+      "warehouse_code": "SCK8",
+      "fba_shipment_id": "FBA19JZQXH2X",
+      "tracking_id": "4MBPXH1E",
+      "cartons": 30,
+      "strips": 900,
+      "store": "C07",
+      "leg": "C26080-A",
+      "unit_price_usd": 3.7,
+      "declare_amount_usd": 3330.0,
+      "raw_carton_x_price": 3329.1,
+      "net_kg": 438.9,
+      "gross_kg": 481.8,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_待识别\\货代入库贴下单表\\货代下单表_C26080-A 2026.7.31桌布 SCK8 30箱.xlsx",
+      "freight_addr": "SCK8 - 4700 WILBUR AVE - OAKLEY, CA 94561-2677 - United States",
+      "specs": [
+        {
+          "fnsku": "X0051BEQ8L",
+          "qty_cartons": 30,
+          "cartons": 30,
+          "strips": 900,
+          "amazon_sku": "White11070120-6"
+        }
+      ]
+    },
+    {
+      "warehouse_code": "TOL3",
+      "fba_shipment_id": "FBA19JZPT0MZ",
+      "tracking_id": "6IFXBUOS",
+      "cartons": 67,
+      "strips": 2628,
+      "store": "C07",
+      "leg": "C26080-B",
+      "unit_price_usd": 3.51,
+      "declare_amount_usd": 9224.28,
+      "raw_carton_x_price": 9224.69,
+      "net_kg": 1028.79,
+      "gross_kg": 1124.5,
+      "freight_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080_待识别\\货代入库贴下单表\\货代下单表_C26080-B 2026.7.31桌布 TOL3 67箱.xlsx",
+      "freight_addr": "TOL3 - 9240 Fremont Pike - PERRYSBURG, OH 43551-4210 - United States",
+      "specs": [
+        {
+          "fnsku": "X00510BIG5",
+          "qty_cartons": 3,
+          "cartons": 3,
+          "strips": 120,
+          "amazon_sku": "B11090round-2"
+        },
+        {
+          "fnsku": "X00510W6CF",
+          "qty_cartons": 9,
+          "cartons": 9,
+          "strips": 360,
+          "amazon_sku": "I11060102-10"
+        },
+        {
+          "fnsku": "X00510PW17",
+          "qty_cartons": 1,
+          "cartons": 1,
+          "strips": 48,
+          "amazon_sku": "I11060102-2"
+        },
+        {
+          "fnsku": "X0057068YB",
+          "qty_cartons": 7,
+          "cartons": 7,
+          "strips": 252,
+          "amazon_sku": "I11060126-6"
+        },
+        {
+          "fnsku": "X00510JHJZ",
+          "qty_cartons": 2,
+          "cartons": 2,
+          "strips": 60,
+          "amazon_sku": "I11070120-2"
+        },
+        {
+          "fnsku": "X00510BIJH",
+          "qty_cartons": 10,
+          "cartons": 10,
+          "strips": 420,
+          "amazon_sku": "I11090round-6"
+        },
+        {
+          "fnsku": "X0051BNWMH",
+          "qty_cartons": 7,
+          "cartons": 7,
+          "strips": 210,
+          "amazon_sku": "Ivory11070120-6"
+        },
+        {
+          "fnsku": "X004SJYYGB",
+          "qty_cartons": 3,
+          "cartons": 3,
+          "strips": 162,
+          "amazon_sku": "W11060102-6"
+        },
+        {
+          "fnsku": "X004SJV9UP",
+          "qty_cartons": 3,
+          "cartons": 3,
+          "strips": 108,
+          "amazon_sku": "W11060126-6"
+        },
+        {
+          "fnsku": "X00510JHF9",
+          "qty_cartons": 3,
+          "cartons": 3,
+          "strips": 90,
+          "amazon_sku": "W11070120-2"
+        },
+        {
+          "fnsku": "X004SJU7RB",
+          "qty_cartons": 19,
+          "cartons": 19,
+          "strips": 798,
+          "amazon_sku": "W11090round-6"
+        }
+      ]
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "note": "freight only; customs/outbound not generated this run; Gate WAIT"
+}

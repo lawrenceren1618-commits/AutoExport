@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-08-19T13:55:55+0800",
+  "scope": "gen_trio_work",
+  "subject": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\autoexport-jobs\\4ed01c57-9446-4dd9-a7fd-488395f6eaed",
+  "pass": true,
+  "findings": [
+    {
+      "check": "V_ID_ORDER_CODE",
+      "ok": true,
+      "expected": "EF-Cxxxxx-C04|C07-…",
+      "actual": "EF-C26089-C07-40000",
+      "detail": "PROJECT/job order_code",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ENTITY_BRAND",
+      "ok": true,
+      "expected": "Dressmaker",
+      "actual": "C07/Dressmaker",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ID_ORDER_SHORT_ON_OUTBOUND",
+      "ok": true,
+      "expected": "C26089",
+      "actual": "C26089",
+      "detail": "出货所属订单必须=订单短码，且对应本批订单 EF 号",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_ID_OUTBOUND_SHORT",
+      "ok": true,
+      "expected": "C07-2609",
+      "actual": "C07-2609",
+      "detail": "",
+      "soft": false,
+      "edge": "outbound_to_project"
+    },
+    {
+      "check": "V_OUTBOUND_FILENAME",
+      "ok": true,
+      "expected": "C07-2609-U-2026.8.29.xlsx",
+      "actual": "C07-2609-U-2026.8.29.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "outbound_to_project"
+    },
+    {
+      "check": "V_SHIP_DATE_EQ",
+      "ok": true,
+      "expected": "2026.8.29",
+      "actual": "2026.8.29",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_STORE_PREFIX_ON_SHORT",
+      "ok": true,
+      "expected": "C07-…",
+      "actual": "C07-2609",
+      "detail": "",
+      "soft": false,
+      "edge": "outbound_to_project"
+    },
+    {
+      "check": "V_OUT_STRIPS_EQ_PROJECT",
+      "ok": true,
+      "expected": 40000.0,
+      "actual": 40000.0,
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_OUT_HEADER_QTY_EQ_DETAIL",
+      "ok": true,
+      "expected": 40000.0,
+      "actual": 40000.0,
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_OUT_TOTAL_SUM_FORMULA",
+      "ok": true,
+      "expected": "=SUM(E…)",
+      "actual": "=SUM(E5:E5)",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_NO_FNSKU_ON_OUTBOUND",
+      "ok": true,
+      "expected": "no FNSKU on outbound",
+      "actual": "none",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_OUT_PRODUCT_DEST_PRESENT",
+      "ok": true,
+      "expected": "品类+目的地非空",
+      "actual": "'单面磨毛纤维桌布'/'US'",
+      "detail": "",
+      "soft": false,
+      "edge": "order_to_outbound"
+    },
+    {
+      "check": "V_FREIGHT_STATICS",
+      "ok": true,
+      "expected": "C2=111111111; PQR=无; HS default",
+      "actual": "C2=111111111 PQR=无/无/无 HS=6302539090",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_FLOOR_QTY",
+      "ok": true,
+      "expected": "C15>0 and F15>=0",
+      "actual": "C15=1000 F15=40",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_FBA_PRESENT",
+      "ok": true,
+      "expected": "A15 FBA/STAR",
+      "actual": "STAR-WDWSD2Q5T56Y4",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_carton_source"
+    },
+    {
+      "check": "V_CUSTOMS_1039_HEADER",
+      "ok": true,
+      "expected": "波丽丝（参考）",
+      "actual": "许昌波丽丝贸易有限公司/波丽丝",
+      "detail": "表内抬头作参考核对，非与货代统一字段",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_CUSTOMS_FILENAME",
+      "ok": true,
+      "expected": "文件名含畅选/波丽丝",
+      "actual": "畅选+波丽丝 2026.8.29发货 C26089-A IUTE 1000箱 市场采购数据.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_CARTONS",
+      "ok": true,
+      "expected": 1000,
+      "actual": 1000.0,
+      "detail": "wh=IUTE 箱数可对照；货代箱数须来自外箱贴确认",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_STRIPS",
+      "ok": true,
+      "expected": 40000.0,
+      "actual": 40000,
+      "detail": "不强制相等：货代 implied=C15×floor(条÷箱) 可能少余数；报关条数/单价权威=总表1039+沉淀+正算反算",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_FREIGHT_CUSTOMS_UNIT_PRICE",
+      "ok": true,
+      "expected": 0.0,
+      "actual": 0.0,
+      "detail": "碰巧相同；报关单价须对总表/沉淀，不以货代为源",
+      "soft": true,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_PROTOCOL_PRESENT",
+      "ok": true,
+      "expected": "合同协议号",
+      "actual": "20260829501",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_PROTOCOL_UNIQUE",
+      "ok": true,
+      "expected": "registered unique in contract_protocol_registry",
+      "actual": "in_reg=True collision=False",
+      "detail": "生成后程序复查：须在登记库且无跨项目撞号",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_WH_IN_FILENAMES",
+      "ok": true,
+      "expected": "IUTE",
+      "actual": "freight=货代下单表_C26089-A 2026.8.29桌布 IUTE 1000箱.xlsx customs=畅选+波丽丝 2026.8.29发货 C26089-A IUTE 1000箱 市场采购数据.xlsx",
+      "detail": "",
+      "soft": false,
+      "edge": "freight_to_customs"
+    },
+    {
+      "check": "V_SUMMARY_ABSENT",
+      "ok": true,
+      "expected": null,
+      "actual": null,
+      "detail": "no freight/customs summary — soft until generated",
+      "soft": true,
+      "edge": "reports_to_source"
+    }
+  ],
+  "hard_failures": [],
+  "meta_keys": {
+    "order_code": "EF-C26089-C07-40000",
+    "order_short": "C26089",
+    "outbound_short": "C07-2609",
+    "ship_date": "2026-08-29"
+  },
+  "doc": "Templates/Cross_Flow_Verify.md",
+  "rules": "Scripts/cross_flow_rules.json"
+}

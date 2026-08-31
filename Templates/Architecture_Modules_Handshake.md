@@ -44,7 +44,8 @@ flowchart TB
 
 | 能力 | 位置 |
 |------|------|
-| 进度树（仅后台） | `web/app/admin/progress` |
+| **执行面 local/cloud** | [`Local_Cloud_Execution_Plane.md`](Local_Cloud_Execution_Plane.md) · `/api/runtime/plane` · `/api/jobs/[id]/sync` |
+| 进度树（库务） | `web/app/ops/progress`（`/admin/*` 重定向） |
 | **FBA 仓头识别 + 追踪码** | `web/app/admin/fba-track` + `POST/GET /api/fba-track` + `PATCH /api/fba-track/update` |
 | H01 总表导入 | `web/app/admin/master-import` + `POST /api/master-import` |
 | Schema | `supabase/migrations/`（含 `fba_warehouse_headers`） |

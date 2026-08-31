@@ -1,0 +1,17 @@
+{
+  "order_code": "EF-C26100-C07-12000",
+  "ship_date": "2026-09-19",
+  "split_leg_id": "C26100",
+  "freight_forwarder": "物易通",
+  "channel": "AWD",
+  "rows": [
+    {
+      "warehouse_code": "IUTJ",
+      "fba_shipment_id": "STAR-Q675HFPYAEZ7Y",
+      "tracking_id": "8OTA332Y",
+      "cartons": 300,
+      "strips": 12000,
+      "store": "C07"
+    }
+  ]
+}

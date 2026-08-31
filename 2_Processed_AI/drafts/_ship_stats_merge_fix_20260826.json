@@ -1,0 +1,87 @@
+{
+  "saved": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\发货统计\\_inbox\\2026年发货记录.xls",
+  "base": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\发货统计\\_inbox\\_bak_before_jul_aug_20260826.xls",
+  "separator": "2-row merge A-J pale_blue between months",
+  "start_row_1based": 315,
+  "end_row_1based": 355,
+  "batches": [
+    {
+      "ticket": "C26079-A",
+      "give": "7.31\nC26079-A 805箱",
+      "fba_count": 5,
+      "fba_ids": [
+        "FBA19JT39521",
+        "FBA19JT71WTZ",
+        "FBA19JT3Q0H0",
+        "FBA19JT0K3PY",
+        "FBA19JT16DMQ"
+      ],
+      "detail_rows": 20,
+      "carton_sum": 805,
+      "total": 805
+    },
+    {
+      "ticket": "C26079-B",
+      "give": "7.31\nC26079-B 140箱 AWD",
+      "fba_count": 1,
+      "fba_ids": [
+        "STAR-QG6CTURZGY6MX"
+      ],
+      "detail_rows": 3,
+      "carton_sum": 140,
+      "total": 140
+    },
+    {
+      "ticket": "C26080-A",
+      "give": "7.31 易尚\nC26080-A 30箱",
+      "fba_count": 1,
+      "fba_ids": [
+        "FBA19JZQXH2X"
+      ],
+      "detail_rows": 1,
+      "carton_sum": 30,
+      "total": 30
+    },
+    {
+      "ticket": "C26080-B",
+      "give": "7.31 易尚\nC26080-B+C26068 320箱",
+      "fba_count": 5,
+      "fba_ids": [
+        "FBA19JZR1DC8",
+        "FBA19JZQF77V",
+        "FBA19JZVPFS1",
+        "FBA19JZSQT6L",
+        "FBA19JZPT0MZ"
+      ],
+      "detail_rows": 11,
+      "carton_sum": 320,
+      "total": 320
+    },
+    {
+      "ticket": "C26089-A",
+      "give": "8.29 易尚\nC26089-A 500箱",
+      "fba_count": 5,
+      "fba_ids": [
+        "FBA19MBJ7GW8",
+        "FBA19MBF40MV",
+        "FBA19MBHDDR0",
+        "FBA19MBFWX4B",
+        "FBA19MBJ7JXH"
+      ],
+      "detail_rows": 1,
+      "carton_sum": 500,
+      "total": 500
+    },
+    {
+      "ticket": "C26089-B",
+      "give": "8.29 易尚\nC26089-B 500箱 AWD",
+      "fba_count": 1,
+      "fba_ids": [
+        "STAR-RCKQMK6EMHN4K"
+      ],
+      "detail_rows": 1,
+      "carton_sum": 500,
+      "total": 500
+    }
+  ]
+}

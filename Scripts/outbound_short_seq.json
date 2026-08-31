@@ -1,23 +1,36 @@
 {
-  "confirmed_at": "2026-07-21",
+  "confirmed_at": "2026-07-27",
   "rule": "outbound_short = {store}-{YY}{NN}",
-  "year_abbr": {"2026": "26", "2027": "27"},
+  "year_abbr": {
+    "2026": "26",
+    "2027": "27"
+  },
   "U_in_filename": "USA",
   "filename_pattern": "{short}-U-{delivery_yyyy.M.d}.xlsx",
   "cell_customer_order_no": "short only (no U, no date)",
   "ship_date": "order_delivery_date (交货日期; not 下单日期)",
-  "leave_empty_columns": ["所属订单", "所属仓库"],
+  "leave_empty_columns": [
+    "所属仓库"
+  ],
+  "belonging_order": "order short Cxxxxx",
   "sales_person_default": "任胜国",
+  "per_salesperson": {
+    "confirmed_at": "2026-08-26",
+    "rule": "出货短号按业务员各自独立（每人一套 C04/C07 递推）；与他人出货号互不影响。本机 outbound_short_seq 即本业务员权威。订单短码仍是全公司共用（见 order_code_seq → shared_pool）。",
+    "pool_scope": "this_salesperson_only",
+    "do_not_sync_with_other_sales": true
+  },
   "detail_source": "order_upper_summary_size_color",
   "layout": {
-    "row_height": "uniform in data band; fully visible",
-    "merges": "follow C04-2615 template"
+    "row_height": "uniform 37; auto-extend",
+    "merges": "A/B/F/I follow C04-2615"
   },
   "baselines": {
     "2026": {
-      "C04": "C04-2616",
-      "C07": "C07-2607",
-      "note": "C04-2616 → EF-C26079 文件 C04-2616-U-2026.7.31；下一票 C04→2617；C07→2608"
+      "C04_last": "C04-2617",
+      "C07_last": "C07-2611",
+      "C04_next": "C04-2618",
+      "C07_next": "C07-2612"
     }
   }
 }

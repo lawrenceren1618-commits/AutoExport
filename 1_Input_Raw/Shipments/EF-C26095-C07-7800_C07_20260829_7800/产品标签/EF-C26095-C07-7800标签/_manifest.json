@@ -1,0 +1,147 @@
+{
+  "order_code": "EF-C26095-C07-7800",
+  "entity_code": "C07",
+  "brand": "Dressmaker",
+  "layout": "产品标签/{EF}标签/{N}条装/{尺寸}/{原名}.pdf",
+  "label_source": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\00_Master_Reference\\桌布标签",
+  "copied": 4,
+  "missing": [],
+  "ambiguous": [],
+  "source_before": {
+    "total_files": 113,
+    "fingerprint": "cb345ccb12bef4e58a026669f045430579a73de75d28d817fcc82acd3e035dbf",
+    "inventory_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\label_source_inventory\\before_EF-C26095-C07-7800_20260814_162738.json"
+  },
+  "source_after": {
+    "total_files": 113,
+    "fingerprint": "cb345ccb12bef4e58a026669f045430579a73de75d28d817fcc82acd3e035dbf",
+    "inventory_file": "D:\\.cursor\\Cursor-projects\\AutoExport\\2_Processed_AI\\label_source_inventory\\after_EF-C26095-C07-7800_20260814_162738.json",
+    "unchanged": true
+  },
+  "lines": [
+    {
+      "entity_code": "C07",
+      "brand": "Dressmaker",
+      "order_code": "EF-C26095-C07-7800",
+      "order_date": "2026-08-17",
+      "size": "60X102inch",
+      "color": "米白",
+      "qty_strips": 4000,
+      "gram_weight": "90G",
+      "strips_per_pack": 10,
+      "packs_per_carton": 4,
+      "strips_per_carton": 40,
+      "fnsku": "X00510W6CF",
+      "pack_method": "carton",
+      "inner_pack_lwh_cm": "25*19*28",
+      "carton_lwh_cm": "40*27*58",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "sku_key": "Dressmaker|60X102inch|米白",
+      "product_key": "Dressmaker|60X102inch|米白",
+      "qty_cartons": 100,
+      "size_folder": "60x102",
+      "source_rel": "C07-Dressmaker品牌/易尚美国站90克桌布/10条装/60x102/易尚桌布 10P 米白 60×102.pdf",
+      "dest_rel": "EF-C26095-C07-7800标签/10条装/60x102/易尚桌布 10P 米白 60×102.pdf",
+      "status": "copied",
+      "candidates": [
+        {
+          "rel": "C07-Dressmaker品牌/易尚美国站90克桌布/10条装/60x102/易尚桌布 10P 米白 60×102.pdf",
+          "score": 13
+        }
+      ]
+    },
+    {
+      "entity_code": "C07",
+      "brand": "Dressmaker",
+      "order_code": "EF-C26095-C07-7800",
+      "order_date": "2026-08-17",
+      "size": "70X120inch",
+      "color": "白",
+      "qty_strips": 1500,
+      "gram_weight": "90G",
+      "strips_per_pack": 10,
+      "packs_per_carton": 3,
+      "strips_per_carton": 30,
+      "fnsku": "X0053BQ5SD",
+      "pack_method": "carton",
+      "inner_pack_lwh_cm": "18*30*35.5",
+      "carton_lwh_cm": "57*32*37",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "sku_key": "Dressmaker|70X120inch|白",
+      "product_key": "Dressmaker|70X120inch|白",
+      "qty_cartons": 50,
+      "size_folder": "70x120",
+      "source_rel": "C07-Dressmaker品牌/易尚美国站90克桌布/10条装/70x120/120白 10条装.pdf",
+      "dest_rel": "EF-C26095-C07-7800标签/10条装/70x120/120白 10条装.pdf",
+      "status": "copied",
+      "candidates": [
+        {
+          "rel": "C07-Dressmaker品牌/易尚美国站90克桌布/10条装/70x120/120白 10条装.pdf",
+          "score": 13
+        }
+      ]
+    },
+    {
+      "entity_code": "C07",
+      "brand": "Dressmaker",
+      "order_code": "EF-C26095-C07-7800",
+      "order_date": "2026-08-17",
+      "size": "70X120inch",
+      "color": "米白",
+      "qty_strips": 1500,
+      "gram_weight": "90G",
+      "strips_per_pack": 10,
+      "packs_per_carton": 3,
+      "strips_per_carton": 30,
+      "fnsku": "X0053BIIXN",
+      "pack_method": "carton",
+      "inner_pack_lwh_cm": "18*30*35.5",
+      "carton_lwh_cm": "57*32*37",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "sku_key": "Dressmaker|70X120inch|米白",
+      "product_key": "Dressmaker|70X120inch|米白",
+      "qty_cartons": 50,
+      "size_folder": "70x120",
+      "source_rel": "C07-Dressmaker品牌/易尚美国站90克桌布/10条装/70x120/120米白 10条装.pdf",
+      "dest_rel": "EF-C26095-C07-7800标签/10条装/70x120/120米白 10条装.pdf",
+      "status": "copied",
+      "candidates": [
+        {
+          "rel": "C07-Dressmaker品牌/易尚美国站90克桌布/10条装/70x120/120米白 10条装.pdf",
+          "score": 13
+        }
+      ]
+    },
+    {
+      "entity_code": "C07",
+      "brand": "Dressmaker",
+      "order_code": "EF-C26095-C07-7800",
+      "order_date": "2026-08-17",
+      "size": "90inchround",
+      "color": "米白",
+      "qty_strips": 800,
+      "gram_weight": "90G",
+      "strips_per_pack": 10,
+      "packs_per_carton": 4,
+      "strips_per_carton": 40,
+      "fnsku": "X0053BBGYL",
+      "pack_method": "carton",
+      "inner_pack_lwh_cm": "25*19*28",
+      "carton_lwh_cm": "40*27*58",
+      "product_name_zh": "单面磨毛纤维桌布",
+      "sku_key": "Dressmaker|90inchround|米白",
+      "product_key": "Dressmaker|90inchround|米白",
+      "qty_cartons": 20,
+      "size_folder": "90圆",
+      "source_rel": "C07-Dressmaker品牌/易尚美国站90克桌布/10条装/90圆/90圆米白 10条装.pdf",
+      "dest_rel": "EF-C26095-C07-7800标签/10条装/90圆/90圆米白 10条装.pdf",
+      "status": "copied",
+      "candidates": [
+        {
+          "rel": "C07-Dressmaker品牌/易尚美国站90克桌布/10条装/90圆/90圆米白 10条装.pdf",
+          "score": 13
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "status": "RULES_LOCKED",
+  "confirmed_at": "2026-07-29",
+  "doc": "Templates/Ship_Stats_Correspondence.md",
+  "source_file": "1_Input_Raw/00_Master_Reference/发货统计/_inbox/2026年发货记录.xls",
+  "B6": {
+    "history": "record_only_for_now",
+    "rules": "locked_now",
+    "future_business": "must_enter_stats"
+  },
+  "B8": {
+    "real_world_causes": ["gsm_change_more_packs_per_carton", "carton_size_change", "other"],
+    "authority": "order_AND_settled_source_db",
+    "mismatch": "error-confirm-gate",
+    "sheet_note_not_authority": true,
+    "example_row": "R287 K=22包/箱"
+  },
+  "cost_S3": {
+    "cloud": "batch_total_cost_only",
+    "local": "per_spec_unit_price",
+    "screenshot_upload_entry": true,
+    "screenshot_priority": true,
+    "ocr_then_user_confirm_gate": true,
+    "after_confirm": "cloud_total_only__local_unit_prices"
+  },
+  "ui": {
+    "one_page": true,
+    "row_height_col_width_care": true,
+    "tree_short_detail_long": true
+  },
+  "global_fnsku_90_110": "written_canonical_and_label_source_gate",
+  "implementation": "awaiting_user_go_for_ops_ui_and_import"
+}

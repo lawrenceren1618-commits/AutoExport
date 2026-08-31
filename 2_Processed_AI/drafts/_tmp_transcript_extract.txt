@@ -1,0 +1,209 @@
+TOOL_RESULT_COUNT=0
+ROLES: only tool_use stored, no shell stdout persisted in jsonl
+
+===== FIRST REFILL (line 91) FULL PYTHON =====
+python -X utf8 -c "
+import sys
+sys.path.insert(0, r'D:/.cursor/Cursor-projects/AutoExport/Scripts')
+from pathlib import Path
+from m1.outbound_fill import refill_outbound_file
+
+jobs = [
+ (
+  Path(r'D:/.cursor/Cursor-projects/AutoExport/1_Input_Raw/Shipments/EF-C26080-C07-11590_C07_20260731_13590/出货表/C07-2608-U-2026.7.31.xlsx'),
+  'EF-C26080-C07-11590', 'C26080'
+ ),
+ (
+  Path(r'D:/.cursor/Cursor-projects/AutoExport/3_Output_Final/EF-C26080-C07-11590_C07_20260731_13590/完整存档/共用/出货表/C07-2608-U-2026.7.31.xlsx'),
+  'EF-C26080-C07-11590', 'C26080'
+ ),
+ (
+  Path(r'D:/.cursor/Cursor-projects/AutoExport/3_Output_Final/EF-C26079-C04-36460  桌布-2026.7.10/完整存档/共用/出货表/C04-2616-U-2026.7.31.xlsx'),
+  'EF-C26079-C04-36460', 'C26079'
+ ),
+]
+# also C26079 ship if exists
+ship79=list(Path(r'D:/.cursor/Cursor-projects/AutoExport/1_Input_Raw/Shipments').glob('*C26079*/出货表/*.xlsx'))
+for p in ship79:
+ jobs.append((p, 'EF-C26079-C04-36460', 'C26079'))
+
+from openpyxl import load_workbook
+for path, oc, os_ in jobs:
+ if not path.exists():
+  print('SKIP missing', path); continue
+ out=refill_outbound_file(path, order_code=oc, order_short=os_)
+ wb=load_workbook(out)
+ ws=wb.active
+ print('OK', out)
+ print('  merges', list(ws.merged_cells.ranges))
+ print('  F5', ws.cell(5,6).value, 'A5', ws.cell(5,1).value, 'E_total', ws.cell(ws.max_row,5).value)
+ print('  heights', [ws.row_dimensions[r].height for r in range(5, 5+8)])
+"
+
+
+===== SECOND REFILL (line 92) FULL PYTHON =====
+python -X utf8 -c "
+import sys
+sys.path.insert(0, r'D:/.cursor/Cursor-projects/AutoExport/Scripts')
+from pathlib import Path
+from m1.outbound_fill import refill_outbound_file
+from openpyxl import load_workbook
+
+def try_refill(path, oc, os_):
+ path=Path(path)
+ if not path.exists():
+  print('MISSING', path); return
+ # write to sibling then replace if possible
+ tmp=path.with_name(path.stem + '.fixed.xlsx')
+ try:
+  out=refill_outbound_file(path, order_code=oc, order_short=os_, out_path=tmp)
+ except Exception as e:
+  print('FAIL read/fill', path.name, e); return
+ wb=load_workbook(out)
+ ws=wb.active
+ print('WROTE', out.name, 'merges', len(list(ws.merged_cells.ranges)), 'F5', ws['F5'].value, 'sum', ws.cell(ws.max_row,5).value)
+ try:
+  # replace original
+  import shutil, os
+  os.replace(out, path)
+  print('REPLACED', path)
+ except PermissionError:
+  print('LOCKED keep', out, '(close Excel then rename)')
+
+jobs=[
+ (r'D:/.cursor/Cursor-projects/AutoExport/1_Input_Raw/Shipments/EF-C26080-C07-11590_C07_20260731_13590/出货表/C07-2608-U-2026.7.31.xlsx','EF-C26080-C07-11590','C26080'),
+ (r'D:/.cursor/Cursor-projects/AutoExport/3_Output_Final/EF-C26080-C07-11590_C07_20260731_13590/完整存档/共用/出货表/C07-2608-U-2026.7.31.xlsx','EF-C26080-C07-11590','C26080'),
+ (r'D:/.cursor/Cursor-projects/AutoExport/3_Output_Final/EF-C26079-C04-36460  桌布-2026.7.10/完整存档/共用/出货表/C04-2616-U-2026.7.31.xlsx','EF-C26079-C04-36460','C26079'),
+]
+for a,b,c in jobs:
+ try_refill(a,b,c)
+"
+
+
+===== SHELL CMD line 91 hits=['C26079', 'C04-2616', 'Shipments', 'F5', 'SKIP'] =====
+  Path(r'D:/.cursor/Cursor-projects/AutoExport/1_Input_Raw/Shipments/EF-C26080-C07-11590_C07_20260731_13590/出货表/C07-2608-U-2026.7.31.xlsx'),
+  Path(r'D:/.cursor/Cursor-projects/AutoExport/3_Output_Final/EF-C26079-C04-36460  桌布-2026.7.10/完整存档/共用/出货表/C04-2616-U-2026.7.31.xlsx'),
+  'EF-C26079-C04-36460', 'C26079'
+# also C26079 ship if exists
+ship79=list(Path(r'D:/.cursor/Cursor-projects/AutoExport/1_Input_Raw/Shipments').glob('*C26079*/出货表/*.xlsx'))
+ jobs.append((p, 'EF-C26079-C04-36460', 'C26079'))
+  print('SKIP missing', path); continue
+ print('  F5', ws.cell(5,6).value, 'A5', ws.cell(5,1).value, 'E_total', ws.cell(ws.max_row,5).value)
+
+===== SHELL CMD line 92 hits=['C26079', 'C04-2616', 'Shipments', 'WROTE', 'REPLACED', 'LOCKED', 'FAIL', 'MISSING', 'F5'] =====
+  print('MISSING', path); return
+  print('FAIL read/fill', path.name, e); return
+ print('WROTE', out.name, 'merges', len(list(ws.merged_cells.ranges)), 'F5', ws['F5'].value, 'sum', ws.cell(ws.max_row,5).value)
+  print('REPLACED', path)
+  print('LOCKED keep', out, '(close Excel then rename)')
+ (r'D:/.cursor/Cursor-projects/AutoExport/1_Input_Raw/Shipments/EF-C26080-C07-11590_C07_20260731_13590/出货表/C07-2608-U-2026.7.31.xlsx','EF-C26080-C07-11590','C26080'),
+ (r'D:/.cursor/Cursor-projects/AutoExport/3_Output_Final/EF-C26079-C04-36460  桌布-2026.7.10/完整存档/共用/出货表/C04-2616-U-2026.7.31.xlsx','EF-C26079-C04-36460','C26079'),
+
+===== SHELL CMD line 94 hits=['C26079', 'C04-2616'] =====
+    if '出货' in n or 'C04-2616' in n or 'C07-2608' in n: print(' ', n)
+ root/'EF-C26079-C04-36460  桌布-2026.7.10'/'C26079_2026.7.31_微信发送.zip',
+ 'C04-2616-U-2026.7.31.xlsx',
+ root/'EF-C26079-C04-36460  桌布-2026.7.10'/'完整存档'/'共用'/'出货表'/'C04-2616-U-2026.7.31.xlsx',
+ if 'C26079' in str(z) or 'C26080' in str(z):
+
+===== SHELL CMD line 94 hits=['Shipments'] =====
+src=Path(r'D:/.cursor/Cursor-projects/AutoExport/1_Input_Raw/Shipments/EF-C26080-C07-11590_C07_20260731_13590/出货表/C07-2608-U-2026.7.31.fixed.xlsx')
+dst=Path(r'D:/.cursor/Cursor-projects/AutoExport/1_Input_Raw/Shipments/EF-C26080-C07-11590_C07_20260731_13590/出货表/C07-2608-U-2026.7.31.xlsx')
+
+===== SHELL CMD line 95 hits=['C26079'] =====
+ root/'EF-C26079-C04-36460  桌布-2026.7.10'/'C26079_2026.7.31_微信发送.zip',
+
+===== SHELL CMD line 96 hits=['C26079'] =====
+ if 'C26079' not in str(z) and 'C26080' not in str(z):
+
+===== SHELL CMD line 97 hits=['C26079', 'C04-2616', 'F5'] =====
+p=r'D:/.cursor/Cursor-projects/AutoExport/3_Output_Final/EF-C26079-C04-36460  桌布-2026.7.10/完整存档/共用/出货表/C04-2616-U-2026.7.31.xlsx'
+print('F5', ws['F5'].value, 'A5', ws['A5'].value)
+
+===== TEXT line 98 =====
+根因是生成器没按 C04-2615 样例做好**扩行 / 合并 / 所属订单**。已改 `Scripts/m1/outbound_fill.py`，并重写了完整存档里的表。
+
+## 已修好（对照样例）
+
+| 项 | 现行为 |
+|----|--------|
+| 扩行 | 按明细条数自动占满，行高统一 37 |
+| 合并 | 品类 / 克重 / **所属订单** / 目的地 纵向合并 |
+| 所属订单 | 填订单短码（`C26080` / `C26079`） |
+| 所属仓库 | 仍空 |
+| 合计 | `=SUM(E…)` |
+
+云端 `gen_trio` 已传 `order_code`，以后新生成会带上。
+
+## 文件状态
+
+| 路径 | 状态 |
+|------|------|
+| `3_Output_Final/…C26080…/完整存档/共用/出货表/C07-2608-….xlsx` | ✅ 已替换 |
+| `3_Output_Final/…C26079…/完整存档/共用/出货表/C04-2616-….xlsx` | ✅ 已替换 |
+| `Shipments/…C26080…/出货表/` | ⚠️ 原文件被 Excel 占用；旁路已生成 **`C07-2608-U-2026.7.31.fixed.xlsx`** |
+| 微信贴标包 zip | 内无出货表（只有外箱贴/入库贴），无需改 |
+
+请先**关掉**占用中的 `C07-2608-U-2026.7.31.xlsx`，把同目录 `.fixed.xlsx` 改名覆盖原文件即可。
+
+规则文档已改为：所属订单填短码（与样例一致），不再写「一般不填」。
+
+===== SHELL CMD line 100 hits=['Shipments', 'F5', 'OK '] =====
+src=Path(r'D:/.cursor/Cursor-projects/AutoExport/1_Input_Raw/Shipments/EF-C26080-C07-11590_C07_20260731_13590/出货表/C07-2608-U-2026.7.31.fixed.xlsx')
+dst=Path(r'D:/.cursor/Cursor-projects/AutoExport/1_Input_Raw/Shipments/EF-C26080-C07-11590_C07_20260731_13590/出货表/C07-2608-U-2026.7.31.xlsx')
+  print('OK replaced', dst)
+print('merges', len(list(ws.merged_cells.ranges)), 'F5', ws['F5'].value)
+
+===== TEXT line 102 =====
+## 洁癖收尾（轻量）
+
+**影响**：交接与现役对齐（发货统计已接线、出货表已修、LlamaParse 仅参考）；C26080 Shipments 出货表已覆盖修好。
+
+**改动 / 核对**
+- `Templates/Next_Session_Handoff.md`、`Scripts/future_backlog.json` 已刷新  
+- 出货表：`Shipments/…C26080…/C07-2608-….xlsx` 已替换（合并 5、所属订单 `C26080`）
+
+**待你确认删除（未删）**  
+`drafts/_label_integrity*`、`_ship_stats_*`、`DEMO_e2e*`、`ocr_dual_compare/`、`_smoke_*`、`tsbuildinfo` 等（见交接包）。
+
+**遗留**：演示票 disposition；archives/单价验收；push 未做；历史统计不灌。
+
+---
+
+## 任务总结
+
+| 完成 | 说明 |
+|------|------|
+| 标签库核对 | 113 PDF OK；云端源空 |
+| 发货统计 | 规则锁 + `/ops/archives` 详细/单价流 |
+| OCR | 现役够用；LlamaParse 参考、默认关 |
+| 出货表 | 扩行/合并/所属订单/`=SUM`；C26079·C26080 已修 |
+
+**远期提醒一次**：多票/库存洞察（补货·滞销·促销）仍待你给字段定义。
+
+---
+
+## 新对话提示词（可复制）
+
+````text
+你是 AutoExport 助手。工作区：D:\.cursor\Cursor-projects\AutoExport
+「准备上新」时先跑 neat-freak 轻量，再交接（含 future_backlog 提醒一次）。>2 分钟卡住须先通报。
+
+先读：
+- Templates/Next_Session_Handoff.md
+- Templates/Ship_Stats_Correspondence.md、Shipment_Archive_Index.md、Ocr_Dual_Convert_Compare.md
+- Templates/01_Order_Outbound_Correspondence.md（出货：所属订单=短码；合并/行高）
+- Scripts/future_backlog.json、outbound_short_seq.json、order_code_seq.json、demo_jobs_registry.json
+- .cursorrules、error-confirm-gate、pre-output-cross-check、web-stack-ui-gate
+
+现状：
+- Supabase ready；/workspace + /ops/archives（详细层+单价截图流）已接线
+- 出货表 outbound_fill 已按 C04-2615 修好（C26079/C26080 已重写）
+- OCR：Tesseract/PDF+确认闸够用；LlamaParse 仅参考、默认关闭
+- 编号 next：C26083 / C04-2618 / C07-2609
+- 演示票 EF-C26082 disposition 待删/留
+- 起服务：cd web && npm.cmd run dev → http://localhost:3000/workspace
+
+下一优先：archives 验收 / 正式新票（先计划）/ 演示票删留 / 明示后 push。预检够才做；报错全量汇报。
+远期提醒：多票库存洞察仍待你给字段定义。
+````

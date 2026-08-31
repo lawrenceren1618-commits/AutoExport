@@ -24,6 +24,9 @@ from pathlib import Path
 import openpyxl
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "Scripts"))
+from contract_protocol import allocate_protocol_no  # noqa: E402
+from m1.warehouse_address import get_address, load_addresses, placeholder as wh_placeholder  # noqa: E402
 
 FREIGHT_TEMPLATE = ROOT / (
     "1_Input_Raw/Shipments/EF-C26040-C04-8490_C04_20260510_8490/"
@@ -46,50 +49,11 @@ CUSTOMS_TEMPLATE = ROOT / (
     "_来源归档/畅选+波丽丝 2026.5.10发货 248箱 市场采购数据.xlsx"
 )
 MASTER = ROOT / "1_Input_Raw/00_Master_Reference/2026.7.20桌布当前产品总表.xlsx"
+CANONICAL = ROOT / "Scripts" / "canonical_schema.json"
+WH_ADDRESS: dict = {}  # filled in main() from amazon_warehouse_addresses.json
 
-WH_ADDRESS = {
-    "AVP1": {
-        "company": "Amazon.com Services, Inc.",
-        "line1": "550 Oak Ridge Road",
-        "city": "Hazle Township",
-        "state": "PA",
-        "zip": "18202-9361",
-        "freight_addr": "AVP1 - 550 Oak Ridge Road - Hazle Township, PA 18202-9361 - United States",
-    },
-    "CLT2": {
-        "company": "Amazon.com Services, Inc.",
-        "line1": "10240 Old Dowd Rd",
-        "city": "Charlotte",
-        "state": "NC",
-        "zip": "28214-8082",
-        "freight_addr": "CLT2 - 10240 Old Dowd Rd - Charlotte, NC 28214-8082 - United States",
-    },
-    "GYR2": {
-        "company": "Amazon.com Services, Inc.",
-        "line1": "17341 W MINNEZONA AVE",
-        "city": "GOODYEAR",
-        "state": "AZ",
-        "zip": "85395-7672",
-        "freight_addr": "GYR2 - 17341 W MINNEZONA AVE - GOODYEAR, AZ 85395-7672 - United States",
-    },
-    "LGB8": {
-        "company": "Amazon.com Services, Inc.",
-        "line1": "1568 N Linden Ave",
-        "city": "Rialto",
-        "state": "CA",
-        "zip": "92376-8624",
-        "freight_addr": "LGB8 - 1568 N Linden Ave - Rialto, CA 92376-8624 - United States",
-    },
-    "MDW2": {
-        "company": "Amazon.com Services, Inc.",
-        "line1": "250 EMERALD DR",
-        "city": "Joliet",
-        "state": "IL",
-        "zip": "60433-3280",
-        "freight_addr": "MDW2 - 250 EMERALD DR - Joliet, IL 60433-3280 - United States",
-    },
-}
-
+# Legacy hardcoded suffixes kept only as documentation of C26079-A history.
+# New generations MUST use contract_protocol.allocate_protocol_no (registry).
 PROTOCOL_SUFFIX = {
     "AVP1": "801",
     "CLT2": "802",
@@ -112,19 +76,81 @@ def _parse_lwh(text: str) -> tuple[float, float, float]:
     return (57.0, 40.0, 33.0)
 
 
-def load_master_by_fnsku() -> dict[str, dict]:
+def _load_size_color_maps() -> tuple[dict, dict]:
+    short_to_full: dict[str, str] = {}
+    color_to_canon: dict[str, str] = {}
+    if CANONICAL.is_file():
+        schema = json.loads(CANONICAL.read_text(encoding="utf-8"))
+        short_to_full = dict(
+            ((schema.get("size_shortcode_map") or {}).get("master_short_to_order_full") or {})
+        )
+        for canon, aliases in ((schema.get("color_aliases") or {}).get("canonical") or {}).items():
+            color_to_canon[str(canon).strip()] = str(canon)
+            for a in aliases or []:
+                color_to_canon[str(a).strip()] = str(canon)
+                color_to_canon[str(a).strip().lower()] = str(canon)
+    return short_to_full, color_to_canon
+
+
+def _norm_size(raw, short_to_full: dict) -> str:
+    s = str(raw or "").strip()
+    if not s:
+        return ""
+    if s in short_to_full:
+        return str(short_to_full[s])
+    compact = re.sub(r"[\s*×x]", "", s, flags=re.I).lower()
+    for full in short_to_full.values():
+        f = str(full)
+        if s.lower() == f.lower():
+            return f
+        if compact == re.sub(r"[\s*×x]", "", f, flags=re.I).lower():
+            return f
+    return s
+
+
+def _norm_color(raw, color_to_canon: dict) -> str:
+    s = str(raw or "").strip()
+    if not s:
+        return ""
+    return color_to_canon.get(s) or color_to_canon.get(s.lower()) or s
+
+
+def _eval_master_price_formula(raw, packs_per_carton) -> float | None:
+    """data_only 无缓存时，总表 K 列常见式 =39.99*0.55*H{n} → 算每箱1039。"""
+    if isinstance(raw, (int, float)):
+        return float(raw)
+    if not isinstance(raw, str) or not raw.startswith("="):
+        return None
+    expr = raw[1:].strip().upper()
+    # 仅允许数字、*、/、+、-、括号、及 H 列引用
+    if not re.fullmatch(r"[0-9H.\+\-\*/\(\)\s]+", expr):
+        return None
+    if packs_per_carton in (None, ""):
+        return None
+    expr = re.sub(r"H\d+", str(float(packs_per_carton)), expr)
+    try:
+        return float(eval(expr, {"__builtins__": {}}, {}))  # noqa: S307 — 已白名单
+    except Exception:
+        return None
+
+
+def load_master_index() -> dict:
+    """FNSKU index + spec index (条数/包+尺寸+颜色) for C07 inherit of C04 1039."""
+    short_to_full, color_to_canon = _load_size_color_maps()
     wb = openpyxl.load_workbook(MASTER, data_only=True)
     ws = wb["Sheet1"]
+    wb_f = openpyxl.load_workbook(MASTER, data_only=False)
+    ws_f = wb_f["Sheet1"]
     spp = None
     size = None
-    out: dict[str, dict] = {}
+    by_fnsku: dict[str, dict] = {}
+    by_spec: dict[tuple, dict] = {}
     for r in range(2, (ws.max_row or 1) + 1):
-        brand = ws.cell(r, 1).value
-        # stop at C07 block roughly: when brand mentions C07
-        if brand and "C07" in str(brand):
-            break
         if ws.cell(r, 2).value not in (None, ""):
-            spp = int(ws.cell(r, 2).value)
+            try:
+                spp = int(ws.cell(r, 2).value)
+            except (TypeError, ValueError):
+                pass
         if ws.cell(r, 3).value not in (None, ""):
             size = ws.cell(r, 3).value
         fn = ws.cell(r, 5).value
@@ -135,32 +161,89 @@ def load_master_by_fnsku() -> dict[str, dict]:
         price_ctn = ws.cell(r, 11).value
         lwh = _parse_lwh(ws.cell(r, 7).value)
         ppc = ws.cell(r, 8).value
-        out[str(fn).strip()] = {
+        if price_ctn is None:
+            price_ctn = _eval_master_price_formula(ws_f.cell(r, 11).value, ppc)
+        color = ws.cell(r, 4).value
+        rec = {
+            "fnsku": str(fn).strip(),
             "strips_per_pack": spp,
             "size": size,
+            "size_full": _norm_size(size, short_to_full),
+            "color": color,
+            "color_canon": _norm_color(color, color_to_canon),
             "packs_per_carton": int(ppc) if ppc else None,
             "net_kg": float(net) if net is not None else None,
             "gross_kg": float(gross) if gross is not None else None,
             "price_per_carton": float(price_ctn) if price_ctn is not None else None,
             "lwh": lwh,
         }
-    return out
+        by_fnsku[str(fn).strip()] = rec
+        if rec["strips_per_pack"] and rec["size_full"] and rec["color_canon"]:
+            by_spec[(rec["strips_per_pack"], rec["size_full"], rec["color_canon"])] = rec
+    wb.close()
+    wb_f.close()
+    return {
+        "by_fnsku": by_fnsku,
+        "by_spec": by_spec,
+        "short_to_full": short_to_full,
+        "color_to_canon": color_to_canon,
+    }
 
 
-def warehouse_money_weights(wh_specs: list[dict], master: dict[str, dict]) -> dict:
+def load_master_by_fnsku() -> dict[str, dict]:
+    """Compat: FNSKU → 1039/净毛重（不含 C07 同规格继承）。"""
+    return load_master_index()["by_fnsku"]
+
+
+def _spec_cartons(s: dict) -> int:
+    v = s.get("qty_cartons")
+    if v in (None, ""):
+        v = s.get("cartons")
+    try:
+        return int(v or 0)
+    except (TypeError, ValueError):
+        return 0
+
+
+def _lookup_master_row(s: dict, index: dict) -> tuple[dict | None, str]:
+    """FNSKU first; else C07 inherit: same 条数/包+尺寸+颜色 → C04 1039 行."""
+    fn = str(s.get("fnsku") or "").strip()
+    by_fn = index.get("by_fnsku") or {}
+    if fn and fn in by_fn:
+        return by_fn[fn], "fnsku"
+    spp = s.get("strips_per_pack")
+    try:
+        spp_i = int(spp) if spp not in (None, "") else None
+    except (TypeError, ValueError):
+        spp_i = None
+    size_full = _norm_size(s.get("size"), index.get("short_to_full") or {})
+    color = _norm_color(s.get("color"), index.get("color_to_canon") or {})
+    if spp_i and size_full and color:
+        rec = (index.get("by_spec") or {}).get((spp_i, size_full, color))
+        if rec:
+            return rec, "c04_same_spec_1039"
+    return None, "missing"
+
+
+def warehouse_money_weights(wh_specs: list[dict], master: dict) -> dict:
     """Aggregate net/gross/declare amount for one warehouse from its specs."""
+    index = master if "by_fnsku" in master else {"by_fnsku": master, "by_spec": {}}
     total_net = 0.0
     total_gross = 0.0
     total_amount = 0.0
     missing = []
+    joins = []
     lwh_votes: dict[tuple, int] = {}
     for s in wh_specs:
-        fn = s.get("fnsku")
-        ctn = int(s.get("qty_cartons") or 0)
-        if not fn or fn not in master:
+        ctn = _spec_cartons(s)
+        m, how = _lookup_master_row(s, index)
+        if not m or ctn <= 0:
             missing.append(s)
             continue
-        m = master[fn]
+        if how != "fnsku":
+            joins.append(
+                f"{s.get('fnsku')}: {how} via C04 {m.get('fnsku')} ${m.get('price_per_carton')}/ctn"
+            )
         total_net += ctn * float(m["net_kg"] or 0)
         total_gross += ctn * float(m["gross_kg"] or 0)
         total_amount += ctn * float(m["price_per_carton"] or 0)
@@ -172,6 +255,7 @@ def warehouse_money_weights(wh_specs: list[dict], master: dict[str, dict]) -> di
         "declare_amount_raw": round(total_amount, 2),
         "lwh": lwh,
         "missing_specs": missing,
+        "spec_joins": joins,
     }
 
 
@@ -246,7 +330,9 @@ def fill_freight(path: Path, row: dict, money: dict, unit_price: float) -> None:
     wb = openpyxl.load_workbook(path)
     ws = wb["下单模板"]
     wh = row["warehouse_code"]
-    addr = WH_ADDRESS[wh]
+    addr = WH_ADDRESS.get(wh) or WH_ADDRESS.get(str(wh).upper()) or get_address(wh)
+    if not addr:
+        raise KeyError(f"warehouse address missing: {wh}")
     cartons = int(row["cartons"])
     strips = int(row["strips"])
     per_carton = math.floor(strips / cartons) if cartons else 0
@@ -333,29 +419,58 @@ def fill_customs(path: Path, row: dict, money: dict, unit_price: float, amount: 
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--project", required=True)
+    ap.add_argument("--recognize-json", type=str, default=None)
+    ap.add_argument("--headers-json", type=str, default=None)
+    ap.add_argument("--order-code", type=str, default=None)
+    ap.add_argument("--ship-date", type=str, default=None, help="YYYY-MM-DD")
+    ap.add_argument("--leg-id", type=str, default=None)
+    ap.add_argument("--out-freight-dir", type=str, default=None)
+    ap.add_argument("--out-customs-dir", type=str, default=None)
     args = ap.parse_args()
     project = Path(args.project)
-    rec_path = ROOT / "2_Processed_AI" / "drafts" / "C26079-A_fba_recognize.json"
-    headers_path = ROOT / "2_Processed_AI" / "drafts" / "C26079-A_warehouse_headers.json"
-    rec = json.loads(rec_path.read_text(encoding="utf-8"))
-    headers = json.loads(headers_path.read_text(encoding="utf-8"))
-    master = load_master_by_fnsku()
+    rec_path = (
+        Path(args.recognize_json)
+        if args.recognize_json
+        else ROOT / "2_Processed_AI" / "drafts" / "C26079-A_fba_recognize.json"
+    )
+    headers_path = (
+        Path(args.headers_json)
+        if args.headers_json
+        else ROOT / "2_Processed_AI" / "drafts" / "C26079-A_warehouse_headers.json"
+    )
+    rec = json.loads(rec_path.read_text(encoding="utf-8-sig"))
+    headers = json.loads(headers_path.read_text(encoding="utf-8-sig"))
+    master = load_master_index()
+    WH_ADDRESS.clear()
+    WH_ADDRESS.update((load_addresses().get("warehouses") or {}))
 
-    freight_dir = project / "货代入库贴下单表"
-    customs_dir = project / "报关资料表"
+    freight_dir = Path(args.out_freight_dir) if args.out_freight_dir else project / "货代入库贴下单表"
+    customs_dir = Path(args.out_customs_dir) if args.out_customs_dir else project / "报关资料表"
     freight_dir.mkdir(parents=True, exist_ok=True)
     customs_dir.mkdir(parents=True, exist_ok=True)
 
     # map warehouse -> specs from recognize
-    specs_by_wh = {w["warehouse_code"]: w.get("specs") or [] for w in rec["warehouses"]}
+    specs_by_wh = {
+        w["warehouse_code"]: w.get("specs") or [] for w in (rec.get("warehouses") or [])
+    }
+
+    order_code = str(args.order_code or headers.get("order_code") or "EF-UNKNOWN")
+    leg_id = str(args.leg_id or headers.get("split_leg_id") or f"{order_code}-A")
+    ship_date = str(args.ship_date or headers.get("ship_date") or "2026-07-31")
+    try:
+        y, m, d = ship_date[:10].split("-")
+        ship_disp = f"{y}.{int(m)}.{int(d)}"
+    except Exception:
+        ship_disp = ship_date
 
     summary = {
         "generated_at": _now(),
-        "order_code": "EF-C26079-C04-36460",
-        "split_leg_id": "C26079-A",
+        "order_code": order_code,
+        "split_leg_id": leg_id,
+        "ship_date": ship_date,
         "pricing_method": "per_warehouse: raw=sum(cartons*master_1039_ctn_price); unit=round(raw/strips,2); amount=round(unit*strips,2)",
-        "note": "草稿；未进 Final；B腿剩余3规格未纳入；货值按仓正算反算",
-        "remaining_for_B": rec.get("plan_compare", {}).get("missing_specs_in_fba"),
+        "note": "草稿；未进 Final",
+        "remaining_for_B": (rec.get("plan_compare") or {}).get("missing_specs_in_fba"),
         "files": [],
         "warnings": [],
     }
@@ -366,25 +481,34 @@ def main() -> int:
 
     grand_amount = 0.0
     grand_raw = 0.0
-    # 店铺：从订单号解析 C04/C07，供货代销售链接
-    order_code = str(headers.get("order_code") or summary["order_code"])
     store = "C07" if "-C07-" in order_code or order_code.startswith("C07") else "C04"
-    for row in headers["rows"]:
+    for row in headers.get("rows") or []:
         row = {**row, "store": store}
         wh = row["warehouse_code"]
+        addr = get_address(wh) or WH_ADDRESS.get(str(wh).upper())
+        if not addr:
+            addr = wh_placeholder(wh)
+            WH_ADDRESS[str(wh).upper()] = addr
+            summary["warnings"].append(
+                f"{wh}: address not in amazon_warehouse_addresses.json; placeholder used"
+            )
+        else:
+            WH_ADDRESS[str(wh).upper()] = addr
         money = warehouse_money_weights(specs_by_wh.get(wh, []), master)
+        if money.get("spec_joins"):
+            summary["warnings"].extend(money["spec_joins"])
         if money["missing_specs"]:
             summary["warnings"].append(f"{wh}: {len(money['missing_specs'])} specs missing master join")
         raw = float(money["declare_amount_raw"])
         unit, amount = price_check(raw, int(row["strips"]))
         if amount <= 0:
-            summary["warnings"].append(f"{wh}: declare amount 0 — check master join")
+            summary["warnings"].append(f"{wh}: declare amount 0 — check master join / specs")
         grand_amount += amount
         grand_raw += raw
 
-        freight_name = f"货代下单表_C26079-A 2026.7.31桌布 {wh} {row['cartons']}箱.xlsx"
+        freight_name = f"货代下单表_{leg_id} {ship_disp}桌布 {wh} {row['cartons']}箱.xlsx"
         customs_name = (
-            f"畅选+波丽丝 2026.7.31发货 C26079-A {wh} {row['cartons']}箱 市场采购数据.xlsx"
+            f"畅选+波丽丝 {ship_disp}发货 {leg_id} {wh} {row['cartons']}箱 市场采购数据.xlsx"
         )
         freight_path = freight_dir / freight_name
         customs_path = customs_dir / customs_name
@@ -392,7 +516,12 @@ def main() -> int:
         shutil.copy2(CUSTOMS_TEMPLATE, customs_path)
 
         fill_freight(freight_path, row, money, unit)
-        protocol = f"20260731{PROTOCOL_SUFFIX[wh]}"
+        protocol = allocate_protocol_no(
+            ship_date[:10],
+            project=project.name,
+            warehouse_code=wh,
+            order_or_plan=str(leg_id or order_code),
+        )
         fill_customs(customs_path, row, money, unit, amount, protocol)
 
         summary["files"].append(
@@ -480,33 +609,24 @@ def main() -> int:
         )
         print("WARN: 误差率超过 1%，须人工确认")
 
-    out = ROOT / "2_Processed_AI" / "drafts" / "C26079-A_freight_customs_summary.json"
+    out = ROOT / "2_Processed_AI" / "drafts" / f"{leg_id}_freight_customs_summary.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"wrote {out}")
     for w in summary["warnings"]:
         print("WARN:", w)
 
-    note_path = project / "拆单比对" / "C26079-B_PENDING.md"
-    note_path.write_text(
-        "\n".join(
-            [
-                "# C26079-B 待发（已确认）",
-                "",
-                "A 腿外箱贴未含、确认进 B：",
-                "",
-                "| 尺寸 | 颜色 | 条数/包 | 计划箱 | 计划条 |",
-                "|------|------|---------|--------|--------|",
-                "| 60X126inch | 白 | 10 | 50 | 1500 |",
-                "| 70X120inch | 白 | 6 | 50 | 1500 |",
-                "| 70X120inch | 米白 | 6 | 40 | 1200 |",
-                "",
-                "合计约 **140 箱 / 4200 条**。",
-                "",
-            ]
-        ),
-        encoding="utf-8",
-    )
-    print(f"wrote {note_path}")
+    # Optional leftover note only when recognize payload carries remaining_for_B
+    remaining = summary.get("remaining_for_B")
+    if remaining:
+        note_dir = project / "拆单比对"
+        note_dir.mkdir(parents=True, exist_ok=True)
+        note_path = note_dir / f"{leg_id}_REMAINING.md"
+        note_path.write_text(
+            json.dumps({"remaining_for_B": remaining}, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+        print(f"wrote {note_path}")
     return 0
 
 

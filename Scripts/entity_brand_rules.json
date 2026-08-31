@@ -5,6 +5,7 @@
     "C04": {
       "legal_name_zh": "许昌畅选贸易有限公司",
       "legal_name_zh_short": "畅选",
+      "legal_name_role": "internal_filing_only_does_not_change_pipeline",
       "relation": "E-fashion 子公司",
       "order_header_display": "易尚 / Xuchang E-fashion Electronic Business Co., Ltd.",
       "show_changxuan_on_order_header": false,
@@ -12,35 +13,68 @@
       "amazon_store_key": "C04",
       "fnsku_pool": "C04_store_only",
       "customs_1039": {
-        "applies_to": "all_future_shipments",
+        "applies_to": "all_future_shipments_C04_and_C07",
+        "confirmed_at": "2026-07-24",
+        "note": "C07 报关与 C04 同一套表内抬头+文件名；不以易尚作报关表内抬头",
         "抬头": {
           "meaning": "表内生产销售单位等统一经营名称（海关常用义）",
-          "value_C04": "许昌波丽丝贸易有限公司",
+          "value": "许昌波丽丝贸易有限公司",
           "short": "波丽丝",
           "not": "文件名"
         },
         "文件名": {
           "meaning": "xlsx filename only; never call 抬头",
-          "may_contain": "畅选+波丽丝 + date/warehouse/carton/FBA per sample",
-          "is_change_field": true
+          "may_contain": "畅选+波丽丝 + date/warehouse/carton/order_stem per settled sample",
+          "is_change_field": true,
+          "do_not_invent_alternate_pattern": true
         },
         "内部法律主体_C04": "许昌畅选贸易有限公司",
         "tax_rebate": false,
         "levy_mode": "免征",
-        "note": "禁止把文件名称作抬头；抬头=波丽丝表内名"
+        "currency_declare": "USD",
+        "no_fx_on_customs_forms": true
       },
       "note": "畅选不在工厂订单页眉；报关表内抬头用波丽丝"
     },
     "C07": {
-      "legal_name_zh": "易尚电子商务有限公司",
+      "legal_name_zh": "许昌易尚电子商务有限公司",
+      "legal_name_role": "internal_filing_only_does_not_change_pipeline",
       "relation": "E-fashion 主体之一",
       "order_header_display": "易尚 / Xuchang E-fashion Electronic Business Co., Ltd.",
       "show_changxuan_on_order_header": false,
       "brand_tablecloth": "Dressmaker",
       "amazon_store_key": "C07",
       "fnsku_pool": "C07_store_only",
-      "note": "与 C04 装箱信息可一致，FNSKU 不可共用"
+      "customs_1039": {
+        "inherits": "C04.customs_1039",
+        "confirmed_at": "2026-07-24",
+        "note": "报关申报路径与 C04 完全相同（波丽丝表内抬头 + 畅选+波丽丝文件名）；店铺差异不改变报关抬头/文件名"
+      },
+      "note": "与 C04 装箱信息可一致，FNSKU 不可共用；流水线字段/参数参照 C04（见 c07_inherits_c04_pipeline）；报关走 C04/1039"
     }
+  },
+  "c07_inherits_c04_pipeline": {
+    "confirmed_at": "2026-07-24",
+    "summary": "C07 = C04 既有处理规则 + 店铺/品牌/FNSKU 对应关系；产品本质与字段定义相同",
+    "same_as_c04": [
+      "document_fields_and_params",
+      "data_processing_and_script_calls",
+      "carton_weight_default_16",
+      "gross_net_weight_reconcile",
+      "unit_price_per_carton_1039",
+      "naming_rules_except_store_brand_fnsku",
+      "freight_customs_outbound_pipelines",
+      "customs_contract_protocol_no_registry",
+      "customs_1039_same_as_c04_for_c07",
+      "label_copy_and_output_packs"
+    ],
+    "differs_only": {
+      "amazon_store": "C07 vs C04",
+      "brand": "Dressmaker vs WIGENIUS",
+      "fnsku_pool": "独立，禁止串用",
+      "warehouse_address": "亚马逊当票分配；可与 C04 同仓或不同仓，以当票外箱贴为准"
+    },
+    "rule": "Do not invent a parallel C07 rulebook; map store/brand/FNSKU then reuse C04 pipeline"
   },
   "shared_rules": {
     "packing_may_be_identical_across_entities": true,

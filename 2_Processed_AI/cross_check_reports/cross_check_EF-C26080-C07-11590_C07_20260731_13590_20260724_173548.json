@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-07-24T17:35:48+0800",
+  "project": "D:\\.cursor\\Cursor-projects\\AutoExport\\1_Input_Raw\\Shipments\\EF-C26080-C07-11590_C07_20260731_13590",
+  "pass": true,
+  "findings": [
+    {
+      "check": "entity_brand_lock",
+      "ok": true,
+      "detail": "store=C07 brand=Dressmaker expect=Dressmaker"
+    },
+    {
+      "check": "c07_inherits_documented",
+      "ok": true,
+      "detail": "c07_inherits_c04_pipeline present"
+    },
+    {
+      "check": "customs_filename_c04_pattern",
+      "ok": true,
+      "detail": "n=6"
+    },
+    {
+      "check": "customs_table_header_bolisi",
+      "ok": true,
+      "detail": "波丽丝 ok"
+    },
+    {
+      "check": "protocol_registered",
+      "ok": true,
+      "detail": "count=6 nos=['20260731501', '20260731502', '20260731503', '20260731504', '20260731505', '20260731506']"
+    },
+    {
+      "check": "protocol_unique_in_project",
+      "ok": true,
+      "detail": "nos=['20260731501', '20260731502', '20260731503', '20260731504', '20260731505', '20260731506']"
+    },
+    {
+      "check": "protocol_no_cross_project_collision",
+      "ok": true,
+      "detail": "checked=['20260731501', '20260731502', '20260731503', '20260731504', '20260731505', '20260731506']"
+    },
+    {
+      "check": "amount_weight_reconcile",
+      "ok": true,
+      "detail": "file=C26080_amount_weight_reconcile.json error_rate=None pass=None",
+      "soft": true
+    }
+  ],
+  "hard_failures": [],
+  "doc": "Templates/pre-output / .cursor/rules/pre-output-cross-check.mdc",
+  "note": "Row-level FNSKU/packing checks deferred until master table ingested (empty indexes removed by user 2026-07-24)"
+}

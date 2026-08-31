@@ -1,0 +1,20 @@
+{
+  "version": "1.1",
+  "confirmed_at": "2026-07-29",
+  "doc": "Templates/Ship_Stats_Correspondence.md",
+  "rules": {
+    "group_by": "archive_ship_date YYYY/MM/DD",
+    "ship_date_priority": "actual_delivery_date (else = order_delivery_date); never created_at",
+    "leaf": "ticket_summary_plus_spec_detail",
+    "leaf_display": "order_short · batch · carton_count",
+    "leaf_authority_code": "order_code EF long",
+    "detail_expand": "spec_details carton per size/color",
+    "physical_folders": "none_index_only",
+    "ui_route": "/ops/archives",
+    "not_on_workspace_main_path": true,
+    "register_after": "gate_confirmed_and_archive_step",
+    "cost": "cloud_batch_total_only; local_unit_prices; screenshot_confirm_gate",
+    "doc": "Templates/Ship_Stats_Correspondence.md"
+  },
+  "entries": []
+}
