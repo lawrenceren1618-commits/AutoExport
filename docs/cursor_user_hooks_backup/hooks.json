@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe C:\\Users\\Administrator\\.cursor\\hooks\\session_start_report_rules.py",
+        "timeout": 15
+      }
+    ],
+    "postToolUseFailure": [
+      {
+        "command": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe C:\\Users\\Administrator\\.cursor\\hooks\\must_report_on_tool_failure.py",
+        "timeout": 15
+      }
+    ],
+    "stop": [
+      {
+        "command": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe C:\\Users\\Administrator\\.cursor\\hooks\\must_report_on_stop.py",
+        "timeout": 15,
+        "loop_limit": 2
+      }
+    ]
+  }
+}

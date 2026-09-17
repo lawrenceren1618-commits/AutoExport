@@ -1,0 +1,9 @@
+{
+  "backed_up_at": "2026-09-17T16:49:39",
+  "source": "C:\\Users\\Administrator\\.cursor\\hooks.json",
+  "files": [
+    "must_report_on_stop.py",
+    "must_report_on_tool_failure.py",
+    "session_start_report_rules.py"
+  ]
+}

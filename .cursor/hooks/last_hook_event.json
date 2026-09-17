@@ -1,0 +1,11 @@
+{
+  "event": "postToolUseFailure",
+  "at": "2026-09-17T17:00:38",
+  "tool": "unknown",
+  "failure_type": "",
+  "error": "",
+  "is_interrupt": null,
+  "input_keys": [
+    "_raw"
+  ]
+}

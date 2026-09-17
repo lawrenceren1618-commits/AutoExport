@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "python .cursor/hooks/session_start_report_rules.py",
+        "timeout": 15
+      }
+    ],
+    "postToolUseFailure": [
+      {
+        "command": "python .cursor/hooks/must_report_on_tool_failure.py",
+        "timeout": 15
+      }
+    ],
+    "stop": [
+      {
+        "command": "python .cursor/hooks/must_report_on_stop.py",
+        "timeout": 15,
+        "loop_limit": 2
+      }
+    ]
+  }
+}
