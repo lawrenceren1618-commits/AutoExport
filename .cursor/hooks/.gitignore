@@ -1,0 +1,5 @@
+# runtime stamp / log — do not commit
+last_hook_event.json
+need_status_report.flag
+__pycache__/
+*.pyc
