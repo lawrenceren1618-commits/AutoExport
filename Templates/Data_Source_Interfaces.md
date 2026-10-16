@@ -43,7 +43,7 @@
 | Gate | 交叉对照权威 | `gate.hx_settled` | 读 settled + 当票草稿 | Gate 服务读 DB |
 | 完整存档（仅复制） | 订单/出货/报关/外箱贴/货代下单表/入库贴 | `pack.archive_full` | `3_Output_Final/{项目}/完整存档/` | Storage zip API |
 | 工厂贴标包（仅复制） | 按仓外箱贴 + 入库贴 | `pack.factory_label_kit` | `3_Output_Final/{项目}/{腿号}_{实发条数}_{出货日期}_贴标包/`（一腿一包；单仓扁平） | Storage zip API |
-| 微信发送包 | 同订单同批次**仅贴标包**合并压缩 | `pack.wechat_send_zip` | `{订单短号}_{出货日}_微信发送.zip`（不含完整存档） | Storage 签名下载 |
+| 微信发送包 | 同订单同批次**仅贴标包**合并压缩 | `pack.wechat_send_zip` | `{订单短号}_{箱数}箱_外箱贴入库贴.zip`（例 `C26114_290箱_外箱贴入库贴.zip`，不含完整存档） | Storage 签名下载 |
 
 握手模块（M0–M4、H01/H12/H42…）见 [`Architecture_Modules_Handshake.md`](Architecture_Modules_Handshake.md)。
 

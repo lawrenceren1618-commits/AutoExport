@@ -39,6 +39,7 @@ SKIP_NAMES = {
 }
 CHANNEL_DIRS = {"FC", "AWD", "GWD"}
 WH_DIR_RE = re.compile(r"^[A-Z]{3}\d$|^[A-Z]{4}$")
+CARTON_N_RE = re.compile(r"(\d+)\s*箱")
 
 
 def _now() -> str:
@@ -405,16 +406,40 @@ def _order_short(project: Path, meta: dict, factory_packs_meta: list[dict]) -> s
     return m.group(1) if m else "BATCH"
 
 
+def _pack_carton_count(dirs: list[Path]) -> int:
+    """Sum formal carton PDFs. Inbound PDFs also end in N箱 and must not be added again."""
+    total = 0
+    for top in dirs:
+        for f in top.rglob("*.pdf"):
+            if "入库贴" in f.name:
+                continue
+            m = CARTON_N_RE.search(f.name)
+            if m:
+                total += int(m.group(1))
+    return total
+
+
+def wechat_zip_name(order_short: str, cartons: int) -> str:
+    """短号_箱数_外箱贴入库贴.zip，例 C26114_290箱_外箱贴入库贴.zip"""
+    return f"{order_short}_{cartons}箱_外箱贴入库贴.zip"
+
+
 def build_wechat_zip(
     out_root: Path,
     *,
     order_short: str,
-    ship_dot: str,
+    cartons: int,
     factory_folders: list[str],
+    ship_dot: str = "",
 ) -> dict:
     """Merge same-batch leg 贴标包 only into one WeChat zip (no 完整存档)."""
-    zip_name = f"{order_short}_{ship_dot}_微信发送.zip"
+    del ship_dot
+    zip_name = wechat_zip_name(order_short, cartons)
     zip_path = out_root / zip_name
+    for pattern in ("*微信发送.zip", "*外箱贴入库贴.zip"):
+        for old in out_root.glob(pattern):
+            if old.resolve() != zip_path.resolve():
+                old.unlink()
     if zip_path.exists():
         zip_path.unlink()
 
@@ -424,6 +449,8 @@ def build_wechat_zip(
         if p.is_dir():
             include_dirs.append(p)
 
+    zip_stem = zip_name[:-4]
+    single = len(include_dirs) == 1
     members = 0
     with zipfile.ZipFile(
         zip_path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6
@@ -434,7 +461,11 @@ def build_wechat_zip(
                     continue
                 if should_skip(f, out_root):
                     continue
-                arcname = f.relative_to(out_root).as_posix()
+                rel = f.relative_to(top).as_posix()
+                if single:
+                    arcname = f"{zip_stem}/{rel}"
+                else:
+                    arcname = f"{top.name}/{rel}"
                 zf.write(f, arcname)
                 members += 1
 
@@ -602,11 +633,13 @@ def export_packs(project: Path, out_root: Path, *, make_zip: bool = True) -> dic
 
     wechat_zip = None
     if make_zip:
+        factory_folders = [p["folder"] for p in factory_packs_meta]
+        include_dirs = [out_root / name for name in factory_folders if (out_root / name).is_dir()]
         wechat_zip = build_wechat_zip(
             out_root,
             order_short=_order_short(project, meta, factory_packs_meta),
-            ship_dot=ship_dot,
-            factory_folders=[p["folder"] for p in factory_packs_meta],
+            cartons=_pack_carton_count(include_dirs),
+            factory_folders=factory_folders,
         )
 
     manifest = {
@@ -647,7 +680,7 @@ def main() -> int:
         dest="make_zip",
         action="store_true",
         default=True,
-        help="Merge same-batch packs into {短号}_{出货日}_微信发送.zip (default)",
+        help="Merge same-batch packs into {短号}_{箱数}箱_外箱贴入库贴.zip (default)",
     )
     ap.add_argument(
         "--no-zip",

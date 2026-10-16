@@ -16,10 +16,27 @@ alwaysApply: true
 | **P-LABEL** | 产品标签复制 | 订单下半 + 标签源 | 外箱贴 PDF |
 | **P-FREIGHT** | 货代下单表 + 报关草稿（`09_generate_freight_customs_drafts.py`） | 仓/货件/追踪/箱数/条数 + 规格 JSON（`PROJECT.json` / `split_ledger` / `*_recognize.json`）+ 总表 1039 | **外箱贴 PDF** |
 | **P-FREIGHT-STOP** | **停等使用者**：发下单表给货代；上传外箱贴/入库贴 | — | — |
-| **P-CARTON** | 外箱贴 inbox → `10_carton_label_ingest` → promote | `FBA外箱贴/_inbox` PDF | 货代下单表不必等 |
+| **P-CARTON** | 外箱贴 inbox → `10` 拆页识别 → promote → **按规格归夹合并**（见下） | `FBA外箱贴/_inbox` PDF | 货代下单表不必等 |
 | **P-INBOUND** | 入库贴 inbox → `12_freight_inbound_label_ingest` | 货代回传 PDF + **已有下单表箱数** | 外箱贴 PDF |
-| **P-GATE** | `03_cross_validate.py` | 当票表齐；外箱贴项需 P-CARTON 完成 | — |
-| **P-FINAL** | `13_export_output_packs.py` | **P-GATE pass** + 贴标文件齐 | — |
+| **P-GATE** | `03_cross_validate.py` | 当票表齐；外箱贴项需 **P-CARTON 含规格归夹** 完成 | — |
+| **P-FINAL** | `13_export_output_packs.py` | **P-GATE pass** + 贴标文件齐（外箱贴须已是「一仓一规格一 PDF」） | — |
+
+## P-CARTON 规格归夹（强制 · 2026-09-21）
+
+`10_carton_label_ingest` **只**做渠道识别与按页拆分，**不等于**完工。
+
+禁止：把 `_p####` 散页或整包 PDF **扁平堆在** `FBA外箱贴/{FC|AWD}/{仓}/` 根下就宣称 P-CARTON 完成 / 直接跑 Gate·Final。
+
+必须在 promote 后立刻：
+
+1. 按页抽 **FNSKU**（或规格键）↔ 对照当票 `PROJECT.json` / 订单行  
+2. 落盘为 **同仓 × 同规格** 小夹；**一规格一个多页 PDF**  
+3. **AWD 夹名（已验证）**：`{颜色}_{尺寸}_{N}条装/`，例 `米白_60X102inch_6条装/`；PDF：`AWD_{仓}_{夹名}_{箱数}箱.pdf`（对齐 C26100 / C26105）  
+4. **入库贴**可留在仓根：`AWD_{仓}_入库贴_{N}箱.pdf`。归夹后散页迁到 `FBA外箱贴/_flat_pages/{渠道}/{仓}/`（不进贴标包，只供交叉核对）  
+5. 页数 Σ 必须 = 该规格计划箱数；对不上 → **error-confirm-gate 停等**，禁止糊弄进 Final  
+
+脚本：`Scripts/17_reorg_carton_by_spec.py`（AWD/FC 同原则）；混装纠偏另见 `16_split_mixed_carton_spec_folders.py`。  
+全文：`Templates/Carton_Label_Channels.md` §2.1。
 
 **物易通（普通货代）**：P-FREIGHT → 发业务员 → P-INBOUND。  
 **纽酷 SEND**：P-CARTON 即可含入库贴，P-INBOUND 可 skip（见 `freight_forwarder_profiles.json`）。

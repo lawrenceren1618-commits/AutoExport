@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-08-25",
+  "updated_at": "2026-10-10",
   "doc": "Templates/Amazon_Warehouse_Address.md",
   "authority": "Scripts/amazon_warehouse_addresses.json",
   "rule": "仓码→收货地址。生成货代 E8 调用本表。新仓须使用者确认地址后才沉淀；禁止把占位写入本表。",
@@ -186,6 +186,18 @@
       "freight_addr": "GEU3 - 18900 W McDowell Road 85396 - BUCKEYE, AZ - United States",
       "source": "user_confirm_C26095-B_2026-08-25",
       "confirmed_at": "2026-08-25"
+    },
+    "IUSW": {
+      "channel": "AWD",
+      "company": "Amazon.com Services, Inc.",
+      "line1": "8130 Caliente Rd",
+      "city": "Hesperia",
+      "state": "CA",
+      "zip": "92344",
+      "country": "United States",
+      "freight_addr": "IUSW - 8130 Caliente Rd 92344 - Hesperia, CA - United States",
+      "source": "user_confirm_C26110_2026-10-10",
+      "confirmed_at": "2026-10-10"
     }
   }
 }

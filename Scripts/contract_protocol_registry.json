@@ -3,7 +3,7 @@
   "doc": "Templates/Customs_Contract_Protocol_No.md",
   "preferred_suffix_start": 501,
   "note": "Append-only / idempotent reuse by project+warehouse+ship day; protocol_no values must be unique in entries",
-  "updated_at": "2026-08-31T14:38:51+0800",
+  "updated_at": "2026-10-16T14:17:40+0800",
   "history_notes": [
     "C26080 (2026-07-31) historically reused 20260731801–805 same day as C26079-A AVP1–MDW2 — collision",
     "2026-07-24 user confirm: C26080 reallocated to 20260731501–506; customs xlsx patched; rule settled",
@@ -209,6 +209,42 @@
       "warehouse_code": "IUTJ",
       "order_or_plan": "C26100",
       "allocated_at": "2026-08-31T14:38:51+0800"
+    },
+    {
+      "protocol_no": "20261001501",
+      "ship_yyyymmdd": "20261001",
+      "ship_date": "2026-10-01",
+      "project": "EF-C26106-C07-12820_C07_20261001_12820",
+      "warehouse_code": "IUTJ",
+      "order_or_plan": "C26106",
+      "allocated_at": "2026-09-21T15:45:40+0800"
+    },
+    {
+      "protocol_no": "20261010501",
+      "ship_yyyymmdd": "20261010",
+      "ship_date": "2026-10-10",
+      "project": "EF-C26105-C04-17360_C04_20261001_17360",
+      "warehouse_code": "IUTJ",
+      "order_or_plan": "C26105",
+      "allocated_at": "2026-09-21T16:04:34+0800"
+    },
+    {
+      "protocol_no": "20261030501",
+      "ship_yyyymmdd": "20261030",
+      "ship_date": "2026-10-30",
+      "project": "EF-C26110-C07-20000_C07_20261030_20000",
+      "warehouse_code": "IUSW",
+      "order_or_plan": "C26110",
+      "allocated_at": "2026-10-10T13:41:27+0800"
+    },
+    {
+      "protocol_no": "20261031501",
+      "ship_yyyymmdd": "20261031",
+      "ship_date": "2026-10-31",
+      "project": "EF-C26114-C04-13480_C04_20261031_13480",
+      "warehouse_code": "IUTJ",
+      "order_or_plan": "C26114",
+      "allocated_at": "2026-10-16T14:17:40+0800"
     }
   ],
   "notes": [

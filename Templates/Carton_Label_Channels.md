@@ -69,6 +69,32 @@
 | **确认字段** | **是** | 与计划/总表/SKU 对照；冲突汇报 |
 | 分离 → 合并 → 归纳 | **是** | 形态服务识别与贴标；最终 **一仓一规格一个多页 PDF** |
 
+### 2.1 P-CARTON 完工标准（强制 · 2026-09-21）
+
+| 步骤 | 脚本 | 产出 |
+|------|------|------|
+| 拆页识别 | `10_carton_label_ingest.py --apply` | `_staging` / 页级 `_p####`；**仅半成品** |
+| promote | 拷到 `FBA外箱贴/{渠道}/{仓}/` | 仍可能是散页 |
+| **规格归夹合并** | `17_reorg_carton_by_spec.py --apply` | **完工形态** |
+
+**禁止**：仓根下只剩一堆 `_p0001…` 散页（或单文件整包）就跑 Gate / `13` Final。  
+**C26105/106 教训**：曾扁平 promote → Final 拷出 370/275 散页；须归夹后重导。
+
+**AWD 落盘（已验证 · 对齐 C26100）**
+
+```text
+FBA外箱贴/AWD/{仓}/
+  {颜色}_{尺寸}_{N}条装/
+    AWD_{仓}_{颜色}_{尺寸}_{N}条装_{箱数}箱.pdf   # 一规格一多页（发给工厂）
+  AWD_{仓}_入库贴_{箱数}箱.pdf                   # 入库贴可在仓根
+FBA外箱贴/_flat_pages/{渠道}/{仓}/flat_{时间}/   # 散页，不进贴标包，只供交叉核对
+```
+
+例：`米白_60X102inch_6条装/AWD_IUTJ_米白_60X102inch_6条装_180箱.pdf`  
+FC 仍可用中文长夹名（如 `白色 60X102inches 6pack-9箱`）；原则同为 **一仓一规格一 PDF**。
+
+归夹键优先 **FNSKU ↔ PROJECT/订单行**；页数必须等于该规格计划箱数，否则停等确认。
+
 **页标纠偏（强制落盘 · 已沉淀）**：夹名包规错标、页内出现多种 `126-6`/`126-10` 等时，`08` 识别为 `page_mark_split` 后，必须再跑  
 `Scripts/16_split_mixed_carton_spec_folders.py --apply`：
 
@@ -77,7 +103,7 @@
 3. 原混装夹改名 `.mixed_bak_*`；`13` 导出须跳过该备份  
 4. 然后再导出贴标包  
 
-沉淀键：`confirmed_defaults.carton_label_channels.page_mark_split_must_rewrite_folders`
+沉淀键：`confirmed_defaults.carton_label_channels.page_mark_split_must_rewrite_folders` · `promote_must_reorg_by_spec`
 
 ---
 

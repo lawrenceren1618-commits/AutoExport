@@ -291,6 +291,13 @@ def infer_carton_tree_stats(project: Path) -> dict[str, dict]:
         pages = 0
         inbound_files: list[str] = []
         for pdf in wh_dir.rglob("*.pdf"):
+            rel_parts = pdf.relative_to(wh_dir).parts
+            # 散页备份不在正式仓夹内计数；旧版 .flat_pages_bak_* 若仍在仓下也跳过
+            if any(
+                part.startswith(".") or part.startswith("_") or part.startswith("flat_")
+                for part in rel_parts[:-1]
+            ):
+                continue
             if "入库贴" in pdf.name:
                 inbound_files.append(str(pdf))
                 continue

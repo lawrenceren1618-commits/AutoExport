@@ -1,0 +1,20 @@
+---
+description: 外箱贴必须按仓×规格归夹合并；禁止扁平散页进 Gate/Final
+alwaysApply: true
+---
+
+# 外箱贴规格归夹闸门
+
+权威：`Templates/Carton_Label_Channels.md` §2.1 · `.cursor/rules/shipment-pipeline-order.mdc`（P-CARTON）。
+
+## 强制
+
+1. `10_carton_label_ingest` 拆页 **≠** P-CARTON 完工。  
+2. promote 后必须跑 `Scripts/17_reorg_carton_by_spec.py`（或等价归夹）：**同仓同规格 → 一小夹 + 一多页 PDF**。  
+3. **禁止**仓根只堆 `_p####` 散页就跑 Gate / `13` Final。归夹后散页只放 `FBA外箱贴/_flat_pages/`，不留在正式仓夹，不进贴标包。  
+4. AWD 夹名：`{颜色}_{尺寸}_{N}条装/`（例 `米白_60X102inch_6条装`）。入库贴可留仓根。  
+5. 页数须 = 该规格计划箱数；FNSKU 对不上 → error-confirm-gate 停等。
+
+## 与 16
+
+夹内混规格 / 页标纠偏 → 另用 `16_split_mixed_carton_spec_folders.py --apply`。

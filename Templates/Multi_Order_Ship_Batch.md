@@ -38,7 +38,7 @@
 | **货代下单表** | **`warehouse_code`** 为核心（一仓一文件/一行综合，沿用既有货代规则） | Σ(各订单计划总条数/总箱数) ↔ Σ(分仓条数/箱数)；误差率口径见 [`Amount_Weight_Reconcile.md`](Amount_Weight_Reconcile.md) |
 | **报关** | **仓 + 条数** 为核心（生成与勾稽对齐货代分仓） | 同分仓条数/箱数与订单合计 |
 
-微信贴标包：仍 **仅贴标包**、按物理发货腿合并；命名以主单短码：`{C26080}_{出货日}_微信发送.zip`。见 [`Colleague_Pack_Export.md`](Colleague_Pack_Export.md)。
+微信贴标包：仍 **仅贴标包**、按物理发货腿合并；命名 `{主单短号}_{当批总箱数}箱_外箱贴入库贴.zip`（例 `C26114_290箱_外箱贴入库贴.zip`）。见 [`Colleague_Pack_Export.md`](Colleague_Pack_Export.md)。
 
 ## 3. 标签与 FNSKU
 

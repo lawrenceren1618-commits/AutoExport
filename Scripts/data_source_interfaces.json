@@ -214,7 +214,7 @@
       "task": "merge_same_batch_label_kits_for_wechat",
       "needs": "one zip of all same-order same-ship_date leg 贴标包 (no 完整存档)",
       "obtain": {
-        "local_flow": "Scripts/13_export_output_packs.py --zip → 3_Output_Final/{project}/{order_short}_{ship_date}_微信发送.zip",
+        "local_flow": "Scripts/13_export_output_packs.py --zip → 3_Output_Final/{project}/{order_short}_{cartons}箱_外箱贴入库贴.zip",
         "rules_doc": "Templates/Colleague_Pack_Export.md",
         "note": "WeChat cannot send folders; merge 贴标包 only; 完整存档 stays as folder beside zip"
       },

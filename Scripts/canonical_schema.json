@@ -303,7 +303,7 @@
       "copy_only": true,
       "wechat_send": {
         "required": true,
-        "zip_naming": "{order_short}_{ship_date}_微信发送.zip",
+        "zip_naming": "{order_short}_{cartons}箱_外箱贴入库贴.zip",
         "merge": "all same-batch leg 贴标包 into one zip",
         "exclude": ["完整存档"],
         "script_flag": "--zip (default on)"

@@ -89,6 +89,9 @@ def size_in_path(rel: str, folder: str) -> bool:
     f = folder.lower()
     if f in r:
         return True
+    # 源夹 10条装/6x102 与落盘短码 60x102 是同一尺寸（canonical size_folder_map）
+    if f == "60x102" and "6x102" in r:
+        return True
     # 102 / 60x102
     if f.replace("x", "") and any(tok in r for tok in f.split("x") if len(tok) >= 2):
         if "90" in f:

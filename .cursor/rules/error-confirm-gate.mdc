@@ -25,6 +25,7 @@ alwaysApply: true
 | 报关 | 以**仓 + 条数**为主键；与货代分仓勾稽不一致 |
 | 合同协议号 | 同日多计划/多仓不得重复；须走登记库分配（见 `Templates/Customs_Contract_Protocol_No.md`） |
 | 装箱 | 同品同牌同公司条数/箱/**内外箱**多版本或沉淀库无行（§1.1；以库为准） |
+| 外箱贴落盘 | 仓根仍是 `_p####` 散页、未按规格归夹；或归夹后页数≠计划箱数；FNSKU 抽不出（见 `shipment-pipeline-order` P-CARTON / `Carton_Label_Channels` §2.1） |
 | 其它 | 渠道混腿、页重复、识别 UNKNOWN 等 |
 
 ## 与既有闸门
